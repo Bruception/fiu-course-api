@@ -1,10 +1,10 @@
 const joi = require('joi');
 const app = require('express')();
 
-const logger = require('./logger.js');
+const logger = require('./logger.js')();
 const courseRepo = require('./courseRepo.js')();
 
-app.use(logger());
+app.use(logger);
 
 const querySchema = joi.object({
     subject: joi.string().optional(),
