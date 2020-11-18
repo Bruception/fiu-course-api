@@ -21,7 +21,7 @@ class CourseEncoder(json.JSONEncoder):
             }
         return json.JSONEncoder.default(self, obj)
 
-class Course(json.JSONEncoder):
+class Course:
     def __init__(self, data):
         self.subject, self.code = data.div.h1.text.split()
         self.name = data.div.h2.text
@@ -59,36 +59,36 @@ class CourseParser:
     def join(self):
         self.thread.join()
 
-courseParsers = []
-courses = []
+def parseCourses(min, max):
+    courses = []
+    courseParsers = []
+    for letter in range(ord(min), ord(max) + 1):
+        l = chr(letter)
+        print(f'Starting course parser for letter {l} ...')
+        courseParsers.append(CourseParser(l))
+    for courseParser in courseParsers:
+        courseParser.join()
+        courses.extend(courseParser.courses)
+    output = open('data.json', 'w')
+    output.write('{\n\t\"data\": [\n')
+    print(f'{SEP}\nWriting course data to data.json ...\n{SEP}')
+    isFirst = True
+    for course in courses:
+        if (not isFirst):
+            output.write(',\n')
+        output.write('\t\t')
+        json.dump(course, output, cls=CourseEncoder)
+        isFirst = False
+    output.write("\n\t]\n}")
+    output.close()
+    return courses
 
-start = time.time()
-
-for letter in range(65, 65 + 26) :
-    l = chr(letter)
-    print(f'Starting course parser for letter {l} ...')
-    courseParsers.append(CourseParser(l))
-
-for courseParser in courseParsers:
-    courseParser.join()
-    courses.extend(courseParser.courses)
-
-output = open('data.json', 'w')
-output.write('{\n\t\"data\": [\n')
-print(f'{SEP}\nWriting course data to data.json ...\n{SEP}')
-isFirst = True
-for course in courses:
-    if (not isFirst):
-        output.write(',\n')
-    output.write('\t\t')
-    json.dump(course, output, cls=CourseEncoder)
-    isFirst = False
-output.write("\n\t]\n}")
-output.close()
-
-end = time.time()
 def truncate(number, digits) -> float:
     stepper = 10.0 ** digits
     return math.trunc(stepper * number) / stepper
+
+start = time.time()
+courses = parseCourses('A', 'Z')
+end = time.time()
 
 print(f'Finished parsing {len(courses)} courses in {truncate(end - start, 3)} seconds!')
