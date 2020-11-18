@@ -47,8 +47,8 @@ class CourseParser:
             subjectResponse = requests.get(f'{BASE_URL}{subjectHref}')
             subjectSoup = BeautifulSoup(subjectResponse.text, 'html.parser')
             listOfCourses = subjectSoup.find('fieldset').ul
-            for course in listOfCourses.find_all("a") :
-                courseHref = course.get("href")
+            for course in listOfCourses.find_all('a') :
+                courseHref = course.get('href')
                 courseResponse = requests.get(f'{BASE_URL}{courseHref}')
                 courseSoup = BeautifulSoup(courseResponse.text, 'html.parser')
                 courseData = courseSoup.find('div', id='content')
