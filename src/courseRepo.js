@@ -66,11 +66,12 @@ const queryTemplate = {
     },
 }
 
-module.exports = {
+const courseRepo = {
     init() {
         const fileContents = fs.readFileSync(COURSE_DATA_PATH);
         const { data } = JSON.parse(fileContents);
         this.data = data.sort(courseComparisonFunction);
+        return this;
     },
     queryBy(query) {
         const queryKeys = Object.keys(query).sort((a, b) => {
@@ -82,4 +83,6 @@ module.exports = {
             return search(query[key].toUpperCase(), data, key);
         }, this.data);
     },
-};
+}
+
+module.exports = () => courseRepo.init()
