@@ -1,11 +1,10 @@
 const joi = require('joi');
-const express = require('express');
+const app = require('express')();
 
 const logger = require('./logger.js');
-const courseRepo = require('./courseRepo.js');
+const courseRepo = require('./courseRepo.js')();
 
-courseRepo.init();
-const app = express();
+app.use(logger());
 
 const querySchema = joi.object({
     subject: joi.string().optional(),
@@ -13,8 +12,6 @@ const querySchema = joi.object({
     units: joi.string().optional(),
     isLab: joi.optional(),
 });
-
-app.use(logger());
 
 app.get('/api', (req, res) => {
     const { value, error } = querySchema.validate(req.query);
