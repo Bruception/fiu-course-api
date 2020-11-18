@@ -1,4 +1,7 @@
+const path = require('path');
 const fs = require('fs');
+
+const COURSE_DATA_PATH = path.resolve(__dirname, './data/course-data.json');
 
 const courseComparisonFunction = (a, b) => {
     if (a.subject !== b.subject) {
@@ -65,7 +68,7 @@ const queryTemplate = {
 
 module.exports = {
     init() {
-        const fileContents = fs.readFileSync('./course-data.json');
+        const fileContents = fs.readFileSync(COURSE_DATA_PATH);
         const { data } = JSON.parse(fileContents);
         this.data = data.sort(courseComparisonFunction);
     },
