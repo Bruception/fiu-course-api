@@ -19,10 +19,11 @@ app.use(logger());
 app.get('/api', (req, res) => {
     const { value, error } = querySchema.validate(req.query);
     const results = error ? [] : courseRepo.queryBy(value);
-    return res.status(200).json({
+    const statusCode = error ? 400 : 200;
+    return res.status(statusCode).json({
         total: results.length,
         results,
-        ...(error && { error: error.details[0].message })
+        ...(error && { error: error.details[0].message }),
     });
 });
 
@@ -30,4 +31,4 @@ app.get('*', (_req, res) => {
     res.status(200).send('TODO: API Documentation.');
 });
 
-app.listen(8000, () => console.log('Server started at port 8080!'));
+app.listen(8000, () => console.log('Server started at port 8000!'));
