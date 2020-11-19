@@ -39,3 +39,18 @@ test('courseRepo.queryBy: Query with units "3" returns only data where units sta
     }).map((course) => course.units);
     courseUnits.forEach((units) => expect(units.charAt(0)).toBe('3'));
 });
+
+test('courseRepo.queryBy: Combined query returns only courses matching data.', () => {
+    const courses = courseRepo.queryBy({
+        subject: 'ch',
+        units: '1.00',
+        isLab: '',
+        code: '10',
+    });
+    courses.forEach((course) => {
+        expect(course.subject.startsWith('CH')).toBe(true);
+        expect(course.units).toBe('1.00');
+        expect(course.name.indexOf('Lab')).toBeGreaterThanOrEqual(0);
+        expect(course.code.startsWith('10')).toBe(true);
+    });
+});
