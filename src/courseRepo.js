@@ -78,7 +78,6 @@ const courseRepo = {
             return queryTemplate[a].priority - queryTemplate[b].priority;
         });
         return queryKeys.reduce((data, key) => {
-            console.log(`Querying ${data.length} entries by ${key} for value "${query[key]}" ...`);
             const search = queryTemplate[key].search || defaultSearch;
             return search(query[key].toUpperCase(), data, key);
         }, this.data);
