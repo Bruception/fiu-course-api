@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "test": "jest ./src/test --coverage=true",
+    "test": "jest ./src/test --verbose",
     "dev": "nodemon ./src/app.js",
     "start": "node ./src/app.js"
   },
@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "jest": "^26.6.3",
-    "jest-express": "^1.12.0"
+    "supertest": "^6.0.1"
   }
 }
