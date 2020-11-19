@@ -2,7 +2,6 @@ const request = require('supertest');
 
 const { app, server } = require('../app.js');
 const courseData = require('../data/course-data.json');
-const courseRepo = require('../courseRepo.js')();
 
 describe('app: Testing endpoints.', () => {
     describe('app: Testing /api endpoint.', () => {
