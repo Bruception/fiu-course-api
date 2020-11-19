@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "test": "jest ./src/test",
+    "test": "jest ./src/test --coverage=true",
     "dev": "nodemon ./src/app.js",
     "start": "node ./src/app.js"
   },
