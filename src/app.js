@@ -28,4 +28,5 @@ app.get('*', (_req, res) => {
     res.status(200).send('TODO: API Documentation.');
 });
 
-app.listen(8000, () => console.log('Server started at port 8000!'));
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => console.log(`Server started at port ${PORT}!`));
