@@ -1,10 +1,13 @@
 const joi = require('joi');
-const app = require('express')();
+const express = require('express');
+const app = express();
+const path = require('path');
 
 const { logger, errorHandler } = require('./middleware');
 const courseDataStore = require('./courseDataStore.js')();
 
 app.use(logger());
+app.use('/', express.static(path.resolve(__dirname, './public')))
 
 const stringQuerySchema = joi.alternatives().try(
     joi.string().optional(),
@@ -30,7 +33,7 @@ app.get('/api', (req, res) => {
 });
 
 app.get('*', (_req, res) => {
-    res.status(200).send('TODO: API Documentation.');
+    res.status(302).redirect('/index.html');
 });
 
 app.use(errorHandler);
