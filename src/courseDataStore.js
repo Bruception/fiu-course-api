@@ -40,16 +40,22 @@ const searchRange = (value, data, key) => {
     return [lowerIndex, upperIndex];
 }
 
-const defaultSearch = (value, data, key) => {
-    return data.filter((course) => course[key].startsWith(value));
+const defaultSearch = (values, data, key) => {
+    return values.reduce((accumulatedCourses, value) => {
+        const filteredCourses = data.filter((course) => course[key].startsWith(value));
+        return accumulatedCourses.concat(filteredCourses);
+    }, []);
 }
 
 const queryTemplate = {
     'subject': {
         priority: 0,
-        search: (value, data, _key) => {
-            const [min, max] = searchRange(value, data, 'subject');
-            return data.slice(min, max);
+        search: (values, data, _key) => {
+            return values.reduce((accumulatedCourses, value) => {
+                const [min, max] = searchRange(value, data, 'subject');
+                const coursesInRange = data.slice(min, max);
+                return accumulatedCourses.concat(coursesInRange);
+            }, []);
         },
     },
     'code': {
@@ -57,7 +63,7 @@ const queryTemplate = {
     },
     'isLab': {
         priority: 2,
-        search: (_value, data, _key) => {
+        search: (_values, data, _key) => {
             return data.filter((course) => course.name.indexOf('Lab') !== -1);
         },
     },
@@ -66,11 +72,16 @@ const queryTemplate = {
     },
 }
 
-const courseRepo = {
+const normalizeQueryKey = (queryKey) => {
+    return [].concat(queryKey);
+}
+
+const courseDataStore = {
+    _data: [],
     init() {
         const fileContents = fs.readFileSync(COURSE_DATA_PATH);
         const { data } = JSON.parse(fileContents);
-        this.data = data.sort(courseComparisonFunction);
+        this._data = data.sort(courseComparisonFunction);
         return this;
     },
     queryBy(query) {
@@ -79,9 +90,9 @@ const courseRepo = {
         });
         return queryKeys.reduce((data, key) => {
             const search = queryTemplate[key].search || defaultSearch;
-            return search(query[key].toUpperCase(), data, key);
-        }, this.data);
+            return search(normalizeQueryKey(query[key]), data, key);
+        }, this._data);
     },
 }
 
-module.exports = () => courseRepo.init()
+module.exports = () => courseDataStore.init();

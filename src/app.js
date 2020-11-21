@@ -1,21 +1,26 @@
 const joi = require('joi');
 const app = require('express')();
 
-const logger = require('./logger.js')();
-const courseRepo = require('./courseRepo.js')();
+const { logger, errorHandler } = require('./middleware');
+const courseDataStore = require('./courseDataStore.js')();
 
-app.use(logger);
+app.use(logger());
+
+const stringQuerySchema = joi.alternatives().try(
+    joi.string().optional(),
+    joi.array().items(joi.string()),
+);
 
 const querySchema = joi.object({
-    subject: joi.string().optional(),
-    code: joi.string().optional(),
-    units: joi.string().optional(),
+    subject: stringQuerySchema,
+    code: stringQuerySchema,
+    units: stringQuerySchema,
     isLab: joi.optional(),
 });
 
 app.get('/api', (req, res) => {
     const { value, error } = querySchema.validate(req.query);
-    const results = error ? [] : courseRepo.queryBy(value);
+    const results = error ? [] : courseDataStore.queryBy(value);
     const statusCode = error ? 400 : 200;
     return res.status(statusCode).json({
         total: results.length,
@@ -27,6 +32,8 @@ app.get('/api', (req, res) => {
 app.get('*', (_req, res) => {
     res.status(200).send('TODO: API Documentation.');
 });
+
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 8000;
 const server = app.listen(PORT, () => console.log(`Server started at port ${PORT}!`));
