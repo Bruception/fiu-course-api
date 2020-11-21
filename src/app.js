@@ -6,10 +6,15 @@ const courseRepo = require('./courseRepo.js')();
 
 app.use(logger);
 
+const stringQuerySchema = joi.alternatives().try(
+    joi.string().optional(),
+    joi.array().items(joi.string()),
+);
+
 const querySchema = joi.object({
-    subject: joi.string().optional(),
-    code: joi.string().optional(),
-    units: joi.string().optional(),
+    subject: stringQuerySchema,
+    code: stringQuerySchema,
+    units: stringQuerySchema,
     isLab: joi.optional(),
 });
 
@@ -26,6 +31,13 @@ app.get('/api', (req, res) => {
 
 app.get('*', (_req, res) => {
     res.status(200).send('TODO: API Documentation.');
+});
+
+app.use((error, _req, res, _next) => {
+    console.log(error.stack);
+    res.status(500).json({
+        error: 'Oops something went wrong!',
+    });
 });
 
 const PORT = process.env.PORT || 8000;
