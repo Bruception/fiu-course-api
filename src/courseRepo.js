@@ -40,16 +40,22 @@ const searchRange = (value, data, key) => {
     return [lowerIndex, upperIndex];
 }
 
-const defaultSearch = (value, data, key) => {
-    return data.filter((course) => course[key].startsWith(value));
+const defaultSearch = (values, data, key) => {
+    return values.reduce((accumulatedCourses, value) => {
+        const filteredCourses = data.filter((course) => course[key].startsWith(value));
+        return accumulatedCourses.concat(filteredCourses);
+    }, []);
 }
 
 const queryTemplate = {
     'subject': {
         priority: 0,
-        search: (value, data, _key) => {
-            const [min, max] = searchRange(value, data, 'subject');
-            return data.slice(min, max);
+        search: (values, data, _key) => {
+            return values.reduce((accumulatedCourses, value) => {
+                const [min, max] = searchRange(value, data, 'subject');
+                const coursesInRange = data.slice(min, max);
+                return accumulatedCourses.concat(coursesInRange);
+            }, []);
         },
     },
     'code': {
@@ -57,13 +63,17 @@ const queryTemplate = {
     },
     'isLab': {
         priority: 2,
-        search: (_value, data, _key) => {
+        search: (_values, data, _key) => {
             return data.filter((course) => course.name.indexOf('Lab') !== -1);
         },
     },
     'units': {
         priority: 3,
     },
+}
+
+const normalizeQueryKey = (queryKey) => {
+    return [].concat(queryKey);
 }
 
 const courseRepo = {
@@ -79,7 +89,7 @@ const courseRepo = {
         });
         return queryKeys.reduce((data, key) => {
             const search = queryTemplate[key].search || defaultSearch;
-            return search(query[key].toUpperCase(), data, key);
+            return search(normalizeQueryKey(query[key]), data, key);
         }, this.data);
     },
 }
