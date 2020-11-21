@@ -2,7 +2,7 @@ const joi = require('joi');
 const app = require('express')();
 
 const logger = require('./logger.js')();
-const courseRepo = require('./courseRepo.js')();
+const courseDataStore = require('./courseDataStore.js')();
 
 app.use(logger);
 
@@ -20,7 +20,7 @@ const querySchema = joi.object({
 
 app.get('/api', (req, res) => {
     const { value, error } = querySchema.validate(req.query);
-    const results = error ? [] : courseRepo.queryBy(value);
+    const results = error ? [] : courseDataStore.queryBy(value);
     const statusCode = error ? 400 : 200;
     return res.status(statusCode).json({
         total: results.length,
