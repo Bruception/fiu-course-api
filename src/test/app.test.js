@@ -34,7 +34,7 @@ describe('app: Testing endpoints.', () => {
         });
         test('/: Unknown endpoint redirects to root.', async () => {
             const response = await request(app).get('/unknownendpoint123');
-            expect(response.statusCode).toBe(200);
+            expect(response.statusCode).toBe(302);
         });
     });
     server.close();    

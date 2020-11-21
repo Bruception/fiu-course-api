@@ -72,8 +72,8 @@ const queryTemplate = {
     },
 }
 
-const normalizeQueryKey = (queryKey) => {
-    return [].concat(queryKey);
+const normalizeQueryValue = (queryValue) => {
+    return ([].concat(queryValue)).map((value) => value.toUpperCase());
 }
 
 const courseDataStore = {
@@ -90,7 +90,7 @@ const courseDataStore = {
         });
         return queryKeys.reduce((data, key) => {
             const search = queryTemplate[key].search || defaultSearch;
-            return search(normalizeQueryKey(query[key]), data, key);
+            return search(normalizeQueryValue(query[key]), data, key);
         }, this._data);
     },
 }

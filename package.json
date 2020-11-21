@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "test": "export PORT=8001 ; jest ./src/test --verbose ; unset PORT",
+    "test": "export PORT=8001 ; jest ./src/test --verbose",
     "lint": "./node_modules/.bin/eslint ./src/*.js",
     "fix-lint": "./node_modules/.bin/eslint ./src/*.js --fix",
     "dev": "nodemon ./src/app.js",
