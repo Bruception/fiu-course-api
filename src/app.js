@@ -1,10 +1,10 @@
 const joi = require('joi');
 const app = require('express')();
 
-const logger = require('./logger.js')();
+const { logger, errorHandler } = require('./middleware');
 const courseDataStore = require('./courseDataStore.js')();
 
-app.use(logger);
+app.use(logger());
 
 const stringQuerySchema = joi.alternatives().try(
     joi.string().optional(),
@@ -33,12 +33,7 @@ app.get('*', (_req, res) => {
     res.status(200).send('TODO: API Documentation.');
 });
 
-app.use((error, _req, res, _next) => {
-    console.log(error.stack);
-    res.status(500).json({
-        error: 'Oops something went wrong!',
-    });
-});
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 8000;
 const server = app.listen(PORT, () => console.log(`Server started at port ${PORT}!`));
