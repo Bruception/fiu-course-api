@@ -35,33 +35,24 @@ const getXMLParsableObject = (data) => {
 }
 
 const formatters = {
-    'json': (data) => {
-        return JSON.stringify(getDataShape(data));
-    },
-    'text': (data) => {
-        const buffer = [`results: ${data.length}`];
-        data.forEach((entry) => {
-            const line = [];
-            Object.keys(entry).forEach((key) => {
-                line.push(`${key}: ${entry[key]}`)
-            });
-            buffer.push(line.join(', '));
-        });
-        return buffer.join('\n');
-    },
+    'json': JSON.stringify,
+    'text': (data) => [
+        `total: ${data.total}`,
+        ...data.results.map((entry) => Object.keys(entry)
+            .map((key) => `${key}: ${entry[key]}`)
+            .join(', ')),
+    ].join('\n'),
     'xml': (data) => {
-        const xmlParseableObject = getXMLParsableObject(getDataShape(data));
+        const xmlParseableObject = getXMLParsableObject(data);
         return xml(xmlParseableObject, true);
     },
-    'yaml': (data) => {
-        return yaml.stringify(getDataShape(data));
-    },
+    'yaml': yaml.stringify,
 }
 
 module.exports = {
     SUPPORTED_FORMATS,
     format(data, type) {
         const targetFormatter = formatters[type] || formatters.json;
-        return targetFormatter(data);
+        return targetFormatter(getDataShape(data));
     }
 };
