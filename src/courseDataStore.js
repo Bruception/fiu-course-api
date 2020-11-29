@@ -47,6 +47,8 @@ const defaultSearch = (values, data, key) => {
     }, []);
 }
 
+const ignoredQueries = ['format'];
+
 const queryTemplate = {
     'subject': {
         priority: 0,
@@ -85,7 +87,9 @@ const courseDataStore = {
         return this;
     },
     queryBy(query) {
-        const queryKeys = Object.keys(query).sort((a, b) => {
+        const queryKeys = Object.keys(query)
+        .filter((key) => !ignoredQueries.includes(key))
+        .sort((a, b) => {
             return queryTemplate[a].priority - queryTemplate[b].priority;
         });
         return queryKeys.reduce((data, key) => {
