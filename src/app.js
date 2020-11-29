@@ -4,8 +4,8 @@ const app = express();
 const path = require('path');
 
 const { logger, errorHandler } = require('./middleware');
-const courseDataStore = require('./courseDataStore')();
-const formatService = require('./formatService');
+const courseDataStore = require('./courseDataStore.js')();
+const formatService = require('./formatService.js');
 
 app.use('/', express.static(path.resolve(__dirname, './public')));
 app.use(logger());
