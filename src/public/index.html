@@ -24,6 +24,7 @@
                 <li><span class='highlight'>code</span></li>
                 <li><span class='highlight'>units</span></li>
                 <li><span class='highlight'>isLab</span></li>
+                <li><span class='highlight'>format</span></li>
             </ul>
             <div>
                 <h2>Combined Queries</h2>
@@ -42,7 +43,22 @@
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?subject=AST&subject=COP&isLab</p>
                 <pre id='multi-value-queries-response'></pre>
-            </div>    
+            </div>
+            <div>
+                <h2>Data Format</h2>
+                <p>
+                    You can specify how the returned data is serialized with the <span class='highlight'>format</span> parameter.
+                    Currently this API only supports the following formats:
+                    <ul>
+                        <li>JSON</li>
+                        <li>Text</li>
+                        <li>XML</li>
+                        <li>YAML</li>
+                    </ul>
+                    Here is an example of how you might query your data in YAML.
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?format=yaml</p>
+            </div>
         </div>
         <div>
             <h1>Fun Facts</h1>
