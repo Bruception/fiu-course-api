@@ -5,9 +5,10 @@ const path = require('path');
 
 const { logger, errorHandler } = require('./middleware');
 const courseDataStore = require('./courseDataStore.js')();
+const formatService = require('./formatService.js');
 
+app.use('/', express.static(path.resolve(__dirname, './public')));
 app.use(logger());
-app.use('/', express.static(path.resolve(__dirname, './public')))
 
 const stringQuerySchema = joi.alternatives().try(
     joi.string().optional(),
@@ -19,17 +20,21 @@ const querySchema = joi.object({
     code: stringQuerySchema,
     units: stringQuerySchema,
     isLab: joi.optional(),
+    format: joi.string()
+        .valid(...formatService.SUPPORTED_FORMATS)
+        .optional(),
 });
 
-app.get('/api', (req, res) => {
+app.get('/api', (req, res, next) => {
     const { value, error } = querySchema.validate(req.query);
-    const results = error ? [] : courseDataStore.queryBy(value);
-    const statusCode = error ? 400 : 200;
-    return res.status(statusCode).json({
-        total: results.length,
-        results,
-        ...(error && { error: error.details[0].message }),
-    });
+    if (error) {
+        const invalidError = new Error(error.details[0].message);
+        invalidError.statusCode = 400;
+        return next(invalidError);
+    }
+    const results = courseDataStore.queryBy(value);
+    const formattedData = formatService.format(results, req.query.format);
+    return res.status(200).send(formattedData);
 });
 
 app.get('*', (_req, res) => {
@@ -39,9 +44,11 @@ app.get('*', (_req, res) => {
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 8000;
-const server = app.listen(PORT, () => console.log(`Server started at port ${PORT}!`));
+const server = app.listen(PORT, () => {
+    console.log(`Server started at port ${PORT}!`)
+});
 
 module.exports = {
     app,
     server,
-}
+};

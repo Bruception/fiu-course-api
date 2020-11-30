@@ -15,7 +15,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "joi": "^17.3.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "xml2js": "^0.4.23",
+    "yaml": "^1.10.0"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
