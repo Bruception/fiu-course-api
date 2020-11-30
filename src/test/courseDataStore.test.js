@@ -46,6 +46,7 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             units: '1.00',
             isLab: '',
             code: '10',
+            format: 'xml',
         });
         expect(courses.length).toBeGreaterThan(0);
         courses.forEach((course) => {
