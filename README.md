@@ -1,5 +1,5 @@
 # FIU Course API
-A simple API for querying courses at FIU.
+An API for querying courses at FIU.
 
 # Usage
 The API can be found [here](https://fiu-course-api.herokuapp.com/api).
