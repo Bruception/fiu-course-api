@@ -22,6 +22,7 @@ const querySchema = joi.object({
     isLab: joi.optional(),
     format: joi.string()
         .valid(...formatService.SUPPORTED_FORMATS)
+        .insensitive()
         .optional(),
 });
 
