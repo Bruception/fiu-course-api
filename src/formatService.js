@@ -27,7 +27,8 @@ const formatters = {
 module.exports = {
     SUPPORTED_FORMATS,
     format(data, type) {
-        const targetFormatter = formatters[type] || formatters.json;
+        const targetType = type && type.toLowerCase();
+        const targetFormatter = formatters[targetType] || formatters.json;
         return targetFormatter(getDataShape(data));
     }
 };
