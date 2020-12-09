@@ -5,9 +5,9 @@ const COURSE_DATA_PATH = path.resolve(__dirname, './data/course-data.json');
 
 const courseComparisonFunction = (a, b) => {
     if (a.subject !== b.subject) {
-        return a.subject < b.subject ? -1 : 1;
+        return a.subject.localeCompare(b.subject);
     }
-    return a.code < b.code ? -1 : 1;
+    return a.code.localeCompare(b.code);
 }
 
 const searchBound = (value, data, key, isUpper) => {
