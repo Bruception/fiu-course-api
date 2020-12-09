@@ -38,13 +38,19 @@ app.get('/api', (req, res, next) => {
     return res.status(200).send(formattedData);
 });
 
+app.get('/favicon.ico', (_req, res) => {
+    return res.sendStatus(204);
+});
+
 app.get('*', (_req, res) => {
-    res.status(302).redirect('/index.html');
+    return res.status(302).redirect('/');
 });
 
 app.use(errorHandler);
 
+/* istanbul ignore next */
 const PORT = process.env.PORT || 8000;
+/* istanbul ignore next */
 const server = app.listen(PORT, () => {
     console.log(`Server started at port ${PORT}!`)
 });
