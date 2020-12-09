@@ -33,6 +33,10 @@ describe('app: Testing endpoints.', () => {
             const response = await request(app).get('/unknownendpoint123');
             expect(response.statusCode).toBe(302);
         });
+        test('/: Request for /favicon.ico returns a 204 status code.', async () => {
+            const response = await request(app).get('/favicon.ico');
+            expect(response.statusCode).toBe(204);
+        });
     });
     server.close();    
 });
