@@ -12,8 +12,7 @@ const reset = '\x1b[0m';
 const getStatusColor = (status) => {
   if (status >= 400) return colors.RED;
   if (status >= 300) return colors.CYAN;
-  if (status >= 200) return colors.GREEN;
-  return reset;
+  return colors.GREEN;
 }
 
 const customToken = (request, response) => {
