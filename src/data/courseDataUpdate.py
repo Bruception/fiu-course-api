@@ -3,6 +3,7 @@ import math
 import time
 import requests
 import threading
+import concurrent.futures
 from bs4 import BeautifulSoup
 
 SEP = '*' * 64
@@ -30,6 +31,28 @@ class Course:
         description = courseULS[1].li.find('p')
         self.description = description.text if description else 'N/A'        
 
+def getCourses(courses):
+    def getCourseInfo(course):
+        courseHref = course.get('href')
+        courseResponse = requests.get(f'{BASE_URL}{courseHref}')
+        courseSoup = BeautifulSoup(courseResponse.text, 'html.parser')
+        courseData = courseSoup.find('div', id='content')
+        parsedCourse = Course(courseData)
+        return parsedCourse
+    courseData = []
+    threads = min(30, len(courses))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=threads) as executor:
+        future_to_url = {executor.submit(getCourseInfo, course): course for course in courses}
+        for future in concurrent.futures.as_completed(future_to_url):
+            course = future_to_url[future]
+            try:
+                data = future.result()
+                print(f'Parsed "{data.name}" ...')
+                courseData.append(data)
+            except Exception as exc:
+                print(exc)
+    return courseData
+
 class CourseParser:
     def __init__(self, letter):
         self.letter = letter
@@ -47,14 +70,7 @@ class CourseParser:
             subjectResponse = requests.get(f'{BASE_URL}{subjectHref}')
             subjectSoup = BeautifulSoup(subjectResponse.text, 'html.parser')
             listOfCourses = subjectSoup.find('fieldset').ul
-            for course in listOfCourses.find_all('a') :
-                courseHref = course.get('href')
-                courseResponse = requests.get(f'{BASE_URL}{courseHref}')
-                courseSoup = BeautifulSoup(courseResponse.text, 'html.parser')
-                courseData = courseSoup.find('div', id='content')
-                parsedCourse = Course(courseData)
-                print(f'Parsed "{parsedCourse.name}" ...')
-                self.courses.append(parsedCourse)
+            self.courses.extend(getCourses(listOfCourses.find_all('a')))
 
     def join(self):
         self.thread.join()
