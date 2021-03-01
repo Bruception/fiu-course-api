@@ -10,34 +10,8 @@ const courseComparisonFunction = (a, b) => {
     return a.code.localeCompare(b.code);
 }
 
-const searchBound = (value, data, key, isUpper) => {
-    let left = 0;
-    let right = data.length - 1;
-    let middle = 0;
-    let index = -1;
-    while (left <= right) {
-        middle = (((right - left) / 2) >> 0) + left;
-        const entry = data[middle][key];
-        if (entry.startsWith(value)) {
-            index = middle;
-            if (isUpper) {
-                left = middle + 1;
-            } else {
-                right = middle - 1;
-            }
-        } else if (entry < value) {
-            left = middle + 1;
-        } else {
-            right = middle - 1;
-        }
-    }
-    return index;
-}
-
-const searchRange = (value, data, key) => {
-    const lowerIndex = searchBound(value, data, key, false);
-    const upperIndex = searchBound(value, data, key, true);
-    return [lowerIndex, upperIndex];
+const containsWord = (source, word) => {
+    return source.match(new RegExp(`\\b${word}\\b`, 'u')) !== null;
 }
 
 const defaultSearch = (values, data, key) => {
@@ -52,13 +26,6 @@ const ignoredQueries = ['format'];
 const queryTemplate = {
     'subject': {
         priority: 0,
-        search: (values, data, _key) => {
-            return values.reduce((accumulatedCourses, value) => {
-                const [min, max] = searchRange(value, data, 'subject');
-                const coursesInRange = data.slice(min, max);
-                return accumulatedCourses.concat(coursesInRange);
-            }, []);
-        },
     },
     'code': {
         priority: 1,
@@ -66,7 +33,11 @@ const queryTemplate = {
     'isLab': {
         priority: 2,
         search: (_values, data, _key) => {
-            return data.filter((course) => course.name.indexOf('Lab') !== -1);
+            return data.filter(({ name, code }) => {
+                const lastCharacter = code[code.length - 1];
+                const hasLabIdentifier = lastCharacter === 'L' || lastCharacter === 'C';
+                return containsWord(name, 'Lab') || hasLabIdentifier;
+            });
         },
     },
     'units': {
