@@ -2,6 +2,9 @@ const courseDataStore = require('../courseDataStore.js')();
 const courseData = require('../data/course-data.json');
 
 describe('courseDataStore: Testing the courseDataStore module.', () => {
+    const containsWord = (source, word) => {
+        return source.match(new RegExp(`\\b${word}\\b`, 'u')) != null;
+    }    
     test('courseDataStore.queryBy: Empty query returns entire data.', () => {
         expect(courseDataStore.queryBy({}).length).toBe(courseData.data.length);
     });
@@ -27,11 +30,15 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
         courseCodes.forEach((code) => expect(code).toMatch(/^2/));
     });
     test('courseDataStore.queryBy: Query isLab returns only data where name has Lab.', () => {
-        const courseNames = courseDataStore.queryBy({
+        const courses = courseDataStore.queryBy({
             isLab: '',
-        }).map((course) => course.name);
-        expect(courseNames.length).toBeGreaterThan(0);
-        courseNames.forEach((name) => expect(name).toMatch(/Lab/));
+        });
+        expect(courses.length).toBeGreaterThan(0);
+        courses.forEach(({ name, code }) => {
+            const lastCharacter = code[code.length - 1];
+            const hasLabIdentifier = lastCharacter === 'L' || lastCharacter === 'C';
+            expect(containsWord(name, 'Lab') || hasLabIdentifier).toBeTruthy();
+        });
     });
     test('courseDataStore.queryBy: Query with units "3" returns only data where units starts with 3.', () => {
         const courseUnits = courseDataStore.queryBy({
