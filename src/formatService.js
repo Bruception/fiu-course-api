@@ -3,6 +3,11 @@ const yaml = require('yaml');
 
 const SUPPORTED_FORMATS = ['json', 'text', 'xml', 'yaml'];
 
+const FORMAT_MIME_TYPES = {
+    'json': 'application/json',
+    'xml': 'application/xml',
+}
+
 const getDataShape = (data) => {
     return {
         total: data.length,
@@ -26,9 +31,12 @@ const formatters = {
 
 module.exports = {
     SUPPORTED_FORMATS,
-    format(data, type) {
-        const targetType = type && type.toLowerCase();
-        const targetFormatter = formatters[targetType] || formatters.json;
-        return targetFormatter(getDataShape(data));
-    }
+    format(data, type = 'json') {
+        const targetType = type.toLowerCase();
+        const targetFormatter = formatters[targetType];
+        return {
+            formattedData: targetFormatter(getDataShape(data)),
+            contentType: FORMAT_MIME_TYPES[targetType] || 'text/plain',
+        }
+    },
 };
