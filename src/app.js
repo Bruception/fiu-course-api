@@ -34,7 +34,9 @@ app.get('/api', (req, res, next) => {
         return next(invalidError);
     }
     const results = courseDataStore.queryBy(value);
-    const formattedData = formatService.format(results, req.query.format);
+    console.log(req.query);
+    const { formattedData, contentType } = formatService.format(results, req.query.format);
+    res.setHeader('Content-Type', contentType);
     return res.status(200).send(formattedData);
 });
 
