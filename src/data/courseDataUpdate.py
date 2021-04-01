@@ -43,7 +43,6 @@ def parseData(data, parseFunction, completeFunction):
     with ThreadPoolExecutor(max_workers=50) as executor:
         futureToData = {executor.submit(getParsedData, obj): obj for obj in data}
         for future in as_completed(futureToData):
-            dataObject = futureToData[future]
             try:
                 data = future.result()
                 completeFunction(data, parsedData)

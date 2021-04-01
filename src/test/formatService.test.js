@@ -9,8 +9,9 @@ describe('formatService: Testing the formatService module.', () => {
             subject: 'COP',
             isLab: '',
         });
-        const formatString = formatService.format(courses);
-        expect(JSON.parse(formatString).results).toStrictEqual(courses);
+        const { formattedData, contentType } = formatService.format(courses);
+        expect(JSON.parse(formattedData).results).toStrictEqual(courses);
+        expect(contentType).toStrictEqual('application/json');
     });
     test('formatService.format: Correctly serializes object to JSON.', () => {
         const courses = courseDataStore.queryBy({
@@ -18,25 +19,27 @@ describe('formatService: Testing the formatService module.', () => {
             isLab: '',
             format: 'json',
         });
-        const formatString = formatService.format(courses, 'json');
-        expect(JSON.parse(formatString).results).toStrictEqual(courses);
+        const { formattedData, contentType } = formatService.format(courses, 'json');
+        expect(JSON.parse(formattedData).results).toStrictEqual(courses);
+        expect(contentType).toStrictEqual('application/json');
     });
     test('formatService.format: Correctly serializes object to YAML.', () => {
         const courses = courseDataStore.queryBy({
             subject: 'COP',
             isLab: '',
         });
-        const formatString = formatService.format(courses, 'yaml');
-        expect(yaml.parse(formatString).results).toStrictEqual(courses);
+        const { formattedData, contentType } = formatService.format(courses, 'yaml');
+        expect(yaml.parse(formattedData).results).toStrictEqual(courses);
+        expect(contentType).toStrictEqual('text/plain');
     });
     test('formatService.format: Correctly serializes object to XML.', () => {
         const courses = courseDataStore.queryBy({
             subject: 'COP',
             units: '3.00',
         });
-        const formatString = formatService.format(courses, 'xml');
+        const { formattedData, contentType } = formatService.format(courses, 'xml');
         let parsedCourses;
-        xml2js.parseString(formatString,
+        xml2js.parseString(formattedData,
             {
                 explicitArray: false,
             },
@@ -46,14 +49,17 @@ describe('formatService: Testing the formatService module.', () => {
         );
         expect(courses).toStrictEqual(parsedCourses.results);
         expect(courses.length).toStrictEqual(parseInt(parsedCourses.total));
+        expect(contentType).toStrictEqual('application/xml');
     });
     test('formatService.format: Correctly serializes object to text.', () => {
         const courses = courseDataStore.queryBy({
             subject: 'COP',
             isLab: '',
         });
-        const formatStrings = formatService.format(courses, 'text').split('\n');
+        const { formattedData, contentType } = formatService.format(courses, 'text');
+        const formatStrings = formattedData.split('\n');
         expect(formatStrings[0]).toStrictEqual('total: 1');
         expect(formatStrings[1]).toStrictEqual('subject: COP, code: 2210L, name: Lab for Programming I, units: 0.00, description: Lab component for Computer Programming I Lecture. Corequisite: COP 2210');
+        expect(contentType).toStrictEqual('text/plain');
     });
 });
