@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const words = require('talisman/tokenizers/words');
-const porter = require('talisman/stemmers/porter');
+const lancaster = require('talisman/stemmers/lancaster');
 const metaphone = require('talisman/phonetics/metaphone');
 
 const COURSE_DATA_PATH = path.resolve(__dirname, './data/course-data.json');
@@ -48,18 +48,21 @@ const queryTemplate = {
     'keywords': {
         priority: 4,
         search: (values, data, _key) => {
-            const matchedCourses = new Set();
-            const tokens = words(values).map(porter);
+            const tokens = words(values);
             if (tokens.length > 5) {
                 throw Error('Number of keywords exceeds limit of 5.');
             }
+            let isFirst = true;
+            let matchedCourses = new Set();
             tokens.forEach((token) => {
+                const tokenStem = lancaster(token);
                 const tokenMetaphone = metaphone(token);
-                const courses = courseDataStore._tokenCourseMap[token] ||
-                    courseDataStore._tokenCourseMap[tokenMetaphone] || [];
-                courses.forEach((course) => {
-                    matchedCourses.add(course);
-                });
+                const courses = courseDataStore._tokenCourseMap[tokenStem] ||
+                    courseDataStore._tokenCourseMap[tokenMetaphone] || new Set();
+                matchedCourses = (isFirst)
+                    ? courses
+                    : new Set([...matchedCourses].filter((course) => courses.has(course)));
+                isFirst = false;
             });
             return data.filter(({ subject, code }) => {
                 const courseKey = `${subject}${code}`;
@@ -73,26 +76,27 @@ const normalizeQueryValue = (queryValue) => {
     return ([].concat(queryValue)).map((value) => value.toUpperCase());
 }
 
+const addToken = (token, tokenMap, courseKey) => {
+    if (token.length === 0) {
+        return;
+    }
+    if (!(token in tokenMap)) {
+        tokenMap[token] = new Set();
+    }
+    tokenMap[token].add(courseKey);
+}
+
 const getTokenCourseMap = (courses) => {
     const tokenCourseMap = {};
     courses.forEach((course) => {
-        const tokens = words(course.description).map((word) => {
-            return porter(word.toUpperCase());
-        });
+        const allWords = `${course.name} ${course.description}`;
+        const tokens = words(allWords).map((word) => word.toUpperCase());
         const courseKey = `${course.subject}${course.code}`;
         tokens.forEach((token) => {
-            if (!(token in tokenCourseMap)) {
-                tokenCourseMap[token] = new Set();
-            }
-            tokenCourseMap[token].add(courseKey);
+            const tokenStem = lancaster(token);
             const tokenMetaphone = metaphone(token);
-            if (tokenMetaphone.length === 0) {
-                return;
-            }
-            if (!(tokenMetaphone in tokenCourseMap)) {
-                tokenCourseMap[tokenMetaphone] = new Set();
-            }
-            tokenCourseMap[tokenMetaphone].add(courseKey);
+            addToken(tokenStem, tokenCourseMap, courseKey);
+            addToken(tokenMetaphone, tokenCourseMap, courseKey);
         });
     });
     return tokenCourseMap;
