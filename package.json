@@ -16,6 +16,7 @@
     "express": "^4.17.1",
     "joi": "^17.3.0",
     "morgan": "^1.10.0",
+    "talisman": "^1.1.4",
     "xml2js": "^0.4.23",
     "yaml": "^1.10.0"
   },
@@ -25,14 +26,14 @@
     "nodemon": "^2.0.6",
     "supertest": "^6.0.1"
   },
-  "jest": {  
+  "jest": {
     "coverageThreshold": {
-        "global": {
-          "branches": 100,
-          "functions": 100,
-          "lines": 100,
-          "statements": 100
-        }
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
     }
   }
 }

@@ -85,4 +85,37 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(course.code).toMatch(/^(2|3)/);
         });
     });
+    test('courseDataStore.queryBy: Disallows more than 5 keywords.', () => {
+        const testQuery = () => {
+            return courseDataStore.queryBy({
+                keywords: ['one two three four five six'],
+            });
+        }
+        expect(testQuery).toThrow(Error);
+    });
+    test('courseDataStore.queryBy: Fuzzy matches keyword.', () => {
+        const coursesWithDistribution = courseDataStore.queryBy({
+            keywords: ['distribution'],
+        });
+        const coursesWithDistributed = courseDataStore.queryBy({
+            keywords: ['distributed'],
+        });
+        const coursesWithDistribute = courseDataStore.queryBy({
+            keywords: ['distribute'],
+        });
+        expect(coursesWithDistribution).toEqual(coursesWithDistributed);
+        expect(coursesWithDistributed).toEqual(coursesWithDistribute);
+    });
+    test('courseDataStore.queryBy: Multiple keyword search works.', () => {
+        const courses = courseDataStore.queryBy({
+            keywords: ['electricity magnets theory'],
+        });
+        expect(courses.length).toBeGreaterThan(0);
+    });
+    test('courseDataStore.queryBy: Unknown keyword returns no courses.', () => {
+        const courses = courseDataStore.queryBy({
+            keywords: ['😋'],
+        });
+        expect(courses.length).toBe(0);
+    });
 });

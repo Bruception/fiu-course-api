@@ -75,6 +75,9 @@ const queryTemplate = {
     'multi-value-queries-response': {
         query: 'subject=AST&subject=COP&isLab',
     },
+    'keywords-sample-query': {
+        query: 'keywords=electric theory magnets'
+    },
     'course-offerings': {
         query: '',
         action: (data) => data.results.length,

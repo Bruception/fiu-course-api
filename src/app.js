@@ -19,6 +19,7 @@ const querySchema = joi.object({
     subject: stringQuerySchema,
     code: stringQuerySchema,
     units: stringQuerySchema,
+    keywords: joi.string().optional(),
     isLab: joi.optional(),
     format: joi.string()
         .valid(...formatService.SUPPORTED_FORMATS)

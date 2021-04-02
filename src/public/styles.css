@@ -23,7 +23,7 @@ h1, h2 {
     border-bottom: solid 2px #23374d;
 }
 
-#sample-response, #combined-queries-response, #multi-value-queries-response {
+.sample-query {
     border: #eee solid 1px;
     color: #eee;
     background-color: #23374d;
