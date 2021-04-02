@@ -106,6 +106,12 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
         expect(coursesWithDistribution).toEqual(coursesWithDistributed);
         expect(coursesWithDistributed).toEqual(coursesWithDistribute);
     });
+    test('courseDataStore.queryBy: Multiple keyword search works.', () => {
+        const courses = courseDataStore.queryBy({
+            keywords: ['electricity magnets theory'],
+        });
+        expect(courses.length).toBeGreaterThan(0);
+    });
     test('courseDataStore.queryBy: Unknown keyword returns no courses.', () => {
         const courses = courseDataStore.queryBy({
             keywords: ['😋'],
