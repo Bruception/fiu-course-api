@@ -12,7 +12,7 @@
             <h1>Sample</h1>
             <p>Try changing the <span class='highlight'>subject</span> value below!</p>
             <p class='request'><span class='highlight'>GET</span> /api?subject=<input id='sample-subject-query' value='COP' maxlength='3'></p>
-            <pre id='sample-response'></pre>
+            <pre id='sample-response' class='sample-query'></pre>
         </div>
         <div>
             <h1>Documentation</h1>
@@ -24,6 +24,7 @@
                 <li><span class='highlight'>code</span></li>
                 <li><span class='highlight'>units</span></li>
                 <li><span class='highlight'>isLab</span></li>
+                <li><span class='highlight'>keywords</span></li>
                 <li><span class='highlight'>format</span></li>
             </ul>
             <div>
@@ -33,7 +34,7 @@
                     Here is an example of how you might query for this.    
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?subject=J&code=1&units=5</p>
-                <pre id='combined-queries-response'></pre>
+                <pre id='combined-queries-response' class='sample-query'></pre>
             </div>
             <div>
                 <h2>Multi-value Queries</h2>
@@ -42,7 +43,7 @@
                     Here is an example of how you might query for this.    
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?subject=AST&subject=COP&isLab</p>
-                <pre id='multi-value-queries-response'></pre>
+                <pre id='multi-value-queries-response' class='sample-query'></pre>
             </div>
             <div>
                 <h2>Data Format</h2>
@@ -58,6 +59,17 @@
                     Here is an example of how you might query your data in YAML.
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?format=yaml</p>
+            </div>
+            <div>
+                <h2>Keyword Search</h2>
+                <p>
+                    You can fuzzy search for courses by their name and description with the <span class='highlight'>keywords</span> parameter.
+                    The keywords parameter is a string where the words are space-delimited.
+                    This API will <span class='highlight'>reject</span> any string with more than <span class='highlight'>5</span> keywords.
+                    Here is an example of a query using the keywords parameter:
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?keywords=electric theories magnets</p>
+                <pre id='keywords-sample-query' class='sample-query'></pre>
             </div>
         </div>
         <div>
