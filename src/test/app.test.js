@@ -1,6 +1,6 @@
 const request = require('supertest');
 
-const { app, server } = require('../app.js');
+const { app, server } = require('../app');
 const courseData = require('../data/course-data.json');
 
 describe('app: Testing endpoints.', () => {

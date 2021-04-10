@@ -1,7 +1,7 @@
 const xml2js = require('xml2js');
 const yaml = require('yaml');
-const courseDataStore = require('../courseDataStore.js')();
-const formatService = require('../formatService.js');
+const courseDataStore = require('../courseDataStore');
+const formatService = require('../formatService');
 
 describe('formatService: Testing the formatService module.', () => {
     test('formatService.format: Correctly serializes object to JSON when no format is specified.', () => {
