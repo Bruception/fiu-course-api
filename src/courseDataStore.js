@@ -1,10 +1,32 @@
 const fs = require('fs');
+const joi = require('joi');
 const path = require('path');
+const utils = require('./utils');
 const words = require('talisman/tokenizers/words');
 const lancaster = require('talisman/stemmers/lancaster');
 const metaphone = require('talisman/phonetics/metaphone');
+const { SUPPORTED_FORMATS } = require('./formatService');
 
 const COURSE_DATA_PATH = path.resolve(__dirname, './data/course-data.json');
+
+const STRING_QUERY_SCHEMA = joi.alternatives().try(
+    joi.string(),
+    joi.array().items(joi.string()),
+).optional();
+
+const QUERY_SCHEMA = joi.object({
+    subject: STRING_QUERY_SCHEMA,
+    code: STRING_QUERY_SCHEMA,
+    units: STRING_QUERY_SCHEMA,
+    keywords: joi.string().optional(),
+    isLab: joi.optional(),
+    format: joi.string()
+        .valid(...SUPPORTED_FORMATS)
+        .insensitive()
+        .optional(),
+    excludes: joi.string().optional(),
+});
+
 const IGNORED_QUERIES = ['format'];
 
 const courseComparisonFunction = (a, b) => {
@@ -14,11 +36,7 @@ const courseComparisonFunction = (a, b) => {
     return a.code.localeCompare(b.code);
 }
 
-const containsWord = (source, word) => {
-    return source.match(new RegExp(`\\b${word}\\b`, 'u')) !== null;
-}
-
-const defaultSearch = (values, data, key) => {
+const defaultFilter = (values, data, key) => {
     return values.reduce((accumulatedCourses, value) => {
         const filteredCourses = data.filter((course) => course[key].startsWith(value));
         return accumulatedCourses.concat(filteredCourses);
@@ -32,25 +50,25 @@ const queryTemplate = {
     'code': {
         priority: 1,
     },
-    'isLab': {
+    'units': {
         priority: 2,
-        search: (_values, data, _key) => {
+    },
+    'isLab': {
+        priority: 3,
+        filter: (_values, data, _key) => {
             return data.filter(({ name, code }) => {
                 const lastCharacter = code[code.length - 1];
                 const hasLabIdentifier = lastCharacter === 'L' || lastCharacter === 'C';
-                return containsWord(name, 'Lab') || hasLabIdentifier;
+                return utils.containsWord(name, 'Lab') || hasLabIdentifier;
             });
         },
     },
-    'units': {
-        priority: 3,
-    },
     'keywords': {
         priority: 4,
-        search: (values, data, _key) => {
+        filter: (values, data, _key) => {
             const tokens = words(values);
             if (tokens.length > 5) {
-                throw Error('Number of keywords exceeds limit of 5.');
+                throw utils.error('Number of keywords exceeds limit of 5.', 400);
             }
             let isFirst = true;
             let matchedCourses = new Set();
@@ -70,7 +88,14 @@ const queryTemplate = {
             });
         },
     },
-}
+    'excludes': {
+        priority: Number.MAX_SAFE_INTEGER,
+        filter: (values, data, _key) => {
+            const normalizedValues = words(values.map((value) => value.toLowerCase()));
+            return data.map((course) => utils.omit(course, normalizedValues)).filter((course) => course);
+        },
+    },
+};
 
 const normalizeQueryValue = (queryValue) => {
     return ([].concat(queryValue)).map((value) => value.toUpperCase());
@@ -108,21 +133,27 @@ const courseDataStore = {
     init() {
         const fileContents = fs.readFileSync(COURSE_DATA_PATH);
         const { data } = JSON.parse(fileContents);
-        this._data = data.sort(courseComparisonFunction);
+        this._data = data.sort(courseComparisonFunction).map(Object.freeze);
         this._tokenCourseMap = getTokenCourseMap(this._data);
         return this;
     },
     queryBy(query) {
-        const queryKeys = Object.keys(query)
+        const { value, error } = QUERY_SCHEMA.validate(query);
+        if (error) {
+            throw utils.error(error.details[0].message, 400);
+        }
+        const queryKeys = Object.keys(value)
         .filter((key) => !IGNORED_QUERIES.includes(key))
         .sort((a, b) => {
             return queryTemplate[a].priority - queryTemplate[b].priority;
         });
         return queryKeys.reduce((data, key) => {
-            const search = queryTemplate[key].search || defaultSearch;
-            return search(normalizeQueryValue(query[key]), data, key);
+            const filter = queryTemplate[key].filter || defaultFilter;
+            return filter(normalizeQueryValue(query[key]), data, key);
         }, this._data);
     },
-}
+}.init();
 
-module.exports = () => courseDataStore.init();
+module.exports = {
+    queryBy: courseDataStore.queryBy.bind(courseDataStore),
+};
