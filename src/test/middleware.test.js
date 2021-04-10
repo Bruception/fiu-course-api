@@ -19,7 +19,7 @@ describe('middleware: Test middleware functionality.', () => {
     test('middleware.errorHandler: Error handler correctly sets default response status and body.', () => {
         const mockError = {
             stack: 'Mock error stack trace.',
-        }
+        };
         const mockResponse = getMockResponse();
         const responseStatusSpy = jest.spyOn(mockResponse, 'status');
         const responseBodySpy = jest.spyOn(mockResponse, 'json');
@@ -33,8 +33,8 @@ describe('middleware: Test middleware functionality.', () => {
         const mockError = {
             stack: 'Mock error stack trace.',
             statusCode: 404,
-            message: 'Error!',
-        }
+            message: 'Private Error!',
+        };
         const mockResponse = getMockResponse();
         const responseStatusSpy = jest.spyOn(mockResponse, 'status');
         const responseBodySpy = jest.spyOn(mockResponse, 'json');
@@ -42,6 +42,21 @@ describe('middleware: Test middleware functionality.', () => {
         expect(responseStatusSpy).toHaveBeenCalledTimes(1);
         expect(responseBodySpy).toHaveBeenCalledTimes(1);
         expect(mockResponse.statusCode).toBe(404);
-        expect(mockResponse.body.error).toBe('Error!');
+        expect(mockResponse.body.error).toBe('Oops! Something went wrong.');
+    });
+    test('middleware.errorHandler: Error sets details for request errors.', () => {
+        const mockError = {
+            stack: 'Mock error stack trace.',
+            statusCode: 400,
+            message: 'Request Error!',
+        };
+        const mockResponse = getMockResponse();
+        const responseStatusSpy = jest.spyOn(mockResponse, 'status');
+        const responseBodySpy = jest.spyOn(mockResponse, 'json');
+        errorHandler(mockError, {}, mockResponse);
+        expect(responseStatusSpy).toHaveBeenCalledTimes(1);
+        expect(responseBodySpy).toHaveBeenCalledTimes(1);
+        expect(mockResponse.statusCode).toBe(400);
+        expect(mockResponse.body.error).toBe('Request Error!');
     });
 });
