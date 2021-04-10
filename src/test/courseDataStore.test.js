@@ -1,4 +1,4 @@
-const courseDataStore = require('../courseDataStore.js')();
+const courseDataStore = require('../courseDataStore');
 const courseData = require('../data/course-data.json');
 
 describe('courseDataStore: Testing the courseDataStore module.', () => {
@@ -88,34 +88,52 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
     test('courseDataStore.queryBy: Disallows more than 5 keywords.', () => {
         const testQuery = () => {
             return courseDataStore.queryBy({
-                keywords: ['one two three four five six'],
+                keywords: 'one two three four five six',
             });
         }
         expect(testQuery).toThrow(Error);
     });
     test('courseDataStore.queryBy: Fuzzy matches keyword.', () => {
         const coursesWithDistribution = courseDataStore.queryBy({
-            keywords: ['distribution'],
+            keywords: 'distribution',
         });
         const coursesWithDistributed = courseDataStore.queryBy({
-            keywords: ['distributed'],
+            keywords: 'distributed',
         });
         const coursesWithDistribute = courseDataStore.queryBy({
-            keywords: ['distribute'],
+            keywords: 'distribute',
         });
         expect(coursesWithDistribution).toEqual(coursesWithDistributed);
         expect(coursesWithDistributed).toEqual(coursesWithDistribute);
     });
     test('courseDataStore.queryBy: Multiple keyword search works.', () => {
         const courses = courseDataStore.queryBy({
-            keywords: ['electricity magnets theory'],
+            keywords: 'electricity magnets theory',
         });
         expect(courses.length).toBeGreaterThan(0);
     });
     test('courseDataStore.queryBy: Unknown keyword returns no courses.', () => {
         const courses = courseDataStore.queryBy({
-            keywords: ['😋'],
+            keywords: '😋',
         });
         expect(courses.length).toBe(0);
+    });
+    test('courseDataStore.queryBy: correctly excludes single property.', () => {
+        const courses = courseDataStore.queryBy({
+            excludes: 'description',
+        });
+        const includedProperties = ['subject', 'code', 'name', 'units'];
+        courses.forEach((course) => {
+            expect(Object.keys(course)).toEqual(includedProperties);
+        });
+    });
+    test('courseDataStore.queryBy: correctly excludes multiple properties.', () => {
+        const courses = courseDataStore.queryBy({
+            excludes: 'description units name',
+        });
+        const includedProperties = ['subject', 'code'];
+        courses.forEach((course) => {
+            expect(Object.keys(course)).toEqual(includedProperties);
+        });
     });
 });
