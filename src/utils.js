@@ -9,7 +9,8 @@ exports.error = (message, statusCode = 500) => {
 }
 
 exports.omit = (object, keys) => {
+    const keysSet = new Set(keys);
     return Object.fromEntries(Object.entries(object).filter(([key]) => {
-        return !keys.includes(key);
+        return !keysSet.has(key);
     }));
 }
