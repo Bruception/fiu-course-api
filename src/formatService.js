@@ -6,7 +6,7 @@ const SUPPORTED_FORMATS = ['json', 'text', 'xml', 'yaml'];
 const FORMAT_MIME_TYPES = {
     'json': 'application/json',
     'xml': 'application/xml',
-}
+};
 
 const getDataShape = (data) => {
     return {
@@ -27,7 +27,7 @@ const formatters = {
         return new xml2js.Builder().buildObject(data);
     },
     'yaml': yaml.stringify,
-}
+};
 
 module.exports = {
     SUPPORTED_FORMATS,
