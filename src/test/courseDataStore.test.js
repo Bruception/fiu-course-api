@@ -118,7 +118,7 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
         });
         expect(courses.length).toBe(0);
     });
-    test('courseDataStore.queryBy: correctly excludes single property.', () => {
+    test('courseDataStore.queryBy: Correctly excludes single property.', () => {
         const courses = courseDataStore.queryBy({
             excludes: 'description',
         });
@@ -127,7 +127,7 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(Object.keys(course)).toEqual(includedProperties);
         });
     });
-    test('courseDataStore.queryBy: correctly excludes multiple properties.', () => {
+    test('courseDataStore.queryBy: Correctly excludes multiple properties.', () => {
         const courses = courseDataStore.queryBy({
             excludes: 'description units name',
         });
@@ -135,5 +135,28 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
         courses.forEach((course) => {
             expect(Object.keys(course)).toEqual(includedProperties);
         });
+    });
+    test('courseDataStore.queryBy: Correctly excludes all properties with kleene star.', () => {
+        const courses = courseDataStore.queryBy({
+            excludes: '*',
+        });
+        const includedProperties = [];
+        courses.forEach((course) => {
+            expect(Object.keys(course)).toEqual(includedProperties);
+        });
+    });
+    test('courseDataStore.queryBy: Correctly limits data.', () => {
+        const courses = courseDataStore.queryBy({
+            limit: '10',
+        });
+        expect(courses.length).toBeLessThanOrEqual(10);
+    });
+    test('courseDataStore.queryBy: Correctly handles invalud limits.', () => {
+        const testQuery = () => {
+            return courseDataStore.queryBy({
+                limit: -10,
+            });
+        }
+        expect(testQuery).toThrow(Error);
     });
 });
