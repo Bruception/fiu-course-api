@@ -1,5 +1,5 @@
-const logger = require('./logger.js');
-const errorHandler = require('./errorHandler.js');
+const logger = require('./logger');
+const errorHandler = require('./errorHandler');
 
 module.exports = {
     logger,

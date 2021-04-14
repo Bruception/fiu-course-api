@@ -11,16 +11,14 @@ h1, h2 {
 }
 
 #sample-subject-query {
-    color: inherit;
-    font: inherit;
-    border: 0;
-    outline: none;
-    font-weight: bold;
-}
-
-#sample-subject-query::first-line {
     color: #1089ff;
+    caret-color: #23374d;
+    font: inherit;
+    font-weight: bold;
+    border: 0;
     border-bottom: solid 2px #23374d;
+    max-width: 4rem;
+    outline: none;
 }
 
 .sample-query {

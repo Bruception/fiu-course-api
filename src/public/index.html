@@ -26,6 +26,7 @@
                 <li><span class='highlight'>isLab</span></li>
                 <li><span class='highlight'>keywords</span></li>
                 <li><span class='highlight'>format</span></li>
+                <li><span class='highlight'>excludes</span></li>
             </ul>
             <div>
                 <h2>Combined Queries</h2>
@@ -70,6 +71,16 @@
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?keywords=electric theories magnets</p>
                 <pre id='keywords-sample-query' class='sample-query'></pre>
+            </div>
+            <div>
+                <h2>Excluding Data</h2>
+                <p>
+                    You can exclude any unnecessary data using the <span class='highlight'>excludes</span> parameter.
+                    The excludes parameter is a string where the unnecessary fields are space-delimited.
+                    Here is an example of a query using the excludes parameter:
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=SPN&excludes=subject code units description</p>
+                <pre id='excludes-sample-query' class='sample-query'></pre>
             </div>
         </div>
         <div>
