@@ -11,7 +11,7 @@ const FORMAT_MIME_TYPES = {
 const getDataShape = (data) => {
     return {
         total: data.length,
-        results: data,
+        results: data.filter((value) => Object.keys(value).length !== 0),
     };
 }
 
