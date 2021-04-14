@@ -10,8 +10,9 @@ app.use('/', express.static(path.resolve(__dirname, './public')));
 app.use(logger());
 
 app.get('/api', (req, res) => {
-    const results = courseDataStore.queryBy(req.query);
-    const { formattedData, contentType } = formatService.format(results, req.query.format);
+    const { query } = req;
+    const results = courseDataStore.queryBy(query);
+    const { formattedData, contentType } = formatService.format(results, query.format);
     res.setHeader('Content-Type', contentType);
     return res.status(200).send(formattedData);
 });
