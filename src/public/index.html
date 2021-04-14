@@ -27,6 +27,7 @@
                 <li><span class='highlight'>keywords</span></li>
                 <li><span class='highlight'>format</span></li>
                 <li><span class='highlight'>excludes</span></li>
+                <li><span class='highlight'>limit</span></li>
             </ul>
             <div>
                 <h2>Combined Queries</h2>
@@ -77,10 +78,21 @@
                 <p>
                     You can exclude any unnecessary data using the <span class='highlight'>excludes</span> parameter.
                     The excludes parameter is a string where the unnecessary fields are space-delimited.
+                    You can exclude <span class='highlight'>all</span> properties using <span class='highlight'>*</span>.
                     Here is an example of a query using the excludes parameter:
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?subject=SPN&excludes=subject code units description</p>
                 <pre id='excludes-sample-query' class='sample-query'></pre>
+            </div>
+            <div>
+                <h2>Limiting Results</h2>
+                <p>
+                    You can limit the number of results with the <span class='highlight'>limit</span> parameter.
+                    The limit parameter should be a positive safe integer.
+                    Here is an example of a query using the limit parameter:
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=3</p>
+                <pre id='limit-sample-query' class='sample-query'></pre>
             </div>
         </div>
         <div>
