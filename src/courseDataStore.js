@@ -25,16 +25,11 @@ const QUERY_SCHEMA = joi.object({
         .insensitive()
         .optional(),
     excludes: joi.string().optional(),
+    limit: joi.number().positive().optional(),
 });
 
 const IGNORED_QUERIES = ['format'];
-
-const courseComparisonFunction = (a, b) => {
-    if (a.subject !== b.subject) {
-        return a.subject.localeCompare(b.subject);
-    }
-    return a.code.localeCompare(b.code);
-}
+const COURSE_PROPERTIES = ['subject', 'code', 'name', 'units', 'description'];
 
 const defaultFilter = (values, data, key) => {
     return values.reduce((accumulatedCourses, value) => {
@@ -88,17 +83,26 @@ const queryTemplate = {
             });
         },
     },
+    'limit': {
+        priority: 5,
+        filter: (values, data, _key) => {
+            const [max] = values;
+            return data.slice(0, max);
+        },
+    },
     'excludes': {
         priority: Number.MAX_SAFE_INTEGER,
         filter: (values, data, _key) => {
-            const normalizedValues = words(values.map((value) => value.toLowerCase()));
-            return data.map((course) => utils.omit(course, normalizedValues)).filter((course) => course);
+            const normalizedValues = values.includes('*')
+                ? COURSE_PROPERTIES
+                : words(values.map((value) => value.toLowerCase()));
+            return data.map((course) => utils.omit(course, normalizedValues));
         },
     },
 };
 
 const normalizeQueryValue = (queryValue) => {
-    return ([].concat(queryValue)).map((value) => value.toUpperCase());
+    return ([].concat(queryValue)).map((value) => parseInt(value, 10) || value.toUpperCase());
 }
 
 const addToken = (token, tokenMap, courseKey) => {
@@ -133,7 +137,7 @@ const courseDataStore = {
     init() {
         const fileContents = fs.readFileSync(COURSE_DATA_PATH);
         const { data } = JSON.parse(fileContents);
-        this._data = data.sort(courseComparisonFunction).map(Object.freeze);
+        this._data = data.map(Object.freeze);
         this._tokenCourseMap = getTokenCourseMap(this._data);
         return this;
     },

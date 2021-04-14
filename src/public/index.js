@@ -82,15 +82,18 @@ const queryTemplate = {
         query: 'keywords=electric theory magnets'
     },
     'excludes-sample-query': {
-        query: 'subject=SPN&excludes=subject code units description'
+        query: 'subject=SPN&excludes=subject code units description',
+    },
+    'limit-sample-query': {
+        query: 'subject=CHM&limit=3',
     },
     'course-offerings': {
-        query: 'excludes=subject code units description',
-        action: (data) => data.results.length,
+        query: 'excludes=*',
+        action: (data) => data.total,
     },
     'zero-unit-courses': {
-        query: 'units=0.00&excludes=subject code units description',
-        action: (data) => data.results.length,
+        query: 'units=0.00&excludes=*',
+        action: (data) => data.total,
     },
 }
 
