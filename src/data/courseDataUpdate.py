@@ -50,12 +50,15 @@ def parseData(data, parseFunction, completeFunction):
                 print(exception)
     return parsedData
 
+def courseKey(course):
+    return course['subject'] + course['code']
+
 def writeCoursesToJSON():
     response = requests.get(SUBJECT_URL)
     soup = BeautifulSoup(response.text, 'html.parser')
     subjectURLS = soup.find('fieldset').ul.find_all('a')
     courseURLS = parseData(subjectURLS, getParsedSubject, extendCourseURLS)
-    parsedCourses = parseData(courseURLS, getParsedCourse, appendCourseData)
+    parsedCourses = sorted(parseData(courseURLS, getParsedCourse, appendCourseData), key=courseKey)
     print(f'{SEP}\nWriting course data to data.json ...\n{SEP}')
     with open('data.json', 'w') as output:
         json.dump({'data': parsedCourses}, output, default=lambda o: o.__dict__, indent=4)
