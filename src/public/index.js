@@ -25,6 +25,9 @@ const truncateData = (data) => {
     const oldSize = data.results.length;
     data.results = data.results.slice(0, 3);
     data.results.forEach((course) => {
+        if (!course.description) {
+            return;
+        }
         course.description = `${course.description.substring(0, 60)} ...`;
     });
     const dataString = jsonStyleReplacement.reduce((str, replacement) => {
@@ -58,9 +61,9 @@ const queryAPI = async (targetID, query, action) => {
     target.innerHTML = action(data);
 }
   
-const queryKeyUp = ({ target: { value } }) => {
+const queryKeyUp = async ({ target: { value } }) => {
     if (value === '' || value.indexOf('&') !== -1) return;
-    queryAPI('sample-response', `subject=${value}`, truncateData);
+    await queryAPI('sample-response', `subject=${value}`, truncateData);
 }
 
 sampleQuery.addEventListener('keyup', debounce(queryKeyUp));
@@ -78,12 +81,15 @@ const queryTemplate = {
     'keywords-sample-query': {
         query: 'keywords=electric theory magnets'
     },
+    'excludes-sample-query': {
+        query: 'subject=SPN&excludes=subject code units description'
+    },
     'course-offerings': {
-        query: '',
+        query: 'excludes=subject code units description',
         action: (data) => data.results.length,
     },
     'zero-unit-courses': {
-        query: 'units=0.00',
+        query: 'units=0.00&excludes=subject code units description',
         action: (data) => data.results.length,
     },
 }
