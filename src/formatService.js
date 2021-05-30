@@ -1,28 +1,47 @@
-const xml2js = require('xml2js');
+const joi = require('joi');
 const yaml = require('yaml');
+const utils = require('./utils');
+const xml2js = require('xml2js');
 
 const SUPPORTED_FORMATS = ['json', 'text', 'xml', 'yaml'];
+
+const OPTIONS_SCHEMA = joi.object({
+    format: joi.string()
+        .valid(...SUPPORTED_FORMATS)
+        .insensitive()
+        .optional(),
+    shapeFunction: joi.function()
+        .arity(1)
+        .optional(),
+});
 
 const FORMAT_MIME_TYPES = {
     'json': 'application/json',
     'xml': 'application/xml',
 };
 
-const getDataShape = (data) => {
-    return {
-        total: data.length,
-        results: data.filter((value) => Object.keys(value).length !== 0),
-    };
+const DEFAULT_OPTIONS = {
+    format: 'json',
+    shapeFunction: (data) => data,
+}
+
+const textFormatter = (data) => {
+    if (Array.isArray(data)) {
+        return `\n${data.map((entry) => {
+            return `${textFormatter(entry)}`
+        }).join('\n')}`;
+    }
+    if (typeof data !== 'object') {
+        return data;
+    }
+    return Object.keys(data).map((key) => {
+        return `${key}: ${textFormatter(data[key])}`
+    }).join('\n');
 }
 
 const formatters = {
     'json': JSON.stringify,
-    'text': (data) => [
-        `total: ${data.total}`,
-        ...data.results.map((entry) => Object.keys(entry)
-            .map((key) => `${key}: ${entry[key]}`)
-            .join(', ')),
-    ].join('\n'),
+    'text': textFormatter,
     'xml': (data) => {
         return new xml2js.Builder().buildObject(data);
     },
@@ -30,12 +49,16 @@ const formatters = {
 };
 
 module.exports = {
-    SUPPORTED_FORMATS,
-    format(data, type = 'json') {
-        const targetType = type.toLowerCase();
+    format(data, options = DEFAULT_OPTIONS) {
+        const validatedOptions = utils.validate(OPTIONS_SCHEMA, options);
+        const {
+            format = DEFAULT_OPTIONS.format,
+            shapeFunction = DEFAULT_OPTIONS.shapeFunction
+        } = validatedOptions;
+        const targetType = format.toLowerCase();
         const targetFormatter = formatters[targetType];
         return {
-            formattedData: targetFormatter(getDataShape(data)),
+            formattedData: targetFormatter(shapeFunction(data)),
             contentType: FORMAT_MIME_TYPES[targetType] || 'text/plain',
         }
     },
