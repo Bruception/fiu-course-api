@@ -1,5 +1,7 @@
 const request = require('supertest');
 
+const yaml = require('yaml');
+const { version } = require('../../package.json');
 const { app, server } = require('../app');
 const courseData = require('../data/course-data.json');
 
@@ -36,6 +38,26 @@ describe('app: Testing endpoints.', () => {
         test('/: Request for /favicon.ico returns a 204 status code.', async () => {
             const response = await request(app).get('/favicon.ico');
             expect(response.statusCode).toBe(204);
+        });
+    });
+    describe('app: Testing /status endpoint', () => {
+        test('/status: Queryless request returns json data.', async () => {
+            const { statusCode, headers, text } = await request(app).get('/status');
+            expect(statusCode).toBe(200);
+            expect(headers['content-type']).toBe('application/json; charset=utf-8');
+            const { version: appVersion, status, uptime } = JSON.parse(text);
+            expect(appVersion).toBe(version);
+            expect(status).toBe('ok');
+            expect(uptime.toString()).toMatch(/^\d+$/);
+        });
+        test('/status: Query with format parameter correctly formats data.', async () => {
+            const { statusCode, headers, text } = await request(app).get('/status?format=yaml');
+            expect(statusCode).toBe(200);
+            expect(headers['content-type']).toBe('text/plain; charset=utf-8');
+            const { version: appVersion, status, uptime } = yaml.parse(text);
+            expect(appVersion).toBe(version);
+            expect(status).toBe('ok');
+            expect(uptime.toString()).toMatch(/^\d+$/);
         });
     });
     server.close();    
