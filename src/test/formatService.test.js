@@ -8,7 +8,7 @@ describe('formatService: Testing the formatService module.', () => {
         const courses = courseDataStore.queryBy({
             subject: 'COP',
         });
-        const { formattedData, contentType } = formatService.format(courses);
+        const { formattedData, contentType } = formatService.format(courses, courseDataStore.formatOptions);
         expect(JSON.parse(formattedData).results).toStrictEqual(courses);
         expect(contentType).toStrictEqual('application/json');
     });
@@ -17,7 +17,10 @@ describe('formatService: Testing the formatService module.', () => {
             subject: 'COP',
             format: 'json',
         });
-        const { formattedData, contentType } = formatService.format(courses, 'json');
+        const { formattedData, contentType } = formatService.format(courses, {
+            format: 'json',
+            ...courseDataStore.formatOptions,
+        });
         expect(JSON.parse(formattedData).results).toStrictEqual(courses);
         expect(contentType).toStrictEqual('application/json');
     });
@@ -25,7 +28,10 @@ describe('formatService: Testing the formatService module.', () => {
         const courses = courseDataStore.queryBy({
             subject: 'COP',
         });
-        const { formattedData, contentType } = formatService.format(courses, 'yaml');
+        const { formattedData, contentType } = formatService.format(courses, {
+            format: 'yaml',
+            ...courseDataStore.formatOptions,
+        });
         expect(yaml.parse(formattedData).results).toStrictEqual(courses);
         expect(contentType).toStrictEqual('text/plain');
     });
@@ -34,7 +40,10 @@ describe('formatService: Testing the formatService module.', () => {
             subject: 'COP',
             units: '3.00',
         });
-        const { formattedData, contentType } = formatService.format(courses, 'xml');
+        const { formattedData, contentType } = formatService.format(courses, {
+            format: 'xml',
+            ...courseDataStore.formatOptions,
+        });
         let parsedCourses;
         xml2js.parseString(formattedData,
             {
@@ -50,13 +59,36 @@ describe('formatService: Testing the formatService module.', () => {
     });
     test('formatService.format: Correctly serializes object to text.', () => {
         const courses = courseDataStore.queryBy({
-            subject: 'COP',
-            code: '2210',
+            subject: 'C',
+            code: '2',
         });
-        const { formattedData, contentType } = formatService.format(courses, 'text');
-        const formatStrings = formattedData.split('\n');
-        expect(formatStrings[0]).toStrictEqual('total: 1');
-        expect(formatStrings[1]).toStrictEqual('subject: COP, code: 2210, name: Programming I, units: 4.00, description: A first course in computer science that uses a structured programming language to study programming and problem solving on the computer. Includes the design, construction and analysis of programs.  Student participation in a closed instructional lab is required.  This course will have additional fees.');
+        const { formattedData, contentType } = formatService.format(courses, {
+            format: 'text',
+            ...courseDataStore.formatOptions,
+        });
+        expect(formattedData).toMatchSnapshot();
+        expect(contentType).toStrictEqual('text/plain');
+    });
+    test('formatService.format: Correctly serializes object with no provided options.', () => {
+        const objectToSerialize = {
+            version: '1.0.0',
+            uptime: '1337',
+            status: 'ok',
+        };
+        const { formattedData, contentType } = formatService.format(objectToSerialize);
+        expect(formattedData).toMatchSnapshot();
+        expect(contentType).toStrictEqual('application/json');
+    });
+    test('formatService.format: Correctly serializes object with no provided shape function.', () => {
+        const objectToSerialize = {
+            version: '1.0.0',
+            uptime: '1337',
+            status: 'ok',
+        };
+        const { formattedData, contentType } = formatService.format(objectToSerialize, {
+            format: 'yaml',
+        });
+        expect(formattedData).toMatchSnapshot();
         expect(contentType).toStrictEqual('text/plain');
     });
 });
