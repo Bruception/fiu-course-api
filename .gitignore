@@ -5,3 +5,5 @@ npm-debug.log
 .env
 .DS_Store
 data.json
+load.yml
+keywords.csv

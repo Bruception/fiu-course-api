@@ -8,7 +8,8 @@
     "lint": "./node_modules/.bin/eslint ./src/*.js",
     "fix-lint": "./node_modules/.bin/eslint ./src/*.js --fix",
     "dev": "nodemon ./src/app.js",
-    "start": "node ./src/app.js"
+    "start": "node ./src/app.js",
+    "update-data": "cd ./src/data ; source ./update_courses.sh ; cd ~-"
   },
   "author": "",
   "license": "ISC",

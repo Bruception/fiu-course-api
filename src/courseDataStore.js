@@ -4,10 +4,19 @@ const path = require('path');
 const utils = require('./utils');
 const words = require('talisman/tokenizers/words');
 const lancaster = require('talisman/stemmers/lancaster');
-const metaphone = require('talisman/phonetics/metaphone');
 const { SUPPORTED_FORMATS } = require('./formatService');
 
 const COURSE_DATA_PATH = path.resolve(__dirname, './data/course-data.json');
+const STOP_WORDS_DATA_PATH = path.resolve(__dirname, './data/stopwords.json');
+
+const getStopWords = (stopWordsPath) => {
+    const stopWordsBuffer = fs.readFileSync(stopWordsPath);
+    const { stopwords } = JSON.parse(stopWordsBuffer);
+    const normalizedStopWords = stopwords.map((word) => word.toUpperCase());
+    return new Set(normalizedStopWords);
+}
+
+const STOP_WORDS = getStopWords(STOP_WORDS_DATA_PATH);
 
 const STRING_QUERY_SCHEMA = joi.alternatives().try(
     joi.string(),
@@ -38,6 +47,10 @@ const defaultFilter = (values, data, key) => {
     }, []);
 }
 
+const defaultValueFormatter = (value) => {
+    return value.toUpperCase();
+}
+
 const queryTemplate = {
     'subject': {
         priority: 0,
@@ -54,28 +67,24 @@ const queryTemplate = {
             return data.filter(({ name, code }) => {
                 const lastCharacter = code[code.length - 1];
                 const hasLabIdentifier = lastCharacter === 'L' || lastCharacter === 'C';
-                return utils.containsWord(name, 'Lab') || hasLabIdentifier;
+                return hasLabIdentifier || utils.containsWord(name, 'Lab');
             });
         },
     },
     'keywords': {
         priority: 4,
         filter: (values, data, _key) => {
-            const tokens = words(values);
+            const tokens = words(values).filter((token) => !STOP_WORDS.has(token));
             if (tokens.length > 5) {
                 throw utils.error('Number of keywords exceeds limit of 5.', 400);
             }
-            let isFirst = true;
             let matchedCourses = new Set();
-            tokens.forEach((token) => {
+            tokens.forEach((token, i) => {
                 const tokenStem = lancaster(token);
-                const tokenMetaphone = metaphone(token);
-                const courses = courseDataStore._tokenCourseMap[tokenStem] ||
-                    courseDataStore._tokenCourseMap[tokenMetaphone] || new Set();
-                matchedCourses = (isFirst)
+                const courses = courseDataStore._tokenCourseMap[tokenStem] || new Set();
+                matchedCourses = (i === 0)
                     ? courses
                     : new Set([...matchedCourses].filter((course) => courses.has(course)));
-                isFirst = false;
             });
             return data.filter(({ subject, code }) => {
                 const courseKey = `${subject}${code}`;
@@ -84,10 +93,13 @@ const queryTemplate = {
         },
     },
     'limit': {
-        priority: 5,
+        priority: Number.MAX_SAFE_INTEGER - 1,
         filter: (values, data, _key) => {
             const [max] = values;
             return data.slice(0, max);
+        },
+        valueFormatter: (value) => {
+            return parseInt(value, 10);
         },
     },
     'excludes': {
@@ -95,37 +107,34 @@ const queryTemplate = {
         filter: (values, data, _key) => {
             const normalizedValues = values.includes('*')
                 ? COURSE_PROPERTIES
-                : words(values.map((value) => value.toLowerCase()));
+                : words(values);
             return data.map((course) => utils.omit(course, normalizedValues));
+        },
+        valueFormatter: (value) => {
+            return value.toLowerCase();
         },
     },
 };
 
-const normalizeQueryValue = (queryValue) => {
-    return ([].concat(queryValue)).map((value) => parseInt(value, 10) || value.toUpperCase());
-}
-
-const addToken = (token, tokenMap, courseKey) => {
-    if (token.length === 0) {
-        return;
-    }
-    if (!(token in tokenMap)) {
-        tokenMap[token] = new Set();
-    }
-    tokenMap[token].add(courseKey);
+const normalizeQueryValue = (queryKey, queryValue) => {
+    const valueFormatter = queryTemplate[queryKey].valueFormatter || defaultValueFormatter;
+    return ([].concat(queryValue)).map(valueFormatter);
 }
 
 const getTokenCourseMap = (courses) => {
     const tokenCourseMap = {};
     courses.forEach((course) => {
         const allWords = `${course.name} ${course.description}`;
-        const tokens = words(allWords).map((word) => word.toUpperCase());
+        const tokens = words(allWords)
+            .map((word) => word.toUpperCase())
+            .filter((word) => !STOP_WORDS.has(word))
+            .map(lancaster);
         const courseKey = `${course.subject}${course.code}`;
         tokens.forEach((token) => {
-            const tokenStem = lancaster(token);
-            const tokenMetaphone = metaphone(token);
-            addToken(tokenStem, tokenCourseMap, courseKey);
-            addToken(tokenMetaphone, tokenCourseMap, courseKey);
+            if (!(token in tokenCourseMap)) {
+                tokenCourseMap[token] = new Set();
+            }
+            tokenCourseMap[token].add(courseKey);
         });
     });
     return tokenCourseMap;
@@ -153,7 +162,8 @@ const courseDataStore = {
         });
         return queryKeys.reduce((data, key) => {
             const filter = queryTemplate[key].filter || defaultFilter;
-            return filter(normalizeQueryValue(query[key]), data, key);
+            const normalizedValue = normalizeQueryValue(key, query[key]);
+            return filter(normalizedValue, data, key);
         }, this._data);
     },
 }.init();
