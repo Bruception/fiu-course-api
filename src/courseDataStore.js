@@ -131,9 +131,6 @@ const getTokenCourseMap = (courses) => {
             .map(lancaster);
         const courseKey = `${course.subject}${course.code}`;
         tokens.forEach((token) => {
-            if (token.length === 0) {
-                return;
-            }
             if (!(token in tokenCourseMap)) {
                 tokenCourseMap[token] = new Set();
             }
