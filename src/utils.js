@@ -14,3 +14,11 @@ exports.omit = (object, keys) => {
         return !keysSet.has(key);
     }));
 }
+
+exports.validate = (schema, data) => {
+    const { value, error } = schema.validate(data);
+    if (error) {
+        throw exports.error(error.details[0].message, 400);
+    }
+    return value;
+}
