@@ -4,7 +4,6 @@ const path = require('path');
 const utils = require('./utils');
 const words = require('talisman/tokenizers/words');
 const lancaster = require('talisman/stemmers/lancaster');
-const { SUPPORTED_FORMATS } = require('./formatService');
 
 const COURSE_DATA_PATH = path.resolve(__dirname, './data/course-data.json');
 const STOP_WORDS_DATA_PATH = path.resolve(__dirname, './data/stopwords.json');
@@ -29,10 +28,6 @@ const QUERY_SCHEMA = joi.object({
     units: STRING_QUERY_SCHEMA,
     keywords: joi.string().optional(),
     isLab: joi.optional(),
-    format: joi.string()
-        .valid(...SUPPORTED_FORMATS)
-        .insensitive()
-        .optional(),
     excludes: joi.string().optional(),
     limit: joi.number().positive().optional(),
 });
@@ -151,13 +146,8 @@ const courseDataStore = {
         return this;
     },
     queryBy(query) {
-        const { value, error } = QUERY_SCHEMA.validate(query);
-        if (error) {
-            throw utils.error(error.details[0].message, 400);
-        }
-        const queryKeys = Object.keys(value)
-        .filter((key) => !IGNORED_QUERIES.includes(key))
-        .sort((a, b) => {
+        const validatedQuery = utils.validate(QUERY_SCHEMA, utils.omit(query, IGNORED_QUERIES));
+        const queryKeys = Object.keys(validatedQuery).sort((a, b) => {
             return queryTemplate[a].priority - queryTemplate[b].priority;
         });
         return queryKeys.reduce((data, key) => {
@@ -170,4 +160,12 @@ const courseDataStore = {
 
 module.exports = {
     queryBy: courseDataStore.queryBy.bind(courseDataStore),
+    formatOptions: {
+        shapeFunction: (data) => {
+            return {
+                total: data.length,
+                results: data.filter((value) => Object.keys(value).length !== 0),
+            }
+        },
+    },
 };
