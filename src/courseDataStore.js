@@ -36,10 +36,11 @@ const IGNORED_QUERIES = ['format'];
 const COURSE_PROPERTIES = ['subject', 'code', 'name', 'units', 'description'];
 
 const defaultFilter = (values, data, key) => {
-    return values.reduce((accumulatedCourses, value) => {
+    const aggregateCourses = values.reduce((accumulatedCourses, value) => {
         const filteredCourses = data.filter((course) => course[key].startsWith(value));
         return accumulatedCourses.concat(filteredCourses);
     }, []);
+    return [...new Set(aggregateCourses)];
 }
 
 const defaultValueFormatter = (value) => {
@@ -113,7 +114,7 @@ const queryTemplate = {
 
 const normalizeQueryValue = (queryKey, queryValue) => {
     const valueFormatter = queryTemplate[queryKey].valueFormatter || defaultValueFormatter;
-    return ([].concat(queryValue)).map(valueFormatter);
+    return [...new Set(([].concat(queryValue)).map(valueFormatter))];
 }
 
 const getTokenCourseMap = (courses) => {

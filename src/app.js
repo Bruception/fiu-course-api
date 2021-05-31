@@ -18,7 +18,7 @@ app.get('/api', (req, res) => {
     const results = courseDataStore.queryBy(query);
     const {
         formattedData,
-        contentType
+        contentType,
     } = formatService.format(results, {
         format: query.format,
         ...courseDataStore.formatOptions,

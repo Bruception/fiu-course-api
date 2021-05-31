@@ -25,6 +25,8 @@ const DEFAULT_OPTIONS = {
     shapeFunction: (data) => data,
 }
 
+const XML_BUILDER = new xml2js.Builder();
+
 const textFormatter = (data) => {
     if (Array.isArray(data)) {
         return `\n${data.map((entry) => {
@@ -43,7 +45,7 @@ const formatters = {
     'json': JSON.stringify,
     'text': textFormatter,
     'xml': (data) => {
-        return new xml2js.Builder().buildObject(data);
+        return XML_BUILDER.buildObject(data);
     },
     'yaml': yaml.stringify,
 };
@@ -53,7 +55,7 @@ module.exports = {
         const validatedOptions = utils.validate(OPTIONS_SCHEMA, options);
         const {
             format = DEFAULT_OPTIONS.format,
-            shapeFunction = DEFAULT_OPTIONS.shapeFunction
+            shapeFunction = DEFAULT_OPTIONS.shapeFunction,
         } = validatedOptions;
         const targetType = format.toLowerCase();
         const targetFormatter = formatters[targetType];
