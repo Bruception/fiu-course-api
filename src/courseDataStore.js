@@ -36,11 +36,11 @@ const IGNORED_QUERIES = ['format'];
 const COURSE_PROPERTIES = ['subject', 'code', 'name', 'units', 'description'];
 
 const defaultFilter = (values, data, key) => {
-    const aggregatecourses = values.reduce((accumulatedCourses, value) => {
+    const aggregateCourses = values.reduce((accumulatedCourses, value) => {
         const filteredCourses = data.filter((course) => course[key].startsWith(value));
         return accumulatedCourses.concat(filteredCourses);
     }, []);
-    return [...new Set(aggregatecourses)];
+    return [...new Set(aggregateCourses)];
 }
 
 const defaultValueFormatter = (value) => {
