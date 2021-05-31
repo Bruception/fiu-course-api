@@ -5,7 +5,7 @@
         <script defer type='text/javascript' src='./index.js'></script>
     </head>
     <body>
-        <h1 id='title'>FIU Course API</h1>
+        <h1 id='title'>FIU Course API <span id='app-version'></span></h1>
             <p>An <span class='highlight'>API</span> to query course offerings available at <span class='highlight'>FIU</span>.</p>
             <p>→ <a href='https://github.com/Bruception/fiu-course-api'>Check out the source code here.</a> ←</p>
         <div>
@@ -67,7 +67,7 @@
                 <p>
                     You can fuzzy search for courses by their name and description with the <span class='highlight'>keywords</span> parameter.
                     The keywords parameter is a string where the words are space-delimited.
-                    This API will <span class='highlight'>reject</span> any string with more than <span class='highlight'>5</span> keywords.
+                    This API will <span class='highlight'>reject</span> any string with more than <span class='highlight'>5</span> keywords (stopwords are not included).
                     Here is an example of a query using the keywords parameter:
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?keywords=electric theories magnets</p>
