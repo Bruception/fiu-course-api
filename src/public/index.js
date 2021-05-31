@@ -1,6 +1,6 @@
 
-const fetchAPI = async (queryString) => {
-    const response = await fetch(`/api?${queryString}`);
+const fetchAPI = async (endpoint, queryString = '') => {
+    const response = await fetch(`/${endpoint}?${queryString}`);
     return await response.json();
 }
 
@@ -56,7 +56,7 @@ const debounce = (func, ms = 500) => {
 }
 
 const queryAPI = async (targetID, query, action) => {
-    const data = await fetchAPI(query);
+    const data = await fetchAPI('api', query);
     const target = document.getElementById(targetID);
     target.innerHTML = action(data);
 }
@@ -98,6 +98,8 @@ const queryTemplate = {
 }
 
 window.onload = async () => {
+    const appVersion = document.getElementById('app-version');
+    appVersion.innerHTML = `v${(await fetchAPI('status')).version}`;
     Object.keys(queryTemplate).forEach(async (key) => {
         const { query, action } = queryTemplate[key];
         await queryAPI(key, query, action || truncateData);
