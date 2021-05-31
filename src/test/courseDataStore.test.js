@@ -159,4 +159,14 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
         }
         expect(testQuery).toThrow(Error);
     });
+    test('courseDataStore.queryBy: Correctly filters duplicate data.', () => {
+        const courses = courseDataStore.queryBy({
+            subject: ['COP', 'C', 'AST', 'A'],
+        });
+        const uniqueCourses = [...new Set(courses)];
+        expect(uniqueCourses.length).toEqual(courses.length);
+        uniqueCourses.forEach((course, index) => {
+            expect(course).toBe(courses[index]);
+        });
+    });
 });
