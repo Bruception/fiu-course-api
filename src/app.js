@@ -9,13 +9,14 @@ const { version } = require('../package.json');
 
 const APP_START_TIME = new Date().getTime();
 
-app.use('/', express.static(path.resolve(__dirname, './public')));
 app.use(logger());
+app.use(express.json());
 app.disable('x-powered-by');
+app.use('/', express.static(path.resolve(__dirname, './public')));
 
 app.get('/api', (req, res) => {
-    const { query } = req;
-    const results = courseDataStore.queryBy(query);
+    const { query, body } = req;
+    const results = courseDataStore.queryBy([query, body]);
     const {
         formattedData,
         contentType,
@@ -37,7 +38,10 @@ app.get('/status', (req, res) => {
     const formatOptions = {
         format: req.query.format,
     };
-    const { formattedData, contentType } = formatService.format(statusData, formatOptions);
+    const {
+        formattedData,
+        contentType
+    } = formatService.format(statusData, formatOptions);
     res.setHeader('Content-Type', contentType);
     return res.status(200).send(formattedData);
 });

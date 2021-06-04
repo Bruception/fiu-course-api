@@ -169,4 +169,59 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(course).toBe(courses[index]);
         });
     });
+    test('courseDataStore.queryBy: Correctly sorts data with the sortBy parameter.', () => {
+        const courses = courseDataStore.queryBy({
+            subject: ['A', 'C'],
+            sortBy: 'name',
+        });
+        let currentName = courses[0].name;
+        courses.forEach((course) => {
+            expect(course.name.localeCompare(currentName) >= 0).toBe(true);
+            currentName = course.name;
+        });
+    });
+    test('courseDataStore.queryBy: Correctly reverses order of data with the reverseOrder parameter.', () => {
+        const courses = courseDataStore.queryBy({
+            subject: ['A', 'C'],
+            sortBy: 'name',
+            reverseOrder: '',
+        });
+        let currentName = courses[0].name;
+        courses.forEach((course) => {
+            expect(course.name.localeCompare(currentName) <= 0).toBe(true);
+            currentName = course.name;
+        });
+    });
+    test('courseDataStore.queryBy: Handles multiple source queries.', () => {
+        const courses = courseDataStore.queryBy([
+            {
+                subject: ['COP', 'CAP', 'AST'],
+                limit: 50, 
+                sortBy: 'name',
+                units: ['3', '4'],
+                excludes: 'code description',
+            },
+            {
+                subject: 'CEN',
+                limit: 100,
+                sortBy: 'subject',
+                units: ['3.'],
+                excludes: 'description',
+            },
+            {
+                subject: 'bSc',
+                units: '4.',
+            },
+        ]);
+        expect(courses.length).toBeLessThanOrEqual(50);
+        let currentName = courses[0].name;
+        courses.forEach((course) => {
+            expect(course.subject).toMatch(/^(COP|CAP|AST|CEN|BSC)/);
+            expect(course.units).toMatch(/^(3|4|3\.|4\.)/);
+            expect(course.code).toBe(undefined);
+            expect(course.description).toBe(undefined);
+            expect(course.name.localeCompare(currentName) >= 0).toBe(true);
+            currentName = course.name;
+        });
+    });
 });

@@ -16,11 +16,13 @@ const getStatusColor = (status) => {
 }
 
 const customToken = (request, response) => {
-  const { method, originalUrl, query } = request;
+  const { method, originalUrl, query, body } = request;
   const { statusCode, statusMessage } = response;
   const color = getStatusColor(statusCode);
+  const queryAsString = JSON.stringify(query);
+  const bodyAsString = JSON.stringify(body);
   return `${method} '${originalUrl}' - ${color}${statusCode}: ${statusMessage}${reset}
-    ${colors.GREEN}Info${reset}:\n\t Query: ${JSON.stringify(query)}`;
+    ${colors.GREEN}Info${reset}:\n\tQuery: ${queryAsString}\n\tBody: ${bodyAsString}`;
 }
 
 morgan.token('custom', customToken);

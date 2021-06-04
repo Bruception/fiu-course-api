@@ -1,5 +1,5 @@
-const fs = require('fs');
 const joi = require('joi');
+const _ = require('lodash');
 const path = require('path');
 const utils = require('./utils');
 const words = require('talisman/tokenizers/words');
@@ -9,31 +9,31 @@ const COURSE_DATA_PATH = path.resolve(__dirname, './data/course-data.json');
 const STOP_WORDS_DATA_PATH = path.resolve(__dirname, './data/stopwords.json');
 
 const getStopWords = (stopWordsPath) => {
-    const stopWordsBuffer = fs.readFileSync(stopWordsPath);
-    const { stopwords } = JSON.parse(stopWordsBuffer);
+    const { stopwords } = require(stopWordsPath);
     const normalizedStopWords = stopwords.map((word) => word.toUpperCase());
     return new Set(normalizedStopWords);
 }
 
+const IGNORED_PARAMETERS = ['format'];
+const COURSE_PROPERTIES = ['subject', 'code', 'name', 'units', 'description'];
 const STOP_WORDS = getStopWords(STOP_WORDS_DATA_PATH);
 
-const STRING_QUERY_SCHEMA = joi.alternatives().try(
+const STRING_PARAMETER_SCHEMA = joi.alternatives().try(
     joi.string(),
     joi.array().items(joi.string()),
-).optional();
+);
 
 const QUERY_SCHEMA = joi.object({
-    subject: STRING_QUERY_SCHEMA,
-    code: STRING_QUERY_SCHEMA,
-    units: STRING_QUERY_SCHEMA,
-    keywords: joi.string().optional(),
-    isLab: joi.optional(),
-    excludes: joi.string().optional(),
-    limit: joi.number().positive().optional(),
+    subject: STRING_PARAMETER_SCHEMA,
+    code: STRING_PARAMETER_SCHEMA,
+    units: STRING_PARAMETER_SCHEMA,
+    keywords: joi.string(),
+    isLab: joi.string().valid(''),
+    excludes: joi.string(),
+    limit: joi.number().positive(),
+    sortBy: joi.string().valid(...COURSE_PROPERTIES),
+    reverseOrder: joi.string().valid(''),
 });
-
-const IGNORED_QUERIES = ['format'];
-const COURSE_PROPERTIES = ['subject', 'code', 'name', 'units', 'description'];
 
 const defaultFilter = (values, data, key) => {
     const aggregateCourses = values.reduce((accumulatedCourses, value) => {
@@ -47,18 +47,15 @@ const defaultValueFormatter = (value) => {
     return value.toUpperCase();
 }
 
-const queryTemplate = {
-    'subject': {
-        priority: 0,
-    },
-    'code': {
-        priority: 1,
-    },
-    'units': {
-        priority: 2,
-    },
-    'isLab': {
-        priority: 3,
+const lowerCaseValueFormatter = (value) => {
+    return value.toLowerCase();
+}
+
+const parameterMap = {
+    subject: {},
+    code: {},
+    units: {},
+    isLab: {
         filter: (_values, data, _key) => {
             return data.filter(({ name, code }) => {
                 const lastCharacter = code[code.length - 1];
@@ -67,8 +64,7 @@ const queryTemplate = {
             });
         },
     },
-    'keywords': {
-        priority: 4,
+    keywords: {
         filter: (values, data, _key) => {
             const tokens = words(values).filter((token) => !STOP_WORDS.has(token));
             if (tokens.length > 5) {
@@ -76,8 +72,9 @@ const queryTemplate = {
             }
             let matchedCourses = new Set();
             tokens.forEach((token, i) => {
-                const tokenStem = lancaster(token);
-                const courses = courseDataStore._tokenCourseMap[tokenStem] || new Set();
+                const normalizedToken = token.replace(/[^0-9a-zA-Z]/giu, '');
+                const tokenStem = lancaster(normalizedToken);
+                const courses = courseDataStore._tokenToCoursesMap[tokenStem] || new Set();
                 matchedCourses = (i === 0)
                     ? courses
                     : new Set([...matchedCourses].filter((course) => courses.has(course)));
@@ -88,8 +85,23 @@ const queryTemplate = {
             });
         },
     },
-    'limit': {
-        priority: Number.MAX_SAFE_INTEGER - 1,
+    sortBy: {
+        filter: (values, data, _key) => {
+            const [sortKey] = values;
+            data.sort((course, otherCourse) => {
+                return course[sortKey].localeCompare(otherCourse[sortKey]);
+            });
+            return data;
+        },
+        valueFormatter: lowerCaseValueFormatter,
+    },
+    reverseOrder: {
+        filter: (_values, data, _key) => {
+            data.reverse();
+            return data;
+        },
+    },
+    limit: {
         filter: (values, data, _key) => {
             const [max] = values;
             return data.slice(0, max);
@@ -98,63 +110,74 @@ const queryTemplate = {
             return parseInt(value, 10);
         },
     },
-    'excludes': {
-        priority: Number.MAX_SAFE_INTEGER,
+    excludes: {
         filter: (values, data, _key) => {
             const normalizedValues = values.includes('*')
                 ? COURSE_PROPERTIES
                 : words(values);
-            return data.map((course) => utils.omit(course, normalizedValues));
+            return data.map((course) => _.omit(course, normalizedValues));
         },
-        valueFormatter: (value) => {
-            return value.toLowerCase();
-        },
+        valueFormatter: lowerCaseValueFormatter,
     },
 };
 
-const normalizeQueryValue = (queryKey, queryValue) => {
-    const valueFormatter = queryTemplate[queryKey].valueFormatter || defaultValueFormatter;
-    return [...new Set(([].concat(queryValue)).map(valueFormatter))];
-}
-
-const getTokenCourseMap = (courses) => {
-    const tokenCourseMap = {};
+const getTokenToCoursesMap = (courses) => {
+    const tokenToCoursesMap = {};
     courses.forEach((course) => {
         const allWords = `${course.name} ${course.description}`;
         const tokens = words(allWords)
-            .map((word) => word.toUpperCase())
+            .map((word) => word.toUpperCase().replace(/[^0-9a-zA-Z]/giu, ''))
             .filter((word) => !STOP_WORDS.has(word))
             .map(lancaster);
         const courseKey = `${course.subject}${course.code}`;
         tokens.forEach((token) => {
-            if (!(token in tokenCourseMap)) {
-                tokenCourseMap[token] = new Set();
+            if (token.length === 0) {
+                return;
             }
-            tokenCourseMap[token].add(courseKey);
+            if (!(token in tokenToCoursesMap)) {
+                tokenToCoursesMap[token] = new Set();
+            }
+            tokenToCoursesMap[token].add(courseKey);
         });
     });
-    return tokenCourseMap;
+    return tokenToCoursesMap;
+}
+
+const normalizeParameterValue = (parameterKey, parameterValue) => {
+    const valueFormatter = parameterMap[parameterKey].valueFormatter || defaultValueFormatter;
+    return [...new Set(([].concat(parameterValue)).map(valueFormatter))];
+}
+
+const normalizeSource = (sourceQuery) => {
+    const relevantParameters = _.omit(sourceQuery, IGNORED_PARAMETERS);
+    const validatedQuery = utils.validate(QUERY_SCHEMA, relevantParameters);
+    const normalizedQuery = _.mapValues(validatedQuery, (parameter, key) => {
+        return normalizeParameterValue(key, parameter);
+    });
+    return normalizedQuery;
 }
 
 const courseDataStore = {
     _data: [],
-    _tokenCourseMap: {},
+    _tokenToCoursesMap: {},
     init() {
-        const fileContents = fs.readFileSync(COURSE_DATA_PATH);
-        const { data } = JSON.parse(fileContents);
+        const { data } = require(COURSE_DATA_PATH);
         this._data = data.map(Object.freeze);
-        this._tokenCourseMap = getTokenCourseMap(this._data);
+        this._tokenToCoursesMap = getTokenToCoursesMap(this._data);
+        Object.keys(parameterMap).forEach((parameter, index) => {
+            parameterMap[parameter].priority = index;
+        });
         return this;
     },
-    queryBy(query) {
-        const validatedQuery = utils.validate(QUERY_SCHEMA, utils.omit(query, IGNORED_QUERIES));
-        const queryKeys = Object.keys(validatedQuery).sort((a, b) => {
-            return queryTemplate[a].priority - queryTemplate[b].priority;
+    queryBy(sources) {
+        const normalizedSources = [].concat(sources).map(normalizeSource);
+        const completeQuery = _.mergeWith({}, ...normalizedSources, _.union);
+        const queryParameters = Object.keys(completeQuery).sort((a, b) => {
+            return parameterMap[a].priority - parameterMap[b].priority;
         });
-        return queryKeys.reduce((data, key) => {
-            const filter = queryTemplate[key].filter || defaultFilter;
-            const normalizedValue = normalizeQueryValue(key, query[key]);
-            return filter(normalizedValue, data, key);
+        return queryParameters.reduce((data, key) => {
+            const filter = parameterMap[key].filter || defaultFilter;
+            return filter(completeQuery[key], data, key);
         }, this._data);
     },
 }.init();
