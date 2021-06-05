@@ -1,5 +1,5 @@
 on:
-  push:
+  workflow_dispatch:
     branches: [ workflow-test ]
 
 jobs:
@@ -8,3 +8,4 @@ jobs:
     steps:
       - run: echo "Hello World!"
       - run: pwd
+      - run: ls
