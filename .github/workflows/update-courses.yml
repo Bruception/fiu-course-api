@@ -8,6 +8,5 @@ jobs:
     steps:
       - run: echo "Hello World!"
       - run: pwd
-      - run: cd src/data
+      - run: cd ./src/data
       - run: pwd
-      
