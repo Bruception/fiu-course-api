@@ -1,0 +1,9 @@
+on:
+  push:
+    branches: [ workflow-test ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World!"
