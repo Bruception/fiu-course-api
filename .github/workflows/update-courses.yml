@@ -7,7 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: echo "Hello World!"
-      - run: pwd
-      - run: cd ./src/data
-      - run: pwd
+      - run: npm run update-data
