@@ -5,7 +5,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    working-directory: ./fiu-course-api/src/data
     steps:
       - uses: actions/checkout@v2
-      - working-directory: ./fiu-course-api/src/data
       - run: pwd
