@@ -87,6 +87,9 @@ const queryTemplate = {
     'limit-sample-query': {
         query: 'subject=CHM&limit=3',
     },
+    'order-sample-query': {
+        query: 'subject=CHM&limit=3&sortBy=units&reverseOrder'
+    },
     'course-offerings': {
         query: 'excludes=*',
         action: (data) => data.total,
