@@ -18,6 +18,7 @@
             <h1>Documentation</h1>
             <p>
                 You can query courses using the following query string parameters.
+                (Alternatively, you can specify these in the body of a request with JSON.)
             </p>
             <ul>
                 <li><span class='highlight'>subject</span></li>
@@ -28,6 +29,8 @@
                 <li><span class='highlight'>format</span></li>
                 <li><span class='highlight'>excludes</span></li>
                 <li><span class='highlight'>limit</span></li>
+                <li><span class='highlight'>sortBy</span></li>
+                <li><span class='highlight'>reverseOrder</span></li>
             </ul>
             <div>
                 <h2>Combined Queries</h2>
@@ -93,6 +96,16 @@
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=3</p>
                 <pre id='limit-sample-query' class='sample-query'></pre>
+            </div>
+            <div>
+                <h2>Ordering Results</h2>
+                <p>
+                    You can order the results using the <span class='highlight'>sortBy</span> parameter.
+                    Reverse the order of results by using the <span class='highlight'>reverseOrder</span> parameter.
+                    Here is an example of a query using these parameter:
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=3&sortBy=units&reverseOrder</p>
+                <pre id='order-sample-query' class='sample-query'></pre>
             </div>
         </div>
         <div>
