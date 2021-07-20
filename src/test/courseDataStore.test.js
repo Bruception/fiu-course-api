@@ -224,4 +224,15 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             currentName = course.name;
         });
     });
+    test('courseDataStore.queryBy: Does not mutate the in-memory data.', () => {
+        const allCourses = courseDataStore.queryBy();
+        const coursesSortedByUnits = courseDataStore.queryBy({
+            sortBy: 'units',
+        });
+        const coursesReversed = courseDataStore.queryBy({
+            reverseOrder: '',
+        });
+        const allCoursesAfter = courseDataStore.queryBy();
+        expect(allCourses).toBe(allCoursesAfter);
+    });
 });
