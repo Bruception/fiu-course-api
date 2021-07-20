@@ -12,3 +12,4 @@ The documentation can be found [here](https://fiu-course-api.herokuapp.com/).
 - Add support for CSV formatting.
 - Implement pagination for large response data.
 - Expand API to include teacher data.
+- Implement automated documentation.
