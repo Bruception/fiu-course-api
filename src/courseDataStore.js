@@ -88,17 +88,17 @@ const parameterMap = {
     sortBy: {
         filter: (values, data, _key) => {
             const [sortKey] = values;
-            data.sort((course, otherCourse) => {
+            const newData = [...data];
+            newData.sort((course, otherCourse) => {
                 return course[sortKey].localeCompare(otherCourse[sortKey]);
             });
-            return data;
+            return newData;
         },
         valueFormatter: lowerCaseValueFormatter,
     },
     reverseOrder: {
         filter: (_values, data, _key) => {
-            data.reverse();
-            return data;
+            return [...data].reverse();
         },
     },
     limit: {
