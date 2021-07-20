@@ -74,7 +74,7 @@
             "error",
             "expression"
         ],
-        "function-paren-newline": "error",
+        "function-paren-newline": "off",
         "generator-star-spacing": "error",
         "global-require": "off",
         "grouped-accessor-pairs": "error",
