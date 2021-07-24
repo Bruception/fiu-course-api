@@ -1,11 +1,13 @@
 # FIU Course API
 An API for querying courses at FIU.
 
+# FIU Course API
+Live [here](https://fiu-course-api.herokuapp.com/).
 # API
 The API can be found [here](https://fiu-course-api.herokuapp.com/api).
 
 # Documentation
-The documentation can be found [here](https://fiu-course-api.herokuapp.com/).
+The documentation can be found [here](https://fiu-course-api.herokuapp.com/documentation).
 
 # How YOU can contribute
 - Setup a cron job that will automatically update the course data every month.
