@@ -8,11 +8,12 @@ const { version } = require('../package.json');
 const { formatHandlerWrapper } = require('./utils');
 
 const APP_START_TIME = new Date().getTime();
+const PUBLIC_PATH = path.resolve(__dirname, './public');
 
 app.use(logger());
 app.use(express.json());
 app.disable('x-powered-by');
-app.use('/', express.static(path.resolve(__dirname, './public')));
+app.use('/', express.static(PUBLIC_PATH));
 
 app.get('/api', formatHandlerWrapper(
     (req) => {
