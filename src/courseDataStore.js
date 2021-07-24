@@ -124,7 +124,7 @@ const parameterMap = {
 const getTokenToCoursesMap = (courses) => {
     const tokenToCoursesMap = {};
     courses.forEach((course) => {
-        const allWords = `${course.name} ${course.description}`;
+        const allWords = `${course.subject} ${course.code} ${course.name} ${course.description}`;
         const tokens = words(allWords)
             .map((word) => word.toUpperCase().replace(/[^0-9a-zA-Z]/giu, ''))
             .filter((word) => !STOP_WORDS.has(word))
