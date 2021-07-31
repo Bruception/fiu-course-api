@@ -1,12 +1,14 @@
 name: Update courses
 
 on:
-  push:
+  workflow_dispatch:
     branches: [ workflow-test ]
-    # inputs:
-      # reason:
-        # description: 'Reason for manually triggering this workflow'
-        # required: true
+    inputs:
+      reason:
+        description: 'Reason for manually triggering this workflow'
+        required: false
+  schedule:
+    - cron:  '0 0 1 * *'
 
 jobs:
   update-courses:
@@ -21,18 +23,18 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      # - name: Install dependencies
-      #   run: |
-      #     python3 -m pip install --upgrade pip
-      #     pip install bs4 requests
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install bs4 requests
       - name: Run course update
         working-directory: ./src/data
-        run: MAX_WORKERS=10 python3 ./test-script.py
+        run: MAX_WORKERS=15 OUTPUT_FILE=course-data.json python3 ./courseDataUpdate.py
       - name: Create commits
         run: |
           git config user.name 'Bruce Berrios'
           git config user.email 'bberr022@fiu.edu'
-          git add ./src/data/datas.json
+          git add ./src/data/course-data.json
           git commit -m 'Update courses'
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
