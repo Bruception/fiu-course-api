@@ -11,6 +11,9 @@ on:
 jobs:
   update-courses:
     runs-on: ubuntu-latest
+    env:
+      DATE_UNIX: `date +%s`
+      DATE: `date`
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
@@ -32,3 +35,6 @@ jobs:
           git commit -m 'Update courses'
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
+        with:
+          branch: course-update-$DATE_UNIX
+          title: Course Update $DATE
