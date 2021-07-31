@@ -800,13 +800,6 @@
         },
         {
             "subject": "ARC",
-            "code": "5621",
-            "name": "Envir Systems in Arch 2",
-            "units": "3.00",
-            "description": "This course considers the role of acoustic and luminous behaviors in architecture and the architectural design process. Topics including daylighting, artificial lighting, electrical systems and acoustics."
-        },
-        {
-            "subject": "ARC",
             "code": "5711",
             "name": "Des Hist Ant to Ma",
             "units": "3.00",
@@ -2732,13 +2725,6 @@
         },
         {
             "subject": "BOT",
-            "code": "4404",
-            "name": "Phycology",
-            "units": "3.00",
-            "description": "The biology of marine and freshwater algae, with an emphasis on structure, function, reproduction, classification, and ecology."
-        },
-        {
-            "subject": "BOT",
             "code": "4404L",
             "name": "Phycology Lab",
             "units": "1.00",
@@ -3775,13 +3761,6 @@
         },
         {
             "subject": "CHI",
-            "code": "2201",
-            "name": "Interm CHI II",
-            "units": "3.00",
-            "description": "To improve students' speaking, writing, listening, reading skills in Chinese. Students learn how to use useful expressions of experience and thought."
-        },
-        {
-            "subject": "CHI",
             "code": "3440",
             "name": "Business Chinese",
             "units": "3.00",
@@ -4272,6 +4251,13 @@
         },
         {
             "subject": "CHS",
+            "code": "5435",
+            "name": "Pharma/Toxicology Drugs",
+            "units": "3.00",
+            "description": "Provides an in-depth understanding of basic pharmacological and toxicological principles of drug action from a molecular, mechanistic, and physiochemical viewpoint. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "CHS",
             "code": "5535",
             "name": "Forensic Analysis",
             "units": "3.00",
@@ -4587,10 +4573,10 @@
         },
         {
             "subject": "CLP",
-            "code": "6426",
-            "name": "Neuropsychology",
+            "code": "5007",
+            "name": "Psych Clinical Science I",
             "units": "3.00",
-            "description": "Introduces students to basic foundations and some advanced concepts in Neuropsychology, with a focus on clinical applications. Topics covered will include functional neuroanatomy, brain disorders across the lifespan, and assessment of neuropsychological functions. Prerequisite: Permission of the instructor."
+            "description": "This course overviews clinical child psychology, including (a) history and philosophy of psychological clinical science and (b) challenges and controversies related to bridging science and service. Prerequisite: Graduate standing."
         },
         {
             "subject": "CLP",
@@ -6428,6 +6414,13 @@
         },
         {
             "subject": "EDF",
+            "code": "7412C",
+            "name": "SEM Ed Res",
+            "units": "3.00",
+            "description": "The course focuses on conceptual understanding of covariance structure models and practical experiences of conducting a research project using structural equation models in educational fields. Prerequisites: EDF 6472, EDF 6486, or permission of the instructor."
+        },
+        {
+            "subject": "EDF",
             "code": "7476",
             "name": "Adv Qual Res",
             "units": "3.00",
@@ -6467,6 +6460,13 @@
             "name": "Ed/Cul Prep for Int Teach",
             "units": "3.00",
             "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
+        },
+        {
+            "subject": "EDG",
+            "code": "4903",
+            "name": "Independ Study Education",
+            "units": "0.00",
+            "description": "Designed to provide an opportunity to gain or enhance knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
         },
         {
             "subject": "EDG",
@@ -7877,6 +7877,13 @@
         },
         {
             "subject": "EMA",
+            "code": "5104",
+            "name": "Adv Mech Prop Mat",
+            "units": "3.00",
+            "description": "Advanced treatment of the mechanical behavior of solids; examines crystal plasticity, dislocations, point defects and grain boundaries, creep and fatigue behavior, fracture.  Prerequisite: EGN 3365."
+        },
+        {
+            "subject": "EMA",
             "code": "5106",
             "name": "Themo & Kine Of Mat",
             "units": "3.00",
@@ -8112,13 +8119,6 @@
             "name": "Adv Des Thr/Fl Sys",
             "units": "3.00",
             "description": "Advanced design of pumps, compressors, heat exchangers, HVAC systems and thermal and fluid control devices. Prerequisite: EML 4706."
-        },
-        {
-            "subject": "EML",
-            "code": "5709",
-            "name": "Int. Fluid Mech.",
-            "units": "3.00",
-            "description": "Basic concepts and scope of fluid dynamics; non-inertial reference frames. Two-dimensional potential theory. Applications to airfoils. The Navier-Stokes equations; selected exact and approximate solutions. Prerequisite: EML 3126."
         },
         {
             "subject": "EML",
@@ -9645,6 +9645,13 @@
             "name": "Ph.D. Dissertation",
             "units": "1.00",
             "description": "Completion of doctoral dissertation. Hours may vary. Prerequisites: Permission of major professor and doctoral candidacy."
+        },
+        {
+            "subject": "GER",
+            "code": "1130",
+            "name": "German I",
+            "units": "5.00",
+            "description": "Provides training in the acquisition and application of basic language skills."
         },
         {
             "subject": "GER",
@@ -12567,10 +12574,24 @@
         },
         {
             "subject": "LAH",
+            "code": "4483",
+            "name": "Cuba Since 1959",
+            "units": "3.00",
+            "description": "Cuba from the triumph of the Revolution to the present. Examines 'the Revolution' as a contested historical process. Focuses on intersection of political conflict, culture, ideas, & human experience."
+        },
+        {
+            "subject": "LAH",
             "code": "5905",
             "name": "Rdgs In L.A. Hist",
             "units": "3.00",
             "description": "Students read books from different historiographical traditions and with conflicting interpretations about an important subject in Latin American history. Subjects will vary according to professor. Course may be repeated with departmental approval. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "LAH",
+            "code": "6932",
+            "name": "Rsch Lat Amer Hist I",
+            "units": "3.00",
+            "description": "Semester one of a two-semester research seminar investigating topics in Latin American History. Topics may vary.May be repeated with approval of Graduate Program Director."
         },
         {
             "subject": "LAS",
@@ -13001,6 +13022,13 @@
         },
         {
             "subject": "LAW",
+            "code": "6947",
+            "name": "SIP",
+            "units": "8.00",
+            "description": "The Semester-in-Practice Practicum is a full-time immersion course providing third and fourth year students with full time practical experience for an entire semester in an off site externship. Prerequisites: above 60 credits, cumulative GPA 3.10, and professional responsibility. Corequisite: professional responsibility"
+        },
+        {
+            "subject": "LAW",
             "code": "6948",
             "name": "Business Tech Clinic",
             "units": "4.00",
@@ -13421,13 +13449,6 @@
         },
         {
             "subject": "LEI",
-            "code": "5605",
-            "name": "Physoc Bas Pr Plan",
-            "units": "3.00",
-            "description": "This course concentrates on major phases of predesign, design, development, actualization of park and recreation facilities. The course will explore funding, budget, site selection, layout, and maintenance."
-        },
-        {
-            "subject": "LEI",
             "code": "5716",
             "name": "Progam Planning in Rec Therapy",
             "units": "3.00",
@@ -13616,13 +13637,6 @@
             "description": "An introduction to complex variables, beginning with the algebra and geometry of the complex number system. Topics include: complex functions; analytic functions; Cauchy's theorem and its consequences; Taylor and Laurent series; residue calculus; evaluation of real integrals and summation of series; conformal mapping."
         },
         {
-            "subject": "MAA",
-            "code": "6506",
-            "name": "Functional Analysis",
-            "units": "3.00",
-            "description": "Normed vector spaces, linear operators, Baire Category theorem, Banach fixed point theorem,Hahn-Banach theorem and applications, open mapping /closed graph theorem with applications, Hilbert spaces. Prerequisites: MAP 5407 AND MAA 5616."
-        },
-        {
             "subject": "MAC",
             "code": "1105",
             "name": "College Algebra",
@@ -13761,13 +13775,6 @@
             "name": "Numerical Methods",
             "units": "3.00",
             "description": "Advanced ideas and techniques of numerical analysis for digital computation. Topics include: linear and non-linear systems, ordinary differential equations, continuous system modeling techniques, and languages. Prerequisites: MAS 3105 and MAP 2302."
-        },
-        {
-            "subject": "MAD",
-            "code": "6409",
-            "name": "Numerical Methods II",
-            "units": "3.00",
-            "description": "This course provides an exposure to numerical techniques used in solving partial differential equations of mathematical physics and engineering. Prerequisite: MAD 5405."
         },
         {
             "subject": "MAE",
@@ -14051,6 +14058,13 @@
         },
         {
             "subject": "MAN",
+            "code": "6347",
+            "name": "Perf and Talent Mgmt",
+            "units": "3.00",
+            "description": "This course focuses on the development and implementation of effective performance management systems.  Career development and electronic performance monitoring will be covered."
+        },
+        {
+            "subject": "MAN",
             "code": "7155",
             "name": "Fund Of Beh Rsrch",
             "units": "3.00",
@@ -14139,6 +14153,20 @@
             "name": "Intro Quant RAM",
             "units": "3.00",
             "description": "A mathematical introduction to arbitrage-based pricing of derivative securities."
+        },
+        {
+            "subject": "MAP",
+            "code": "6990",
+            "name": "Fourier Analysis",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MAP",
+            "code": "6991",
+            "name": "Stochastic Numerical PDE",
+            "units": "3.00",
+            "description": "N/A"
         },
         {
             "subject": "MAP",
@@ -19553,6 +19581,13 @@
         },
         {
             "subject": "PCB",
+            "code": "5418C",
+            "name": "Adv Marine Reserves",
+            "units": "4.00",
+            "description": "Study of theory and methods for the design and management of Marine Protected Areas including a research project. Prerequisites: BSC 1010 and BSC 1011."
+        },
+        {
+            "subject": "PCB",
             "code": "5423",
             "name": "Adv Ecol:Popul/Comm",
             "units": "3.00",
@@ -20232,13 +20267,6 @@
         },
         {
             "subject": "PHC",
-            "code": "7723",
-            "name": "PH Survey Research",
-            "units": "3.00",
-            "description": "This course facilitates the systematic identification, interpretation, and understanding of survey research concepts, principles, and practices in public health. Prerequisites: PHC 6000, PHC 6065, PHC 6410, PHC 6706."
-        },
-        {
-            "subject": "PHC",
             "code": "7909C",
             "name": "Hlth Sys Readings 2",
             "units": "3.00",
@@ -20418,13 +20446,6 @@
             "name": "Philo & Feminism",
             "units": "3.00",
             "description": "A conceptual analysis of alternative feminist views. Topics include the goals of the feminist movement, sexist theories on women's nature, sexual stereotypes and androgyny, the nature of oppression, sexism, racism and homophobia."
-        },
-        {
-            "subject": "PHM",
-            "code": "4360",
-            "name": "Topics Pol Phil",
-            "units": "3.00",
-            "description": "Examines a selected topic in political philosophy, such as: justice, democracy, liberty, or an important thinker. May be repeated."
         },
         {
             "subject": "PHP",
@@ -21100,13 +21121,6 @@
         },
         {
             "subject": "POT",
-            "code": "4309",
-            "name": "Sex Power Politics",
-            "units": "3.00",
-            "description": "Theories are examined that explain differences between women's and men's power in the political arena. Their internal consistency and 'fit' with reality are also explored."
-        },
-        {
-            "subject": "POT",
             "code": "4311",
             "name": "Probs of Democracy",
             "units": "3.00",
@@ -21296,6 +21310,13 @@
         },
         {
             "subject": "PSY",
+            "code": "5605",
+            "name": "History & Systems",
+            "units": "3.00",
+            "description": "An examination of the historical foundations of modern psychology and survey of current systems and schools of psychology. Prerequisites: Graduate standing or permission of the instructor."
+        },
+        {
+            "subject": "PSY",
             "code": "5908",
             "name": "Directed Ind Study",
             "units": "0.00",
@@ -21307,6 +21328,13 @@
             "name": "Supervised Research",
             "units": "0.00",
             "description": "Research apprenticeship under the direction of a research professor or a thesis advisor. Prerequisite: Full graduate admission."
+        },
+        {
+            "subject": "PSY",
+            "code": "5938",
+            "name": "CurrTopicsNeurosci",
+            "units": "0.00",
+            "description": "This course provides students with the opportunity to present current topics in Neuroscience either from recently published literature or their own research. Course may be repeated for up to six credits"
         },
         {
             "subject": "PSY",
@@ -21328,6 +21356,13 @@
             "name": "Curr Research Topics Psy",
             "units": "3.00",
             "description": "An overview of current theory and research in psychology with a focus on the research process. Case studies illustrate the development of research programs designed to advance theory in psychology."
+        },
+        {
+            "subject": "PSY",
+            "code": "6956",
+            "name": "Psy Field Exp",
+            "units": "0.00",
+            "description": "Placement of students in applied settings for the purpose of developing community-based experience in the application of theoretical and methodological approaches. Prerequisite: Graduate standing."
         },
         {
             "subject": "PSY",
@@ -21531,6 +21566,13 @@
             "name": "Subj Area Reading",
             "units": "3.00",
             "description": "Skills, techniques and strategies for reading in content areas."
+        },
+        {
+            "subject": "RED",
+            "code": "5339",
+            "name": "Subj-Related Rdg",
+            "units": "3.00",
+            "description": "Skills, techniques and strategies for scaffolding the reading of struggling students and enhancing the comprehension and learning independence of all students using subject area materials."
         },
         {
             "subject": "RED",
@@ -22245,13 +22287,6 @@
             "name": "Prosem Soc Psy",
             "units": "3.00",
             "description": "An in-depth examination of the role of social psychology in the social sciences and the major substantive problems as they relate to contemporary societal issues. Minimum Prerequisites: An introductory course in social psychology or its equivalent."
-        },
-        {
-            "subject": "SOW",
-            "code": "2001",
-            "name": "Expl of Human Svcs Profes",
-            "units": "3.00",
-            "description": "An overview of human services professions focusing on social work, generalist human services, couples and family counseling, clinical and counseling psychology, and school counseling."
         },
         {
             "subject": "SOW",
