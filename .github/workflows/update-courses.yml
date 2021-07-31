@@ -13,4 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: pwd
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install bs4 requests
+      - name: Run course update
+        run: python3 ./src/data/courseDataUpdate.py
