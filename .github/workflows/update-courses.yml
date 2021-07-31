@@ -14,8 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Set up date environment variables
-        run: echo "BRANCH_TITLE=$(date +%s)" >> $GITHUB_ENV
-        run: echo "PR_TITLE=$(date)" >> $GITHUB_ENV
+        run: |
+          echo "BRANCH_TITLE=$(date +%s)" >> $GITHUB_ENV
+          echo "PR_TITLE=$(date)" >> $GITHUB_ENV
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
