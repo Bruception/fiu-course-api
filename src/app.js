@@ -8,6 +8,7 @@ const { version } = require('../package.json');
 const { formatHandlerWrapper } = require('./utils');
 
 const APP_START_TIME = new Date().getTime();
+let requestsFulfilled = 0;
 const PUBLIC_PATH = path.resolve(__dirname, './public');
 
 app.use(logger());
@@ -19,6 +20,7 @@ app.get('/api', formatHandlerWrapper(
     (req) => {
         const { query, body } = req;
         const results = courseDataStore.queryBy([query, body]);
+        requestsFulfilled += 1;
         return {
             data: results,
             formatOptions: courseDataStore.formatOptions,
@@ -31,7 +33,7 @@ app.get('/status', formatHandlerWrapper(
         const currentTime = new Date().getTime();
         const statusData = {
             version,
-            status: 'ok',
+            requestsFulfilled,
             uptime: currentTime - APP_START_TIME,
         };
         return { data: statusData };
