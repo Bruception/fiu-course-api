@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Set up date environment variables
+        run: echo "BRANCH_TITLE=$(date +%s)" >> $GITHUB_ENV
+        run: echo "PR_TITLE=$(date)" >> $GITHUB_ENV
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -35,8 +38,3 @@ jobs:
         with:
           branch: ${{ env.BRANCH_TITLE }}
           title: ${{ env.PR_TITLE }}
-        env:
-          BRANCH_TITLE: "course-update-`date +%s`"
-          PR_TITLE: "Course Update `date`"
-
-          
