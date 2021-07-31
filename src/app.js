@@ -4,50 +4,48 @@ const path = require('path');
 
 const { logger, errorHandler } = require('./middleware');
 const courseDataStore = require('./courseDataStore');
-const formatService = require('./formatService');
 const { version } = require('../package.json');
+const { formatHandlerWrapper } = require('./utils');
 
 const APP_START_TIME = new Date().getTime();
+let requestsFulfilled = 0;
+const PUBLIC_PATH = path.resolve(__dirname, './public');
 
-app.use('/', express.static(path.resolve(__dirname, './public')));
 app.use(logger());
+app.use(express.json());
 app.disable('x-powered-by');
+app.use('/', express.static(PUBLIC_PATH));
 
-app.get('/api', (req, res) => {
-    const { query } = req;
-    const results = courseDataStore.queryBy(query);
-    const {
-        formattedData,
-        contentType,
-    } = formatService.format(results, {
-        format: query.format,
-        ...courseDataStore.formatOptions,
-    });
-    res.setHeader('Content-Type', contentType);
-    return res.status(200).send(formattedData);
-});
+app.get('/api', formatHandlerWrapper(
+    (req) => {
+        const { query, body } = req;
+        const results = courseDataStore.queryBy([query, body]);
+        requestsFulfilled += 1;
+        return {
+            data: results,
+            formatOptions: courseDataStore.formatOptions,
+        };
+    }
+));
 
-app.get('/status', (req, res) => {
-    const currentTime = new Date().getTime();
-    const statusData = {
-        version,
-        status: 'ok',
-        uptime: currentTime - APP_START_TIME,
-    };
-    const formatOptions = {
-        format: req.query.format,
-    };
-    const { formattedData, contentType } = formatService.format(statusData, formatOptions);
-    res.setHeader('Content-Type', contentType);
-    return res.status(200).send(formattedData);
-});
+app.get('/status', formatHandlerWrapper(
+    () => {
+        const currentTime = new Date().getTime();
+        const statusData = {
+            version,
+            requestsFulfilled,
+            uptime: currentTime - APP_START_TIME,
+        };
+        return { data: statusData };
+    }
+));
 
 app.get('/favicon.ico', (_req, res) => {
-    return res.sendStatus(204);
+    return res.status(204).end();
 });
 
 app.get('*', (_req, res) => {
-    return res.status(302).redirect('/');
+    return res.redirect('/');
 });
 
 app.use(errorHandler);

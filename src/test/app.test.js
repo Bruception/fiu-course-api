@@ -45,18 +45,18 @@ describe('app: Testing endpoints.', () => {
             const { statusCode, headers, text } = await request(app).get('/status');
             expect(statusCode).toBe(200);
             expect(headers['content-type']).toBe('application/json; charset=utf-8');
-            const { version: appVersion, status, uptime } = JSON.parse(text);
+            const { version: appVersion, requestsFulfilled, uptime } = JSON.parse(text);
             expect(appVersion).toBe(version);
-            expect(status).toBe('ok');
+            expect(requestsFulfilled.toString()).toMatch(/^\d+$/);
             expect(uptime.toString()).toMatch(/^\d+$/);
         });
         test('/status: Query with format parameter correctly formats data.', async () => {
             const { statusCode, headers, text } = await request(app).get('/status?format=yaml');
             expect(statusCode).toBe(200);
             expect(headers['content-type']).toBe('text/plain; charset=utf-8');
-            const { version: appVersion, status, uptime } = yaml.parse(text);
+            const { version: appVersion, requestsFulfilled, uptime } = yaml.parse(text);
             expect(appVersion).toBe(version);
-            expect(status).toBe('ok');
+            expect(requestsFulfilled.toString()).toMatch(/^\d+$/);
             expect(uptime.toString()).toMatch(/^\d+$/);
         });
     });

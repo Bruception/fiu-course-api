@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Documentation</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+        <link rel='stylesheet' href='../styles.css'>
+        <script defer type='text/javascript' src='./index.js'></script>
+    </head>
+    <body>
+        <h1 id='title'>FIU Course API <span id='app-version'></span> Documentation</h1>
+        <div>
+            <p>Try changing the <span class='highlight'>subject</span> value below!</p>
+            <p class='request'><span class='highlight'>GET</span> /api?subject=<input id='sample-subject-query' value='COP' maxlength='3'></p>
+            <pre id='sample-response' class='sample-query'></pre>
+        </div>
+        <div>
+            <h1>Documentation</h1>
+            <p>
+                You can query courses using the following query string parameters.
+                (Alternatively, you can specify these in the body of a request with JSON.)
+            </p>
+            <ul>
+                <li><span class='highlight'>subject</span></li>
+                <li><span class='highlight'>code</span></li>
+                <li><span class='highlight'>units</span></li>
+                <li><span class='highlight'>isLab</span></li>
+                <li><span class='highlight'>keywords</span></li>
+                <li><span class='highlight'>format</span></li>
+                <li><span class='highlight'>excludes</span></li>
+                <li><span class='highlight'>limit</span></li>
+                <li><span class='highlight'>sortBy</span></li>
+                <li><span class='highlight'>reverseOrder</span></li>
+            </ul>
+            <div>
+                <h2>Combined Queries</h2>
+                <p>
+                    Let's say we are trying to find all courses whose <span class='highlight'>subject</span> starts with J, <span class='highlight'>code</span> starts with 1, and is 5 <span class='highlight'>units</span>.
+                    Here is an example of how you might query for this.    
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=J&code=1&units=5</p>
+                <pre id='combined-queries-response' class='sample-query'></pre>
+            </div>
+            <div>
+                <h2>Multi-value Queries</h2>
+                <p>
+                    Let's say we are trying to find all <span class='highlight'>labs</span> whose <span class='highlight'>subject</span> starts with AST or COP.
+                    Here is an example of how you might query for this.    
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=AST&subject=COP&isLab</p>
+                <pre id='multi-value-queries-response' class='sample-query'></pre>
+            </div>
+            <div>
+                <h2>Data Format</h2>
+                <p>
+                    You can specify how the returned data is serialized with the <span class='highlight'>format</span> parameter.
+                    Currently this API only supports the following formats:
+                    <ul>
+                        <li>JSON</li>
+                        <li>Text</li>
+                        <li>XML</li>
+                        <li>YAML</li>
+                    </ul>
+                    Here is an example of how you might query your data in YAML.
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?format=yaml</p>
+            </div>
+            <div>
+                <h2>Keyword Search</h2>
+                <p>
+                    You can fuzzy search for courses by their name and description with the <span class='highlight'>keywords</span> parameter.
+                    The keywords parameter is a string where the words are space-delimited.
+                    This API will <span class='highlight'>reject</span> any string with more than <span class='highlight'>5</span> keywords (stopwords are not included).
+                    Here is an example of a query using the keywords parameter:
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?keywords=electric theories magnets</p>
+                <pre id='keywords-sample-query' class='sample-query'></pre>
+            </div>
+            <div>
+                <h2>Excluding Data</h2>
+                <p>
+                    You can exclude any unnecessary data using the <span class='highlight'>excludes</span> parameter.
+                    The excludes parameter is a string where the unnecessary fields are space-delimited.
+                    You can exclude <span class='highlight'>all</span> properties using <span class='highlight'>*</span>.
+                    Here is an example of a query using the excludes parameter:
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=SPN&excludes=subject code units description</p>
+                <pre id='excludes-sample-query' class='sample-query'></pre>
+            </div>
+            <div>
+                <h2>Limiting Results</h2>
+                <p>
+                    You can limit the number of results with the <span class='highlight'>limit</span> parameter.
+                    The limit parameter should be a positive safe integer.
+                    Here is an example of a query using the limit parameter:
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=3</p>
+                <pre id='limit-sample-query' class='sample-query'></pre>
+            </div>
+            <div>
+                <h2>Ordering Results</h2>
+                <p>
+                    You can order the results using the <span class='highlight'>sortBy</span> parameter.
+                    Reverse the order of results by using the <span class='highlight'>reverseOrder</span> parameter.
+                    Here is an example of a query using these parameter:
+                </p>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=3&sortBy=units&reverseOrder</p>
+                <pre id='order-sample-query' class='sample-query'></pre>
+            </div>
+        </div>
+        <div>
+            <h1>Fun Facts</h1>
+            <ul>
+                <li>
+                    <p><span class='highlight'>FIU</span> currently offers <span id='course-offerings' class='highlight'></span> courses.</p>
+                </li>
+                <li>
+                    <p><span id='zero-unit-courses' class='highlight'></span> courses are 0.00 units.</p>
+                </li>
+                <li>
+                    <p>More to come ...</p>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
