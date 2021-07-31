@@ -8,5 +8,5 @@ parsedCourses = {
     'workers': MAX_WORKERS
 }
 
-with open('data.json', 'w') as output:
+with open('datas.json', 'w') as output:
     json.dump({'data': parsedCourses}, output, default=lambda o: o.__dict__, indent=4)
