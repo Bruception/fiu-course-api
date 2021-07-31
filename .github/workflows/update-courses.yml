@@ -1,11 +1,10 @@
 on:
-  push:
+  workflow_dispatch:
     branches: [ workflow-test ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    working-directory: ./fiu-course-api/src/data
     steps:
       - uses: actions/checkout@v2
       - run: pwd
