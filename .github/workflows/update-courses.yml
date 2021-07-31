@@ -12,8 +12,8 @@ jobs:
   update-courses:
     runs-on: ubuntu-latest
     env:
-      DATE_UNIX: `date +%s`
-      DATE: `date`
+      DATE_UNIX: "`date +%s`"
+      DATE: "`date`"
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
