@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`formatService: Testing the formatService module. formatService.format: Correctly serializes object to text. 1`] = `
-"total: 22
+"total: 21
 results: 
 subject: CAP
 code: 2752
@@ -48,11 +48,6 @@ code: 2200
 name: Interm Chinese
 units: 3.00
 description: Provides intermediate training in the acquisition and application of basic language skills. Prerequisites: One year prior study at college level or permission of the instructor.
-subject: CHI
-code: 2201
-name: Interm CHI II
-units: 3.00
-description: To improve students' speaking, writing, listening, reading skills in Chinese. Students learn how to use useful expressions of experience and thought.
 subject: CHM
 code: 2200
 name: Survey Organic Chem
