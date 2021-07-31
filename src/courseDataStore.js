@@ -161,8 +161,9 @@ const courseDataStore = {
     _data: [],
     _tokenToCoursesMap: {},
     init() {
-        const { data } = require(COURSE_DATA_PATH);
+        const { data, dataAsOf } = require(COURSE_DATA_PATH);
         this._data = data.map(Object.freeze);
+        this._dataAsOf = dataAsOf;
         this._tokenToCoursesMap = getTokenToCoursesMap(this._data);
         Object.keys(parameterMap).forEach((parameter, index) => {
             parameterMap[parameter].priority = index;
@@ -183,6 +184,7 @@ const courseDataStore = {
 }.init();
 
 module.exports = {
+    dataAsOf: courseDataStore._dataAsOf,
     queryBy: courseDataStore.queryBy.bind(courseDataStore),
     formatOptions: {
         shapeFunction: (data) => {
