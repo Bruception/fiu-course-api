@@ -9,7 +9,7 @@ on:
         # required: true
 
 jobs:
-  test:
+  update-courses:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -22,7 +22,8 @@ jobs:
       #     python3 -m pip install --upgrade pip
       #     pip install bs4 requests
       - name: Run course update
-        run: MAX_WORKERS=10 python3 ./src/data/test-script.py
+        working-directory: ./src/data
+        run: MAX_WORKERS=10 python3 ./test-script.py
       - name: Create commits
         run: |
           git config user.name 'Bruce Berrios'
