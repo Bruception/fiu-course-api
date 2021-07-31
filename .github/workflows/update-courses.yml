@@ -41,3 +41,4 @@ jobs:
           branch: ${{ env.BRANCH_TITLE }}
           title: ${{ env.PR_TITLE }}
           body: ${{ env.PR_TITLE }}
+          committer: Bruception <bberr022@fiu.edu>
