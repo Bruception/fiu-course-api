@@ -33,8 +33,9 @@ app.get('/status', formatHandlerWrapper(
         const currentTime = new Date().getTime();
         const statusData = {
             version,
-            requestsFulfilled,
             uptime: currentTime - APP_START_TIME,
+            dataAsOf: courseDataStore.dataAsOf,
+            requestsFulfilled,
         };
         return { data: statusData };
     }
