@@ -11,9 +11,6 @@ on:
 jobs:
   update-courses:
     runs-on: ubuntu-latest
-    env:
-      DATE_UNIX: "`date +%s`"
-      DATE: "`date`"
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
@@ -38,3 +35,8 @@ jobs:
         with:
           branch: course-update-$DATE_UNIX
           title: Course Update $DATE
+        env:
+          DATE_UNIX: "`date +%s`"
+          DATE: "`date`"
+
+          
