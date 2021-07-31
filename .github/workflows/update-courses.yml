@@ -1,0 +1,42 @@
+name: Update courses
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manually triggering this workflow'
+        required: false
+  schedule:
+    - cron:  '0 0 1 * *'
+
+jobs:
+  update-courses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up date environment variables
+        run: |
+          echo "BRANCH_TITLE=course-update-$(date +%s)" >> $GITHUB_ENV
+          echo "PR_TITLE=Course Update - $(date)" >> $GITHUB_ENV
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install bs4 requests
+      - name: Run course update
+        working-directory: ./src/data
+        run: MAX_WORKERS=15 OUTPUT_FILE=course-data.json python3 ./courseDataUpdate.py
+      - name: Create commits
+        run: |
+          git config user.name 'Bruce Berrios'
+          git config user.email 'bberr022@fiu.edu'
+          git add ./src/data/course-data.json
+          git commit -m 'Update courses'
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          branch: ${{ env.BRANCH_TITLE }}
+          title: ${{ env.PR_TITLE }}

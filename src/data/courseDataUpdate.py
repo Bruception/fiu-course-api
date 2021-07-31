@@ -1,10 +1,12 @@
-import json, math, time, requests
+import os, json, math, time, requests
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SEP = '*' * 64
 BASE_URL = 'https://m.fiu.edu/catalog/'
 SUBJECT_URL = f'{BASE_URL}index.php?action=subjectList'
+MAX_WORKERS = os.environ.get('MAX_WORKERS') or 50
+OUTPUT_FILE = os.environ.get('OUTPUT_FILE') or 'data.json'
 
 def getParsedCourse(soup, href):
     courseData = soup.find('div', id='content')
@@ -40,7 +42,7 @@ def parseData(data, parseFunction, completeFunction):
         soup = BeautifulSoup(response.text, 'html.parser')
         time.sleep(0.1)
         return parseFunction(soup, href)
-    with ThreadPoolExecutor(max_workers=50) as executor:
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futureToData = {executor.submit(getParsedData, obj): obj for obj in data}
         for future in as_completed(futureToData):
             try:
@@ -60,7 +62,7 @@ def writeCoursesToJSON():
     courseURLS = parseData(subjectURLS, getParsedSubject, extendCourseURLS)
     parsedCourses = sorted(parseData(courseURLS, getParsedCourse, appendCourseData), key=courseKey)
     print(f'{SEP}\nWriting course data to data.json ...\n{SEP}')
-    with open('data.json', 'w') as output:
+    with open(OUTPUT_FILE, 'w') as output:
         json.dump({'data': parsedCourses}, output, default=lambda o: o.__dict__, indent=4)
     return parsedCourses
 
