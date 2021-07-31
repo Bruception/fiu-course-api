@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 SEP = '*' * 64
 BASE_URL = 'https://m.fiu.edu/catalog/'
 SUBJECT_URL = f'{BASE_URL}index.php?action=subjectList'
-MAX_WORKERS = os.environ.get('MAX_WORKERS') or 50
+MAX_WORKERS = int(os.environ.get('MAX_WORKERS')) or 50
 OUTPUT_FILE = os.environ.get('OUTPUT_FILE') or 'data.json'
 
 def getParsedCourse(soup, href):
