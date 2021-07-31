@@ -1,6 +1,12 @@
+name: Update courses
+
 on:
   workflow_dispatch:
     branches: [ workflow-test ]
+    inputs:
+      reason:
+        description: 'Reason for manually triggering this workflow'
+        required: true
 
 jobs:
   test:
