@@ -1,14 +1,15 @@
-import os, json, math, time, requests
+import calendar, os, json, math, time, requests
+from datetime import datetime
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SEP = '*' * 64
 BASE_URL = 'https://m.fiu.edu/catalog/'
 SUBJECT_URL = f'{BASE_URL}index.php?action=subjectList'
-MAX_WORKERS = int(os.environ.get('MAX_WORKERS')) or 50
+MAX_WORKERS = int(os.environ.get('MAX_WORKERS') or 50)
 OUTPUT_FILE = os.environ.get('OUTPUT_FILE') or 'data.json'
 
-def getParsedCourse(soup, href):
+def getParsedCourse(soup):
     courseData = soup.find('div', id='content')
     subject, code = courseData.div.h1.text.split()
     courseULS = courseData.find_all('ul')
@@ -62,8 +63,14 @@ def writeCoursesToJSON():
     courseURLS = parseData(subjectURLS, getParsedSubject, extendCourseURLS)
     parsedCourses = sorted(parseData(courseURLS, getParsedCourse, appendCourseData), key=courseKey)
     print(f'{SEP}\nWriting course data to data.json ...\n{SEP}')
+    now = datetime.utcnow()
+    unixTime = calendar.timegm(now.utctimetuple())
     with open(OUTPUT_FILE, 'w') as output:
-        json.dump({'data': parsedCourses}, output, default=lambda o: o.__dict__, indent=4)
+        dataSchema = {
+            'dataAsOf': unixTime,
+            'data': parsedCourses,
+        }
+        json.dump(dataSchema, output, default=lambda o: o.__dict__, indent=4)
     return parsedCourses
 
 def truncate(number, digits) -> float:
