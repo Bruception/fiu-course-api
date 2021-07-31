@@ -33,10 +33,10 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         with:
-          branch: "course-update-$DATE_UNIX"
-          title: "Course Update $DATE"
+          branch: ${{ env.BRANCH_TITLE }}
+          title: ${{ env.PR_TITLE }}
         env:
-          DATE_UNIX: "`date +%s`"
-          DATE: "`date`"
+          BRANCH_TITLE: "course-update-`date +%s`"
+          PR_TITLE: "Course Update `date`"
 
           
