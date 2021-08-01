@@ -1,4 +1,4 @@
-import calendar, os, json, math, time, requests
+import sys, calendar, os, json, math, time, requests
 from datetime import datetime
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -9,7 +9,7 @@ SUBJECT_URL = f'{BASE_URL}index.php?action=subjectList'
 MAX_WORKERS = int(os.environ.get('MAX_WORKERS') or 50)
 OUTPUT_FILE = os.environ.get('OUTPUT_FILE') or 'data.json'
 
-def getParsedCourse(soup):
+def getParsedCourse(soup, href):
     courseData = soup.find('div', id='content')
     subject, code = courseData.div.h1.text.split()
     courseULS = courseData.find_all('ul')
@@ -45,12 +45,14 @@ def parseData(data, parseFunction, completeFunction):
         return parseFunction(soup, href)
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futureToData = {executor.submit(getParsedData, obj): obj for obj in data}
-        for future in as_completed(futureToData):
-            try:
+        try:
+            for future in as_completed(futureToData):
                 data = future.result()
                 completeFunction(data, parsedData)
-            except Exception as exception:
-                print(exception)
+        except Exception as exception:
+            print(exception)
+            executor.shutdown(wait=False, cancel_futures=True)
+            raise
     return parsedData
 
 def courseKey(course):
@@ -77,8 +79,11 @@ def truncate(number, digits) -> float:
     stepper = 10.0 ** digits
     return math.trunc(stepper * number) / stepper
 
-start = time.time()
-courses = writeCoursesToJSON()
-end = time.time()
-
-print(f'Finished parsing {len(courses)} courses in {truncate(end - start, 3)} seconds!')
+try:
+    start = time.time()
+    courses = writeCoursesToJSON()
+    end = time.time()
+    print(f'Finished parsing {len(courses)} courses in {truncate(end - start, 3)} seconds!')
+except Exception as exception:
+    print('Fail!')
+    sys.exit(1)
