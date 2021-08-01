@@ -7,7 +7,7 @@ on:
         description: 'Reason for manually triggering this workflow'
         required: false
   schedule:
-    - cron:  '0 0 1 * *'
+    - cron:  '0 0 1,15 * *'
 
 jobs:
   update-courses:
