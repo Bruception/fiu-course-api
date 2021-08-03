@@ -7,7 +7,7 @@ on:
         description: 'Reason for manually triggering this workflow'
         required: false
   schedule:
-    - cron:  '0 0 1,15 * *'
+    - cron:  '0 0 * * 0'
 
 jobs:
   update-courses:
@@ -28,7 +28,7 @@ jobs:
           pip install bs4 requests
       - name: Run course update
         working-directory: ./src/data
-        run: MAX_WORKERS=25 OUTPUT_FILE=course-data.json python3 ./courseDataUpdate.py
+        run: MAX_RETRIES=2 MAX_WORKERS=25 OUTPUT_FILE=course-data.json python3 ./courseDataUpdate.py
       - name: Create commits
         run: |
           git config user.name 'Bruce Berrios'
