@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1627750560,
+    "dataAsOf": 1628031386,
     "data": [
         {
             "subject": "ACG",
@@ -1347,13 +1347,6 @@
         },
         {
             "subject": "ART",
-            "code": "3930",
-            "name": "Art Spec Topics",
-            "units": "3.00",
-            "description": "Rotating special topics in studio art. May be repeated with change of content."
-        },
-        {
-            "subject": "ART",
             "code": "4312C",
             "name": "Advanced Drawing",
             "units": "3.00",
@@ -1547,13 +1540,6 @@
             "name": "Research",
             "units": "0.00",
             "description": "Students may study or research an individual art project with an art faculty member. Complexity and amount of work will determine the number of credit hours granted. May be repeated."
-        },
-        {
-            "subject": "ART",
-            "code": "5930C",
-            "name": "Art Special Topics",
-            "units": "3.00",
-            "description": "Advanced drawing. May be repeated."
         },
         {
             "subject": "ART",
@@ -6482,13 +6468,6 @@
             "name": "Inst. Strat & Class Mgmt",
             "units": "3.00",
             "description": "Includes instructional decisions, classroom management, assessment, and ethics that are supportive of all students' thinking and individual differences. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "EDG",
-            "code": "5707",
-            "name": "Cr Cult Stud Ed",
-            "units": "3.00",
-            "description": "This is an overview of immigration patterns in U.S., discussions of theories of ethnicity, acculturation, intercultural communication. Development of teaching strategies for multicultural classrooms. Multicultural issues in elementary, secondary, adult, vocational, and special education will also be addressed."
         },
         {
             "subject": "EDG",
@@ -12645,13 +12624,6 @@
         },
         {
             "subject": "LAS",
-            "code": "6003",
-            "name": "Survey Latin America",
-            "units": "3.00",
-            "description": "A multidisciplinary, multimedia survey of the history, politics, societies and cultures of the countries of Latin America and the Caribbean. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "LAS",
             "code": "6934",
             "name": "Lac Research Sem",
             "units": "3.00",
@@ -13041,6 +13013,13 @@
             "name": "Civil Externship Placement",
             "units": "2.00",
             "description": "To enhance the student's understanding of the legal profession and its standards by exposing the student relevant lectures and experiential opportunities in civil litigation. Prerequisite or Corequisite: Professional Responsibility."
+        },
+        {
+            "subject": "LAW",
+            "code": "6950",
+            "name": "Law Review: Board of Editors",
+            "units": "1.00",
+            "description": "Students selected as members of the Board of Editors of the Law Review may earn credit for satisfactory completion of their Board duties.  As members of the Board of Editors, students will solicit, select, edit and publish articles submitted by lawyers, judges, and professors from across the country.  The Board of Editors also may organize and solicit participants for symposia on legal topics of current interest and publish the papers presented at the symposia.  Student editors will supervise the preparation of student comments by new members of the Law Review and will select and edit those comments for possible publication.  Student editors will train new Law Review members on proper citation format and cite-checking requirements for articles published in the Law Review.  Student editors will be responsible for all other aspects of the Law Review, including obtaining subscriptions, managing its finances, working with the publisher and others in the printing and distribution of the Law Review."
         },
         {
             "subject": "LAW",
@@ -14112,13 +14091,6 @@
             "name": "Top In Math Model",
             "units": "4.00",
             "description": "Introductory survey of applied mathematics with emphasis on modeling of physics and biological problems in terms of differential equations."
-        },
-        {
-            "subject": "MAP",
-            "code": "4215",
-            "name": "Stoch Differential Equations",
-            "units": "3.00",
-            "description": "Introduces the fundamental theories and important applications of stochastic differential equations. Topics include stochastic calculus, stochastic differential equations and applications."
         },
         {
             "subject": "MAP",
@@ -15820,13 +15792,6 @@
             "name": "English Diction",
             "units": "1.00",
             "description": "Develop the skills in the proper enunciation of the English language as used in opera, oratorio and art song literature."
-        },
-        {
-            "subject": "MUS",
-            "code": "2221",
-            "name": "French Diction",
-            "units": "1.00",
-            "description": "Develop the skills in the proper enunciation of the French language as used by singers in opera, oratorio and art song literature."
         },
         {
             "subject": "MUS",
