@@ -3,11 +3,14 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+ENV = os.environ
 SEP = '*' * 64
 BASE_URL = 'https://m.fiu.edu/catalog/'
 SUBJECT_URL = f'{BASE_URL}index.php?action=subjectList'
-MAX_WORKERS = int(os.environ.get('MAX_WORKERS') or 50)
-OUTPUT_FILE = os.environ.get('OUTPUT_FILE') or 'data.json'
+MAX_WORKERS = int(ENV.get('MAX_WORKERS') or 50)
+MAX_RETRIES = int(ENV.get('MAX_RETRIES') or 5)
+OUTPUT_FILE = ENV.get('OUTPUT_FILE') or 'data.json'
+REQUEST_TIMEOUT = 30
 
 def getParsedCourse(soup, href):
     courseData = soup.find('div', id='content')
@@ -39,7 +42,7 @@ def parseData(data, parseFunction, completeFunction):
     parsedData = []
     def getParsedData(data):
         href = data.get('href')
-        response = requests.get(f'{BASE_URL}{href}')
+        response = requests.get(f'{BASE_URL}{href}', timeout=REQUEST_TIMEOUT)
         soup = BeautifulSoup(response.text, 'html.parser')
         time.sleep(0.1)
         return parseFunction(soup, href)
@@ -49,8 +52,7 @@ def parseData(data, parseFunction, completeFunction):
             for future in as_completed(futureToData):
                 data = future.result()
                 completeFunction(data, parsedData)
-        except Exception as exception:
-            print(exception)
+        except Exception:
             executor.shutdown(wait=False, cancel_futures=True)
             raise
     return parsedData
@@ -58,11 +60,16 @@ def parseData(data, parseFunction, completeFunction):
 def courseKey(course):
     return course['subject'] + course['code']
 
+courseURLS = []
+
 def writeCoursesToJSON():
-    response = requests.get(SUBJECT_URL)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    subjectURLS = soup.find('fieldset').ul.find_all('a')
-    courseURLS = parseData(subjectURLS, getParsedSubject, extendCourseURLS)
+    print('Starting course data fetch job.')
+    global courseURLS
+    if (not courseURLS):
+        response = requests.get(SUBJECT_URL, timeout=REQUEST_TIMEOUT)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        subjectURLS = soup.find('fieldset').ul.find_all('a')
+        courseURLS = parseData(subjectURLS, getParsedSubject, extendCourseURLS)
     parsedCourses = sorted(parseData(courseURLS, getParsedCourse, appendCourseData), key=courseKey)
     print(f'{SEP}\nWriting course data to data.json ...\n{SEP}')
     now = datetime.utcnow()
@@ -79,11 +86,31 @@ def truncate(number, digits) -> float:
     stepper = 10.0 ** digits
     return math.trunc(stepper * number) / stepper
 
-try:
-    start = time.time()
-    courses = writeCoursesToJSON()
-    end = time.time()
-    print(f'Finished parsing {len(courses)} courses in {truncate(end - start, 3)} seconds!')
-except Exception as exception:
-    print('Fail!')
-    sys.exit(1)
+def init():
+    success = False
+    attempts = 0
+    interval = 30.0
+    exponentialRate = 1.75
+    maxRetryDelay = 120.0
+    while (not success):
+        try:
+            start = time.time()
+            courses = writeCoursesToJSON()
+            end = time.time()
+            print(f'Finished parsing {len(courses)} courses in {truncate(end - start, 3)} seconds.')
+            success = True
+        except Exception as exception:
+            print(exception)
+            attempts += 1
+            if (attempts > MAX_RETRIES):
+                break
+            print(f'Failed on attempt {attempts}. Retrying in {interval} second(s).')
+            time.sleep(interval)
+            interval *= (exponentialRate ** attempts)
+            interval = truncate(min(interval, maxRetryDelay), 2)
+    if (not success):
+        print(f'Failed after {attempts} attempts. Exiting with status code 1.')
+        sys.exit(1)
+
+if (__name__ == '__main__'):
+    init()
