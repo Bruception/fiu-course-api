@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1628383363,
+    "dataAsOf": 1628988124,
     "data": [
         {
             "subject": "ACG",
@@ -79,6 +79,13 @@
             "description": "Original research that is supervised by a faculty committee and defended openly before the university committee. Prerequisites: Permission of Major Professor and Doctoral Candidacy."
         },
         {
+            "subject": "ACG",
+            "code": "7981",
+            "name": "Dissertation Preparation",
+            "units": "1.00",
+            "description": "Preparatory background research and study to begin development of dissertation proposal. Students should be able to complete proposal by end of the course. Prerequisite: Completion of TIER 1 courses. (on demand)"
+        },
+        {
             "subject": "ADE",
             "code": "5383",
             "name": "Inst Anal & Design",
@@ -112,13 +119,6 @@
             "name": "Dir Stud Ade/Hrd",
             "units": "0.00",
             "description": "This is a course of specialized intensive study in areas of interest to the student. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "ADE",
-            "code": "6925",
-            "name": "Wksp Ae/Hrd",
-            "units": "0.00",
-            "description": "The course includes intensive development of selected competencies related to instructional, curricular and/or administrative skills of special interest to students in adult education/human resource development."
         },
         {
             "subject": "ADE",
@@ -182,20 +182,6 @@
             "name": "Multicultural Mar Comm",
             "units": "3.00",
             "description": "The focus of this course is on how to communicate effectively and strategically in a multicultural environment. The course covers the impact of culture in marketing communications."
-        },
-        {
-            "subject": "ADV",
-            "code": "4601",
-            "name": "Account Planning",
-            "units": "3.00",
-            "description": "This course introduces the student to contemporary account planning techniques. It stresses the interrelationship between advertising and the consumer and the role of consumer behavior. Prerequisites: ADV 3200 Corequisite: COM 4310"
-        },
-        {
-            "subject": "ADV",
-            "code": "4711",
-            "name": "Portfolio Workshop",
-            "units": "3.00",
-            "description": "Focus will be directed on building creative portfolio pieces for multiplication campaigns. Prerequisites: ADV 3200"
         },
         {
             "subject": "ADV",
@@ -553,13 +539,6 @@
             "name": "Psychedelics and Culture",
             "units": "3.00",
             "description": "Multidisciplinary survey of role of psychedelics in shamanism and world religions, and in research on addiction, depression, creativity and spirituality."
-        },
-        {
-            "subject": "ANT",
-            "code": "4930",
-            "name": "Topics In Ant",
-            "units": "3.00",
-            "description": "Special courses dealing with advanced topics in the major anthropological subdisciplines: (1) social and cultural anthropology, (2) applied anthropology, (3) physical anthropology, (4) linguistics, and (5) archaeology. Instruction by staff or visiting specialists. Topics to be announced. Instructor's permission required. May be repeated."
         },
         {
             "subject": "ANT",
@@ -1361,6 +1340,13 @@
         },
         {
             "subject": "ART",
+            "code": "4940",
+            "name": "Art Internship",
+            "units": "0.00",
+            "description": "Experience in art practice learned through work with licensed professionals."
+        },
+        {
+            "subject": "ART",
             "code": "4952C",
             "name": "Thesis I",
             "units": "3.00",
@@ -1465,6 +1451,13 @@
             "description": "Students will locate and discuss their own work within the context of the contemporary art world.  Also, issues and practical concerns for the professional artist will be addressed, such as dealing with guidelines, grant writing and business procedures.  Required for MFA students."
         },
         {
+            "subject": "ART",
+            "code": "5940",
+            "name": "Advanced Art Internship",
+            "units": "0.00",
+            "description": "Experience in art practice learned through work with licensed professionals. Prerequisite: Limited to MFA Students in the department of Art and Art History."
+        },
+        {
             "subject": "ASH",
             "code": "3223",
             "name": "Middle East 1800-pres",
@@ -1505,13 +1498,6 @@
             "name": "ASL I",
             "units": "3.00",
             "description": "A linguistic foundation in ASL, including a cognitive understanding of basic linguistic principles of the language, expressive (signing) ability and receptive processing of sign language."
-        },
-        {
-            "subject": "ASL",
-            "code": "1150",
-            "name": "American Sign Language II",
-            "units": "3.00",
-            "description": "A second-semester level of instruction in ASL, including cognitive understanding of linguistic principles of the language, expressive (signing) ability and receptive processing of sign language.Prerequisite: ASL I"
         },
         {
             "subject": "ASN",
@@ -1963,13 +1949,6 @@
         },
         {
             "subject": "BCN",
-            "code": "5406",
-            "name": "Princ Of Bldg Str",
-            "units": "3.00",
-            "description": "Applications of the principles of mechanics to engineering problems of equilibrium, strength, and stiffness. Topics include equilibrium of forces, stress, strain, torsion, beams, and columns."
-        },
-        {
-            "subject": "BCN",
             "code": "5585",
             "name": "Sustainable Const",
             "units": "3.00",
@@ -2033,13 +2012,6 @@
         },
         {
             "subject": "BCN",
-            "code": "5772",
-            "name": "Mgmt Const Org",
-            "units": "3.00",
-            "description": "This course studies the management of a construction company. Topics included are: company organization, incorporation structures, policies and procedures, finance, accounting, information modeling, bidding strategies, and operation."
-        },
-        {
-            "subject": "BCN",
             "code": "5774",
             "name": "Topics In Int Const",
             "units": "3.00",
@@ -2096,13 +2068,6 @@
         },
         {
             "subject": "BCN",
-            "code": "6916",
-            "name": "Dev In Const Tech",
-            "units": "3.00",
-            "description": "Study of advanced field techniques and emerging uses worldwide. Information flow and creativity are highlighted as crucial elements which stimulate new developments. This course prepares the students to understand and deal with concepts of change."
-        },
-        {
-            "subject": "BCN",
             "code": "6971",
             "name": "Thesis",
             "units": "1.00",
@@ -2134,7 +2099,7 @@
             "code": "3403",
             "name": "Eng An Bio Sys I",
             "units": "3.00",
-            "description": "A quantitative, model approach to physiological systems at the cellular and tissue level.  Thermodynamic, biochemical and biophysical principles of the cell, general system anatomy and functionality."
+            "description": "A quantitative, model approach to physiological systems at the cellular and tissue level.  Thermodynamic, biochemical and biophysical principles of the cell, general system anatomy and functionality. Prerequisites: PHY 2049 (with a 'C' or better) and CHM 2210 (with a 'C' or better). Corequisite: BME 2740."
         },
         {
             "subject": "BME",
@@ -2306,9 +2271,16 @@
         },
         {
             "subject": "BME",
+            "code": "6907",
+            "name": "BME MS Project",
+            "units": "3.00",
+            "description": "Individual work culminating in a professional practice-oriented report suitable for the requirements of the Professional Track of the MS program in biomedical engineering.  Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "BME",
             "code": "6910",
             "name": "Supervised Research",
-            "units": "0.00",
+            "units": "1.00",
             "description": "Graduate level biomedical engineering research carried out under the supervision of a faculty member."
         },
         {
@@ -2478,6 +2450,13 @@
             "name": "Tropical Botany",
             "units": "3.00",
             "description": "How environmental factors affect the distribution of vegetation, and the morphology and physiology of plants in the tropics. Emphasis on tropical plants of economic importance."
+        },
+        {
+            "subject": "BOT",
+            "code": "4404",
+            "name": "Phycology",
+            "units": "3.00",
+            "description": "The biology of marine and freshwater algae, with an emphasis on structure, function, reproduction, classification, and ecology."
         },
         {
             "subject": "BOT",
@@ -2715,7 +2694,7 @@
             "code": "4931",
             "name": "Senior Seminar",
             "units": "1.00",
-            "description": "An exploration of various research works in biological sciences. Oral presentation by the students required."
+            "description": "An exploration of various research works in biological sciences. Oral presentation by the students required. Prerequisites or Corequisites:  PCB3043,PCB4674, PCB 3063, and PCB 4023 or OCP 3002, or BSC 3848"
         },
         {
             "subject": "BSC",
@@ -2832,16 +2811,9 @@
         {
             "subject": "BUL",
             "code": "4321",
-            "name": "Bus Law II",
+            "name": "Advanced Business Law",
             "units": "3.00",
             "description": "Substantive issues and principles of law including agency, partnership and corporation law, commercial paper, antitrust, employment, administrative, environmental and computer law; ethical issues in business law. Prerequisite: (a) Grade of C or higher in BUL 4310 or BUL 4320; and (b) qualifying Accounting Entrance Exam score and GPA (BUEE only)"
-        },
-        {
-            "subject": "CAP",
-            "code": "2752",
-            "name": "Fundamentals of Data Sci.",
-            "units": "3.00",
-            "description": "This course will teach data science fundamentals to undergraduate non-CS majors. The focus will be on real-world applications and use of associated analysis,  Visualization tools, Python programming. None for B.S. or B.A. standing or permission of the instructor."
         },
         {
             "subject": "CAP",
@@ -3846,6 +3818,13 @@
         },
         {
             "subject": "CHM",
+            "code": "6340",
+            "name": "Organic Geochem",
+            "units": "3.00",
+            "description": "Organic geochemistry of recent and ancient environments. Characteristics, origin, and transformation of organic matter in the geosphere, including formation of crude oil. Prerequisites: CHM 2211, CHM 3411, CHM 4130, GLY 1010, or permission of the instructor."
+        },
+        {
+            "subject": "CHM",
             "code": "6910L",
             "name": "Grad Research",
             "units": "0.00",
@@ -3857,13 +3836,6 @@
             "name": "Graduate Seminar",
             "units": "0.00",
             "description": "An examination of various current research topics in chemistry. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "CHM",
-            "code": "6936",
-            "name": "Chem Colloquium",
-            "units": "1.00",
-            "description": "Analysis of current developments and topics presented by faculty members and registered students. Prerequisite: Admission to graduate program in chemistry."
         },
         {
             "subject": "CHM",
@@ -4067,13 +4039,6 @@
             "name": "Fund of Computer Security",
             "units": "3.00",
             "description": "Information assurance algorithms and techniques. Security vulnerabilities. Symmetric and public key encryption. Authentication and Kerberos. Key infrastructure and certificate. Mathematical foundations. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "CIS",
-            "code": "5374",
-            "name": "Informat Security and Privacy",
-            "units": "3.00",
-            "description": "Information Security Planning, Planning for Contingencies, Policy, Security Program, Security Management Models, Database Security, Privacy, Information Security Analysis, Protection Mechanism. Prerequisite: CIS 5372."
         },
         {
             "subject": "CIS",
@@ -4445,13 +4410,6 @@
             "name": "Adv loT Applied ML",
             "units": "3.00",
             "description": "The course focuses on the theoretical and principles of applying machine learning algorithms to sensor/loT data sets, engaging in the techniques of feature extraction and evaluation in model building."
-        },
-        {
-            "subject": "CNT",
-            "code": "6207",
-            "name": "Distributed Process",
-            "units": "3.00",
-            "description": "Study of distributed processing using networking and distributed computing techniques. Investigation of distributed algorithms and models of distributed computing."
         },
         {
             "subject": "COM",
@@ -5673,13 +5631,6 @@
         },
         {
             "subject": "ECS",
-            "code": "3003",
-            "name": "Compare Econ Systems",
-            "units": "3.00",
-            "description": "Analysis of alternative economic systems. Emphasis on the contrast between market-oriented capitalist economies and Soviet-style planned economies, and on the process of transition from planned to market-oriented systems."
-        },
-        {
-            "subject": "ECS",
             "code": "3013",
             "name": "Intro To Econ Develo",
             "units": "3.00",
@@ -5698,13 +5649,6 @@
             "name": "Economics Of Asia",
             "units": "3.00",
             "description": "Economic analysis of the problems of poverty, malnutrition and income inequality in South Asia. Rural poverty and agricultural transformation. The East Asian Miracle. The Asian Crisis. Economic liberalization in Asia."
-        },
-        {
-            "subject": "ECS",
-            "code": "3402",
-            "name": "Pol Eco Of So Americ",
-            "units": "3.00",
-            "description": "An introduction to the political economy of the South American countries, with emphasis on the opening of the region's economies, privatization and deregulation, debt crisis, foreign investment, poverty, income distribution, human resources, and regional trade agreements."
         },
         {
             "subject": "ECS",
@@ -5960,24 +5904,10 @@
         },
         {
             "subject": "EDF",
-            "code": "7412C",
-            "name": "SEM Ed Res",
-            "units": "3.00",
-            "description": "The course focuses on conceptual understanding of covariance structure models and practical experiences of conducting a research project using structural equation models in educational fields. Prerequisites: EDF 6472, EDF 6486, or permission of the instructor."
-        },
-        {
-            "subject": "EDF",
             "code": "7476",
             "name": "Adv Qual Res",
             "units": "3.00",
             "description": "Advanced design, data collection, and data analysis issues in qualitative research, applied data analysis using text analysis computer programs, making inferences, and effective dissemination of the results. Prerequisite: EDF 6475 or equivalent."
-        },
-        {
-            "subject": "EDF",
-            "code": "7656",
-            "name": "Comp Int'l Ed Pol",
-            "units": "3.00",
-            "description": "Advanced seminar in which students explore issues and debates related to national and international educational policies, and engage in applications of education policy comparisons."
         },
         {
             "subject": "EDG",
@@ -5995,24 +5925,10 @@
         },
         {
             "subject": "EDG",
-            "code": "4734",
-            "name": "Ed/Cul Prep for Int Teach",
-            "units": "3.00",
-            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
             "code": "4903",
             "name": "Independ Study Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to gain or enhance knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
-        },
-        {
-            "subject": "EDG",
-            "code": "4940",
-            "name": "Inter Teaching Internship",
-            "units": "3.00",
-            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
         },
         {
             "subject": "EDG",
@@ -6027,20 +5943,6 @@
             "name": "Cr Cult Stud Ed",
             "units": "3.00",
             "description": "This is an overview of immigration patterns in U.S., discussions of theories of ethnicity, acculturation, intercultural communication. Development of teaching strategies for multicultural classrooms. Multicultural issues in elementary, secondary, adult, vocational, and special education will also be addressed."
-        },
-        {
-            "subject": "EDG",
-            "code": "5736",
-            "name": "Prep Inter Teach Intern",
-            "units": "3.00",
-            "description": "This course is to prepare students for an international teaching internship. Students will examine educational and cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
-            "code": "5942",
-            "name": "Intl Educational Internship",
-            "units": "3.00",
-            "description": "Students will complete an international internship and be required to teach in international schools, engage in cultural immersion experiences, and conduct service-learning projects. Prerequisite: EDG 5XXX Preparation for International Teaching Internship"
         },
         {
             "subject": "EDG",
@@ -6072,13 +5974,6 @@
         },
         {
             "subject": "EDG",
-            "code": "7226",
-            "name": "Advanced Research Teach",
-            "units": "1.00",
-            "description": "This course supports advanced research for doctoral students before their admission to a candidacy. It is designed for students in a Teaching & Learning doctoral program. It is not appropriate for students who have been admitted to candidacy."
-        },
-        {
-            "subject": "EDG",
             "code": "7923C",
             "name": "Doc Semin Curr Stud",
             "units": "3.00",
@@ -6097,13 +5992,6 @@
             "name": "College Stud Dev",
             "units": "3.00",
             "description": "This course is an overview of the most commonly used theories of student development in higher education including the research on which they are based and their application to practice with diverse student populations, issues, and settings."
-        },
-        {
-            "subject": "EDH",
-            "code": "6047",
-            "name": "College Stdnt Life",
-            "units": "3.00",
-            "description": "This course examines college students in the US from a socio-cultural perspective. Compares student life across historical contexts, various student types, and current issues related to student development."
         },
         {
             "subject": "EDH",
@@ -6356,20 +6244,6 @@
             "name": "Solid State Devices",
             "units": "3.00",
             "description": "Introduction to the physics of semiconductors; charge carrier statistics and charge transport in crystalline solids. Basic operations of solid state devices including p-n junction diode, the bipolar junction transistor and field effect transistors."
-        },
-        {
-            "subject": "EEE",
-            "code": "4314",
-            "name": "Integrated Circ Syst",
-            "units": "3.00",
-            "description": "Continuation of Electronics II with major emphasis on applications of integrated circuits and design of analog, control, communication and digital electronic systems."
-        },
-        {
-            "subject": "EEE",
-            "code": "4314L",
-            "name": "Integrated Ckt. Lab",
-            "units": "1.00",
-            "description": "Laboratory experiments in integrated circuits. Includes design of filters, analog systems, A/D and D/A systems. Corequisite:  EEE4314"
         },
         {
             "subject": "EEE",
@@ -6632,6 +6506,13 @@
         },
         {
             "subject": "EEL",
+            "code": "4802",
+            "name": "Intro to Digi Forensics",
+            "units": "3.00",
+            "description": "The fundamentals of the computer and network forensics and media exploitation techniques and introduces students to computer forensic software and hardware tools. Prerequisites:  EEL 2880 or equivalent or CNT 4403 or permission of the instructor"
+        },
+        {
+            "subject": "EEL",
             "code": "4804",
             "name": "Intro Malware Reverse Eng",
             "units": "3.00",
@@ -6748,6 +6629,13 @@
             "name": "Image Processing",
             "units": "3.00",
             "description": "Image Fundamentals, Image Transforms, Image Enhancement, Edge Detection, Image Segmentation, Texture Analysis, Image Restoration, and Image Compression. Prerequisite: EEL 3135 and knowledge of any programming language (FORTRAN, Pascal, C)."
+        },
+        {
+            "subject": "EEL",
+            "code": "5935",
+            "name": "Adv Spec Topics",
+            "units": "0.00",
+            "description": "A course designed to give groups of students an opportunity to pursue special studies in an advanced topic of Electrical Engineering not otherwise offered. Prerequisite: Consent of instructor."
         },
         {
             "subject": "EEL",
@@ -7083,7 +6971,7 @@
             "code": "3910",
             "name": "Human-centered Design",
             "units": "3.00",
-            "description": "A collaborative, projects-based introduction to interdisciplinary design using systems thinking and human-centered design principles."
+            "description": "A collaborative, projects-based course in human-centered design and systems analysis. Should be taken one semester prior to or concurrently with EGN 4943, EML 4905, or equivalent courses."
         },
         {
             "subject": "EGN",
@@ -7112,6 +7000,13 @@
             "name": "Seminar on STEM Edu Res",
             "units": "0.00",
             "description": "Weekly interactive and engaging presentations featuring faculty, students and guest speakers sharing research topics in science, technology, engineering and mathematics (STEM) topics."
+        },
+        {
+            "subject": "EGN",
+            "code": "6939",
+            "name": "Advanced Special Topics",
+            "units": "1.00",
+            "description": "An advanced special topics course for PhD students to pursue and study areas in engineering or computing education at an advanced level that otherwise would not be offered."
         },
         {
             "subject": "EGN",
@@ -7160,7 +7055,7 @@
             "code": "2053",
             "name": "Foundations of IDE",
             "units": "3.00",
-            "description": "This course emphasizes the opportunities and challenges of interdisciplinarity while providing experiences of interdisciplinary engineering work, humanistic engineering, and design."
+            "description": "This project-based course introduces students to interdisciplinary engineering work and human-centered design. May not be taken concurrently with or after Senior Design."
         },
         {
             "subject": "EGS",
@@ -8036,13 +7931,6 @@
             "name": "Premodern Mediterranean",
             "units": "3.00",
             "description": "Explore the history of geographic region including three continents and numerous different cultures and religions, a preeminent site for exchange before the transatlantic or global exchange."
-        },
-        {
-            "subject": "EUH",
-            "code": "4414",
-            "name": "Roman Provinces",
-            "units": "3.00",
-            "description": "Assessing the impact of the Roman Empire on its indigenous inhabitants, the transformation processes employed to create a homogenized Roman identity and the degree to which assimilation proved effective."
         },
         {
             "subject": "EUH",
@@ -9197,7 +9085,7 @@
             "code": "3065",
             "name": "Art/Sci Fine Spirits",
             "units": "3.00",
-            "description": "This course is designed to take learners on a deep dive into global spirit production. Prerequisite: HFT 3861."
+            "description": "This course is designed to take learners on a deep dive into global spirit production. Prerequisite: Minimum age 18."
         },
         {
             "subject": "HFT",
@@ -9271,13 +9159,6 @@
         },
         {
             "subject": "HFT",
-            "code": "3613",
-            "name": "Beverage Mgmt Law",
-            "units": "3.00",
-            "description": "An introduction to alcoholic beverage law and the fundamental laws, rules and regulations applicable to the retail (on-premise vs. off-premise) alcoholic beverage industry. Prerequisite: HFT 1020 or permission, HFT 3861, HFT 3603"
-        },
-        {
-            "subject": "HFT",
             "code": "3701",
             "name": "Sus Tourism Pract",
             "units": "3.00",
@@ -9330,14 +9211,14 @@
             "code": "3811",
             "name": "Bev Mkt & Distribution",
             "units": "3.00",
-            "description": "Identify and analyze the key segments for targeting and positioning of alcoholic products for the beverage industry. Emphasis on suppliers, retailers, duty free segment, and on-premise accounts. Prerequisites: HFT 1020 or Permission, HFT 3861"
+            "description": "Identify and analyze the key segments for targeting and positioning of alcoholic products for the beverage industry. Emphasis on suppliers, retailers, duty free segment, and on-premise accounts."
         },
         {
             "subject": "HFT",
             "code": "3862L",
             "name": "Great Wines of Europe",
             "units": "3.00",
-            "description": "Taste and study the famous wine regions of France, Italy, Spain, Germany and Portugal. Prerequisite: Minimum age 18."
+            "description": "Explore the wine regions of the worlds southern hemisphere. Including: South America, Australia, New Zealand, & South Africa. Tasting techniques and evaluation methods. Prerequisite: Minimum age 18."
         },
         {
             "subject": "HFT",
@@ -9351,14 +9232,14 @@
             "code": "3865",
             "name": "Wines of New World",
             "units": "3.00",
-            "description": "A study of the 'Wines of the New World' including the wine regions of North America, Argentina, Chile, Australia and South Africa. Prerequisite: Minimum age 18."
+            "description": "Explore the wine regions of the northern hemisphere. Including: Europe Classic Regions and North America. Tasting techniques and evaluation methods. Prerequisite: Minimum age 18."
         },
         {
             "subject": "HFT",
             "code": "3866",
             "name": "Wine 101",
             "units": "3.00",
-            "description": "Introductory course to the world of wine in the hospitality industry to learn how to taste and evaluate wine.  Prerequisite: Minimum age 18."
+            "description": "This course is intended to increase the fundamental knowledge of wine, basic production methods, tasting techniques, and flavor characteristics. Prerequisite: Minimum age 18."
         },
         {
             "subject": "HFT",
@@ -9498,7 +9379,7 @@
             "code": "4875",
             "name": "All About Wine Business",
             "units": "3.00",
-            "description": "Learn from experts including wholesalers, retailers, winemakers, wine writers and food & beverage directors. All wine is tasted blind. Prerequisite: Minimum age 18."
+            "description": "An in-depth study of the 'on premise' and 'off premise' wine marketing. Wine program development (wine list) and brand development. Exploring the 'business of wine' and consumer behavior. Prerequisite: Minimum age 18."
         },
         {
             "subject": "HFT",
@@ -9540,7 +9421,7 @@
             "code": "4941",
             "name": "History Internship",
             "units": "0.00",
-            "description": "Students enrolled in this internship will gain hands-on experience in archives, libraries, museums, or public history projects. This experience will provide useful preparation for a number of careers or fields of study. May be repeated. Prerequisite: Permission of the department required."
+            "description": "Gain hands-on experience in archives, libraries, museums, or public history projects. Prepare for a number of careers or fields of study. May be repeated. Prerequisite: Permission of the department required."
         },
         {
             "subject": "HIS",
@@ -10377,6 +10258,13 @@
         },
         {
             "subject": "IND",
+            "code": "5948",
+            "name": "Grad Internship",
+            "units": "3.00",
+            "description": "Advanced issues in professional practice learned through work experience with design professionals."
+        },
+        {
+            "subject": "IND",
             "code": "6255",
             "name": "IND Grad 1",
             "units": "6.00",
@@ -10409,6 +10297,13 @@
             "name": "Research Methods",
             "units": "3.00",
             "description": "Methods of data acquisition, analysis, and interpretation used in interior design research."
+        },
+        {
+            "subject": "IND",
+            "code": "6970",
+            "name": "Masters Project",
+            "units": "1.00",
+            "description": "The curriculum was reordered and the Master's project is now the terminal studio for all students."
         },
         {
             "subject": "INP",
@@ -10577,13 +10472,6 @@
             "name": "Islam In Int'L Rels",
             "units": "3.00",
             "description": "Analysis of the role of Islam in shaping the dynamics of contemporary international relations. Emphasis on ideological, cultural and political role, Islamic movements and states and relations with the West."
-        },
-        {
-            "subject": "INR",
-            "code": "4084",
-            "name": "Ethnic World Pol",
-            "units": "3.00",
-            "description": "This course examines the political dimensions of ethnic conflict from a comparative perspective. It evaluates the dynamics of ethnic conflict in Western Europe, Africa, Latin America, and the United States, through a series of case studies."
         },
         {
             "subject": "INR",
@@ -10808,6 +10696,13 @@
             "name": "Teaching in E & E",
             "units": "1.00",
             "description": "Instructional methods of teaching a course in an earth and environment discipline under the supervision of departmental faculty. Courses can include undergraduate laboratory courses. Prerequisite: graduate standing."
+        },
+        {
+            "subject": "ISE",
+            "code": "4990",
+            "name": "Intl Student Exch",
+            "units": "0.00",
+            "description": "N/A"
         },
         {
             "subject": "ISE",
@@ -11195,13 +11090,6 @@
             "description": "Students in this required course are introduced to the art of analytical legal writing. Students will learn to analyze cases, statutes and other authorities. The course emphasizes student development in the following skills: organizing the analysis of legal issues logically and coherently; expressing written legal analysis clearly, concisely, and effectively; developing and defending legal arguments, both in writing and orally; performing basic legal research; drafting selected legal documents; and using proper citation form. The writing exercises promote the students' awareness and appreciation of relevant ethical standards. Prerequisite: Juris Master students only."
         },
         {
-            "subject": "JST",
-            "code": "3505",
-            "name": "Intro Jewish Cultures",
-            "units": "3.00",
-            "description": "A global survey of Jewish cultures from biblical origins through the present, focusing on cultural pluralism, tensions between Jewish national and Diaspora cultures, and minority-majority relations."
-        },
-        {
             "subject": "KOR",
             "code": "1113",
             "name": "Korean I",
@@ -11441,6 +11329,13 @@
         },
         {
             "subject": "LAS",
+            "code": "6905",
+            "name": "Lac Dir Rsch",
+            "units": "3.00",
+            "description": "Directed research under a major professor conducted to meet MALACS graduation requirements instead of a thesis. Two directed research courses are required. Prerequisite: Completion of all MALACS courses."
+        },
+        {
+            "subject": "LAS",
             "code": "6934",
             "name": "Lac Research Sem",
             "units": "3.00",
@@ -11634,13 +11529,6 @@
             "name": "Administrative Law",
             "units": "2.00",
             "description": "This is an introduction to the laws controlling executive branch agencies of government. Major topics include delegation of power to agencies, modes of agency action, control of agencies by the legislative branch, control by the judicial branch, and public access and influence."
-        },
-        {
-            "subject": "LAW",
-            "code": "6560",
-            "name": "Securities Regulation",
-            "units": "2.00",
-            "description": "This course is a comprehensive survey of the statutes and regulations governing the distribution of securities, trading of securities on the stock exchanges and over-the-counter markets, the regulation of broker-dealers, and the growing role of institutional investors. Primary focus is placed upon the Securities Act of 1933\r\nand the Securities Act of 1934, with limited attention to state securities legislation. Prerequisite: Business Organizations."
         },
         {
             "subject": "LAW",
@@ -11875,6 +11763,13 @@
         },
         {
             "subject": "LAW",
+            "code": "7944",
+            "name": "Adv Leg Clinic",
+            "units": "1.00",
+            "description": "Advanced clinical training under the supervision of a law school faculty member in order to complete projects or cases begun by the student during a clinic, or to pursue in more depth the subject of the clinic."
+        },
+        {
+            "subject": "LAW",
             "code": "7946",
             "name": "Advanced Externship Placement",
             "units": "2.00",
@@ -11893,6 +11788,13 @@
             "name": "Negotiation Comp",
             "units": "1.00",
             "description": "Students selected as members of the Board of Advocates Negotiations Group will compete in a regional or national negotiations competition and will earn credit for satisfactory completion of their competition duties. Students, working in a team, will typically prepare and then negotiate an agreement with opposing counsel."
+        },
+        {
+            "subject": "LAW",
+            "code": "7955",
+            "name": "WAMR",
+            "units": "2.00",
+            "description": "This course offers law students an opportunity to engage in research, writing, editing, and publishing scholarly works in the fields of domestic and international arbitration and mediation."
         },
         {
             "subject": "LAW",
@@ -12292,6 +12194,13 @@
             "name": "Exile and Literature",
             "units": "3.00",
             "description": "An interdisciplinary analysis of the phenomenon of exile through an exploration of several literary case studies with a respective text by a major exiled writer at its core."
+        },
+        {
+            "subject": "LIT",
+            "code": "4434",
+            "name": "Environmental Lit",
+            "units": "3.00",
+            "description": "This course examines the range of ways literature from antiquity to the present has worked both to reflect and to shape the relationship between human beings and the nonhuman world. Prerequisite: ENC 1101 and ENC 1102"
         },
         {
             "subject": "LIT",
@@ -13015,6 +12924,13 @@
             "description": "Original research that is supervised by a faculty committee and defended openly before the university committee. Prerequisites: Permission of Major Professor and Doctoral Candidacy."
         },
         {
+            "subject": "MAR",
+            "code": "7981",
+            "name": "Dissertation Preparation",
+            "units": "1.00",
+            "description": "Preparatory background research and study to begin development of dissertation proposal. Students should be able to complete proposal by end of the course. Prerequisite: Completion of TIER 1 courses. (on demand)"
+        },
+        {
             "subject": "MAS",
             "code": "3105",
             "name": "Linear Algebra",
@@ -13048,6 +12964,13 @@
             "name": "Master's Research",
             "units": "0.00",
             "description": "Research toward preparation of master's project. Prerequisite: Permission of graduate committee."
+        },
+        {
+            "subject": "MAT",
+            "code": "6946",
+            "name": "Applied Experience",
+            "units": "1.00",
+            "description": "Consists of a one semester (usually summer) internship at private corporation or government agency. Has three parts: i) weekly colloquia in math-science; ii) internship; iii) presentation after internship. Prerequisite: Permission of the department."
         },
         {
             "subject": "MAT",
@@ -13526,6 +13449,13 @@
             "description": "Discuss staff organization, functions, and processes, analyze counseling responsibilities and methods, and apply leadership and problem-solving principles to a complex case study/simulation."
         },
         {
+            "subject": "MSL",
+            "code": "4900",
+            "name": "Independent Study",
+            "units": "3.00",
+            "description": "Supervised reading and independent study in United States Military History, writing requirements. Prerequisite: Permission of the instructor is required."
+        },
+        {
             "subject": "MTG",
             "code": "1204",
             "name": "Geometry Ed",
@@ -13545,13 +13475,6 @@
             "name": "Riemannian symplectic",
             "units": "3.00",
             "description": "N/A"
-        },
-        {
-            "subject": "MUC",
-            "code": "2221",
-            "name": "Composition Sem. I",
-            "units": "2.00",
-            "description": "Creative writing utilizing 20th century compositional techniques in Impressionism, Neoclassicism, Post Webern Serialism, Indeterminacy, Minimalism, Mixed, Multi and Inter media, etc."
         },
         {
             "subject": "MUC",
@@ -13576,13 +13499,6 @@
         },
         {
             "subject": "MUC",
-            "code": "3232",
-            "name": "Composition Sem IV",
-            "units": "2.00",
-            "description": "Continuation of MUC 3231."
-        },
-        {
-            "subject": "MUC",
             "code": "3400",
             "name": "Elec Music Lab III",
             "units": "2.00",
@@ -13601,20 +13517,6 @@
             "name": "Composition Forum",
             "units": "1.00",
             "description": "Student composers' works are critiqued by faculty; topics of interest to composers are discussed. Required of all students taking Composition III and higher."
-        },
-        {
-            "subject": "MUC",
-            "code": "5935",
-            "name": "Comp Forum",
-            "units": "1.00",
-            "description": "Student composers present their work for critique by faculty and topics relevant to composition are presented by faculty and guests."
-        },
-        {
-            "subject": "MUC",
-            "code": "6251",
-            "name": "Grad Mus Comp",
-            "units": "3.00",
-            "description": "The writing of evolved musical compositions with regard to each student's strengths and aesthetic development. Graduate standing in Music Composition and or permission of the instructor."
         },
         {
             "subject": "MUC",
@@ -13643,6 +13545,13 @@
             "name": "Brass Techniques",
             "units": "1.00",
             "description": "Class instruction of brass instruments; tuning and care of instruments. Teaching techniques. Piston and valve instruments, French horn, and trombone. Class one hour, laboratory one hour."
+        },
+        {
+            "subject": "MUE",
+            "code": "2470L",
+            "name": "Percussion Tech",
+            "units": "1.00",
+            "description": "Class instruction of percussion instruments; sticking techniques; care of instruments; teaching techniques. Drum and mallet instruments. Class one hour, laboratory one hour."
         },
         {
             "subject": "MUE",
@@ -13685,13 +13594,6 @@
             "name": "Directed Research",
             "units": "3.00",
             "description": "This course is designed to provide an opportunity for students to engage in high-level inquiry focusing on an area of specialization within the music education profession."
-        },
-        {
-            "subject": "MUE",
-            "code": "6938",
-            "name": "Seminar In Music Ed",
-            "units": "3.00",
-            "description": "Seminar topics concerning historic music education programs in the United States and other countries, as well as current issues and problems facing the music educator. Required for the Master of Science in Music Education degree."
         },
         {
             "subject": "MUE",
@@ -13751,6 +13653,13 @@
         },
         {
             "subject": "MUH",
+            "code": "3220",
+            "name": "History of Musical Theatre",
+            "units": "3.00",
+            "description": "A survey of the history of English language musical theatre from its development at the end of the 19th century to present day."
+        },
+        {
+            "subject": "MUH",
             "code": "3912C",
             "name": "Mus Research Bib",
             "units": "2.00",
@@ -13779,24 +13688,17 @@
         },
         {
             "subject": "MUL",
-            "code": "4400",
-            "name": "Keyboard Lit I",
-            "units": "3.00",
-            "description": "Study of solo works for the keyboard from historical beginnings to 1828. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
-        },
-        {
-            "subject": "MUL",
-            "code": "5405",
-            "name": "Keyboard Lit I",
-            "units": "3.00",
-            "description": "Study of solo works for the keyboard from historical beginnings to 1828. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
-        },
-        {
-            "subject": "MUL",
             "code": "5609",
             "name": "Survey Art Song Lit",
             "units": "3.00",
             "description": "An historical survey of the literature for solo voice from the Medieval period to the national schools of the contemporary era."
+        },
+        {
+            "subject": "MUL",
+            "code": "5645",
+            "name": "Choral Literature",
+            "units": "3.00",
+            "description": "A survey of sacred and secular choral literature from the Middle Ages to the present. Emphasis on stylistic analysis and performance practice for each style period. Includes score study, aural analysis of recorded performances and in-class performances. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "MUM",
@@ -13926,6 +13828,13 @@
         },
         {
             "subject": "MUN",
+            "code": "1380L",
+            "name": "University Singers",
+            "units": "1.00",
+            "description": "A chorus performing a repertoire primarily from great choral works. Large orchestral accompaniment as well as various instrumental ensembles will be utilized."
+        },
+        {
+            "subject": "MUN",
             "code": "1430",
             "name": "Univ Brass Choir",
             "units": "1.00",
@@ -14021,6 +13930,13 @@
             "name": "Concert Choir",
             "units": "1.00",
             "description": "A choral ensemble performing music written and arranged for mixed voices. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MUN",
+            "code": "3383L",
+            "name": "Univ. Singers",
+            "units": "1.00",
+            "description": "A chorus performing a repertoire primarily from great choral works. Large orchestral accompaniment as well as various instrumental ensembles will be utilized."
         },
         {
             "subject": "MUN",
@@ -14143,6 +14059,13 @@
         },
         {
             "subject": "MUN",
+            "code": "5385L",
+            "name": "Univ. Singers",
+            "units": "1.00",
+            "description": "A chorus performing a repertoire primarily from great choral works. Large orchestral accompaniment as well as various instrumental ensembles will be utilized. Prerequisite: Permission of conductor."
+        },
+        {
+            "subject": "MUN",
             "code": "5435L",
             "name": "Univ Brass Choir",
             "units": "1.00",
@@ -14210,6 +14133,13 @@
             "name": "Jazz Vocal Ensemble",
             "units": "1.00",
             "description": "Students learn to perform both as a soloist and ensemble singer. Expectations are progressive in accordance with student's class level. Ensemble includes a rhythm section to accompany the vocalists."
+        },
+        {
+            "subject": "MUO",
+            "code": "2001",
+            "name": "Mus Th Wk Voice",
+            "units": "2.00",
+            "description": "Introduction to musical comedy performance; integration of dramatic, musical and movement components studied through work on selected scenes and songs. Particular emphasis on vocal training."
         },
         {
             "subject": "MUO",
@@ -14329,13 +14259,6 @@
             "name": "Research",
             "units": "0.00",
             "description": "Research composition or performance projects, under the guidance and direction of the music faculty. (May be repeated). Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MUS",
-            "code": "5971",
-            "name": "Thesis",
-            "units": "0.00",
-            "description": "Research and/or performances towards completion of master's thesis work."
         },
         {
             "subject": "MUT",
@@ -15585,6 +15508,13 @@
         },
         {
             "subject": "MVS",
+            "code": "1211",
+            "name": "Secondary App Violin",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on violin as a secondary instrument."
+        },
+        {
+            "subject": "MVS",
             "code": "1212",
             "name": "Secondary App Viola",
             "units": "1.00",
@@ -16061,13 +15991,6 @@
         },
         {
             "subject": "MVW",
-            "code": "1071",
-            "name": "BRM",
-            "units": "0.00",
-            "description": "This course is part of the Bassoon Studio Private Lessons. It is imperative that our Bassoon students be able to make their own reeds due to the sensitivity of this portion of playing the bassoon."
-        },
-        {
-            "subject": "MVW",
             "code": "1311",
             "name": "Principal App Flute",
             "units": "2.00",
@@ -16205,13 +16128,6 @@
             "name": "Major Appl Saxophone",
             "units": "2.00",
             "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "3070",
-            "name": "Reed Making",
-            "units": "1.00",
-            "description": "This course is designed to provide students with an in depth examination of the fundamental steps of the reed making process. In addition, this course examines the fundamental components of the reed making process including the reed making equipment, knife sharpening and cane processing. Each student will receive hands on training and upon completion of the course, will be able to independently produce a tied reed, blank, stage 1, stage 2 and stage 3 reed."
         },
         {
             "subject": "MVW",
@@ -16695,13 +16611,6 @@
             "name": "Dissertation I",
             "units": "3.00",
             "description": "Provides an overview of the dissertation process within framework of completing the dissertation."
-        },
-        {
-            "subject": "NGR",
-            "code": "7982",
-            "name": "Candidacy Examination",
-            "units": "3.00",
-            "description": "The candidacy examination includes the successful completion of 4 written papers and an oral defense. This course is designed to assist students to prepare their papers for the candidacy examination. Prerequisite: This course must be taken during the last semester of coursework and/or after completion of required coursework as presented in student's plan of study."
         },
         {
             "subject": "NSE",
@@ -17678,13 +17587,6 @@
         },
         {
             "subject": "PCB",
-            "code": "4805",
-            "name": "Endocrinology",
-            "units": "3.00",
-            "description": "Biochemistry, physiology and anatomy of the endocrine systems of vertebrates and invertebrates. Steroid, peptide, and terpenoid hormones which control reproduction, growth, and other parameters."
-        },
-        {
-            "subject": "PCB",
             "code": "4932",
             "name": "Topics in Ecology",
             "units": "3.00",
@@ -17731,13 +17633,6 @@
             "name": "Adv Personal Train",
             "units": "3.00",
             "description": "This class is designed to prepare students for the National Strength Professionals Associations Certified Conditioning Specialist Examination. Prerequisite: Bachelor of Science in Physical Education (BSPE) major"
-        },
-        {
-            "subject": "PEO",
-            "code": "4001",
-            "name": "Prin Of Coaching",
-            "units": "3.00",
-            "description": "Prepares students to examine the organization, philosophies, and skills necessary for coaching sports in diverse educational environments."
         },
         {
             "subject": "PEP",
@@ -18451,7 +18346,14 @@
             "code": "4123",
             "name": "Philo & Feminism",
             "units": "3.00",
-            "description": "A conceptual analysis of alternative feminist views. Topics include the goals of the feminist movement, sexist theories on women's nature, sexual stereotypes and androgyny, the nature of oppression, sexism, racism and homophobia."
+            "description": "Explores central topics in feminist philosophy (the metaphysics of gender, oppression, sexual objectification, intersectionality) and contributions to epistemology, ethics, and aesthetics."
+        },
+        {
+            "subject": "PHM",
+            "code": "5935",
+            "name": "Adv Topics in Soc Pol Phi",
+            "units": "3.00",
+            "description": "Explores central problems in social and political philosophy. Possible topics include: justice, equality, freedom, democracy, the state, political obligation, etc. May be repeated for credit."
         },
         {
             "subject": "PHP",
@@ -19042,13 +18944,6 @@
             "description": "An examination of Brazilian films and culture from Cinema Novo to the present. Focuses on the northeast, urban society, magic and the Amazon. Taught in Portuguese."
         },
         {
-            "subject": "POW",
-            "code": "4930",
-            "name": "Special Topics",
-            "units": "3.00",
-            "description": "Independent readings, research, or project."
-        },
-        {
             "subject": "PPE",
             "code": "3003",
             "name": "Thry Of Personality",
@@ -19526,20 +19421,6 @@
         },
         {
             "subject": "REL",
-            "code": "3022",
-            "name": "Ritual In Rel & Cul",
-            "units": "3.00",
-            "description": "Examines ritual and its roots, functions, analysis, and meaning, both in religious contexts and as it is assimilated and adapted in the wider culture."
-        },
-        {
-            "subject": "REL",
-            "code": "3027",
-            "name": "Meditation & Mystic",
-            "units": "3.00",
-            "description": "The history, philosophy, and cultural impact of the role of meditation in various mystical traditions, including movements such as Kabbalah, Neo-Platonism, Sufism, Yoga, Tantra, Taoism, and Zen Buddhism."
-        },
-        {
-            "subject": "REL",
             "code": "3075",
             "name": "Magic and Religions",
             "units": "3.00",
@@ -19565,13 +19446,6 @@
             "name": "Religion in Latin America",
             "units": "3.00",
             "description": "Explores religions in Latin American from the Pre-Columbus indigenous civilizations to the twenty-first century intended to provide students with knowledge of the religions."
-        },
-        {
-            "subject": "REL",
-            "code": "3118",
-            "name": "Sacred Dance Sacred Ritual",
-            "units": "3.00",
-            "description": "Investigation of the spiritual/religious, historical, and cultural context in which a variety of sacred dance complexes occur throughout the world."
         },
         {
             "subject": "REL",
@@ -19652,13 +19526,6 @@
         },
         {
             "subject": "REL",
-            "code": "3443",
-            "name": "Liberation Theol",
-            "units": "3.00",
-            "description": "A survey of the major themes in and methodological distinctiveness of Latin American, African American and Feminist Liberation Theologies."
-        },
-        {
-            "subject": "REL",
             "code": "3490",
             "name": "Da Vinci Code",
             "units": "3.00",
@@ -19673,20 +19540,6 @@
         },
         {
             "subject": "REL",
-            "code": "3583",
-            "name": "World Christianity",
-            "units": "3.00",
-            "description": "Surveys forms of Christianity and their growth patterns in Latin America, Asia, and Africa."
-        },
-        {
-            "subject": "REL",
-            "code": "3603",
-            "name": "Judaism after Holocaust",
-            "units": "3.00",
-            "description": "Reflects on Judaism and the Jewish experience after the Holocaust primarily through analysis of Nobel Laureate Elie Wiesel's writings, such as novels, memoirs, essays, plays, liturgies, and speeches."
-        },
-        {
-            "subject": "REL",
             "code": "4030",
             "name": "Methods Study Relig",
             "units": "3.00",
@@ -19694,45 +19547,10 @@
         },
         {
             "subject": "REL",
-            "code": "4063",
-            "name": "Faith in Social Justice",
-            "units": "3.00",
-            "description": "Explores concepts of social justice within in faith traditions. Students will have the opportunity to work on a social justice project with a local faith-based organization/house of worship"
-        },
-        {
-            "subject": "REL",
-            "code": "4146",
-            "name": "Fem Theology/Ethics",
-            "units": "3.00",
-            "description": "Surveys major feminists and womanists on revelation, sexuality and body, liturgy, religious community and other topics across a variety of religious traditions."
-        },
-        {
-            "subject": "REL",
-            "code": "4370",
-            "name": "African Religions",
-            "units": "3.00",
-            "description": "Critical analysis of the beliefs, myths, symbols, and rituals of traditional African religion, African Christianity, and African Islam, and exploration of their place and function in African societies."
-        },
-        {
-            "subject": "REL",
-            "code": "4461",
-            "name": "Top In Phil Of Rel",
-            "units": "3.00",
-            "description": "Examines a specific topic in the philosophy of religion, such as faith and reason, religious experience, or an important thinker. It may be repeated with permission of the instructor."
-        },
-        {
-            "subject": "REL",
             "code": "4910",
             "name": "Independent Research",
             "units": "0.00",
             "description": "Topics will be selected to meet the academic needs of the individual student."
-        },
-        {
-            "subject": "REL",
-            "code": "4937",
-            "name": "Special Topics",
-            "units": "3.00",
-            "description": "In-depth study of topics of special interest in religious studies."
         },
         {
             "subject": "REL",
@@ -21255,13 +21073,6 @@
         },
         {
             "subject": "SYD",
-            "code": "4610",
-            "name": "Topics In Sociology",
-            "units": "3.00",
-            "description": "Special courses on the social structures and related problems of specific geographical and cultural areas. Topics may vary. May be repeated for credit with change of topics.  Can be taken for credit no more than twice with any given instructor."
-        },
-        {
-            "subject": "SYD",
             "code": "4700",
             "name": "Racial & Ethnic Relations",
             "units": "3.00",
@@ -21371,13 +21182,6 @@
             "name": "Intro to IoT",
             "units": "3.00",
             "description": "Introduces the fundamental concepts of loT and motivates the study of loT. Focuses on the Devices, Data Collection, Networking, Cloud Computing, Risks and Opportunities in loT context."
-        },
-        {
-            "subject": "TCN",
-            "code": "4081",
-            "name": "Tele Net Security",
-            "units": "3.00",
-            "description": "Introduction and overview of security issues for engineering applications. Topics include design, implementation and management of security in networks."
         },
         {
             "subject": "TCN",
@@ -21847,13 +21651,6 @@
             "name": "Emerg Mgmt And Plan",
             "units": "3.00",
             "description": "This course focuses on the concepts, processes, and techniques associated with developing and implementing emergency management plans in public, nonprofit, and health organizations."
-        },
-        {
-            "subject": "URP",
-            "code": "6315",
-            "name": "Intro Urb Plan Mgmt",
-            "units": "3.00",
-            "description": "An historic overview of land use planning and the rise of growth management with emphasis on implementation in complex market and political environments."
         },
         {
             "subject": "URS",
