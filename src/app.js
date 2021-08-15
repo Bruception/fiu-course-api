@@ -1,6 +1,6 @@
-const express = require('express');
-const app = express();
 const path = require('path');
+const helmet = require('helmet');
+const express = require('express');
 
 const { logger, errorHandler } = require('./middleware');
 const courseDataStore = require('./courseDataStore');
@@ -8,13 +8,16 @@ const { version } = require('../package.json');
 const { formatHandlerWrapper } = require('./utils');
 
 const APP_START_TIME = new Date().getTime();
-let requestsFulfilled = 0;
 const PUBLIC_PATH = path.resolve(__dirname, './public');
 
+const app = express();
+
+app.use(helmet());
 app.use(logger());
 app.use(express.json());
-app.disable('x-powered-by');
 app.use('/', express.static(PUBLIC_PATH));
+
+let requestsFulfilled = 0;
 
 app.get('/api', formatHandlerWrapper(
     (req) => {
