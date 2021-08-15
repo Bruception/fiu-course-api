@@ -3,7 +3,7 @@ const yaml = require('yaml');
 const utils = require('./utils');
 const xml2js = require('xml2js');
 
-const SUPPORTED_FORMATS = ['json', 'text', 'xml', 'yaml'];
+const SUPPORTED_FORMATS = ['json', 'xml', 'yaml'];
 
 const OPTIONS_SCHEMA = joi.object({
     format: joi.string()
@@ -26,27 +26,11 @@ const DEFAULT_OPTIONS = {
 }
 
 const XML_BUILDER = new xml2js.Builder();
-
-const textFormatter = (data) => {
-    if (Array.isArray(data)) {
-        return `\n${data.map((entry) => {
-            return `${textFormatter(entry)}`
-        }).join('\n')}`;
-    }
-    if (typeof data !== 'object') {
-        return data;
-    }
-    return Object.keys(data).map((key) => {
-        return `${key}: ${textFormatter(data[key])}`
-    }).join('\n');
-}
+const xmlFormatter = XML_BUILDER.buildObject.bind(XML_BUILDER);
 
 const formatters = {
     'json': JSON.stringify,
-    'text': textFormatter,
-    'xml': (data) => {
-        return XML_BUILDER.buildObject(data);
-    },
+    'xml': xmlFormatter,
     'yaml': yaml.stringify,
 };
 

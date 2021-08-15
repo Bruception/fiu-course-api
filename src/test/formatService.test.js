@@ -57,18 +57,6 @@ describe('formatService: Testing the formatService module.', () => {
         expect(courses.length).toStrictEqual(parseInt(parsedCourses.total));
         expect(contentType).toStrictEqual('application/xml');
     });
-    test('formatService.format: Correctly serializes object to text.', () => {
-        const courses = courseDataStore.queryBy({
-            subject: 'C',
-            code: '2',
-        });
-        const { formattedData, contentType } = formatService.format(courses, {
-            format: 'text',
-            ...courseDataStore.formatOptions,
-        });
-        expect(formattedData).toMatchSnapshot();
-        expect(contentType).toStrictEqual('text/plain');
-    });
     test('formatService.format: Correctly serializes object with no provided options.', () => {
         const objectToSerialize = {
             version: '1.0.0',
