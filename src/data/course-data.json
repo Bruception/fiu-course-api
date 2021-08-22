@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1628988124,
+    "dataAsOf": 1629592882,
     "data": [
         {
             "subject": "ACG",
@@ -2159,13 +2159,6 @@
         },
         {
             "subject": "BME",
-            "code": "4422",
-            "name": "Neural Computation",
-            "units": "3.00",
-            "description": "This course provides an introduction to the working principles of neurons and neural circuits with emphasis on mathematical models."
-        },
-        {
-            "subject": "BME",
             "code": "4503C",
             "name": "Medical Inst Design",
             "units": "4.00",
@@ -2558,6 +2551,13 @@
         },
         {
             "subject": "BSC",
+            "code": "3905",
+            "name": "Biological Science Intern",
+            "units": "0.00",
+            "description": "Supervised, practical experience in a professional, laboratory or field setting in which biologists may work. Department permission is required. May be repeated. Prerequisites: Permission from FIU faculty advisor is required."
+        },
+        {
+            "subject": "BSC",
             "code": "3910",
             "name": "Biology Research Methods",
             "units": "3.00",
@@ -2611,13 +2611,6 @@
             "name": "Carib Biodiversity",
             "units": "3.00",
             "description": "Current issues on Evolution, Conservation, and Diversification of Biota of the Caribbean Basin."
-        },
-        {
-            "subject": "BSC",
-            "code": "4401L",
-            "name": "Forensic Biology Lab",
-            "units": "1.00",
-            "description": "Forensic Biology Lab will introduce students to lab techniques and processes that are commonly encountered in Molecular or Forensic labs such as Chain of Custody, Serology and DNA Analysis [D] \nPrerequisites:PCB3063 Corequisite:BSC4401 or permission of instructor"
         },
         {
             "subject": "BSC",
@@ -2716,6 +2709,13 @@
             "name": "Adv Func Genom Prot",
             "units": "3.00",
             "description": "Analysis of Modern Strategies to understand fundamental biological aspects using advanced genomics and proteomic approaches."
+        },
+        {
+            "subject": "BSC",
+            "code": "5931",
+            "name": "Thesis Prop Seminar",
+            "units": "1.00",
+            "description": "Presentation of thesis proposal seminar. Permission of major professor required."
         },
         {
             "subject": "BSC",
@@ -3468,13 +3468,6 @@
         },
         {
             "subject": "CHM",
-            "code": "1025",
-            "name": "Fundamental Chem",
-            "units": "3.00",
-            "description": "Introduces students to basic mathematics required in chemistry, nature of matter, atomic structure, simple chemical reactions and stoichiometry."
-        },
-        {
-            "subject": "CHM",
             "code": "1033",
             "name": "Survey Of Chemistry",
             "units": "4.00",
@@ -3930,6 +3923,13 @@
         },
         {
             "subject": "CHS",
+            "code": "5110",
+            "name": "Topics in Radiochemistry",
+            "units": "3.00",
+            "description": "Principles and applications of radiochemistry. Types of radionuclides, decay modes, radiation detection, counting statistics, dose determination, hazards, and applications. Prerequisites: Graduate student status and CHM 3411 or equivalent."
+        },
+        {
+            "subject": "CHS",
             "code": "5435",
             "name": "Pharma/Toxicology Drugs",
             "units": "3.00",
@@ -4046,6 +4046,13 @@
             "name": "Independent Study",
             "units": "0.00",
             "description": "Individual conferences, assigned readings, and reports on independent investigations. Prerequisite: Permission of the department."
+        },
+        {
+            "subject": "CIS",
+            "code": "5931",
+            "name": "Special Topics",
+            "units": "0.00",
+            "description": "A course designed to give groups of students an opportunity to pursue special studies not otherwise offered."
         },
         {
             "subject": "CIS",
@@ -4543,6 +4550,13 @@
             "name": "Conflict Management",
             "units": "3.00",
             "description": "Students will analyze conflict management concepts, principles, strategies and techniques, and examine the communication skills needed for productive conflict management or resolution."
+        },
+        {
+            "subject": "COM",
+            "code": "4900",
+            "name": "Dir Ind Stud in Comm Arts",
+            "units": "1.00",
+            "description": "Specialized intensive study in a specific area of special interest to the student."
         },
         {
             "subject": "COM",
@@ -6289,6 +6303,20 @@
         },
         {
             "subject": "EEE",
+            "code": "5543",
+            "name": "Random Signal Princ",
+            "units": "3.00",
+            "description": "Noise, random processes, correlation, spectral analysis in the analysis and design of communication systems. Optimization techniques; minimum mean square error. Prerequisite: EEL 3514."
+        },
+        {
+            "subject": "EEE",
+            "code": "6311",
+            "name": "Adv Electron Sys I",
+            "units": "3.00",
+            "description": "Principles of analog and digital electronics network. Advanced analysis, modeling and computer simulation of op amps. Analog design techniques and practical examples are covered."
+        },
+        {
+            "subject": "EEE",
             "code": "6332",
             "name": "Thin Film Engr",
             "units": "3.00",
@@ -6650,6 +6678,13 @@
             "name": "Num Anal Elect Dev",
             "units": "3.00",
             "description": "Numerical techniques for the analysis of static and diffusion eddy current type field problems and associated phenomena in electrical devices. Emphasis on implementation and applications to practical problems. Prerequisites: EEL 4213, MAP 3302 or equivalent or permission of the instructor."
+        },
+        {
+            "subject": "EEL",
+            "code": "6167",
+            "name": "Vlsi Design",
+            "units": "3.00",
+            "description": "Study of VLSI Design concepts in MOS/CMOS environment, CAD techniques, VLSI array processors and wavefront array processors, and implementation of array processors. Prerequisites: EEL 5741, EEE 4314."
         },
         {
             "subject": "EEL",
@@ -7836,6 +7871,13 @@
         },
         {
             "subject": "ENV",
+            "code": "5905",
+            "name": "Dir Ind Study",
+            "units": "0.00",
+            "description": "Individual research studies available to academically qualified students on graduate status."
+        },
+        {
+            "subject": "ENV",
             "code": "5930",
             "name": "Special Topics",
             "units": "0.00",
@@ -7931,6 +7973,13 @@
             "name": "Premodern Mediterranean",
             "units": "3.00",
             "description": "Explore the history of geographic region including three continents and numerous different cultures and religions, a preeminent site for exchange before the transatlantic or global exchange."
+        },
+        {
+            "subject": "EUH",
+            "code": "4414",
+            "name": "Roman Provinces",
+            "units": "3.00",
+            "description": "Assessing the impact of the Roman Empire on its indigenous inhabitants, the transformation processes employed to create a homogenized Roman identity and the degree to which assimilation proved effective."
         },
         {
             "subject": "EUH",
@@ -8085,13 +8134,6 @@
             "name": "Adv GIS Env Data",
             "units": "3.00",
             "description": "Explores project planning, geospatial database design and implementation of analytical and display methods in GIS for organizing, querying, analyzing and presenting spatial data."
-        },
-        {
-            "subject": "EVR",
-            "code": "5069",
-            "name": "Wetland Ecol and Management",
-            "units": "3.00",
-            "description": "Principles of ecology and management as applied to freshwater and estuarine wetlands. Prerequisites: Undergraduate degree in science, or PCB 3043, or permission of the instructor."
         },
         {
             "subject": "EVR",
@@ -8449,13 +8491,6 @@
             "name": "Intermediate French",
             "units": "3.00",
             "description": "Provides intermediate training in the acquisition and application of basic language skills. Prerequisites: One year prior study at college level or permission of the instructor."
-        },
-        {
-            "subject": "FRE",
-            "code": "3421",
-            "name": "Rev Gram/Writing II",
-            "units": "3.00",
-            "description": "Instruction and practice in expository writing in French, with emphasis on organization, correct syntax, and vocabulary building."
         },
         {
             "subject": "FRE",
@@ -10125,13 +10160,6 @@
         },
         {
             "subject": "IDS",
-            "code": "3917",
-            "name": "VIP Program - B",
-            "units": "3.00",
-            "description": "Students work in large projects with students from different majors working in real-world projects with university and external mentors. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "IDS",
             "code": "4174",
             "name": "Math/Philosophy in Arts",
             "units": "3.00",
@@ -10496,13 +10524,6 @@
         },
         {
             "subject": "INR",
-            "code": "4350",
-            "name": "Int Env Politics",
-            "units": "3.00",
-            "description": "Addresses environmental politics from an international perspective. Ecological problems and issues are becoming international, environmental problems are crossing national borders, and public attitudes."
-        },
-        {
-            "subject": "INR",
             "code": "4603",
             "name": "Theories Intn'L Rel",
             "units": "3.00",
@@ -10825,6 +10846,13 @@
         },
         {
             "subject": "ISM",
+            "code": "4949",
+            "name": "Info Systems Internship II",
+            "units": "0.00",
+            "description": "A continuation of ISM 3949. A program enabling MIS majors to work in jobs significantly related to their major area and career goals. Placement must be approved by instructor."
+        },
+        {
+            "subject": "ISM",
             "code": "7906",
             "name": "Ind Study for Doc Stu",
             "units": "1.00",
@@ -10899,13 +10927,6 @@
             "name": "Topics in Cyber Policy",
             "units": "3.00",
             "description": "Examine pressing topics to include: cyber-terrorism, cybersecurity in healthcare, Internet of Things, with rotating topics taught by practitioners in the field of cybersecurity. May be retaken for credit."
-        },
-        {
-            "subject": "ISS",
-            "code": "4930",
-            "name": "Topics in Globalization",
-            "units": "3.00",
-            "description": "An intensive examination of a topic of globalization. Subject matter will vary according to Instructor. Topic will be announced in advance."
         },
         {
             "subject": "ISS",
@@ -11286,6 +11307,13 @@
             "description": "Semester one of a two-semester research seminar investigating topics in Latin American History. Topics may vary.May be repeated with approval of Graduate Program Director."
         },
         {
+            "subject": "LAH",
+            "code": "6933",
+            "name": "Rsch Lat Amer Hist II",
+            "units": "3.00",
+            "description": "Semester two of a two-semester research seminar investigating topics in Latin American history. Topics may vary.May be repeated with approval of Graduate Program Director."
+        },
+        {
             "subject": "LAS",
             "code": "3002",
             "name": "Intro Lat Am and Carib Stdy",
@@ -11651,6 +11679,13 @@
         },
         {
             "subject": "LAW",
+            "code": "6905",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "A student may pursue an independent study project, including a research and writing project, under the supervision of a faculty member who has a special interest in the subject area of the project.  The student must obtain the consent of the faculty member before registering for the course."
+        },
+        {
+            "subject": "LAW",
             "code": "6936",
             "name": "Seminars",
             "units": "2.00",
@@ -11718,13 +11753,6 @@
             "name": "Board of Advocates",
             "units": "1.00",
             "description": "Students selected as members of the Board of Advocates will earn credit for satisfactory completion of their Board duties, which will include participation on at least one competition team (competition credits will be awarded separately); service as bailiffs, timekeepers, clients, witnesses, jurors, and judges for practice rounds and courses; and participation in Board meetings and activities.  Board officers, as well as student coaches for competition teams, may earn additional credit for satisfactory completion of their duties as officers or coaches."
-        },
-        {
-            "subject": "LAW",
-            "code": "6984",
-            "name": "Judicial Externship Placement",
-            "units": "2.00",
-            "description": "To enable students to serve as judicial externs with participating judges, magistrates or referees in State or Federal Courts. Prerequisites: Student must have a G.P.A. of 2.75 and a writing sample."
         },
         {
             "subject": "LAW",
@@ -12385,13 +12413,6 @@
             "description": "Provides advanced development of knowledge, skills and dispositions necessary to prepare education majors to be effective mathematics teachers of upper elementary grades through middle school grade 6. Prerequisite: MAE 4310"
         },
         {
-            "subject": "MAE",
-            "code": "4942",
-            "name": "Student Teaching",
-            "units": "9.00",
-            "description": "Supervised teaching in a middle school or senior high school."
-        },
-        {
             "subject": "MAN",
             "code": "3022",
             "name": "Intro to Management",
@@ -12981,6 +13002,13 @@
         },
         {
             "subject": "MAT",
+            "code": "7980",
+            "name": "Dissertation Research",
+            "units": "1.00",
+            "description": "Students conduct dissertation research at the doctoral level in mathematics under faculty supervision. Prerequisite: Permission of Instructor (F,S)"
+        },
+        {
+            "subject": "MAT",
             "code": "7981",
             "name": "PhD Dissertation",
             "units": "1.00",
@@ -13517,6 +13545,13 @@
             "name": "Composition Forum",
             "units": "1.00",
             "description": "Student composers' works are critiqued by faculty; topics of interest to composers are discussed. Required of all students taking Composition III and higher."
+        },
+        {
+            "subject": "MUC",
+            "code": "6305",
+            "name": "Elec Mus Lab I",
+            "units": "2.00",
+            "description": "Exploration of the electronic medium including the history of electronic music, digital studio techniques, analog studio techniques, digital synthesis and analog synthesis."
         },
         {
             "subject": "MUC",
@@ -14182,13 +14217,6 @@
             "name": "Recital Attendance",
             "units": "0.00",
             "description": "Students attend concerts and recitals as a corequisite to applied music. Required of music majors each semester."
-        },
-        {
-            "subject": "MUS",
-            "code": "3333",
-            "name": "Sound Reinforcement",
-            "units": "2.00",
-            "description": "Students gain hands-on experience with the music technology required for recording, mixing, and processing digital signals."
         },
         {
             "subject": "MUS",
@@ -16523,20 +16551,6 @@
         },
         {
             "subject": "NGR",
-            "code": "6714C",
-            "name": "Clin Teach Strat",
-            "units": "3.00",
-            "description": "Experience seminar in clinical teaching. Application of research-based literature and best practices in the development/implementation/evaluation of clinical education for nursing students."
-        },
-        {
-            "subject": "NGR",
-            "code": "6715",
-            "name": "Instruct Technology",
-            "units": "3.00",
-            "description": "Provides advanced technological knowledge, skills, and opportunity to develop strategies using technology to improve and enhance student learning in variety of settings."
-        },
-        {
-            "subject": "NGR",
             "code": "6800",
             "name": "Adv Nur Research I",
             "units": "3.00",
@@ -17531,13 +17545,6 @@
         },
         {
             "subject": "PCB",
-            "code": "4452",
-            "name": "Intro Wetland Eco and Managmt",
-            "units": "3.00",
-            "description": "Principles of wetland ecology and their application to management of freshwater and estuarine wetlands."
-        },
-        {
-            "subject": "PCB",
             "code": "4462C",
             "name": "IntroLandscapeEcol_GIS",
             "units": "4.00",
@@ -17619,13 +17626,6 @@
             "name": "Mol & Cell Bio I",
             "units": "3.00",
             "description": "Protein structure, catalysis, kinetics, and molecular conformation, intermolecular forces; Prokaryotic recombination, transcription and translation, gene regulation and genome organization. Prerequisite: Graduate status."
-        },
-        {
-            "subject": "PCB",
-            "code": "6935",
-            "name": "Adv Topics Genetics",
-            "units": "3.00",
-            "description": "An intensive study of particular genetical topics not otherwise offered in the curriculum. May be repeated for credit with different subject content. Prerequisite: Graduate status."
         },
         {
             "subject": "PEM",
@@ -18479,7 +18479,7 @@
             "code": "6905",
             "name": "Independent Study",
             "units": "0.00",
-            "description": "Individually determined, research-oriented, in-depth study of a physical therapy issue. An independent study contract must be approved by the instructor. Course may be repeated. Prerequisites: Permission of major advisor and instructor. Must be fully admitted to the graduate program."
+            "description": "Introduction to guided research and/or clinical practice. Course will fall in-line with DPT project and/or Case Management series. May include lab and/or clinical experiences. Course may be repeated."
         },
         {
             "subject": "PHT",
@@ -19537,6 +19537,13 @@
             "name": "Earth Ethics",
             "units": "3.00",
             "description": "This course will explore resources from philosophy and religion that could contribute to a solution of the current environmental crisis. Specific ethical issues will especially be examined."
+        },
+        {
+            "subject": "REL",
+            "code": "3603",
+            "name": "Judaism after Holocaust",
+            "units": "3.00",
+            "description": "Reflects on Judaism and the Jewish experience after the Holocaust primarily through analysis of Nobel Laureate Elie Wiesel's writings, such as novels, memoirs, essays, plays, liturgies, and speeches."
         },
         {
             "subject": "REL",
