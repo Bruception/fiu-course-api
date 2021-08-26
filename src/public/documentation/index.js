@@ -46,6 +46,7 @@ const truncateData = (data) => {
 }
 
 const sampleQuery = document.querySelector('#sample-subject-query');
+const paginationSampleQuery = document.querySelector('#sample-pagination-query');
 
 const debounce = (func, ms = 500) => {
     let timerID = 0;
@@ -66,7 +67,14 @@ const queryKeyUp = async ({ target: { value } }) => {
     await queryAPI('sample-response', `subject=${value}`, truncateData);
 }
 
+const paginationKeyUp = async ({ target: { value } }) => {
+    if (value === '' || value.indexOf('&') !== -1) return;
+    await queryAPI('pagination-sample-response', `subject=CHM&limit=10&skip=${value}`, truncateData);   
+}
+
 sampleQuery.addEventListener('keyup', debounce(queryKeyUp));
+paginationSampleQuery.addEventListener('keyup', debounce(paginationKeyUp));
+
 
 const queryTemplate = {
     'sample-response': {
@@ -84,8 +92,8 @@ const queryTemplate = {
     'excludes-sample-query': {
         query: 'subject=SPN&excludes=subject code units description',
     },
-    'limit-sample-query': {
-        query: 'subject=CHM&limit=3',
+    'pagination-sample-response': {
+        query: 'subject=CHM&limit=10&skip=0',
     },
     'order-sample-query': {
         query: 'subject=CHM&limit=3&sortBy=units&reverseOrder'

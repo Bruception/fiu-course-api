@@ -235,4 +235,17 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
         const allCoursesAfter = courseDataStore.queryBy();
         expect(allCourses).toBe(allCoursesAfter);
     });
+    test('courseDataStore.queryBy: Correctly paginates data using the skip and limit parameters.', () => {
+        const allCourses = courseDataStore.queryBy();
+        for (let limit = 1; limit <= 1000; limit *= 10) {
+            for (let offset = 0; offset < allCourses.length + limit; offset += limit) {
+                const paginatedData = courseDataStore.queryBy({ 
+                    limit,
+                    skip: offset,
+                });
+                const expectedData = allCourses.slice(offset, offset + limit);
+                expect(paginatedData).toEqual(expectedData);
+            }
+        }
+    });
 });

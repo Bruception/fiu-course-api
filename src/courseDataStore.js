@@ -30,7 +30,8 @@ const QUERY_SCHEMA = joi.object({
     keywords: joi.string(),
     isLab: joi.string().valid(''),
     excludes: joi.string(),
-    limit: joi.number().positive(),
+    skip: joi.number().integer().min(0),
+    limit: joi.number().integer().min(0),
     sortBy: joi.string().valid(...COURSE_PROPERTIES),
     reverseOrder: joi.string().valid(''),
 });
@@ -49,6 +50,10 @@ const defaultValueFormatter = (value) => {
 
 const lowerCaseValueFormatter = (value) => {
     return value.toLowerCase();
+}
+
+const integerFormatter = (value) => {
+    return parseInt(value, 10);
 }
 
 const parameterMap = {
@@ -101,14 +106,19 @@ const parameterMap = {
             return [...data].reverse();
         },
     },
+    skip: {
+        filter: (values, data, _key) => {
+            const [offset] = values;
+            return data.slice(offset);
+        },
+        valueFormatter: integerFormatter
+    },
     limit: {
         filter: (values, data, _key) => {
             const [max] = values;
             return data.slice(0, max);
         },
-        valueFormatter: (value) => {
-            return parseInt(value, 10);
-        },
+        valueFormatter: integerFormatter
     },
     excludes: {
         filter: (values, data, _key) => {
