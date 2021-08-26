@@ -9,7 +9,7 @@
         <h1 id='title'>FIU Course API <span id='app-version'></span> Documentation</h1>
         <div>
             <p>Try changing the <span class='highlight'>subject</span> value below!</p>
-            <p class='request'><span class='highlight'>GET</span> /api?subject=<input id='sample-subject-query' value='COP' maxlength='3'></p>
+            <p class='request'><span class='highlight'>GET</span> /api?subject=<input class='inline-input' id='sample-subject-query' value='COP' maxlength='3'></p>
             <pre id='sample-response' class='sample-query'></pre>
         </div>
         <div>
@@ -26,6 +26,7 @@
                 <li><span class='highlight'>keywords</span></li>
                 <li><span class='highlight'>format</span></li>
                 <li><span class='highlight'>excludes</span></li>
+                <li><span class='highlight'>skip</span></li>
                 <li><span class='highlight'>limit</span></li>
                 <li><span class='highlight'>sortBy</span></li>
                 <li><span class='highlight'>reverseOrder</span></li>
@@ -85,14 +86,16 @@
                 <pre id='excludes-sample-query' class='sample-query'></pre>
             </div>
             <div>
-                <h2>Limiting Results</h2>
+                <h2>Pagination</h2>
                 <p>
                     You can limit the number of results with the <span class='highlight'>limit</span> parameter.
-                    The limit parameter should be a positive safe integer.
-                    Here is an example of a query using the limit parameter:
+                    You can specify an offset in the data using the <span class='highlight'>skip</span> parameter.
+                    The limit and skip parameters should be positive safe integers.
+                    Pagination is possible when combining both of these parameters.
+                    Here is an example of a query that makes use of pagination:
                 </p>
-                <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=3</p>
-                <pre id='limit-sample-query' class='sample-query'></pre>
+                <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=10&skip=<input class='inline-input' id='sample-pagination-query' value='0' maxlength='3'></p>
+                <pre id='pagination-sample-response' class='sample-query'></pre>
             </div>
             <div>
                 <h2>Ordering Results</h2>
