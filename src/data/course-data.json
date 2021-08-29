@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1629592882,
+    "dataAsOf": 1630209733,
     "data": [
         {
             "subject": "ACG",
@@ -2159,6 +2159,13 @@
         },
         {
             "subject": "BME",
+            "code": "4422",
+            "name": "Neural Computation",
+            "units": "3.00",
+            "description": "This course provides an introduction to the working principles of neurons and neural circuits with emphasis on mathematical models."
+        },
+        {
+            "subject": "BME",
             "code": "4503C",
             "name": "Medical Inst Design",
             "units": "4.00",
@@ -2856,13 +2863,6 @@
             "name": "Machine Learning",
             "units": "3.00",
             "description": "Decision trees, Bayesian learning reinforcement learning as well as theoretical concepts such as inductive bias, the PAC learning, minimum description length principle."
-        },
-        {
-            "subject": "CAP",
-            "code": "5627",
-            "name": "Affect Intelligent Agent",
-            "units": "3.00",
-            "description": "Design and implementation methods using artificial intelligence (AI) techniques, human-computer interaction (HCI) principles, emotion theories; applications, e.g. health informatics, education, games."
         },
         {
             "subject": "CAP",
@@ -3829,6 +3829,13 @@
             "name": "Graduate Seminar",
             "units": "0.00",
             "description": "An examination of various current research topics in chemistry. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "CHM",
+            "code": "6936",
+            "name": "Chem Colloquium",
+            "units": "1.00",
+            "description": "Analysis of current developments and topics presented by faculty members and registered students. Prerequisite: Admission to graduate program in chemistry."
         },
         {
             "subject": "CHM",
@@ -4945,13 +4952,6 @@
         },
         {
             "subject": "CPO",
-            "code": "5934",
-            "name": "Topics In Comp Pols",
-            "units": "3.00",
-            "description": "A rigorous examination of a topic in comparative politics. Subject matter varies according to instructor. Topic will be announced in advance."
-        },
-        {
-            "subject": "CPO",
             "code": "6307",
             "name": "Sem So Am Politics",
             "units": "3.00",
@@ -5026,6 +5026,13 @@
             "name": "Special Topics Crw",
             "units": "0.00",
             "description": "Gives students an opportunity to pursue special studies in aspects of creative writing not otherwise offered. May be repeated."
+        },
+        {
+            "subject": "CRW",
+            "code": "5940",
+            "name": "Adv Ind Study Crw",
+            "units": "0.00",
+            "description": "Development and completion of a graduate level independent project in creative writing undertaken with the consent of the instructor. Prerequisites: Graduate standing and permission of the instructor."
         },
         {
             "subject": "CRW",
@@ -7884,6 +7891,13 @@
             "description": "Specific aspects of environmental technology and urban systems not available through formal course study. Open to academically qualified students only."
         },
         {
+            "subject": "ENV",
+            "code": "6971",
+            "name": "Thesis",
+            "units": "0.00",
+            "description": "Research for Master's thesis."
+        },
+        {
             "subject": "ESC",
             "code": "1000",
             "name": "Intro to Earth Science",
@@ -8231,7 +8245,7 @@
             "code": "1950",
             "name": "Intro Portfolio Dev",
             "units": "0.00",
-            "description": "To provide students with a comprehensive overview of academic policies, procedures, and requirements for submitting a Prior Learning Assessment portfolio. Prerequisite: Instructor Approval"
+            "description": "To provide students with a comprehensive overview of academic policies, procedures, and requirements for submitting a Prior Learning Assessment portfolio. Course is repeatable."
         },
         {
             "subject": "FES",
@@ -8641,6 +8655,13 @@
         },
         {
             "subject": "GEB",
+            "code": "4940",
+            "name": "Business Internship",
+            "units": "0.00",
+            "description": "Internship program enabling students to participate in business-related internships to include new startups, product/service launches, and/or business re-engineering, innovation projects. Prerequisite: Instructor Approval"
+        },
+        {
+            "subject": "GEB",
             "code": "6941C",
             "name": "Grad Bus Internship",
             "units": "0.00",
@@ -8673,13 +8694,6 @@
             "name": "Cultural Geography",
             "units": "3.00",
             "description": "The study of spatial variations among cultural groups and the special functioning of society. Focuses on describing and analyzing geographic differences in language, religion, economy, and government."
-        },
-        {
-            "subject": "GEO",
-            "code": "3471",
-            "name": "Political Geography",
-            "units": "3.00",
-            "description": "Examines the uneven spatial distribution of power in the world. Emphasis is on the nation-state, sovereignty, territoriality, but also on challenges to hegemonic space, e.g. from social movements."
         },
         {
             "subject": "GEO",
@@ -10041,10 +10055,10 @@
         },
         {
             "subject": "HUN",
-            "code": "7524",
-            "name": "Nutr Sci Comm Hlth",
+            "code": "7523",
+            "name": "Community Nutrition",
             "units": "3.00",
-            "description": "Critical examination and synthesis of current human nutrition science topics with emphasis on implications to human health, nutrition, public health policy, and research.  Prerequisites: Nutritional Biochemistry and Pathophysiology."
+            "description": "Evaluate models and methodologies to identify public health nutrition issues; analyze current and historical research/nutrition policy; recognize necessary infrastructure to support policy."
         },
         {
             "subject": "IDC",
@@ -10902,13 +10916,6 @@
         },
         {
             "subject": "ISS",
-            "code": "3940",
-            "name": "ISS Public Policy Intern",
-            "units": "0.00",
-            "description": "Supervised work experience with federal, state, local government, or in a public non-profit organization. Involves professional and technical job duties depending on the employer."
-        },
-        {
-            "subject": "ISS",
             "code": "4364",
             "name": "Structure Analytic Method",
             "units": "3.00",
@@ -11370,6 +11377,13 @@
             "description": "Introduces students to intermediate level research methods while they complete a directed research project in Latin American and Caribbean studies."
         },
         {
+            "subject": "LAS",
+            "code": "6942",
+            "name": "Lac Internship",
+            "units": "0.00",
+            "description": "Supervised internship leading to a major research paper in Latin American and Caribbean Studies. Prerequisite: All MALACS coursework completed."
+        },
+        {
             "subject": "LAW",
             "code": "5000",
             "name": "Contracts",
@@ -11777,13 +11791,6 @@
         },
         {
             "subject": "LAW",
-            "code": "7364",
-            "name": "Advanced Trial Advocacy",
-            "units": "3.00",
-            "description": "This course focuses on advanced elements, concepts, and strategies in presenting complex cases to a jury, namely jury selection, presentation of scientific evidence, and examination of expert witness. Prerequisites: Trial Advocacy, Evidence, Approval by the Director of the Trial Advocacy Program."
-        },
-        {
-            "subject": "LAW",
             "code": "7930",
             "name": "Special Topics",
             "units": "2.00",
@@ -12166,6 +12173,13 @@
             "name": "Semantics",
             "units": "3.00",
             "description": "The study of linguistic semantics. Language-universal and language-specific properties of the semantic structure of words and sentences will be considered. Students will be exposed to a variety of approaches to the study of meaning. Prerequisites: Introductory course in Linguistics or permission of the instructor."
+        },
+        {
+            "subject": "LIN",
+            "code": "6905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "This course is designed for students who wish to pursue specialized topics in advanced Linguistics: phonetics, phonology, morphology, syntax, semantics, psycholinguistics, historical linguistics, or language contact. Prerequisites: Introductory course in Linguistics and permission of the instructor."
         },
         {
             "subject": "LIN",
@@ -12967,10 +12981,10 @@
         },
         {
             "subject": "MAT",
-            "code": "4934",
-            "name": "Senior Math Seminar",
-            "units": "1.00",
-            "description": "An exploration of research topics in the student's subfield. Coursework will include a written report, oral presentation, and departmental major field test."
+            "code": "4905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Individual conferences, assigned readings, and reports on independent investigations."
         },
         {
             "subject": "MAT",
@@ -13604,13 +13618,6 @@
         },
         {
             "subject": "MUE",
-            "code": "4480",
-            "name": "Marching Band Tech",
-            "units": "3.00",
-            "description": "A study of show design and concepts; marching band management and organizational procedures including booster organizations, inventory, handbooks, grading procedures and rehearsal fundamentals."
-        },
-        {
-            "subject": "MUE",
             "code": "4940",
             "name": "Stud Tch In Mus Ed",
             "units": "9.00",
@@ -13629,6 +13636,13 @@
             "name": "Directed Research",
             "units": "3.00",
             "description": "This course is designed to provide an opportunity for students to engage in high-level inquiry focusing on an area of specialization within the music education profession."
+        },
+        {
+            "subject": "MUE",
+            "code": "6938",
+            "name": "Seminar In Music Ed",
+            "units": "3.00",
+            "description": "Seminar topics concerning historic music education programs in the United States and other countries, as well as current issues and problems facing the music educator. Required for the Master of Science in Music Education degree."
         },
         {
             "subject": "MUE",
@@ -14168,6 +14182,13 @@
             "name": "Jazz Vocal Ensemble",
             "units": "1.00",
             "description": "Students learn to perform both as a soloist and ensemble singer. Expectations are progressive in accordance with student's class level. Ensemble includes a rhythm section to accompany the vocalists."
+        },
+        {
+            "subject": "MUN",
+            "code": "5795",
+            "name": "Latin Jazz Ensemble",
+            "units": "1.00",
+            "description": "An ensemble to provide professional-level experience in the salsa/Latin jazz idiom. May be repeated. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "MUO",
@@ -14843,6 +14864,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "2228",
+            "name": "Sec Jazz Trombone",
+            "units": "1.00",
+            "description": "Individual instruction in applied jazz music on trombone."
+        },
+        {
+            "subject": "MVJ",
             "code": "2310",
             "name": "Prin App Jazz Piano",
             "units": "2.00",
@@ -15365,6 +15393,13 @@
             "name": "Class Piano IV",
             "units": "1.00",
             "description": "A continuation of Class Piano III."
+        },
+        {
+            "subject": "MVK",
+            "code": "2221",
+            "name": "Sec Applied Piano",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on piano as a secondary instrument."
         },
         {
             "subject": "MVK",
@@ -16408,6 +16443,13 @@
             "name": "Res Meth In Nsg",
             "units": "3.00",
             "description": "Research methods and designs commonly used in nursing. Focuses on the research process as it is integrated in the interchange of theory, practice, and research using information systems. Prerequisites: Statistics, departmental permission and NGR 5110. Corequisite: NGR 5110."
+        },
+        {
+            "subject": "NGR",
+            "code": "5905",
+            "name": "Indep Study In Nsg",
+            "units": "0.00",
+            "description": "Individually determined, research oriented, in-depth study of a nursing problem or clinical experience as approved by the faculty preceptor."
         },
         {
             "subject": "NGR",
@@ -18458,7 +18500,7 @@
             "code": "6547",
             "name": "Case Mgmt Pt",
             "units": "1.00",
-            "description": "Comprehensive physical therapy patient care management and practice review cumulating in a simulated physical therapy licensure examination. Course may be repeated. Prerequisite: PHT 6705 (Long Term Rehabilitation). Corequisite: PHT 6970 (DPT Project)."
+            "description": "First in a series to introduce patient care management focusing on examination and treatment. Exams will include practice questions similar to the licensure examination. May include lab experience."
         },
         {
             "subject": "PHT",
@@ -18486,7 +18528,7 @@
             "code": "6970",
             "name": "DPT Project",
             "units": "3.00",
-            "description": "An individually supervised project for physical therapy students. Course may be repeated."
+            "description": "First in a series initiating students to the research process with faculty. Topics: Literature reviews, develop procedures & testing protocols, assessing reliability & validity and IRB submission"
         },
         {
             "subject": "PHY",
@@ -19768,13 +19810,6 @@
             "name": "First Year Exper",
             "units": "1.00",
             "description": "A review of basic skills and competencies necessary to college success including time management, study skills, and academic policies/procedures.  Includes mandated information."
-        },
-        {
-            "subject": "SLS",
-            "code": "3407",
-            "name": "Major and Career Exploration",
-            "units": "1.00",
-            "description": "Students will be exposed to the fundamentals of career development strategies and clarify interests and skills as related to major/career choice."
         },
         {
             "subject": "SLS",
