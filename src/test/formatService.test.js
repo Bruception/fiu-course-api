@@ -2,6 +2,7 @@ const xml2js = require('xml2js');
 const yaml = require('yaml');
 const courseDataStore = require('../courseDataStore');
 const formatService = require('../formatService');
+const servicePB = require('../protos/service_pb');
 
 describe('formatService: Testing the formatService module.', () => {
     test('formatService.format: Correctly serializes object to JSON when no format is specified.', () => {
@@ -78,5 +79,36 @@ describe('formatService: Testing the formatService module.', () => {
         });
         expect(formattedData).toMatchSnapshot();
         expect(contentType).toStrictEqual('text/plain');
+    });
+    test('formatService.format: Correctly serializes object to a protocol buffer.', () => {
+        const objectToSerialize = {
+            version: '1.0.0',
+            uptime: 1337,
+            dataAsOf: 12345,
+            requestsFulfilled: 123,
+        };
+        const { formattedData, contentType } = formatService.format(objectToSerialize, {
+            format: 'protobuf',
+            getProtocolBuffer: (data) => {
+                const statusProto = new servicePB.Status();
+                statusProto.setVersion(data.version);
+                statusProto.setUptime(data.uptime);
+                statusProto.setDataasof(data.dataAsOf);
+                statusProto.setRequestsfulfilled(data.requestsFulfilled);
+                return statusProto;
+            },
+        });
+        expect(formattedData).toMatchSnapshot();
+        expect(contentType).toStrictEqual('application/octet-stream');
+    });
+    test('formatService.format: Correctly serializes handles missing getProtocolBuffer function.', () => {
+        const objectToSerialize = {
+            data: 'test',
+        };
+        const { formattedData, contentType } = formatService.format(objectToSerialize, {
+            format: 'protobuf',
+        });
+        expect(formattedData).toEqual(Buffer.from(''));
+        expect(contentType).toStrictEqual('application/octet-stream');
     });
 });

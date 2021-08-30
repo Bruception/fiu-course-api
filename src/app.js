@@ -2,7 +2,7 @@ const path = require('path');
 const helmet = require('helmet');
 const express = require('express');
 
-const { logger, errorHandler } = require('./middleware');
+const { logger, errorHandlers } = require('./middleware');
 const courseDataStore = require('./courseDataStore');
 const { version } = require('../package.json');
 const { formatHandlerWrapper } = require('./utils');
@@ -65,7 +65,8 @@ app.get('*', (_req, res) => {
     return res.redirect('/');
 });
 
-app.use(errorHandler);
+app.use(errorHandlers.formattedErrorHandler);
+app.use(errorHandlers.fallbackErrorHandler);
 
 /* istanbul ignore next */
 const PORT = process.env.PORT || 8000;

@@ -21,7 +21,7 @@ const OPTIONS_SCHEMA = joi.object({
 const FORMAT_MIME_TYPES = {
     'json': 'application/json',
     'xml': 'application/xml',
-    'protobuf': 'application/x-protobuf',
+    'protobuf': 'application/octet-stream',
 };
 
 const DEFAULT_OPTIONS = {
@@ -38,7 +38,10 @@ const formatters = {
     'xml': xmlFormatter,
     'yaml': yaml.stringify,
     'protobuf': (protocolBuffer) => {
-        return protocolBuffer.serializeBinary ? protocolBuffer.serializeBinary() : '';
+        const binary = protocolBuffer.serializeBinary
+            ? protocolBuffer.serializeBinary()
+            : new Uint8Array();
+        return Buffer.from(binary.buffer, binary.byteOffset, binary.byteLength)
     },
 };
 

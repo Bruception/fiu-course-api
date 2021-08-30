@@ -19,30 +19,31 @@ exports.validate = (schema, data) => {
 }
 
 exports.formatHandlerWrapper = (handler, options = {}) => {
-    const wrapperLogic = (req, res, handlerData) => {
-        const { data, formatOptions = {} } = handlerData
+    const wrapperLogic = (req, res, next, handlerData) => {
+        const { data, formatOptions = {} } = handlerData;
         const baseFormatOptions = {
             format: req.query?.format || req.body?.format,
             ...formatOptions,
         };
-        const {
-            formattedData,
-            contentType,
-        } = formatService.format(data, baseFormatOptions);
-        res.setHeader('Content-Type', contentType);
-        if (baseFormatOptions.format === 'protobuf') {
-            return res.end(Buffer.from(formattedData, 'binary'));
+        try {
+            const {
+                formattedData,
+                contentType,
+            } = formatService.format(data, baseFormatOptions);
+            res.setHeader('Content-Type', contentType);
+            return res.send(formattedData);
+        } catch (error) {
+            return next(error);
         }
-        return res.send(formattedData);
     }
     if (!options.errorHandler) {
-        return (req, res) => {
+        return (req, res, next) => {
             const handlerData = handler(req, res);
-            wrapperLogic(req, res, handlerData);
+            wrapperLogic(req, res, next, handlerData);
         };
     }
     return (error, req, res, next) => {
         const handlerData = handler(error, req, res, next);
-        wrapperLogic(req, res, handlerData);
+        wrapperLogic(req, res, next, handlerData);
     };
 }
