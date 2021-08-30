@@ -18,11 +18,11 @@ exports.validate = (schema, data) => {
     return value;
 }
 
-exports.formatHandlerWrapper = (fn) => {
-    return (req, res) => {
-        const { data, formatOptions = {} } = fn(req, res);
+exports.formatHandlerWrapper = (handler, options = {}) => {
+    const wrapperLogic = (req, res, handlerData) => {
+        const { data, formatOptions = {} } = handlerData
         const baseFormatOptions = {
-            format: req.query.format,
+            format: req.query.format || req.body.format,
             ...formatOptions,
         };
         const {
@@ -32,4 +32,14 @@ exports.formatHandlerWrapper = (fn) => {
         res.setHeader('Content-Type', contentType);
         res.send(formattedData);
     }
+    if (!options.errorHandler) {
+        return (req, res) => {
+            const handlerData = handler(req, res);
+            wrapperLogic(req, res, handlerData);
+        };
+    }
+    return (error, req, res, next) => {
+        const handlerData = handler(error, req, res, next);
+        wrapperLogic(req, res, handlerData);
+    };
 }
