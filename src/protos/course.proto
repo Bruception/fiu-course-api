@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Course {
+    string subject = 1;
+    string code = 2;
+    string name = 3;
+    string units = 4;
+    string description = 5;
+}
+
+message CourseAPIResponseData {
+    uint64 total = 1;
+    repeated Course results = 2;
+}

@@ -1,3 +1,4 @@
+const servicePB = require('../protos/service_pb');
 const { formatHandlerWrapper } = require('../utils');
 
 const DEFAULT_ERROR_MESSAGE = 'Oops! Something went wrong.'
@@ -13,6 +14,13 @@ module.exports = formatHandlerWrapper(
         return {
             data: {
                 error: (errorStatusCode === BAD_REQUEST_STATUS_CODE) ? errorMessage : DEFAULT_ERROR_MESSAGE,
+            },
+            formatOptions: {
+                getProtocolBuffer: (data) => {
+                    const errorProto = new servicePB.Error();
+                    errorProto.setError(data.error);
+                    return errorProto;
+                },
             },
         }
     },

@@ -9,12 +9,14 @@
     "fix-lint": "./node_modules/.bin/eslint ./src/*.js --fix",
     "dev": "nodemon ./src/app.js",
     "start": "node ./src/app.js",
-    "update-data": "cd ./src/data ; source ./update_courses.sh ; cd ~-"
+    "update-data": "cd ./src/data ; source ./update_courses.sh ; cd ~-",
+    "update-protos": "protoc --js_out=import_style=commonjs,binary:. ./src/protos/course.proto ./src/protos/service.proto"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "google-protobuf": "^3.18.0-rc.1",
     "helmet": "^4.6.0",
     "joi": "^17.3.0",
     "lodash": "^4.17.21",
@@ -37,6 +39,7 @@
         "lines": 100,
         "statements": 100
       }
-    }
+    },
+    "coveragePathIgnorePatterns": ["/protos/"]
   }
 }

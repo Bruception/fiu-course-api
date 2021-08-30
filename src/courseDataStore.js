@@ -2,6 +2,7 @@ const joi = require('joi');
 const _ = require('lodash');
 const path = require('path');
 const utils = require('./utils');
+const coursePB = require('./protos/course_pb');
 const words = require('talisman/tokenizers/words');
 const lancaster = require('talisman/stemmers/lancaster');
 
@@ -202,6 +203,20 @@ module.exports = {
                 total: data.length,
                 results: data.filter((value) => Object.keys(value).length !== 0),
             }
+        },
+        getProtocolBuffer: (data) => {
+            const courseAPIDataProto = new coursePB.CourseAPIResponseData();
+            courseAPIDataProto.setTotal(data.total);
+            data.results.forEach((result) => {
+                const courseProto = new coursePB.Course();
+                courseProto.setSubject(result.subject);
+                courseProto.setCode(result.code);
+                courseProto.setName(result.name);
+                courseProto.setUnits(result.units);
+                courseProto.setDescription(result.description);
+                courseAPIDataProto.addResults(courseProto);
+            });
+            return courseAPIDataProto;
         },
     },
 };

@@ -6,6 +6,7 @@ const { logger, errorHandler } = require('./middleware');
 const courseDataStore = require('./courseDataStore');
 const { version } = require('../package.json');
 const { formatHandlerWrapper } = require('./utils');
+const servicePB = require('./protos/service_pb');
 
 const APP_START_TIME = new Date().getTime();
 const PUBLIC_PATH = path.resolve(__dirname, './public');
@@ -40,7 +41,19 @@ app.get('/status', formatHandlerWrapper(
             dataAsOf: courseDataStore.dataAsOf,
             requestsFulfilled,
         };
-        return { data: statusData };
+        return {
+            data: statusData,
+            formatOptions: {
+                getProtocolBuffer: (data) => {
+                    const statusProto = new servicePB.Status();
+                    statusProto.setVersion(data.version);
+                    statusProto.setUptime(data.uptime);
+                    statusProto.setDataasof(data.dataAsOf);
+                    statusProto.setRequestsfulfilled(data.requestsFulfilled);
+                    return statusProto;
+                }
+            },
+        };
     }
 ));
 

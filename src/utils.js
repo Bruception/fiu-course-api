@@ -30,7 +30,10 @@ exports.formatHandlerWrapper = (handler, options = {}) => {
             contentType,
         } = formatService.format(data, baseFormatOptions);
         res.setHeader('Content-Type', contentType);
-        res.send(formattedData);
+        if (baseFormatOptions.format === 'protobuf') {
+            return res.end(Buffer.from(formattedData, 'binary'));
+        }
+        return res.send(formattedData);
     }
     if (!options.errorHandler) {
         return (req, res) => {
