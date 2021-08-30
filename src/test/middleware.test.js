@@ -39,7 +39,7 @@ describe('middleware: Test middleware functionality.', () => {
         expect(responseStatusSpy).toHaveBeenCalledTimes(1);
         expect(responseBodySpy).toHaveBeenCalledTimes(1);
         expect(mockResponse.statusCode).toBe(500);
-        expect(mockResponse.body.error).toBe('Oops! Something went wrong.');
+        expect(mockResponse.body).toBe('{"error":"Oops! Something went wrong."}');
     });
     test('middleware.errorHandler: Error handler correctly sets specified response status and body.', () => {
         const mockError = {
@@ -55,7 +55,7 @@ describe('middleware: Test middleware functionality.', () => {
         expect(responseStatusSpy).toHaveBeenCalledTimes(1);
         expect(responseBodySpy).toHaveBeenCalledTimes(1);
         expect(mockResponse.statusCode).toBe(404);
-        expect(mockResponse.body.error).toBe('Oops! Something went wrong.');
+        expect(mockResponse.body).toBe('{"error":"Oops! Something went wrong."}');
     });
     test('middleware.errorHandler: Error sets details for request errors.', () => {
         const mockError = {
@@ -71,6 +71,6 @@ describe('middleware: Test middleware functionality.', () => {
         expect(responseStatusSpy).toHaveBeenCalledTimes(1);
         expect(responseBodySpy).toHaveBeenCalledTimes(1);
         expect(mockResponse.statusCode).toBe(400);
-        expect(mockResponse.body.error).toBe('Request Error!');
+        expect(mockResponse.body).toBe('{"error":"Request Error!"}');
     });
 });

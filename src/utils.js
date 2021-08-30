@@ -22,7 +22,7 @@ exports.formatHandlerWrapper = (handler, options = {}) => {
     const wrapperLogic = (req, res, handlerData) => {
         const { data, formatOptions = {} } = handlerData
         const baseFormatOptions = {
-            format: req.query.format || req.body.format,
+            format: req.query?.format || req.body?.format,
             ...formatOptions,
         };
         const {
