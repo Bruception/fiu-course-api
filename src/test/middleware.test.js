@@ -1,4 +1,4 @@
-const { errorHandler } = require('../middleware');
+const { errorHandlers } = require('../middleware');
 
 const getMockRequest = () => {
     return {
@@ -20,6 +20,10 @@ const getMockResponse = () => {
             this.body = body;
             return this;
         },
+        json(body) {
+            this.body = body;
+            return this;
+        },
         setHeader(header, data) {
             this.headers[header] = data;
         },
@@ -27,7 +31,7 @@ const getMockResponse = () => {
 }
 
 describe('middleware: Test middleware functionality.', () => {
-    test('middleware.errorHandler: Error handler correctly sets default response status and body.', () => {
+    test('middleware.errorHandlers: Error handler correctly sets default response status and body.', () => {
         const mockError = {
             stack: 'Mock error stack trace.',
         };
@@ -35,13 +39,13 @@ describe('middleware: Test middleware functionality.', () => {
         const mockResponse = getMockResponse();
         const responseStatusSpy = jest.spyOn(mockResponse, 'status');
         const responseBodySpy = jest.spyOn(mockResponse, 'send');
-        errorHandler(mockError, mockRequest, mockResponse);
+        errorHandlers.formattedErrorHandler(mockError, mockRequest, mockResponse);
         expect(responseStatusSpy).toHaveBeenCalledTimes(1);
         expect(responseBodySpy).toHaveBeenCalledTimes(1);
         expect(mockResponse.statusCode).toBe(500);
         expect(mockResponse.body).toBe('{"error":"Oops! Something went wrong."}');
     });
-    test('middleware.errorHandler: Error handler correctly sets specified response status and body.', () => {
+    test('middleware.errorHandlers: Error handler correctly sets specified response status and body.', () => {
         const mockError = {
             stack: 'Mock error stack trace.',
             statusCode: 404,
@@ -51,13 +55,13 @@ describe('middleware: Test middleware functionality.', () => {
         const mockResponse = getMockResponse();
         const responseStatusSpy = jest.spyOn(mockResponse, 'status');
         const responseBodySpy = jest.spyOn(mockResponse, 'send');
-        errorHandler(mockError, mockRequest, mockResponse);
+        errorHandlers.formattedErrorHandler(mockError, mockRequest, mockResponse);
         expect(responseStatusSpy).toHaveBeenCalledTimes(1);
         expect(responseBodySpy).toHaveBeenCalledTimes(1);
         expect(mockResponse.statusCode).toBe(404);
         expect(mockResponse.body).toBe('{"error":"Oops! Something went wrong."}');
     });
-    test('middleware.errorHandler: Error sets details for request errors.', () => {
+    test('middleware.errorHandlers: Error sets details for request errors.', () => {
         const mockError = {
             stack: 'Mock error stack trace.',
             statusCode: 400,
@@ -67,10 +71,28 @@ describe('middleware: Test middleware functionality.', () => {
         const mockResponse = getMockResponse();
         const responseStatusSpy = jest.spyOn(mockResponse, 'status');
         const responseBodySpy = jest.spyOn(mockResponse, 'send');
-        errorHandler(mockError, mockRequest, mockResponse);
+        errorHandlers.formattedErrorHandler(mockError, mockRequest, mockResponse);
         expect(responseStatusSpy).toHaveBeenCalledTimes(1);
         expect(responseBodySpy).toHaveBeenCalledTimes(1);
         expect(mockResponse.statusCode).toBe(400);
         expect(mockResponse.body).toBe('{"error":"Request Error!"}');
+    });
+    test('middleware.errorHandlers: Fallback error handler correctly formats error.', () => {
+        const mockError = {
+            stack: 'Mock error stack trace.',
+            statusCode: 400,
+            message: 'Request Error!',
+        };
+        const mockRequest = getMockRequest();
+        const mockResponse = getMockResponse();
+        const responseStatusSpy = jest.spyOn(mockResponse, 'status');
+        const responseJSONSpy = jest.spyOn(mockResponse, 'json');
+        errorHandlers.fallbackErrorHandler(mockError, mockRequest, mockResponse);
+        expect(responseStatusSpy).toHaveBeenCalledTimes(1);
+        expect(responseJSONSpy).toHaveBeenCalledTimes(1);
+        expect(mockResponse.statusCode).toBe(400);
+        expect(mockResponse.body).toEqual({
+            error: 'Request Error!',
+        });
     });
 });

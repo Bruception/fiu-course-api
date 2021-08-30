@@ -12,4 +12,3 @@ The documentation can be found [here](https://fiu-course-api.herokuapp.com/docum
 - Add support for CSV formatting.
 - Expand API to include faculty data.
 - Implement automated documentation.
-- Enable protocol buffer serialization.

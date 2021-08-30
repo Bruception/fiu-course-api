@@ -1,5 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`formatService: Testing the formatService module. formatService.format: Correctly serializes object to a protocol buffer. 1`] = `
+Object {
+  "data": Array [
+    10,
+    5,
+    49,
+    46,
+    48,
+    46,
+    48,
+    16,
+    185,
+    10,
+    24,
+    185,
+    96,
+    32,
+    123,
+  ],
+  "type": "Buffer",
+}
+`;
+
 exports[`formatService: Testing the formatService module. formatService.format: Correctly serializes object with no provided options. 1`] = `"{\\"version\\":\\"1.0.0\\",\\"uptime\\":\\"1337\\",\\"status\\":\\"ok\\"}"`;
 
 exports[`formatService: Testing the formatService module. formatService.format: Correctly serializes object with no provided shape function. 1`] = `

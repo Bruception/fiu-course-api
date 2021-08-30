@@ -50,15 +50,17 @@
                 <pre id='multi-value-queries-response' class='sample-query'></pre>
             </div>
             <div>
-                <h2>Data Format</h2>
+                <h2>Data Serialization</h2>
                 <p>
                     You can specify how the returned data is serialized with the <span class='highlight'>format</span> parameter.
-                    Currently this API only supports the following formats:
+                    Currently this API only supports the following serialization formats:
                     <ul>
                         <li>JSON</li>
                         <li>XML</li>
                         <li>YAML</li>
+                        <li>Protocol Buffers</li>
                     </ul>
+                    To use protocol buffers, specify the <span class='highlight'>format</span> as "<span class='highlight'>protobuf</span>".
                     Here is an example of how you might query your data in YAML.
                 </p>
                 <p class='request'><span class='highlight'>GET</span> /api?format=yaml</p>

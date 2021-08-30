@@ -1,7 +1,7 @@
 const logger = require('./logger');
-const errorHandler = require('./errorHandler');
+const errorHandlers = require('./errorHandlers');
 
 module.exports = {
     logger,
-    errorHandler,
+    errorHandlers,
 }
