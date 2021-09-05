@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1630209733,
+    "dataAsOf": 1630802719,
     "data": [
         {
             "subject": "ACG",
@@ -2141,7 +2141,7 @@
             "code": "4100",
             "name": "Biomaterials",
             "units": "3.00",
-            "description": "Materials used in prosthesis for skin and soft tissue, vascular implant devices, bone repair, and artificial joints.  Structure-property relationships for biological tissue."
+            "description": "Materials used in prosthesis for skin and soft tissue, vascular implant devices, bone repair, and artificial joints.  Structure-property relationships for biological tissue. \t\nPrerequisite:  EGM 3503  For MME students only: PCB 3702, EGN 3311, EGN 3321 Corequisite: BME 3404. No Corequisite for MME students."
         },
         {
             "subject": "BME",
@@ -10195,13 +10195,6 @@
         },
         {
             "subject": "IDS",
-            "code": "4918",
-            "name": "VIP Program - C",
-            "units": "3.00",
-            "description": "Students work in large projects with students from different majors working in real-world projects with university and external mentors (may be taken twice) (Senior status) Prerequisite: Instructor Consent."
-        },
-        {
-            "subject": "IDS",
             "code": "4949",
             "name": "Internship in LS/IDS",
             "units": "0.00",
@@ -14087,6 +14080,13 @@
         },
         {
             "subject": "MUN",
+            "code": "5105L",
+            "name": "FIU Marching Band",
+            "units": "1.00",
+            "description": "A study and performance of pop, jazz, and rock musical selections for the instrumental medium. Students will demonstrate what they have learned by performing and through individualized playing examinations. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MUN",
             "code": "5145L",
             "name": "Symphonic Wind Ens",
             "units": "1.00",
@@ -14864,6 +14864,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "2220",
+            "name": "Sec Jazz Piano",
+            "units": "1.00",
+            "description": "Individual instruction in applied jazz music on piano."
+        },
+        {
+            "subject": "MVJ",
             "code": "2228",
             "name": "Sec Jazz Trombone",
             "units": "1.00",
@@ -15582,6 +15589,13 @@
             "name": "Secondary App Viola",
             "units": "1.00",
             "description": "Individual instruction in applied music on viola as a secondary instrument."
+        },
+        {
+            "subject": "MVS",
+            "code": "1213",
+            "name": "Secondary App Cello",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on cello as a secondary instrument."
         },
         {
             "subject": "MVS",
@@ -19813,6 +19827,13 @@
         },
         {
             "subject": "SLS",
+            "code": "3407",
+            "name": "Major and Career Exploration",
+            "units": "1.00",
+            "description": "Students will be exposed to the fundamentals of career development strategies and clarify interests and skills as related to major/career choice."
+        },
+        {
+            "subject": "SLS",
             "code": "3990",
             "name": "Spec Top: Arts, Sci, & Ed",
             "units": "1.00",
@@ -21329,6 +21350,13 @@
             "name": "Theatre Internship",
             "units": "1.00",
             "description": "Supervised internship in a professional company in acting, directing, stage management, design, technical theatre, or theatre management. Repeatable one time for credit. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "THE",
+            "code": "4971",
+            "name": "Senior Projects",
+            "units": "1.00",
+            "description": "Final preparation and performance or presentation of a creative project in the student's area of emphasis under the direction of a faculty advisor. Theatre majors only."
         },
         {
             "subject": "TPA",
