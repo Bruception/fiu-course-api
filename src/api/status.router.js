@@ -8,16 +8,15 @@ const APP_START_TIME = new Date().getTime();
 
 const statusRouter = express.Router();
 
-const requestsFulfilled = 0;
-
 statusRouter.get('/', formatHandlerWrapper(
-    () => {
+    (req) => {
+        const { requestNumber: requestsReceived } = req.context;
         const currentTime = new Date().getTime();
         const statusData = {
             version,
             uptime: currentTime - APP_START_TIME,
             dataAsOf: courseDataService.dataAsOf,
-            requestsFulfilled,
+            requestsReceived,
         };
         return {
             data: statusData,
@@ -27,7 +26,7 @@ statusRouter.get('/', formatHandlerWrapper(
                     statusProto.setVersion(data.version);
                     statusProto.setUptime(data.uptime);
                     statusProto.setDataasof(data.dataAsOf);
-                    statusProto.setRequestsfulfilled(data.requestsFulfilled);
+                    statusProto.setRequestsreceived(data.requestsReceived);
                     return statusProto;
                 }
             },
