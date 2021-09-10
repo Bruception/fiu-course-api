@@ -1,4 +1,4 @@
-// Source: src/protos/course.proto
+// source: src/protos/course.proto
 /**
  * @fileoverview
  * @enhanceable
