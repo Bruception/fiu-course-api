@@ -2,7 +2,7 @@ const path = require('path');
 const helmet = require('helmet');
 const express = require('express');
 const addApiRoutes = require('./api');
-const { logger, errorHandlers, addSwaggerMiddleware } = require('./middleware');
+const { logger, getContextMiddleware, errorHandlers, addSwaggerMiddleware } = require('./middleware');
 
 const PUBLIC_PATH = path.resolve(__dirname, './public');
 /* istanbul ignore next */
@@ -12,6 +12,7 @@ const initializeAppAndServer = (port) => {
     const app = express();
 
     app.use(helmet());
+    app.use(getContextMiddleware());
     app.use(logger());
     app.use(express.json());
 
