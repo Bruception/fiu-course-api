@@ -23,6 +23,7 @@
     "morgan": "^1.10.0",
     "swagger-ui-express": "^4.1.6",
     "talisman": "^1.1.4",
+    "uuid": "^8.3.2",
     "xml2js": "^0.4.23",
     "yaml": "^1.10.0"
   },
