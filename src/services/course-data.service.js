@@ -82,7 +82,7 @@ const parameterMap = {
             tokens.forEach((token, i) => {
                 const normalizedToken = token.replace(/[^0-9a-zA-Z]/giu, '');
                 const tokenStem = lancaster(normalizedToken);
-                const courses = courseDataStore._tokenToCoursesMap[tokenStem] || new Set();
+                const courses = courseDataService._tokenToCoursesMap[tokenStem] || new Set();
                 matchedCourses = (i === 0)
                     ? courses
                     : new Set([...matchedCourses].filter((course) => courses.has(course)));
@@ -173,7 +173,7 @@ const normalizeSource = (sourceQuery) => {
     return normalizedQuery;
 }
 
-const courseDataStore = {
+const courseDataService = {
     _data: [],
     _tokenToCoursesMap: {},
     init() {
@@ -200,8 +200,8 @@ const courseDataStore = {
 }.init();
 
 module.exports = {
-    dataAsOf: courseDataStore._dataAsOf,
-    queryBy: courseDataStore.queryBy.bind(courseDataStore),
+    dataAsOf: courseDataService._dataAsOf,
+    queryBy: courseDataService.queryBy.bind(courseDataService),
     formatOptions: {
         shapeFunction: (data) => {
             return {
