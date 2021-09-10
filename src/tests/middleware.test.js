@@ -1,9 +1,15 @@
 const { errorHandlers } = require('../middleware');
 
-const getMockRequest = () => {
+const getMockRequest = (format) => {
     return {
         query: {},
         body: {},
+        headers: {
+            accept: format,
+        },
+        header(header) {
+            return this.headers[header];
+        },
     };
 }
 

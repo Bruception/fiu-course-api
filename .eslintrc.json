@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": false,
+        "browser": true,
         "commonjs": true,
         "es2021": true,
         "node": true
@@ -118,7 +118,7 @@
         "max-statements": "off",
         "max-statements-per-line": "error",
         "multiline-comment-style": "error",
-        "new-cap": "error",
+        "new-cap": "off",
         "new-parens": "error",
         "newline-after-var": "off",
         "newline-before-return": "off",
@@ -255,7 +255,7 @@
         "radix": "error",
         "require-atomic-updates": "error",
         "require-await": "error",
-        "require-jsdoc": "error",
+        "require-jsdoc": "off",
         "require-unicode-regexp": "error",
         "rest-spread-spacing": [
             "error",

@@ -1,37 +1,37 @@
-const courseDataStore = require('../courseDataStore');
+const { courseDataService } = require('../services');
 const courseData = require('../data/course-data.json');
 
-describe('courseDataStore: Testing the courseDataStore module.', () => {
+describe('courseDataService: Testing the courseDataService module.', () => {
     const containsWord = (source, word) => {
         return source.match(new RegExp(`\\b${word}\\b`, 'u')) != null;
-    }    
-    test('courseDataStore.queryBy: Empty query returns entire data.', () => {
-        expect(courseDataStore.queryBy({}).length).toBe(courseData.data.length);
+    }
+    test('courseDataService.queryBy: Empty query returns entire data.', () => {
+        expect(courseDataService.queryBy({}).length).toBe(courseData.data.length);
     });
-    test('courseDataStore.queryBy: Query with subject "COP" returns only data with subject COP.', () => {
-        const courseSubjects = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Query with subject "COP" returns only data with subject COP.', () => {
+        const courseSubjects = courseDataService.queryBy({
             subject: 'COP',
         }).map((course) => course.subject);
         expect(courseSubjects.length).toBeGreaterThan(0);
         courseSubjects.forEach((subject) => expect(subject).toMatch(/^COP/));
     });
-    test('courseDataStore.queryBy: Query with subject "C" returns only data with subject that starts with C.', () => {
-        const courseSubjects = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Query with subject "C" returns only data with subject that starts with C.', () => {
+        const courseSubjects = courseDataService.queryBy({
             subject: 'C',
         }).map((course) => course.subject);
         expect(courseSubjects.length).toBeGreaterThan(0);
         courseSubjects.forEach((subject) => expect(subject).toMatch(/^C/));
     });
-    test('courseDataStore.queryBy: Query with code "2" returns only data with code that starts with 2.', () => {
-        const courseCodes = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Query with code "2" returns only data with code that starts with 2.', () => {
+        const courseCodes = courseDataService.queryBy({
             code: '2',
         }).map((course) => course.code);
         expect(courseCodes.length).toBeGreaterThan(0);
         courseCodes.forEach((code) => expect(code).toMatch(/^2/));
     });
-    test('courseDataStore.queryBy: Query isLab returns only data where name has Lab.', () => {
-        const courses = courseDataStore.queryBy({
-            isLab: '',
+    test('courseDataService.queryBy: Query isLab returns only data where name has Lab.', () => {
+        const courses = courseDataService.queryBy({
+            isLab: true,
         });
         expect(courses.length).toBeGreaterThan(0);
         courses.forEach(({ name, code }) => {
@@ -40,20 +40,19 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(containsWord(name, 'Lab') || hasLabIdentifier).toBeTruthy();
         });
     });
-    test('courseDataStore.queryBy: Query with units "3" returns only data where units starts with 3.', () => {
-        const courseUnits = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Query with units "3" returns only data where units starts with 3.', () => {
+        const courseUnits = courseDataService.queryBy({
             units: '3',
         }).map((course) => course.units);
         expect(courseUnits.length).toBeGreaterThan(0);
         courseUnits.forEach((units) => expect(units).toMatch(/^3/));
     });
-    test('courseDataStore.queryBy: Combined query returns only courses matching data.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Combined query returns only courses matching data.', () => {
+        const courses = courseDataService.queryBy({
             subject: 'ch',
             units: '1.00',
-            isLab: '',
+            isLab: true,
             code: '10',
-            format: 'xml',
         });
         expect(courses.length).toBeGreaterThan(0);
         courses.forEach((course) => {
@@ -63,8 +62,8 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(course.code).toMatch(/^10/);
         });
     });
-    test('courseDataStore.queryBy: Multi-value subject query returns only courses matching query.', () => {
-        const courseNames = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Multi-value subject query returns only courses matching query.', () => {
+        const courseNames = courseDataService.queryBy({
             subject: ['COP', 'CAP'],
         }).map((course) => course.subject);
         expect(courseNames.length).toBeGreaterThan(0);
@@ -72,8 +71,8 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(name).toMatch(/^C[O,A]P/);
         });
     });
-    test('courseDataStore.queryBy: Handles multiple multi-value queries and returns matching data.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Handles multiple multi-value queries and returns matching data.', () => {
+        const courses = courseDataService.queryBy({
             subject: ['COP', 'AST'],
             units: ['1', '0'],
             code: ['2', '3'],
@@ -85,41 +84,41 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(course.code).toMatch(/^(2|3)/);
         });
     });
-    test('courseDataStore.queryBy: Disallows more than 5 keywords.', () => {
+    test('courseDataService.queryBy: Disallows more than 5 keywords.', () => {
         const testQuery = () => {
-            return courseDataStore.queryBy({
+            return courseDataService.queryBy({
                 keywords: 'one two three four five six',
             });
         }
         expect(testQuery).toThrow(Error);
     });
-    test('courseDataStore.queryBy: Fuzzy matches keyword.', () => {
-        const coursesWithDistribution = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Fuzzy matches keyword.', () => {
+        const coursesWithDistribution = courseDataService.queryBy({
             keywords: 'distribution',
         });
-        const coursesWithDistributed = courseDataStore.queryBy({
+        const coursesWithDistributed = courseDataService.queryBy({
             keywords: 'distributed',
         });
-        const coursesWithDistribute = courseDataStore.queryBy({
+        const coursesWithDistribute = courseDataService.queryBy({
             keywords: 'distribute',
         });
         expect(coursesWithDistribution).toEqual(coursesWithDistributed);
         expect(coursesWithDistributed).toEqual(coursesWithDistribute);
     });
-    test('courseDataStore.queryBy: Multiple keyword search works.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Multiple keyword search works.', () => {
+        const courses = courseDataService.queryBy({
             keywords: 'electricity magnets theory',
         });
         expect(courses.length).toBeGreaterThan(0);
     });
-    test('courseDataStore.queryBy: Unknown keyword returns no courses.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Unknown keyword returns no courses.', () => {
+        const courses = courseDataService.queryBy({
             keywords: '😋',
         });
         expect(courses.length).toBe(0);
     });
-    test('courseDataStore.queryBy: Correctly excludes single property.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Correctly excludes single property.', () => {
+        const courses = courseDataService.queryBy({
             excludes: 'description',
         });
         const includedProperties = ['subject', 'code', 'name', 'units'];
@@ -127,8 +126,8 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(Object.keys(course)).toEqual(includedProperties);
         });
     });
-    test('courseDataStore.queryBy: Correctly excludes multiple properties.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Correctly excludes multiple properties.', () => {
+        const courses = courseDataService.queryBy({
             excludes: 'description units name',
         });
         const includedProperties = ['subject', 'code'];
@@ -136,8 +135,8 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(Object.keys(course)).toEqual(includedProperties);
         });
     });
-    test('courseDataStore.queryBy: Correctly excludes all properties with kleene star.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Correctly excludes all properties with kleene star.', () => {
+        const courses = courseDataService.queryBy({
             excludes: '*',
         });
         const includedProperties = [];
@@ -145,22 +144,22 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(Object.keys(course)).toEqual(includedProperties);
         });
     });
-    test('courseDataStore.queryBy: Correctly limits data.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Correctly limits data.', () => {
+        const courses = courseDataService.queryBy({
             limit: '10',
         });
         expect(courses.length).toBeLessThanOrEqual(10);
     });
-    test('courseDataStore.queryBy: Correctly handles invalud limits.', () => {
+    test('courseDataService.queryBy: Correctly handles invalud limits.', () => {
         const testQuery = () => {
-            return courseDataStore.queryBy({
+            return courseDataService.queryBy({
                 limit: -10,
             });
         }
         expect(testQuery).toThrow(Error);
     });
-    test('courseDataStore.queryBy: Correctly filters duplicate data.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Correctly filters duplicate data.', () => {
+        const courses = courseDataService.queryBy({
             subject: ['COP', 'C', 'AST', 'A'],
         });
         const uniqueCourses = [...new Set(courses)];
@@ -169,8 +168,8 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             expect(course).toBe(courses[index]);
         });
     });
-    test('courseDataStore.queryBy: Correctly sorts data with the sortBy parameter.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Correctly sorts data with the sortBy parameter.', () => {
+        const courses = courseDataService.queryBy({
             subject: ['A', 'C'],
             sortBy: 'name',
         });
@@ -180,11 +179,11 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             currentName = course.name;
         });
     });
-    test('courseDataStore.queryBy: Correctly reverses order of data with the reverseOrder parameter.', () => {
-        const courses = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Correctly reverses order of data with the reverseOrder parameter.', () => {
+        const courses = courseDataService.queryBy({
             subject: ['A', 'C'],
             sortBy: 'name',
-            reverseOrder: '',
+            reverseOrder: true,
         });
         let currentName = courses[0].name;
         courses.forEach((course) => {
@@ -192,11 +191,11 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             currentName = course.name;
         });
     });
-    test('courseDataStore.queryBy: Handles multiple source queries.', () => {
-        const courses = courseDataStore.queryBy([
+    test('courseDataService.queryBy: Handles multiple source queries.', () => {
+        const courses = courseDataService.queryBy([
             {
                 subject: ['COP', 'CAP', 'AST'],
-                limit: 50, 
+                limit: 50,
                 sortBy: 'name',
                 units: ['3', '4'],
                 excludes: 'code description',
@@ -224,22 +223,23 @@ describe('courseDataStore: Testing the courseDataStore module.', () => {
             currentName = course.name;
         });
     });
-    test('courseDataStore.queryBy: Does not mutate the in-memory data.', () => {
-        const allCourses = courseDataStore.queryBy();
-        const coursesSortedByUnits = courseDataStore.queryBy({
+    test('courseDataService.queryBy: Does not mutate the in-memory data.', () => {
+        const allCourses = courseDataService.queryBy();
+        const coursesSortedByUnits = courseDataService.queryBy({
             sortBy: 'units',
+            reverseOrder: false,
         });
-        const coursesReversed = courseDataStore.queryBy({
-            reverseOrder: '',
+        const coursesReversed = courseDataService.queryBy({
+            reverseOrder: true,
         });
-        const allCoursesAfter = courseDataStore.queryBy();
+        const allCoursesAfter = courseDataService.queryBy();
         expect(allCourses).toBe(allCoursesAfter);
     });
-    test('courseDataStore.queryBy: Correctly paginates data using the skip and limit parameters.', () => {
-        const allCourses = courseDataStore.queryBy();
+    test('courseDataService.queryBy: Correctly paginates data using the skip and limit parameters.', () => {
+        const allCourses = courseDataService.queryBy();
         for (let limit = 1; limit <= 1000; limit *= 10) {
             for (let offset = 0; offset < allCourses.length + limit; offset += limit) {
-                const paginatedData = courseDataStore.queryBy({ 
+                const paginatedData = courseDataService.queryBy({
                     limit,
                     skip: offset,
                 });

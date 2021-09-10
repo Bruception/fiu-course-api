@@ -1,4 +1,4 @@
-const formatService = require('./formatService');
+const { formatService } = require('./services');
 
 exports.containsWord = (source, word) => {
     return source.match(new RegExp(`\\b${word}\\b`, 'u')) !== null;
@@ -21,8 +21,9 @@ exports.validate = (schema, data) => {
 exports.formatHandlerWrapper = (handler, options = {}) => {
     const wrapperLogic = (req, res, next, handlerData) => {
         const { data, formatOptions = {} } = handlerData;
+        const acceptHeader = req.header('accept');
         const baseFormatOptions = {
-            format: req.query?.format || req.body?.format,
+            format: acceptHeader,
             ...formatOptions,
         };
         try {

@@ -1,14 +1,25 @@
 const joi = require('joi');
 const yaml = require('yaml');
-const utils = require('./utils');
+const utils = require('../utils');
 const xml2js = require('xml2js');
 
-const SUPPORTED_FORMATS = ['json', 'xml', 'yaml', 'protobuf'];
+const XML_BUILDER = new xml2js.Builder();
+const xmlFormatter = XML_BUILDER.buildObject.bind(XML_BUILDER);
+
+const formatters = {
+    'application/json': JSON.stringify,
+    'application/xml': xmlFormatter,
+    'application/x-yaml': yaml.stringify,
+    'application/octet-stream': (protocolBuffer) => {
+        const binary = protocolBuffer.serializeBinary
+            ? protocolBuffer.serializeBinary()
+            : new Uint8Array();
+        return Buffer.from(binary.buffer, binary.byteOffset, binary.byteLength)
+    },
+};
 
 const OPTIONS_SCHEMA = joi.object({
     format: joi.string()
-        .valid(...SUPPORTED_FORMATS)
-        .insensitive()
         .optional(),
     shapeFunction: joi.function()
         .arity(1)
@@ -18,31 +29,10 @@ const OPTIONS_SCHEMA = joi.object({
         .optional(),
 });
 
-const FORMAT_MIME_TYPES = {
-    'json': 'application/json',
-    'xml': 'application/xml',
-    'protobuf': 'application/octet-stream',
-};
-
 const DEFAULT_OPTIONS = {
-    format: 'json',
+    format: 'application/json',
     shapeFunction: (data) => data,
     getProtocolBuffer: (data) => data,
-}
-
-const XML_BUILDER = new xml2js.Builder();
-const xmlFormatter = XML_BUILDER.buildObject.bind(XML_BUILDER);
-
-const formatters = {
-    'json': JSON.stringify,
-    'xml': xmlFormatter,
-    'yaml': yaml.stringify,
-    'protobuf': (protocolBuffer) => {
-        const binary = protocolBuffer.serializeBinary
-            ? protocolBuffer.serializeBinary()
-            : new Uint8Array();
-        return Buffer.from(binary.buffer, binary.byteOffset, binary.byteLength)
-    },
 };
 
 module.exports = {
@@ -53,15 +43,17 @@ module.exports = {
             shapeFunction = DEFAULT_OPTIONS.shapeFunction,
             getProtocolBuffer = DEFAULT_OPTIONS.getProtocolBuffer,
         } = validatedOptions;
-        const targetType = format.toLowerCase();
+        const targetType = (format in formatters)
+            ? format
+            : 'application/json';
         const targetFormatter = formatters[targetType];
         let formattedData = shapeFunction(data);
-        if (format === 'protobuf') {
+        if (format === 'application/octet-stream') {
             formattedData = getProtocolBuffer(formattedData);
         }
         return {
             formattedData: targetFormatter(formattedData),
-            contentType: FORMAT_MIME_TYPES[targetType] || 'text/plain',
+            contentType: targetType,
         }
     },
 };

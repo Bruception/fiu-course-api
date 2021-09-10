@@ -1,0 +1,153 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "FIU Course API",
+        "description": "Describes the various endpoints provided by this service."
+    },
+    "basePath": "/api",
+    "tags": [
+        {
+            "name": "API",
+            "description": "",
+            "externalDocs": {
+                "description": "For more detailed documentation visit",
+                "url": "/documentation"
+            }
+        }
+    ],
+    "produces": [
+        "application/json",
+        "application/xml",
+        "application/octet-stream",
+        "application/x-yaml"
+    ],
+    "paths": {
+        "/courses": {
+            "get": {
+                "tags": [
+                    "API"
+                ],
+                "summary": "Gets course data",
+                "description": "This endpoint serves course data.",
+                "parameters": [
+                    {
+                        "name": "subject",
+                        "in": "query",
+                        "description": "Filter courses by subject.",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "code",
+                        "in": "query",
+                        "description": "Filter courses by code.",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "units",
+                        "in": "query",
+                        "description": "Filter courses by units.",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "isLab",
+                        "in": "query",
+                        "description": "Filter courses by whether or not it is a lab.",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "keywords",
+                        "in": "query",
+                        "description": "Filter courses by keywords. Stopwords are removed and a maximum of 5 keywords is allowed.",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "excludes",
+                        "in": "query",
+                        "description": "Exclude fields from returned data. This is not an exhaustive list of possibilities. See the detailed documentation.",
+                        "required": false,
+                        "type": "string",
+                        "enum": [
+                            "subject",
+                            "code",
+                            "name",
+                            "units",
+                            "description",
+                            "*"
+                        ]
+                    },
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "description": "Specifies how many results to skip",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Specifies an upper bound to the number of results",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "sortBy",
+                        "in": "query",
+                        "description": "Sort courses by a specific field",
+                        "required": false,
+                        "type": "string",
+                        "enum": [
+                            "subject",
+                            "code",
+                            "name",
+                            "units",
+                            "description"
+                        ]
+                    },
+                    {
+                        "name": "reverseOrder",
+                        "in": "query",
+                        "description": "Reverse the order of the data",
+                        "required": false,
+                        "type": "boolean"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    },
+                    "500": {
+                        "description": "Server error"
+                    }
+                }
+            }
+        },
+        "/status": {
+            "get": {
+                "tags": [
+                    "API"
+                ],
+                "summary": "Gets service status data",
+                "description": "This endpoint serves the service's status data.",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    },
+                    "500": {
+                        "description": "Server error"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -27,8 +27,9 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install bs4 requests
       - name: Run course update
-        working-directory: ./src/data
+        working-directory: ./src/scripts
         run: MAX_RETRIES=2 MAX_WORKERS=25 OUTPUT_FILE=course-data.json python3 ./courseDataUpdate.py
+        run: mv ./course-data.json ../data/
       - name: Create commits
         run: |
           git config user.name 'Bruce Berrios'

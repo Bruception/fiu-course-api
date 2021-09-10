@@ -1,4 +1,3 @@
-
 const searchBar = document.querySelector('#search-bar');
 const resultsContainer = document.querySelector('#results');
 const modal = document.querySelector('#course-modal');
@@ -20,8 +19,8 @@ closeModalButtons.forEach((button) => {
 
 const fetchAPI = async (query = {}) => {
     const queryString = new URLSearchParams(query).toString();
-    const response = await fetch(`/api?${queryString}`);
-    return await response.json();
+    const response = await fetch(`/api/courses?${queryString}`);
+    return response.json();
 }
 
 const debounce = (func, ms = 500) => {
@@ -32,7 +31,7 @@ const debounce = (func, ms = 500) => {
     }
 }
 
-const courseTemplate = 
+const courseTemplate =
 `<a class='panel-block has-icons-left'>
     <span class='panel-icon is-left'>
         <i class='icon fas fa-angle-right' aria-hidden='true'></i>
