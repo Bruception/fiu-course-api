@@ -4,7 +4,7 @@ message Status {
     string version = 1;
     uint64 uptime = 2;
     uint64 dataAsOf = 3;
-    uint64 requestsFulfilled = 4;
+    uint64 requestsReceived = 4;
 }
 
 message Error {

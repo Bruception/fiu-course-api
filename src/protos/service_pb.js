@@ -94,7 +94,7 @@ proto.Status.toObject = function(includeInstance, msg) {
     version: jspb.Message.getFieldWithDefault(msg, 1, ""),
     uptime: jspb.Message.getFieldWithDefault(msg, 2, 0),
     dataasof: jspb.Message.getFieldWithDefault(msg, 3, 0),
-    requestsfulfilled: jspb.Message.getFieldWithDefault(msg, 4, 0)
+    requestsreceived: jspb.Message.getFieldWithDefault(msg, 4, 0)
   };
 
   if (includeInstance) {
@@ -145,7 +145,7 @@ proto.Status.deserializeBinaryFromReader = function(msg, reader) {
       break;
     case 4:
       var value = /** @type {number} */ (reader.readUint64());
-      msg.setRequestsfulfilled(value);
+      msg.setRequestsreceived(value);
       break;
     default:
       reader.skipField();
@@ -197,7 +197,7 @@ proto.Status.serializeBinaryToWriter = function(message, writer) {
       f
     );
   }
-  f = message.getRequestsfulfilled();
+  f = message.getRequestsreceived();
   if (f !== 0) {
     writer.writeUint64(
       4,
@@ -262,10 +262,10 @@ proto.Status.prototype.setDataasof = function(value) {
 
 
 /**
- * optional uint64 requestsFulfilled = 4;
+ * optional uint64 requestsReceived = 4;
  * @return {number}
  */
-proto.Status.prototype.getRequestsfulfilled = function() {
+proto.Status.prototype.getRequestsreceived = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 4, 0));
 };
 
@@ -274,7 +274,7 @@ proto.Status.prototype.getRequestsfulfilled = function() {
  * @param {number} value
  * @return {!proto.Status} returns this
  */
-proto.Status.prototype.setRequestsfulfilled = function(value) {
+proto.Status.prototype.setRequestsreceived = function(value) {
   return jspb.Message.setProto3IntField(this, 4, value);
 };
 

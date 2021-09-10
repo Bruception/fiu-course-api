@@ -58,7 +58,7 @@ describe('utils: Test utility module functionality.', () => {
             version: '1.0.0',
             uptime: 1337,
             dataAsOf: 12345,
-            requestsFulfilled: 123,
+            requestsReceived: 123,
         };
         const handler = () => {
             return {
@@ -69,7 +69,7 @@ describe('utils: Test utility module functionality.', () => {
                         statusProto.setVersion(data.version);
                         statusProto.setUptime(data.uptime);
                         statusProto.setDataasof(data.dataAsOf);
-                        statusProto.setRequestsfulfilled(data.requestsFulfilled);
+                        statusProto.setRequestsreceived(data.requestsReceived);
                         return statusProto;
                     },
                 },
@@ -88,7 +88,7 @@ describe('utils: Test utility module functionality.', () => {
         expect(deserializedData.getVersion()).toBe(dataToSerialize.version);
         expect(deserializedData.getUptime()).toBe(dataToSerialize.uptime);
         expect(deserializedData.getDataasof()).toBe(dataToSerialize.dataAsOf);
-        expect(deserializedData.getRequestsfulfilled()).toBe(dataToSerialize.requestsFulfilled);
+        expect(deserializedData.getRequestsreceived()).toBe(dataToSerialize.requestsReceived);
     });
     test('utils.formatHandlerWrapper: Correctly handles missing format options.', () => {
         const dataToSerialize = {

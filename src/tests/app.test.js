@@ -77,9 +77,9 @@ describe('app: Testing endpoints.', () => {
             const { statusCode, headers, text } = await request(app).get('/api/status');
             expect(statusCode).toBe(200);
             expect(headers['content-type']).toBe('application/json; charset=utf-8');
-            const { version: appVersion, requestsFulfilled, uptime, dataAsOf } = JSON.parse(text);
+            const { version: appVersion, requestsReceived, uptime, dataAsOf } = JSON.parse(text);
             expect(appVersion).toBe(version);
-            expect(requestsFulfilled.toString()).toMatch(/^\d+$/);
+            expect(requestsReceived.toString()).toMatch(/^\d+$/);
             expect(uptime.toString()).toMatch(/^\d+$/);
             expect(dataAsOf.toString()).toMatch(/^\d+$/);
         });
@@ -93,9 +93,9 @@ describe('app: Testing endpoints.', () => {
                 .set('accept', 'application/x-yaml');
             expect(statusCode).toBe(200);
             expect(headers['content-type']).toBe('application/x-yaml; charset=utf-8');
-            const { version: appVersion, requestsFulfilled, uptime, dataAsOf } = yaml.parse(text);
+            const { version: appVersion, requestsReceived, uptime, dataAsOf } = yaml.parse(text);
             expect(appVersion).toBe(version);
-            expect(requestsFulfilled.toString()).toMatch(/^\d+$/);
+            expect(requestsReceived.toString()).toMatch(/^\d+$/);
             expect(uptime.toString()).toMatch(/^\d+$/);
             expect(dataAsOf.toString()).toMatch(/^\d+$/);
         });
@@ -111,7 +111,7 @@ describe('app: Testing endpoints.', () => {
             expect(headers['content-type']).toBe('application/octet-stream');
             const deserializedData = servicePB.Status.deserializeBinary(body);
             expect(deserializedData.getVersion()).toBe(version);
-            expect(deserializedData.getRequestsfulfilled().toString()).toMatch(/^\d+$/);
+            expect(deserializedData.getRequestsreceived().toString()).toMatch(/^\d+$/);
             expect(deserializedData.getUptime().toString()).toMatch(/^\d+$/);
             expect(deserializedData.getDataasof().toString()).toMatch(/^\d+$/);
         });

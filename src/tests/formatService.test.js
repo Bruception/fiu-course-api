@@ -94,7 +94,7 @@ describe('formatService: Testing the formatService module.', () => {
             version: '1.0.0',
             uptime: 1337,
             dataAsOf: 12345,
-            requestsFulfilled: 123,
+            requestsReceived: 123,
         };
         const { formattedData, contentType } = formatService.format(objectToSerialize, {
             format: 'application/octet-stream',
@@ -103,7 +103,7 @@ describe('formatService: Testing the formatService module.', () => {
                 statusProto.setVersion(data.version);
                 statusProto.setUptime(data.uptime);
                 statusProto.setDataasof(data.dataAsOf);
-                statusProto.setRequestsfulfilled(data.requestsFulfilled);
+                statusProto.setRequestsreceived(data.requestsReceived);
                 return statusProto;
             },
         });
