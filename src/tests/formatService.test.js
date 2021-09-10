@@ -1,49 +1,58 @@
 const xml2js = require('xml2js');
 const yaml = require('yaml');
-const courseDataStore = require('../courseDataStore');
-const formatService = require('../formatService');
+const { courseDataService, formatService } = require('../services');
 const servicePB = require('../protos/service_pb');
 
 describe('formatService: Testing the formatService module.', () => {
     test('formatService.format: Correctly serializes object to JSON when no format is specified.', () => {
-        const courses = courseDataStore.queryBy({
+        const courses = courseDataService.queryBy({
             subject: 'COP',
         });
-        const { formattedData, contentType } = formatService.format(courses, courseDataStore.formatOptions);
+        const { formattedData, contentType } = formatService.format(courses, courseDataService.formatOptions);
+        expect(JSON.parse(formattedData).results).toStrictEqual(courses);
+        expect(contentType).toStrictEqual('application/json');
+    });
+    test('formatService.format: Correctly serializes object to JSON when unknown format is specified.', () => {
+        const courses = courseDataService.queryBy({
+            subject: 'COP',
+        });
+        const { formattedData, contentType } = formatService.format(courses, {
+            format: 'unknown',
+            ...courseDataService.formatOptions,
+        });
         expect(JSON.parse(formattedData).results).toStrictEqual(courses);
         expect(contentType).toStrictEqual('application/json');
     });
     test('formatService.format: Correctly serializes object to JSON.', () => {
-        const courses = courseDataStore.queryBy({
+        const courses = courseDataService.queryBy({
             subject: 'COP',
-            format: 'json',
         });
         const { formattedData, contentType } = formatService.format(courses, {
-            format: 'json',
-            ...courseDataStore.formatOptions,
+            format: 'application/json',
+            ...courseDataService.formatOptions,
         });
         expect(JSON.parse(formattedData).results).toStrictEqual(courses);
         expect(contentType).toStrictEqual('application/json');
     });
     test('formatService.format: Correctly serializes object to YAML.', () => {
-        const courses = courseDataStore.queryBy({
+        const courses = courseDataService.queryBy({
             subject: 'COP',
         });
         const { formattedData, contentType } = formatService.format(courses, {
-            format: 'yaml',
-            ...courseDataStore.formatOptions,
+            format: 'application/x-yaml',
+            ...courseDataService.formatOptions,
         });
         expect(yaml.parse(formattedData).results).toStrictEqual(courses);
-        expect(contentType).toStrictEqual('text/plain');
+        expect(contentType).toStrictEqual('application/x-yaml');
     });
     test('formatService.format: Correctly serializes object to XML.', () => {
-        const courses = courseDataStore.queryBy({
+        const courses = courseDataService.queryBy({
             subject: 'COP',
             units: '3.00',
         });
         const { formattedData, contentType } = formatService.format(courses, {
-            format: 'xml',
-            ...courseDataStore.formatOptions,
+            format: 'application/xml',
+            ...courseDataService.formatOptions,
         });
         let parsedCourses;
         xml2js.parseString(formattedData,
@@ -75,10 +84,10 @@ describe('formatService: Testing the formatService module.', () => {
             status: 'ok',
         };
         const { formattedData, contentType } = formatService.format(objectToSerialize, {
-            format: 'yaml',
+            format: 'application/x-yaml',
         });
         expect(formattedData).toMatchSnapshot();
-        expect(contentType).toStrictEqual('text/plain');
+        expect(contentType).toStrictEqual('application/x-yaml');
     });
     test('formatService.format: Correctly serializes object to a protocol buffer.', () => {
         const objectToSerialize = {
@@ -88,7 +97,7 @@ describe('formatService: Testing the formatService module.', () => {
             requestsFulfilled: 123,
         };
         const { formattedData, contentType } = formatService.format(objectToSerialize, {
-            format: 'protobuf',
+            format: 'application/octet-stream',
             getProtocolBuffer: (data) => {
                 const statusProto = new servicePB.Status();
                 statusProto.setVersion(data.version);
@@ -106,7 +115,7 @@ describe('formatService: Testing the formatService module.', () => {
             data: 'test',
         };
         const { formattedData, contentType } = formatService.format(objectToSerialize, {
-            format: 'protobuf',
+            format: 'application/octet-stream',
         });
         expect(formattedData).toEqual(Buffer.from(''));
         expect(contentType).toStrictEqual('application/octet-stream');

@@ -4,13 +4,16 @@ const servicePB = require('../protos/service_pb');
 
 const getMockRequest = (format) => {
     return {
-        body: {
-            format
+        headers: {
+            accept: format,
         },
-    };    
+        header(header) {
+            return this.headers[header];
+        },
+    };
 }
 
-const getMockResponse = ()  => {
+const getMockResponse = () => {
     return {
         headers: {},
         data: null,
@@ -55,7 +58,7 @@ describe('utils: Test utility module functionality.', () => {
             version: '1.0.0',
             uptime: 1337,
             dataAsOf: 12345,
-            requestsFulfilled: 123,        
+            requestsFulfilled: 123,
         };
         const handler = () => {
             return {
@@ -72,7 +75,7 @@ describe('utils: Test utility module functionality.', () => {
                 },
             };
         };
-        const mockRequest = getMockRequest('protobuf');
+        const mockRequest = getMockRequest('application/octet-stream');
         const mockResponse = getMockResponse();
         const responseSendSpy = jest.spyOn(mockResponse, 'send');
         const responseSetHeaderSpy = jest.spyOn(mockResponse, 'setHeader');
@@ -116,7 +119,7 @@ describe('utils: Test utility module functionality.', () => {
                 data: dataToSerialize,
             }
         }
-        const mockRequest = getMockRequest('invalid-format');
+        const mockRequest = getMockRequest(true);
         const mockResponse = getMockResponse();
         const responseSendSpy = jest.spyOn(mockResponse, 'send');
         const responseSetHeaderSpy = jest.spyOn(mockResponse, 'setHeader');

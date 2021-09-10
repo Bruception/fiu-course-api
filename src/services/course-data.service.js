@@ -1,13 +1,13 @@
 const joi = require('joi');
 const _ = require('lodash');
 const path = require('path');
-const utils = require('./utils');
-const coursePB = require('./protos/course_pb');
+const utils = require('../utils');
+const coursePB = require('../protos/course_pb');
 const words = require('talisman/tokenizers/words');
 const lancaster = require('talisman/stemmers/lancaster');
 
-const COURSE_DATA_PATH = path.resolve(__dirname, './data/course-data.json');
-const STOP_WORDS_DATA_PATH = path.resolve(__dirname, './data/stopwords.json');
+const COURSE_DATA_PATH = path.resolve(__dirname, '../data/course-data.json');
+const STOP_WORDS_DATA_PATH = path.resolve(__dirname, '../data/stopwords.json');
 
 const getStopWords = (stopWordsPath) => {
     const { stopwords } = require(stopWordsPath);
@@ -15,7 +15,6 @@ const getStopWords = (stopWordsPath) => {
     return new Set(normalizedStopWords);
 }
 
-const IGNORED_PARAMETERS = ['format'];
 const COURSE_PROPERTIES = ['subject', 'code', 'name', 'units', 'description'];
 const STOP_WORDS = getStopWords(STOP_WORDS_DATA_PATH);
 
@@ -29,12 +28,12 @@ const QUERY_SCHEMA = joi.object({
     code: STRING_PARAMETER_SCHEMA,
     units: STRING_PARAMETER_SCHEMA,
     keywords: joi.string(),
-    isLab: joi.string().valid(''),
+    isLab: joi.boolean(),
     excludes: joi.string(),
     skip: joi.number().integer().min(0),
     limit: joi.number().integer().min(0),
     sortBy: joi.string().valid(...COURSE_PROPERTIES),
-    reverseOrder: joi.string().valid(''),
+    reverseOrder: joi.boolean(),
 });
 
 const defaultFilter = (values, data, key) => {
@@ -57,18 +56,21 @@ const integerFormatter = (value) => {
     return parseInt(value, 10);
 }
 
+const rawValueFormatter = (value) => value;
+
 const parameterMap = {
     subject: {},
     code: {},
     units: {},
     isLab: {
-        filter: (_values, data, _key) => {
+        filter: (values, data, _key) => {
             return data.filter(({ name, code }) => {
                 const lastCharacter = code[code.length - 1];
                 const hasLabIdentifier = lastCharacter === 'L' || lastCharacter === 'C';
-                return hasLabIdentifier || utils.containsWord(name, 'Lab');
+                return values[0] === (hasLabIdentifier || utils.containsWord(name, 'Lab'));
             });
         },
+        valueFormatter: rawValueFormatter,
     },
     keywords: {
         filter: (values, data, _key) => {
@@ -103,9 +105,13 @@ const parameterMap = {
         valueFormatter: lowerCaseValueFormatter,
     },
     reverseOrder: {
-        filter: (_values, data, _key) => {
+        filter: (values, data, _key) => {
+            if (!values[0]) {
+                return data;
+            }
             return [...data].reverse();
         },
+        valueFormatter: rawValueFormatter,
     },
     skip: {
         filter: (values, data, _key) => {
@@ -160,8 +166,7 @@ const normalizeParameterValue = (parameterKey, parameterValue) => {
 }
 
 const normalizeSource = (sourceQuery) => {
-    const relevantParameters = _.omit(sourceQuery, IGNORED_PARAMETERS);
-    const validatedQuery = utils.validate(QUERY_SCHEMA, relevantParameters);
+    const validatedQuery = utils.validate(QUERY_SCHEMA, sourceQuery);
     const normalizedQuery = _.mapValues(validatedQuery, (parameter, key) => {
         return normalizeParameterValue(key, parameter);
     });

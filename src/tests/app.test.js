@@ -8,27 +8,33 @@ const servicePB = require('../protos/service_pb');
 const courseData = require('../data/course-data.json');
 
 describe('app: Testing endpoints.', () => {
-    describe('app: Testing /api endpoint.', () => {
-        test('/api: Queryless request returns all data.', async () => {
-            const { statusCode, text } = await request(app).get('/api');
+    describe('app: Testing /api/courses endpoint.', () => {
+        test('/api/courses: Queryless request returns all data.', async () => {
+            const { statusCode, text } = await request(app).get('/api/courses');
             expect(statusCode).toBe(200);
             expect(JSON.parse(text).total).toBe(courseData.data.length);
         });
-        test('/api: Request with subject query returns all related data.', async () => {
-            const response = await request(app).get('/api?subject=COP&isLab&units=0.00&code=2');
+        test('/api/courses: Request with subject query returns all related data.', async () => {
+            const response = await request(app).get('/api/courses?subject=COP&isLab=true&units=0.00&code=2');
             const { total, results } = JSON.parse(response.text);
             expect(response.statusCode).toBe(200);
             expect(total).toBe(results.length);
             expect(results).toBeTruthy();
         });
-        test('/api: Request with invalid query is handled properly.', async () => {
-            const response = await request(app).get('/api?invalidquery=invalidvalue123'); 
+        test('/api/courses: Request with invalid query is handled properly.', async () => {
+            const response = await request(app).get('/api/courses?invalidquery=invalidvalue123');
             const { error } = response.body;
             expect(response.statusCode).toBe(400);
             expect(error).toBe('"invalidquery" is not allowed');
         });
-        test('/api: Protocol buffer serialization works.', async () => {
-            const { statusCode, headers, body } = await request(app).get('/api?subject=COP&format=protobuf');
+        test('/api/courses: Protocol buffer serialization works.', async () => {
+            const {
+                statusCode,
+                headers,
+                body
+            } = await request(app)
+                .get('/api/courses?subject=COP')
+                .set('accept', 'application/octet-stream');
             expect(statusCode).toBe(200);
             expect(headers['content-type']).toBe('application/octet-stream');
             const courseData = coursePB.CourseAPIResponseData.deserializeBinary(body);
@@ -38,8 +44,14 @@ describe('app: Testing endpoints.', () => {
                 expect(result.getSubject()).toMatch(/COP/);
             });
         });
-        test('/api: Error is handled my error handling middleware and serialized with protocol buffers.', async () => {
-            const { statusCode, headers, body } = await request(app).get('/api?invalidquery=invalidvalue123&format=protobuf'); 
+        test('/api/courses: Error is handled by error handling middleware and serialized with protocol buffers.', async () => {
+            const {
+                statusCode,
+                headers,
+                body
+            } = await request(app)
+                .get('/api/courses?invalidquery=invalidvalue123')
+                .set('accept', 'application/octet-stream');
             const deserializedData = servicePB.Error.deserializeBinary(body);
             expect(statusCode).toBe(400);
             expect(headers['content-type']).toBe('application/octet-stream');
@@ -60,9 +72,9 @@ describe('app: Testing endpoints.', () => {
             expect(response.statusCode).toBe(204);
         });
     });
-    describe('app: Testing /status endpoint', () => {
-        test('/status: Queryless request returns json data.', async () => {
-            const { statusCode, headers, text } = await request(app).get('/status');
+    describe('app: Testing /api/status endpoint', () => {
+        test('/api/status: Queryless request returns json data.', async () => {
+            const { statusCode, headers, text } = await request(app).get('/api/status');
             expect(statusCode).toBe(200);
             expect(headers['content-type']).toBe('application/json; charset=utf-8');
             const { version: appVersion, requestsFulfilled, uptime, dataAsOf } = JSON.parse(text);
@@ -71,18 +83,30 @@ describe('app: Testing endpoints.', () => {
             expect(uptime.toString()).toMatch(/^\d+$/);
             expect(dataAsOf.toString()).toMatch(/^\d+$/);
         });
-        test('/status: Query with format parameter correctly formats data.', async () => {
-            const { statusCode, headers, text } = await request(app).get('/status?format=yaml');
+        test('/api/status: Query with format parameter correctly formats data.', async () => {
+            const {
+                statusCode,
+                headers,
+                text
+            } = await request(app)
+                .get('/api/status')
+                .set('accept', 'application/x-yaml');
             expect(statusCode).toBe(200);
-            expect(headers['content-type']).toBe('text/plain; charset=utf-8');
+            expect(headers['content-type']).toBe('application/x-yaml; charset=utf-8');
             const { version: appVersion, requestsFulfilled, uptime, dataAsOf } = yaml.parse(text);
             expect(appVersion).toBe(version);
             expect(requestsFulfilled.toString()).toMatch(/^\d+$/);
             expect(uptime.toString()).toMatch(/^\d+$/);
             expect(dataAsOf.toString()).toMatch(/^\d+$/);
         });
-        test('/status: Protocol buffer serialization works.', async () => {
-            const { statusCode, headers, body } = await request(app).get('/status?format=protobuf');
+        test('/api/status: Protocol buffer serialization works.', async () => {
+            const {
+                statusCode,
+                headers,
+                body
+            } = await request(app)
+                .get('/api/status')
+                .set('Accept', 'application/octet-stream');
             expect(statusCode).toBe(200);
             expect(headers['content-type']).toBe('application/octet-stream');
             const deserializedData = servicePB.Status.deserializeBinary(body);
@@ -92,5 +116,5 @@ describe('app: Testing endpoints.', () => {
             expect(deserializedData.getDataasof().toString()).toMatch(/^\d+$/);
         });
     });
-    server.close();    
+    server.close();
 });

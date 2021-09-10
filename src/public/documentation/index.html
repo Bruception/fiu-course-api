@@ -9,7 +9,7 @@
         <h1 id='title'>FIU Course API <span id='app-version'></span> Documentation</h1>
         <div>
             <p>Try changing the <span class='highlight'>subject</span> value below!</p>
-            <p class='request'><span class='highlight'>GET</span> /api?subject=<input class='inline-input' id='sample-subject-query' value='COP' maxlength='3'></p>
+            <p class='request'><span class='highlight'>GET</span> /api/courses?subject=<input class='inline-input' id='sample-subject-query' value='COP' maxlength='3'></p>
             <pre id='sample-response' class='sample-query'></pre>
         </div>
         <div>
@@ -24,7 +24,6 @@
                 <li><span class='highlight'>units</span></li>
                 <li><span class='highlight'>isLab</span></li>
                 <li><span class='highlight'>keywords</span></li>
-                <li><span class='highlight'>format</span></li>
                 <li><span class='highlight'>excludes</span></li>
                 <li><span class='highlight'>skip</span></li>
                 <li><span class='highlight'>limit</span></li>
@@ -37,7 +36,7 @@
                     Let's say we are trying to find all courses whose <span class='highlight'>subject</span> starts with J, <span class='highlight'>code</span> starts with 1, and is 5 <span class='highlight'>units</span>.
                     Here is an example of how you might query for this.    
                 </p>
-                <p class='request'><span class='highlight'>GET</span> /api?subject=J&code=1&units=5</p>
+                <p class='request'><span class='highlight'>GET</span> /api/courses?subject=J&code=1&units=5</p>
                 <pre id='combined-queries-response' class='sample-query'></pre>
             </div>
             <div>
@@ -46,13 +45,13 @@
                     Let's say we are trying to find all <span class='highlight'>labs</span> whose <span class='highlight'>subject</span> starts with AST or COP.
                     Here is an example of how you might query for this.    
                 </p>
-                <p class='request'><span class='highlight'>GET</span> /api?subject=AST&subject=COP&isLab</p>
+                <p class='request'><span class='highlight'>GET</span> /api/courses?subject=AST&subject=COP&isLab=true</p>
                 <pre id='multi-value-queries-response' class='sample-query'></pre>
             </div>
             <div>
                 <h2>Data Serialization</h2>
                 <p>
-                    You can specify how the returned data is serialized with the <span class='highlight'>format</span> parameter.
+                    You can specify how the returned data is serialized with the <span class='highlight'>Accept</span> header.
                     Currently this API only supports the following serialization formats:
                     <ul>
                         <li>JSON</li>
@@ -60,10 +59,8 @@
                         <li>YAML</li>
                         <li>Protocol Buffers</li>
                     </ul>
-                    To use protocol buffers, specify the <span class='highlight'>format</span> as "<span class='highlight'>protobuf</span>".
-                    Here is an example of how you might query your data in YAML.
+                    <a href="../new-documentation">To test these different serializations, please refer to the new documentation.</a>
                 </p>
-                <p class='request'><span class='highlight'>GET</span> /api?format=yaml</p>
             </div>
             <div>
                 <h2>Keyword Search</h2>
@@ -73,7 +70,7 @@
                     This API will <span class='highlight'>reject</span> any string with more than <span class='highlight'>5</span> keywords (stopwords are not included).
                     Here is an example of a query using the keywords parameter:
                 </p>
-                <p class='request'><span class='highlight'>GET</span> /api?keywords=electric theories magnets</p>
+                <p class='request'><span class='highlight'>GET</span> /api/courses?keywords=electric theories magnets</p>
                 <pre id='keywords-sample-query' class='sample-query'></pre>
             </div>
             <div>
@@ -84,7 +81,7 @@
                     You can exclude <span class='highlight'>all</span> properties using <span class='highlight'>*</span>.
                     Here is an example of a query using the excludes parameter:
                 </p>
-                <p class='request'><span class='highlight'>GET</span> /api?subject=SPN&excludes=subject code units description</p>
+                <p class='request'><span class='highlight'>GET</span> /api/courses?subject=SPN&excludes=subject code units description</p>
                 <pre id='excludes-sample-query' class='sample-query'></pre>
             </div>
             <div>
@@ -96,7 +93,7 @@
                     Pagination is possible when combining both of these parameters.
                     Here is an example of a query that makes use of pagination:
                 </p>
-                <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=10&skip=<input class='inline-input' id='sample-pagination-query' value='0' maxlength='3'></p>
+                <p class='request'><span class='highlight'>GET</span> /api/courses?subject=CHM&limit=10&skip=<input class='inline-input' id='sample-pagination-query' value='0' maxlength='3'></p>
                 <pre id='pagination-sample-response' class='sample-query'></pre>
             </div>
             <div>
@@ -106,7 +103,7 @@
                     Reverse the order of results by using the <span class='highlight'>reverseOrder</span> parameter.
                     Here is an example of a query using these parameter:
                 </p>
-                <p class='request'><span class='highlight'>GET</span> /api?subject=CHM&limit=3&sortBy=units&reverseOrder</p>
+                <p class='request'><span class='highlight'>GET</span> /api/courses?subject=CHM&limit=3&sortBy=units&reverseOrder=true</p>
                 <pre id='order-sample-query' class='sample-query'></pre>
             </div>
         </div>

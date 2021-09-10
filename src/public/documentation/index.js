@@ -1,21 +1,20 @@
-
 const fetchAPI = async (endpoint, queryString = '') => {
-    const response = await fetch(`/${endpoint}?${queryString}`);
-    return await response.json();
+    const response = await fetch(`/api/${endpoint}?${queryString}`);
+    return response.json();
 }
 
 const jsonStyleReplacement = [
     {
-        regex: /(\"[a-z]+\"):/gi,
+        regex: /(?<prop>"[a-z]+"):/giu,
         value: 'prop',
         postfix: ':',
     },
     {
-        regex: /([0-9]+),/gi,
+        regex: /(?<valueNum>[0-9]+),/giu,
         value: 'value-num',
     },
     {
-        regex: /\: (\".+\"),?/gi,
+        regex: /: (?<valueString>".+"),?/giu,
         value: 'value-string',
         prefix: ': ',
     },
@@ -35,7 +34,7 @@ const truncateData = (data) => {
         const end = replacement.postfix || ',';
         const tokenHTML = `${begin}<span class='json-token-${replacement.value}'>$1</span>${end}`
         return str.replaceAll(replacement.regex, tokenHTML);
-    }, JSON.stringify(data, undefined, 2));
+    }, JSON.stringify(data, null, 2));
     if (oldSize > 3) {
         const lastBracketIndex = dataString.lastIndexOf(']');
         const prefix = dataString.substring(0, lastBracketIndex);
@@ -57,11 +56,11 @@ const debounce = (func, ms = 500) => {
 }
 
 const queryAPI = async (targetID, query, action) => {
-    const data = await fetchAPI('api', query);
+    const data = await fetchAPI('courses', query);
     const target = document.getElementById(targetID);
     target.innerHTML = action(data);
 }
-  
+
 const queryKeyUp = async ({ target: { value } }) => {
     if (value === '' || value.indexOf('&') !== -1) return;
     await queryAPI('sample-response', `subject=${value}`, truncateData);
@@ -69,12 +68,11 @@ const queryKeyUp = async ({ target: { value } }) => {
 
 const paginationKeyUp = async ({ target: { value } }) => {
     if (value === '' || value.indexOf('&') !== -1) return;
-    await queryAPI('pagination-sample-response', `subject=CHM&limit=10&skip=${value}`, truncateData);   
+    await queryAPI('pagination-sample-response', `subject=CHM&limit=10&skip=${value}`, truncateData);
 }
 
 sampleQuery.addEventListener('keyup', debounce(queryKeyUp));
 paginationSampleQuery.addEventListener('keyup', debounce(paginationKeyUp));
-
 
 const queryTemplate = {
     'sample-response': {
@@ -84,7 +82,7 @@ const queryTemplate = {
         query: 'subject=J&code=1&units=5',
     },
     'multi-value-queries-response': {
-        query: 'subject=AST&subject=COP&isLab',
+        query: 'subject=AST&subject=COP&isLab=true',
     },
     'keywords-sample-query': {
         query: 'keywords=electric theory magnets'
@@ -96,7 +94,7 @@ const queryTemplate = {
         query: 'subject=CHM&limit=10&skip=0',
     },
     'order-sample-query': {
-        query: 'subject=CHM&limit=3&sortBy=units&reverseOrder'
+        query: 'subject=CHM&limit=3&sortBy=units&reverseOrder=true'
     },
     'course-offerings': {
         query: 'excludes=*',
