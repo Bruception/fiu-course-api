@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1630802719,
+    "dataAsOf": 1631308627,
     "data": [
         {
             "subject": "ACG",
@@ -8245,7 +8245,7 @@
             "code": "1950",
             "name": "Intro Portfolio Dev",
             "units": "0.00",
-            "description": "To provide students with a comprehensive overview of academic policies, procedures, and requirements for submitting a Prior Learning Assessment portfolio. Course is repeatable."
+            "description": "To provide students with a comprehensive overview of academic policies, procedures, and requirements for submitting a Prior Learning Assessment portfolio. Course is repeatable. Prerequisite: Instructor Approval"
         },
         {
             "subject": "FES",
@@ -8911,6 +8911,13 @@
             "name": "Coastal Hazards",
             "units": "3.00",
             "description": "Focus on the processes responsible for tsunamis, storm surges, coastal erosion, land subsidence, sea level rise, etc. and their mitigation."
+        },
+        {
+            "subject": "GLY",
+            "code": "4947",
+            "name": "Internship in Geoscience",
+            "units": "0.00",
+            "description": "Practical geological, geophysical, or hydrological work experience at local companies, non-profits, or government agencies supervised by a faculty member. May be repeated for credit. (Pass/Fail Only) Prerequisite: Permission of Instructor."
         },
         {
             "subject": "GLY",
