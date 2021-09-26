@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1632242469,
+    "dataAsOf": 1632617154,
     "data": [
         {
             "subject": "ACG",
@@ -927,20 +927,6 @@
         },
         {
             "subject": "ARH",
-            "code": "5421",
-            "name": "Grad Enlight and Romantic",
-            "units": "3.00",
-            "description": "Examines the art of the European Enlightenment and Romantic movement from 1700 to 1848. Artists to be considered include Watteau, David, Goya, Blake, Ingres, Gericault, Delacroix, and Friedrich. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "ARH",
-            "code": "5465",
-            "name": "Modern Art",
-            "units": "3.00",
-            "description": "Offers a history of modern art from ca 1880 to 1940. It concentrates on the study of European and American Avant-garde visual art movements with emphasis on art and modern society."
-        },
-        {
-            "subject": "ARH",
             "code": "5482",
             "name": "Contemporary Art",
             "units": "3.00",
@@ -955,31 +941,10 @@
         },
         {
             "subject": "ARH",
-            "code": "5550",
-            "name": "Arts of China and Japan",
-            "units": "3.00",
-            "description": "This course is an introduction to and overview of the arts of China and Japan from antiquity to present covering a wide range of media in their historical, philosophical and religious contexts."
-        },
-        {
-            "subject": "ARH",
-            "code": "5715",
-            "name": "Hist Of Photo",
-            "units": "3.00",
-            "description": "A chronological examination of the work of the world's most significant photographers from photographic works and ideas from invention to the 1940s."
-        },
-        {
-            "subject": "ARH",
             "code": "5805",
             "name": "Crit Study Vis Art",
             "units": "3.00",
             "description": "Introduction to the methods and concerns of recent art history. Discussion of students' work in context of the contemporary art world. Prerequisites: ARH 4450 and ARH 4470 or graduate level equivalents. Required for MFA Students."
-        },
-        {
-            "subject": "ARH",
-            "code": "5897",
-            "name": "Special Topics",
-            "units": "3.00",
-            "description": "Rotating special topics on the graduate level in art history. May be repeated with change of topic."
         },
         {
             "subject": "ARH",
@@ -1221,13 +1186,6 @@
         },
         {
             "subject": "ART",
-            "code": "4322C",
-            "name": "Adv. Classical Drawing",
-            "units": "3.00",
-            "description": "Further development of conceptual, perceptual and technical classical drawing skills in various mediums, and the visual articulation of textural, spatial and expressive qualities. May be repeated. Prerequisite: ART 3314C"
-        },
-        {
-            "subject": "ART",
             "code": "4333C",
             "name": "Advanced Figure Drawing",
             "units": "3.00",
@@ -1337,13 +1295,6 @@
             "name": "Graduate Fibers",
             "units": "3.00",
             "description": "Graduate level studio course, explores issues of the fiber medium and its context in contemporary practice."
-        },
-        {
-            "subject": "ART",
-            "code": "5390C",
-            "name": "Drawing",
-            "units": "3.00",
-            "description": "Advanced drawing. May be repeated."
         },
         {
             "subject": "ART",
@@ -2684,13 +2635,6 @@
         },
         {
             "subject": "BSC",
-            "code": "6946",
-            "name": "Biology Internship",
-            "units": "1.00",
-            "description": "Non-thesis / non-dissertation internship in a laboratory or program outside FIU working under the supervision of a host scientist and an FIU faculty member."
-        },
-        {
-            "subject": "BSC",
             "code": "6950",
             "name": "Writing for Biology",
             "units": "3.00",
@@ -3017,13 +2961,6 @@
             "name": "Supervised Research",
             "units": "1.00",
             "description": "Graduate students engage in criminal justice research under the direction of a faculty member. May be repeated for credit. Prerequisites: CCJ 6705, CCJ 6706."
-        },
-        {
-            "subject": "CCJ",
-            "code": "6946",
-            "name": "Internship Program",
-            "units": "0.00",
-            "description": "Provides graduate student with the opportunity to gain work experience in an organization. Prerequisite: Student must have a minimum of 3.0 GPA."
         },
         {
             "subject": "CCJ",
@@ -3643,13 +3580,6 @@
         },
         {
             "subject": "CHM",
-            "code": "5225",
-            "name": "Grad Organic Chem",
-            "units": "3.00",
-            "description": "Advanced topics in organic chemistry. Structure of organic molecules, reaction mechanisms, organic synthesis, and natural product chemistry. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "CHM",
             "code": "5236",
             "name": "Spectroscopic Tech",
             "units": "3.00",
@@ -3682,13 +3612,6 @@
             "name": "Grad Physical Chem",
             "units": "4.00",
             "description": "Prequantum physics, the Schrodinger equation and its solutions, atoms and molecules, rotational, vibrational, and electronic spectroscopy. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "CHM",
-            "code": "5426",
-            "name": "Grad Phys Chem II",
-            "units": "4.00",
-            "description": "Gas laws; thermodynamics and equilibrium, electrochemistry, and chemical kinetics. Prerequisite: Graduate standing or permission of the instructor."
         },
         {
             "subject": "CHM",
