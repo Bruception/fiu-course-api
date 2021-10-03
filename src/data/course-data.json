@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1632617154,
+    "dataAsOf": 1633222043,
     "data": [
         {
             "subject": "ACG",
@@ -4580,13 +4580,6 @@
             "description": "Overview of Database Systems, Relational Model, Relational Algebra and Relational Calculus; SQL; Database Applications; Storage and Indexing; Query Evaluation; Transaction Management.  Selected database topics will also be discussed."
         },
         {
-            "subject": "COP",
-            "code": "5949",
-            "name": "Coop Computer Sci",
-            "units": "0.00",
-            "description": "One semester of full-time work, or equivalent, in an outside organization, limited to students admitted to the CO-OP program.  A written report and supervision evaluation is required of each student."
-        },
-        {
             "subject": "COT",
             "code": "3100",
             "name": "Discrete Structures",
@@ -5295,6 +5288,13 @@
         },
         {
             "subject": "ECO",
+            "code": "3949",
+            "name": "Co-Op Ed In Eco",
+            "units": "0.00",
+            "description": "A student majoring in Economics may spend one or two semesters fully employed in industry or government in a capacity relating to the major. Does not count as economics elective toward economics major."
+        },
+        {
+            "subject": "ECO",
             "code": "4100",
             "name": "Managerial Econ",
             "units": "3.00",
@@ -5355,13 +5355,6 @@
             "name": "Topics In Theory",
             "units": "3.00",
             "description": "Study of a particular topic or a selected number of topics in economics theory not otherwise offered in the curriculum."
-        },
-        {
-            "subject": "ECO",
-            "code": "5709",
-            "name": "The World Economy",
-            "units": "3.00",
-            "description": "Designed to give an overview of the crucial issues in the world economy. The course covers trade, capital, labor, and technology flows; transnational economic organizations; current economic crisis; global economic interdependence; and the nature and characteristics of international economic order. Required for MIB Program."
         },
         {
             "subject": "ECO",
@@ -8262,25 +8255,11 @@
             "description": "Systematic study of the phonology, morphology, syntax, and lexicon of Modern French. Taught in English."
         },
         {
-            "subject": "FRE",
-            "code": "5855",
-            "name": "Struct Mod French",
-            "units": "3.00",
-            "description": "Systematic study of the phonology, morphology, syntax, and lexicon of Modern French. Taught in English. Credit will not be given for both FRE 4850 and FRE 5855. Prerequisite: Graduate standing."
-        },
-        {
             "subject": "FRW",
             "code": "4751",
             "name": "Franc-Caribbean Lit",
             "units": "3.00",
             "description": "Introduction to the Francophone literature of the Caribbean; study of a literary tradition in French, with special emphasis on post-World War II writers."
-        },
-        {
-            "subject": "FRW",
-            "code": "5395",
-            "name": "Genre Studies",
-            "units": "3.00",
-            "description": "Examination of a single literary form (e.g. short story, poetry), or the study of interaction between literary types (e.g. novel and drama). Prerequisite: Graduate standing."
         },
         {
             "subject": "FSS",
@@ -8659,13 +8638,6 @@
             "name": "Advanced Stratigraphy",
             "units": "3.00",
             "description": "Principles of stratigraphy and the geologic time scale applied to the sedimentary rock record, to determine dynamics of sedimentation, depositional environments and correlation. Prerequisite: Permission of the instructor. Corequisite: GLY 5518L."
-        },
-        {
-            "subject": "GLY",
-            "code": "5518L",
-            "name": "Advanced Stratigraphy Lab",
-            "units": "1.00",
-            "description": "Training in laboratory techniques to analyze sedimentary rocks for depositional reconstruction and correlation. Prerequisite: Permission of the instructor. Corequisite: GLY 5518."
         },
         {
             "subject": "GLY",
@@ -9191,6 +9163,13 @@
             "name": "Senior Seminar",
             "units": "3.00",
             "description": "A seminar to be taken by all history majors, to provide experience in research, writing, and critical analysis."
+        },
+        {
+            "subject": "HIS",
+            "code": "4941",
+            "name": "History Internship",
+            "units": "0.00",
+            "description": "Gain hands-on experience in archives, libraries, museums, or public history projects. Prepare for a number of careers or fields of study. May be repeated. Prerequisite: Permission of the department required."
         },
         {
             "subject": "HIS",
@@ -10381,13 +10360,6 @@
             "name": "First Year Sem Earth Env",
             "units": "1.00",
             "description": "Weekly seminar course meant for freshmen or 1st year transfer students in the undergraduate Earth and Environment programs. Topics include: assessing your skills, planning your program, and getting help."
-        },
-        {
-            "subject": "ISC",
-            "code": "3523",
-            "name": "Research Methods",
-            "units": "3.00",
-            "description": "Students use tools that scientists use to solve scientific problems and develop insight into processes involved in scientific discovery. Focus on research methods for prospective science teachers."
         },
         {
             "subject": "ISC",
@@ -11615,13 +11587,6 @@
             "description": "Examines the causes, consequences, and cost of organizational conflict and the\ndispute resolution systems organizations use to resolve conflict."
         },
         {
-            "subject": "LBS",
-            "code": "5930",
-            "name": "Topic Labor Studies",
-            "units": "0.00",
-            "description": "Selected topics or themes in Labor Studies. Themes will vary from semester to semester. With a change in content, course may be repeated. May include field work. Prerequisite: Graduate standing."
-        },
-        {
             "subject": "LEI",
             "code": "3001",
             "name": "Leisure & Recreation",
@@ -12736,6 +12701,13 @@
         },
         {
             "subject": "MDC",
+            "code": "7124",
+            "name": "Geriatrics",
+            "units": "2.00",
+            "description": "During the 2-week Geriatrics rotation, students will actively participate in the ongoing, daily care of older adults who have a wide variety of acute and chronic illnesses and abnormal physical findings. Throughout the course, students will work with a variety of geriatric focused health professionals \u00c2\u00bf including physicians, nurse practitioners, therapists, certified nursing assistants, and social workers-- as part of the interdisciplinary care team. Students will be involved with and responsible for admission assessments, ongoing care and management for patients, discharge planning and communicating with patients' families. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDC",
             "code": "7180",
             "name": "OB/GYN Clerkship",
             "units": "6.00",
@@ -12784,11 +12756,270 @@
             "description": "The course introduces Period 3 medical students to general and specialty psychiatry and allows students to develop competencies in diagnosing and treating psychiatric disorders. The structure of the clerkship ensures that students receive exposure to different clinical practice settings, including emergency department (ED), inpatient, outpatient, and consultation-liaison services. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
+            "subject": "MDE",
+            "code": "7100",
+            "name": "Community Medicine Elective",
+            "units": "1.00",
+            "description": "This intensive ambulatory block will serve as a community based primary care experience. Under the supervision of community based FIU faculty, the student will assume a level of independence appropriate to his/her skills and training level. Students will practice patient-centered communication, diagnostic and management skills, clinical reasoning, management of common ambulatory clinical issues, and patient education and negotiation. Experiences may include any primary care specialty (e.g. family medicine, internal medicine, pediatrics, obstetrics and gynecology, psychiatry). Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7120",
+            "name": "Family Medicine Elective",
+            "units": "1.00",
+            "description": "This intensive ambulatory or inpatient block is particularly suited to students interested in primary care. Students will be assigned to either an inpatient or outpatient Family Medicine experience. Under the supervision of FIU faculty, the student will assume a level of independence appropriate to a fourth year student. For each patient s/he sees, the student will be responsible for the history and physical, writing a note, presenting the case to the supervising faculty member, and putting the agreed-upon management plan into action. Through this process, students will hone their patient communication skills, diagnostic skills and clinical reasoning, development of management plans for common ambulatory or inpatient clinical scenarios, and execution of patient education. Students will attend all departmental rounds and teaching activities, as well as complete any relevant reading assignments. Students will be provided with regular feedback from the supervising physician. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7161",
+            "name": "OB/GYN Elective",
+            "units": "1.00",
+            "description": "This fourth year clinical elective in Obstetrics and Gynecology offers the student the opportunity to enhance his/her skills in outpatient diagnosis and management. The student is expected to adhere to the schedule agreed upon with the FIU faculty member, including call duty, rounding, and other clinical responsibilities (ie. those related to surgery, outpatient clinic, or the labor floor). The rotation may be tailored based on the student's specific goals and learning objectives; the student should reach out to the course director to discuss special considerations. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7162",
+            "name": "Gyn Oncology Elective",
+            "units": "1.00",
+            "description": "This four week elective is intended for students who have already completed the basic core clerkship in OB/GYN and are interested in enhancing their exposure to the subspecialty of Gynecologic Oncology. The student will be provided experience in the inpatient and outpatient management of patients with pre-malignant and malignant conditions of the genital tract. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7204",
+            "name": "Hospitalist Service Elective",
+            "units": "1.00",
+            "description": "The four week Hospitalist rotation is designed to allow fourth year students the opportunity to participate with increased responsibility in the care of patients admitted to the internal medicine/hospitalist service. Students provide longitudinal care for hospitalized patients from the time of consultation in the emergency room to the patient's discharge and/or transfer. Students' schedules vary according to the needs of each site; students are expected to take call every fourth night. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7220",
+            "name": "Cardiology Elective",
+            "units": "1.00",
+            "description": "The objective of this hospital-based rotation is for students to improve their understanding of the pathophysiology of common cardiovascular diseases; the evaluation of acute and chronic cardiac disorders, including indications for invasive and non-invasive studies and EKG interpretation; the appropriate history and physical exam technique, with particular attention to the cardiovascular exam; and the differential diagnosis and first line treatment of prevalent cardiovascular disorders, with an emphasis on disease prevention. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7250",
+            "name": "Dermatology Elective",
+            "units": "1.00",
+            "description": "This elective course is designed to give the student exposure to clinical dermatology, including the diagnosis and management of common skin diseases seen in general practice. The majority of the student's time will be spent working with faculty members in the outpatient clinical setting; although there may be some opportunities for inpatient consultations and other work. Upon completion of this elective, the student will know the clinical features of the most commonly encountered skin diseases and will be familiar with the modalities available for their management. This elective will be useful to students planning a career in a primary care specialty or dermatology. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7270",
+            "name": "Gastroenterology/Hepatology",
+            "units": "1.00",
+            "description": "This course will consist of a four week rotation, which will include inpatient and outpatient gastroenterology and hepatology. Throughout the rotation, students will be assuming primary responsibility of patients under the supervision of gastroenterology attendings. The experience will also allow for participation in varied endoscopic procedures, such as esophageal manometry, and upper and lower endoscopy. During the week, students will participate in pathology and radiology conferences geared to gastroenterology and hepatology cases. The course will concentrate on teaching students how to interpret clinical information and develop therapeutic decision making. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7280",
+            "name": "Hematology-Oncology Elect",
+            "units": "1.00",
+            "description": "This rotation is intended to prepare students to learn a basic approach to evaluation, diagnosis, staging and treatment of patients with blood diseases and cancer. Through exposure to patients with these diseases, students will improve their physical diagnosis skills, recognition of complications of disease, and understanding of therapeutic issues. Students will learn concepts of palliative care, end of life and hospice care. The rotation is mainly inpatient-consult service with some outpatient exposure. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7320",
+            "name": "Infectious Disease Elect",
+            "units": "1.00",
+            "description": "This elective rotation is intended to prepare students to obtain, under direct supervision of an infectious disease faculty, the necessary diagnostic and therapeutic skills to effectively care for patients with infectious disorders from the surgical, transplant, intensive care, OB/GYN, hematologic/oncologic, and general medicine services in a community hospital. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7340",
+            "name": "Intensive Care Unit Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to prepare students to obtain necessary diagnostic and therapeutic skills to effectively care for patients diagnosed with critical medical disorders. Students work under direct the supervision of the ICU attending physician or as a member of a teaching team under the supervision of the attending physician, pulmonary/critical care fellow, and IM residents. Students assist in the admission, evaluation, and management of patients admitted\nto the Medical Intensive Care Unit..  Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7404",
+            "name": "Pediatric Ambulatory Services",
+            "units": "1.00",
+            "description": "The student, under direct physician supervision, will participate in the diagnosis and treatment plan for emergency and outpatient cases. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7433",
+            "name": "Pediatric Gastroenterology Ele",
+            "units": "1.00",
+            "description": "Medical students will perform routine histories and physical examinations on all gastroenterology patients, with emphasis on clinical diagnosis and treatment. Students are expected to take an active role in the management of gastroenterology patients in both inpatient and outpatient settings. Students will also participate in endoscopic procedures. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7440",
+            "name": "Pediatric Hematology Elective",
+            "units": "1.00",
+            "description": "Medical students will evaluate and follow hematology and oncology patients in both the inpatient and outpatient settings. Students will attend all hematology-oncology educational conferences. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7462",
+            "name": "Pediatric Intensive Care Elect",
+            "units": "1.00",
+            "description": "Medical students will examine patients admitted to the Pediatric Intensive Care Unit, write daily entries into the medical record, develop plans for care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students, residents, and fellows of the Pediatric Intensive Care Unit. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7531",
+            "name": "Anatomic & Clinical Pathology",
+            "units": "1.00",
+            "description": "This elective will provide an introduction and overview to the practice of pathology and is aimed at the student who may be considering pathology as a career. The student will be exposed to anatomic pathology (surgical, autopsy and cytopathology) and clinical pathology (clinical chemistry, hematology, microbiology and transfusion medicine). Molecular pathology will also be touched upon. The student will have access to the entire laboratory but will spend the most time in sign-out sessions and clinical conferences with the attending pathologists and residents. The student will learn pathology but will also experience what a career in pathology is like in a cordial setting surrounded by enthusiastic physicians. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7550",
+            "name": "Ophthalmology Elective",
+            "units": "1.00",
+            "description": "The clinical rotation in ophthalmology provides students with a focused and in-depth experience in the evaluation, diagnosis, and management of ophthalmic conditions. Students spend substantial time in the clinic and the operating room in general ophthalmology or their ophthalmologic subspecialty of interest. Students are expected to be actively involved in the workup of patients with various presenting concerns; and to interpret and present their findings and suggested clinical management to the attending physician. Students also have the opportunity to perform research in a preferred area of interest. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7570",
+            "name": "Orthopedic Surgery Elective",
+            "units": "1.00",
+            "description": "The section of Orthopedics presents to the student a comprehensive outline of the spectrum of orthopedic surgery as practiced in a community hospital. The student is involved in an intensive in-patient experience and has significantly increased responsibility, involving primary workup of new patients and writing orders. The student performs procedures such as evaluating patients, taking an orthopedic history, and performing a physical examination of the musculoskeletal system. The student should improve his or her ability to manage complex patient presentations, including diagnosing and treating common adult orthopedic problems. The student should develop advanced skills in fracture treatment and cast application. He or she should be involved in joint replacement surgery and management of postoperative adult orthopedic patients.Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7580",
+            "name": "Physical Med & Rehab Elec",
+            "units": "1.00",
+            "description": "This elective offers students experience in the diagnosis and management of patients with a variety of neuro-muscular diagnoses such as stroke, spinal cord injury, traumatic brain injury, and neuro-degenerative disorders such as multiple sclerosis. Students may treat patients with musculo-skeletal disorders such as amputation, total hip arthroplasty, total knee arthroplasty, and multiple trauma victims. Students attend physical, occupational, and speech therapy sessions with their patients to learn the daily process of rehabilitation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7592",
+            "name": "Otolaryngology/ENT Elective",
+            "units": "1.00",
+            "description": "This clinical elective exposes medical students to the surgical subspecialty of Otolaryngology-Head and Neck Surgery, also known as Ear, Nose and Throat (ENT). Medical students work directly with clinical team in the operating room, inpatient setting, and outpatient clinic caring for patients with a variety of medical and surgical diseases affecting the head and neck region. Students are expected to be an active member of the patient care team; they should participate in diagnostic evaluations, present their findings to the attending physician, and synthesize assessments and plans. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7600",
+            "name": "General Surgery Elective",
+            "units": "1.00",
+            "description": "The student works directly with general and vascular surgeons. During the rotation, the student is exposed to all phases of patient care, including outpatient clinic, the operating room and hospital. Emphasis will be placed on the initial assessment, physical examination and preoperative evaluation of surgical patients. When appropriate, the student will follow individual patients whose cases are particularly instructive. While no formal projects are required, ample opportunity exists for independent projects as dictated by the student's special interests. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7605",
+            "name": "Vascular Surgery Elective",
+            "units": "1.00",
+            "description": "The goal of the rotation is to provide students with a thorough understanding of the diseases of the peripheral vascular systems - arterial, venous, and lymphatic. Those considering a career in vascular surgery can gauge if the specialty meets their interests and skills while those planning to choose other fields can learn more than enough to know when referral to a vascular surgeon is appropriate. Students will work with our vascular surgeons in the office, hospital wards, operating room, interventional suite, and wound center to learn the about the diagnosis and management of the full spectrum of vascular diseases. They will be exposed to patients with carotid artery disease, aortic and peripheral artery aneurysms, peripheral artery occlusive disease, dialysis access needs, venous thrombosis, varicose veins, and chronic wounds. They will be able to assist in open surgeries and in balloon angioplasty/stent procedures. There will also be opportunities for clinical research if desired. There will be no night or weekend call. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7660",
+            "name": "Plastic & Reconstructive Sur E",
+            "units": "1.00",
+            "description": "The Plastic and Reconstructive Surgery Elective is a 4 week rotation designed to expose students to a wide variety of clinical problems and techniques commonly encountered in the field of plastic surgery. Students will be exposed to all subspecialties in plastic surgery, including general reconstructive surgery, pediatric/craniofacial surgery, hand surgery, and aesthetic surgery. Students will rotate through several offices/hospitals during the rotation and will be expected to participate in pre- and post-operative office visits, hospital visits, and surgeries. In addition, students will be expected to master wound closure techniques and other basic plastic surgery technical skills. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7661",
+            "name": "Breast Surgery Elective",
+            "units": "1.00",
+            "description": "The Breast Surgery Elective focuses exclusively on the clinical management of benign and malignant breast diseases. The student will become proficient in taking a history, performing a breast examination, and developing a differential diagnosis for breast patients. The student will learn about the surgical management of breast cancer and the integration of other modalities in the overall management of this disease. Working 1-on-1 with an FIU faculty attending surgeon, the student will have some responsibility for inpatient care and will have the opportunity to be first assistant in the operating room. Weekly didactic sessions with the attending physician will cover the most important aspects of breast cancer including biology, diagnostics, prevention, and treatment. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7675",
+            "name": "Urology Elective",
+            "units": "1.00",
+            "description": "In this rotation, the student will acquire knowledge of Urology and urologic anatomy; develop an understanding of and ability to perform a urologic history and physical exam; interview and present patients; develop an understanding of emergent urologic issues as well as common urologic issues with an emphasis on the acute scrotum, urinary tract infections, urinary stones, incontinence, benign prostatic hyperplasia, erectile dysfunction, hematuria and prostate cancer/PSA testing by both didactic and practice based learning; develop an understanding of a spectrum of urologic procedures/surgeries, including foley catherization, cystoscopy, and transrectal ultrasound and prostate biopsy by observation and participation; develop an understanding of peri-operative urologic issues both urologic and non-urologic patients via inpatient encounters; and develop an understanding of the role of a Urologist in the care of both male and female patients and when an appropriate referral should be made (emergent or routine). The student will function as a supervised member of the urologic team, interacting with faculty and resident staff and participating in urologic clinics and in the operating room. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7682",
+            "name": "Trauma Surgery Elective",
+            "units": "1.00",
+            "description": "This elective provides the 4th year medical student experience in the evaluation and treatment of the patient with severe trauma. The student will be initially involved in the assessment and stabilization of the patient in the Trauma Room in the ER and will then be involved in the preoperative management, intraoperative treatment and postoperative recovery of the patient. Students will be exposed to emergency interpretation of imaging and diagnostic studies, ventilatory management, invasive monitoring procedures and interventional procedures such as chest tube insertion, thoracentesis and paracentesis. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7700",
+            "name": "Anesthesiology Elective",
+            "units": "1.00",
+            "description": "This rotation will allow the student supervised hands-on participation in preoperative anesthesiology evaluation, creation of an anesthesia plan, intravenous line placement, induction of general anesthesia and airway management, monitoring of anesthesia, and emergence and postoperative care. Students will also be involved in other procedures commonly performed by anesthesiologists, such as regional blocks for pain control. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7763",
+            "name": "Diagnostic Radiology Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to give students an introduction to the basics of diagnostic imaging, the appropriate choice of imaging method for given clinical problems, and the side-effects and risks associated with each. Students will become familiar with imaging findings in common clinical conditions. The rotation will involve online modules, small group sessions and 'virtual' and real reading room sessions. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7765",
+            "name": "Intervent Rad Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to give students an introduction to the basics of Interventional Radiology (IR); including IR techniques and procedures, and an understanding of the field's role in the management of medical and surgical problems. Students will participate in the workup, treatment and follow-up of patients undergoing various IR procedures. Students will also gain experience in the interpretation of radiologic imaging such as ultrasound, CT, and MRI. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7800",
+            "name": "Neurology Elective",
+            "units": "1.00",
+            "description": "This course is designed to give students an advanced experience in the field of Neurology. By the completion of the rotation, students will be able to perform a detailed neurological examination and describe the neuro-anatomic phases of the examination and any findings. There will be an emphasis of the diagnosis and treatment of common neurologic conditions including headache, neck pain, back pain, peripheral neuropathy, dementia, seizures, multiple sclerosis, pain management, cerebrovascular disease, and altered mental status. Students will additionally receive basic training in reading EMG/NCS and EEG. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7807",
+            "name": "Neuro-Oncology Elective",
+            "units": "4.00",
+            "description": "The management of patients with primary and metastatic brain malignancies is a complex endeavor. Treatment strategies for these patients often involve a multi-disciplinary approach. This rotation will provide exposure to all of the main modalities who care for patients with neurologic malignancies including radiation oncology, neurosurgical oncology, and medical neuro-oncology, with a focus on medical neuro-oncology. Outside of the core subspecialties, there are opportunities for time in neuro-radiology, review of current surgical cases with the pathology department, and exposure to rehab and palliative medicine through subspecialty\nclinics. Students should take away a basic understanding of the management of patients with primary and secondary brain malignancies as well as the neurologic complications of cancer patients undergoing treatment. Prerequisite: Student must be in his/her fourth year and have passed all third year core clerkships."
+        },
+        {
+            "subject": "MDE",
+            "code": "7820",
+            "name": "Pain Management Elective",
+            "units": "1.00",
+            "description": "Students will rotate in an ambulatory setting at a pain management practice under the direct supervision of an FIU faculty member. This rotation will provide students with exposure to the evaluation and management of acute and chronic pain including: upper and lower back pain; chronic arthritis; disk disease; radicular and neuropathic pain syndromes; and pain associated with malignancy. Students will gain an understanding of common procedures used in pain management: local anesthesia, joint injections, epidural injections, peripheral nerve blocks, and trigger point injections. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7871",
+            "name": "Child Inpatient Psych Elective",
+            "units": "1.00",
+            "description": "The 2-week or 4-week rotation exposes Period 4 medical students to child and adolescent psychiatry in a hospital setting and allows them to refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and emergency psychiatry experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7880",
+            "name": "Forensic Psychiatry Elective",
+            "units": "1.00",
+            "description": "This rotation exposes interested Period 4 medical students to the interactions between the psychiatric and legal systems by providing the opportunity to rotate in a forensic psychiatric hospital. Students will learn the clinical, legal and ethical issues at the interface between psychiatry and the law and will refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and assessment experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDI",
+            "code": "7122",
+            "name": "Family Med Subinternship",
+            "units": "1.00",
+            "description": "Family medicine is the specialty that focuses on care for the whole person regardless of age, sex, or disease, set within his or her social and community context. The Family Medicine Sub-Internship consists of both an ambulatory and inpatient experience. Under the supervision of FIU HWCOM faculty, students assume an appropriate level of clinical independence; allowing them to practice diagnostic and clinical reasoning, disease management skills, and patient communication and education for patients of varying ages and comorbidities. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
             "subject": "MDI",
             "code": "7200",
             "name": "Internal Medicine Subinternshp",
             "units": "1.00",
             "description": "The Sub-Internship in Internal Medicine is intended to prepare students to effectively care for medical conditions commonly encountered during inpatient rotations, including ward emergency scenarios. Building on the skills gained during period 3, students will take a more active role in patient care; including admitting patients, documenting in the electronic medical record, entering orders, and coordinating and implementing the patient's care plan. This rotation will provide necessary skills to be successful during their first year of post-graduate education. The sub-intern will fulfill clinical and academic responsibilities as an integral team member of an inpatient medical service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDI",
+            "code": "7400",
+            "name": "Pediatric Medicine Subintern",
+            "units": "1.00",
+            "description": "The Pediatric Medicine Sub-internship gives the student increased responsibility for decisions made for the total care of the patient. In general, the student is expected to function more as an intern than as a third year student. During the sub-internship, the student will be exposed to all competencies central to medical education; including interpersonal skills, professionalism, practice and systems based learning, patient care, and medical knowledge. Sub-interns are expected to examine patients admitted to the inpatient hospitalist services, write daily progress notes and enter orders in the medical record, develop and assist in implementation of plans for care, and make daily rounds on all patients. Students will participate in all academic activities of the Hospitalist Service, including simulation training and didactic lectures. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDI",
+            "code": "7600",
+            "name": "General Surgery Subinternship",
+            "units": "1.00",
+            "description": "This course is designed for students who desire a greater in-depth experience in general surgery or who are seriously considering surgery as a possible career choice. It serves as an exploratory path for a planned career in general surgery or other surgical sub-specialties. In this role, the subintern will have more responsibilities than a period 3 clerkship student. The student will examine patients, assist in surgery, participate in pre-operative and post-operative care and will also be encouraged to develop his/her clinical and technical skills. The student will be expected to participate in all of the educational activities of the Department of Surgery during the course of his/her rotation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MET",
@@ -13373,13 +13604,6 @@
         },
         {
             "subject": "MUL",
-            "code": "5609",
-            "name": "Survey Art Song Lit",
-            "units": "3.00",
-            "description": "An historical survey of the literature for solo voice from the Medieval period to the national schools of the contemporary era."
-        },
-        {
-            "subject": "MUL",
             "code": "5645",
             "name": "Choral Literature",
             "units": "3.00",
@@ -13499,13 +13723,6 @@
         },
         {
             "subject": "MUN",
-            "code": "1380L",
-            "name": "University Singers",
-            "units": "1.00",
-            "description": "A chorus performing a repertoire primarily from great choral works. Large orchestral accompaniment as well as various instrumental ensembles will be utilized."
-        },
-        {
-            "subject": "MUN",
             "code": "1430",
             "name": "Univ Brass Choir",
             "units": "1.00",
@@ -13538,13 +13755,6 @@
             "name": "Latin Jazz Ensemble",
             "units": "1.00",
             "description": "An ensemble to provide creative professional-level experience in the salsa/Latin jazz idiom."
-        },
-        {
-            "subject": "MUN",
-            "code": "2450L",
-            "name": "Piano Ensemble",
-            "units": "1.00",
-            "description": "The presentation and performance of music literature characteristic of piano and pianos in ensemble."
         },
         {
             "subject": "MUN",
@@ -13653,13 +13863,6 @@
         },
         {
             "subject": "MUN",
-            "code": "4453L",
-            "name": "Piano Ensemble",
-            "units": "1.00",
-            "description": "The presentation and performance of music literature characteristic of piano and pianos in ensemble."
-        },
-        {
-            "subject": "MUN",
             "code": "4483",
             "name": "Guitar Ensemble",
             "units": "1.00",
@@ -13667,24 +13870,10 @@
         },
         {
             "subject": "MUN",
-            "code": "4486",
-            "name": "Jazz Guitar Ens",
-            "units": "1.00",
-            "description": "Ensemble consists of five or more electric guitars performing arrangements, accompanied by bass and drums. Emphasis placed on sight reading, styles, phrasing, dynamics, ensemble blend, swing, etc."
-        },
-        {
-            "subject": "MUN",
             "code": "4493",
             "name": "New Music Ensemble",
             "units": "1.00",
             "description": "A chamber group of varying instrumentation and size performing art music from the 20th century with emphasis on music from the past 20 years. Explores electronics, multimedia works, etc."
-        },
-        {
-            "subject": "MUN",
-            "code": "4513L",
-            "name": "Accompanying",
-            "units": "1.00",
-            "description": "Accompanying instrumental and vocal students in studio and recital situations."
         },
         {
             "subject": "MUN",
@@ -13734,20 +13923,6 @@
             "name": "Univ. Singers",
             "units": "1.00",
             "description": "A chorus performing a repertoire primarily from great choral works. Large orchestral accompaniment as well as various instrumental ensembles will be utilized. Prerequisite: Permission of conductor."
-        },
-        {
-            "subject": "MUN",
-            "code": "5435L",
-            "name": "Univ Brass Choir",
-            "units": "1.00",
-            "description": "A study and performance of literature written for the brass medium (trumpet, horn, trombone, euphonium, and tuba) from the pre-baroque, baroque, classical, romantic and contemporary periods. May be repeated. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MUN",
-            "code": "5455L",
-            "name": "Piano Ensemble",
-            "units": "1.00",
-            "description": "The presentation and performance of music literature characteristic of piano and pianos in ensemble."
         },
         {
             "subject": "MUN",
@@ -13815,13 +13990,6 @@
         {
             "subject": "MUO",
             "code": "4502",
-            "name": "Opera Workshop",
-            "units": "1.00",
-            "description": "The presentation and performance of music literature indigenous to the opera stage. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MUO",
-            "code": "5505",
             "name": "Opera Workshop",
             "units": "1.00",
             "description": "The presentation and performance of music literature indigenous to the opera stage. Prerequisite: Permission of the instructor."
@@ -14329,13 +14497,6 @@
             "name": "Prin App Piano",
             "units": "2.00",
             "description": "Individual instruction in applied music on piano as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVK",
-            "code": "1411",
-            "name": "Major Applied Piano",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on piano as a major instrument. Music majors only."
         },
         {
             "subject": "MVK",
@@ -16551,13 +16712,6 @@
         },
         {
             "subject": "PHC",
-            "code": "7017",
-            "name": "Adv Epi Health Disparity",
-            "units": "3.00",
-            "description": "Provides advanced understanding of health disparity - disparity indicators, complex measurement methods and applications, theoretical frameworks, and analysis and evaluation of programs/policy."
-        },
-        {
-            "subject": "PHC",
             "code": "7198",
             "name": "Adv Qual in PH",
             "units": "3.00",
@@ -16947,13 +17101,6 @@
             "name": "Physics W/O Calc II",
             "units": "4.00",
             "description": "Second in basic physics without calculus sequence. Covers electricity and magnetism, geometrical and wave optics and the structure of matter. PHY2166 strongly recommended for problem solving skills."
-        },
-        {
-            "subject": "PHY",
-            "code": "3018",
-            "name": "Physics Research Methods",
-            "units": "3.00",
-            "description": "Experimental development and design for future physics teachers. Four independent physics experiments are designed, conducted and analyzed. Includes statistical analysis techniques."
         },
         {
             "subject": "PHY",
@@ -17710,13 +17857,6 @@
             "name": "Subj Area Reading",
             "units": "3.00",
             "description": "Skills, techniques and strategies for reading in content areas."
-        },
-        {
-            "subject": "RED",
-            "code": "5339",
-            "name": "Subj-Related Rdg",
-            "units": "3.00",
-            "description": "Skills, techniques and strategies for scaffolding the reading of struggling students and enhancing the comprehension and learning independence of all students using subject area materials."
         },
         {
             "subject": "RED",
@@ -19439,6 +19579,13 @@
             "name": "Racial & Ethnic Relations",
             "units": "3.00",
             "description": "Discusses the social construction of racial and ethnic relations. Investigates ideologies, inequalities, identities, conflicts, movements, and change."
+        },
+        {
+            "subject": "SYD",
+            "code": "7903",
+            "name": "Directed Readings",
+            "units": "0.00",
+            "description": "Readings under the direction of a faculty member focusing on one of the tracks in the Ph.D. program. Hours may vary."
         },
         {
             "subject": "SYG",
