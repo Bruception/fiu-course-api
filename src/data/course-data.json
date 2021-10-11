@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1633222043,
+    "dataAsOf": 1633979287,
     "data": [
         {
             "subject": "ACG",
@@ -2678,7 +2678,7 @@
         {
             "subject": "BUL",
             "code": "4321",
-            "name": "Advanced Business Law",
+            "name": "Bus Law II",
             "units": "3.00",
             "description": "Substantive issues and principles of law including agency, partnership and corporation law, commercial paper, antitrust, employment, administrative, environmental and computer law; ethical issues in business law. Prerequisite: (a) Grade of C or higher in BUL 4310 or BUL 4320; and (b) qualifying Accounting Entrance Exam score and GPA (BUEE only)"
         },
@@ -9985,6 +9985,13 @@
         },
         {
             "subject": "IND",
+            "code": "5941",
+            "name": "Internship",
+            "units": "0.00",
+            "description": "Experience in interior design practice learned through work with licensed professionals."
+        },
+        {
+            "subject": "IND",
             "code": "5948",
             "name": "Grad Internship",
             "units": "3.00",
@@ -11854,13 +11861,6 @@
         },
         {
             "subject": "LIT",
-            "code": "3702",
-            "name": "Major Literary Modes",
-            "units": "3.00",
-            "description": "Individual sections will read and discuss the literary expression of heroic, tragic, comic, satiric, mythic, realistic, or others formalized views of human existence. May be repeated with change of content."
-        },
-        {
-            "subject": "LIT",
             "code": "4188",
             "name": "Regional Lit In Eng",
             "units": "3.00",
@@ -12771,6 +12771,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7121",
+            "name": "PC Sports Med Elective",
+            "units": "1.00",
+            "description": "This is an outpatient clinical rotation that provides a comprehensive spectrum of evaluation and management of both medical illness and orthopedic injury as it relates to musculoskeletal medicine. Students will diagnose, treat and help prevent general medical problems and injuries in athletes regardless of gender, or level of competition. The care of the athlete will include performance of pre-participation sports physicals, assessment of common medical problems and musculoskeletal injuries, as well as treatment and rehabilitation of these conditions. The student will learn nonsurgical treatments for acute and overuse musculoskeletal problems to minimize time away from sports, school or work. The student will also treat chronic problems such as osteoarthritis to help minimize disability and maximize function, develop skills in conservative fracture management with splinting and casting and may be involved in sideline coverage of sporting events. The student will also be exposed to musculoskeletal ultrasound diagnostics and injections. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7161",
             "name": "OB/GYN Elective",
             "units": "1.00",
@@ -12859,6 +12866,13 @@
             "name": "Pediatric Intensive Care Elect",
             "units": "1.00",
             "description": "Medical students will examine patients admitted to the Pediatric Intensive Care Unit, write daily entries into the medical record, develop plans for care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students, residents, and fellows of the Pediatric Intensive Care Unit. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7505",
+            "name": "Ped Emergency Med Elect",
+            "units": "1.00",
+            "description": "Medical students will examine and evaluate patients presenting to the Pediatric Emergency Room. Students are expected to make entries into the electronic medical record, develop plans for care, and enter orders. Students will participate in all academic activities, including simulation training and lectures, provided to the Pediatric Emergency Medicine fellows and Pediatric residents. Students are expected to expand their knowledge of Pediatric Emergency Medicine with a focus on acute airway management, acute evaluation of the pediatric trauma patient, evaluation of the pediatric acute abdomen, fever in children, and the management of minor soft tissue injuries. Skills and knowledge will be acquired through directed readings, patient care, and simulation scenarios. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18083,6 +18097,13 @@
             "description": "This course examines a number of the most important methods used in the academic study of religion, together with representative examples of the use of these methods."
         },
         {
+            "subject": "REL",
+            "code": "4910",
+            "name": "Independent Research",
+            "units": "0.00",
+            "description": "Topics will be selected to meet the academic needs of the individual student."
+        },
+        {
             "subject": "RLG",
             "code": "5183",
             "name": "Rel, Nat, and Globalization",
@@ -18550,6 +18571,13 @@
             "name": "Child Welfare",
             "units": "3.00",
             "description": "This course will explore professional practice and policy issues in child welfare with emphasis on interventions in child maltreatment."
+        },
+        {
+            "subject": "SOW",
+            "code": "4905",
+            "name": "Individual Study",
+            "units": "0.00",
+            "description": "Individually selected program of supervised study related to specific social work issues. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "SOW",
