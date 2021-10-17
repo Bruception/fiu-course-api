@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1633979287,
+    "dataAsOf": 1634431558,
     "data": [
         {
             "subject": "ACG",
@@ -2673,7 +2673,7 @@
             "code": "4310",
             "name": "Legal Environ Bus",
             "units": "3.00",
-            "description": "The course includes issues such as: Contracts, Torts, Legal/Political/Economic aspects of Ethics and the Law, U.C.C., Antitrust Law, Employment Law, Administrative Law, Securities Law, and International Business Law topics."
+            "description": "The course includes issues such as: Contracts, Torts, Legal/Political/Economic aspects of Ethics and the Law, U.C.C., Antitrust Law, Employment Law, Administrative Law, Securities Law, and International Business Law topics.Prereq(a)Bus students ACG3301,ECO2013, ECO2023and(QMB3003or(STA 2023andMAC2233) or Calc I or higher) or equ. grade of 'C' or higher; (b)BS Construction Management, ACG3024 and (ECO2013 or ECO2023) and MAC2233 and STA2023 or equivalents with C or better"
         },
         {
             "subject": "BUL",
@@ -8010,13 +8010,6 @@
             "description": "How to develop a community vulnerability analysis and implement mitigation and risk reduction initiatives to reduce future damage and build greater hazard resilient communities."
         },
         {
-            "subject": "FIL",
-            "code": "3838",
-            "name": "Holocaust Cinema",
-            "units": "3.00",
-            "description": "An interdisciplinary survey of cinematic representations of the Holocaust from the 1940s to the present, addressing ethical challenges such as Holocaust comedy and the representation of atrocity."
-        },
-        {
             "subject": "FIN",
             "code": "3005",
             "name": "Intro to Business Finance",
@@ -11959,6 +11952,20 @@
         },
         {
             "subject": "MAC",
+            "code": "1907",
+            "name": "Pre-Calculus Stretch",
+            "units": "0.00",
+            "description": "Version of MAC 1147 for continuing students with an unfinished grade. Develops deeper problem solving skills of the concepts of precalculus. Prerequisite: Consent of the Department"
+        },
+        {
+            "subject": "MAC",
+            "code": "1990",
+            "name": "College Algebra Stretch",
+            "units": "0.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MAC",
             "code": "2233",
             "name": "Calc For Business",
             "units": "3.00",
@@ -13104,6 +13111,20 @@
             "name": "Social Choice Math",
             "units": "3.00",
             "description": "Voting systems and their desirable properties.  Weighted voting systems, fair division procedures, apportionment methods and game theory."
+        },
+        {
+            "subject": "MGF",
+            "code": "1990",
+            "name": "Social Choice Stretch",
+            "units": "0.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MGF",
+            "code": "1991",
+            "name": "Finite Math Stretch",
+            "units": "0.00",
+            "description": "N/A"
         },
         {
             "subject": "MHF",
