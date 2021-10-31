@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1635036749,
+    "dataAsOf": 1635641567,
     "data": [
         {
             "subject": "ACG",
@@ -3349,13 +3349,6 @@
         },
         {
             "subject": "BSC",
-            "code": "2085",
-            "name": "Anatomy & Physiology I",
-            "units": "3.00",
-            "description": "Anatomy and Physiology I is the first of a two-course sequence. It is a study of the structure and function of human biology including cells, tissues, organs and systems. For non-biology majors. Prerequisite or corequisite: BSC 2085L"
-        },
-        {
-            "subject": "BSC",
             "code": "2085L",
             "name": "Anatomy & Phys I Lab",
             "units": "1.00",
@@ -3573,6 +3566,13 @@
         },
         {
             "subject": "BSC",
+            "code": "5927",
+            "name": "WS: R For Biologists",
+            "units": "2.00",
+            "description": "Statistical methods and biological/ecological applications using R programming language. Prerequisites: (Graduate standing in Biology) or (STA 3111 and STA 3112)."
+        },
+        {
+            "subject": "BSC",
             "code": "5931",
             "name": "Thesis Prop Seminar",
             "units": "1.00",
@@ -3584,6 +3584,13 @@
             "name": "Topics In Biology",
             "units": "0.00",
             "description": "An intensive study of a particular topic or limited number of topics not otherwise offered in the curriculum. May be repeated for credit with different subject content."
+        },
+        {
+            "subject": "BSC",
+            "code": "5936",
+            "name": "Glaser Seminar",
+            "units": "1.00",
+            "description": "A series of lectures by an invited, internationally recognized authority in biological topics of current and future concern."
         },
         {
             "subject": "BSC",
@@ -6513,13 +6520,6 @@
         },
         {
             "subject": "DEP",
-            "code": "5058",
-            "name": "Bio-Behavioral Devel",
-            "units": "3.00",
-            "description": "Introduction to theory and research underlying behavioral development. Covers such pre-and post-natal determinants as evolution, genetics, neuroendocrines, as well as social development, behavioral ecology, and sociobiology."
-        },
-        {
-            "subject": "DEP",
             "code": "5608",
             "name": "Theor Pers Dev Psy",
             "units": "3.00",
@@ -7035,6 +7035,13 @@
             "name": "Undergrad Seminar",
             "units": "3.00",
             "description": "Small class in which students will discuss readings, write research paper, and defend research and ideas orally."
+        },
+        {
+            "subject": "ECO",
+            "code": "4906",
+            "name": "Undergrad Tutorial",
+            "units": "0.00",
+            "description": "Supervised readings, individual tutorial, and preparation of reports. Requires consent of faculty supervisor and Department Chairperson. Does not count as economics elective toward economics major."
         },
         {
             "subject": "ECO",
@@ -7679,6 +7686,13 @@
             "name": "Inst: Theo And Res",
             "units": "3.00",
             "description": "Theories of instruction and research in the learning process, creativity, the thought process, human relations and group dynamics and other fields related to the development of instructional theory and practice."
+        },
+        {
+            "subject": "EDG",
+            "code": "7667C",
+            "name": "Adv Topics Curr Stud",
+            "units": "3.00",
+            "description": "Advanced study of current topics and research issues in curriculum studies. May be repeated."
         },
         {
             "subject": "EDG",
@@ -8543,13 +8557,6 @@
         },
         {
             "subject": "EEL",
-            "code": "5427C",
-            "name": "EM Modeling",
-            "units": "3.00",
-            "description": "The goal of this course is to teach modeling RF, terahertz and photonics structures using electromagnetic full-wave solvers. The class will use commercial EM solvers to model state-of-the-art problems. Prerequisite: EEL 3135, EEL 4410"
-        },
-        {
-            "subject": "EEL",
             "code": "5467",
             "name": "Ant Wireless Com Sys",
             "units": "3.00",
@@ -8774,6 +8781,13 @@
         },
         {
             "subject": "EEL",
+            "code": "6993",
+            "name": "Intro Electronic Warfare",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "EEL",
             "code": "7910",
             "name": "Advanced Research",
             "units": "0.00",
@@ -8914,6 +8928,13 @@
         },
         {
             "subject": "EEX",
+            "code": "6863",
+            "name": "Sup Field Exp Spe Ed",
+            "units": "0.00",
+            "description": "Demonstration in a field site of the full range of competencies in diagnostic teaching learned throughout the program. Placements include a variety of field settings."
+        },
+        {
+            "subject": "EEX",
             "code": "6906",
             "name": "Dir Stud Spec Ed",
             "units": "0.00",
@@ -9002,6 +9023,13 @@
             "name": "Fem In Me",
             "units": "3.00",
             "description": "Utilize the finite element method to solve problems in heat transfer, fluid dynamics, diffusion, acoustics, vibrations, and electromagnetism, as well as the coupled interaction of these phenomena."
+        },
+        {
+            "subject": "EGM",
+            "code": "5421",
+            "name": "Structural Dynamics",
+            "units": "3.00",
+            "description": "Fundamentals of free, forced, and transient vibration of singles and multidegree of freedom structures, including damping of lumped and distributed parameters systems. Graduate students have to do a project."
         },
         {
             "subject": "EGM",
@@ -9114,6 +9142,13 @@
             "name": "Nanoscale Fab and Synth",
             "units": "3.00",
             "description": "This course covers the advanced micro/nanofabrication tools and techniques. It includes lab sessions where the students design, fabricate and test selected micro/nano-scale devices."
+        },
+        {
+            "subject": "EGN",
+            "code": "5439",
+            "name": "Design of Tall Bldg",
+            "units": "3.00",
+            "description": "The course analyzes different modern high-rise structural systems, and includes the dynamics of wind and earthquakes to efficiently design very tall buildings and their ancillary structures."
         },
         {
             "subject": "EGN",
@@ -10321,13 +10356,6 @@
         },
         {
             "subject": "ENV",
-            "code": "6614",
-            "name": "Env Risk Assessment",
-            "units": "3.00",
-            "description": "Characteristics of risk analysis, hazard identification, exposure assessment, consequence analysis, dose-response analysis. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "ENV",
             "code": "6971",
             "name": "Thesis",
             "units": "0.00",
@@ -11221,13 +11249,6 @@
             "name": "Food Science Lab",
             "units": "1.00",
             "description": "Experimental laboratory in the physical and chemical characteristics of food."
-        },
-        {
-            "subject": "FOW",
-            "code": "5934",
-            "name": "Spec Topics Lan/Lit",
-            "units": "3.00",
-            "description": "Content and objectives to be determined by students and teacher."
         },
         {
             "subject": "FRE",
@@ -14388,13 +14409,6 @@
         },
         {
             "subject": "ISS",
-            "code": "4930",
-            "name": "Topics in Globalization",
-            "units": "3.00",
-            "description": "An intensive examination of a topic of globalization. Subject matter will vary according to Instructor. Topic will be announced in advance."
-        },
-        {
-            "subject": "ISS",
             "code": "5135",
             "name": "Nat'l Security Essentials",
             "units": "3.00",
@@ -14616,13 +14630,6 @@
             "name": "Jpn Culture/Society",
             "units": "3.00",
             "description": "This course will examine Japanese culture, societal life, class and gender, and the way of the Samurai. It will explore not only the traditional arts but also current social concerns."
-        },
-        {
-            "subject": "JPN",
-            "code": "3993",
-            "name": "Japan: Tradition to Cool",
-            "units": "3.00",
-            "description": "N/A"
         },
         {
             "subject": "JRM",
@@ -14994,6 +15001,13 @@
             "name": "Intro Lat Am and Carib Stdy",
             "units": "3.00",
             "description": "Interdisciplinary study of Latin America and the Caribbean, its key regions, historical periods, and concepts. Will alternately be taught in Spanish."
+        },
+        {
+            "subject": "LAS",
+            "code": "3330",
+            "name": "Intro to the Caribbean",
+            "units": "3.00",
+            "description": "Introduction to the Caribbean, its key regions, historical periods, and concepts."
         },
         {
             "subject": "LAS",
@@ -16236,13 +16250,6 @@
         },
         {
             "subject": "LIT",
-            "code": "4192",
-            "name": "Major Caribb Authors",
-            "units": "3.00",
-            "description": "Examines the literary achievements of major writers of the Caribbean region in the social, political, and cultural contexts of the English, French, and Dutch Caribbean."
-        },
-        {
-            "subject": "LIT",
             "code": "4224",
             "name": "Exile and Literature",
             "units": "3.00",
@@ -16373,20 +16380,6 @@
             "name": "PreCal Alg and Trig",
             "units": "4.00",
             "description": "Polynomials, Rational, Exponential and Logarithmic Functions, Trigonometry, Conic Sections, Cramer's Rule, Sequences and Series, Induction, Binomial theorem. Student cannot receive credit for both this course and MAC 1140 and/or MAC 1114."
-        },
-        {
-            "subject": "MAC",
-            "code": "1907",
-            "name": "Pre-Calculus Stretch",
-            "units": "0.00",
-            "description": "Version of MAC 1147 for continuing students with an unfinished grade. Develops deeper problem solving skills of the concepts of precalculus. Prerequisite: Consent of the Department"
-        },
-        {
-            "subject": "MAC",
-            "code": "1990",
-            "name": "College Algebra Stretch",
-            "units": "0.00",
-            "description": "N/A"
         },
         {
             "subject": "MAC",
@@ -17901,20 +17894,6 @@
             "description": "Voting systems and their desirable properties.  Weighted voting systems, fair division procedures, apportionment methods and game theory."
         },
         {
-            "subject": "MGF",
-            "code": "1990",
-            "name": "Social Choice Stretch",
-            "units": "0.00",
-            "description": "N/A"
-        },
-        {
-            "subject": "MGF",
-            "code": "1991",
-            "name": "Finite Math Stretch",
-            "units": "0.00",
-            "description": "N/A"
-        },
-        {
             "subject": "MHF",
             "code": "3404",
             "name": "History Of Math",
@@ -18161,13 +18140,6 @@
         },
         {
             "subject": "MMC",
-            "code": "6257",
-            "name": "Media Mgt and Entrep",
-            "units": "3.00",
-            "description": "Introduction to the basic functions of media management with an emphasis on television and new media in a global marketplace; provides an understanding of business models and decision-making processes."
-        },
-        {
-            "subject": "MMC",
             "code": "6736",
             "name": "SOCMEDCOM",
             "units": "3.00",
@@ -18305,6 +18277,20 @@
             "name": "College Geometry",
             "units": "3.00",
             "description": "A study of the basic structure of Euclidean geometry together with topics from advanced Euclidean geometry and non-Euclidean geometry."
+        },
+        {
+            "subject": "MTG",
+            "code": "4254",
+            "name": "Differen Geometry",
+            "units": "3.00",
+            "description": "Hypersurfaces in Rn.  Geodesics and curvature.  Parametrization of surfaces, abstract manifolds.  Integration, surfaces with boundary, Stokes Theorem.  Isometries and intrinsic geometry. Gauss-Bonnet Theorem."
+        },
+        {
+            "subject": "MTG",
+            "code": "5256",
+            "name": "Differential Geometry",
+            "units": "3.00",
+            "description": "Curves and surfaces in 3-dimensional Euclidean space, Gauss-Bonnet Theorem, Smooth manifolds. Tensors on manifolds, Connections and curvature, Riemannian metrics. Prerequisite: MAC 2313, MAP 2302, MAS 3105 or equivalent"
         },
         {
             "subject": "MTG",
@@ -18693,6 +18679,13 @@
         },
         {
             "subject": "MUL",
+            "code": "4400",
+            "name": "Keyboard Lit I",
+            "units": "3.00",
+            "description": "Study of solo works for the keyboard from historical beginnings to 1828. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
+        },
+        {
+            "subject": "MUL",
             "code": "4401",
             "name": "Keyboard Lit II",
             "units": "3.00",
@@ -18732,13 +18725,6 @@
             "name": "Choral Literature",
             "units": "3.00",
             "description": "A survey of sacred and secular choral literature from the Middle Ages to the present. Emphasis on stylistic analysis and performance practice for each style period. Includes score study, aural analysis of recorded performances and in-class performances. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MUL",
-            "code": "5671",
-            "name": "Opera Literature",
-            "units": "3.00",
-            "description": "A chronological survey of operatic literature from the 17th century to the present day.  Emphasis placed on the historical milieu in which the operatic form evolved through the ages."
         },
         {
             "subject": "MUM",
@@ -22417,13 +22403,6 @@
         },
         {
             "subject": "PCB",
-            "code": "5025L",
-            "name": "Mol Biol Tech Lab",
-            "units": "3.00",
-            "description": "Covers DNA and RNA extraction, digestion, electrophoresis, Southern analysis, RFLP analysis, PCR amplification, cloning and automated sequencing. Prerequisites: Graduate status or permission of the instructor."
-        },
-        {
-            "subject": "PCB",
             "code": "5405",
             "name": "Biochemical Ecology",
             "units": "3.00",
@@ -22449,6 +22428,13 @@
             "name": "Adv Ecol:Com Ecosys",
             "units": "3.00",
             "description": "Advanced analysis of ecological principles pertaining to communities, ecosystems, and landscapes, with special emphasis on the South Florida and Caribbean region. Prerequisites: PCB 3043 or permission of the instructor or graduate status."
+        },
+        {
+            "subject": "PCB",
+            "code": "5615",
+            "name": "Mol & Organismal Evo",
+            "units": "3.00",
+            "description": "The evolutionary relationships among nucleotides and proteins as well as the processes which yield these relationships. The possible molecular events leading to speciation."
         },
         {
             "subject": "PCB",
@@ -23264,13 +23250,6 @@
         },
         {
             "subject": "PHC",
-            "code": "7702",
-            "name": "Adv Measurement",
-            "units": "3.00",
-            "description": "Advanced course in measurement and evaluation in public health. Computer applications for public health practice emphasized."
-        },
-        {
-            "subject": "PHC",
             "code": "7705",
             "name": "Meth in Evid Bas PH",
             "units": "3.00",
@@ -23306,6 +23285,13 @@
         },
         {
             "subject": "PHC",
+            "code": "7733",
+            "name": "Theor Paradigm Health Dis",
+            "units": "3.00",
+            "description": "This course focuses on the concept of cultural and social diversity in public health and its importance in guiding policy, programs, services, and health within a community."
+        },
+        {
+            "subject": "PHC",
             "code": "7753C",
             "name": "App Metrics HSR",
             "units": "4.00",
@@ -23324,6 +23310,13 @@
             "name": "Env Pre Doc Res",
             "units": "1.00",
             "description": "This course is designed to provide the Pre-Doctoral student with experience in the conduct of a research project with guidance from appropriate environmental and occupational health faculty."
+        },
+        {
+            "subject": "PHC",
+            "code": "7932",
+            "name": "Health Disp Train Dev Sem",
+            "units": "3.00",
+            "description": "This course focuses on health disparities development and research training in the areas of HIV, substance abuse, obesity, and diabetes with a focus in the United States and the Caribbean region."
         },
         {
             "subject": "PHC",
@@ -24734,13 +24727,6 @@
         },
         {
             "subject": "PUR",
-            "code": "4106",
-            "name": "Advanced PR Writing",
-            "units": "3.00",
-            "description": "Emphasis on the strategic aspects of public relations writing and preparation of more complex vehicles, such as annual reports, policy speeches, position papers, and complex press releases/press kits. Prerequisites: PUR 4100 (Supplies fee assessed)"
-        },
-        {
-            "subject": "PUR",
             "code": "4940",
             "name": "BOLD Agency",
             "units": "3.00",
@@ -25018,6 +25004,13 @@
             "name": "Legal Environ Re",
             "units": "3.00",
             "description": "The legal environment of real estate as it relates to buying, financing and selling of real property. The completion of this course and REE 3043, meets the FREC educational requirement for real estate licensing."
+        },
+        {
+            "subject": "REE",
+            "code": "4905",
+            "name": "Independent Studies",
+            "units": "0.00",
+            "description": "Individual conferences; supervised readings; reports on personal investigations. Prerequisites: Consent of instructor and Department Chairperson required."
         },
         {
             "subject": "REE",
@@ -26036,13 +26029,6 @@
         },
         {
             "subject": "SOW",
-            "code": "6646",
-            "name": "So/Wk Prac With Eld",
-            "units": "3.00",
-            "description": "The knowledge and skills necessary for advanced social work practice in social agencies which deal with problems and issues of the aging population in contemporary society."
-        },
-        {
-            "subject": "SOW",
             "code": "6711",
             "name": "Addiction Prev",
             "units": "3.00",
@@ -26488,13 +26474,6 @@
             "name": "Latin Am Culture",
             "units": "3.00",
             "description": "Introduction to the major artistic and cultural phenomena in Latin America. Art, music, film, and literature will be discussed in their cultural context. Prerequisite: Ability to understand Spanish at an advanced level."
-        },
-        {
-            "subject": "SPN",
-            "code": "4802",
-            "name": "Contrastive Syntax",
-            "units": "3.00",
-            "description": "Contrasts in the grammatical systems of English and Spanish with emphasis on structures with equivalent meanings. Recommended for students of translation and interpretation."
         },
         {
             "subject": "SPN",
