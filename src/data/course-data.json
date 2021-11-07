@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1635641567,
+    "dataAsOf": 1636246352,
     "data": [
         {
             "subject": "ACG",
@@ -472,6 +472,13 @@
         },
         {
             "subject": "AGR",
+            "code": "6251",
+            "name": "Sustainable Farming Syst",
+            "units": "3.00",
+            "description": "Analysis of sustainability of modern agricultural farming systems under a variety of ecological economic and cultural settings."
+        },
+        {
+            "subject": "AGR",
             "code": "6255",
             "name": "Ecological Agriculture",
             "units": "3.00",
@@ -742,13 +749,6 @@
             "name": "Ant Race/Ethnicity",
             "units": "3.00",
             "description": "Considers ethnicity and concepts of race in cross-cultural perspectives with emphasis on the historical and cultural and construction of identity, intercultural relationships, and social stratification."
-        },
-        {
-            "subject": "ANT",
-            "code": "3467",
-            "name": "Food and Culture",
-            "units": "3.00",
-            "description": "Introduction to the anthropology of food: European conquest of the New World, theories of famine, the industrial food system, food and nationalism, the organic food movement."
         },
         {
             "subject": "ANT",
@@ -1284,6 +1284,13 @@
         },
         {
             "subject": "ARH",
+            "code": "4312",
+            "name": "Later Italian Ren",
+            "units": "3.00",
+            "description": "A study of the late 15th and 16th century Italian art, with emphasis on the High Renaissance and Mannerism. Artists to be considered include Leonardo da Vinci, Michelangelo, Raphael, Andrea del Sarto, Giorgione, Titian, Pontormo, and Parmigianino."
+        },
+        {
+            "subject": "ARH",
             "code": "4413",
             "name": "Enlight & Romantic",
             "units": "3.00",
@@ -1449,6 +1456,13 @@
             "name": "Advanced Art and Politics",
             "units": "3.00",
             "description": "The course explores the political role of art in Europe and Latin America from ancient Greece to the present. It also traces how the idea of the 'political' changed from the ancient to modern periods. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "ARH",
+            "code": "5897",
+            "name": "Special Topics",
+            "units": "3.00",
+            "description": "Rotating special topics on the graduate level in art history. May be repeated with change of topic."
         },
         {
             "subject": "ARH",
@@ -2271,6 +2285,13 @@
         },
         {
             "subject": "ATR",
+            "code": "6546",
+            "name": "Business in AT",
+            "units": "3.00",
+            "description": "Establishing a business structure, creating a market for one's business,\nmanagement and leadership principles, and other critical components of starting\nand operating a successful business venture."
+        },
+        {
+            "subject": "ATR",
             "code": "6557",
             "name": "Navigating Academia in AT",
             "units": "3.00",
@@ -2292,13 +2313,6 @@
         },
         {
             "subject": "ATR",
-            "code": "6906",
-            "name": "Ind Study/Thesis in AT",
-            "units": "1.00",
-            "description": "Faculty supervised project or research thesis that involves an in-depth study of contemporary issues and/or clinical practices relevant to athletic training. Prerequisites: Graduate standing and permission of the instructor."
-        },
-        {
-            "subject": "ATR",
             "code": "6935",
             "name": "Contemp Issues in AT",
             "units": "3.00",
@@ -2317,6 +2331,13 @@
             "name": "DAT Applied Scholarship II",
             "units": "3.00",
             "description": "Designed to introduce one to applied scholarship. Describes the publication process for poster and presentation for local, state, regional, national, and international journals and conferences. Prerequisite: ATR 7630 or permission from the instructor."
+        },
+        {
+            "subject": "ATR",
+            "code": "7632",
+            "name": "DAT Applied Scholarship III",
+            "units": "3.00",
+            "description": "Analyzes qualitative and quantitative literature for clinical practice and academia. Small grant funding will be introduced.Prerequisites: ATR 7631 or permission from the instructor."
         },
         {
             "subject": "ATR",
@@ -3041,6 +3062,13 @@
         },
         {
             "subject": "BMS",
+            "code": "6003",
+            "name": "Med Gen",
+            "units": "3.00",
+            "description": "The course covers fundamental principles of medical genetics integrated with biochemistry, cell biology and molecular biology. Prerequisite: Enrollment in the HWCOM Graduate Certificate Program in Molecular and Biomedical Sciences."
+        },
+        {
+            "subject": "BMS",
             "code": "6004",
             "name": "Med Mol Bio",
             "units": "3.00",
@@ -3083,6 +3111,13 @@
         },
         {
             "subject": "BMS",
+            "code": "6130",
+            "name": "Path and Med Histo",
+            "units": "3.00",
+            "description": "Introductory course in the study of normal tissues and organs and how these are affected by disease. Prerequisite: Enrollment in the HWCOM Graduate Certificate in Molecular and Biomedical Sciences."
+        },
+        {
+            "subject": "BMS",
             "code": "6301",
             "name": "Med Microbio and Immun",
             "units": "3.00",
@@ -3101,6 +3136,13 @@
             "name": "Integrated Function-Human Body",
             "units": "1.00",
             "description": "The course is designed to introduce first year medical students to essential concepts of physiology and immunology.  The goal is to provide the students with a strong foundation relevant to their understanding of pathological conditions and to their future diagnostic and therapeutic decision making. Physiology is taught using an organ system approach, emphasizing the interplay of molecules, cells, tissues, organs and systems to maintain normal function of the human body. Normal and abnormal functions of the immune system are introduced. Integration of immunology with organ system physiology is emphasized. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6501",
+            "name": "Med Physio",
+            "units": "3.00",
+            "description": "The course is designed to introduce the students to essential concepts of medical physiology. Prerequisite: Enrollment in the HWCOM Graduate Certificate Program in Molecular and Biomedical Sciences."
         },
         {
             "subject": "BMS",
@@ -7038,13 +7080,6 @@
         },
         {
             "subject": "ECO",
-            "code": "4906",
-            "name": "Undergrad Tutorial",
-            "units": "0.00",
-            "description": "Supervised readings, individual tutorial, and preparation of reports. Requires consent of faculty supervisor and Department Chairperson. Does not count as economics elective toward economics major."
-        },
-        {
-            "subject": "ECO",
             "code": "4932",
             "name": "Topics In Theory",
             "units": "3.00",
@@ -7360,13 +7395,6 @@
         },
         {
             "subject": "EDE",
-            "code": "4936",
-            "name": "Snr Sem In Elem Ed",
-            "units": "3.00",
-            "description": "Provides discussion of classroom management, discipline, school-community relations, and school law required of undergraduate elementary education majors while student teaching."
-        },
-        {
-            "subject": "EDE",
             "code": "4943",
             "name": "Student Teaching",
             "units": "9.00",
@@ -7679,6 +7707,13 @@
             "name": "Curr: Theo And Resh",
             "units": "3.00",
             "description": "Theories of curriculum organization and a survey of curriculum research and historical patterns of curriculum development."
+        },
+        {
+            "subject": "EDG",
+            "code": "7226",
+            "name": "Advanced Research Teach",
+            "units": "1.00",
+            "description": "This course supports advanced research for doctoral students before their admission to a candidacy. It is designed for students in a Teaching & Learning doctoral program. It is not appropriate for students who have been admitted to candidacy."
         },
         {
             "subject": "EDG",
@@ -8830,6 +8865,13 @@
         },
         {
             "subject": "EEX",
+            "code": "3221",
+            "name": "Assmnt Stud W/Except",
+            "units": "3.00",
+            "description": "Basic assessment concepts and application to appropriate test selection, administration, scoring, and interpretation. Informal and formal techniques employed for purposes of gathering data for instructional planning. Prerequisite or Corequisite:  EEX 3070 or EEX 3012"
+        },
+        {
+            "subject": "EEX",
             "code": "3280",
             "name": "Found & Trans for IWD",
             "units": "3.00",
@@ -9712,13 +9754,6 @@
         },
         {
             "subject": "EML",
-            "code": "5615C",
-            "name": "Cad - A/C",
-            "units": "3.00",
-            "description": "Software will be used to demonstrate heating, ventilating and air conditioning design concepts and sizing equipment & determining performance parameters. Project design is required."
-        },
-        {
-            "subject": "EML",
             "code": "5709",
             "name": "Int. Fluid Mech.",
             "units": "3.00",
@@ -10066,13 +10101,6 @@
             "name": "Lit Crit & Schol",
             "units": "3.00",
             "description": "Techniques and goals of humanistic research, bibliography, and critical commentary."
-        },
-        {
-            "subject": "ENG",
-            "code": "5048",
-            "name": "Literary Theory",
-            "units": "3.00",
-            "description": "An introduction to issues in the nature of literature, the philosophy of criticism, and methods of interpretation. The theoretical foundations for literary study. Prerequisites: Admission to the graduate program in English or by permission of the instructor."
         },
         {
             "subject": "ENG",
@@ -11189,13 +11217,6 @@
         },
         {
             "subject": "FLE",
-            "code": "6336",
-            "name": "Meth Tea Mod Langs.",
-            "units": "3.00",
-            "description": "A modern study of language learning and teaching from the theoretical and practical points of view, including the evaluation and development of techniques and materials for second language teaching."
-        },
-        {
-            "subject": "FLE",
             "code": "6938",
             "name": "Sem Sec Lang Testing",
             "units": "3.00",
@@ -11249,6 +11270,13 @@
             "name": "Food Science Lab",
             "units": "1.00",
             "description": "Experimental laboratory in the physical and chemical characteristics of food."
+        },
+        {
+            "subject": "FOW",
+            "code": "5934",
+            "name": "Spec Topics Lan/Lit",
+            "units": "3.00",
+            "description": "Content and objectives to be determined by students and teacher."
         },
         {
             "subject": "FRE",
@@ -11903,10 +11931,24 @@
         },
         {
             "subject": "GMS",
+            "code": "6103",
+            "name": "Molecular Microbiology",
+            "units": "3.00",
+            "description": "This course introduces the general principles of infectious diseases and the host response to infection. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
             "code": "6220",
             "name": "Molecular Cell Biology",
             "units": "6.00",
             "description": "The course gives graduate students an introduction to fundamental concepts in biochemistry, cellular and molecular biology, and genetics with an emphasis on medically-relevant themes. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
+            "code": "6481",
+            "name": "Physiology and Immunology",
+            "units": "4.00",
+            "description": "This course introduces students to the fundamental concepts of physiology and immunology from a biomedical perspective that will assist in evaluating pathology and therapeutic target options. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
         },
         {
             "subject": "GMS",
@@ -11917,6 +11959,13 @@
         },
         {
             "subject": "GMS",
+            "code": "6864",
+            "name": "Biostatistics",
+            "units": "2.00",
+            "description": "This course provides an introduction to the elements and foundations of epidemiology and biostatistics. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
             "code": "6922",
             "name": "Prof Skl Med Scie I",
             "units": "1.00",
@@ -11924,10 +11973,31 @@
         },
         {
             "subject": "GMS",
+            "code": "6923",
+            "name": "Prof Skl Med Scie II",
+            "units": "1.00",
+            "description": "Provide students with a small structured learning environment in which to analyze the relationships between concepts and develop the ability to evaluate and integrate information. Prerequisite: Enrollment in the HWCOM Graduate Certificate Program in Molecular and Biomedical Sciences."
+        },
+        {
+            "subject": "GMS",
+            "code": "6939",
+            "name": "Graduate Seminar",
+            "units": "1.00",
+            "description": "A weekly seminar/discussion course consisting of research presentations by students, faculty, and visiting scientists in the area of biomedical sciences will form part of a recurring credit. Prerequisite: HWCOM Graduate School Enrollment."
+        },
+        {
+            "subject": "GMS",
             "code": "6940",
             "name": "Supervised Teaching",
             "units": "1.00",
             "description": "Students will assist the faculty members who teach either graduate or medical students. Prerequisite: HWCOM Graduate School Enrollment."
+        },
+        {
+            "subject": "GMS",
+            "code": "6942",
+            "name": "Laboratory Rotation",
+            "units": "1.00",
+            "description": "Laboratory rotations in specific laboratories of the HWCOM graduate program faculty that will eventually lead to the choice of a thesis laboratory. Prerequisite: HWCOM Graduate School Enrollment."
         },
         {
             "subject": "GMS",
@@ -12127,6 +12197,13 @@
         },
         {
             "subject": "HFT",
+            "code": "3006",
+            "name": "El &Soft Skills for Hosp.",
+            "units": "3.00",
+            "description": "This course will help students develop character traits and interpersonal skills associated with high emotional intelligence to improve work relationships with others."
+        },
+        {
+            "subject": "HFT",
             "code": "3033",
             "name": "Sustainability Team Mgmt",
             "units": "3.00",
@@ -12166,13 +12243,6 @@
             "name": "Personal Empower in Hosp Ind",
             "units": "3.00",
             "description": "Student will increase their interpersonal skills in a business setting by applying a set of tested techniques that will increase their professional success. They will develop personal strengths."
-        },
-        {
-            "subject": "HFT",
-            "code": "3103",
-            "name": "Gbl Sust Tour Dev Nat Res",
-            "units": "3.00",
-            "description": "Study of sustainability and sustainable resource management in tourism. Interrelations of humans and the environment in tourism development."
         },
         {
             "subject": "HFT",
@@ -12572,6 +12642,13 @@
             "name": "History Memory Public",
             "units": "3.00",
             "description": "Critical examination of theories and texts on museums, monuments, archives, historical sites, community organizations, and/or oral histories. Specific topical focus to be determined by instructor. Prerequisite: Graduate standing, may be repeated with approval of Graduate Program Director."
+        },
+        {
+            "subject": "HIS",
+            "code": "5289",
+            "name": "Comparative History",
+            "units": "3.00",
+            "description": "A study of specific topics in history that cut across regional, national, and chronological lines. The topics will change from semester to semester, and with a change in content, the course may be repeated. (The topic of the course will be announced in the yearly schedule). Prerequisite: Graduate standing."
         },
         {
             "subject": "HIS",
@@ -13944,6 +14021,13 @@
             "name": "Intl Humanit Law",
             "units": "3.00",
             "description": "Provides students with conceptual, legal, and critical understanding of major issues of International Humanitarian Law.  Allows students to develop analytical work and research in this field."
+        },
+        {
+            "subject": "INR",
+            "code": "4412",
+            "name": "International Law of Sea",
+            "units": "3.00",
+            "description": "Introduction to the legal and political foundations of the law of the sea. Emphasis on rule of law of the sea treaties, efforts to conserve marine environment, and the resolution of maritime disputes."
         },
         {
             "subject": "INR",
@@ -15851,6 +15935,13 @@
         },
         {
             "subject": "LBS",
+            "code": "4993",
+            "name": "Technology and Work",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "LBS",
             "code": "5155",
             "name": "Workplace Diversity",
             "units": "3.00",
@@ -15890,6 +15981,13 @@
             "name": "Org Conflict & Dispute Res",
             "units": "3.00",
             "description": "Examines the causes, consequences, and cost of organizational conflict and the\ndispute resolution systems organizations use to resolve conflict."
+        },
+        {
+            "subject": "LBS",
+            "code": "5993",
+            "name": "Tech in the Workplace",
+            "units": "3.00",
+            "description": "N/A"
         },
         {
             "subject": "LEI",
@@ -16149,13 +16247,6 @@
             "name": "Applied Phonetics",
             "units": "3.00",
             "description": "Study of sounds and suprasegmentals of English. Comparison of phonetic features of English with those of other languages. Universal constraints and markedness in learning second/foreign language pronunciation. Prerequisites: LIN 3010, LIN 3013, or LIN 5018 or the equivalent."
-        },
-        {
-            "subject": "LIN",
-            "code": "5601",
-            "name": "Sociolinguistics",
-            "units": "3.00",
-            "description": "Principles and theories of linguistic variation with special attention to correspondences between social and linguistic variables. Prerequisites: LIN 3010, LIN 3013, LIN 5018 or the equivalent."
         },
         {
             "subject": "LIN",
@@ -16443,6 +16534,13 @@
             "name": "Multivariable Calc",
             "units": "4.00",
             "description": "This course deals with the differential and integral calculus of real valued multivariable functions. The topics include: directional and partial derivatives, gradients, and their applications; differential calculus of vector valued functions; multiple, iterated, line, and surface integrals."
+        },
+        {
+            "subject": "MAC",
+            "code": "2990",
+            "name": "Calculus 2 Stretch",
+            "units": "0.00",
+            "description": "N/A"
         },
         {
             "subject": "MAD",
@@ -17503,6 +17601,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7420",
+            "name": "Pediatric Cardiology Elective",
+            "units": "1.00",
+            "description": "This rotation will occur in both the inpatient and outpatient settings, with medical students participating in the care of patients admitted to cardiology service, patients requiring cardiac consultation, and outpatient care visits. Medical students are expected to examine patients admitted to the hospital and make daily rounds on all patients on the cardiology service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7433",
             "name": "Pediatric Gastroenterology Ele",
             "units": "1.00",
@@ -17521,6 +17626,13 @@
             "name": "Pediatric Intensive Care Elect",
             "units": "1.00",
             "description": "Medical students will examine patients admitted to the Pediatric Intensive Care Unit, write daily entries into the medical record, develop plans for care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students, residents, and fellows of the Pediatric Intensive Care Unit. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7490",
+            "name": "Pediatric Surgery Elective",
+            "units": "1.00",
+            "description": "This rotation will give students more advanced exposure to the practice of pediatric surgery through hands-on instruction in the in-patient management of surgical patients in the NICU, PICU, and general floors. By the end of the rotation, students will understand the unique anatomic, physiologic, metabolic issues in infants, children, and adolescents with surgical problems. Students will be able to demonstrate competency in the diagnosis and management of common pediatric surgical issues. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18284,6 +18396,13 @@
             "name": "Differen Geometry",
             "units": "3.00",
             "description": "Hypersurfaces in Rn.  Geodesics and curvature.  Parametrization of surfaces, abstract manifolds.  Integration, surfaces with boundary, Stokes Theorem.  Isometries and intrinsic geometry. Gauss-Bonnet Theorem."
+        },
+        {
+            "subject": "MTG",
+            "code": "4302",
+            "name": "Topology",
+            "units": "3.00",
+            "description": "An introductory course in topology requiring a prerequisite knowledge of calculus. Topics to be discussed will be selected from the following: topological spaces, metric spaces, continuity, completeness, compactness, separation axioms, products spaces, subspaces, convergence, and homotopy theory."
         },
         {
             "subject": "MTG",
@@ -22263,13 +22382,6 @@
         },
         {
             "subject": "PCB",
-            "code": "3704L",
-            "name": "Human Phys Lab II",
-            "units": "1.00",
-            "description": "Physiology of respiratory, gastro-intestinal, excretory, endocrine and reproductive systems. Continuation of PCB 3703."
-        },
-        {
-            "subject": "PCB",
             "code": "4023",
             "name": "Cell Biology",
             "units": "3.00",
@@ -24076,13 +24188,6 @@
         },
         {
             "subject": "PHZ",
-            "code": "3360",
-            "name": "Radiation Protection",
-            "units": "1.00",
-            "description": "An introduction to the principles of radiation protection. Topics include time, distance, and shielding, activity, radioactive decay, nuclear instrumentation, and the measurement of radiation."
-        },
-        {
-            "subject": "PHZ",
             "code": "3361",
             "name": "Radiation Detection",
             "units": "3.00",
@@ -25210,13 +25315,6 @@
         },
         {
             "subject": "REL",
-            "code": "3672",
-            "name": "Rel & Socty Israel/Palestine",
-            "units": "3.00",
-            "description": "Israel/Palestine society examined through role of Judaism, Islam and Christianity in the formation of policies and institutions."
-        },
-        {
-            "subject": "REL",
             "code": "4030",
             "name": "Methods Study Relig",
             "units": "3.00",
@@ -25245,13 +25343,6 @@
         },
         {
             "subject": "REL",
-            "code": "4382",
-            "name": "Latinas & Religion",
-            "units": "3.00",
-            "description": "Examines Latinas' participation in the history of religions in the Americas in order to explain the impact of women's religious experiences in cultural, social and political realms."
-        },
-        {
-            "subject": "REL",
             "code": "4910",
             "name": "Independent Research",
             "units": "0.00",
@@ -25270,6 +25361,13 @@
             "name": "Advanced Fieldwork",
             "units": "3.00",
             "description": "Techniques of ethnography used in Religious Studies beginning with research design and including participant observation, interviews, surveys."
+        },
+        {
+            "subject": "RLG",
+            "code": "5106",
+            "name": "Rel, Latin and Immigration",
+            "units": "3.00",
+            "description": "The course will analyze the relationships between the complex phenomenon of Latinos/as immigration and religions. This area of study necessarily demands an interdisciplinary approach including gender."
         },
         {
             "subject": "RLG",
@@ -25319,13 +25417,6 @@
             "name": "Latinas' Religious Exp",
             "units": "3.00",
             "description": "Focus on the diversity of religious experiences among women born and educated in Latin cultures such as: Brazil, Haiti and Hispanic American, including Hispanic in the U.S."
-        },
-        {
-            "subject": "RLG",
-            "code": "5613",
-            "name": "Rel and Polit Israel",
-            "units": "3.00",
-            "description": "Exploration of the history of modern Israel. Discussion of issues, state and religion, ethnic and denominational tensions, democratic characters of the state and the Israeli-Palestinian conflict."
         },
         {
             "subject": "RLG",
@@ -25550,13 +25641,6 @@
             "name": "First Year Exper",
             "units": "1.00",
             "description": "A review of basic skills and competencies necessary to college success including time management, study skills, and academic policies/procedures.  Includes mandated information."
-        },
-        {
-            "subject": "SLS",
-            "code": "1510",
-            "name": "Strategies for Success",
-            "units": "1.00",
-            "description": "Improve students' academic and personal development in the areas of learning strategies, study skills, time management, problem solving, goal setting, and how to use resources effectively."
         },
         {
             "subject": "SLS",
@@ -28035,6 +28119,13 @@
             "name": "News Visualization",
             "units": "3.00",
             "description": "The course is designed to teach journalism students how to tell a story using the visual toolset to get a story right on multiple platforms, including television, radio and online. Prerequisite: MMC3003, MMC3123, RTV3531, JOU3003, JOU3117, 2.85 cumulative GPA"
+        },
+        {
+            "subject": "VIC",
+            "code": "6005",
+            "name": "WEBDESDATA",
+            "units": "3.00",
+            "description": "Students will learn how to design, build and publish a news website and a page on social media platforms. This course will also develop the student's skills on data journalism and data visualization."
         },
         {
             "subject": "WOH",
