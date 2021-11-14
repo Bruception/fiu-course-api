@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1636246352,
+    "dataAsOf": 1636851196,
     "data": [
         {
             "subject": "ACG",
@@ -1137,6 +1137,13 @@
         },
         {
             "subject": "ARC",
+            "code": "6229",
+            "name": "Theories of the Digital",
+            "units": "3.00",
+            "description": "This course explores theories of the digital. The aim is to develop a theoretical framework to understand the impact of the digital on architectural design, fabrication and urban life. Prerequisite: Admission to the doctoral program."
+        },
+        {
+            "subject": "ARC",
             "code": "6280",
             "name": "Pro Office Practice",
             "units": "3.00",
@@ -1148,6 +1155,13 @@
             "name": "Architectural Design 10",
             "units": "6.00",
             "description": "Architectural project emphasizing design development preparation of details and design documents for buildings of intermediate complexity. Prerequisite: ARC 5362 Corequisites: ARC 6910"
+        },
+        {
+            "subject": "ARC",
+            "code": "6761",
+            "name": "Miami Urban Studies",
+            "units": "3.00",
+            "description": "Studies concerning the social, political, economic and environmental of Urbanism in\nSouthern Florida in general and Miami in particular. Prerequisite: Admission into the Doctoral Program."
         },
         {
             "subject": "ARC",
@@ -1165,6 +1179,13 @@
         },
         {
             "subject": "ARC",
+            "code": "6949",
+            "name": "ARE Preparation",
+            "units": "3.00",
+            "description": "Preparation to take the Architect Registration Exam. Prerequisite: ARC 5361 and ARC 5483"
+        },
+        {
+            "subject": "ARC",
             "code": "6970",
             "name": "Masters Project",
             "units": "6.00",
@@ -1176,6 +1197,13 @@
             "name": "Doctoral Project",
             "units": "3.00",
             "description": "Coursework under the direction of faculty for the completion of the Doctoral\nProject by a candidate for the degree of Doctorate of Design."
+        },
+        {
+            "subject": "ARC",
+            "code": "7981",
+            "name": "Adv Research Methods",
+            "units": "3.00",
+            "description": "Advanced methods of data acquisition, analysis, and interpretation used in\narchitectural research."
         },
         {
             "subject": "ARE",
@@ -2656,6 +2684,13 @@
         },
         {
             "subject": "BCN",
+            "code": "5772",
+            "name": "Mgmt Const Org",
+            "units": "3.00",
+            "description": "This course studies the management of a construction company. Topics included are: company organization, incorporation structures, policies and procedures, finance, accounting, information modeling, bidding strategies, and operation."
+        },
+        {
+            "subject": "BCN",
             "code": "5774",
             "name": "Topics In Int Const",
             "units": "3.00",
@@ -2926,6 +2961,13 @@
             "name": "Undergrad Seminar",
             "units": "0.00",
             "description": "The course consists of oral presentations made by guests, faculty and students on current topics and research activities in Biomedical Engineering."
+        },
+        {
+            "subject": "BME",
+            "code": "5233",
+            "name": "Cardio Biomech",
+            "units": "3.00",
+            "description": "Functional cardiovascular physiology and anatomy; analysis and computation of cardiovascular flow; constitutive properties of tissue and analyses of relevant deformation and stress profiles. Prerequisite: Permission from instructor."
         },
         {
             "subject": "BME",
@@ -3391,6 +3433,13 @@
         },
         {
             "subject": "BSC",
+            "code": "2085",
+            "name": "Anatomy & Physiology I",
+            "units": "3.00",
+            "description": "Anatomy and Physiology I is the first of a two-course sequence. It is a study of the structure and function of human biology including cells, tissues, organs and systems. For non-biology majors. Prerequisite or corequisite: BSC 2085L"
+        },
+        {
+            "subject": "BSC",
             "code": "2085L",
             "name": "Anatomy & Phys I Lab",
             "units": "1.00",
@@ -3776,13 +3825,6 @@
         },
         {
             "subject": "CAP",
-            "code": "5109",
-            "name": "Advanced HCI",
-            "units": "3.00",
-            "description": "Fundamental concepts of human-computer interaction, cognitive models, user-centered design principles, evaluation techniques, and emerging technologies in various contexts and domains."
-        },
-        {
-            "subject": "CAP",
             "code": "5507",
             "name": "Game Theory",
             "units": "3.00",
@@ -3864,13 +3906,6 @@
             "name": "Proj Plan Civ Engr",
             "units": "3.00",
             "description": "Introduction to techniques for planning activities, operations, finance, budget, workforce, quality, safety.  Utilize case studies as learning tools for students aspiring to superintendent positions."
-        },
-        {
-            "subject": "CCE",
-            "code": "5035",
-            "name": "Const Eng Mgmt",
-            "units": "3.00",
-            "description": "Course will cover construction organization, planning and implementation; impact and feasibility studies; contractual subjects; liability and performance; the responsibility of owner, contractor and engineer."
         },
         {
             "subject": "CCJ",
@@ -4536,6 +4571,13 @@
             "name": "Interm CHI II",
             "units": "3.00",
             "description": "To improve students' speaking, writing, listening, reading skills in Chinese. Students learn how to use useful expressions of experience and thought."
+        },
+        {
+            "subject": "CHI",
+            "code": "3400",
+            "name": "Interm Chi Conv",
+            "units": "3.00",
+            "description": "Focuses on conversation. Topics include time, numbers, shopping, clothing, food, transportation, education, culture, etc."
         },
         {
             "subject": "CHI",
@@ -7073,6 +7115,13 @@
         },
         {
             "subject": "ECO",
+            "code": "4713",
+            "name": "Intl Macroeconomics",
+            "units": "3.00",
+            "description": "Analysis of output, inflation, business cycles and economic policy in open economy settings; exchange rate regimes (fixed versus flexible exchange rate); fiscal, monetary, and exchange rate policies."
+        },
+        {
+            "subject": "ECO",
             "code": "4903",
             "name": "Undergrad Seminar",
             "units": "3.00",
@@ -7273,6 +7322,13 @@
             "name": "Economics Of Asia",
             "units": "3.00",
             "description": "Economic analysis of the problems of poverty, malnutrition and income inequality in South Asia. Rural poverty and agricultural transformation. The East Asian Miracle. The Asian Crisis. Economic liberalization in Asia."
+        },
+        {
+            "subject": "ECS",
+            "code": "3402",
+            "name": "Pol Eco Of So Americ",
+            "units": "3.00",
+            "description": "An introduction to the political economy of the South American countries, with emphasis on the opening of the region's economies, privatization and deregulation, debt crisis, foreign investment, poverty, income distribution, human resources, and regional trade agreements."
         },
         {
             "subject": "ECS",
@@ -10101,6 +10157,13 @@
             "name": "Lit Crit & Schol",
             "units": "3.00",
             "description": "Techniques and goals of humanistic research, bibliography, and critical commentary."
+        },
+        {
+            "subject": "ENG",
+            "code": "5048",
+            "name": "Literary Theory",
+            "units": "3.00",
+            "description": "An introduction to issues in the nature of literature, the philosophy of criticism, and methods of interpretation. The theoretical foundations for literary study. Prerequisites: Admission to the graduate program in English or by permission of the instructor."
         },
         {
             "subject": "ENG",
@@ -13534,13 +13597,6 @@
         },
         {
             "subject": "IDS",
-            "code": "4918",
-            "name": "VIP Program - C",
-            "units": "3.00",
-            "description": "Students work in large projects with students from different majors working in real-world projects with university and external mentors (may be taken twice) (Senior status) Prerequisite: Instructor Consent."
-        },
-        {
-            "subject": "IDS",
             "code": "4949",
             "name": "Internship in LS/IDS",
             "units": "0.00",
@@ -14997,6 +15053,13 @@
         },
         {
             "subject": "LAE",
+            "code": "5908",
+            "name": "Dir Stud Eng Ed",
+            "units": "0.00",
+            "description": "The student plans and carries out an independent study project under direction. Prerequisite: Consent of instructor."
+        },
+        {
+            "subject": "LAE",
             "code": "6305",
             "name": "Early Child Lang Art",
             "units": "3.00",
@@ -16215,13 +16278,6 @@
         },
         {
             "subject": "LIN",
-            "code": "4640",
-            "name": "Langs and Cultures of World",
-            "units": "3.00",
-            "description": "Investigation of the major language families of the world, evolution of human language, and sociocultural, political, and historical influences on languages and language families."
-        },
-        {
-            "subject": "LIN",
             "code": "4680",
             "name": "Mod English Grammar",
             "units": "3.00",
@@ -16282,13 +16338,6 @@
             "name": "Res Proj for Pub I",
             "units": "3.00",
             "description": "Students carry out a comprehensive research project for publishable standard. For Linguistics MA and PhD students, for the second year Research Paper for Publication. May be repeated. Prerequisite: LIN 6085."
-        },
-        {
-            "subject": "LIN",
-            "code": "6934",
-            "name": "Special Topics Lin",
-            "units": "3.00",
-            "description": "Content to be determined by students and instructor. (Approval of the Department required.) (See English listing for additional Linguistics courses.)"
         },
         {
             "subject": "LIN",
@@ -16429,6 +16478,13 @@
             "name": "Advanced Calculus",
             "units": "3.00",
             "description": "An intense study of the foundations of calculus. Topics may include: the real number system, continuity, differentiation, Riemann-Stieltjes integration, and series of functions. Note: The student must complete MAA 3200 before attempting this course."
+        },
+        {
+            "subject": "MAA",
+            "code": "4212",
+            "name": "Adv Calculus II",
+            "units": "3.00",
+            "description": "A sequel to MAA 4211. Topics may include: theory of integration; analysis in several variables; and Fourier series."
         },
         {
             "subject": "MAA",
@@ -17027,13 +17083,6 @@
         },
         {
             "subject": "MAP",
-            "code": "6218",
-            "name": "Stochastic Calculus",
-            "units": "3.00",
-            "description": "Discrete time models, Brownian motion, Stochastic integration, ITO's integral, Ornstein-Uhlenbeck processes, Girsanov theorem, Black-Sholes model."
-        },
-        {
-            "subject": "MAP",
             "code": "6631",
             "name": "Intro Quant RAM",
             "units": "3.00",
@@ -17058,6 +17107,13 @@
             "code": "6991",
             "name": "Stochastic Numerical PDE",
             "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MAP",
+            "code": "7993",
+            "name": "Seminar Applied Math",
+            "units": "0.00",
             "description": "N/A"
         },
         {
@@ -21289,13 +21345,6 @@
             "description": "Provides an overview of the dissertation process within framework of completing the dissertation."
         },
         {
-            "subject": "NGR",
-            "code": "7982",
-            "name": "Candidacy Examination",
-            "units": "3.00",
-            "description": "The candidacy examination includes the successful completion of 4 written papers and an oral defense. This course is designed to assist students to prepare their papers for the candidacy examination. Prerequisite: This course must be taken during the last semester of coursework and/or after completion of required coursework as presented in student's plan of study."
-        },
-        {
             "subject": "NSE",
             "code": "3991",
             "name": "Natl Student Exch-A",
@@ -24468,6 +24517,13 @@
         },
         {
             "subject": "POS",
+            "code": "6976",
+            "name": "Research Seminar",
+            "units": "3.00",
+            "description": "Required course for all M.A. candidates during completion of their major research project. Also required for second-year Ph.D. students. The course guides student research while in progress."
+        },
+        {
+            "subject": "POS",
             "code": "7910",
             "name": "Pre-Dis Research",
             "units": "0.00",
@@ -24759,13 +24815,6 @@
             "name": "Supervised Research",
             "units": "0.00",
             "description": "Research apprenticeship under the direction of a research professor or a thesis advisor. Prerequisite: Full graduate admission."
-        },
-        {
-            "subject": "PSY",
-            "code": "5930",
-            "name": "Qualitative Methods Psych",
-            "units": "3.00",
-            "description": "Critical issues, theoretical and practical applications for conducting qualitative research in psychology. The focus will be on key research strategies and principles for research design."
         },
         {
             "subject": "PSY",
@@ -25343,6 +25392,13 @@
         },
         {
             "subject": "REL",
+            "code": "4382",
+            "name": "Latinas & Religion",
+            "units": "3.00",
+            "description": "Examines Latinas' participation in the history of religions in the Americas in order to explain the impact of women's religious experiences in cultural, social and political realms."
+        },
+        {
+            "subject": "REL",
             "code": "4910",
             "name": "Independent Research",
             "units": "0.00",
@@ -25403,6 +25459,13 @@
             "name": "Classical Arabic",
             "units": "3.00",
             "description": "Introduces the grammar and vocabulary of classical Arabic necessary for developing the ability to read classical texts."
+        },
+        {
+            "subject": "RLG",
+            "code": "5364",
+            "name": "Sufism: Islamic Mysticism",
+            "units": "3.00",
+            "description": "Explores the depth and breadth of the mystical tradition of Islam (Sufism) through primary and secondary texts which look at the esoteric dimensions of mystical practice in the Islamic World."
         },
         {
             "subject": "RLG",
@@ -27496,6 +27559,13 @@
             "name": "Net Mgmt & Cntrl St",
             "units": "3.00",
             "description": "Protocols for management of telecom networks, including Simple Network Management Protocol and Common Management Information Protocol.  Extension of protocols to optimize network performance."
+        },
+        {
+            "subject": "TCN",
+            "code": "6450",
+            "name": "Wireless Info Sys",
+            "units": "3.00",
+            "description": "Enabling technologies and impediments of wireless information systems.  Focuses on software architectures, and information and location management in the wireless environment."
         },
         {
             "subject": "TCN",
