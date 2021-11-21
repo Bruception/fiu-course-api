@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1636851196,
+    "dataAsOf": 1637456022,
     "data": [
         {
             "subject": "ACG",
@@ -1204,6 +1204,13 @@
             "name": "Adv Research Methods",
             "units": "3.00",
             "description": "Advanced methods of data acquisition, analysis, and interpretation used in\narchitectural research."
+        },
+        {
+            "subject": "ARC",
+            "code": "7982",
+            "name": "Doctoral Defense",
+            "units": "3.00",
+            "description": "The formal presentation of the Doctoral Project. Prerequisite: ARC 7980, 12 credits, Corequisite: ARC 7980, 9 credits."
         },
         {
             "subject": "ARE",
@@ -2964,6 +2971,13 @@
         },
         {
             "subject": "BME",
+            "code": "5200",
+            "name": "Ortho. Biomech",
+            "units": "3.00",
+            "description": "Introduction to the fundamentals of human musculoskeletal physiology and anatomy and computation of mechanical forces as it applies to orthopedic biomechanics. Prerequisite: BME 4100"
+        },
+        {
+            "subject": "BME",
             "code": "5233",
             "name": "Cardio Biomech",
             "units": "3.00",
@@ -3321,13 +3335,6 @@
         },
         {
             "subject": "BOT",
-            "code": "3353L",
-            "name": "Plant Morphology Lab",
-            "units": "1.00",
-            "description": "Origin and evolution of plants, especially vascular plants of tropical origin. Analysis of vascular plant anatomy and morphology, emphasizing the underlying principles of plant construction."
-        },
-        {
-            "subject": "BOT",
             "code": "3663",
             "name": "Tropical Botany",
             "units": "3.00",
@@ -3629,6 +3636,13 @@
         },
         {
             "subject": "BSC",
+            "code": "4934",
+            "name": "Topics In Biology",
+            "units": "0.00",
+            "description": "An intensive study of a particular topic or limited number of topics not otherwise offered in the curriculum."
+        },
+        {
+            "subject": "BSC",
             "code": "4970",
             "name": "Honors Thesis",
             "units": "3.00",
@@ -3906,6 +3920,13 @@
             "name": "Proj Plan Civ Engr",
             "units": "3.00",
             "description": "Introduction to techniques for planning activities, operations, finance, budget, workforce, quality, safety.  Utilize case studies as learning tools for students aspiring to superintendent positions."
+        },
+        {
+            "subject": "CCE",
+            "code": "5035",
+            "name": "Const Eng Mgmt",
+            "units": "3.00",
+            "description": "Course will cover construction organization, planning and implementation; impact and feasibility studies; contractual subjects; liability and performance; the responsibility of owner, contractor and engineer."
         },
         {
             "subject": "CCJ",
@@ -6562,6 +6583,13 @@
         },
         {
             "subject": "DEP",
+            "code": "3115",
+            "name": "Infant Knowledge",
+            "units": "3.00",
+            "description": "Provides a comprehensive review of current methods, theories, and findings in cognitive and perceptual development in the first year of life. Special emphasis on the bases of knowledge; object and event perception, memory, and imitation."
+        },
+        {
+            "subject": "DEP",
             "code": "3305",
             "name": "Psy Of Adolescence",
             "units": "3.00",
@@ -7294,13 +7322,6 @@
             "name": "Industrial Org",
             "units": "3.00",
             "description": "Theory of the firm, market structure; business strategies and conduct. Topics include information and advertising, product durability, technical change, antitrust and trade policies, and regulation."
-        },
-        {
-            "subject": "ECS",
-            "code": "3003",
-            "name": "Compare Econ Systems",
-            "units": "3.00",
-            "description": "Analysis of alternative economic systems. Emphasis on the contrast between market-oriented capitalist economies and Soviet-style planned economies, and on the process of transition from planned to market-oriented systems."
         },
         {
             "subject": "ECS",
@@ -8281,6 +8302,13 @@
             "name": "Adv Quantum Computers",
             "units": "3.00",
             "description": "This course provides advanced principles of quantum computers and quantum information systems with in-depth analysis and state of the art physical implementations."
+        },
+        {
+            "subject": "EEE",
+            "code": "6466",
+            "name": "Microsystems and MEMS",
+            "units": "3.00",
+            "description": "This course will give students an introduction with an emphasis on design and analysis of fundamentals of electrochemical sensing and integration into microfluidic systems. Prerequisites: EEL 3396 or permission of the instructor."
         },
         {
             "subject": "EEE",
@@ -9814,13 +9842,6 @@
             "name": "Int. Fluid Mech.",
             "units": "3.00",
             "description": "Basic concepts and scope of fluid dynamics; non-inertial reference frames. Two-dimensional potential theory. Applications to airfoils. The Navier-Stokes equations; selected exact and approximate solutions. Prerequisite: EML 3126."
-        },
-        {
-            "subject": "EML",
-            "code": "5808",
-            "name": "Robot Control",
-            "units": "3.00",
-            "description": "State-space equations of robots. Controller design based on linearization, nonlinearity cancellation, optimal control, adaptive control and other methods. Stability analysis, performance comparison. Prerequisites: EGN 3321, EML 4804, or equivalent."
         },
         {
             "subject": "EML",
@@ -12337,13 +12358,6 @@
         },
         {
             "subject": "HFT",
-            "code": "3393",
-            "name": "Entertainment Tour Mgt.",
-            "units": "3.00",
-            "description": "planning a tour, budgeting, marketing/publicity/branding, concert brokers, ticketing agencies, and revenue streams"
-        },
-        {
-            "subject": "HFT",
             "code": "3453",
             "name": "Operations Control",
             "units": "3.00",
@@ -12374,7 +12388,7 @@
             "subject": "HFT",
             "code": "3705",
             "name": "Gbl Trav & Tour Dev",
-            "units": "1.00",
+            "units": "3.00",
             "description": "This course examines tourism as a global industry. Through the analysis of different forms of tourism, both positive and negative, students will understand the interrelatedness of the tourism industry."
         },
         {
@@ -13576,6 +13590,13 @@
         },
         {
             "subject": "IDS",
+            "code": "3917",
+            "name": "VIP Program - B",
+            "units": "3.00",
+            "description": "Students work in large projects with students from different majors working in real-world projects with university and external mentors. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "IDS",
             "code": "4174",
             "name": "Math/Philosophy in Arts",
             "units": "3.00",
@@ -13657,13 +13678,6 @@
             "name": "Grad Lighting",
             "units": "3.00",
             "description": "Exploration of theories and applications of lighting design. Emphasis on studying research about interactions between light, people and articulation of interior space."
-        },
-        {
-            "subject": "IND",
-            "code": "5445C",
-            "name": "Furn Design",
-            "units": "3.00",
-            "description": "Providing a general overview of furniture design process, this design/build studio course teaches students about ergonomics, scale, space, structure and materiality related to furniture design."
         },
         {
             "subject": "IND",
@@ -14189,6 +14203,13 @@
             "name": "Independent Study",
             "units": "0.00",
             "description": "Directed independent research. Requires prior approval by instructor."
+        },
+        {
+            "subject": "INR",
+            "code": "5935",
+            "name": "Topics Intl Relation",
+            "units": "3.00",
+            "description": "Varies according to the instructor. Prerequisites: Graduate standing or permission of the instructor."
         },
         {
             "subject": "INR",
@@ -15900,6 +15921,13 @@
         },
         {
             "subject": "LAW",
+            "code": "7952",
+            "name": "Appellate Advocacy Competition",
+            "units": "2.00",
+            "description": "Students selected as members of the Board of Advocates Appellate Advocacy Group will compete in a regional, national, or international appellate advocacy competition and will earn credit for satisfactory completion of their competition duties.  Students, working in a team, will typically prepare an appellate brief and then deliver an appellate oral argument multiple times during the competition oral argument rounds.  Prerequisite: Appellate Procedure."
+        },
+        {
+            "subject": "LAW",
             "code": "7954",
             "name": "Negotiation Comp",
             "units": "1.00",
@@ -15998,13 +16026,6 @@
         },
         {
             "subject": "LBS",
-            "code": "4993",
-            "name": "Technology and Work",
-            "units": "3.00",
-            "description": "N/A"
-        },
-        {
-            "subject": "LBS",
             "code": "5155",
             "name": "Workplace Diversity",
             "units": "3.00",
@@ -16047,10 +16068,10 @@
         },
         {
             "subject": "LBS",
-            "code": "5993",
-            "name": "Tech in the Workplace",
-            "units": "3.00",
-            "description": "N/A"
+            "code": "5930",
+            "name": "Topic Labor Studies",
+            "units": "0.00",
+            "description": "Selected topics or themes in Labor Studies. Themes will vary from semester to semester. With a change in content, course may be repeated. May include field work. Prerequisite: Graduate standing."
         },
         {
             "subject": "LEI",
@@ -17573,6 +17594,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7108",
+            "name": "LGBTQ + Health Equity Elec",
+            "units": "1.00",
+            "description": "This four-week elective will provide medical students with the essential background and tools needed to provide high-quality and culturally appropriate care to patients who identify as LGBTQ (Lesbian, Gay, Bisexual, Transgender, Queer, and Questioning), gender non-conforming, or who are born with differences of sex development. Medical students will choose to follow a clinical and/or public health track. Through the clinical track, students will diagnose, treat and provide preventative care to LGBTQ and gender non-conforming patients through clinical\nassignments with health providers who work primarily with this patient population. Through the public health track, students will assess and intervene regarding the behavioral, social and cultural determinants of health and their impact on the health status of LGBTQ populations. In both tracks, students will produce a public health, research, medical education, or advocacy project related to LGBTQ health. Prerequisite: Enrolled in Herbert Wertheim College of Medicine"
+        },
+        {
+            "subject": "MDE",
             "code": "7120",
             "name": "Family Medicine Elective",
             "units": "1.00",
@@ -17615,6 +17643,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7245",
+            "name": "Pulmonology Elective",
+            "units": "1.00",
+            "description": "Through time spent both on the inpatient pulmonary consultation service and in the outpatient setting, this rotation will prepare students to effectively care for common cardiopulmonary disorders. In particular, students will be exposed to radiological interpretation of chest imaging and the interpretation of pulmonary function tests. Depending on the site, students will be part of a team with fellows and residents or will be under the direct supervision of a pulmonary specialist. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7250",
             "name": "Dermatology Elective",
             "units": "1.00",
@@ -17647,6 +17682,13 @@
             "name": "Intensive Care Unit Elective",
             "units": "1.00",
             "description": "This rotation is intended to prepare students to obtain necessary diagnostic and therapeutic skills to effectively care for patients diagnosed with critical medical disorders. Students work under direct the supervision of the ICU attending physician or as a member of a teaching team under the supervision of the attending physician, pulmonary/critical care fellow, and IM residents. Students assist in the admission, evaluation, and management of patients admitted\nto the Medical Intensive Care Unit..  Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7350",
+            "name": "Nephrology Elective",
+            "units": "1.00",
+            "description": "This 2 week or 4 week elective offers students the opportunity to learn about the diseases of the kidney and become more skilled in their management. Students will participate in the care of patients with medical renal disease that are seen in the office and also on the renal inpatient consult service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -17755,6 +17797,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7650",
+            "name": "Neurosurgery/Neurosci Elective",
+            "units": "1.00",
+            "description": "The 4-week Neurosurgery Elective will assign interested students to faculty neurosurgeons at one of our affiliated facilities. This rotation presents the student the broad-spectrum of neurosurgical conditions and procedures encountered in a tertiary hospital setting. Students are expected to be involved in all aspects of pre-operative, intra-operative, and post-operative care; including care provided in the inpatient, outpatient, and surgical settings. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7660",
             "name": "Plastic & Reconstructive Sur E",
             "units": "1.00",
@@ -17852,6 +17901,13 @@
             "description": "This rotation exposes interested Period 4 medical students to the interactions between the psychiatric and legal systems by providing the opportunity to rotate in a forensic psychiatric hospital. Students will learn the clinical, legal and ethical issues at the interface between psychiatry and the law and will refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and assessment experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
+            "subject": "MDE",
+            "code": "7990",
+            "name": "One Health Elective",
+            "units": "2.00",
+            "description": "N/A"
+        },
+        {
             "subject": "MDI",
             "code": "7122",
             "name": "Family Med Subinternship",
@@ -17885,6 +17941,13 @@
             "name": "General Surgery Subinternship",
             "units": "1.00",
             "description": "This course is designed for students who desire a greater in-depth experience in general surgery or who are seriously considering surgery as a possible career choice. It serves as an exploratory path for a planned career in general surgery or other surgical sub-specialties. In this role, the subintern will have more responsibilities than a period 3 clerkship student. The student will examine patients, assist in surgery, participate in pre-operative and post-operative care and will also be encouraged to develop his/her clinical and technical skills. The student will be expected to participate in all of the educational activities of the Department of Surgery during the course of his/her rotation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDR",
+            "code": "7060",
+            "name": "Med Ethics and Hum Elective",
+            "units": "1.00",
+            "description": "Offered as a two-week rotation, with the option for an additional two-credit longitudinal component; this elective is designed for the individualized study of topics in clinical, research, and service-learning ethics and humanism in medicine. Students will examine ethical and humanistic issues in medicine that emerge in the clinical setting, lab, or community. Students will read, write and analyze case vignettes, attend community ethics activities (e.g. Hospital ethics committee meetings), develop a scholarly project, and contribute to an ethics research project. Humanism in medicine is the recognition that both practitioner and patient are human beings, with the shared values and experiences of humanity. This provides a framework for improved clinical interactions and addresses phenomena such as ethical leadership, inclusive communication, and burnout. The course director will create learning contracts tailored to students' individual interests, objectives, and clinical schedules. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDS",
@@ -18879,6 +18942,13 @@
             "name": "Symphonic Lit",
             "units": "3.00",
             "description": "Survey of symphonic literature from the 17th century to present day. Analysis and illustrations of representative works."
+        },
+        {
+            "subject": "MUL",
+            "code": "5405",
+            "name": "Keyboard Lit I",
+            "units": "3.00",
+            "description": "Study of solo works for the keyboard from historical beginnings to 1828. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
         },
         {
             "subject": "MUL",
@@ -20198,6 +20268,13 @@
         },
         {
             "subject": "MVK",
+            "code": "5351",
+            "name": "Prin App Piano",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on piano as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVK",
             "code": "5451",
             "name": "Major Applied Piano",
             "units": "3.00",
@@ -21413,6 +21490,13 @@
             "name": "Pharmacologic Basis",
             "units": "3.00",
             "description": "Focuses on the role of pharmacotherapeutic agents for diverse individuals across the life span. Nursing management related to pharmacodynamics, adverse effects, interactions and education."
+        },
+        {
+            "subject": "NUR",
+            "code": "3226",
+            "name": "Nurs of Adults",
+            "units": "3.00",
+            "description": "First of two courses in adult health nursing. Nursing management of diverse individuals with complex health alterations. Prerequisites: Admission to Nursing Major, NUR3029, NUR3029C, NUR3029L. Corequisite: NUR3226L"
         },
         {
             "subject": "NUR",
@@ -23278,6 +23362,13 @@
         },
         {
             "subject": "PHC",
+            "code": "6920",
+            "name": "Spec Topics EHS",
+            "units": "3.00",
+            "description": "This course is designed to impart in depth knowledge of emerging issues in the area of environmental and occupational health."
+        },
+        {
+            "subject": "PHC",
             "code": "6921",
             "name": "EHS seminar",
             "units": "1.00",
@@ -23859,10 +23950,24 @@
         },
         {
             "subject": "PHT",
+            "code": "5524",
+            "name": "Dimensions Sem II",
+            "units": "3.00",
+            "description": "This is the second in a sequence of four (4) courses designed to prepare the student in the areas of physical therapy related research, administration, education and professional issues.  Prerequisite: PHT 5523."
+        },
+        {
+            "subject": "PHT",
             "code": "5805",
             "name": "Clinical Intern I",
             "units": "3.00",
             "description": "This is the first in a sequence of 4 supervised full-time clinical internships designed to offer the student experiences in patient evaluation and care with emphasis on musculoskeletal dysfunction."
+        },
+        {
+            "subject": "PHT",
+            "code": "5960",
+            "name": "Comprehensive Exam I",
+            "units": "1.00",
+            "description": "This is the first of two comprehensive examinations that cover all previously completed coursework and is required for continued progression in the curriculum. Prerequisites: All Fall and Spring Semester Courses-Year I."
         },
         {
             "subject": "PHT",
@@ -23936,13 +24041,6 @@
         },
         {
             "subject": "PHT",
-            "code": "6526",
-            "name": "Dimensions Sem IV",
-            "units": "3.00",
-            "description": "This is the fourth in a sequence of four (4) courses designed to prepare the student in the areas of physical therapy related research, administration, education and professional issues.  Prerequisite: PHT 5525."
-        },
-        {
-            "subject": "PHT",
             "code": "6547",
             "name": "Case Mgmt Pt",
             "units": "1.00",
@@ -23985,8 +24083,22 @@
         },
         {
             "subject": "PHT",
+            "code": "6905C",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Introduction to guided research and/or clinical practice. Course will fall in-line with DPT project and/or Case Management series. May include lab and/or clinical experiences. Course may be repeated."
+        },
+        {
+            "subject": "PHT",
             "code": "6970",
             "name": "DPT Project",
+            "units": "3.00",
+            "description": "First in a series initiating students to the research process with faculty. Topics: Literature reviews, develop procedures & testing protocols, assessing reliability & validity and IRB submission"
+        },
+        {
+            "subject": "PHT",
+            "code": "6970C",
+            "name": "DPT I",
             "units": "3.00",
             "description": "First in a series initiating students to the research process with faculty. Topics: Literature reviews, develop procedures & testing protocols, assessing reliability & validity and IRB submission"
         },
@@ -24689,13 +24801,6 @@
             "name": "Animal Cognition",
             "units": "3.00",
             "description": "Issues and concepts relating to the evaluation of cognitive abilities in animals. Examines theoretical, methodological and philosophical issues and problems in the study of animal cognition."
-        },
-        {
-            "subject": "PSB",
-            "code": "5247",
-            "name": "Neurobio Learn Mem",
-            "units": "3.00",
-            "description": "Seminar focusing on the themes and questions of how the brain supports learning and memory."
         },
         {
             "subject": "PSB",
@@ -25716,6 +25821,13 @@
             "subject": "SLS",
             "code": "3990",
             "name": "Spec Top: Arts, Sci, & Ed",
+            "units": "1.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "SLS",
+            "code": "3993",
+            "name": "Spec Top in Ar, Sc, & Ed",
             "units": "1.00",
             "description": "N/A"
         },
@@ -28518,6 +28630,13 @@
             "name": "Advanced Neurobiology",
             "units": "3.00",
             "description": "An in depth treatment of the nervous system covering molecular and cellular function, sensory and motor systems, and the neural basis of behavior. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "ZOO",
+            "code": "5895",
+            "name": "Zoo Conservation Bio",
+            "units": "1.00",
+            "description": "Zoo Conservation Biology is a hands-on workshop that examines of the role of zoos in conservation science, conservation action, and conservation education. Prerequisite: Permission of Instructor"
         },
         {
             "subject": "ZOO",
