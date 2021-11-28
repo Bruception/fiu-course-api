@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1637456022,
+    "dataAsOf": 1638060824,
     "data": [
         {
             "subject": "ACG",
@@ -5575,13 +5575,6 @@
         },
         {
             "subject": "CLP",
-            "code": "6426",
-            "name": "Neuropsychology",
-            "units": "3.00",
-            "description": "Introduces students to basic foundations and some advanced concepts in Neuropsychology, with a focus on clinical applications. Topics covered will include functional neuroanatomy, brain disorders across the lifespan, and assessment of neuropsychological functions. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "CLP",
             "code": "6432",
             "name": "Foundation Practicum I",
             "units": "3.00",
@@ -8204,6 +8197,13 @@
             "name": "Intro to Nanofab",
             "units": "3.00",
             "description": "This course will give the students an introduction to micro/nanofabrication tools and techniques. It includes lab sessions where the students design, fabricate and test selected mirco-scale devices."
+        },
+        {
+            "subject": "EEE",
+            "code": "4463",
+            "name": "MEMS I",
+            "units": "3.00",
+            "description": "This course will give the students an introduction to MEMS-based microsystems with an emphasis on design and analysis of interdisciplinary systems at microscale."
         },
         {
             "subject": "EEE",
@@ -12358,6 +12358,13 @@
         },
         {
             "subject": "HFT",
+            "code": "3393",
+            "name": "Entertainment Tour Mgt.",
+            "units": "3.00",
+            "description": "planning a tour, budgeting, marketing/publicity/branding, concert brokers, ticketing agencies, and revenue streams"
+        },
+        {
+            "subject": "HFT",
             "code": "3453",
             "name": "Operations Control",
             "units": "3.00",
@@ -12658,6 +12665,13 @@
             "description": "The Advanced Internship is a practical hospitality/tourism work experience structured to provide exposure to management and training functions, job rotation tasks and/or projects not previously performed. Minimum 300 hours/ten weeks field experience. Prerequisites: Documented completion of 1,000 hospitality related work hours of which 500 hours must be completed while enrolled at FIU. Permission of an advisor."
         },
         {
+            "subject": "HFT",
+            "code": "4955",
+            "name": "Study Abroad: Hospitality Tour",
+            "units": "3.00",
+            "description": "An integrated program of learning conducted in foreign environments for hospitality management majors. They will be exposed to different cultures and taught how to manage businesses in other countries."
+        },
+        {
             "subject": "HIS",
             "code": "3051",
             "name": "Jun Sem: Approaches Hist",
@@ -12782,6 +12796,13 @@
             "name": "Intensive Pod in Hsp. In.",
             "units": "1.00",
             "description": "This course will provide intensive instruction on a particular topic or skill not otherwise offered in the curriculum. This course is repeatable."
+        },
+        {
+            "subject": "HMG",
+            "code": "5957",
+            "name": "Study Abroad: Hospitality Tour",
+            "units": "3.00",
+            "description": "An integrated program of learning conducted in foreign environments for hospitality management majors. They will be exposed to different cultures and taught how to manage businesses in other countries."
         },
         {
             "subject": "HMG",
@@ -16026,6 +16047,13 @@
         },
         {
             "subject": "LBS",
+            "code": "4993",
+            "name": "Technology and Work",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "LBS",
             "code": "5155",
             "name": "Workplace Diversity",
             "units": "3.00",
@@ -16072,6 +16100,13 @@
             "name": "Topic Labor Studies",
             "units": "0.00",
             "description": "Selected topics or themes in Labor Studies. Themes will vary from semester to semester. With a change in content, course may be repeated. May include field work. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "LBS",
+            "code": "5993",
+            "name": "Tech in the Workplace",
+            "units": "3.00",
+            "description": "N/A"
         },
         {
             "subject": "LEI",
@@ -17132,6 +17167,13 @@
         },
         {
             "subject": "MAP",
+            "code": "6993",
+            "name": "Probability & Stochastic",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MAP",
             "code": "7993",
             "name": "Seminar Applied Math",
             "units": "0.00",
@@ -17458,6 +17500,13 @@
             "name": "Applied Experience",
             "units": "1.00",
             "description": "Consists of a one semester (usually summer) internship at private corporation or government agency. Has three parts: i) weekly colloquia in math-science; ii) internship; iii) presentation after internship. Prerequisite: Permission of the department."
+        },
+        {
+            "subject": "MAT",
+            "code": "7908",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "For senior Ph.D. students to work on topics where standard courses cannot be opened. Could consist of individual conferences, assigned reading, or independent investigations. Prerequisite: Permission of the Math-Stats department."
         },
         {
             "subject": "MAT",
@@ -20772,6 +20821,13 @@
         },
         {
             "subject": "MVV",
+            "code": "2221",
+            "name": "Secondary App Voice",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on voice as a secondary instrument."
+        },
+        {
+            "subject": "MVV",
             "code": "2321",
             "name": "Prin Applied Voice",
             "units": "2.00",
@@ -22305,10 +22361,31 @@
         },
         {
             "subject": "PAS",
+            "code": "6011",
+            "name": "Clinical Med I",
+            "units": "3.00",
+            "description": "This course is a systematic review and discussion of the epidemiology, pathophysiology, clinical manifestations, diagnosis and management of the most common diseases in humans. It builds upon the foundation of basic science knowledge and clinical assessment skills. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6014",
             "name": "Physiology I",
             "units": "3.00",
             "description": "This is an integrated primary core course, foundational to principles of physiology. It will involve an intensive study of the clinical presentation, pathophysiology, and recognition of various disease and anomalies in the population. The contextual approach to these disciplines will include the interrelationship of prior and current learning incorporating the basic sciences, anatomy and physiology, ancillary diagnostics and medical terminology. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6015",
+            "name": "Physiology II",
+            "units": "3.00",
+            "description": "This is an integrated primary core course, foundational to the principles of physiology. It will involve an intensive study of the clinical presentation, pathophysiology, and recognition of various diseases and anomalies in the population. The contextual approach to these disciplines will include the interrelationship of prior and current learning incorporating the basic sciences, anatomy and physiology, ancillary diagnostics and medical terminology. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6016",
+            "name": "Integ Clin Concepts I",
+            "units": "2.00",
+            "description": "This is the first in a series of three courses in the didactic year that provide students the opportunity to translate knowledge gained in the concurrent didactic curriculum courses to clinical problems and to clinical decision making. The course is conducted by the faculty facilitators in a small-group discussion format. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -22323,6 +22400,20 @@
             "name": "Gross Anatomy",
             "units": "4.00",
             "description": "Gross Anatomy for Physician Assistant students is a clinically oriented course in which descriptive and surface anatomy are integrated with embryology. Organization of human anatomy is correlated with diagnostic imagine and pathophysiology. The objective is to provide students with a hands-on experience in the study of the human body, an understanding of relevant aspects of human development and its abnormalities. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6023",
+            "name": "Pharma Disease Path I",
+            "units": "2.00",
+            "description": "These lectures are integrates with the appropriate organ or disease system in which an appreciation of the pathophysiology is helpful for understanding the basis of use of a class of drugs in a particular disease. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6031",
+            "name": "Clinical Skills I",
+            "units": "2.00",
+            "description": "This course is the first in a two course sequence designed to provide students with an overview of skills and procedures needed for clinical practices as a PA. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -22347,10 +22438,24 @@
         },
         {
             "subject": "PAS",
+            "code": "6041",
+            "name": "Clinical Assess II",
+            "units": "2.00",
+            "description": "This course is the second in a two sequence designed to provide students with an overview of skills and procedures needed for clinical practice as a PA. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6050",
             "name": "Role PA Amer Health Care",
             "units": "3.00",
             "description": "The first portion covers major aspects of the US health care system. The aim is to give students a broad foundation of knowledge regarding the basic components of the health system and its issues and trends. The second portion presents the key components of the PA profession and examines the scope and the role of the PA in medical practice. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6090",
+            "name": "Cl App Evdnc Bas Pract I",
+            "units": "3.00",
+            "description": "This course provides an introduction to research design and methods including bio statistical analyses that are most commonly encountered within health research. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -24790,6 +24895,13 @@
         },
         {
             "subject": "PSB",
+            "code": "4200",
+            "name": "Systems Neuroscience",
+            "units": "3.00",
+            "description": "Discussions about brain systems involved in a number of capacities including sensory, cognitive, and motor functions. Current hypotheses on the circuit dynamics of various systems. Prerequisite: PSB 3007"
+        },
+        {
+            "subject": "PSB",
             "code": "4240",
             "name": "Neuropsychology",
             "units": "3.00",
@@ -25368,13 +25480,6 @@
             "name": "Women And Religion",
             "units": "3.00",
             "description": "Explores the involvement, portrayal, and roles of women in religion, from early goddess religions through the cult of Mary to contemporary feminist theology."
-        },
-        {
-            "subject": "REL",
-            "code": "3160",
-            "name": "Science & Religion",
-            "units": "3.00",
-            "description": "The methods, assumptions, goals of religion will be compared with those of the natural and human sciences. Specific issues, such as evolution, sociobiology, and the new astronomy will be considered to illustrate similarities and differences between the two approaches."
         },
         {
             "subject": "REL",
