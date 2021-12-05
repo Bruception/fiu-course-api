@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1638060824,
+    "dataAsOf": 1638665782,
     "data": [
         {
             "subject": "ACG",
@@ -342,7 +342,7 @@
             "code": "5107",
             "name": "Anws Teach Institute",
             "units": "3.00",
-            "description": "Teachers Institute on literature, culture, history, politics designed to meet Florida State Teachers Certification requirements. Includes instruction on pedagogy, practical teaching methods, and FCAT."
+            "description": "Offers teachers' Institute on literature, culture, history, politics designed to meet Florida State Teachers Certification requirements which includes instruction on pedagogy."
         },
         {
             "subject": "AFA",
@@ -2779,20 +2779,6 @@
             "name": "Supervised Research",
             "units": "0.00",
             "description": "Graduate level research carried out under the supervision of a faculty member."
-        },
-        {
-            "subject": "BCN",
-            "code": "6916",
-            "name": "Dev In Const Tech",
-            "units": "3.00",
-            "description": "Study of advanced field techniques and emerging uses worldwide. Information flow and creativity are highlighted as crucial elements which stimulate new developments. This course prepares the students to understand and deal with concepts of change."
-        },
-        {
-            "subject": "BCN",
-            "code": "6935",
-            "name": "Sem Constr Mgt",
-            "units": "3.00",
-            "description": "Advanced study of problems, trends, and issues in a time of rapid change in building and management technology. Topics selected or developed by class."
         },
         {
             "subject": "BCN",
@@ -5603,6 +5589,13 @@
         },
         {
             "subject": "CLP",
+            "code": "6473",
+            "name": "Assessment and Treatment III",
+            "units": "3.00",
+            "description": "Provides an overview of theory, research, and evidenced-based practices relevant for evidence based assessment and intervention for use with developmental, learning and pediatric disorders. Prerequisite: CLP 5007."
+        },
+        {
+            "subject": "CLP",
             "code": "6530",
             "name": "Dissem and Implement Research",
             "units": "3.00",
@@ -5614,6 +5607,13 @@
             "name": "Adv Clinical Prac",
             "units": "1.00",
             "description": "Allows students to practice clinical skills through participation in interactive classroom exercises while gaining clinical experience. Prerequisite: Clinical Practicum (CLP 6945)."
+        },
+        {
+            "subject": "CLP",
+            "code": "6947",
+            "name": "Foundations Practicum II",
+            "units": "3.00",
+            "description": "This course provides a comprehensive introduction to the principles of psychological treatments for children and adolescents, with applied practice and supervision in psychotherapy techniques. Prerequisites: PSY 5939 (Foundation Practicum I: Assessment)."
         },
         {
             "subject": "CLP",
@@ -6422,13 +6422,6 @@
         },
         {
             "subject": "CRW",
-            "code": "6806",
-            "name": "Teach Creative Wrt",
-            "units": "3.00",
-            "description": "The course will prepare graduate students (and teachers from secondary schools and community colleges) to teach introductory classes and workshops in Creative Writing. Students will observe and participate in the department's CRW 2001 courses."
-        },
-        {
-            "subject": "CRW",
             "code": "6971",
             "name": "Creative Thesis",
             "units": "3.00",
@@ -6510,6 +6503,13 @@
             "name": "Groundwater Hydrolog",
             "units": "3.00",
             "description": "Physical properties, equations of flow/mass transport, saturated/unsaturated zone, wells, pumping tests, quality/contamination control, analytical solutions, introduction to numerical models/computer codes. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "CWR",
+            "code": "5635",
+            "name": "Optimization Water Res.",
+            "units": "3.00",
+            "description": "This course presents the fundamentals of optimization techniques and their applications to various water resources engineering problems such as flood control and design of hydraulic structures. Prerequisite: CWR 3540 or permission of instructor"
         },
         {
             "subject": "CYP",
@@ -6880,21 +6880,21 @@
             "code": "3110",
             "name": "Web Production",
             "units": "3.00",
-            "description": "This course provides a strong foundation in Web production for media professionals, including HTML, CSS, responsive design, Javascript, basic product research and user testing. Prerequisite: RTV 3531."
+            "description": "This course provides a strong foundation in Web production for media professionals, including HTML, CSS, responsive design, Javascript, basic product research and user testing. Prerequisites: MMC 3003, RTV 3531, 2.85 cumulative GPA."
         },
         {
             "subject": "DIG",
             "code": "3146",
             "name": "Social Media",
             "units": "3.00",
-            "description": "This course is an introduction to social media platforms, audiences and content creation strategies. Students will use metrics to create and assess content for diverse audiences. Prerequisite: RTV 3531"
+            "description": "This course is an introduction to social media platforms, audiences and content creation strategies. Students will use metrics to create and assess content for diverse audiences. Prerequisite: MMC 3003 and 2.85 cumulative GPA or admission to Digital Communication and Media Certificate"
         },
         {
             "subject": "DIG",
             "code": "3181",
             "name": "Interactive Visualization",
             "units": "3.00",
-            "description": "This course provides a foundation in data analysis and data visualization for media professionals. Students learn to gather, process, analyze and visualize data in combination with storytelling. Prerequisite: DIG 3110"
+            "description": "This course provides a foundation in data analysis and data visualization for media professionals. Students learn to gather, process, analyze and visualize data in combination with storytelling. Prerequisites: MMC 3003, (DIG 3110 or JOU 3117), 2.85 cumulative GPA."
         },
         {
             "subject": "DIG",
@@ -6908,7 +6908,7 @@
             "code": "4293",
             "name": "Multimedia Production 2",
             "units": "3.00",
-            "description": "This is a project-based course that adds to the student's knowledge of multimedia production. There will be and emphasis on video production and streaming, including studio production projects. Prerequisites:  MMC 3003, MMC 3123, RTV 3531, (JOU 2100 or DIG 3001 or RTV 3007), 2.85 cumulative GPA."
+            "description": "This is a project-based course that adds to the student's knowledge of multimedia production. There will be and emphasis on video production and streaming, including studio production projects. Prerequisites:  MMC 3003, MMC 3123, RTV 3531, 2.85 cumulative GPA."
         },
         {
             "subject": "DIG",
@@ -6922,7 +6922,7 @@
             "code": "4552",
             "name": "Advanced Multimedia Production",
             "units": "3.00",
-            "description": "This capstone course covers advanced techniques associated with interactive media production, including design, digital storytelling, usability theory, and current best practices. Prerequisites: MMC 3003, MMC 3123, (RTV 4101 or MMC4302 or DIG 3146), (RTV 3511 or MMC 4631 or DIG 3253), RTV 3531, DIG 4293, (DIG 4800 or RTV 4101), (DIG 3110 or RTV 3007), (DIG 4394 or MMC4631 or RTV3007), 2.85 cumulative GPA"
+            "description": "This capstone course covers advanced techniques associated with interactive media production, including design, digital storytelling, usability theory, and current best practices. Prerequisites: MMC 3003, MMC 3123, (RTV 4101 or MMC4302 or DIG 3146), (RTV 3511 or MMC 4631 or DIG 3253), RTV 3531, DIG 4293, (DIG 3181 or DIG 3253), (DIG 4800 or RTV 4101), (DIG 3110 or RTV 3007), (DIG 4394 or MMC4631 or RTV3007), 2.85 cumulative GPA"
         },
         {
             "subject": "DIG",
@@ -8469,7 +8469,7 @@
             "code": "4241",
             "name": "Power Electronics",
             "units": "3.00",
-            "description": "Power semiconductor devices, power supplies, DC choppers, AC voltage controller, power inverter, AC and DC drives."
+            "description": "Power semiconductor devices, power supplies, DC choppers, AC voltage controller, power inverter, AC and DC drives. Prerequisites:  EEE3303C or permission of instructor"
         },
         {
             "subject": "EEL",
@@ -10051,7 +10051,7 @@
             "code": "4260",
             "name": "Adv Professional Writing",
             "units": "3.00",
-            "description": "Advanced professional writing, which may include digital writing; reports, proposals, and grants; information design; technical editing; writing for journals; writing end-user documentation."
+            "description": "Allows students to refine skills in areas of technical writing such as digital writing; information design; technical editing; writing end-user documentation. May be repeated. Prerequisites: ENC1101 and ENC1102 (or equivalents)"
         },
         {
             "subject": "ENC",
@@ -10240,7 +10240,7 @@
             "code": "4273",
             "name": "Modern Brit Lit",
             "units": "3.00",
-            "description": "This course focuses on the literature of the 20th Century, limiting itself to British writers, but including the various genres of the modern and post modern periods."
+            "description": "Focuses on 20th Century British literature but includes genres of the modern and post modern periods. Repeatable with a change of topic. Prerequisites: ENC1101 and ENC1102 or ENC 2304"
         },
         {
             "subject": "ENL",
@@ -14269,6 +14269,13 @@
         },
         {
             "subject": "INR",
+            "code": "6936",
+            "name": "Sem Inter-Amer Pol",
+            "units": "3.00",
+            "description": "Focus  on U.S.-Latin American relations. Attempts to link the theoretical literature on U.S. foreign policy with empirical developments."
+        },
+        {
+            "subject": "INR",
             "code": "6967",
             "name": "Comps Prep",
             "units": "1.00",
@@ -14692,7 +14699,7 @@
             "code": "2100",
             "name": "Intro Reporting & Writing",
             "units": "3.00",
-            "description": "Intro to news reporting/writing developing digital skills in journalistic setting. Instruction on sourcing, interviewing, data gathering/presentation, civic governance and public records search. Prerequisite: MMC 3123 and JOU 3003"
+            "description": "Intro to news reporting/writing developing digital skills in journalistic setting. Instruction on sourcing, interviewing, data gathering/presentation, civic governance and public records search. Prerequisite: ENC 1101 and ENC 1102"
         },
         {
             "subject": "JOU",
@@ -14706,21 +14713,21 @@
             "code": "3117",
             "name": "Digital Journalism",
             "units": "3.00",
-            "description": "Teaches the fundamentals of news writing, reporting, interviewing, public records and arithmetic for journalists and the basic skills required for digital journalism.  Prerequisites: MMC 3003, MMC 3123, JOU 3003, JOU 2100 and 2.85 cumulative GPA  Corequisite: JOU 3003"
+            "description": "Teaches the fundamentals of news writing, reporting, interviewing, public records and arithmetic for journalists and the basic skills required for digital journalism.  Prerequisites: MMC 3003, MMC 3123, JOU 3003, and 2.85 cumulative GPA  Corequisite: JOU 3003"
         },
         {
             "subject": "JOU",
             "code": "3300",
             "name": "Advanced Digital Journ",
             "units": "3.00",
-            "description": "Students will write and produce digital feature stories: human interest, trends,\npersonality profiles, sidebars, backgrounders, color. Prerequisites: MMC 3003, MMC 3123, JOU 3003, JOU 2100, JOU 3117, RTV 3531, 2.85 cumulative GPA"
+            "description": "Students will write and produce digital feature stories: human interest, trends,\npersonality profiles, sidebars, backgrounders, color. Prerequisites: MMC 3003, MMC 3123, JOU 3003, JOU 3117, RTV 3531, 2.85 cumulative GPA"
         },
         {
             "subject": "JOU",
             "code": "4341C",
             "name": "Sr Multimedia Prjt",
             "units": "3.00",
-            "description": "Students will conceptualize and produce a digital publication, including layout, photography, video, audio and data visualization. Prerequisites:  MMC 3003, RTV 3531, JOU 3117, DIG 4293, JOU 3300, JOU 4108, 2.85 cumulative GPA"
+            "description": "Students will conceptualize and produce a digital publication, including layout, photography, video, audio and data visualization. Prerequisites:  MMC 3003, RTV 3531, JOU 3117, (DIG 4293 or VIC 4001), JOU 3300, (JOU 4108 or VIC 4001), 2.85 cumulative GPA"
         },
         {
             "subject": "JOU",
@@ -16134,7 +16141,7 @@
             "code": "3524",
             "name": "Human Res Mgt In Prm",
             "units": "3.00",
-            "description": "After a study of human interaction in a management setting, students will demonstrate competencies necessary for hiring staff, conducting group dynamics and communicating to the public."
+            "description": "The course develops a critical understanding of the functions of human resources in sport, parks, and recreation. Emphasis on the role and responsibility of managers and associated management skills."
         },
         {
             "subject": "LEI",
@@ -16586,6 +16593,20 @@
         },
         {
             "subject": "MAC",
+            "code": "1907",
+            "name": "Pre-Calculus Stretch",
+            "units": "0.00",
+            "description": "Version of MAC 1147 for continuing students with an unfinished grade. Develops deeper problem solving skills of the concepts of precalculus. Prerequisite: Consent of the Department"
+        },
+        {
+            "subject": "MAC",
+            "code": "1990",
+            "name": "College Algebra Stretch",
+            "units": "0.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MAC",
             "code": "2233",
             "name": "Calc For Business",
             "units": "3.00",
@@ -16964,13 +16985,6 @@
         },
         {
             "subject": "MAN",
-            "code": "4864",
-            "name": "Family Business",
-            "units": "3.00",
-            "description": "Students analyze business practices of family businesses including functions, issues, operations and the interpersonal dynamics of family businesses from a strategic management perspective."
-        },
-        {
-            "subject": "MAN",
             "code": "4946",
             "name": "Int'L Bus Internship",
             "units": "0.00",
@@ -17135,7 +17149,7 @@
             "code": "5407",
             "name": "Meth Appl Analysis",
             "units": "3.00",
-            "description": "Convergence, fixed point theorems, application to finding roots of equations, normed function spaces, linear operators, applications to numerical integration, differential and integral equations. Prerequisites: MAA 4211, MAP 2302, and MAS 3105."
+            "description": "Metric and normed spaces, Hilbert spaces, fixed point theorems, linear operators, notions of convergence, applications to numerical integration, differential and integral equations. Prerequisites: MAA 4211, MAP 2302, and MAS 3105."
         },
         {
             "subject": "MAP",
@@ -17636,6 +17650,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7092",
+            "name": "Teaching Skills Elective",
+            "units": "1.00",
+            "description": "This is a non-clinical elective offered for two or four continuous weeks, designed to help students improve their teaching and/or curricular development skills through small-group, self-directed, experiential learning, and mentor feedback and engagement in authentic work. In this course, students will be provided with opportunities to learn about the foundational principles of adult learning theory, curriculum design, pedagogy, assessment, and teaching. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7100",
             "name": "Community Medicine Elective",
             "units": "1.00",
@@ -17759,6 +17780,13 @@
             "name": "Pediatric Gastroenterology Ele",
             "units": "1.00",
             "description": "Medical students will perform routine histories and physical examinations on all gastroenterology patients, with emphasis on clinical diagnosis and treatment. Students are expected to take an active role in the management of gastroenterology patients in both inpatient and outpatient settings. Students will also participate in endoscopic procedures. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7438",
+            "name": "Pediatric Genetics Elective",
+            "units": "1.00",
+            "description": "The student will participate in the evaluation and management of children with metabolic/genetic disorders or of those children suspected of having such disorders. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18154,6 +18182,13 @@
         },
         {
             "subject": "MET",
+            "code": "6971",
+            "name": "Thesis",
+            "units": "1.00",
+            "description": "Individual graduate-level research supervised by a professor in the student's field of specialization or interest, leading toward a completed thesis. Prerequisites: Graduate standing in Geosciences and satisfactory progress toward the degree."
+        },
+        {
+            "subject": "MET",
             "code": "7980",
             "name": "Ph.D. Dissertation",
             "units": "1.00",
@@ -18172,6 +18207,20 @@
             "name": "Social Choice Math",
             "units": "3.00",
             "description": "Voting systems and their desirable properties.  Weighted voting systems, fair division procedures, apportionment methods and game theory."
+        },
+        {
+            "subject": "MGF",
+            "code": "1990",
+            "name": "Social Choice Stretch",
+            "units": "0.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MGF",
+            "code": "1991",
+            "name": "Finite Math Stretch",
+            "units": "0.00",
+            "description": "N/A"
         },
         {
             "subject": "MHF",
@@ -20720,6 +20769,13 @@
             "name": "Orch Audition Rep",
             "units": "3.00",
             "description": "This course prepares upper string players, primarily violinists, for professional auditions by coaching them intensively in the standard audition repertoire and by holding mock auditions. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MVS",
+            "code": "4971",
+            "name": "Senior Rec Strings",
+            "units": "0.00",
+            "description": "All music majors must present, before graduation, at least one half (full recital performance major) of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
         },
         {
             "subject": "MVS",
@@ -24909,6 +24965,13 @@
         },
         {
             "subject": "PSB",
+            "code": "4241",
+            "name": "Clinical Neuroscience",
+            "units": "3.00",
+            "description": "The relationship between pathology and neurodegenerative diseases or neuropsychiatric disorders and how clinicians detect and diagnose them. Broad discussion on clinical trials and drug development. Prerequisite: PSB 3007"
+        },
+        {
+            "subject": "PSB",
             "code": "4250",
             "name": "Animal Cognition",
             "units": "3.00",
@@ -25032,6 +25095,13 @@
             "name": "Supervised Research",
             "units": "0.00",
             "description": "Research apprenticeship under the direction of a research professor or a thesis advisor. Prerequisite: Full graduate admission."
+        },
+        {
+            "subject": "PSY",
+            "code": "5930",
+            "name": "Qualitative Methods Psych",
+            "units": "3.00",
+            "description": "Critical issues, theoretical and practical applications for conducting qualitative research in psychology. The focus will be on key research strategies and principles for research design."
         },
         {
             "subject": "PSY",
@@ -25374,7 +25444,7 @@
             "code": "4433",
             "name": "Legal Environ Re",
             "units": "3.00",
-            "description": "The legal environment of real estate as it relates to buying, financing and selling of real property. The completion of this course and REE 3043, meets the FREC educational requirement for real estate licensing."
+            "description": "The legal environment of real estate as it relates to buying, financing and selling of real property."
         },
         {
             "subject": "REE",
@@ -25766,14 +25836,14 @@
             "code": "3531",
             "name": "Multimedia Prod",
             "units": "3.00",
-            "description": "Use of ENG/EFP equipment and techniques in production of programs, news, documentaries, music videos, commercials, training and video productions on location. Emphasis on single camera techniques and editing. Prerequisites:  MMC 3123, (JOU 2100 or DIG 3001 or RTV 3007), [(MMC 3003 and 2.85 cumulative GPA) or admission to Visual Production Certificate]] Corequisite:VIC3400 (Equipment fee assessed)"
+            "description": "Use of ENG/EFP equipment and techniques in production of programs, news, documentaries, music videos, commercials, training and video productions on location. Emphasis on single camera techniques and editing. Prerequisites:  MMC 3123, VIC 3400 or admission to Visual Production Certificate. Corequisite: MMC 3123, VIC 3400 (Equipment fee assessed)"
         },
         {
             "subject": "RTV",
             "code": "4101",
             "name": "Writing for Video Production",
             "units": "3.00",
-            "description": "The course is intended to introduce the student to various types of writing for television and Internet/Journalism videos. This will include storytelling for short videos and short documentaries.  Prerequisites: MMC 3003, MMC 3123, RTV 3007, 2.85 cumulative GPA. Corequisite: RTV 3007"
+            "description": "The course is intended to introduce the student to various types of writing for television and Internet/Journalism videos. This will include storytelling for short videos and short documentaries. Prerequisites: MMC 3003, MMC 3123, RTV 3007, RTV 3531, 2.85 cumulative GPA. Corequisite: RTV 3007, RTV 3531"
         },
         {
             "subject": "RTV",
@@ -28573,7 +28643,7 @@
             "code": "5116",
             "name": "Gender Violence & Law",
             "units": "3.00",
-            "description": "Critical analysis of power dynamics of gender violence across race, ethnicity, class globally. Examination of existing legal framework on a national and global level, opportunities for global justice."
+            "description": "Advanced examination of power dynamics fueling gender violence across gender, race, and class globally. Focus is on existing international legal framework to apply to global case studies."
         },
         {
             "subject": "WST",
@@ -28587,7 +28657,7 @@
             "code": "5618",
             "name": "Gender and Genocide",
             "units": "3.00",
-            "description": "This course examines the gendered dimension of genocide, exploring genocidal practices in terms of gender, sex, sexuality, ethnicity, race, and class under a critical feminist lens."
+            "description": "Advanced examination of the gendered dimension of global genocides based on recent feminist genocide scholarship, addressing justice & reconciliation within the framework of the UN Genocide Convention"
         },
         {
             "subject": "WST",
