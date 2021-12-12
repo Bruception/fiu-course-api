@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1638665782,
+    "dataAsOf": 1639270596,
     "data": [
         {
             "subject": "ACG",
@@ -4203,13 +4203,6 @@
         },
         {
             "subject": "CDA",
-            "code": "4101",
-            "name": "Structure Comp Org",
-            "units": "3.00",
-            "description": "Covers the levels of organization in a computer: Design of memory, buses, ALU, CPU; design of microprogram. Covers virtual memory, I/O, multiple processes, CISC, RISC and parallel architectures. Prerequisites: CDA 3103, COP 3337 and (MAD 2104 or COT 3100)."
-        },
-        {
-            "subject": "CDA",
             "code": "4625",
             "name": "Intro to Mobile Robotics",
             "units": "3.00",
@@ -6422,6 +6415,13 @@
         },
         {
             "subject": "CRW",
+            "code": "6806",
+            "name": "Teach Creative Wrt",
+            "units": "3.00",
+            "description": "The course will prepare graduate students (and teachers from secondary schools and community colleges) to teach introductory classes and workshops in Creative Writing. Students will observe and participate in the department's CRW 2001 courses."
+        },
+        {
+            "subject": "CRW",
             "code": "6971",
             "name": "Creative Thesis",
             "units": "3.00",
@@ -7528,13 +7528,6 @@
         },
         {
             "subject": "EDF",
-            "code": "4655",
-            "name": "Case Studies Ed. Policy",
-            "units": "3.00",
-            "description": "This course uses a multidisciplinary approach to examine and analyze education policy. The course will investigate historic education policy issues and current policy debates"
-        },
-        {
-            "subject": "EDF",
             "code": "5255",
             "name": "Classrm Management",
             "units": "3.00",
@@ -7735,6 +7728,13 @@
             "name": "Prep Inter Teach Intern",
             "units": "3.00",
             "description": "This course is to prepare students for an international teaching internship. Students will examine educational and cultural issues related to the U.S., their future host placement, and the world."
+        },
+        {
+            "subject": "EDG",
+            "code": "5910",
+            "name": "Independ Resrch Education",
+            "units": "0.00",
+            "description": "Designed to provide an opportunity to enhance their educational research knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
         },
         {
             "subject": "EDG",
@@ -8225,13 +8225,6 @@
             "name": "Intro Network Forensics",
             "units": "3.00",
             "description": "The course covers the theoretical and practical aspects of the foundations of computer network security, incident response tools and techniques. Prerequisite: Senior Standing"
-        },
-        {
-            "subject": "EEE",
-            "code": "4754",
-            "name": "Intro Mobile Forensics",
-            "units": "3.00",
-            "description": "The course covers the theoretical and practical aspects of Mobile device forensics focusing on the identification, preservation, collection, analysis, and reporting techniques and tools. Prerequisite: EEL 4802"
         },
         {
             "subject": "EEE",
@@ -8902,6 +8895,13 @@
             "subject": "EEL",
             "code": "6993",
             "name": "Intro Electronic Warfare",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "EEL",
+            "code": "6994",
+            "name": "Adv Fields and Waves",
             "units": "3.00",
             "description": "N/A"
         },
@@ -14821,6 +14821,13 @@
             "description": "This course will examine Japanese culture, societal life, class and gender, and the way of the Samurai. It will explore not only the traditional arts but also current social concerns."
         },
         {
+            "subject": "JPN",
+            "code": "5907",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "Designed for advanced Japanese language proficiency utilizing specialized research projects, field experience, readings and other area studies."
+        },
+        {
             "subject": "JRM",
             "code": "6010",
             "name": "Contracts & Business Law",
@@ -16499,13 +16506,6 @@
             "name": "Intro to Latinx Lit",
             "units": "3.00",
             "description": "This course introduces Latinx literature through fictional and theoretical texts that critique fixed conceptions of Latinx identity and open new alternatives for identity formation. Prerequisite: ENC 1101 and ENC 1102"
-        },
-        {
-            "subject": "LIT",
-            "code": "4931",
-            "name": "Spec Top Women Lit",
-            "units": "3.00",
-            "description": "An examination of different aspects of literature by women. May be repeated with a change of content."
         },
         {
             "subject": "LIT",
@@ -18805,20 +18805,6 @@
         },
         {
             "subject": "MUE",
-            "code": "3920",
-            "name": "MUE Forum",
-            "units": "0.00",
-            "description": "Weekly forum for professional development and special topics for certification. Required by all music education students; repeatable each semester prior to internship."
-        },
-        {
-            "subject": "MUE",
-            "code": "3925",
-            "name": "Dalcroze Workshop",
-            "units": "1.00",
-            "description": "Intensive workshop as a study of Dalcroze pedagogical methods for use in K-12 music education courses."
-        },
-        {
-            "subject": "MUE",
             "code": "4940",
             "name": "Stud Tch In Mus Ed",
             "units": "9.00",
@@ -19082,6 +19068,13 @@
             "name": "Audio Techniques II",
             "units": "3.00",
             "description": "Studio recording techniques, microphone placement, taping and mixing."
+        },
+        {
+            "subject": "MUM",
+            "code": "3742L",
+            "name": "Music Production",
+            "units": "3.00",
+            "description": "This course allows for the student to acquire a hands-on experience in producing concerts. The student will stage manage and produce concerts covering running rehearsals, marketing, and performance."
         },
         {
             "subject": "MUM",
@@ -20044,6 +20037,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "2423",
+            "name": "Maj App Jazz Guitar",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz guitar at a major level."
+        },
+        {
+            "subject": "MVJ",
             "code": "2424",
             "name": "Maj App Jazz Bass",
             "units": "2.00",
@@ -20296,6 +20296,13 @@
         },
         {
             "subject": "MVK",
+            "code": "2180L",
+            "name": "Keyboard Harmony",
+            "units": "1.00",
+            "description": "The course develops basic musicianship skills for Piano Majors and Principals through an integrated theoretical-performance approach. Prerequisite: MUT 1111 and MUT 1112. Corequisite: MVK 1411 or MVK 1311."
+        },
+        {
+            "subject": "MVK",
             "code": "2221",
             "name": "Sec Applied Piano",
             "units": "1.00",
@@ -20398,6 +20405,13 @@
             "name": "Prin App Percussion",
             "units": "2.00",
             "description": "Individual instruction in applied music on percussion as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVP",
+            "code": "2421",
+            "name": "Major App Percussion",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on percussion as a major instrument. Music majors only."
         },
         {
             "subject": "MVP",
@@ -25672,6 +25686,13 @@
         },
         {
             "subject": "REL",
+            "code": "4370",
+            "name": "African Religions",
+            "units": "3.00",
+            "description": "Critical analysis of the beliefs, myths, symbols, and rituals of traditional African religion, African Christianity, and African Islam, and exploration of their place and function in African societies."
+        },
+        {
+            "subject": "REL",
             "code": "4382",
             "name": "Latinas & Religion",
             "units": "3.00",
@@ -25893,6 +25914,13 @@
             "name": "Russian II",
             "units": "5.00",
             "description": "Provides training in the acquisition and application of basic language skills."
+        },
+        {
+            "subject": "SAL",
+            "code": "1120",
+            "name": "Urdu I",
+            "units": "5.00",
+            "description": "First semester of beginning course in spoken and written Urdu, for students with no prior knowledge of the language."
         },
         {
             "subject": "SCE",
@@ -26145,13 +26173,6 @@
             "name": "Prosem Soc Psy",
             "units": "3.00",
             "description": "An in-depth examination of the role of social psychology in the social sciences and the major substantive problems as they relate to contemporary societal issues. Minimum Prerequisites: An introductory course in social psychology or its equivalent."
-        },
-        {
-            "subject": "SOW",
-            "code": "2001",
-            "name": "Expl of Human Svcs Profes",
-            "units": "3.00",
-            "description": "An overview of human services professions focusing on social work, generalist human services, couples and family counseling, clinical and counseling psychology, and school counseling."
         },
         {
             "subject": "SOW",
