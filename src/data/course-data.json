@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1639270596,
+    "dataAsOf": 1639875846,
     "data": [
         {
             "subject": "ACG",
@@ -63,13 +63,6 @@
             "name": "Thry & Rsrch In Actg",
             "units": "3.00",
             "description": "An evaluative overview of the classical literature in financial accounting and the contemporary empirical research published in the leading scholarly journals. Examined are income determination theories, normative accounting principles, accounting information and stock prices, and principal-agent relationships. Prerequisite: Permission of Doctoral advisor in Accounting."
-        },
-        {
-            "subject": "ACG",
-            "code": "7886",
-            "name": "Sem:Empir Rsrch Meth",
-            "units": "3.00",
-            "description": "Study of research design, methods of data collection and analysis and problems of measurement in accounting research. Empirical research studies in accounting are integrated throughout to illustrate and analyze the structural problems of research design as well as the strengths and weaknesses of various acceptable paradigms. Prerequisite: Permission of doctoral advisor in Accounting."
         },
         {
             "subject": "ACG",
@@ -252,13 +245,6 @@
             "name": "Multicultural Mar Comm",
             "units": "3.00",
             "description": "The focus of this course is on how to communicate effectively and strategically in a multicultural environment. The course covers the impact of culture in marketing communications."
-        },
-        {
-            "subject": "ADV",
-            "code": "4711",
-            "name": "Portfolio Workshop",
-            "units": "3.00",
-            "description": "Focus will be directed on building creative portfolio pieces for multiplication campaigns. Prerequisites: ADV 3200"
         },
         {
             "subject": "ADV",
@@ -3619,13 +3605,6 @@
             "name": "Senior Seminar",
             "units": "1.00",
             "description": "An exploration of various research works in biological sciences. Oral presentation by the students required. Prerequisites or Corequisites:  PCB3043,PCB4674, PCB 3063, and PCB 4023 or OCP 3002, or BSC 3848"
-        },
-        {
-            "subject": "BSC",
-            "code": "4934",
-            "name": "Topics In Biology",
-            "units": "0.00",
-            "description": "An intensive study of a particular topic or limited number of topics not otherwise offered in the curriculum."
         },
         {
             "subject": "BSC",
@@ -7682,24 +7661,10 @@
         },
         {
             "subject": "EDG",
-            "code": "4734",
-            "name": "Ed/Cul Prep for Int Teach",
-            "units": "3.00",
-            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
             "code": "4903",
             "name": "Independ Study Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to gain or enhance knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
-        },
-        {
-            "subject": "EDG",
-            "code": "4940",
-            "name": "Inter Teaching Internship",
-            "units": "3.00",
-            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
         },
         {
             "subject": "EDG",
@@ -7724,24 +7689,10 @@
         },
         {
             "subject": "EDG",
-            "code": "5736",
-            "name": "Prep Inter Teach Intern",
-            "units": "3.00",
-            "description": "This course is to prepare students for an international teaching internship. Students will examine educational and cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
             "code": "5910",
             "name": "Independ Resrch Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to enhance their educational research knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
-        },
-        {
-            "subject": "EDG",
-            "code": "5942",
-            "name": "Intl Educational Internship",
-            "units": "3.00",
-            "description": "Students will complete an international internship and be required to teach in international schools, engage in cultural immersion experiences, and conduct service-learning projects. Prerequisite: EDG 5XXX Preparation for International Teaching Internship"
         },
         {
             "subject": "EDG",
@@ -9088,13 +9039,6 @@
             "description": "Research activities required for Doctoral students in special education prior to candidacy and dissertation. Serves as a bridge between courses and the comprehensive examination. Prerequisite: Doctoral standing."
         },
         {
-            "subject": "EEX",
-            "code": "7980",
-            "name": "Ed.D. Dissertation",
-            "units": "0.00",
-            "description": "Original contribution to knowledge in major field. Prerequisites: Permission of Major Professor and Doctoral Candidacy."
-        },
-        {
             "subject": "EGM",
             "code": "3311",
             "name": "Analysis Eng Syst",
@@ -9415,6 +9359,13 @@
             "name": "Ind Fin Decisions",
             "units": "3.00",
             "description": "The use of financial techniques and data in planning, controlling and coordinating industrial activities. This course will familiarize the student with accounting concepts and analytical methods."
+        },
+        {
+            "subject": "EIN",
+            "code": "5436",
+            "name": "Logistics Reg Compliance",
+            "units": "3.00",
+            "description": "Cargo security compliance; declaration and fiscal compliance; customs warehouse management; transportation regulatory services; industry program support; government solutions and technology solutions. Prerequisites: Senior or Graduate standing."
         },
         {
             "subject": "EIN",
@@ -12092,6 +12043,13 @@
         },
         {
             "subject": "GMS",
+            "code": "6962",
+            "name": "Preliminary Proposal",
+            "units": "1.00",
+            "description": "The student submits preliminary research proposal approved by his/her committee. Prerequisite: HWCOM Graduate School Enrollment."
+        },
+        {
+            "subject": "GMS",
             "code": "6963",
             "name": "Doctoral Proposal",
             "units": "3.00",
@@ -12117,6 +12075,13 @@
             "name": "Dissertation Research",
             "units": "1.00",
             "description": "Research towards the completion of a doctoral dissertation. May be repeated. Prerequisite: HWCOM Graduate School Enrollment. Corequisites: Completion of GMS 6961, GMS 6964 and permission of the major professor."
+        },
+        {
+            "subject": "GMS",
+            "code": "7981",
+            "name": "Dissertation Defense",
+            "units": "1.00",
+            "description": "Dissertation defense seminar. Prerequisite: HWCOM Graduate School Enrollment. Corequisites: Permission of major professor and graduate committee."
         },
         {
             "subject": "GRA",
@@ -13853,6 +13818,13 @@
             "name": "Research Methods",
             "units": "3.00",
             "description": "Methods of data acquisition, analysis, and interpretation used in interior design research."
+        },
+        {
+            "subject": "IND",
+            "code": "6906",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "Coursework on a particular aspect of architecture under the direction of faculty in an individual study format. Prerequisite: Program approval."
         },
         {
             "subject": "IND",
@@ -16614,13 +16586,6 @@
         },
         {
             "subject": "MAC",
-            "code": "2241L",
-            "name": "Calc 1 Lab Biology",
-            "units": "1.00",
-            "description": "Review of numerical methods used in calculus 1 by students in QBIC program."
-        },
-        {
-            "subject": "MAC",
             "code": "2242L",
             "name": "Cal 2 Lab Biology",
             "units": "1.00",
@@ -17699,6 +17664,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7180",
+            "name": "Pern/Mat Fetal Med Elect",
+            "units": "1.00",
+            "description": "This Period 4 clerkship allows students to experience the full range of maternal-fetal medicine and familiarizes students with the diagnosis and management of pregnant patients who have obstetrical, medical, or surgical complications. Students receive experience in ultrasound, genetics, genetic counseling, and the management of high-risk obstetrical patients. Students follow patients through the\ninpatient antepartum service and participate in the care of high-risk obstetrical patients admitted to the hospital. Attendance at the following conferences is required: FHR tracing and labor management review, high risk obstetrics conference, grand rounds, prenatal - neonatology conference, and journal\nclub. Students are required to take call on the Labor and Delivery Unit one night per week. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7204",
             "name": "Hospitalist Service Elective",
             "units": "1.00",
@@ -17860,6 +17832,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7601",
+            "name": "Advanced General Surgery",
+            "units": "1.00",
+            "description": "Advanced General Surgery, the student works directly with general and other subspecialty surgeons. During the rotation, the student is exposed to all phases of patient care, including outpatient clinic, the operating room and hospital. Emphasis will be placed on initial assessment, physical examination and preoperative evaluation of surgical patients. When appropriate, the student will follow individual patients whose cases are particularly instructive. While no formal projects are required, ample opportunity exists for independent projects as dictated by the student's special interests. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7605",
             "name": "Vascular Surgery Elective",
             "units": "1.00",
@@ -17979,6 +17958,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7930",
+            "name": "Anatomy Elective",
+            "units": "1.00",
+            "description": "The 4-week Anatomy Elective will allow students the opportunity to gain a deeper insight into human anatomy and develop the skills and knowledge required for surgical internships and subspecialties. This will allow the students to develop an understanding of the anatomical basis of successful surgical interventions and the risks involved. Under the direct supervision of faculty anatomists and clinicians, students will perform dissections of all relevant body regions in groups of 4-6 students. Moreover, students will assist in the laboratory teaching sessions of the courses 'Structure of the Human Body' and 'Musculoskeletal Anatomy for Physiotherapy Students.' Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7990",
             "name": "One Health Elective",
             "units": "2.00",
@@ -18025,6 +18011,13 @@
             "name": "Med Ethics and Hum Elective",
             "units": "1.00",
             "description": "Offered as a two-week rotation, with the option for an additional two-credit longitudinal component; this elective is designed for the individualized study of topics in clinical, research, and service-learning ethics and humanism in medicine. Students will examine ethical and humanistic issues in medicine that emerge in the clinical setting, lab, or community. Students will read, write and analyze case vignettes, attend community ethics activities (e.g. Hospital ethics committee meetings), develop a scholarly project, and contribute to an ethics research project. Humanism in medicine is the recognition that both practitioner and patient are human beings, with the shared values and experiences of humanity. This provides a framework for improved clinical interactions and addresses phenomena such as ethical leadership, inclusive communication, and burnout. The course director will create learning contracts tailored to students' individual interests, objectives, and clinical schedules. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDS",
+            "code": "7400",
+            "name": "Pediatric Medicine Selective",
+            "units": "1.00",
+            "description": "Medical students will examine patients admitted to the Inpatient Hospitalist Services, write daily entries into the medical record, develop plans for care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students, residents, and fellows of the Hospitalist Service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDS",
@@ -18707,6 +18700,13 @@
         },
         {
             "subject": "MUC",
+            "code": "5406",
+            "name": "Elec Music IV",
+            "units": "2.00",
+            "description": "An advanced course in computer music providing students hands-on experience with recently developed hardware and software for the creation of music."
+        },
+        {
+            "subject": "MUC",
             "code": "6305",
             "name": "Elec Mus Lab I",
             "units": "2.00",
@@ -19015,13 +19015,6 @@
         },
         {
             "subject": "MUL",
-            "code": "4430",
-            "name": "Guitar Lit",
-            "units": "3.00",
-            "description": "Survey of solo, chamber, and concerto guitar literature from the 16th century to the present. Repertoires will be examined from historical, analytical, pedagogical, and text-critical perspectives."
-        },
-        {
-            "subject": "MUL",
             "code": "4500",
             "name": "Symphonic Lit",
             "units": "3.00",
@@ -19281,6 +19274,13 @@
         },
         {
             "subject": "MUN",
+            "code": "2482",
+            "name": "Jazz Guitar Ens",
+            "units": "1.00",
+            "description": "Ensemble consists of five or more electric guitars performing arrangements, accompanied by bass and drums. Emphasis placed on sight reading, styles, phrasing, dynamics, ensemble blend, swing, etc."
+        },
+        {
+            "subject": "MUN",
             "code": "2490",
             "name": "New Music Ensemble",
             "units": "1.00",
@@ -19390,6 +19390,13 @@
             "name": "Guitar Ensemble",
             "units": "1.00",
             "description": "The presentation and performance of music literature characteristic of the Guitar Ensemble."
+        },
+        {
+            "subject": "MUN",
+            "code": "4486",
+            "name": "Jazz Guitar Ens",
+            "units": "1.00",
+            "description": "Ensemble consists of five or more electric guitars performing arrangements, accompanied by bass and drums. Emphasis placed on sight reading, styles, phrasing, dynamics, ensemble blend, swing, etc."
         },
         {
             "subject": "MUN",
@@ -19743,6 +19750,13 @@
         },
         {
             "subject": "MUT",
+            "code": "4311",
+            "name": "Orchestration",
+            "units": "3.00",
+            "description": "With a background of basic theory, the student will explore the techniques of writing and arranging for instruments in performing organizations."
+        },
+        {
+            "subject": "MUT",
             "code": "4353",
             "name": "Jazz Arranging",
             "units": "2.00",
@@ -19754,6 +19768,13 @@
             "name": "Grad Theory Survey",
             "units": "0.00",
             "description": "Analytical, theoretical and aural skills required for successful graduate studies in music. Prerequisites: Placement exam or permission of the instructor."
+        },
+        {
+            "subject": "MUT",
+            "code": "5316",
+            "name": "Adv Orch",
+            "units": "3.00",
+            "description": "Examination of orchestration techniques utilized by composers from the Baroque era through current times. Prerequisites: Graduate standing or permission of the instructor."
         },
         {
             "subject": "MUT",
@@ -19803,6 +19824,20 @@
             "name": "Prin App Bariton Ho",
             "units": "2.00",
             "description": "Individual instruction in applied music on baritone horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "1315",
+            "name": "Prin Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "1415",
+            "name": "Maj Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -19883,6 +19918,13 @@
         },
         {
             "subject": "MVB",
+            "code": "3435",
+            "name": "Maj Applied Tuba",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "3970L",
             "name": "Junior Rec Brass",
             "units": "0.00",
@@ -19904,6 +19946,13 @@
         },
         {
             "subject": "MVB",
+            "code": "4345",
+            "name": "Prin Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "4441",
             "name": "Major Appl Trumpet",
             "units": "3.00",
@@ -19915,6 +19964,13 @@
             "name": "Maj Appl Bariton Hor",
             "units": "3.00",
             "description": "Individual instruction in applied music on baritone horn as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "4445",
+            "name": "Maj Applied Tuba",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -20195,6 +20251,13 @@
             "name": "Jazz Piano Tech",
             "units": "1.00",
             "description": "Performance of basic jazz standards. Includes basic techniques of the instrument, chord voicing, comping, lead sheet realization for non-pianists."
+        },
+        {
+            "subject": "MVJ",
+            "code": "5254",
+            "name": "Secondary Jazz Bass",
+            "units": "1.00",
+            "description": "Individual instruction in applied jazz music on bass."
         },
         {
             "subject": "MVJ",
@@ -22326,13 +22389,6 @@
         },
         {
             "subject": "PAD",
-            "code": "6807",
-            "name": "Urb Mun Govt Admin",
-            "units": "3.00",
-            "description": "Detailed examination of problems  facing the municipal administrator; of the pressures upon the contemporary urban environment; and of the administration of large metropolitan areas comprised of numerous entities. Emphasis will be on determination of current trends, discussion of cases, and arrival at suggested solutions."
-        },
-        {
-            "subject": "PAD",
             "code": "6816",
             "name": "Rgnl St Govt Admin",
             "units": "3.00",
@@ -23597,13 +23653,6 @@
             "name": "Adv Bayesian Inference",
             "units": "3.00",
             "description": "This course will cover advanced topics related to Bayesian methods such as prior assumptions, hierarchical modeling and computational MCMC methods with various sampling algorithms. Prerequisite: PHC 6084"
-        },
-        {
-            "subject": "PHC",
-            "code": "7095C",
-            "name": "Adv Methods HSR",
-            "units": "4.00",
-            "description": "This course focuses on quantitative research methods using secondary data and introduces students to a wide spectrum of national and global health policy databases. Prerequisite: PHC 6091."
         },
         {
             "subject": "PHC",
@@ -26824,6 +26873,13 @@
             "name": "Comm for Effec Leadership",
             "units": "3.00",
             "description": "Leadership is given to those who speak well, inspire change, and motivate others. Leadership communication empowers students to become effective leaders ready to engage a global world."
+        },
+        {
+            "subject": "SPC",
+            "code": "5066",
+            "name": "Pres Skills for Archtcts",
+            "units": "3.00",
+            "description": "This course provides architecture students with experiences delivering formal presentations. Participants will learn techniques for enhancing academic and professional presentations."
         },
         {
             "subject": "SPN",
