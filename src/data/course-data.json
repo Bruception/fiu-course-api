@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1639875846,
+    "dataAsOf": 1640541972,
     "data": [
         {
             "subject": "ACG",
@@ -2943,13 +2943,6 @@
         },
         {
             "subject": "BME",
-            "code": "5200",
-            "name": "Ortho. Biomech",
-            "units": "3.00",
-            "description": "Introduction to the fundamentals of human musculoskeletal physiology and anatomy and computation of mechanical forces as it applies to orthopedic biomechanics. Prerequisite: BME 4100"
-        },
-        {
-            "subject": "BME",
             "code": "5233",
             "name": "Cardio Biomech",
             "units": "3.00",
@@ -2996,13 +2989,6 @@
             "name": "BME Dev Design",
             "units": "3.00",
             "description": "User inputs; regulatory, ethical, societal, and environmental considerations; creativity; project management; prototype construction and testing; project feasibility; writing and oral communication. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "BME",
-            "code": "6421",
-            "name": "Electrophysiology Phenom",
-            "units": "3.00",
-            "description": "Provide a balanced understanding of the origin of major electrical phenomena in biology with emphasis on the genesis and data analysis of the electro- and magneto- encephalography. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "BME",
@@ -3314,13 +3300,6 @@
         },
         {
             "subject": "BOT",
-            "code": "3810",
-            "name": "Economic Botany",
-            "units": "3.00",
-            "description": "The origins, domestication and uses of economically important plants."
-        },
-        {
-            "subject": "BOT",
             "code": "4404",
             "name": "Phycology",
             "units": "3.00",
@@ -3353,13 +3332,6 @@
             "name": "Ws: Plt Nutr Anal",
             "units": "1.00",
             "description": "Field and laboratory methods used in the assessment of nutrient availability for primary producers. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "BOT",
-            "code": "6935",
-            "name": "Adv. Topics Botany",
-            "units": "3.00",
-            "description": "An intensive study of particular plant topics not otherwise offered in the curriculum. May be repeated for credit with different subject content. Prerequisite: Graduate status."
         },
         {
             "subject": "BSC",
@@ -4347,13 +4319,6 @@
             "name": "Computer Tools for Eng",
             "units": "3.00",
             "description": "Introduction to computer software commonly used in engineering, as Excel, Mathcad or Matlab. Numerical techniques to obtain approximated solutions to engineering problems are also included. Prerequisite: PHY2048, and MAC2312 or MAC2282"
-        },
-        {
-            "subject": "CGN",
-            "code": "4011",
-            "name": "Civil Comp. Tech & Vis.",
-            "units": "3.00",
-            "description": "The course will discuss computational techniques to develop analysis codes for civil engineering applications and visualization tools to leverage for computer-aided design of civil infrastructure. Prerequisite: CGN 2420 and CES 3100."
         },
         {
             "subject": "CGN",
@@ -5530,6 +5495,13 @@
             "name": "Psych Clinical Science I",
             "units": "3.00",
             "description": "This course overviews clinical child psychology, including (a) history and philosophy of psychological clinical science and (b) challenges and controversies related to bridging science and service. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "CLP",
+            "code": "6060",
+            "name": "Affective Bases",
+            "units": "3.00",
+            "description": "A comprehensive introduction to the literature on affective science with a focus on: behavioral,biological, cognitive, and social dimensions, as well as the relevance to clinical science. Prerequisite: Graduate Standing"
         },
         {
             "subject": "CLP",
@@ -7864,13 +7836,6 @@
         },
         {
             "subject": "EDH",
-            "code": "6935",
-            "name": "Special Top in Higher Ed",
-            "units": "3.00",
-            "description": "This course provides for the examination of a particular academic topic of interest to students in higher education."
-        },
-        {
-            "subject": "EDH",
             "code": "6943",
             "name": "Practicum HEA",
             "units": "3.00",
@@ -8540,13 +8505,6 @@
             "name": "Ethical Hacking",
             "units": "3.00",
             "description": "This course will give individuals an exposure to latest hacking tools and techniques to understand the anatomy of computer attacks and teach them the countermeasures to protect their valuable data."
-        },
-        {
-            "subject": "EEL",
-            "code": "4831",
-            "name": "Embedded GUI Programming",
-            "units": "3.00",
-            "description": "Graphical user interface (GUI) for embedded system included elements and style, events, component and object oriented user interface models, and graphical application programming issues."
         },
         {
             "subject": "EEL",
@@ -11343,13 +11301,6 @@
         },
         {
             "subject": "FRE",
-            "code": "3410",
-            "name": "Adv French Conv",
-            "units": "3.00",
-            "description": "To develop oral proficiency skills and a greater awareness of French culture."
-        },
-        {
-            "subject": "FRE",
             "code": "3420",
             "name": "Rev Gram/Writing I",
             "units": "3.00",
@@ -12246,13 +12197,6 @@
         },
         {
             "subject": "HFT",
-            "code": "3006",
-            "name": "El &Soft Skills for Hosp.",
-            "units": "3.00",
-            "description": "This course will help students develop character traits and interpersonal skills associated with high emotional intelligence to improve work relationships with others."
-        },
-        {
-            "subject": "HFT",
             "code": "3033",
             "name": "Sustainability Team Mgmt",
             "units": "3.00",
@@ -12530,13 +12474,6 @@
             "name": "Hosp Analytics & Rev Mgt",
             "units": "3.00",
             "description": "Detailed study of methods used in serving and tracking guest history and yield management in the hospitality industry. Demonstrates state-of-the-art technology and concepts."
-        },
-        {
-            "subject": "HFT",
-            "code": "4445",
-            "name": "Hosp Tech Design Thinking",
-            "units": "3.00",
-            "description": "This course focuses on systemic approaches to innovation in the hospitality industry. Includes hands-on experiences in the principles of design thinking and leadership to solve business challenges."
         },
         {
             "subject": "HFT",
@@ -13772,6 +13709,20 @@
         },
         {
             "subject": "IND",
+            "code": "5993",
+            "name": "Marine vessel design",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "IND",
+            "code": "5994",
+            "name": "Exhibition Design",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "IND",
             "code": "6255",
             "name": "IND Grad 1",
             "units": "6.00",
@@ -14658,13 +14609,6 @@
             "name": "Italian Cinema 1945-70",
             "units": "3.00",
             "description": "Studies the Italian Cinema from the end of the World War II (neorealism) until the early 70's (Comedy Italian Style)."
-        },
-        {
-            "subject": "ITA",
-            "code": "3420",
-            "name": "Rev Gram/Writing I",
-            "units": "3.00",
-            "description": "Practice in contemporary usage through selected readings in culture and civilization. Development of writing and speaking ability in extemporaneous contexts. The course will be conducted exclusively in the target language."
         },
         {
             "subject": "JOU",
@@ -16320,6 +16264,13 @@
         },
         {
             "subject": "LIN",
+            "code": "4430",
+            "name": "Gen Moph & Syntax",
+            "units": "3.00",
+            "description": "The study of linguistic methodology for determining the morphological and syntactic structures of languages."
+        },
+        {
+            "subject": "LIN",
             "code": "4680",
             "name": "Mod English Grammar",
             "units": "3.00",
@@ -17423,13 +17374,6 @@
             "name": "Applied Linear Alg",
             "units": "3.00",
             "description": "Vector spaces and linear maps, solutions of linear systems, orthogonal projection and QR factorization, determinant and eigenvalues of a matrix. Prerequisites: MAS 3105 and MAA 3200."
-        },
-        {
-            "subject": "MAS",
-            "code": "5315",
-            "name": "Algebraic Geometry",
-            "units": "3.00",
-            "description": "Introduction to the theory of affine and projective schemes, coherent sheaves and sheaf cohomology. Application to studying algebraic varieties. Prerequisites: MAS 4301, MAA 4402."
         },
         {
             "subject": "MAT",
@@ -19904,6 +19848,13 @@
         },
         {
             "subject": "MVB",
+            "code": "3334",
+            "name": "Prin App Bariton Ho",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on baritone horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "3335",
             "name": "Prin Applied Tuba",
             "units": "2.00",
@@ -20461,6 +20412,13 @@
             "name": "Prin App Percussion",
             "units": "2.00",
             "description": "Individual instruction in applied music on percussion as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVP",
+            "code": "1411",
+            "name": "Major App Percussion",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on percussion as a major instrument. Music majors only."
         },
         {
             "subject": "MVP",
@@ -21140,6 +21098,13 @@
             "name": "Principal App Flute",
             "units": "2.00",
             "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "3333",
+            "name": "Prin App Clarinet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -22760,13 +22725,6 @@
         },
         {
             "subject": "PCB",
-            "code": "4232",
-            "name": "Bio Aids",
-            "units": "3.00",
-            "description": "An overview of Acquired Immune Deficiency Syndrome (AIDS) from biomedical and psychosocial perspectives."
-        },
-        {
-            "subject": "PCB",
             "code": "4233",
             "name": "Immunology",
             "units": "3.00",
@@ -22932,13 +22890,6 @@
             "name": "Adv Personal Train",
             "units": "3.00",
             "description": "This class is designed to prepare students for the National Strength Professionals Associations Certified Conditioning Specialist Examination. Prerequisite: Bachelor of Science in Physical Education (BSPE) major"
-        },
-        {
-            "subject": "PEO",
-            "code": "4001",
-            "name": "Prin Of Coaching",
-            "units": "3.00",
-            "description": "Prepares students to examine the organization, philosophies, and skills necessary for coaching sports in diverse educational environments."
         },
         {
             "subject": "PEP",
@@ -23740,13 +23691,6 @@
         },
         {
             "subject": "PHC",
-            "code": "7723",
-            "name": "PH Survey Research",
-            "units": "3.00",
-            "description": "This course facilitates the systematic identification, interpretation, and understanding of survey research concepts, principles, and practices in public health. Prerequisites: PHC 6000, PHC 6065, PHC 6410, PHC 6706."
-        },
-        {
-            "subject": "PHC",
             "code": "7731C",
             "name": "Adv Neurotox Res Meth",
             "units": "2.00",
@@ -23835,13 +23779,6 @@
             "name": "Hellenistic & Roman Phil",
             "units": "3.00",
             "description": "Philosophies of Europe, North Africa, and the Eastern Mediterranean 3rd Century BCE to 3rd Century CE. Focus on Hellenistic & Roman philosophies such as Platonism, Aristotelianism, Stoicism Epicurean."
-        },
-        {
-            "subject": "PHH",
-            "code": "4930",
-            "name": "A Major Philosopher",
-            "units": "3.00",
-            "description": "This course will examine in detail the works of a major figure in the history of philosophy. Course may be repeated on a different philosopher."
         },
         {
             "subject": "PHI",
@@ -23933,13 +23870,6 @@
             "name": "Philosophy of Sport",
             "units": "3.00",
             "description": "Explores the questions and problems of the Philosophy of Sport. Areas include metaphysical, ethical, political theoretical, aesthetic and conceptual issues arising from sport practice and spectating."
-        },
-        {
-            "subject": "PHI",
-            "code": "4130",
-            "name": "Symbolic Logic",
-            "units": "3.00",
-            "description": "This course provides an introduction to symbolic logic. Emphasis is upon both the formal techniques of analysis of argument and upon the theoretical aspects of formal logic."
         },
         {
             "subject": "PHI",
@@ -24038,13 +23968,6 @@
             "name": "Love & Sexuality",
             "units": "3.00",
             "description": "Examines historical and contemporary philosophical writings about human sexuality and erotic love. Topics include attraction, objectification, violence, marital and nonmarital sex, love and rationality."
-        },
-        {
-            "subject": "PHM",
-            "code": "4041",
-            "name": "Thought/Community/Inquiry",
-            "units": "3.00",
-            "description": "Investigates the notion of a community of philosophical inquiry, its emergence, its epistemological and pedagogical commitments and practical outcomes"
         },
         {
             "subject": "PHM",
@@ -25965,13 +25888,6 @@
             "description": "Provides training in the acquisition and application of basic language skills."
         },
         {
-            "subject": "SAL",
-            "code": "1120",
-            "name": "Urdu I",
-            "units": "5.00",
-            "description": "First semester of beginning course in spoken and written Urdu, for students with no prior knowledge of the language."
-        },
-        {
             "subject": "SCE",
             "code": "4194",
             "name": "Pers in Sci and Math Ed",
@@ -26061,6 +25977,13 @@
             "name": "First Year Exper",
             "units": "1.00",
             "description": "A review of basic skills and competencies necessary to college success including time management, study skills, and academic policies/procedures.  Includes mandated information."
+        },
+        {
+            "subject": "SLS",
+            "code": "1510",
+            "name": "Strategies for Success",
+            "units": "1.00",
+            "description": "Improve students' academic and personal development in the areas of learning strategies, study skills, time management, problem solving, goal setting, and how to use resources effectively."
         },
         {
             "subject": "SLS",
@@ -27464,13 +27387,6 @@
         },
         {
             "subject": "STA",
-            "code": "6167",
-            "name": "Stat Meth Res II",
-            "units": "3.00",
-            "description": "For non-mathematical sciences graduate students. A non-calculus exposition of methods and applications of statistical techniques for the analysis of data. Statistical packages will be used. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "STA",
             "code": "6176",
             "name": "Biostatistics",
             "units": "3.00",
@@ -28283,13 +28199,6 @@
         },
         {
             "subject": "TPP",
-            "code": "4532",
-            "name": "Stage Combat II",
-            "units": "3.00",
-            "description": "Advanced study of combat techniques for the stage focusing on armed combat, including quarterstaff and broadsword."
-        },
-        {
-            "subject": "TPP",
             "code": "4600",
             "name": "Playwriting I",
             "units": "3.00",
@@ -28308,13 +28217,6 @@
             "name": "Adv Actor's Wkshp I",
             "units": "3.00",
             "description": "This course will concentrate on the acting demands of a specific period, style, genre, or playwright."
-        },
-        {
-            "subject": "TPP",
-            "code": "4930",
-            "name": "Spec Top Thea Perf",
-            "units": "0.00",
-            "description": "Studio sessions covering selected topics of current interest in theatre performance. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "TRA",
@@ -28427,13 +28329,6 @@
             "name": "Prin Of Esol Testing",
             "units": "3.00",
             "description": "Advanced study and research on current issues in the field of ESOL testing. Topics include principles and practices of ESOL testing for classroom use, communicative language test development, criteria for evaluating testing instruments, and study of standardized ESOL tests."
-        },
-        {
-            "subject": "TSL",
-            "code": "6375C",
-            "name": "Esol Pron",
-            "units": "3.00",
-            "description": "A course in the TESOL Master's program investigating the theories and methods of teaching pronunciation skills to ESOL students."
         },
         {
             "subject": "TSL",
