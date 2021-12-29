@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1640541972,
+    "dataAsOf": 1640820629,
     "data": [
         {
             "subject": "ACG",
@@ -8144,6 +8144,13 @@
         },
         {
             "subject": "EEE",
+            "code": "4754",
+            "name": "Intro Mobile Forensics",
+            "units": "3.00",
+            "description": "The course covers the theoretical and practical aspects of Mobile device forensics focusing on the identification, preservation, collection, analysis, and reporting techniques and tools. Prerequisite: EEL 4802"
+        },
+        {
+            "subject": "EEE",
             "code": "5427C",
             "name": "Adv Nanofab",
             "units": "3.00",
@@ -15424,13 +15431,6 @@
         },
         {
             "subject": "LAW",
-            "code": "6340",
-            "name": "Conflicts of Law",
-            "units": "2.00",
-            "description": "This course deals with the special problems that arise when the facts or the parties in a case have contacts with more than one state or country. These problems relate to: jurisdiction in personam, in rem and quasi-in rem; choice of the applicable law; and after rendition of a judgment, that judgment's recognition and enforcement in other states and enforcement in other states and\r\ncountries. Jurisdictional and choice of law rules are studied with special emphasis on situations involving torts, contracts and property transactions cutting across state and national boundary lines. Also considered are interstate and international problems concerning marriage, divorce, and decedents' estates."
-        },
-        {
-            "subject": "LAW",
             "code": "6350",
             "name": "Law & Procedure: US & Florida",
             "units": "4.00",
@@ -15561,13 +15561,6 @@
             "name": "Corp & P'Shp Tax",
             "units": "2.00",
             "description": "The course examines the income tax treatment of corporations and their shareholders and of partnerships and their partners arising from various transactions including incorporations, distributions, redemptions, liquidations, and non-taxable acquisitive reorganizations. Prerequisite: Federal Income Tax."
-        },
-        {
-            "subject": "LAW",
-            "code": "6621",
-            "name": "Estate and Gift Tax",
-            "units": "2.00",
-            "description": "This course covers federal estate and gift taxes and their impact\r\non gratuitous property transactions during life and at death. The course includes brief consideration of the tax on generation skipping transfers. Prerequisite: Federal Income Tax, Wills and Trusts."
         },
         {
             "subject": "LAW",
