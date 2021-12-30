@@ -29,7 +29,7 @@ jobs:
       - name: Run course update
         working-directory: ./src/scripts
         run: |
-          MAX_RETRIES=2 MAX_WORKERS=25 OUTPUT_FILE=course-data.json python3 ./courseDataUpdate.py
+          MAX_RETRIES_PER_JOB=3 MAX_WORKERS=25 OUTPUT_FILE=course-data.json python3 ./update-course-data.py
           mv ./course-data.json ../data/
       - name: Create commits
         run: |

@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1636246352,
+    "dataAsOf": 1640541972,
     "data": [
         {
             "subject": "ACG",
@@ -63,13 +63,6 @@
             "name": "Thry & Rsrch In Actg",
             "units": "3.00",
             "description": "An evaluative overview of the classical literature in financial accounting and the contemporary empirical research published in the leading scholarly journals. Examined are income determination theories, normative accounting principles, accounting information and stock prices, and principal-agent relationships. Prerequisite: Permission of Doctoral advisor in Accounting."
-        },
-        {
-            "subject": "ACG",
-            "code": "7886",
-            "name": "Sem:Empir Rsrch Meth",
-            "units": "3.00",
-            "description": "Study of research design, methods of data collection and analysis and problems of measurement in accounting research. Empirical research studies in accounting are integrated throughout to illustrate and analyze the structural problems of research design as well as the strengths and weaknesses of various acceptable paradigms. Prerequisite: Permission of doctoral advisor in Accounting."
         },
         {
             "subject": "ACG",
@@ -255,13 +248,6 @@
         },
         {
             "subject": "ADV",
-            "code": "4711",
-            "name": "Portfolio Workshop",
-            "units": "3.00",
-            "description": "Focus will be directed on building creative portfolio pieces for multiplication campaigns. Prerequisites: ADV 3200"
-        },
-        {
-            "subject": "ADV",
             "code": "4800",
             "name": "Bold Practicum 2",
             "units": "3.00",
@@ -342,7 +328,7 @@
             "code": "5107",
             "name": "Anws Teach Institute",
             "units": "3.00",
-            "description": "Teachers Institute on literature, culture, history, politics designed to meet Florida State Teachers Certification requirements. Includes instruction on pedagogy, practical teaching methods, and FCAT."
+            "description": "Offers teachers' Institute on literature, culture, history, politics designed to meet Florida State Teachers Certification requirements which includes instruction on pedagogy."
         },
         {
             "subject": "AFA",
@@ -1137,6 +1123,13 @@
         },
         {
             "subject": "ARC",
+            "code": "6229",
+            "name": "Theories of the Digital",
+            "units": "3.00",
+            "description": "This course explores theories of the digital. The aim is to develop a theoretical framework to understand the impact of the digital on architectural design, fabrication and urban life. Prerequisite: Admission to the doctoral program."
+        },
+        {
+            "subject": "ARC",
             "code": "6280",
             "name": "Pro Office Practice",
             "units": "3.00",
@@ -1148,6 +1141,13 @@
             "name": "Architectural Design 10",
             "units": "6.00",
             "description": "Architectural project emphasizing design development preparation of details and design documents for buildings of intermediate complexity. Prerequisite: ARC 5362 Corequisites: ARC 6910"
+        },
+        {
+            "subject": "ARC",
+            "code": "6761",
+            "name": "Miami Urban Studies",
+            "units": "3.00",
+            "description": "Studies concerning the social, political, economic and environmental of Urbanism in\nSouthern Florida in general and Miami in particular. Prerequisite: Admission into the Doctoral Program."
         },
         {
             "subject": "ARC",
@@ -1165,6 +1165,13 @@
         },
         {
             "subject": "ARC",
+            "code": "6949",
+            "name": "ARE Preparation",
+            "units": "3.00",
+            "description": "Preparation to take the Architect Registration Exam. Prerequisite: ARC 5361 and ARC 5483"
+        },
+        {
+            "subject": "ARC",
             "code": "6970",
             "name": "Masters Project",
             "units": "6.00",
@@ -1176,6 +1183,20 @@
             "name": "Doctoral Project",
             "units": "3.00",
             "description": "Coursework under the direction of faculty for the completion of the Doctoral\nProject by a candidate for the degree of Doctorate of Design."
+        },
+        {
+            "subject": "ARC",
+            "code": "7981",
+            "name": "Adv Research Methods",
+            "units": "3.00",
+            "description": "Advanced methods of data acquisition, analysis, and interpretation used in\narchitectural research."
+        },
+        {
+            "subject": "ARC",
+            "code": "7982",
+            "name": "Doctoral Defense",
+            "units": "3.00",
+            "description": "The formal presentation of the Doctoral Project. Prerequisite: ARC 7980, 12 credits, Corequisite: ARC 7980, 9 credits."
         },
         {
             "subject": "ARE",
@@ -2656,6 +2677,13 @@
         },
         {
             "subject": "BCN",
+            "code": "5772",
+            "name": "Mgmt Const Org",
+            "units": "3.00",
+            "description": "This course studies the management of a construction company. Topics included are: company organization, incorporation structures, policies and procedures, finance, accounting, information modeling, bidding strategies, and operation."
+        },
+        {
+            "subject": "BCN",
             "code": "5774",
             "name": "Topics In Int Const",
             "units": "3.00",
@@ -2737,20 +2765,6 @@
             "name": "Supervised Research",
             "units": "0.00",
             "description": "Graduate level research carried out under the supervision of a faculty member."
-        },
-        {
-            "subject": "BCN",
-            "code": "6916",
-            "name": "Dev In Const Tech",
-            "units": "3.00",
-            "description": "Study of advanced field techniques and emerging uses worldwide. Information flow and creativity are highlighted as crucial elements which stimulate new developments. This course prepares the students to understand and deal with concepts of change."
-        },
-        {
-            "subject": "BCN",
-            "code": "6935",
-            "name": "Sem Constr Mgt",
-            "units": "3.00",
-            "description": "Advanced study of problems, trends, and issues in a time of rapid change in building and management technology. Topics selected or developed by class."
         },
         {
             "subject": "BCN",
@@ -2929,6 +2943,13 @@
         },
         {
             "subject": "BME",
+            "code": "5233",
+            "name": "Cardio Biomech",
+            "units": "3.00",
+            "description": "Functional cardiovascular physiology and anatomy; analysis and computation of cardiovascular flow; constitutive properties of tissue and analyses of relevant deformation and stress profiles. Prerequisite: Permission from instructor."
+        },
+        {
+            "subject": "BME",
             "code": "5336",
             "name": "Cell/Tissue Eng I",
             "units": "3.00",
@@ -2968,13 +2989,6 @@
             "name": "BME Dev Design",
             "units": "3.00",
             "description": "User inputs; regulatory, ethical, societal, and environmental considerations; creativity; project management; prototype construction and testing; project feasibility; writing and oral communication. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "BME",
-            "code": "6421",
-            "name": "Electrophysiology Phenom",
-            "units": "3.00",
-            "description": "Provide a balanced understanding of the origin of major electrical phenomena in biology with emphasis on the genesis and data analysis of the electro- and magneto- encephalography. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "BME",
@@ -3279,24 +3293,10 @@
         },
         {
             "subject": "BOT",
-            "code": "3353L",
-            "name": "Plant Morphology Lab",
-            "units": "1.00",
-            "description": "Origin and evolution of plants, especially vascular plants of tropical origin. Analysis of vascular plant anatomy and morphology, emphasizing the underlying principles of plant construction."
-        },
-        {
-            "subject": "BOT",
             "code": "3663",
             "name": "Tropical Botany",
             "units": "3.00",
             "description": "How environmental factors affect the distribution of vegetation, and the morphology and physiology of plants in the tropics. Emphasis on tropical plants of economic importance."
-        },
-        {
-            "subject": "BOT",
-            "code": "3810",
-            "name": "Economic Botany",
-            "units": "3.00",
-            "description": "The origins, domestication and uses of economically important plants."
         },
         {
             "subject": "BOT",
@@ -3332,13 +3332,6 @@
             "name": "Ws: Plt Nutr Anal",
             "units": "1.00",
             "description": "Field and laboratory methods used in the assessment of nutrient availability for primary producers. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "BOT",
-            "code": "6935",
-            "name": "Adv. Topics Botany",
-            "units": "3.00",
-            "description": "An intensive study of particular plant topics not otherwise offered in the curriculum. May be repeated for credit with different subject content. Prerequisite: Graduate status."
         },
         {
             "subject": "BSC",
@@ -3388,6 +3381,13 @@
             "name": "Biology career planning",
             "units": "1.00",
             "description": "We explore career paths, develop professional skills, review what is needed for your\npath and plan your remaining time at FIU to advance your goals. For sophomore level\nand transfer biology majors."
+        },
+        {
+            "subject": "BSC",
+            "code": "2085",
+            "name": "Anatomy & Physiology I",
+            "units": "3.00",
+            "description": "Anatomy and Physiology I is the first of a two-course sequence. It is a study of the structure and function of human biology including cells, tissues, organs and systems. For non-biology majors. Prerequisite or corequisite: BSC 2085L"
         },
         {
             "subject": "BSC",
@@ -3776,13 +3776,6 @@
         },
         {
             "subject": "CAP",
-            "code": "5109",
-            "name": "Advanced HCI",
-            "units": "3.00",
-            "description": "Fundamental concepts of human-computer interaction, cognitive models, user-centered design principles, evaluation techniques, and emerging technologies in various contexts and domains."
-        },
-        {
-            "subject": "CAP",
             "code": "5507",
             "name": "Game Theory",
             "units": "3.00",
@@ -4161,13 +4154,6 @@
         },
         {
             "subject": "CDA",
-            "code": "4101",
-            "name": "Structure Comp Org",
-            "units": "3.00",
-            "description": "Covers the levels of organization in a computer: Design of memory, buses, ALU, CPU; design of microprogram. Covers virtual memory, I/O, multiple processes, CISC, RISC and parallel architectures. Prerequisites: CDA 3103, COP 3337 and (MAD 2104 or COT 3100)."
-        },
-        {
-            "subject": "CDA",
             "code": "4625",
             "name": "Intro to Mobile Robotics",
             "units": "3.00",
@@ -4333,13 +4319,6 @@
             "name": "Computer Tools for Eng",
             "units": "3.00",
             "description": "Introduction to computer software commonly used in engineering, as Excel, Mathcad or Matlab. Numerical techniques to obtain approximated solutions to engineering problems are also included. Prerequisite: PHY2048, and MAC2312 or MAC2282"
-        },
-        {
-            "subject": "CGN",
-            "code": "4011",
-            "name": "Civil Comp. Tech & Vis.",
-            "units": "3.00",
-            "description": "The course will discuss computational techniques to develop analysis codes for civil engineering applications and visualization tools to leverage for computer-aided design of civil infrastructure. Prerequisite: CGN 2420 and CES 3100."
         },
         {
             "subject": "CGN",
@@ -4536,6 +4515,13 @@
             "name": "Interm CHI II",
             "units": "3.00",
             "description": "To improve students' speaking, writing, listening, reading skills in Chinese. Students learn how to use useful expressions of experience and thought."
+        },
+        {
+            "subject": "CHI",
+            "code": "3400",
+            "name": "Interm Chi Conv",
+            "units": "3.00",
+            "description": "Focuses on conversation. Topics include time, numbers, shopping, clothing, food, transportation, education, culture, etc."
         },
         {
             "subject": "CHI",
@@ -5512,10 +5498,10 @@
         },
         {
             "subject": "CLP",
-            "code": "6426",
-            "name": "Neuropsychology",
+            "code": "6060",
+            "name": "Affective Bases",
             "units": "3.00",
-            "description": "Introduces students to basic foundations and some advanced concepts in Neuropsychology, with a focus on clinical applications. Topics covered will include functional neuroanatomy, brain disorders across the lifespan, and assessment of neuropsychological functions. Prerequisite: Permission of the instructor."
+            "description": "A comprehensive introduction to the literature on affective science with a focus on: behavioral,biological, cognitive, and social dimensions, as well as the relevance to clinical science. Prerequisite: Graduate Standing"
         },
         {
             "subject": "CLP",
@@ -5547,6 +5533,13 @@
         },
         {
             "subject": "CLP",
+            "code": "6473",
+            "name": "Assessment and Treatment III",
+            "units": "3.00",
+            "description": "Provides an overview of theory, research, and evidenced-based practices relevant for evidence based assessment and intervention for use with developmental, learning and pediatric disorders. Prerequisite: CLP 5007."
+        },
+        {
+            "subject": "CLP",
             "code": "6530",
             "name": "Dissem and Implement Research",
             "units": "3.00",
@@ -5558,6 +5551,13 @@
             "name": "Adv Clinical Prac",
             "units": "1.00",
             "description": "Allows students to practice clinical skills through participation in interactive classroom exercises while gaining clinical experience. Prerequisite: Clinical Practicum (CLP 6945)."
+        },
+        {
+            "subject": "CLP",
+            "code": "6947",
+            "name": "Foundations Practicum II",
+            "units": "3.00",
+            "description": "This course provides a comprehensive introduction to the principles of psychological treatments for children and adolescents, with applied practice and supervision in psychotherapy techniques. Prerequisites: PSY 5939 (Foundation Practicum I: Assessment)."
         },
         {
             "subject": "CLP",
@@ -6456,6 +6456,13 @@
             "description": "Physical properties, equations of flow/mass transport, saturated/unsaturated zone, wells, pumping tests, quality/contamination control, analytical solutions, introduction to numerical models/computer codes. Prerequisite: Permission of the instructor."
         },
         {
+            "subject": "CWR",
+            "code": "5635",
+            "name": "Optimization Water Res.",
+            "units": "3.00",
+            "description": "This course presents the fundamentals of optimization techniques and their applications to various water resources engineering problems such as flood control and design of hydraulic structures. Prerequisite: CWR 3540 or permission of instructor"
+        },
+        {
             "subject": "CYP",
             "code": "3003",
             "name": "Intro Commun Psy",
@@ -6517,6 +6524,13 @@
             "name": "Psy Infnt/Childhood",
             "units": "3.00",
             "description": "An introduction to human development focusing on infancy and childhood. Particular attention will be devoted to intellectual, personality, and social development. Consideration will be given to both theoretical and empirical perspectives."
+        },
+        {
+            "subject": "DEP",
+            "code": "3115",
+            "name": "Infant Knowledge",
+            "units": "3.00",
+            "description": "Provides a comprehensive review of current methods, theories, and findings in cognitive and perceptual development in the first year of life. Special emphasis on the bases of knowledge; object and event perception, memory, and imitation."
         },
         {
             "subject": "DEP",
@@ -6817,21 +6831,21 @@
             "code": "3110",
             "name": "Web Production",
             "units": "3.00",
-            "description": "This course provides a strong foundation in Web production for media professionals, including HTML, CSS, responsive design, Javascript, basic product research and user testing. Prerequisite: RTV 3531."
+            "description": "This course provides a strong foundation in Web production for media professionals, including HTML, CSS, responsive design, Javascript, basic product research and user testing. Prerequisites: MMC 3003, RTV 3531, 2.85 cumulative GPA."
         },
         {
             "subject": "DIG",
             "code": "3146",
             "name": "Social Media",
             "units": "3.00",
-            "description": "This course is an introduction to social media platforms, audiences and content creation strategies. Students will use metrics to create and assess content for diverse audiences. Prerequisite: RTV 3531"
+            "description": "This course is an introduction to social media platforms, audiences and content creation strategies. Students will use metrics to create and assess content for diverse audiences. Prerequisite: MMC 3003 and 2.85 cumulative GPA or admission to Digital Communication and Media Certificate"
         },
         {
             "subject": "DIG",
             "code": "3181",
             "name": "Interactive Visualization",
             "units": "3.00",
-            "description": "This course provides a foundation in data analysis and data visualization for media professionals. Students learn to gather, process, analyze and visualize data in combination with storytelling. Prerequisite: DIG 3110"
+            "description": "This course provides a foundation in data analysis and data visualization for media professionals. Students learn to gather, process, analyze and visualize data in combination with storytelling. Prerequisites: MMC 3003, (DIG 3110 or JOU 3117), 2.85 cumulative GPA."
         },
         {
             "subject": "DIG",
@@ -6845,7 +6859,7 @@
             "code": "4293",
             "name": "Multimedia Production 2",
             "units": "3.00",
-            "description": "This is a project-based course that adds to the student's knowledge of multimedia production. There will be and emphasis on video production and streaming, including studio production projects. Prerequisites:  MMC 3003, MMC 3123, RTV 3531, (JOU 2100 or DIG 3001 or RTV 3007), 2.85 cumulative GPA."
+            "description": "This is a project-based course that adds to the student's knowledge of multimedia production. There will be and emphasis on video production and streaming, including studio production projects. Prerequisites:  MMC 3003, MMC 3123, RTV 3531, 2.85 cumulative GPA."
         },
         {
             "subject": "DIG",
@@ -6859,7 +6873,7 @@
             "code": "4552",
             "name": "Advanced Multimedia Production",
             "units": "3.00",
-            "description": "This capstone course covers advanced techniques associated with interactive media production, including design, digital storytelling, usability theory, and current best practices. Prerequisites: MMC 3003, MMC 3123, (RTV 4101 or MMC4302 or DIG 3146), (RTV 3511 or MMC 4631 or DIG 3253), RTV 3531, DIG 4293, (DIG 4800 or RTV 4101), (DIG 3110 or RTV 3007), (DIG 4394 or MMC4631 or RTV3007), 2.85 cumulative GPA"
+            "description": "This capstone course covers advanced techniques associated with interactive media production, including design, digital storytelling, usability theory, and current best practices. Prerequisites: MMC 3003, MMC 3123, (RTV 4101 or MMC4302 or DIG 3146), (RTV 3511 or MMC 4631 or DIG 3253), RTV 3531, DIG 4293, (DIG 3181 or DIG 3253), (DIG 4800 or RTV 4101), (DIG 3110 or RTV 3007), (DIG 4394 or MMC4631 or RTV3007), 2.85 cumulative GPA"
         },
         {
             "subject": "DIG",
@@ -7073,6 +7087,13 @@
         },
         {
             "subject": "ECO",
+            "code": "4713",
+            "name": "Intl Macroeconomics",
+            "units": "3.00",
+            "description": "Analysis of output, inflation, business cycles and economic policy in open economy settings; exchange rate regimes (fixed versus flexible exchange rate); fiscal, monetary, and exchange rate policies."
+        },
+        {
+            "subject": "ECO",
             "code": "4903",
             "name": "Undergrad Seminar",
             "units": "3.00",
@@ -7248,13 +7269,6 @@
         },
         {
             "subject": "ECS",
-            "code": "3003",
-            "name": "Compare Econ Systems",
-            "units": "3.00",
-            "description": "Analysis of alternative economic systems. Emphasis on the contrast between market-oriented capitalist economies and Soviet-style planned economies, and on the process of transition from planned to market-oriented systems."
-        },
-        {
-            "subject": "ECS",
             "code": "3013",
             "name": "Intro To Econ Develo",
             "units": "3.00",
@@ -7273,6 +7287,13 @@
             "name": "Economics Of Asia",
             "units": "3.00",
             "description": "Economic analysis of the problems of poverty, malnutrition and income inequality in South Asia. Rural poverty and agricultural transformation. The East Asian Miracle. The Asian Crisis. Economic liberalization in Asia."
+        },
+        {
+            "subject": "ECS",
+            "code": "3402",
+            "name": "Pol Eco Of So Americ",
+            "units": "3.00",
+            "description": "An introduction to the political economy of the South American countries, with emphasis on the opening of the region's economies, privatization and deregulation, debt crisis, foreign investment, poverty, income distribution, human resources, and regional trade agreements."
         },
         {
             "subject": "ECS",
@@ -7458,13 +7479,6 @@
         },
         {
             "subject": "EDF",
-            "code": "4655",
-            "name": "Case Studies Ed. Policy",
-            "units": "3.00",
-            "description": "This course uses a multidisciplinary approach to examine and analyze education policy. The course will investigate historic education policy issues and current policy debates"
-        },
-        {
-            "subject": "EDF",
             "code": "5255",
             "name": "Classrm Management",
             "units": "3.00",
@@ -7619,24 +7633,10 @@
         },
         {
             "subject": "EDG",
-            "code": "4734",
-            "name": "Ed/Cul Prep for Int Teach",
-            "units": "3.00",
-            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
             "code": "4903",
             "name": "Independ Study Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to gain or enhance knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
-        },
-        {
-            "subject": "EDG",
-            "code": "4940",
-            "name": "Inter Teaching Internship",
-            "units": "3.00",
-            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
         },
         {
             "subject": "EDG",
@@ -7661,17 +7661,10 @@
         },
         {
             "subject": "EDG",
-            "code": "5736",
-            "name": "Prep Inter Teach Intern",
-            "units": "3.00",
-            "description": "This course is to prepare students for an international teaching internship. Students will examine educational and cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
-            "code": "5942",
-            "name": "Intl Educational Internship",
-            "units": "3.00",
-            "description": "Students will complete an international internship and be required to teach in international schools, engage in cultural immersion experiences, and conduct service-learning projects. Prerequisite: EDG 5XXX Preparation for International Teaching Internship"
+            "code": "5910",
+            "name": "Independ Resrch Education",
+            "units": "0.00",
+            "description": "Designed to provide an opportunity to enhance their educational research knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
         },
         {
             "subject": "EDG",
@@ -7840,13 +7833,6 @@
             "name": "Dir Stud Higher Ed",
             "units": "0.00",
             "description": "Specialized intensive study in higher education and/or community college is in areas of interest to the student and is subject to approval of program advisor. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "EDH",
-            "code": "6935",
-            "name": "Special Top in Higher Ed",
-            "units": "3.00",
-            "description": "This course provides for the examination of a particular academic topic of interest to students in higher education."
         },
         {
             "subject": "EDH",
@@ -8130,6 +8116,13 @@
         },
         {
             "subject": "EEE",
+            "code": "4463",
+            "name": "MEMS I",
+            "units": "3.00",
+            "description": "This course will give the students an introduction to MEMS-based microsystems with an emphasis on design and analysis of interdisciplinary systems at microscale."
+        },
+        {
+            "subject": "EEE",
             "code": "4510",
             "name": "Intro To Dsp",
             "units": "3.00",
@@ -8148,13 +8141,6 @@
             "name": "Intro Network Forensics",
             "units": "3.00",
             "description": "The course covers the theoretical and practical aspects of the foundations of computer network security, incident response tools and techniques. Prerequisite: Senior Standing"
-        },
-        {
-            "subject": "EEE",
-            "code": "4754",
-            "name": "Intro Mobile Forensics",
-            "units": "3.00",
-            "description": "The course covers the theoretical and practical aspects of Mobile device forensics focusing on the identification, preservation, collection, analysis, and reporting techniques and tools. Prerequisite: EEL 4802"
         },
         {
             "subject": "EEE",
@@ -8225,6 +8211,13 @@
             "name": "Adv Quantum Computers",
             "units": "3.00",
             "description": "This course provides advanced principles of quantum computers and quantum information systems with in-depth analysis and state of the art physical implementations."
+        },
+        {
+            "subject": "EEE",
+            "code": "6466",
+            "name": "Microsystems and MEMS",
+            "units": "3.00",
+            "description": "This course will give students an introduction with an emphasis on design and analysis of fundamentals of electrochemical sensing and integration into microfluidic systems. Prerequisites: EEL 3396 or permission of the instructor."
         },
         {
             "subject": "EEE",
@@ -8385,7 +8378,7 @@
             "code": "4241",
             "name": "Power Electronics",
             "units": "3.00",
-            "description": "Power semiconductor devices, power supplies, DC choppers, AC voltage controller, power inverter, AC and DC drives."
+            "description": "Power semiconductor devices, power supplies, DC choppers, AC voltage controller, power inverter, AC and DC drives. Prerequisites:  EEE3303C or permission of instructor"
         },
         {
             "subject": "EEL",
@@ -8512,13 +8505,6 @@
             "name": "Ethical Hacking",
             "units": "3.00",
             "description": "This course will give individuals an exposure to latest hacking tools and techniques to understand the anatomy of computer attacks and teach them the countermeasures to protect their valuable data."
-        },
-        {
-            "subject": "EEL",
-            "code": "4831",
-            "name": "Embedded GUI Programming",
-            "units": "3.00",
-            "description": "Graphical user interface (GUI) for embedded system included elements and style, events, component and object oriented user interface models, and graphical application programming issues."
         },
         {
             "subject": "EEL",
@@ -8823,6 +8809,13 @@
         },
         {
             "subject": "EEL",
+            "code": "6994",
+            "name": "Adv Fields and Waves",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "EEL",
             "code": "7910",
             "name": "Advanced Research",
             "units": "0.00",
@@ -9002,13 +8995,6 @@
             "name": "Research Ed Psy/Se",
             "units": "3.00",
             "description": "Research activities required for Doctoral students in special education prior to candidacy and dissertation. Serves as a bridge between courses and the comprehensive examination. Prerequisite: Doctoral standing."
-        },
-        {
-            "subject": "EEX",
-            "code": "7980",
-            "name": "Ed.D. Dissertation",
-            "units": "0.00",
-            "description": "Original contribution to knowledge in major field. Prerequisites: Permission of Major Professor and Doctoral Candidacy."
         },
         {
             "subject": "EGM",
@@ -9331,6 +9317,13 @@
             "name": "Ind Fin Decisions",
             "units": "3.00",
             "description": "The use of financial techniques and data in planning, controlling and coordinating industrial activities. This course will familiarize the student with accounting concepts and analytical methods."
+        },
+        {
+            "subject": "EIN",
+            "code": "5436",
+            "name": "Logistics Reg Compliance",
+            "units": "3.00",
+            "description": "Cargo security compliance; declaration and fiscal compliance; customs warehouse management; transportation regulatory services; industry program support; government solutions and technology solutions. Prerequisites: Senior or Graduate standing."
         },
         {
             "subject": "EIN",
@@ -9761,13 +9754,6 @@
         },
         {
             "subject": "EML",
-            "code": "5808",
-            "name": "Robot Control",
-            "units": "3.00",
-            "description": "State-space equations of robots. Controller design based on linearization, nonlinearity cancellation, optimal control, adaptive control and other methods. Stability analysis, performance comparison. Prerequisites: EGN 3321, EML 4804, or equivalent."
-        },
-        {
-            "subject": "EML",
             "code": "5825",
             "name": "Sensors/App Mach Int",
             "units": "3.00",
@@ -9974,7 +9960,7 @@
             "code": "4260",
             "name": "Adv Professional Writing",
             "units": "3.00",
-            "description": "Advanced professional writing, which may include digital writing; reports, proposals, and grants; information design; technical editing; writing for journals; writing end-user documentation."
+            "description": "Allows students to refine skills in areas of technical writing such as digital writing; information design; technical editing; writing end-user documentation. May be repeated. Prerequisites: ENC1101 and ENC1102 (or equivalents)"
         },
         {
             "subject": "ENC",
@@ -10104,6 +10090,13 @@
         },
         {
             "subject": "ENG",
+            "code": "5048",
+            "name": "Literary Theory",
+            "units": "3.00",
+            "description": "An introduction to issues in the nature of literature, the philosophy of criticism, and methods of interpretation. The theoretical foundations for literary study. Prerequisites: Admission to the graduate program in English or by permission of the instructor."
+        },
+        {
+            "subject": "ENG",
             "code": "5058",
             "name": "Form And Theory",
             "units": "3.00",
@@ -10156,7 +10149,7 @@
             "code": "4273",
             "name": "Modern Brit Lit",
             "units": "3.00",
-            "description": "This course focuses on the literature of the 20th Century, limiting itself to British writers, but including the various genres of the modern and post modern periods."
+            "description": "Focuses on 20th Century British literature but includes genres of the modern and post modern periods. Repeatable with a change of topic. Prerequisites: ENC1101 and ENC1102 or ENC 2304"
         },
         {
             "subject": "ENL",
@@ -11308,13 +11301,6 @@
         },
         {
             "subject": "FRE",
-            "code": "3410",
-            "name": "Adv French Conv",
-            "units": "3.00",
-            "description": "To develop oral proficiency skills and a greater awareness of French culture."
-        },
-        {
-            "subject": "FRE",
             "code": "3420",
             "name": "Rev Gram/Writing I",
             "units": "3.00",
@@ -12008,6 +11994,13 @@
         },
         {
             "subject": "GMS",
+            "code": "6962",
+            "name": "Preliminary Proposal",
+            "units": "1.00",
+            "description": "The student submits preliminary research proposal approved by his/her committee. Prerequisite: HWCOM Graduate School Enrollment."
+        },
+        {
+            "subject": "GMS",
             "code": "6963",
             "name": "Doctoral Proposal",
             "units": "3.00",
@@ -12033,6 +12026,13 @@
             "name": "Dissertation Research",
             "units": "1.00",
             "description": "Research towards the completion of a doctoral dissertation. May be repeated. Prerequisite: HWCOM Graduate School Enrollment. Corequisites: Completion of GMS 6961, GMS 6964 and permission of the major professor."
+        },
+        {
+            "subject": "GMS",
+            "code": "7981",
+            "name": "Dissertation Defense",
+            "units": "1.00",
+            "description": "Dissertation defense seminar. Prerequisite: HWCOM Graduate School Enrollment. Corequisites: Permission of major professor and graduate committee."
         },
         {
             "subject": "GRA",
@@ -12197,13 +12197,6 @@
         },
         {
             "subject": "HFT",
-            "code": "3006",
-            "name": "El &Soft Skills for Hosp.",
-            "units": "3.00",
-            "description": "This course will help students develop character traits and interpersonal skills associated with high emotional intelligence to improve work relationships with others."
-        },
-        {
-            "subject": "HFT",
             "code": "3033",
             "name": "Sustainability Team Mgmt",
             "units": "3.00",
@@ -12311,7 +12304,7 @@
             "subject": "HFT",
             "code": "3705",
             "name": "Gbl Trav & Tour Dev",
-            "units": "1.00",
+            "units": "3.00",
             "description": "This course examines tourism as a global industry. Through the analysis of different forms of tourism, both positive and negative, students will understand the interrelatedness of the tourism industry."
         },
         {
@@ -12484,13 +12477,6 @@
         },
         {
             "subject": "HFT",
-            "code": "4445",
-            "name": "Hosp Tech Design Thinking",
-            "units": "3.00",
-            "description": "This course focuses on systemic approaches to innovation in the hospitality industry. Includes hands-on experiences in the principles of design thinking and leadership to solve business challenges."
-        },
-        {
-            "subject": "HFT",
             "code": "4464",
             "name": "Fin Anal Hosp Indust",
             "units": "3.00",
@@ -12579,6 +12565,13 @@
             "name": "Adv Intern Hsptly",
             "units": "0.00",
             "description": "The Advanced Internship is a practical hospitality/tourism work experience structured to provide exposure to management and training functions, job rotation tasks and/or projects not previously performed. Minimum 300 hours/ten weeks field experience. Prerequisites: Documented completion of 1,000 hospitality related work hours of which 500 hours must be completed while enrolled at FIU. Permission of an advisor."
+        },
+        {
+            "subject": "HFT",
+            "code": "4955",
+            "name": "Study Abroad: Hospitality Tour",
+            "units": "3.00",
+            "description": "An integrated program of learning conducted in foreign environments for hospitality management majors. They will be exposed to different cultures and taught how to manage businesses in other countries."
         },
         {
             "subject": "HIS",
@@ -12705,6 +12698,13 @@
             "name": "Intensive Pod in Hsp. In.",
             "units": "1.00",
             "description": "This course will provide intensive instruction on a particular topic or skill not otherwise offered in the curriculum. This course is repeatable."
+        },
+        {
+            "subject": "HMG",
+            "code": "5957",
+            "name": "Study Abroad: Hospitality Tour",
+            "units": "3.00",
+            "description": "An integrated program of learning conducted in foreign environments for hospitality management majors. They will be exposed to different cultures and taught how to manage businesses in other countries."
         },
         {
             "subject": "HMG",
@@ -13513,6 +13513,13 @@
         },
         {
             "subject": "IDS",
+            "code": "3917",
+            "name": "VIP Program - B",
+            "units": "3.00",
+            "description": "Students work in large projects with students from different majors working in real-world projects with university and external mentors. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "IDS",
             "code": "4174",
             "name": "Math/Philosophy in Arts",
             "units": "3.00",
@@ -13531,13 +13538,6 @@
             "name": "IDS Capstone",
             "units": "3.00",
             "description": "Preparation for course-of-study and guided academic/career self-assessment; senior year internship, service learning, or research project. Students complete a portfolio demonstrating applied expertise"
-        },
-        {
-            "subject": "IDS",
-            "code": "4918",
-            "name": "VIP Program - C",
-            "units": "3.00",
-            "description": "Students work in large projects with students from different majors working in real-world projects with university and external mentors (may be taken twice) (Senior status) Prerequisite: Instructor Consent."
         },
         {
             "subject": "IDS",
@@ -13601,13 +13601,6 @@
             "name": "Grad Lighting",
             "units": "3.00",
             "description": "Exploration of theories and applications of lighting design. Emphasis on studying research about interactions between light, people and articulation of interior space."
-        },
-        {
-            "subject": "IND",
-            "code": "5445C",
-            "name": "Furn Design",
-            "units": "3.00",
-            "description": "Providing a general overview of furniture design process, this design/build studio course teaches students about ergonomics, scale, space, structure and materiality related to furniture design."
         },
         {
             "subject": "IND",
@@ -13716,6 +13709,20 @@
         },
         {
             "subject": "IND",
+            "code": "5993",
+            "name": "Marine vessel design",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "IND",
+            "code": "5994",
+            "name": "Exhibition Design",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "IND",
             "code": "6255",
             "name": "IND Grad 1",
             "units": "6.00",
@@ -13762,6 +13769,13 @@
             "name": "Research Methods",
             "units": "3.00",
             "description": "Methods of data acquisition, analysis, and interpretation used in interior design research."
+        },
+        {
+            "subject": "IND",
+            "code": "6906",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "Coursework on a particular aspect of architecture under the direction of faculty in an individual study format. Prerequisite: Program approval."
         },
         {
             "subject": "IND",
@@ -14136,6 +14150,13 @@
         },
         {
             "subject": "INR",
+            "code": "5935",
+            "name": "Topics Intl Relation",
+            "units": "3.00",
+            "description": "Varies according to the instructor. Prerequisites: Graduate standing or permission of the instructor."
+        },
+        {
+            "subject": "INR",
             "code": "6266",
             "name": "Russian For Policy",
             "units": "3.00",
@@ -14168,6 +14189,13 @@
             "name": "Pol Econ Of Int Rel",
             "units": "3.00",
             "description": "Examines contemporary theoretical and policy debates in the area of international political economy. Reviews key concepts, theories and approaches used in the study of IPE."
+        },
+        {
+            "subject": "INR",
+            "code": "6936",
+            "name": "Sem Inter-Amer Pol",
+            "units": "3.00",
+            "description": "Focus  on U.S.-Latin American relations. Attempts to link the theoretical literature on U.S. foreign policy with empirical developments."
         },
         {
             "subject": "INR",
@@ -14583,18 +14611,11 @@
             "description": "Studies the Italian Cinema from the end of the World War II (neorealism) until the early 70's (Comedy Italian Style)."
         },
         {
-            "subject": "ITA",
-            "code": "3420",
-            "name": "Rev Gram/Writing I",
-            "units": "3.00",
-            "description": "Practice in contemporary usage through selected readings in culture and civilization. Development of writing and speaking ability in extemporaneous contexts. The course will be conducted exclusively in the target language."
-        },
-        {
             "subject": "JOU",
             "code": "2100",
             "name": "Intro Reporting & Writing",
             "units": "3.00",
-            "description": "Intro to news reporting/writing developing digital skills in journalistic setting. Instruction on sourcing, interviewing, data gathering/presentation, civic governance and public records search. Prerequisite: MMC 3123 and JOU 3003"
+            "description": "Intro to news reporting/writing developing digital skills in journalistic setting. Instruction on sourcing, interviewing, data gathering/presentation, civic governance and public records search. Prerequisite: ENC 1101 and ENC 1102"
         },
         {
             "subject": "JOU",
@@ -14608,21 +14629,21 @@
             "code": "3117",
             "name": "Digital Journalism",
             "units": "3.00",
-            "description": "Teaches the fundamentals of news writing, reporting, interviewing, public records and arithmetic for journalists and the basic skills required for digital journalism.  Prerequisites: MMC 3003, MMC 3123, JOU 3003, JOU 2100 and 2.85 cumulative GPA  Corequisite: JOU 3003"
+            "description": "Teaches the fundamentals of news writing, reporting, interviewing, public records and arithmetic for journalists and the basic skills required for digital journalism.  Prerequisites: MMC 3003, MMC 3123, JOU 3003, and 2.85 cumulative GPA  Corequisite: JOU 3003"
         },
         {
             "subject": "JOU",
             "code": "3300",
             "name": "Advanced Digital Journ",
             "units": "3.00",
-            "description": "Students will write and produce digital feature stories: human interest, trends,\npersonality profiles, sidebars, backgrounders, color. Prerequisites: MMC 3003, MMC 3123, JOU 3003, JOU 2100, JOU 3117, RTV 3531, 2.85 cumulative GPA"
+            "description": "Students will write and produce digital feature stories: human interest, trends,\npersonality profiles, sidebars, backgrounders, color. Prerequisites: MMC 3003, MMC 3123, JOU 3003, JOU 3117, RTV 3531, 2.85 cumulative GPA"
         },
         {
             "subject": "JOU",
             "code": "4341C",
             "name": "Sr Multimedia Prjt",
             "units": "3.00",
-            "description": "Students will conceptualize and produce a digital publication, including layout, photography, video, audio and data visualization. Prerequisites:  MMC 3003, RTV 3531, JOU 3117, DIG 4293, JOU 3300, JOU 4108, 2.85 cumulative GPA"
+            "description": "Students will conceptualize and produce a digital publication, including layout, photography, video, audio and data visualization. Prerequisites:  MMC 3003, RTV 3531, JOU 3117, (DIG 4293 or VIC 4001), JOU 3300, (JOU 4108 or VIC 4001), 2.85 cumulative GPA"
         },
         {
             "subject": "JOU",
@@ -14714,6 +14735,13 @@
             "name": "Jpn Culture/Society",
             "units": "3.00",
             "description": "This course will examine Japanese culture, societal life, class and gender, and the way of the Samurai. It will explore not only the traditional arts but also current social concerns."
+        },
+        {
+            "subject": "JPN",
+            "code": "5907",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "Designed for advanced Japanese language proficiency utilizing specialized research projects, field experience, readings and other area studies."
         },
         {
             "subject": "JRM",
@@ -14994,6 +15022,13 @@
             "name": "Childrens Literature",
             "units": "3.00",
             "description": "Required in Early Childhood, Elementary and Reading Education Master's Programs. Provides knowledge and skill in critical analysis of purposes, strategies for teaching and evaluation of children's literature."
+        },
+        {
+            "subject": "LAE",
+            "code": "5908",
+            "name": "Dir Stud Eng Ed",
+            "units": "0.00",
+            "description": "The student plans and carries out an independent study project under direction. Prerequisite: Consent of instructor."
         },
         {
             "subject": "LAE",
@@ -15837,6 +15872,13 @@
         },
         {
             "subject": "LAW",
+            "code": "7952",
+            "name": "Appellate Advocacy Competition",
+            "units": "2.00",
+            "description": "Students selected as members of the Board of Advocates Appellate Advocacy Group will compete in a regional, national, or international appellate advocacy competition and will earn credit for satisfactory completion of their competition duties.  Students, working in a team, will typically prepare an appellate brief and then deliver an appellate oral argument multiple times during the competition oral argument rounds.  Prerequisite: Appellate Procedure."
+        },
+        {
+            "subject": "LAW",
             "code": "7954",
             "name": "Negotiation Comp",
             "units": "1.00",
@@ -15984,6 +16026,13 @@
         },
         {
             "subject": "LBS",
+            "code": "5930",
+            "name": "Topic Labor Studies",
+            "units": "0.00",
+            "description": "Selected topics or themes in Labor Studies. Themes will vary from semester to semester. With a change in content, course may be repeated. May include field work. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "LBS",
             "code": "5993",
             "name": "Tech in the Workplace",
             "units": "3.00",
@@ -16015,7 +16064,7 @@
             "code": "3524",
             "name": "Human Res Mgt In Prm",
             "units": "3.00",
-            "description": "After a study of human interaction in a management setting, students will demonstrate competencies necessary for hiring staff, conducting group dynamics and communicating to the public."
+            "description": "The course develops a critical understanding of the functions of human resources in sport, parks, and recreation. Emphasis on the role and responsibility of managers and associated management skills."
         },
         {
             "subject": "LEI",
@@ -16215,10 +16264,10 @@
         },
         {
             "subject": "LIN",
-            "code": "4640",
-            "name": "Langs and Cultures of World",
+            "code": "4430",
+            "name": "Gen Moph & Syntax",
             "units": "3.00",
-            "description": "Investigation of the major language families of the world, evolution of human language, and sociocultural, political, and historical influences on languages and language families."
+            "description": "The study of linguistic methodology for determining the morphological and syntactic structures of languages."
         },
         {
             "subject": "LIN",
@@ -16282,13 +16331,6 @@
             "name": "Res Proj for Pub I",
             "units": "3.00",
             "description": "Students carry out a comprehensive research project for publishable standard. For Linguistics MA and PhD students, for the second year Research Paper for Publication. May be repeated. Prerequisite: LIN 6085."
-        },
-        {
-            "subject": "LIN",
-            "code": "6934",
-            "name": "Special Topics Lin",
-            "units": "3.00",
-            "description": "Content to be determined by students and instructor. (Approval of the Department required.) (See English listing for additional Linguistics courses.)"
         },
         {
             "subject": "LIN",
@@ -16390,13 +16432,6 @@
         },
         {
             "subject": "LIT",
-            "code": "4931",
-            "name": "Spec Top Women Lit",
-            "units": "3.00",
-            "description": "An examination of different aspects of literature by women. May be repeated with a change of content."
-        },
-        {
-            "subject": "LIT",
             "code": "5487",
             "name": "Texts And Culture",
             "units": "3.00",
@@ -16429,6 +16464,13 @@
             "name": "Advanced Calculus",
             "units": "3.00",
             "description": "An intense study of the foundations of calculus. Topics may include: the real number system, continuity, differentiation, Riemann-Stieltjes integration, and series of functions. Note: The student must complete MAA 3200 before attempting this course."
+        },
+        {
+            "subject": "MAA",
+            "code": "4212",
+            "name": "Adv Calculus II",
+            "units": "3.00",
+            "description": "A sequel to MAA 4211. Topics may include: theory of integration; analysis in several variables; and Fourier series."
         },
         {
             "subject": "MAA",
@@ -16474,17 +16516,24 @@
         },
         {
             "subject": "MAC",
+            "code": "1907",
+            "name": "Pre-Calculus Stretch",
+            "units": "0.00",
+            "description": "Version of MAC 1147 for continuing students with an unfinished grade. Develops deeper problem solving skills of the concepts of precalculus. Prerequisite: Consent of the Department"
+        },
+        {
+            "subject": "MAC",
+            "code": "1990",
+            "name": "College Algebra Stretch",
+            "units": "0.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MAC",
             "code": "2233",
             "name": "Calc For Business",
             "units": "3.00",
             "description": "Basic notions of differential and integral calculus using business applications and models including: differential and integral calculus using polynomials, exponential and logarithmic functions."
-        },
-        {
-            "subject": "MAC",
-            "code": "2241L",
-            "name": "Calc 1 Lab Biology",
-            "units": "1.00",
-            "description": "Review of numerical methods used in calculus 1 by students in QBIC program."
         },
         {
             "subject": "MAC",
@@ -16852,13 +16901,6 @@
         },
         {
             "subject": "MAN",
-            "code": "4864",
-            "name": "Family Business",
-            "units": "3.00",
-            "description": "Students analyze business practices of family businesses including functions, issues, operations and the interpersonal dynamics of family businesses from a strategic management perspective."
-        },
-        {
-            "subject": "MAN",
             "code": "4946",
             "name": "Int'L Bus Internship",
             "units": "0.00",
@@ -17023,14 +17065,7 @@
             "code": "5407",
             "name": "Meth Appl Analysis",
             "units": "3.00",
-            "description": "Convergence, fixed point theorems, application to finding roots of equations, normed function spaces, linear operators, applications to numerical integration, differential and integral equations. Prerequisites: MAA 4211, MAP 2302, and MAS 3105."
-        },
-        {
-            "subject": "MAP",
-            "code": "6218",
-            "name": "Stochastic Calculus",
-            "units": "3.00",
-            "description": "Discrete time models, Brownian motion, Stochastic integration, ITO's integral, Ornstein-Uhlenbeck processes, Girsanov theorem, Black-Sholes model."
+            "description": "Metric and normed spaces, Hilbert spaces, fixed point theorems, linear operators, notions of convergence, applications to numerical integration, differential and integral equations. Prerequisites: MAA 4211, MAP 2302, and MAS 3105."
         },
         {
             "subject": "MAP",
@@ -17058,6 +17093,20 @@
             "code": "6991",
             "name": "Stochastic Numerical PDE",
             "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MAP",
+            "code": "6993",
+            "name": "Probability & Stochastic",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MAP",
+            "code": "7993",
+            "name": "Seminar Applied Math",
+            "units": "0.00",
             "description": "N/A"
         },
         {
@@ -17327,13 +17376,6 @@
             "description": "Vector spaces and linear maps, solutions of linear systems, orthogonal projection and QR factorization, determinant and eigenvalues of a matrix. Prerequisites: MAS 3105 and MAA 3200."
         },
         {
-            "subject": "MAS",
-            "code": "5315",
-            "name": "Algebraic Geometry",
-            "units": "3.00",
-            "description": "Introduction to the theory of affine and projective schemes, coherent sheaves and sheaf cohomology. Application to studying algebraic varieties. Prerequisites: MAS 4301, MAA 4402."
-        },
-        {
             "subject": "MAT",
             "code": "3501",
             "name": "Numb, Funct and Modeling",
@@ -17381,6 +17423,13 @@
             "name": "Applied Experience",
             "units": "1.00",
             "description": "Consists of a one semester (usually summer) internship at private corporation or government agency. Has three parts: i) weekly colloquia in math-science; ii) internship; iii) presentation after internship. Prerequisite: Permission of the department."
+        },
+        {
+            "subject": "MAT",
+            "code": "7908",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "For senior Ph.D. students to work on topics where standard courses cannot be opened. Could consist of individual conferences, assigned reading, or independent investigations. Prerequisite: Permission of the Math-Stats department."
         },
         {
             "subject": "MAT",
@@ -17510,10 +17559,24 @@
         },
         {
             "subject": "MDE",
+            "code": "7092",
+            "name": "Teaching Skills Elective",
+            "units": "1.00",
+            "description": "This is a non-clinical elective offered for two or four continuous weeks, designed to help students improve their teaching and/or curricular development skills through small-group, self-directed, experiential learning, and mentor feedback and engagement in authentic work. In this course, students will be provided with opportunities to learn about the foundational principles of adult learning theory, curriculum design, pedagogy, assessment, and teaching. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7100",
             "name": "Community Medicine Elective",
             "units": "1.00",
             "description": "This intensive ambulatory block will serve as a community based primary care experience. Under the supervision of community based FIU faculty, the student will assume a level of independence appropriate to his/her skills and training level. Students will practice patient-centered communication, diagnostic and management skills, clinical reasoning, management of common ambulatory clinical issues, and patient education and negotiation. Experiences may include any primary care specialty (e.g. family medicine, internal medicine, pediatrics, obstetrics and gynecology, psychiatry). Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7108",
+            "name": "LGBTQ + Health Equity Elec",
+            "units": "1.00",
+            "description": "This four-week elective will provide medical students with the essential background and tools needed to provide high-quality and culturally appropriate care to patients who identify as LGBTQ (Lesbian, Gay, Bisexual, Transgender, Queer, and Questioning), gender non-conforming, or who are born with differences of sex development. Medical students will choose to follow a clinical and/or public health track. Through the clinical track, students will diagnose, treat and provide preventative care to LGBTQ and gender non-conforming patients through clinical\nassignments with health providers who work primarily with this patient population. Through the public health track, students will assess and intervene regarding the behavioral, social and cultural determinants of health and their impact on the health status of LGBTQ populations. In both tracks, students will produce a public health, research, medical education, or advocacy project related to LGBTQ health. Prerequisite: Enrolled in Herbert Wertheim College of Medicine"
         },
         {
             "subject": "MDE",
@@ -17545,6 +17608,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7180",
+            "name": "Pern/Mat Fetal Med Elect",
+            "units": "1.00",
+            "description": "This Period 4 clerkship allows students to experience the full range of maternal-fetal medicine and familiarizes students with the diagnosis and management of pregnant patients who have obstetrical, medical, or surgical complications. Students receive experience in ultrasound, genetics, genetic counseling, and the management of high-risk obstetrical patients. Students follow patients through the\ninpatient antepartum service and participate in the care of high-risk obstetrical patients admitted to the hospital. Attendance at the following conferences is required: FHR tracing and labor management review, high risk obstetrics conference, grand rounds, prenatal - neonatology conference, and journal\nclub. Students are required to take call on the Labor and Delivery Unit one night per week. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7204",
             "name": "Hospitalist Service Elective",
             "units": "1.00",
@@ -17556,6 +17626,13 @@
             "name": "Cardiology Elective",
             "units": "1.00",
             "description": "The objective of this hospital-based rotation is for students to improve their understanding of the pathophysiology of common cardiovascular diseases; the evaluation of acute and chronic cardiac disorders, including indications for invasive and non-invasive studies and EKG interpretation; the appropriate history and physical exam technique, with particular attention to the cardiovascular exam; and the differential diagnosis and first line treatment of prevalent cardiovascular disorders, with an emphasis on disease prevention. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7245",
+            "name": "Pulmonology Elective",
+            "units": "1.00",
+            "description": "Through time spent both on the inpatient pulmonary consultation service and in the outpatient setting, this rotation will prepare students to effectively care for common cardiopulmonary disorders. In particular, students will be exposed to radiological interpretation of chest imaging and the interpretation of pulmonary function tests. Depending on the site, students will be part of a team with fellows and residents or will be under the direct supervision of a pulmonary specialist. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -17594,6 +17671,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7350",
+            "name": "Nephrology Elective",
+            "units": "1.00",
+            "description": "This 2 week or 4 week elective offers students the opportunity to learn about the diseases of the kidney and become more skilled in their management. Students will participate in the care of patients with medical renal disease that are seen in the office and also on the renal inpatient consult service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7404",
             "name": "Pediatric Ambulatory Services",
             "units": "1.00",
@@ -17612,6 +17696,13 @@
             "name": "Pediatric Gastroenterology Ele",
             "units": "1.00",
             "description": "Medical students will perform routine histories and physical examinations on all gastroenterology patients, with emphasis on clinical diagnosis and treatment. Students are expected to take an active role in the management of gastroenterology patients in both inpatient and outpatient settings. Students will also participate in endoscopic procedures. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7438",
+            "name": "Pediatric Genetics Elective",
+            "units": "1.00",
+            "description": "The student will participate in the evaluation and management of children with metabolic/genetic disorders or of those children suspected of having such disorders. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -17685,6 +17776,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7601",
+            "name": "Advanced General Surgery",
+            "units": "1.00",
+            "description": "Advanced General Surgery, the student works directly with general and other subspecialty surgeons. During the rotation, the student is exposed to all phases of patient care, including outpatient clinic, the operating room and hospital. Emphasis will be placed on initial assessment, physical examination and preoperative evaluation of surgical patients. When appropriate, the student will follow individual patients whose cases are particularly instructive. While no formal projects are required, ample opportunity exists for independent projects as dictated by the student's special interests. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7605",
             "name": "Vascular Surgery Elective",
             "units": "1.00",
@@ -17696,6 +17794,13 @@
             "name": "Cardiothoracic ICU Elect",
             "units": "1.00",
             "description": "This course provides the 4th year medical student with exposure to the multidisciplinary team approach to both the medical and surgical care of the patients needing surgery for Cardiac problems. The student will have experience of patient management from pre-operative through operative to post-operative management.  In addition to experience with cardiothoracic surgery the student will be involved in the care of critically ill patients with cardiothoracic problems. Prerequisite: Enrolled in FIU HWCOM."
+        },
+        {
+            "subject": "MDE",
+            "code": "7650",
+            "name": "Neurosurgery/Neurosci Elective",
+            "units": "1.00",
+            "description": "The 4-week Neurosurgery Elective will assign interested students to faculty neurosurgeons at one of our affiliated facilities. This rotation presents the student the broad-spectrum of neurosurgical conditions and procedures encountered in a tertiary hospital setting. Students are expected to be involved in all aspects of pre-operative, intra-operative, and post-operative care; including care provided in the inpatient, outpatient, and surgical settings. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -17796,6 +17901,20 @@
             "description": "This rotation exposes interested Period 4 medical students to the interactions between the psychiatric and legal systems by providing the opportunity to rotate in a forensic psychiatric hospital. Students will learn the clinical, legal and ethical issues at the interface between psychiatry and the law and will refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and assessment experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
+            "subject": "MDE",
+            "code": "7930",
+            "name": "Anatomy Elective",
+            "units": "1.00",
+            "description": "The 4-week Anatomy Elective will allow students the opportunity to gain a deeper insight into human anatomy and develop the skills and knowledge required for surgical internships and subspecialties. This will allow the students to develop an understanding of the anatomical basis of successful surgical interventions and the risks involved. Under the direct supervision of faculty anatomists and clinicians, students will perform dissections of all relevant body regions in groups of 4-6 students. Moreover, students will assist in the laboratory teaching sessions of the courses 'Structure of the Human Body' and 'Musculoskeletal Anatomy for Physiotherapy Students.' Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7990",
+            "name": "One Health Elective",
+            "units": "2.00",
+            "description": "N/A"
+        },
+        {
             "subject": "MDI",
             "code": "7122",
             "name": "Family Med Subinternship",
@@ -17829,6 +17948,20 @@
             "name": "General Surgery Subinternship",
             "units": "1.00",
             "description": "This course is designed for students who desire a greater in-depth experience in general surgery or who are seriously considering surgery as a possible career choice. It serves as an exploratory path for a planned career in general surgery or other surgical sub-specialties. In this role, the subintern will have more responsibilities than a period 3 clerkship student. The student will examine patients, assist in surgery, participate in pre-operative and post-operative care and will also be encouraged to develop his/her clinical and technical skills. The student will be expected to participate in all of the educational activities of the Department of Surgery during the course of his/her rotation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDR",
+            "code": "7060",
+            "name": "Med Ethics and Hum Elective",
+            "units": "1.00",
+            "description": "Offered as a two-week rotation, with the option for an additional two-credit longitudinal component; this elective is designed for the individualized study of topics in clinical, research, and service-learning ethics and humanism in medicine. Students will examine ethical and humanistic issues in medicine that emerge in the clinical setting, lab, or community. Students will read, write and analyze case vignettes, attend community ethics activities (e.g. Hospital ethics committee meetings), develop a scholarly project, and contribute to an ethics research project. Humanism in medicine is the recognition that both practitioner and patient are human beings, with the shared values and experiences of humanity. This provides a framework for improved clinical interactions and addresses phenomena such as ethical leadership, inclusive communication, and burnout. The course director will create learning contracts tailored to students' individual interests, objectives, and clinical schedules. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDS",
+            "code": "7400",
+            "name": "Pediatric Medicine Selective",
+            "units": "1.00",
+            "description": "Medical students will examine patients admitted to the Inpatient Hospitalist Services, write daily entries into the medical record, develop plans for care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students, residents, and fellows of the Hospitalist Service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDS",
@@ -17986,6 +18119,13 @@
         },
         {
             "subject": "MET",
+            "code": "6971",
+            "name": "Thesis",
+            "units": "1.00",
+            "description": "Individual graduate-level research supervised by a professor in the student's field of specialization or interest, leading toward a completed thesis. Prerequisites: Graduate standing in Geosciences and satisfactory progress toward the degree."
+        },
+        {
+            "subject": "MET",
             "code": "7980",
             "name": "Ph.D. Dissertation",
             "units": "1.00",
@@ -18004,6 +18144,20 @@
             "name": "Social Choice Math",
             "units": "3.00",
             "description": "Voting systems and their desirable properties.  Weighted voting systems, fair division procedures, apportionment methods and game theory."
+        },
+        {
+            "subject": "MGF",
+            "code": "1990",
+            "name": "Social Choice Stretch",
+            "units": "0.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "MGF",
+            "code": "1991",
+            "name": "Finite Math Stretch",
+            "units": "0.00",
+            "description": "N/A"
         },
         {
             "subject": "MHF",
@@ -18490,6 +18644,13 @@
         },
         {
             "subject": "MUC",
+            "code": "5406",
+            "name": "Elec Music IV",
+            "units": "2.00",
+            "description": "An advanced course in computer music providing students hands-on experience with recently developed hardware and software for the creation of music."
+        },
+        {
+            "subject": "MUC",
             "code": "6305",
             "name": "Elec Mus Lab I",
             "units": "2.00",
@@ -18585,20 +18746,6 @@
             "name": "Assessment in Music Ed",
             "units": "2.00",
             "description": "Discover and apply foundations of assessment and evaluation approaches in music education. Combined field experience required."
-        },
-        {
-            "subject": "MUE",
-            "code": "3920",
-            "name": "MUE Forum",
-            "units": "0.00",
-            "description": "Weekly forum for professional development and special topics for certification. Required by all music education students; repeatable each semester prior to internship."
-        },
-        {
-            "subject": "MUE",
-            "code": "3925",
-            "name": "Dalcroze Workshop",
-            "units": "1.00",
-            "description": "Intensive workshop as a study of Dalcroze pedagogical methods for use in K-12 music education courses."
         },
         {
             "subject": "MUE",
@@ -18812,17 +18959,17 @@
         },
         {
             "subject": "MUL",
-            "code": "4430",
-            "name": "Guitar Lit",
-            "units": "3.00",
-            "description": "Survey of solo, chamber, and concerto guitar literature from the 16th century to the present. Repertoires will be examined from historical, analytical, pedagogical, and text-critical perspectives."
-        },
-        {
-            "subject": "MUL",
             "code": "4500",
             "name": "Symphonic Lit",
             "units": "3.00",
             "description": "Survey of symphonic literature from the 17th century to present day. Analysis and illustrations of representative works."
+        },
+        {
+            "subject": "MUL",
+            "code": "5405",
+            "name": "Keyboard Lit I",
+            "units": "3.00",
+            "description": "Study of solo works for the keyboard from historical beginnings to 1828. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
         },
         {
             "subject": "MUL",
@@ -18858,6 +19005,13 @@
             "name": "Audio Techniques II",
             "units": "3.00",
             "description": "Studio recording techniques, microphone placement, taping and mixing."
+        },
+        {
+            "subject": "MUM",
+            "code": "3742L",
+            "name": "Music Production",
+            "units": "3.00",
+            "description": "This course allows for the student to acquire a hands-on experience in producing concerts. The student will stage manage and produce concerts covering running rehearsals, marketing, and performance."
         },
         {
             "subject": "MUM",
@@ -19064,6 +19218,13 @@
         },
         {
             "subject": "MUN",
+            "code": "2482",
+            "name": "Jazz Guitar Ens",
+            "units": "1.00",
+            "description": "Ensemble consists of five or more electric guitars performing arrangements, accompanied by bass and drums. Emphasis placed on sight reading, styles, phrasing, dynamics, ensemble blend, swing, etc."
+        },
+        {
+            "subject": "MUN",
             "code": "2490",
             "name": "New Music Ensemble",
             "units": "1.00",
@@ -19173,6 +19334,13 @@
             "name": "Guitar Ensemble",
             "units": "1.00",
             "description": "The presentation and performance of music literature characteristic of the Guitar Ensemble."
+        },
+        {
+            "subject": "MUN",
+            "code": "4486",
+            "name": "Jazz Guitar Ens",
+            "units": "1.00",
+            "description": "Ensemble consists of five or more electric guitars performing arrangements, accompanied by bass and drums. Emphasis placed on sight reading, styles, phrasing, dynamics, ensemble blend, swing, etc."
         },
         {
             "subject": "MUN",
@@ -19526,6 +19694,13 @@
         },
         {
             "subject": "MUT",
+            "code": "4311",
+            "name": "Orchestration",
+            "units": "3.00",
+            "description": "With a background of basic theory, the student will explore the techniques of writing and arranging for instruments in performing organizations."
+        },
+        {
+            "subject": "MUT",
             "code": "4353",
             "name": "Jazz Arranging",
             "units": "2.00",
@@ -19537,6 +19712,13 @@
             "name": "Grad Theory Survey",
             "units": "0.00",
             "description": "Analytical, theoretical and aural skills required for successful graduate studies in music. Prerequisites: Placement exam or permission of the instructor."
+        },
+        {
+            "subject": "MUT",
+            "code": "5316",
+            "name": "Adv Orch",
+            "units": "3.00",
+            "description": "Examination of orchestration techniques utilized by composers from the Baroque era through current times. Prerequisites: Graduate standing or permission of the instructor."
         },
         {
             "subject": "MUT",
@@ -19586,6 +19768,20 @@
             "name": "Prin App Bariton Ho",
             "units": "2.00",
             "description": "Individual instruction in applied music on baritone horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "1315",
+            "name": "Prin Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "1415",
+            "name": "Maj Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -19652,6 +19848,13 @@
         },
         {
             "subject": "MVB",
+            "code": "3334",
+            "name": "Prin App Bariton Ho",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on baritone horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "3335",
             "name": "Prin Applied Tuba",
             "units": "2.00",
@@ -19663,6 +19866,13 @@
             "name": "Major Appl Trombone",
             "units": "3.00",
             "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "3435",
+            "name": "Maj Applied Tuba",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -19687,6 +19897,13 @@
         },
         {
             "subject": "MVB",
+            "code": "4345",
+            "name": "Prin Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "4441",
             "name": "Major Appl Trumpet",
             "units": "3.00",
@@ -19698,6 +19915,13 @@
             "name": "Maj Appl Bariton Hor",
             "units": "3.00",
             "description": "Individual instruction in applied music on baritone horn as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "4445",
+            "name": "Maj Applied Tuba",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -19817,6 +20041,13 @@
             "name": "Major Applied Jazz Voice",
             "units": "2.00",
             "description": "Individual instruction in the Jazz Vocal Idiom. Study includes health and vocal technique, advanced development of repertoire, specific and necessary skills for a compelling public performance."
+        },
+        {
+            "subject": "MVJ",
+            "code": "2423",
+            "name": "Maj App Jazz Guitar",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz guitar at a major level."
         },
         {
             "subject": "MVJ",
@@ -19974,6 +20205,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "5254",
+            "name": "Secondary Jazz Bass",
+            "units": "1.00",
+            "description": "Individual instruction in applied jazz music on bass."
+        },
+        {
+            "subject": "MVJ",
             "code": "5257",
             "name": "Sec Jazz Trumpet",
             "units": "1.00",
@@ -20072,6 +20310,13 @@
         },
         {
             "subject": "MVK",
+            "code": "2180L",
+            "name": "Keyboard Harmony",
+            "units": "1.00",
+            "description": "The course develops basic musicianship skills for Piano Majors and Principals through an integrated theoretical-performance approach. Prerequisite: MUT 1111 and MUT 1112. Corequisite: MVK 1411 or MVK 1311."
+        },
+        {
+            "subject": "MVK",
             "code": "2221",
             "name": "Sec Applied Piano",
             "units": "1.00",
@@ -20142,6 +20387,13 @@
         },
         {
             "subject": "MVK",
+            "code": "5351",
+            "name": "Prin App Piano",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on piano as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVK",
             "code": "5451",
             "name": "Major Applied Piano",
             "units": "3.00",
@@ -20163,10 +20415,24 @@
         },
         {
             "subject": "MVP",
+            "code": "1411",
+            "name": "Major App Percussion",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on percussion as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVP",
             "code": "2321",
             "name": "Prin App Percussion",
             "units": "2.00",
             "description": "Individual instruction in applied music on percussion as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVP",
+            "code": "2421",
+            "name": "Major App Percussion",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on percussion as a major instrument. Music majors only."
         },
         {
             "subject": "MVP",
@@ -20541,6 +20807,13 @@
         },
         {
             "subject": "MVS",
+            "code": "4971",
+            "name": "Senior Rec Strings",
+            "units": "0.00",
+            "description": "All music majors must present, before graduation, at least one half (full recital performance major) of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
+        },
+        {
+            "subject": "MVS",
             "code": "5251",
             "name": "Secondary App Violin",
             "units": "1.00",
@@ -20636,6 +20909,13 @@
             "name": "Major Applied Voice",
             "units": "2.00",
             "description": "Individual instruction in applied music on voice as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVV",
+            "code": "2221",
+            "name": "Secondary App Voice",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on voice as a secondary instrument."
         },
         {
             "subject": "MVV",
@@ -20818,6 +21098,13 @@
             "name": "Principal App Flute",
             "units": "2.00",
             "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "3333",
+            "name": "Prin App Clarinet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -21289,13 +21576,6 @@
             "description": "Provides an overview of the dissertation process within framework of completing the dissertation."
         },
         {
-            "subject": "NGR",
-            "code": "7982",
-            "name": "Candidacy Examination",
-            "units": "3.00",
-            "description": "The candidacy examination includes the successful completion of 4 written papers and an oral defense. This course is designed to assist students to prepare their papers for the candidacy examination. Prerequisite: This course must be taken during the last semester of coursework and/or after completion of required coursework as presented in student's plan of study."
-        },
-        {
             "subject": "NSE",
             "code": "3991",
             "name": "Natl Student Exch-A",
@@ -21364,6 +21644,13 @@
             "name": "Pharmacologic Basis",
             "units": "3.00",
             "description": "Focuses on the role of pharmacotherapeutic agents for diverse individuals across the life span. Nursing management related to pharmacodynamics, adverse effects, interactions and education."
+        },
+        {
+            "subject": "NUR",
+            "code": "3226",
+            "name": "Nurs of Adults",
+            "units": "3.00",
+            "description": "First of two courses in adult health nursing. Nursing management of diverse individuals with complex health alterations. Prerequisites: Admission to Nursing Major, NUR3029, NUR3029C, NUR3029L. Corequisite: NUR3226L"
         },
         {
             "subject": "NUR",
@@ -22067,13 +22354,6 @@
         },
         {
             "subject": "PAD",
-            "code": "6807",
-            "name": "Urb Mun Govt Admin",
-            "units": "3.00",
-            "description": "Detailed examination of problems  facing the municipal administrator; of the pressures upon the contemporary urban environment; and of the administration of large metropolitan areas comprised of numerous entities. Emphasis will be on determination of current trends, discussion of cases, and arrival at suggested solutions."
-        },
-        {
-            "subject": "PAD",
             "code": "6816",
             "name": "Rgnl St Govt Admin",
             "units": "3.00",
@@ -22172,10 +22452,31 @@
         },
         {
             "subject": "PAS",
+            "code": "6011",
+            "name": "Clinical Med I",
+            "units": "3.00",
+            "description": "This course is a systematic review and discussion of the epidemiology, pathophysiology, clinical manifestations, diagnosis and management of the most common diseases in humans. It builds upon the foundation of basic science knowledge and clinical assessment skills. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6014",
             "name": "Physiology I",
             "units": "3.00",
             "description": "This is an integrated primary core course, foundational to principles of physiology. It will involve an intensive study of the clinical presentation, pathophysiology, and recognition of various disease and anomalies in the population. The contextual approach to these disciplines will include the interrelationship of prior and current learning incorporating the basic sciences, anatomy and physiology, ancillary diagnostics and medical terminology. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6015",
+            "name": "Physiology II",
+            "units": "3.00",
+            "description": "This is an integrated primary core course, foundational to the principles of physiology. It will involve an intensive study of the clinical presentation, pathophysiology, and recognition of various diseases and anomalies in the population. The contextual approach to these disciplines will include the interrelationship of prior and current learning incorporating the basic sciences, anatomy and physiology, ancillary diagnostics and medical terminology. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6016",
+            "name": "Integ Clin Concepts I",
+            "units": "2.00",
+            "description": "This is the first in a series of three courses in the didactic year that provide students the opportunity to translate knowledge gained in the concurrent didactic curriculum courses to clinical problems and to clinical decision making. The course is conducted by the faculty facilitators in a small-group discussion format. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -22190,6 +22491,20 @@
             "name": "Gross Anatomy",
             "units": "4.00",
             "description": "Gross Anatomy for Physician Assistant students is a clinically oriented course in which descriptive and surface anatomy are integrated with embryology. Organization of human anatomy is correlated with diagnostic imagine and pathophysiology. The objective is to provide students with a hands-on experience in the study of the human body, an understanding of relevant aspects of human development and its abnormalities. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6023",
+            "name": "Pharma Disease Path I",
+            "units": "2.00",
+            "description": "These lectures are integrates with the appropriate organ or disease system in which an appreciation of the pathophysiology is helpful for understanding the basis of use of a class of drugs in a particular disease. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6031",
+            "name": "Clinical Skills I",
+            "units": "2.00",
+            "description": "This course is the first in a two course sequence designed to provide students with an overview of skills and procedures needed for clinical practices as a PA. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -22214,10 +22529,24 @@
         },
         {
             "subject": "PAS",
+            "code": "6041",
+            "name": "Clinical Assess II",
+            "units": "2.00",
+            "description": "This course is the second in a two sequence designed to provide students with an overview of skills and procedures needed for clinical practice as a PA. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6050",
             "name": "Role PA Amer Health Care",
             "units": "3.00",
             "description": "The first portion covers major aspects of the US health care system. The aim is to give students a broad foundation of knowledge regarding the basic components of the health system and its issues and trends. The second portion presents the key components of the PA profession and examines the scope and the role of the PA in medical practice. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6090",
+            "name": "Cl App Evdnc Bas Pract I",
+            "units": "3.00",
+            "description": "This course provides an introduction to research design and methods including bio statistical analyses that are most commonly encountered within health research. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -22396,13 +22725,6 @@
         },
         {
             "subject": "PCB",
-            "code": "4232",
-            "name": "Bio Aids",
-            "units": "3.00",
-            "description": "An overview of Acquired Immune Deficiency Syndrome (AIDS) from biomedical and psychosocial perspectives."
-        },
-        {
-            "subject": "PCB",
             "code": "4233",
             "name": "Immunology",
             "units": "3.00",
@@ -22568,13 +22890,6 @@
             "name": "Adv Personal Train",
             "units": "3.00",
             "description": "This class is designed to prepare students for the National Strength Professionals Associations Certified Conditioning Specialist Examination. Prerequisite: Bachelor of Science in Physical Education (BSPE) major"
-        },
-        {
-            "subject": "PEO",
-            "code": "4001",
-            "name": "Prin Of Coaching",
-            "units": "3.00",
-            "description": "Prepares students to examine the organization, philosophies, and skills necessary for coaching sports in diverse educational environments."
         },
         {
             "subject": "PEP",
@@ -23229,6 +23544,13 @@
         },
         {
             "subject": "PHC",
+            "code": "6920",
+            "name": "Spec Topics EHS",
+            "units": "3.00",
+            "description": "This course is designed to impart in depth knowledge of emerging issues in the area of environmental and occupational health."
+        },
+        {
+            "subject": "PHC",
             "code": "6921",
             "name": "EHS seminar",
             "units": "1.00",
@@ -23282,13 +23604,6 @@
             "name": "Adv Bayesian Inference",
             "units": "3.00",
             "description": "This course will cover advanced topics related to Bayesian methods such as prior assumptions, hierarchical modeling and computational MCMC methods with various sampling algorithms. Prerequisite: PHC 6084"
-        },
-        {
-            "subject": "PHC",
-            "code": "7095C",
-            "name": "Adv Methods HSR",
-            "units": "4.00",
-            "description": "This course focuses on quantitative research methods using secondary data and introduces students to a wide spectrum of national and global health policy databases. Prerequisite: PHC 6091."
         },
         {
             "subject": "PHC",
@@ -23373,13 +23688,6 @@
             "name": "Multivariate Methods",
             "units": "3.00",
             "description": "Advanced statistical methods for analysis of multivariate data and related statistical inference in public health and biomedical research. Prerequisites: PHC 6052, PHC 6091, or permission of the instructor."
-        },
-        {
-            "subject": "PHC",
-            "code": "7723",
-            "name": "PH Survey Research",
-            "units": "3.00",
-            "description": "This course facilitates the systematic identification, interpretation, and understanding of survey research concepts, principles, and practices in public health. Prerequisites: PHC 6000, PHC 6065, PHC 6410, PHC 6706."
         },
         {
             "subject": "PHC",
@@ -23473,13 +23781,6 @@
             "description": "Philosophies of Europe, North Africa, and the Eastern Mediterranean 3rd Century BCE to 3rd Century CE. Focus on Hellenistic & Roman philosophies such as Platonism, Aristotelianism, Stoicism Epicurean."
         },
         {
-            "subject": "PHH",
-            "code": "4930",
-            "name": "A Major Philosopher",
-            "units": "3.00",
-            "description": "This course will examine in detail the works of a major figure in the history of philosophy. Course may be repeated on a different philosopher."
-        },
-        {
             "subject": "PHI",
             "code": "2010",
             "name": "Intro to Philosophy",
@@ -23569,13 +23870,6 @@
             "name": "Philosophy of Sport",
             "units": "3.00",
             "description": "Explores the questions and problems of the Philosophy of Sport. Areas include metaphysical, ethical, political theoretical, aesthetic and conceptual issues arising from sport practice and spectating."
-        },
-        {
-            "subject": "PHI",
-            "code": "4130",
-            "name": "Symbolic Logic",
-            "units": "3.00",
-            "description": "This course provides an introduction to symbolic logic. Emphasis is upon both the formal techniques of analysis of argument and upon the theoretical aspects of formal logic."
         },
         {
             "subject": "PHI",
@@ -23674,13 +23968,6 @@
             "name": "Love & Sexuality",
             "units": "3.00",
             "description": "Examines historical and contemporary philosophical writings about human sexuality and erotic love. Topics include attraction, objectification, violence, marital and nonmarital sex, love and rationality."
-        },
-        {
-            "subject": "PHM",
-            "code": "4041",
-            "name": "Thought/Community/Inquiry",
-            "units": "3.00",
-            "description": "Investigates the notion of a community of philosophical inquiry, its emergence, its epistemological and pedagogical commitments and practical outcomes"
         },
         {
             "subject": "PHM",
@@ -23810,10 +24097,24 @@
         },
         {
             "subject": "PHT",
+            "code": "5524",
+            "name": "Dimensions Sem II",
+            "units": "3.00",
+            "description": "This is the second in a sequence of four (4) courses designed to prepare the student in the areas of physical therapy related research, administration, education and professional issues.  Prerequisite: PHT 5523."
+        },
+        {
+            "subject": "PHT",
             "code": "5805",
             "name": "Clinical Intern I",
             "units": "3.00",
             "description": "This is the first in a sequence of 4 supervised full-time clinical internships designed to offer the student experiences in patient evaluation and care with emphasis on musculoskeletal dysfunction."
+        },
+        {
+            "subject": "PHT",
+            "code": "5960",
+            "name": "Comprehensive Exam I",
+            "units": "1.00",
+            "description": "This is the first of two comprehensive examinations that cover all previously completed coursework and is required for continued progression in the curriculum. Prerequisites: All Fall and Spring Semester Courses-Year I."
         },
         {
             "subject": "PHT",
@@ -23887,13 +24188,6 @@
         },
         {
             "subject": "PHT",
-            "code": "6526",
-            "name": "Dimensions Sem IV",
-            "units": "3.00",
-            "description": "This is the fourth in a sequence of four (4) courses designed to prepare the student in the areas of physical therapy related research, administration, education and professional issues.  Prerequisite: PHT 5525."
-        },
-        {
-            "subject": "PHT",
             "code": "6547",
             "name": "Case Mgmt Pt",
             "units": "1.00",
@@ -23936,8 +24230,22 @@
         },
         {
             "subject": "PHT",
+            "code": "6905C",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Introduction to guided research and/or clinical practice. Course will fall in-line with DPT project and/or Case Management series. May include lab and/or clinical experiences. Course may be repeated."
+        },
+        {
+            "subject": "PHT",
             "code": "6970",
             "name": "DPT Project",
+            "units": "3.00",
+            "description": "First in a series initiating students to the research process with faculty. Topics: Literature reviews, develop procedures & testing protocols, assessing reliability & validity and IRB submission"
+        },
+        {
+            "subject": "PHT",
+            "code": "6970C",
+            "name": "DPT I",
             "units": "3.00",
             "description": "First in a series initiating students to the research process with faculty. Topics: Literature reviews, develop procedures & testing protocols, assessing reliability & validity and IRB submission"
         },
@@ -24468,6 +24776,13 @@
         },
         {
             "subject": "POS",
+            "code": "6976",
+            "name": "Research Seminar",
+            "units": "3.00",
+            "description": "Required course for all M.A. candidates during completion of their major research project. Also required for second-year Ph.D. students. The course guides student research while in progress."
+        },
+        {
+            "subject": "POS",
             "code": "7910",
             "name": "Pre-Dis Research",
             "units": "0.00",
@@ -24622,6 +24937,13 @@
         },
         {
             "subject": "PSB",
+            "code": "4200",
+            "name": "Systems Neuroscience",
+            "units": "3.00",
+            "description": "Discussions about brain systems involved in a number of capacities including sensory, cognitive, and motor functions. Current hypotheses on the circuit dynamics of various systems. Prerequisite: PSB 3007"
+        },
+        {
+            "subject": "PSB",
             "code": "4240",
             "name": "Neuropsychology",
             "units": "3.00",
@@ -24629,17 +24951,17 @@
         },
         {
             "subject": "PSB",
+            "code": "4241",
+            "name": "Clinical Neuroscience",
+            "units": "3.00",
+            "description": "The relationship between pathology and neurodegenerative diseases or neuropsychiatric disorders and how clinicians detect and diagnose them. Broad discussion on clinical trials and drug development. Prerequisite: PSB 3007"
+        },
+        {
+            "subject": "PSB",
             "code": "4250",
             "name": "Animal Cognition",
             "units": "3.00",
             "description": "Issues and concepts relating to the evaluation of cognitive abilities in animals. Examines theoretical, methodological and philosophical issues and problems in the study of animal cognition."
-        },
-        {
-            "subject": "PSB",
-            "code": "5247",
-            "name": "Neurobio Learn Mem",
-            "units": "3.00",
-            "description": "Seminar focusing on the themes and questions of how the brain supports learning and memory."
         },
         {
             "subject": "PSB",
@@ -25108,7 +25430,7 @@
             "code": "4433",
             "name": "Legal Environ Re",
             "units": "3.00",
-            "description": "The legal environment of real estate as it relates to buying, financing and selling of real property. The completion of this course and REE 3043, meets the FREC educational requirement for real estate licensing."
+            "description": "The legal environment of real estate as it relates to buying, financing and selling of real property."
         },
         {
             "subject": "REE",
@@ -25214,13 +25536,6 @@
             "name": "Women And Religion",
             "units": "3.00",
             "description": "Explores the involvement, portrayal, and roles of women in religion, from early goddess religions through the cult of Mary to contemporary feminist theology."
-        },
-        {
-            "subject": "REL",
-            "code": "3160",
-            "name": "Science & Religion",
-            "units": "3.00",
-            "description": "The methods, assumptions, goals of religion will be compared with those of the natural and human sciences. Specific issues, such as evolution, sociobiology, and the new astronomy will be considered to illustrate similarities and differences between the two approaches."
         },
         {
             "subject": "REL",
@@ -25343,6 +25658,20 @@
         },
         {
             "subject": "REL",
+            "code": "4370",
+            "name": "African Religions",
+            "units": "3.00",
+            "description": "Critical analysis of the beliefs, myths, symbols, and rituals of traditional African religion, African Christianity, and African Islam, and exploration of their place and function in African societies."
+        },
+        {
+            "subject": "REL",
+            "code": "4382",
+            "name": "Latinas & Religion",
+            "units": "3.00",
+            "description": "Examines Latinas' participation in the history of religions in the Americas in order to explain the impact of women's religious experiences in cultural, social and political realms."
+        },
+        {
+            "subject": "REL",
             "code": "4910",
             "name": "Independent Research",
             "units": "0.00",
@@ -25403,6 +25732,13 @@
             "name": "Classical Arabic",
             "units": "3.00",
             "description": "Introduces the grammar and vocabulary of classical Arabic necessary for developing the ability to read classical texts."
+        },
+        {
+            "subject": "RLG",
+            "code": "5364",
+            "name": "Sufism: Islamic Mysticism",
+            "units": "3.00",
+            "description": "Explores the depth and breadth of the mystical tradition of Islam (Sufism) through primary and secondary texts which look at the esoteric dimensions of mystical practice in the Islamic World."
         },
         {
             "subject": "RLG",
@@ -25493,14 +25829,14 @@
             "code": "3531",
             "name": "Multimedia Prod",
             "units": "3.00",
-            "description": "Use of ENG/EFP equipment and techniques in production of programs, news, documentaries, music videos, commercials, training and video productions on location. Emphasis on single camera techniques and editing. Prerequisites:  MMC 3123, (JOU 2100 or DIG 3001 or RTV 3007), [(MMC 3003 and 2.85 cumulative GPA) or admission to Visual Production Certificate]] Corequisite:VIC3400 (Equipment fee assessed)"
+            "description": "Use of ENG/EFP equipment and techniques in production of programs, news, documentaries, music videos, commercials, training and video productions on location. Emphasis on single camera techniques and editing. Prerequisites:  MMC 3123, VIC 3400 or admission to Visual Production Certificate. Corequisite: MMC 3123, VIC 3400 (Equipment fee assessed)"
         },
         {
             "subject": "RTV",
             "code": "4101",
             "name": "Writing for Video Production",
             "units": "3.00",
-            "description": "The course is intended to introduce the student to various types of writing for television and Internet/Journalism videos. This will include storytelling for short videos and short documentaries.  Prerequisites: MMC 3003, MMC 3123, RTV 3007, 2.85 cumulative GPA. Corequisite: RTV 3007"
+            "description": "The course is intended to introduce the student to various types of writing for television and Internet/Journalism videos. This will include storytelling for short videos and short documentaries. Prerequisites: MMC 3003, MMC 3123, RTV 3007, RTV 3531, 2.85 cumulative GPA. Corequisite: RTV 3007, RTV 3531"
         },
         {
             "subject": "RTV",
@@ -25644,6 +25980,13 @@
         },
         {
             "subject": "SLS",
+            "code": "1510",
+            "name": "Strategies for Success",
+            "units": "1.00",
+            "description": "Improve students' academic and personal development in the areas of learning strategies, study skills, time management, problem solving, goal setting, and how to use resources effectively."
+        },
+        {
+            "subject": "SLS",
             "code": "3407",
             "name": "Major and Career Exploration",
             "units": "1.00",
@@ -25653,6 +25996,13 @@
             "subject": "SLS",
             "code": "3990",
             "name": "Spec Top: Arts, Sci, & Ed",
+            "units": "1.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "SLS",
+            "code": "3993",
+            "name": "Spec Top in Ar, Sc, & Ed",
             "units": "1.00",
             "description": "N/A"
         },
@@ -25795,13 +26145,6 @@
             "name": "Prosem Soc Psy",
             "units": "3.00",
             "description": "An in-depth examination of the role of social psychology in the social sciences and the major substantive problems as they relate to contemporary societal issues. Minimum Prerequisites: An introductory course in social psychology or its equivalent."
-        },
-        {
-            "subject": "SOW",
-            "code": "2001",
-            "name": "Expl of Human Svcs Profes",
-            "units": "3.00",
-            "description": "An overview of human services professions focusing on social work, generalist human services, couples and family counseling, clinical and counseling psychology, and school counseling."
         },
         {
             "subject": "SOW",
@@ -26455,6 +26798,13 @@
             "description": "Leadership is given to those who speak well, inspire change, and motivate others. Leadership communication empowers students to become effective leaders ready to engage a global world."
         },
         {
+            "subject": "SPC",
+            "code": "5066",
+            "name": "Pres Skills for Archtcts",
+            "units": "3.00",
+            "description": "This course provides architecture students with experiences delivering formal presentations. Participants will learn techniques for enhancing academic and professional presentations."
+        },
+        {
             "subject": "SPN",
             "code": "1130",
             "name": "Spanish I",
@@ -27037,13 +27387,6 @@
         },
         {
             "subject": "STA",
-            "code": "6167",
-            "name": "Stat Meth Res II",
-            "units": "3.00",
-            "description": "For non-mathematical sciences graduate students. A non-calculus exposition of methods and applications of statistical techniques for the analysis of data. Statistical packages will be used. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "STA",
             "code": "6176",
             "name": "Biostatistics",
             "units": "3.00",
@@ -27499,6 +27842,13 @@
         },
         {
             "subject": "TCN",
+            "code": "6450",
+            "name": "Wireless Info Sys",
+            "units": "3.00",
+            "description": "Enabling technologies and impediments of wireless information systems.  Focuses on software architectures, and information and location management in the wireless environment."
+        },
+        {
+            "subject": "TCN",
             "code": "6820",
             "name": "Ind Dev Of Telecom",
             "units": "3.00",
@@ -27849,13 +28199,6 @@
         },
         {
             "subject": "TPP",
-            "code": "4532",
-            "name": "Stage Combat II",
-            "units": "3.00",
-            "description": "Advanced study of combat techniques for the stage focusing on armed combat, including quarterstaff and broadsword."
-        },
-        {
-            "subject": "TPP",
             "code": "4600",
             "name": "Playwriting I",
             "units": "3.00",
@@ -27874,13 +28217,6 @@
             "name": "Adv Actor's Wkshp I",
             "units": "3.00",
             "description": "This course will concentrate on the acting demands of a specific period, style, genre, or playwright."
-        },
-        {
-            "subject": "TPP",
-            "code": "4930",
-            "name": "Spec Top Thea Perf",
-            "units": "0.00",
-            "description": "Studio sessions covering selected topics of current interest in theatre performance. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "TRA",
@@ -27993,13 +28329,6 @@
             "name": "Prin Of Esol Testing",
             "units": "3.00",
             "description": "Advanced study and research on current issues in the field of ESOL testing. Topics include principles and practices of ESOL testing for classroom use, communicative language test development, criteria for evaluating testing instruments, and study of standardized ESOL tests."
-        },
-        {
-            "subject": "TSL",
-            "code": "6375C",
-            "name": "Esol Pron",
-            "units": "3.00",
-            "description": "A course in the TESOL Master's program investigating the theories and methods of teaching pronunciation skills to ESOL students."
         },
         {
             "subject": "TSL",
@@ -28286,7 +28615,7 @@
             "code": "5116",
             "name": "Gender Violence & Law",
             "units": "3.00",
-            "description": "Critical analysis of power dynamics of gender violence across race, ethnicity, class globally. Examination of existing legal framework on a national and global level, opportunities for global justice."
+            "description": "Advanced examination of power dynamics fueling gender violence across gender, race, and class globally. Focus is on existing international legal framework to apply to global case studies."
         },
         {
             "subject": "WST",
@@ -28300,7 +28629,7 @@
             "code": "5618",
             "name": "Gender and Genocide",
             "units": "3.00",
-            "description": "This course examines the gendered dimension of genocide, exploring genocidal practices in terms of gender, sex, sexuality, ethnicity, race, and class under a critical feminist lens."
+            "description": "Advanced examination of the gendered dimension of global genocides based on recent feminist genocide scholarship, addressing justice & reconciliation within the framework of the UN Genocide Convention"
         },
         {
             "subject": "WST",
@@ -28448,6 +28777,13 @@
             "name": "Advanced Neurobiology",
             "units": "3.00",
             "description": "An in depth treatment of the nervous system covering molecular and cellular function, sensory and motor systems, and the neural basis of behavior. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "ZOO",
+            "code": "5895",
+            "name": "Zoo Conservation Bio",
+            "units": "1.00",
+            "description": "Zoo Conservation Biology is a hands-on workshop that examines of the role of zoos in conservation science, conservation action, and conservation education. Prerequisite: Permission of Instructor"
         },
         {
             "subject": "ZOO",

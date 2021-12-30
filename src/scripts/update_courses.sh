@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 ./courseDataUpdate.py && mv ./data.json ../data/
+python3 ./update-course-data.py && mv ./data.json ../data/
