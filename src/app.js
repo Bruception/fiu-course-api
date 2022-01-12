@@ -2,7 +2,7 @@ const path = require('path');
 const helmet = require('helmet');
 const express = require('express');
 const addApiRoutes = require('./api');
-const graphqlApi = require('./graphql-api');
+const graphqlApi = require('./graphql');
 const { logger, getContextMiddleware, errorHandlers, addSwaggerMiddleware } = require('./middleware');
 
 const PUBLIC_PATH = path.resolve(__dirname, './public');
@@ -13,7 +13,28 @@ const initializeAppAndServer = (port) => {
     const app = express();
 
     app.use(logger());
-    // app.use(helmet());
+    app.use(helmet({
+        contentSecurityPolicy: {
+            directives: {
+                defaultSrc: [
+                  '\'self\'',
+                  '\'unsafe-inline\'',
+                ],
+                baseUri: ['\'self\''],
+                blockAllMixedContent: [],
+                fontSrc: ['\'self\'', 'https:', 'data:'],
+                frameAncestors: ['\'self\''],
+                imgSrc: ['\'self\'', 'data:'],
+                objectSrc: ['\'none\''],
+                scriptSrc: [
+                  '\'self\'',
+                  '\'unsafe-inline\'',
+                  '\'unsafe-eval\'',
+                ],
+                upgradeInsecureRequests: [],
+              },
+        }
+    }));
     app.use(getContextMiddleware());
     app.use(express.json());
 
