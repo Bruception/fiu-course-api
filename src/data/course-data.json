@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1640541972,
+    "dataAsOf": 1641689914,
     "data": [
         {
             "subject": "ACG",
@@ -1480,13 +1480,6 @@
         },
         {
             "subject": "ARH",
-            "code": "5897",
-            "name": "Special Topics",
-            "units": "3.00",
-            "description": "Rotating special topics on the graduate level in art history. May be repeated with change of topic."
-        },
-        {
-            "subject": "ARH",
             "code": "5913",
             "name": "Research",
             "units": "1.00",
@@ -2677,13 +2670,6 @@
         },
         {
             "subject": "BCN",
-            "code": "5772",
-            "name": "Mgmt Const Org",
-            "units": "3.00",
-            "description": "This course studies the management of a construction company. Topics included are: company organization, incorporation structures, policies and procedures, finance, accounting, information modeling, bidding strategies, and operation."
-        },
-        {
-            "subject": "BCN",
             "code": "5774",
             "name": "Topics In Int Const",
             "units": "3.00",
@@ -2852,13 +2838,6 @@
         },
         {
             "subject": "BME",
-            "code": "4211",
-            "name": "Orthopaedic Biomechan",
-            "units": "3.00",
-            "description": "Introduction to the fundamentals of human musculoskeletal physiology and anatomy and computation of mechanical forces as it applies to orthopaedic biomechanics."
-        },
-        {
-            "subject": "BME",
             "code": "4230",
             "name": "Biomech Card Systems",
             "units": "3.00",
@@ -2940,6 +2919,20 @@
             "name": "Undergrad Seminar",
             "units": "0.00",
             "description": "The course consists of oral presentations made by guests, faculty and students on current topics and research activities in Biomedical Engineering."
+        },
+        {
+            "subject": "BME",
+            "code": "4940",
+            "name": "Undergraduate Internship",
+            "units": "0.00",
+            "description": "Engineering practice in biomedical applications in device manufacturing, research and development, healthcare delivery or a related area. Interns will be required to submit a pre-semester objective to the Biomedical Engineering Academic Advisor, as well as a final report and evaluation that must be completed and approved by the internship supervisor."
+        },
+        {
+            "subject": "BME",
+            "code": "4949",
+            "name": "BME CO-OP",
+            "units": "1.00",
+            "description": "Engineering Practice in biomedical applications at an industrial partner's site. Intern will be hired through a cooperative agreement to conduct collaborative research with supervision of advisor."
         },
         {
             "subject": "BME",
@@ -7297,13 +7290,6 @@
         },
         {
             "subject": "ECS",
-            "code": "3403",
-            "name": "Econ Latin America",
-            "units": "3.00",
-            "description": "Study of current economic issues facing Latin American countries, including population growth, poverty, inequality, inflation, trade and balance of payment problems, economic reform, and regional integration."
-        },
-        {
-            "subject": "ECS",
             "code": "4011",
             "name": "Development Econ I",
             "units": "3.00",
@@ -7497,13 +7483,6 @@
             "name": "Foundations Ed Res",
             "units": "3.00",
             "description": "Competencies required for critical understanding, evaluation, and use of published educational research: Understanding quantitative and qualitative methods; sampling; measurement; data collection and analysis; and inference process."
-        },
-        {
-            "subject": "EDF",
-            "code": "5905",
-            "name": "Dir Stud Educ",
-            "units": "0.00",
-            "description": "The student plans and carries out an independent study project under direction. Topics are to directly relate to content of education courses. Independent study may not substitute for regular course offerings. Prerequisites: Written permission of the chairman of the Division and the approval of the instructor."
         },
         {
             "subject": "EDF",
@@ -8141,6 +8120,13 @@
             "name": "Intro Network Forensics",
             "units": "3.00",
             "description": "The course covers the theoretical and practical aspects of the foundations of computer network security, incident response tools and techniques. Prerequisite: Senior Standing"
+        },
+        {
+            "subject": "EEE",
+            "code": "4754",
+            "name": "Intro Mobile Forensics",
+            "units": "3.00",
+            "description": "The course covers the theoretical and practical aspects of Mobile device forensics focusing on the identification, preservation, collection, analysis, and reporting techniques and tools. Prerequisite: EEL 4802"
         },
         {
             "subject": "EEE",
@@ -9317,13 +9303,6 @@
             "name": "Ind Fin Decisions",
             "units": "3.00",
             "description": "The use of financial techniques and data in planning, controlling and coordinating industrial activities. This course will familiarize the student with accounting concepts and analytical methods."
-        },
-        {
-            "subject": "EIN",
-            "code": "5436",
-            "name": "Logistics Reg Compliance",
-            "units": "3.00",
-            "description": "Cargo security compliance; declaration and fiscal compliance; customs warehouse management; transportation regulatory services; industry program support; government solutions and technology solutions. Prerequisites: Senior or Graduate standing."
         },
         {
             "subject": "EIN",
@@ -11217,6 +11196,13 @@
         },
         {
             "subject": "FOL",
+            "code": "3905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Project, field experience, readings, or apprenticeship."
+        },
+        {
+            "subject": "FOL",
             "code": "3930",
             "name": "Special Topics",
             "units": "3.00",
@@ -11571,6 +11557,13 @@
             "name": "Directed Ind Studies",
             "units": "3.00",
             "description": "Supervised readings and/or field research and training."
+        },
+        {
+            "subject": "GEO",
+            "code": "6478",
+            "name": "Crit Geopolitics",
+            "units": "3.00",
+            "description": "Examines the school of thought that emerged in the 1980s challenging hegemonic ways of representing the world. Topics include feminist geopolitics, war on terror, critical geopolitics in Latin America. Prerequisite: Graduate standing."
         },
         {
             "subject": "GEO",
@@ -14150,13 +14143,6 @@
         },
         {
             "subject": "INR",
-            "code": "5935",
-            "name": "Topics Intl Relation",
-            "units": "3.00",
-            "description": "Varies according to the instructor. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "INR",
             "code": "6266",
             "name": "Russian For Policy",
             "units": "3.00",
@@ -15199,6 +15185,13 @@
             "description": "Supervised internship leading to a major research paper in Latin American and Caribbean Studies. Prerequisite: All MALACS coursework completed."
         },
         {
+            "subject": "LAS",
+            "code": "6970",
+            "name": "Thesis",
+            "units": "0.00",
+            "description": "Requires students to enroll for thesis research for at least one credit hour every semester until thesis is completed. Prerequisite: Completion of all MALACS courses."
+        },
+        {
             "subject": "LAW",
             "code": "5000",
             "name": "Contracts",
@@ -15424,13 +15417,6 @@
         },
         {
             "subject": "LAW",
-            "code": "6340",
-            "name": "Conflicts of Law",
-            "units": "2.00",
-            "description": "This course deals with the special problems that arise when the facts or the parties in a case have contacts with more than one state or country. These problems relate to: jurisdiction in personam, in rem and quasi-in rem; choice of the applicable law; and after rendition of a judgment, that judgment's recognition and enforcement in other states and enforcement in other states and\r\ncountries. Jurisdictional and choice of law rules are studied with special emphasis on situations involving torts, contracts and property transactions cutting across state and national boundary lines. Also considered are interstate and international problems concerning marriage, divorce, and decedents' estates."
-        },
-        {
-            "subject": "LAW",
             "code": "6350",
             "name": "Law & Procedure: US & Florida",
             "units": "4.00",
@@ -15561,13 +15547,6 @@
             "name": "Corp & P'Shp Tax",
             "units": "2.00",
             "description": "The course examines the income tax treatment of corporations and their shareholders and of partnerships and their partners arising from various transactions including incorporations, distributions, redemptions, liquidations, and non-taxable acquisitive reorganizations. Prerequisite: Federal Income Tax."
-        },
-        {
-            "subject": "LAW",
-            "code": "6621",
-            "name": "Estate and Gift Tax",
-            "units": "2.00",
-            "description": "This course covers federal estate and gift taxes and their impact\r\non gratuitous property transactions during life and at death. The course includes brief consideration of the tax on generation skipping transfers. Prerequisite: Federal Income Tax, Wills and Trusts."
         },
         {
             "subject": "LAW",
@@ -16299,6 +16278,13 @@
         },
         {
             "subject": "LIN",
+            "code": "5574",
+            "name": "Languages Of World",
+            "units": "3.00",
+            "description": "Introduces the student to the richness of human linguistic diversity while demonstrating concurrently the underlying universality of human language. Prerequisites: LIN 3010, LIN 3013, or LIN 5018 or the equivalent."
+        },
+        {
+            "subject": "LIN",
             "code": "6323",
             "name": "Phonology",
             "units": "3.00",
@@ -16537,6 +16523,13 @@
         },
         {
             "subject": "MAC",
+            "code": "2241L",
+            "name": "Calc 1 Lab Biology",
+            "units": "1.00",
+            "description": "Review of numerical methods used in calculus 1 by students in QBIC program."
+        },
+        {
+            "subject": "MAC",
             "code": "2242L",
             "name": "Cal 2 Lab Biology",
             "units": "1.00",
@@ -16667,6 +16660,13 @@
             "name": "Student Teaching",
             "units": "9.00",
             "description": "Supervised teaching in a middle school or senior high school."
+        },
+        {
+            "subject": "MAE",
+            "code": "6318",
+            "name": "Elementary Math",
+            "units": "3.00",
+            "description": "Required in masters program in elementary education. Refines skills related to program development, methods of teaching, selection of materials, and review of research, in elementary mathematics education."
         },
         {
             "subject": "MAN",
@@ -17643,6 +17643,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7260",
+            "name": "Endocrinology Elective",
+            "units": "1.00",
+            "description": "Students will see patients with both common and rare disorders of the Endocrinology system in the adult out-patient setting and the inpatient consultation service. Students are expected to longitudinally follow patients seen as part of the inpatient endocrinology consult service. Students are expected to prepare, as assigned, topic presentations and case discussions during the week. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7270",
             "name": "Gastroenterology/Hepatology",
             "units": "1.00",
@@ -17710,6 +17717,13 @@
             "name": "Pediatric Hematology Elective",
             "units": "1.00",
             "description": "Medical students will evaluate and follow hematology and oncology patients in both the inpatient and outpatient settings. Students will attend all hematology-oncology educational conferences. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7460",
+            "name": "Pediatric Neonatology Elective",
+            "units": "1.00",
+            "description": "Medical students will examine patients admitted to the Pediatric Neonatology Unit, write daily entries into the medical record, develop plans for care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students and residents of the Neonatology Unit. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -19379,6 +19393,13 @@
         },
         {
             "subject": "MUN",
+            "code": "5125L",
+            "name": "Symphony Band",
+            "units": "1.00",
+            "description": "Concert Band ensemble for music majors on secondary instruments and non-music majors. Various types of concert band literature covered from differing grade levels. Course open to anyone who has previous experience playing a wind or percussion instrument."
+        },
+        {
+            "subject": "MUN",
             "code": "5145L",
             "name": "Symphonic Wind Ens",
             "units": "1.00",
@@ -19848,6 +19869,13 @@
         },
         {
             "subject": "MVB",
+            "code": "3333",
+            "name": "Prin Appl Trombone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "3334",
             "name": "Prin App Bariton Ho",
             "units": "2.00",
@@ -20125,6 +20153,13 @@
             "name": "Maj App Jazz Drms",
             "units": "3.00",
             "description": "Individual instruction in applied music in the jazz idiom. Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
+            "code": "3436",
+            "name": "Maj Applied Jazz Sax",
+            "units": "3.00",
+            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz.  Prerequisite: Audition."
         },
         {
             "subject": "MVJ",
@@ -24426,6 +24461,13 @@
         },
         {
             "subject": "PHY",
+            "code": "5936",
+            "name": "Spec Topic Resarch",
+            "units": "0.00",
+            "description": "Participation in an original investigation in theoretical or experimental physics/astro-physics under direct faculty supervision. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "PHY",
             "code": "5940",
             "name": "Phy Grad Teach Wks",
             "units": "1.00",
@@ -25118,13 +25160,6 @@
             "description": "Supervised research on an original research project submitted in partial fulfillment of doctoral degree requirements. Prerequisites: Permission of Major Professor and Doctoral Candidacy."
         },
         {
-            "subject": "PUP",
-            "code": "6006",
-            "name": "Pub Plcy Anyl Evlt",
-            "units": "3.00",
-            "description": "A framework for evaluating public policy-making will be presented. The emphasis will be on criteria and methodologies available for choosing among alternative courses of action. The systems approach, alternative futures, and nth-order consequences of policies will be analyzed."
-        },
-        {
             "subject": "PUR",
             "code": "1951",
             "name": "PRAAC Orientation",
@@ -25637,13 +25672,6 @@
         },
         {
             "subject": "REL",
-            "code": "4105",
-            "name": "Lat Immigration and Rel",
-            "units": "3.00",
-            "description": "The course will analyze the main ways in which the complex phenomenon of migration overlaps with religion focusing on Latino/a immigration to the United States taking into account a gender perspective."
-        },
-        {
-            "subject": "REL",
             "code": "4146",
             "name": "Fem Theology/Ethics",
             "units": "3.00",
@@ -25690,13 +25718,6 @@
             "name": "Advanced Fieldwork",
             "units": "3.00",
             "description": "Techniques of ethnography used in Religious Studies beginning with research design and including participant observation, interviews, surveys."
-        },
-        {
-            "subject": "RLG",
-            "code": "5106",
-            "name": "Rel, Latin and Immigration",
-            "units": "3.00",
-            "description": "The course will analyze the relationships between the complex phenomenon of Latinos/as immigration and religions. This area of study necessarily demands an interdisciplinary approach including gender."
         },
         {
             "subject": "RLG",
@@ -25877,13 +25898,6 @@
             "subject": "RUS",
             "code": "1130",
             "name": "Russian I",
-            "units": "5.00",
-            "description": "Provides training in the acquisition and application of basic language skills."
-        },
-        {
-            "subject": "RUS",
-            "code": "1131",
-            "name": "Russian II",
             "units": "5.00",
             "description": "Provides training in the acquisition and application of basic language skills."
         },
