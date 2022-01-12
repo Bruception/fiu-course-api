@@ -1,4 +1,5 @@
 module.exports = {
-    formatService: require('./format.service'),
-    courseDataService: require('./course-data.service'),
+    formatService: require('./format'),
+    courseDataService: require('./course-data'),
+    statusService: require('./status'),
 };
