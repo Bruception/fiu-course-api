@@ -7,8 +7,8 @@
     "test": "export PORT=8001 ; jest ./src/tests --verbose --collect-coverage",
     "lint": "./node_modules/.bin/eslint './src/**/*.js'",
     "fix-lint": "./node_modules/.bin/eslint './src/**/*.js' --fix",
-    "dev": "nodemon ./src/app.js",
-    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js",
     "update-data": "cd ./src/scripts ; source ./update_courses.sh ; cd ~-",
     "update-protos": "protoc --js_out=import_style=commonjs,binary:. ./src/protos/course.proto ./src/protos/service.proto"
   },
