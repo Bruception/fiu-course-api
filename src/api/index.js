@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const express = require('express');
-const statusRouter = require('./status.router');
-const coursesRouter = require('./courses.router');
+const statusRouter = require('./status');
+const coursesRouter = require('./courses');
 
 const routerMap = {
     '/courses': coursesRouter,
