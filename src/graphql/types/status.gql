@@ -1,0 +1,17 @@
+
+"An object that describes characteristics of the service."
+type Status {
+    "The current working version of the service."
+    version: String
+    "The service's uptime."
+    uptime: Int
+    "The last time the course data was updated."
+    dataAsOf: Int
+    "The number of requests processed by the service."
+    requestsReceived: Int
+}
+
+type Query {
+    "Fetch the service's status data."
+    status: Status
+}
