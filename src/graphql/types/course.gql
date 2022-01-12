@@ -1,0 +1,20 @@
+
+"An object that represents a course from FIU."
+type Course {
+    "The subject that the course belongs to."
+    subject: String
+    "The course's code."
+    code: String
+    "The course's name."
+    name: String
+    "The number of units offered by the course."
+    units: String
+    "The course's description."
+    description: String
+}
+
+"All fetchable data."
+type Query {
+    "Fetch FIU course data."
+    courses (subject: [String], code: [String], units: [String], isLab: Boolean, keywords: String, skip: Int, limit: Int, sortBy: String, reverseOrder: Boolean): [Course]
+}
