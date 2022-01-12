@@ -1,7 +1,7 @@
 const yaml = require('yaml');
 const request = require('supertest');
 
-const { app, server } = require('../app');
+const app = require('../app');
 const { version } = require('../../package.json');
 const coursePB = require('../protos/course_pb');
 const servicePB = require('../protos/service_pb');
@@ -116,5 +116,4 @@ describe('app: Testing endpoints.', () => {
             expect(deserializedData.getDataasof().toString()).toMatch(/^\d+$/);
         });
     });
-    server.close();
 });
