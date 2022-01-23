@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1642294269,
+    "dataAsOf": 1642898735,
     "data": [
         {
             "subject": "ACG",
@@ -1960,6 +1960,13 @@
             "name": "Const Fin Mgmt",
             "units": "3.00",
             "description": "Money management in construction operations:  financing, funding, sources of money, cash flow, disbursement, liability and bonding, cost and managerial accounting, and profit analysis."
+        },
+        {
+            "subject": "BCN",
+            "code": "5766",
+            "name": "Codes And Reg",
+            "units": "3.00",
+            "description": "Study of building codes required by local, county, and state levels and their relation to quality control."
         },
         {
             "subject": "BCN",
@@ -6814,6 +6821,13 @@
         },
         {
             "subject": "EGN",
+            "code": "3945",
+            "name": "Coop Ed in Eng",
+            "units": "3.00",
+            "description": "The cooperative education in engineering course is for current interdisciplinary engineering students to pursue an experiential education opportunity at an organization focused on their area of study. Prerequisite: Junior standing"
+        },
+        {
+            "subject": "EGN",
             "code": "3999",
             "name": "CENGR Internship",
             "units": "0.00",
@@ -6972,6 +6986,13 @@
             "name": "ISE Internship",
             "units": "1.00",
             "description": "To provide graduate students with work experience under approved industrial supervision.  Prerequisite: Departmental approval."
+        },
+        {
+            "subject": "EIN",
+            "code": "6971",
+            "name": "Master's Thesis",
+            "units": "0.00",
+            "description": "The students following the thesis option should work on his/her thesis through this \r\ncourse."
         },
         {
             "subject": "EMA",
@@ -8585,6 +8606,13 @@
         },
         {
             "subject": "GEO",
+            "code": "4905",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "Directed independent research in systematic geography. Requires prior approval by instructor."
+        },
+        {
+            "subject": "GEO",
             "code": "5479",
             "name": "Adv Political Ecology",
             "units": "3.00",
@@ -8764,6 +8792,13 @@
             "name": "Intro Hydrogeology",
             "units": "3.00",
             "description": "Principles of groundwater flow, determination of aquifer properties, geologic factors influencing groundwater flow and quality, legal/regulatory framework for hydrogeology."
+        },
+        {
+            "subject": "GLY",
+            "code": "4947",
+            "name": "Internship in Geoscience",
+            "units": "0.00",
+            "description": "Practical geological, geophysical, or hydrological work experience at local companies, non-profits, or government agencies supervised by a faculty member. May be repeated for credit. (Pass/Fail Only) Prerequisite: Permission of Instructor."
         },
         {
             "subject": "GLY",
@@ -14486,6 +14521,13 @@
         },
         {
             "subject": "MVB",
+            "code": "1313",
+            "name": "Prin Appl Trombone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "1314",
             "name": "Prin App Bariton Ho",
             "units": "2.00",
@@ -14689,6 +14731,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "1314",
+            "name": "Prin App Jazz Bass",
+            "units": "2.00",
+            "description": "Individual instruction in applied jazz music on bass."
+        },
+        {
+            "subject": "MVJ",
             "code": "1412",
             "name": "Major Applied Jazz Voice",
             "units": "2.00",
@@ -14787,6 +14836,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "3432",
+            "name": "Major Applied Jazz Voice",
+            "units": "3.00",
+            "description": "Individual instruction in the Jazz Vocal Idiom. Study includes health and vocal technique, advanced development of repertoire, specific and necessary skills for compelling public performance."
+        },
+        {
+            "subject": "MVJ",
             "code": "3434",
             "name": "Maj App Jazz Bass",
             "units": "3.00",
@@ -14868,6 +14924,13 @@
             "name": "Jazz Piano Tech",
             "units": "1.00",
             "description": "Performance of basic jazz standards. Includes basic techniques of the instrument, chord voicing, comping, lead sheet realization for non-pianists."
+        },
+        {
+            "subject": "MVJ",
+            "code": "5250",
+            "name": "Sec Jazz Piano",
+            "units": "1.00",
+            "description": "Individual instruction in applied jazz music on piano."
         },
         {
             "subject": "MVJ",
