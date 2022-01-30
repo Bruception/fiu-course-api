@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1642898735,
+    "dataAsOf": 1643503602,
     "data": [
         {
             "subject": "ACG",
@@ -3807,7 +3807,7 @@
             "code": "1940",
             "name": "Internship-Teaching CS",
             "units": "0.00",
-            "description": "Internship for teaching computational thinking to students in K-12, following established CS curriculum such as Google CS First, Code.org, and MIT Media Lab's Scratch."
+            "description": "Internship for teaching computational thinking to students in K-12, following established curriculum such as Google CS First, Code.org, and MIT Media Lab's Scratch. May be repeated."
         },
         {
             "subject": "CIS",
@@ -8312,13 +8312,6 @@
         },
         {
             "subject": "FIN",
-            "code": "4941",
-            "name": "Fin Internship",
-            "units": "1.00",
-            "description": "Part-time supervised work in a selected bank or other organization in the area of finance."
-        },
-        {
-            "subject": "FIN",
             "code": "7606",
             "name": "Int'L Corp Finance",
             "units": "3.00",
@@ -8465,6 +8458,13 @@
             "description": "This survey course examines the main literary movements and texts of the French and Francophone world from the Middle Ages to the present, while preparing students to take advanced literature courses."
         },
         {
+            "subject": "FRW",
+            "code": "3905",
+            "name": "Independent Study",
+            "units": "3.00",
+            "description": "Project, field experience, readings, or apprenticeship."
+        },
+        {
             "subject": "FSS",
             "code": "3073",
             "name": "Intl Bak, Conf & Des",
@@ -8554,13 +8554,6 @@
             "name": "Writing the Business Plan",
             "units": "3.00",
             "description": "Students (a) write 2 business plans for a new business - one to raise equity and the other to obtain debt, (b) analyze successful plans, and (c) obtain understanding of investor perspectives and demands."
-        },
-        {
-            "subject": "GEB",
-            "code": "4940",
-            "name": "Business Internship",
-            "units": "0.00",
-            "description": "Internship program enabling students to participate in business-related internships to include new startups, product/service launches, and/or business re-engineering, innovation projects. Prerequisite: Instructor Approval"
         },
         {
             "subject": "GEO",
@@ -8678,8 +8671,8 @@
             "subject": "GIS",
             "code": "3043",
             "name": "Introduction To Gis",
-            "units": "3.00",
-            "description": "Introduction to GIS concepts and software such as ArcView. Topics include: cartographic basics, spatial datasets, attributes, map production, spatial statistics and analysis, and obtaining GIS data."
+            "units": "4.00",
+            "description": "Introduction to GIS concepts and specialized software. Topics include: cartographic basics, spatial datasets, attributes, map production, spatial statistics and analysis, and obtaining GIS data."
         },
         {
             "subject": "GIS",
@@ -9771,7 +9764,7 @@
             "code": "5226",
             "name": "Mgt Of Ltc Systems",
             "units": "3.00",
-            "description": "Organizational, financial, and policy issues in the management of long term care systems in the U.S. with special emphasis on the State of Florida."
+            "description": "Organizational, financial, and policy issues in the management of long term care systems."
         },
         {
             "subject": "HSA",
@@ -11192,7 +11185,7 @@
             "code": "4367",
             "name": "Navigating Theory & Pract",
             "units": "3.00",
-            "description": "This course will allow advanced undergraduate students to merge their learning in English and Education in order to prepare for their subject area exam and practice their learning in the field. Prerequisite: LAE 4464, LAE 4335, five LIT 3000/4000 level courses"
+            "description": "This course will allow advanced undergraduate students to merge their learning in English and Education in order to prepare for their subject area exam and practice their learning in the field. Prerequisite: LIT 1000 and LAE 3360"
         },
         {
             "subject": "LAE",
@@ -12025,7 +12018,7 @@
             "code": "3703",
             "name": "Intro to Rec Therapy",
             "units": "3.00",
-            "description": "History, philosophy, and current principles of recreational therapy processes and application. Emphasis will be given to role of recreational therapy services."
+            "description": "Overview of the foundations of professional recreational therapy practice including history, theory, service models, ethics, credentials, standards of practice, and the recreational therapy process. Corequisite: LEI 3400"
         },
         {
             "subject": "LEI",
@@ -12074,7 +12067,7 @@
             "code": "4711",
             "name": "Assessment, Doc and Eval in RT",
             "units": "3.00",
-            "description": "An overview of the theory, concepts and techniques used in client assessment, evaluation and documentation for recreational therapy treatment."
+            "description": "Students will screen and assess individuals using evidence-based recreational therapy instruments, collect data, and analyze and document assessment findings to create individualized treatment plans. Prerequisite: LEI 3703"
         },
         {
             "subject": "LEI",
@@ -12109,14 +12102,14 @@
             "code": "4940",
             "name": "Internship I",
             "units": "3.00",
-            "description": "An on the job training program designed to enable students to develop those competencies which can only be gained from practical experience."
+            "description": "This course provides students with the opportunity to shadow professionals in allied health fields and gain practical experience implementing the therapeutic process with clients. Prerequisite: LEI 4705"
         },
         {
             "subject": "LEI",
             "code": "4941",
             "name": "Internship II Lei",
             "units": "3.00",
-            "description": "An on the job training program designed to enable students to develop those competencies which can only be gained from practical experience."
+            "description": "An internship experience in Recreational Therapy following the National Council for Therapeutic Recreation Certification (NCTRC) guidelines for the CTRS certification. Prerequisite: LEI 4940"
         },
         {
             "subject": "LEI",
@@ -12729,27 +12722,6 @@
         },
         {
             "subject": "MAN",
-            "code": "4947",
-            "name": "lnt'I Bus Internship II",
-            "units": "1.00",
-            "description": "Continuation of MAN 4946 (International Business Internship). Supervised work in a selected organization in the area of international business. Prerequisite: Completion of MAN 4946; minimum 90 credit hours; GPA 2.75 or higher; permission of Department Chair."
-        },
-        {
-            "subject": "MAN",
-            "code": "4949",
-            "name": "Mgt Internship II",
-            "units": "3.00",
-            "description": "Continuation of MAN 3949."
-        },
-        {
-            "subject": "MAN",
-            "code": "6695",
-            "name": "Indepen. Study In Ib",
-            "units": "3.00",
-            "description": "Individual conferences; supervised readings; reports on personal investigations. Prerequisites: Assignment of faculty tutor and written permission of Department Chairperson, and Dean."
-        },
-        {
-            "subject": "MAN",
             "code": "7275",
             "name": "Org Behav Mgmt",
             "units": "3.00",
@@ -13062,13 +13034,6 @@
             "name": "Ph.D. Dissertation",
             "units": "1.00",
             "description": "Original research that is supervised by a faculty committee and defended openly before the university committee. Prerequisites: Permission of Major Professor and Doctoral Candidacy."
-        },
-        {
-            "subject": "MAR",
-            "code": "7981",
-            "name": "Dissertation Preparation",
-            "units": "1.00",
-            "description": "Preparatory background research and study to begin development of dissertation proposal. Students should be able to complete proposal by end of the course. Prerequisite: Completion of TIER 1 courses. (on demand)"
         },
         {
             "subject": "MAS",
@@ -14560,6 +14525,13 @@
             "name": "Prin Appl French Hor",
             "units": "2.00",
             "description": "Individual instruction in applied music on French horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "2323",
+            "name": "Prin Appl Trombone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
         },
         {
             "subject": "MVB",
