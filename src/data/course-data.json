@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1643503602,
+    "dataAsOf": 1644108883,
     "data": [
         {
             "subject": "ACG",
@@ -2516,6 +2516,13 @@
         },
         {
             "subject": "BSC",
+            "code": "4934",
+            "name": "Topics In Biology",
+            "units": "0.00",
+            "description": "An intensive study of a particular topic or limited number of topics not otherwise offered in the curriculum."
+        },
+        {
+            "subject": "BSC",
             "code": "4970",
             "name": "Honors Thesis",
             "units": "3.00",
@@ -3828,7 +3835,7 @@
             "code": "3950",
             "name": "Capstone I",
             "units": "1.00",
-            "description": "Students learn how to perform efficiently in Agile/Scrum teams of up to 5 members and learn how to design and implement solutions to problems as a team. Prerequisite: COP 3337 and Junior Standing"
+            "description": "Students learn how to perform efficiently in Agile/Scrum teams of up to 5 members and learn how to design and implement solutions to problems as a team. Prerequisite: (COP 3337 or COP 3804) and Junior Standing"
         },
         {
             "subject": "CIS",
@@ -4907,6 +4914,13 @@
             "name": "Dance Appreciation",
             "units": "3.00",
             "description": "An overview of dance from a variety of cultural and traditional perspectives. Through film, lecture, and movement, this course explores the diverse ways in which we organize and interpret our life experience as human beings through dance."
+        },
+        {
+            "subject": "DAN",
+            "code": "4905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Individual study by students under the direction of a faculty member. Topics vary; they are usually selected on an individual basis."
         },
         {
             "subject": "DAN",
@@ -6320,7 +6334,7 @@
             "code": "4515",
             "name": "Adv Comm Systems",
             "units": "3.00",
-            "description": "Advanced senior level course designed for those students who desire to enhance their engineering knowledge in communication systems. State-of-the-art techniques in FM, digital communication, phase locked loops, noise treatment, threshold improvement, etc."
+            "description": "Advanced senior level course designed for those students who desire to enhance their engineering knowledge in communication systems. State-of-the-art techniques in FM, digital communication, phase locked loops, noise treatment, threshold improvement, etc. Prerequisite: EEL 3135 or permission of the instructor"
         },
         {
             "subject": "EEL",
@@ -7776,7 +7790,7 @@
             "code": "3215",
             "name": "Eval Engr Data I",
             "units": "3.00",
-            "description": "Analysis of industrial data and subsequent characterization of industrial processes."
+            "description": "Analysis of industrial data and subsequent characterization of industrial processes. Prerequisites: MAC 2311 or MAC 2281, or instructor permission."
         },
         {
             "subject": "ESI",
@@ -9361,13 +9375,6 @@
             "description": "The Advanced Internship is a practical hospitality/tourism work experience structured to provide exposure to management and training functions, job rotation tasks and/or projects not previously performed. Minimum 300 hours/ten weeks field experience. Prerequisites: Documented completion of 1,000 hospitality related work hours of which 500 hours must be completed while enrolled at FIU. Permission of an advisor."
         },
         {
-            "subject": "HFT",
-            "code": "4955",
-            "name": "Study Abroad: Hospitality Tour",
-            "units": "3.00",
-            "description": "An integrated program of learning conducted in foreign environments for hospitality management majors. They will be exposed to different cultures and taught how to manage businesses in other countries."
-        },
-        {
             "subject": "HIS",
             "code": "3051",
             "name": "Jun Sem: Approaches Hist",
@@ -9485,13 +9492,6 @@
             "name": "Intensive Pod in Hsp. In.",
             "units": "1.00",
             "description": "This course will provide intensive instruction on a particular topic or skill not otherwise offered in the curriculum. This course is repeatable."
-        },
-        {
-            "subject": "HMG",
-            "code": "5957",
-            "name": "Study Abroad: Hospitality Tour",
-            "units": "3.00",
-            "description": "An integrated program of learning conducted in foreign environments for hospitality management majors. They will be exposed to different cultures and taught how to manage businesses in other countries."
         },
         {
             "subject": "HMG",
@@ -13149,6 +13149,13 @@
         },
         {
             "subject": "MDC",
+            "code": "7124",
+            "name": "Geriatrics",
+            "units": "2.00",
+            "description": "During the 2-week Geriatrics rotation, students will actively participate in the ongoing, daily care of older adults who have a wide variety of acute and chronic illnesses and abnormal physical findings. Throughout the course, students will work with a variety of geriatric focused health professionals \u00c2\u00bf including physicians, nurse practitioners, therapists, certified nursing assistants, and social workers-- as part of the interdisciplinary care team. Students will be involved with and responsible for admission assessments, ongoing care and management for patients, discharge planning and communicating with patients' families. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDC",
             "code": "7180",
             "name": "OB/GYN Clerkship",
             "units": "6.00",
@@ -13209,6 +13216,55 @@
             "name": "PD and CM Capstone",
             "units": "1.00",
             "description": "The Professional Development Capstone is explicitly designed to address anticipated expectations of Professionalism in the first few months of residency and beyond. Additionally, the Capstone in Professional Development is intended to serve as a review of relevant topics for Internship and the introduction of specific practical topics not otherwise covered in the curriculum.\nThe Clinical Medicine Capstone is a yearlong required course for all Period 4 medical students. It consists of two components. The first component is a monthly online module including a clinical reasoning case exercise, several EKG and radiology challenge questions, and a short quiz based on a review article covering a topic relevant to internship. The second component, held during the final month of medical school, is a week-long transition to internship bootcamp consisting of small group and individual role play and standardized patient activities designed to simulate common clinical scenarios encountered during internship. Completion of each of the monthly modules and attendance at the bootcamp are mandatory and will be tracked. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7100",
+            "name": "Community Medicine Elective",
+            "units": "1.00",
+            "description": "This intensive ambulatory block will serve as a community based primary care experience. Under the supervision of community based FIU faculty, the student will assume a level of independence appropriate to his/her skills and training level. Students will practice patient-centered communication, diagnostic and management skills, clinical reasoning, management of common ambulatory clinical issues, and patient education and negotiation. Experiences may include any primary care specialty (e.g. family medicine, internal medicine, pediatrics, obstetrics and gynecology, psychiatry). Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7121",
+            "name": "PC Sports Med Elective",
+            "units": "1.00",
+            "description": "This is an outpatient clinical rotation that provides a comprehensive spectrum of evaluation and management of both medical illness and orthopedic injury as it relates to musculoskeletal medicine. Students will diagnose, treat and help prevent general medical problems and injuries in athletes regardless of gender, or level of competition. The care of the athlete will include performance of pre-participation sports physicals, assessment of common medical problems and musculoskeletal injuries, as well as treatment and rehabilitation of these conditions. The student will learn nonsurgical treatments for acute and overuse musculoskeletal problems to minimize time away from sports, school or work. The student will also treat chronic problems such as osteoarthritis to help minimize disability and maximize function, develop skills in conservative fracture management with splinting and casting and may be involved in sideline coverage of sporting events. The student will also be exposed to musculoskeletal ultrasound diagnostics and injections. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7161",
+            "name": "OB/GYN Elective",
+            "units": "1.00",
+            "description": "This fourth year clinical elective in Obstetrics and Gynecology offers the student the opportunity to enhance his/her skills in outpatient diagnosis and management. The student is expected to adhere to the schedule agreed upon with the FIU faculty member, including call duty, rounding, and other clinical responsibilities (ie. those related to surgery, outpatient clinic, or the labor floor). The rotation may be tailored based on the student's specific goals and learning objectives; the student should reach out to the course director to discuss special considerations. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7220",
+            "name": "Cardiology Elective",
+            "units": "1.00",
+            "description": "The objective of this hospital-based rotation is for students to improve their understanding of the pathophysiology of common cardiovascular diseases; the evaluation of acute and chronic cardiac disorders, including indications for invasive and non-invasive studies and EKG interpretation; the appropriate history and physical exam technique, with particular attention to the cardiovascular exam; and the differential diagnosis and first line treatment of prevalent cardiovascular disorders, with an emphasis on disease prevention. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7250",
+            "name": "Dermatology Elective",
+            "units": "1.00",
+            "description": "This elective course is designed to give the student exposure to clinical dermatology, including the diagnosis and management of common skin diseases seen in general practice. The majority of the student's time will be spent working with faculty members in the outpatient clinical setting; although there may be some opportunities for inpatient consultations and other work. Upon completion of this elective, the student will know the clinical features of the most commonly encountered skin diseases and will be familiar with the modalities available for their management. This elective will be useful to students planning a career in a primary care specialty or dermatology. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7440",
+            "name": "Pediatric Hematology Elective",
+            "units": "1.00",
+            "description": "Medical students will evaluate and follow hematology and oncology patients in both the inpatient and outpatient settings. Students will attend all hematology-oncology educational conferences. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7763",
+            "name": "Diagnostic Radiology Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to give students an introduction to the basics of diagnostic imaging, the appropriate choice of imaging method for given clinical problems, and the side-effects and risks associated with each. Students will become familiar with imaging findings in common clinical conditions. The rotation will involve online modules, small group sessions and 'virtual' and real reading room sessions. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MET",
@@ -13418,7 +13474,7 @@
             "code": "3123",
             "name": "Writing Fundamentals",
             "units": "3.00",
-            "description": "Writing Fundamentals for Communicators applies principles of writing for professional communications in advertising, broadcast, digital media, scholarship, journalism and public relations. Prerequisites: ENC 1101 and ENC 1102"
+            "description": "Writing Fundamentals for Communicators applies principles of writing for professional communications in advertising, broadcast, digital media, scholarship, journalism and public relations. Prerequisites:  ENC1101, ENC 1102, [(JOU 2100 or DIG 3001 or RTV 3007) or admission to Visual Production Certificate]. Corequisite: JOU 2100 or DIG 3001 or RTV 3007"
         },
         {
             "subject": "MMC",
@@ -14777,6 +14833,13 @@
             "name": "Maj App Jazz Drms",
             "units": "2.00",
             "description": "Individual instruction on jazz drums at the applied level. Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
+            "code": "3238",
+            "name": "Sec Jazz Trombone",
+            "units": "1.00",
+            "description": "Individual instruction in applied jazz music on trombone."
         },
         {
             "subject": "MVJ",
@@ -18633,7 +18696,7 @@
             "code": "3043",
             "name": "Real Estate Prin",
             "units": "3.00",
-            "description": "Introduction to the nature, principles, and fundamental practices of the real estate industry. The completion of this course and REE 4433, meets the FREC educational requirement for real estate licensing."
+            "description": "Introduction to the nature, principles, and fundamental practices of the real estate industry. Prerequisites: ACG3301, QMB 3003 or ((STA2023 or STA2122) and (MAC2233 or (any Calculus I or higher course)) or equivalents with a grade of 'C' or higher Business students only."
         },
         {
             "subject": "REE",
