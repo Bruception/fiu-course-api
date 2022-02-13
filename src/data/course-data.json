@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1644108883,
+    "dataAsOf": 1644713527,
     "data": [
         {
             "subject": "ACG",
@@ -10709,7 +10709,7 @@
             "code": "3153",
             "name": "Bus Process Analysis",
             "units": "3.00",
-            "description": "Introduction to principles and methods of business process management. Emphasis on role of process models to understand and analyze operations and to drive design of Information Technology solutions. Prerequisite:  (a) 45 credit hours earned and (b) Business Students or Project Management Minors only"
+            "description": "Introduction to principles and methods of business process management. Emphasis on role of process models to understand and analyze operations and to drive design of Information Technology solutions. : (a) MAC 1105 or higher equivalents with a grade of 'C' or higher; (b) 45 credit hours earned and (c) Business Students or Project Management Minors only."
         },
         {
             "subject": "ISM",
@@ -10730,7 +10730,7 @@
             "code": "4113",
             "name": "Systems Analy & Des",
             "units": "3.00",
-            "description": "Topics include: information systems concepts; the structure, design, and development of the data base; and techniques and procedures used in the analysis and design of systems projects. Prerequisites:(a) 45 credit hours earned; and (b) Business Students or Project Management Minors only"
+            "description": "Topics include: information systems concepts; the structure, design, and development of the data base; and techniques and procedures used in the analysis and design of systems projects. Prerequisites: (a) MAC 1105 or higher equivalents with a grade of 'C' or higher; (b) 45 credit hours earned; (c) Business students or Project Management Minors only."
         },
         {
             "subject": "ISM",
@@ -10751,14 +10751,14 @@
             "code": "4211",
             "name": "Data Sys Phy Desn",
             "units": "3.00",
-            "description": "Essential concepts of database design and management in modern business environments. Students gain hands-on experience and exposure to modern databases and their use cases e.g. Big Data. Prerequisites: (a) 45 credit hours earned and b) QMB3200 'C' or higher c)Business Students only"
+            "description": "Essential concepts of database design and management in modern business environments. Students gain hands-on experience and exposure to modern databases and their use cases e.g. Big Data. Prerequisites: (a) ISM 3011 or equivalents with a grade of 'C' or higher; (b) 45 credit hours earned; and (c) Business students only."
         },
         {
             "subject": "ISM",
             "code": "4220",
             "name": "Business Telecomm Systems",
             "units": "2.00",
-            "description": "Application of telecommunication technology and concepts to organizational networks. Includes client-server architecture, distributed computing, network management, and data communication fundamentals."
+            "description": "Application of telecommunication technology and concepts to organizational networks. Includes client-server architecture, distributed computing, network management, and data communication fundamentals. Prerequisites:  (a) MAC 1105 or higher equivalents with a grade of 'C' or higher; (b) 45 credit hours earned; (c) Business students only."
         },
         {
             "subject": "ISM",
@@ -10772,7 +10772,7 @@
             "code": "4323",
             "name": "Info Systems Security",
             "units": "1.00",
-            "description": "Provides knowledge and skills to protect enterprise assets by mitigating IS/IT related security risks. Exposure to IS/IT security regulations and compliance, security policies, and incident response.Prerequisites:  45 credit hours earned; Business students only. Corequisite: ISM4220"
+            "description": "Provides knowledge and skills to protect enterprise assets by mitigating IS/IT related security risks. Exposure to IS/IT security regulations and compliance, security policies, and incident response. Prerequisites:(a) MAC 1105 or higher equivalents with a grade of 'C' or higher; (b) 45 credit hours earned; (c) Business students only."
         },
         {
             "subject": "ISM",
@@ -10786,7 +10786,7 @@
             "code": "4402",
             "name": "Bus Intel Reporting",
             "units": "3.00",
-            "description": "A broad overview of managerial, strategic and technical issues associated with BI and reporting techniques. Gather, analyze, understand information processed from business data.Prerequisites:  45 credit hours earned; Business students or Business Analytics Minors only"
+            "description": "A broad overview of managerial, strategic and technical issues associated with BI and reporting techniques. Gather, analyze, understand information processed from business data. Prerequisites: (a) MAC 1105 or higher equivalents with a grade of 'C' or higher; STA2023 or STA 2122 or STA 3111 or STA 3145 or higher/equivalent with a grade of 'C' or higher; (c) 45 credit hours earned; and (d) Business students or Business Analytics Minors only."
         },
         {
             "subject": "ISM",
@@ -18158,13 +18158,6 @@
             "name": "PS Analytic Writing",
             "units": "3.00",
             "description": "Develops and refines skills necessary for effective written communication. Focus on inductive research and analysis process. For professions where analytic and writing skills are expected and valued."
-        },
-        {
-            "subject": "POS",
-            "code": "4905",
-            "name": "Independent Study",
-            "units": "0.00",
-            "description": "Designed for advanced students who wish to pursue specialized topics in political science. Arrangements must be made with instructor during the prior semester."
         },
         {
             "subject": "POS",
