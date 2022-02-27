@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1645318523,
+    "dataAsOf": 1645923321,
     "data": [
         {
             "subject": "ACG",
@@ -55,7 +55,7 @@
             "code": "4651",
             "name": "Auditing",
             "units": "3.00",
-            "description": "Standards and procedures of auditing financial information, ethics and responsibilities of auditors, collection and documentation of audit evidence, reporting and international auditing standards. Must be taken in the last semester of the student's program."
+            "description": "Standards and procedures of auditing financial information, ethics and responsibilities of auditors, collection and documentation of audit evidence, reporting and international auditing standards. Must be taken in the last semester of the student's program. Prerequisites: (a) Grade of 'C' or higher in ACG4101 or equivalent, and (b) 60 credits earned."
         },
         {
             "subject": "ACG",
@@ -1676,13 +1676,6 @@
         },
         {
             "subject": "BCN",
-            "code": "3443",
-            "name": "Intro Concrete Industry",
-            "units": "3.00",
-            "description": "Overview of the history, careers, job functions, and professional organizations in the concrete industry. Topics include: overview of the concrete industry, history, components, production and uses."
-        },
-        {
-            "subject": "BCN",
             "code": "3611",
             "name": "Const Estimating I",
             "units": "3.00",
@@ -1799,6 +1792,13 @@
             "name": "Qualt Cont In Constr",
             "units": "3.00",
             "description": "Quality control as governed by the job inspector, contractor superintendent, architect-engineer, building official, and governmental agencies and requirements."
+        },
+        {
+            "subject": "BCN",
+            "code": "4905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Specialized intensive study in an area of special interest to the student. Prerequisites: Permission of the instructor and the School Director."
         },
         {
             "subject": "BCN",
@@ -2890,7 +2890,7 @@
             "code": "3721",
             "name": "Intro Human-Comp Interaction",
             "units": "3.00",
-            "description": "Fundamental concepts of human-computer interaction, cognitive models, user-centered design principles and evaluation, emerging technologies."
+            "description": "Fundamental concepts of human-computer interaction, cognitive models, user-centered design principles and evaluation, emerging technologies. Not acceptable for credit for Computer Science majors. Prerequisites: (COP 2210 or COP 2250 or equivalent) and only (IT or CY) majors"
         },
         {
             "subject": "CEN",
@@ -3010,6 +3010,13 @@
             "name": "C E Sr Design Proj",
             "units": "3.00",
             "description": "Mandatory course for all senior students, to experience the design of a practical project by utilizing knowledge learned from previous courses for presenting a solution. Done under the supervision of a faculty member and professional engineer. Prerequisites:  CEG 4011, CEG 4011L, TTE4201, CES 3100"
+        },
+        {
+            "subject": "CGN",
+            "code": "4911",
+            "name": "UG Research Experience",
+            "units": "1.00",
+            "description": "Participate in research activities in the areas of structures, geotechnical, transportation, construction and environmental engineering."
         },
         {
             "subject": "CGN",
@@ -7745,13 +7752,6 @@
         },
         {
             "subject": "EVR",
-            "code": "5375",
-            "name": "Adv Restoration Ecology",
-            "units": "3.00",
-            "description": "Restoration planning, endangered species reintroduction, disturbed land reclamation, ecosystem restoration, challenges of climate change on ecological restoration. Prerequisite: One course or more in ecology."
-        },
-        {
-            "subject": "EVR",
             "code": "5935",
             "name": "Special Topics",
             "units": "0.00",
@@ -8064,13 +8064,6 @@
             "name": "Dir Stud For Lang",
             "units": "0.00",
             "description": "The student plans and carries out an independent study project under direction. Prerequisite: Consent of instructor."
-        },
-        {
-            "subject": "FLE",
-            "code": "6938",
-            "name": "Sem Sec Lang Testing",
-            "units": "3.00",
-            "description": "Advanced study and research on current topics and issues in the field of second language education. Variety of topics to include language testing. Language proficiency, language and society, bilingual-bicultural education, and error analysis and the language learner."
         },
         {
             "subject": "FOL",
@@ -8400,13 +8393,6 @@
             "name": "Geospatial measurements",
             "units": "3.00",
             "description": "Students will be introduced to state-of-the-art field geospatial measurement techniques that will prepare them to conduct advanced research in their senior year and graduate school."
-        },
-        {
-            "subject": "GIS",
-            "code": "4390",
-            "name": "Advanced Spatial Analysis",
-            "units": "3.00",
-            "description": "An advanced course in the analysis and modeling of geospatial data. Topics include: point, line and raster pattern analysis, geostatistical surface estimation, map algebra, and suitability modeling. Prerequisites: GIS 2040 or CGN 3043 or GIS 3048 or CGN 4321 or other introductory course in GIS"
         },
         {
             "subject": "GIS",
@@ -8946,6 +8932,13 @@
             "name": "Global Food and Culture",
             "units": "3.00",
             "description": "Study of the ways in which global issues influence the how food functions in the global community."
+        },
+        {
+            "subject": "HFT",
+            "code": "3900",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "With permission from the Associate Dean, students may engage in independent research projects and other approved phases of independent study. Prerequisite: Consent of instructor."
         },
         {
             "subject": "HFT",
@@ -12463,13 +12456,6 @@
         },
         {
             "subject": "MAP",
-            "code": "5317",
-            "name": "Adv Diff Eq Engnrs",
-            "units": "3.00",
-            "description": "Topics may include Bessel Functions and other special functions arising from classical differential equations, Sturm-Liouville problems, partial differential equations, transform techniques. Credit may not be counted for both MAP 4401 and MAP 5317. Credit for MAP 5317 may not be applied toward the Master's degree in Mathematical Sciences. Prerequisites: MAC 2313 and MAP 2302."
-        },
-        {
-            "subject": "MAP",
             "code": "5318",
             "name": "Dynamical Systems and Chaos",
             "units": "3.00",
@@ -12939,6 +12925,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7700",
+            "name": "Anesthesiology Elective",
+            "units": "1.00",
+            "description": "This rotation will allow the student supervised hands-on participation in preoperative anesthesiology evaluation, creation of an anesthesia plan, intravenous line placement, induction of general anesthesia and airway management, monitoring of anesthesia, and emergence and postoperative care. Students will also be involved in other procedures commonly performed by anesthesiologists, such as regional blocks for pain control. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7763",
             "name": "Diagnostic Radiology Elective",
             "units": "1.00",
@@ -13006,27 +12999,6 @@
             "name": "Earth System Model Res",
             "units": "3.00",
             "description": "Model development for meteorology, hydrology, and geophysics using Python and FORTRAN. Includes model formulation, architecture and approximations, and synthesis of results. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MET",
-            "code": "5525",
-            "name": "Adv Weather Forecasting",
-            "units": "2.00",
-            "description": "Graduate-level forecasting to guide setting of watches and warnings. Includes map discussions, analysis of current weather, and prediction for aviation, severe weather, and flash floods. Prerequisite: MET 3502 and MET 3502L or MET 5561 and MET 5561L."
-        },
-        {
-            "subject": "MET",
-            "code": "5561",
-            "name": "Synoptic Meteorology",
-            "units": "3.00",
-            "description": "Focus on analysis and forecasting of middle-latitude weather systems. Examine the structure and dynamic of these systems by integrating weather observation with the current state of dynamic theory. Prerequisites: MET 3003 or permission of the instructor."
-        },
-        {
-            "subject": "MET",
-            "code": "5561L",
-            "name": "Synoptic Meteorology Lab",
-            "units": "1.00",
-            "description": "Focus on analysis and forecasting of middle-latitude weather systems. Develop an understanding of the weather forecasting process, and gain experience in communicating weather forecasts. Prerequisites: MET 3003 or permission of the instructor."
         },
         {
             "subject": "MET",
@@ -13281,13 +13253,6 @@
             "description": "Examines the Military Heritage of the United States from colonial wars to the present; focuses on the operational and strategic levels of warfare."
         },
         {
-            "subject": "MSL",
-            "code": "4900",
-            "name": "Independent Study",
-            "units": "3.00",
-            "description": "Supervised reading and independent study in United States Military History, writing requirements. Prerequisite: Permission of the instructor is required."
-        },
-        {
             "subject": "MTG",
             "code": "4254",
             "name": "Differen Geometry",
@@ -13429,13 +13394,6 @@
         },
         {
             "subject": "MUE",
-            "code": "6396",
-            "name": "Music in Special Ed",
-            "units": "3.00",
-            "description": "The study of musical experiences for students with disabilities in mainstreamed and self-contained special education music classes. Musical adaptations and modifications are emphasized."
-        },
-        {
-            "subject": "MUE",
             "code": "6815",
             "name": "Ac & Psy Foun Of Mus",
             "units": "3.00",
@@ -13524,13 +13482,6 @@
             "name": "Music History Seminar",
             "units": "3.00",
             "description": "Emphasizes both historical and theoretical analysis. Scholarly work under faculty direction, develops written skills and research methods. Written project required."
-        },
-        {
-            "subject": "MUH",
-            "code": "5057",
-            "name": "Music Of The World",
-            "units": "3.00",
-            "description": "Survey of folk, popular and classical musical traditions from around the world. Examination of musical style and social context with film and performance demonstrations."
         },
         {
             "subject": "MUH",
@@ -13912,13 +13863,6 @@
         },
         {
             "subject": "MUN",
-            "code": "5435L",
-            "name": "Univ Brass Choir",
-            "units": "1.00",
-            "description": "A study and performance of literature written for the brass medium (trumpet, horn, trombone, euphonium, and tuba) from the pre-baroque, baroque, classical, romantic and contemporary periods. May be repeated. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MUN",
             "code": "5465",
             "name": "Chamber Music",
             "units": "1.00",
@@ -13962,13 +13906,6 @@
         {
             "subject": "MUO",
             "code": "4502",
-            "name": "Opera Workshop",
-            "units": "1.00",
-            "description": "The presentation and performance of music literature indigenous to the opera stage. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MUO",
-            "code": "5505",
             "name": "Opera Workshop",
             "units": "1.00",
             "description": "The presentation and performance of music literature indigenous to the opera stage. Prerequisite: Permission of the instructor."
@@ -14108,24 +14045,10 @@
         },
         {
             "subject": "MUT",
-            "code": "3611",
-            "name": "Form And Analysis",
-            "units": "3.00",
-            "description": "Study and analysis from the smaller forms of musical composition to multimovement forms."
-        },
-        {
-            "subject": "MUT",
             "code": "4311",
             "name": "Orchestration",
             "units": "3.00",
             "description": "With a background of basic theory, the student will explore the techniques of writing and arranging for instruments in performing organizations."
-        },
-        {
-            "subject": "MUT",
-            "code": "5316",
-            "name": "Adv Orch",
-            "units": "3.00",
-            "description": "Examination of orchestration techniques utilized by composers from the Baroque era through current times. Prerequisites: Graduate standing or permission of the instructor."
         },
         {
             "subject": "MUT",
@@ -14150,31 +14073,10 @@
         },
         {
             "subject": "MVB",
-            "code": "1313",
-            "name": "Prin Appl Trombone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
             "code": "1314",
             "name": "Prin App Bariton Ho",
             "units": "2.00",
             "description": "Individual instruction in applied music on baritone horn as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "2321",
-            "name": "Prin Applied Trumpet",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on trumpet as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "2323",
-            "name": "Prin Appl Trombone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -16246,7 +16148,7 @@
             "code": "4375",
             "name": "Community Participation",
             "units": "3.00",
-            "description": "This course will address the role the Department of Homeland Security plays in conjunction with Federal, State's and local communities when dealing with disaster management issues\u00c2\u00bfmanmade or natural."
+            "description": "This course will address the role the Department of Homeland Security plays in conjunction with Federal, State's and local communities when dealing with disaster management issues \u00c2\u00bf manmade or natural."
         },
         {
             "subject": "PHC",
@@ -16576,13 +16478,6 @@
             "name": "Res Eth & Sci Int",
             "units": "1.00",
             "description": "This course will introduce and familiarize students with basic elements of research ethics using real-life scenarios to create a foundation of responsible research conduct."
-        },
-        {
-            "subject": "PHC",
-            "code": "7733",
-            "name": "Theor Paradigm Health Dis",
-            "units": "3.00",
-            "description": "This course focuses on the concept of cultural and social diversity in public health and its importance in guiding policy, programs, services, and health within a community."
         },
         {
             "subject": "PHC",
@@ -17874,13 +17769,6 @@
         },
         {
             "subject": "REL",
-            "code": "4382",
-            "name": "Latinas & Religion",
-            "units": "3.00",
-            "description": "Examines Latinas' participation in the history of religions in the Americas in order to explain the impact of women's religious experiences in cultural, social and political realms."
-        },
-        {
-            "subject": "REL",
             "code": "4910",
             "name": "Independent Research",
             "units": "0.00",
@@ -19001,13 +18889,6 @@
         },
         {
             "subject": "SPW",
-            "code": "4424",
-            "name": "Golden Age Drama",
-            "units": "3.00",
-            "description": "Close readings from the finest plays written in Spain's Golden Age by Lope de Vega, Calderon, Tirso, and others, including the Don Juan theme. An examination of theatre as stylized conformity and as protest literature in a highly controlled society."
-        },
-        {
-            "subject": "SPW",
             "code": "5934",
             "name": "Sp Topics Lang/Lit",
             "units": "3.00",
@@ -19378,13 +19259,6 @@
             "description": "Presents an overview of the social facets of health/illness, healthcare approaches, and healthcare policies in local and global perspective."
         },
         {
-            "subject": "SYO",
-            "code": "4300",
-            "name": "Political Soc",
-            "units": "3.00",
-            "description": "Explores power & conflict in local & global social life. Topics may include: formation of nation states/soc. Movements/soc. Inequalities/colonialism/immigration/human rights/environmental problems."
-        },
-        {
             "subject": "SYP",
             "code": "3000",
             "name": "Indiv In Society",
@@ -19635,13 +19509,6 @@
             "name": "Scene Painting",
             "units": "3.00",
             "description": "A hands-on study of the basic techniques and processes used by scenic artists."
-        },
-        {
-            "subject": "TPA",
-            "code": "3293L",
-            "name": "Teh Theatre Lab IV",
-            "units": "1.00",
-            "description": "Supervised crew work. Required of Theatre majors."
         },
         {
             "subject": "TPA",
