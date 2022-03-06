@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1645923321,
+    "dataAsOf": 1646528026,
     "data": [
         {
             "subject": "ACG",
@@ -3013,13 +3013,6 @@
         },
         {
             "subject": "CGN",
-            "code": "4911",
-            "name": "UG Research Experience",
-            "units": "1.00",
-            "description": "Participate in research activities in the areas of structures, geotechnical, transportation, construction and environmental engineering."
-        },
-        {
-            "subject": "CGN",
             "code": "4930",
             "name": "Spec Topics Civ Eng",
             "units": "0.00",
@@ -3737,7 +3730,7 @@
             "code": "5370",
             "name": "Principles of Cybersec",
             "units": "3.00",
-            "description": "Cybersecurity algorithms, techniques. Mathematical foundations. Symmetric and public key encryption. Authentication, key infrastructure, certificates. Covert channels. Access control. Vulnerabilities. Prerequisite: Graduate standing."
+            "description": "Introduction to principles of cybersecurity, e.g., separation, isolation, modularity, usability, and its foundations, e.g., security models, access control, security life-cycle and ethics. Prerequisite: M.S. or Ph.D. standing or permission of the instructor"
         },
         {
             "subject": "CIS",
@@ -5032,7 +5025,7 @@
             "code": "4552",
             "name": "Advanced Multimedia Production",
             "units": "3.00",
-            "description": "This capstone course covers advanced techniques associated with interactive media production, including design, digital storytelling, usability theory, and current best practices. Prerequisites: MMC 3003, MMC 3123, (RTV 4101 or MMC4302 or DIG 3146), (RTV 3511 or MMC 4631 or DIG 3253), RTV 3531, DIG 4293, (DIG 3181 or DIG 3253), (DIG 4800 or RTV 4101), (DIG 3110 or RTV 3007), (DIG 4394 or MMC4631 or RTV3007), 2.85 cumulative GPA"
+            "description": "This capstone course covers advanced techniques associated with interactive media production, including design, digital storytelling, usability theory, and current best practices. Prerequisites: MMC 3003, MMC 3123, (RTV 4101 or MMC4302 or DIG 3146), (MMC 4631 or DIG 3253), RTV 3531, DIG 4293, (DIG 3181 or DIG 3253), (DIG 4800 or RTV 4101), (DIG 3110), (RTV 3007 or DIG 3001), (DIG 4394 or\nMMC4631), 2.85 cumulative GPA"
         },
         {
             "subject": "DIG",
@@ -5123,7 +5116,7 @@
             "code": "3101",
             "name": "Intermed Microecon",
             "units": "3.00",
-            "description": "Analysis of markets, theory of firm, demand and production theories, general equilibrium, and welfare economics."
+            "description": "Analysis of markets, theory of firm, demand and production theories, general equilibrium, and welfare economics. Prerequisites: ECO2023 and (MAC 2311 or MAC 2233)"
         },
         {
             "subject": "ECO",
@@ -5935,7 +5928,7 @@
             "code": "5718",
             "name": "Adv-Security of IoT-CPS",
             "units": "3.00",
-            "description": "In this project-based class, the students will gain advanced hands-on training in the security of Internet-of-Things (IoT) and Cyber-Physical Systems (CPS) areas. Prerequisites: Programming coursework or any CS oriented courses (e.g. COPXXXX) or any embedded coursework or permission of the instructor."
+            "description": "In this class, the students will learn the topics related to the security and privacy of Internet of Things field by learning the state-of-the-art in these areas and by gaining hands-on experience on real loT devices in a class project. This class involves significant programming. Prerequisites: EEL 2880 or COP 2210 or COP 2250 or equivalent or other prior programming experience or instructor permission and prior security class or instructor permission."
         },
         {
             "subject": "EEE",
@@ -6096,7 +6089,7 @@
             "code": "4515",
             "name": "Adv Comm Systems",
             "units": "3.00",
-            "description": "Advanced senior level course designed for those students who desire to enhance their engineering knowledge in communication systems. State-of-the-art techniques in FM, digital communication, phase locked loops, noise treatment, threshold improvement, etc. Prerequisite: EEL 3135 or permission of the instructor"
+            "description": "A course on wireless communications, digital communication, fading channels, channel capacity, multiple antennas, and multiuser communication. Prerequisite: EEL 3135 or permission of the instructor"
         },
         {
             "subject": "EEL",
@@ -7864,8 +7857,8 @@
         },
         {
             "subject": "FES",
-            "code": "4993",
-            "name": "Disaster Mngmt. Capstone",
+            "code": "4994",
+            "name": "Disaster Mnmgt Ind Study",
             "units": "3.00",
             "description": "N/A"
         },
@@ -9344,7 +9337,7 @@
             "code": "3180",
             "name": "Ldrshp and Mgt Hlth Pro",
             "units": "3.00",
-            "description": "This course introduces students to an overview of the basic of leadership and management with an emphasis on the roles, functions and skills necessary in the changing health care environment. Prerequisites: ECO 2023, ACG 2021, ACG 3301, CGS 2060, STA 2023 or STA 3145 or department consent."
+            "description": "This course introduces students to an overview of the basic of leadership and management with an emphasis on the roles, functions and skills necessary in the changing health care environment. Prerequisite or corequisite: HSA 3111."
         },
         {
             "subject": "HSA",
@@ -9386,7 +9379,7 @@
             "code": "4170",
             "name": "Hlthcr Fincl Mgt",
             "units": "3.00",
-            "description": "This course is an introduction to economics and financial management in diverse healthcare organizations."
+            "description": "This course is an introduction to economics and financial management in diverse healthcare organizations. Prerequisites: HSA 3111, HSA 3180, ECO 2023, ACG 2021, ACG 3301, CGS 2060, (STA 2023 or STA 3145) or department consent."
         },
         {
             "subject": "HSA",
@@ -9435,7 +9428,7 @@
             "code": "5125",
             "name": "Intro to Hlth Policy Mgt",
             "units": "3.00",
-            "description": "The American health care system is broadly analyzed in social, economic, and political terms, including examination of its major operational and programmatic components as they have evolved in their changing patterns and trends of organizational development."
+            "description": "Healthcare systems are broadly analyzed in social, economic, and political contexts, including operational and programmatic components as they evolved in changing patterns and trends."
         },
         {
             "subject": "HSA",
@@ -9917,7 +9910,7 @@
             "subject": "IND",
             "code": "5948",
             "name": "Grad Internship",
-            "units": "3.00",
+            "units": "1.00",
             "description": "Advanced issues in professional practice learned through work experience with design professionals."
         },
         {
@@ -10387,14 +10380,14 @@
             "code": "3153",
             "name": "Bus Process Analysis",
             "units": "3.00",
-            "description": "Introduction to principles and methods of business process management. Emphasis on role of process models to understand and analyze operations and to drive design of Information Technology solutions. : (a) MAC 1105 or higher equivalents with a grade of 'C' or higher; (b) 45 credit hours earned and (c) Business Students or Project Management Minors only."
+            "description": "Introduction to principles and methods of business process management. Emphasis on role of process models to understand and analyze operations and to drive design of Information Technology solutions. Prerequisites: (a) MAC 1105 or higher equivalents with a grade of 'C' or higher; (b) 45 credit hours earned and (c) Business Students or Project Management Minors only."
         },
         {
             "subject": "ISM",
             "code": "3230",
             "name": "Business App Development",
             "units": "3.00",
-            "description": "Design, implement, test, debug, and document business applications using a business programming language. Compelling exercises illustrate how applications implement business processes."
+            "description": "Design, implement, test, debug, and document business applications using a business programming language. Compelling exercises illustrate how applications implement business processes. Prerequisites: (a) QMB3003 or (STA2023 and (MAC2233 or Calc I or higher)) or equivalents with a grade of 'C' or higher; (b) 45 credit hours earned; (c) BBA in IS students or permission of instructor only"
         },
         {
             "subject": "ISM",
@@ -10450,14 +10443,14 @@
             "code": "4323",
             "name": "Info Systems Security",
             "units": "1.00",
-            "description": "Provides knowledge and skills to protect enterprise assets by mitigating IS/IT related security risks. Exposure to IS/IT security regulations and compliance, security policies, and incident response. Prerequisites:(a) MAC 1105 or higher equivalents with a grade of 'C' or higher; (b) 45 credit hours earned; (c) Business students only."
+            "description": "Provides knowledge and skills to protect enterprise assets by mitigating IS/IT related security risks. Exposure to IS/IT security regulations and compliance, security policies, and incident response. Prerequisites:(a) MAC 1105 or higher equivalents with a grade of 'C' or higher; (b) 45 credit hours earned; (c) Business students only. Corequisite: ISM4220"
         },
         {
             "subject": "ISM",
             "code": "4400",
             "name": "Managerial Info Analysis",
             "units": "3.00",
-            "description": "Focuses on use of information processing and decision support techniques to provide knowledge workers and decision makers with information to assist in making informed and rational decisions. Prerequisite: 45 credit hours earned; and (b) Business students only or Business analytics Minors only."
+            "description": "Focuses on use of information processing and decision support techniques to provide knowledge workers and decision makers with information to assist in making informed and rational decisions. Prerequisite: (a) MAC 1105 or higher equivalents with a grade of 'C' or higher; STA2023 or STA 2122 or STA 3111 or STA 3145 or higher/equivalent with a grade of 'C' or higher; (c) 45 credit hours earned; and (d) Business students or Business analytics Minors only."
         },
         {
             "subject": "ISM",
@@ -12869,6 +12862,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7048",
+            "name": "Narrative Medicine Elect",
+            "units": "1.00",
+            "description": "Pioneered by Rita Charon, narrative medicine trains doctors and other caregivers to use careful listening and reflective writing to forge deeper connections with their patients, resulting in the provision of better care and the promotion of physician wellness. The narrative medicine elective is offered as a two week rotation, with the option for students to enroll in an additional two-credit longitudinal component. During this elective, students will have the opportunity to explore different types of narrative medicine writing\u00c2\u00bfincluding the parallel chart, 55-word stories, poetry and using narratives as an advocacy tool. Students will participate in discussion sessions about assigned readings; participate in small group writing workshops; and share their writing with their peers. The course director will create individualized writing plans tailored to students' specific interests, objectives, and clinical schedules. Students will write a total, including drafts, of about 10,000 words.  Prerequisite: Enrolled in HWCOM."
+        },
+        {
+            "subject": "MDE",
             "code": "7059",
             "name": "Community Med Practicum",
             "units": "1.00",
@@ -12904,10 +12904,31 @@
         },
         {
             "subject": "MDE",
+            "code": "7162",
+            "name": "Gyn Oncology Elective",
+            "units": "1.00",
+            "description": "This four week elective is intended for students who have already completed the basic core clerkship in OB/GYN and are interested in enhancing their exposure to the subspecialty of Gynecologic Oncology. The student will be provided experience in the inpatient and outpatient management of patients with pre-malignant and malignant conditions of the genital tract. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7204",
+            "name": "Hospitalist Service Elective",
+            "units": "1.00",
+            "description": "The four week Hospitalist rotation is designed to allow fourth year students the opportunity to participate with increased responsibility in the care of patients admitted to the internal medicine/hospitalist service. Students provide longitudinal care for hospitalized patients from the time of consultation in the emergency room to the patient's discharge and/or transfer. Students' schedules vary according to the needs of each site; students are expected to take call every fourth night. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7220",
             "name": "Cardiology Elective",
             "units": "1.00",
             "description": "The objective of this hospital-based rotation is for students to improve their understanding of the pathophysiology of common cardiovascular diseases; the evaluation of acute and chronic cardiac disorders, including indications for invasive and non-invasive studies and EKG interpretation; the appropriate history and physical exam technique, with particular attention to the cardiovascular exam; and the differential diagnosis and first line treatment of prevalent cardiovascular disorders, with an emphasis on disease prevention. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7245",
+            "name": "Pulmonology Elective",
+            "units": "1.00",
+            "description": "Through time spent both on the inpatient pulmonary consultation service and in the outpatient setting, this rotation will prepare students to effectively care for common cardiopulmonary disorders. In particular, students will be exposed to radiological interpretation of chest imaging and the interpretation of pulmonary function tests. Depending on the site, students will be part of a team with fellows and residents or will be under the direct supervision of a pulmonary specialist. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -12918,10 +12939,87 @@
         },
         {
             "subject": "MDE",
+            "code": "7260",
+            "name": "Endocrinology Elective",
+            "units": "1.00",
+            "description": "Students will see patients with both common and rare disorders of the Endocrinology system in the adult out-patient setting and the inpatient consultation service. Students are expected to longitudinally follow patients seen as part of the inpatient endocrinology consult service. Students are expected to prepare, as assigned, topic presentations and case discussions during the week. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7270",
+            "name": "Gastroenterology/Hepatology",
+            "units": "1.00",
+            "description": "This course will consist of a four week rotation, which will include inpatient and outpatient gastroenterology and hepatology. Throughout the rotation, students will be assuming primary responsibility of patients under the supervision of gastroenterology attendings. The experience will also allow for participation in varied endoscopic procedures, such as esophageal manometry, and upper and lower endoscopy. During the week, students will participate in pathology and radiology conferences geared to gastroenterology and hepatology cases. The course will concentrate on teaching students how to interpret clinical information and develop therapeutic decision making. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7280",
+            "name": "Hematology-Oncology Elect",
+            "units": "1.00",
+            "description": "This rotation is intended to prepare students to learn a basic approach to evaluation, diagnosis, staging and treatment of patients with blood diseases and cancer. Through exposure to patients with these diseases, students will improve their physical diagnosis skills, recognition of complications of disease, and understanding of therapeutic issues. Students will learn concepts of palliative care, end of life and hospice care. The rotation is mainly inpatient-consult service with some outpatient exposure. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7320",
+            "name": "Infectious Disease Elect",
+            "units": "1.00",
+            "description": "This elective rotation is intended to prepare students to obtain, under direct supervision of an infectious disease faculty, the necessary diagnostic and therapeutic skills to effectively care for patients with infectious disorders from the surgical, transplant, intensive care, OB/GYN, hematologic/oncologic, and general medicine services in a community hospital. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7350",
+            "name": "Nephrology Elective",
+            "units": "1.00",
+            "description": "This 2 week or 4 week elective offers students the opportunity to learn about the diseases of the kidney and become more skilled in their management. Students will participate in the care of patients with medical renal disease that are seen in the office and also on the renal inpatient consult service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7420",
+            "name": "Pediatric Cardiology Elective",
+            "units": "1.00",
+            "description": "This rotation will occur in both the inpatient and outpatient settings, with medical students participating in the care of patients admitted to cardiology service, patients requiring cardiac consultation, and outpatient care visits. Medical students are expected to examine patients admitted to the hospital and make daily rounds on all patients on the cardiology service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7440",
             "name": "Pediatric Hematology Elective",
             "units": "1.00",
             "description": "Medical students will evaluate and follow hematology and oncology patients in both the inpatient and outpatient settings. Students will attend all hematology-oncology educational conferences. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7494",
+            "name": "Ped Ortho Surg Elective",
+            "units": "1.00",
+            "description": "The section of Orthopedics presents to the fourth-year student a comprehensive outline of the spectrum of orthopedic surgery as practiced in a pediatric setting. The student is involved in an intensive in-patient experience and has increased responsibility, involving primary workup of new patients and writing orders. The student also performs procedures such as evaluating patients, taking an orthopedic history, performing a physical examination of the musculoskeletal system, assisting in the operating room, and being involved in postoperative care. The student is involved in the management of orthopedic trauma and is expected to participate with the orthopedic surgery team in the diagnosis, surgical treatment, and postoperative management of orthopedic trauma patients. The student may participate directly with patients in the emergency department, operating room, intensive care unit, and the orthopedic unit. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7550",
+            "name": "Ophthalmology Elective",
+            "units": "1.00",
+            "description": "The clinical rotation in ophthalmology provides students with a focused and in-depth experience in the evaluation, diagnosis, and management of ophthalmic conditions. Students spend substantial time in the clinic and the operating room in general ophthalmology or their ophthalmologic subspecialty of interest. Students are expected to be actively involved in the workup of patients with various presenting concerns; and to interpret and present their findings and suggested clinical management to the attending physician. Students also have the opportunity to perform research in a preferred area of interest. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7580",
+            "name": "Physical Med & Rehab Elec",
+            "units": "1.00",
+            "description": "This elective offers students experience in the diagnosis and management of patients with a variety of neuro-muscular diagnoses such as stroke, spinal cord injury, traumatic brain injury, and neuro-degenerative disorders such as multiple sclerosis. Students may treat patients with musculo-skeletal disorders such as amputation, total hip arthroplasty, total knee arthroplasty, and multiple trauma victims. Students attend physical, occupational, and speech therapy sessions with their patients to learn the daily process of rehabilitation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7660",
+            "name": "Plastic & Reconstructive Sur E",
+            "units": "1.00",
+            "description": "The Plastic and Reconstructive Surgery Elective is a 4 week rotation designed to expose students to a wide variety of clinical problems and techniques commonly encountered in the field of plastic surgery. Students will be exposed to all subspecialties in plastic surgery, including general reconstructive surgery, pediatric/craniofacial surgery, hand surgery, and aesthetic surgery. Students will rotate through several offices/hospitals during the rotation and will be expected to participate in pre- and post-operative office visits, hospital visits, and surgeries. In addition, students will be expected to master wound closure techniques and other basic plastic surgery technical skills. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7675",
+            "name": "Urology Elective",
+            "units": "1.00",
+            "description": "In this rotation, the student will acquire knowledge of Urology and urologic anatomy; develop an understanding of and ability to perform a urologic history and physical exam; interview and present patients; develop an understanding of emergent urologic issues as well as common urologic issues with an emphasis on the acute scrotum, urinary tract infections, urinary stones, incontinence, benign prostatic hyperplasia, erectile dysfunction, hematuria and prostate cancer/PSA testing by both didactic and practice based learning; develop an understanding of a spectrum of urologic procedures/surgeries, including foley catherization, cystoscopy, and transrectal ultrasound and prostate biopsy by observation and participation; develop an understanding of peri-operative urologic issues both urologic and non-urologic patients via inpatient encounters; and develop an understanding of the role of a Urologist in the care of both male and female patients and when an appropriate referral should be made (emergent or routine). The student will function as a supervised member of the urologic team, interacting with faculty and resident staff and participating in urologic clinics and in the operating room. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -12936,6 +13034,48 @@
             "name": "Diagnostic Radiology Elective",
             "units": "1.00",
             "description": "This rotation is intended to give students an introduction to the basics of diagnostic imaging, the appropriate choice of imaging method for given clinical problems, and the side-effects and risks associated with each. Students will become familiar with imaging findings in common clinical conditions. The rotation will involve online modules, small group sessions and 'virtual' and real reading room sessions. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7769",
+            "name": "Pediatric Radiology Elective",
+            "units": "1.00",
+            "description": "This elective will expose students to the essentials of pediatric radiology. Students will spend time working with radiologists who are reading plan films, ultrasounds and cross-sectional imaging studies; as well as those who are performing basic radiologic procedures including fluoroscopy and nuclear medicine. By the end of the rotation, students will be familiar with topics and concerns specific to imaging studies in the pediatric population. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7780",
+            "name": "Radiation Oncology Elective",
+            "units": "1.00",
+            "description": "This rotation provides students with supervised participation in the care of radiation oncology patients. This includes the diagnostic/clinical evaluation of the patient's disease and the development of treatment plans involving radiation therapy. Students are exposed to state-of-the- art radiation oncology equipment and, during the planning phase, are shown the use of CT imaging with plain and contrast-enhanced techniques for therapy planning and positioning of the patient for radiation treatment. They are exposed to the management of the most common tumors seen in our community, including breast, prostate, lung, Gl, skin, and head and neck cancer. Students are introduced to palliative care and the incorporation of integrative medicine in the overall care of the patient. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7862",
+            "name": "Adult Inpatient Psychiatry Ele",
+            "units": "1.00",
+            "description": "This 2-week or 4-week rotation allows Period 4 medical students to refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and emergency psychiatry experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDI",
+            "code": "7122",
+            "name": "Family Med Subinternship",
+            "units": "1.00",
+            "description": "Family medicine is the specialty that focuses on care for the whole person regardless of age, sex, or disease, set within his or her social and community context. The Family Medicine Sub-Internship consists of both an ambulatory and inpatient experience. Under the supervision of FIU HWCOM faculty, students assume an appropriate level of clinical independence; allowing them to practice diagnostic and clinical reasoning, disease management skills, and patient communication and education for patients of varying ages and comorbidities. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDI",
+            "code": "7200",
+            "name": "Internal Medicine Subinternshp",
+            "units": "1.00",
+            "description": "The Sub-Internship in Internal Medicine is intended to prepare students to effectively care for medical conditions commonly encountered during inpatient rotations, including ward emergency scenarios. Building on the skills gained during period 3, students will take a more active role in patient care; including admitting patients, documenting in the electronic medical record, entering orders, and coordinating and implementing the patient's care plan. This rotation will provide necessary skills to be successful during their first year of post-graduate education. The sub-intern will fulfill clinical and academic responsibilities as an integral team member of an inpatient medical service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDI",
+            "code": "7400",
+            "name": "Pediatric Medicine Subintern",
+            "units": "1.00",
+            "description": "The Pediatric Medicine Sub-internship gives the student increased responsibility for decisions made for the total care of the patient. In general, the student is expected to function more as an intern than as a third year student. During the sub-internship, the student will be exposed to all competencies central to medical education; including interpersonal skills, professionalism, practice and systems based learning, patient care, and medical knowledge. Sub-interns are expected to examine patients admitted to the inpatient hospitalist services, write daily progress notes and enter orders in the medical record, develop and assist in implementation of plans for care, and make daily rounds on all patients. Students will participate in all academic activities of the Hospitalist Service, including simulation training and didactic lectures. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MET",
@@ -13117,7 +13257,7 @@
             "code": "3123",
             "name": "Writing Fundamentals",
             "units": "3.00",
-            "description": "Writing Fundamentals for Communicators applies principles of writing for professional communications in advertising, broadcast, digital media, scholarship, journalism and public relations. Prerequisites:  ENC1101, ENC 1102, [(JOU 2100 or DIG 3001 or RTV 3007) or admission to Visual Production Certificate]. Corequisite: JOU 2100 or DIG 3001 or RTV 3007"
+            "description": "Writing for Media introduces students to professional media writing in journalism, broadcasting, digital media and social media. Prerequisites:  ENC1101, ENC 1102, [(JOU 2100 or DIG 3001 or RTV 3007) or admission to Visual Production Certificate]. Corequisite: JOU 2100 or DIG 3001 or RTV 3007"
         },
         {
             "subject": "MMC",
@@ -14252,6 +14392,13 @@
             "name": "Maj App Jazz Bass",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz bass at a major level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "3238",
+            "name": "Sec Jazz Trombone",
+            "units": "1.00",
+            "description": "Individual instruction in applied jazz music on trombone."
         },
         {
             "subject": "MVJ",
@@ -15910,7 +16057,7 @@
             "code": "4103",
             "name": "Adv Personal Train",
             "units": "3.00",
-            "description": "This class is designed to prepare students for the National Strength Professionals Associations Certified Conditioning Specialist Examination. Prerequisite: Bachelor of Science in Physical Education (BSPE) major"
+            "description": "This class is designed to prepare students for a personal training certification program that is accredited by the National Commission for Certifying Agencies (NCCA). Prerequisite: APK 3110 and PET 3310"
         },
         {
             "subject": "PEP",
@@ -15938,7 +16085,7 @@
             "code": "3310",
             "name": "Kinesiology",
             "units": "3.00",
-            "description": "Students study the anatomical and mechanical principles of movement and apply this knowledge in the analysis of physical education and athletic sport activities. (Includes laboratory class periods.)"
+            "description": "Students study the anatomical and mechanical principles of movement and apply this knowledge in the analysis of physical education and athletic sport activities. (Includes laboratory class periods.) Prerequisite:  ZOO 3731 or ZOO 3733 or PET 3325 or BSC 2085 Corequisite: PET 3325"
         },
         {
             "subject": "PET",
@@ -15973,7 +16120,7 @@
             "code": "4094",
             "name": "Adv Str And Cond",
             "units": "3.00",
-            "description": "The course is designed to prepare students for the NSCA's Certified Strength and Conditioning Specialist examination. Prerequisite: BSPE major, Corequisite: PEM 4103"
+            "description": "This class is designed to prepare students for a strength and conditioning coach certification program that is accredited by the National Commission for Certifying Agencies (NCCA).  Prerequisite: BSPE major, Corequisite: PEM 4103"
         },
         {
             "subject": "PET",
@@ -16015,7 +16162,7 @@
             "code": "4940",
             "name": "Practicum in Kinesiology",
             "units": "0.00",
-            "description": "Supervised field, clinical and/or research experience designed to offer the student experience in the field of kinesiology and exercise science. Prerequisite: Bachelor of Science in Physical Education (BSPE) major"
+            "description": "Supervised field, clinical and/or research experience designed to offer the student experience in the field of kinesiology and exercise science. Prerequisite: APK 3110 and PET 3310"
         },
         {
             "subject": "PET",
@@ -16148,7 +16295,7 @@
             "code": "4375",
             "name": "Community Participation",
             "units": "3.00",
-            "description": "This course will address the role the Department of Homeland Security plays in conjunction with Federal, State's and local communities when dealing with disaster management issues \u00c2\u00bf manmade or natural."
+            "description": "This course will address the role the Department of Homeland Security plays in conjunction with Federal, State's and local communities when dealing with disaster management issues - manmade or natural."
         },
         {
             "subject": "PHC",
@@ -17303,7 +17450,7 @@
             "code": "4302",
             "name": "Psychological Testin",
             "units": "3.00",
-            "description": "An introduction to the rationale underlying the use of psychological tests. Topics include basic test terminology, test administration, interpreting standard scores, reliability, validity, tests of intelligence, interest inventories, personality tests, the ethics of testing, and the fairness of tests for different segments of the population. Prerequisite:  STA 2122 or equivalent"
+            "description": "An introduction to the rationale underlying the use of psychological tests. Topics include basic test terminology, test administration, interpreting standard scores, reliability, validity, tests of intelligence, interest inventories, personality tests, the ethics of testing, and the fairness of tests for different segments of the population. Prerequisite:  PSY 3211"
         },
         {
             "subject": "PSY",
@@ -17555,7 +17702,7 @@
             "code": "4311",
             "name": "Teach Interm Read",
             "units": "3.00",
-            "description": "Provides content and methods needed to understand and teach transitional literacy to elementary students of diverse backgrounds and abilities. Field hours required. Prerequisites: RED 3313 or SPA 3000, RED 4150."
+            "description": "Provides foundations of assessment and application of differentiated instruction in literacy for intermediate and secondary students. Meets requirements for Reading Comp 3 & 4. Field hours. Prerequisites: RED 4150 or RED 4325 for English Education majors"
         },
         {
             "subject": "RED",
