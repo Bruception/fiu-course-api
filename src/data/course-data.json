@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1647133392,
+    "dataAsOf": 1647738398,
     "data": [
         {
             "subject": "ACG",
@@ -350,13 +350,6 @@
             "name": "Research Methods AADS",
             "units": "3.00",
             "description": "This proseminar addresses research methods for the multi- and inter-disciplinary study of sociocultural realities to African and African Diaspora peoples, globally."
-        },
-        {
-            "subject": "AFA",
-            "code": "6245",
-            "name": "African Diaspora Ltn Amer",
-            "units": "3.00",
-            "description": "Advanced exploration of the historical, socioeconomic, and political realities of African diasporic communities in Central America, the Caribbean, and South America. Corequisite: Graduate standing."
         },
         {
             "subject": "AFA",
@@ -2481,6 +2474,13 @@
         },
         {
             "subject": "ATR",
+            "code": "6906",
+            "name": "Ind Study/Thesis in AT",
+            "units": "1.00",
+            "description": "Faculty supervised project or research thesis that involves an in-depth study of contemporary issues and/or clinical practices relevant to athletic training. Prerequisites: Graduate standing and permission of the instructor."
+        },
+        {
+            "subject": "ATR",
             "code": "6935",
             "name": "Contemp Issues in AT",
             "units": "3.00",
@@ -3934,13 +3934,6 @@
             "name": "Intro to Data Science",
             "units": "3.00",
             "description": "Foundations of databases, analytics, visualization and management of data. Practical data analysis with applications. Introduction to Python, SQL, R, and other specialized data analysis toolkits. Prerequisites:  STA 3164 or equivalent."
-        },
-        {
-            "subject": "CAP",
-            "code": "5769C",
-            "name": "Practical Data Science",
-            "units": "3.00",
-            "description": "Topics will include: data collection and processing, data visualization and presentation, statistical model building using machine learning, and big data techniques for scaling these methods. Prerequisites: M.S. or Ph.D. standing or permission of the instructor. Corequisites: None. M.S. & Ph.D. in CS students may not take this course for their degrees."
         },
         {
             "subject": "CAP",
@@ -5988,6 +5981,13 @@
         },
         {
             "subject": "COM",
+            "code": "4022",
+            "name": "Health Communication",
+            "units": "3.00",
+            "description": "This course will review health communication through an examination of theoretical frameworks, communication techniques, and technologies that promote the health of individuals and communities."
+        },
+        {
+            "subject": "COM",
             "code": "4310",
             "name": "Research Meth Comm",
             "units": "3.00",
@@ -7591,6 +7591,13 @@
         },
         {
             "subject": "EDA",
+            "code": "6928",
+            "name": "Wkshp: School Improv",
+            "units": "0.00",
+            "description": "This course offers an opportunity for experienced school personnel to participate in a school improvement workshop."
+        },
+        {
+            "subject": "EDA",
             "code": "6930",
             "name": "Seminar Ed Ldrshp",
             "units": "3.00",
@@ -7892,17 +7899,10 @@
         },
         {
             "subject": "EDG",
-            "code": "4734",
-            "name": "Ed/Cul Prep for Int Teach",
-            "units": "3.00",
-            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
-            "code": "4940",
-            "name": "Inter Teaching Internship",
-            "units": "3.00",
-            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
+            "code": "4903",
+            "name": "Independ Study Education",
+            "units": "0.00",
+            "description": "Designed to provide an opportunity to gain or enhance knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
         },
         {
             "subject": "EDG",
@@ -7927,24 +7927,10 @@
         },
         {
             "subject": "EDG",
-            "code": "5736",
-            "name": "Prep Inter Teach Intern",
-            "units": "3.00",
-            "description": "This course is to prepare students for an international teaching internship. Students will examine educational and cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
             "code": "5910",
             "name": "Independ Resrch Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to enhance their educational research knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
-        },
-        {
-            "subject": "EDG",
-            "code": "5942",
-            "name": "Intl Educational Internship",
-            "units": "3.00",
-            "description": "Students will complete an international internship and be required to teach in international schools, engage in cultural immersion experiences, and conduct service-learning projects. Prerequisite: EDG 5XXX Preparation for International Teaching Internship"
         },
         {
             "subject": "EDG",
@@ -8074,13 +8060,6 @@
         },
         {
             "subject": "EDH",
-            "code": "6401",
-            "name": "Counseling for Higher Ed",
-            "units": "3.00",
-            "description": "An introduction to some of the mental health issues facing college students that can inhibit their learning process and impact their abilities to persist and graduate."
-        },
-        {
-            "subject": "EDH",
             "code": "6404",
             "name": "Legal Issues HED Admin",
             "units": "3.00",
@@ -8099,13 +8078,6 @@
             "name": "Org & Admin Stu Aff",
             "units": "3.00",
             "description": "This course is an exploration of organizational and administrative issues in Student Affairs including relationship to other executive areas, interrelationship of units, research, leadership and case studies."
-        },
-        {
-            "subject": "EDH",
-            "code": "6637",
-            "name": "Crisis Mgmt Higher Ed",
-            "units": "3.00",
-            "description": "This course studies the theories and practical approaches to managing crises in institutions of higher education. Students learn how institutions plan for crises and respond to crises effectively."
         },
         {
             "subject": "EDH",
@@ -8410,6 +8382,13 @@
         },
         {
             "subject": "EEE",
+            "code": "4393C",
+            "name": "Wearable Electronics",
+            "units": "3.00",
+            "description": "Introduction to charge transport in inorganic and organic semiconductors and low-dimensional carbon. Design of devices and sensors using different classes of materials for wearable electronics. Prerequisite: EEL 3110C or EEE 3396 or instructor permission."
+        },
+        {
+            "subject": "EEE",
             "code": "4421C",
             "name": "Intro to Nanofab",
             "units": "3.00",
@@ -8529,13 +8508,6 @@
         },
         {
             "subject": "EEE",
-            "code": "6719",
-            "name": "CPS SEC",
-            "units": "3.00",
-            "description": "Expose students to fundamental security primitives specific to CPS. The topics will cover the cyber and physical attacks, security of CPS protocols, key management and privacy and control. Prerequisite: A Network Security related course or consent of the instructor"
-        },
-        {
-            "subject": "EEE",
             "code": "6765",
             "name": "Adv Embed Sys & IoT",
             "units": "3.00",
@@ -8645,13 +8617,6 @@
             "name": "Intro to Bus. Decisions",
             "units": "3.00",
             "description": "Fundamental concepts of industrial financial decisions, financial planning and analysis tools, justification for industrial capital investments, and intermediate and long-term financing options. Prerequisite: EGN 3613"
-        },
-        {
-            "subject": "EEL",
-            "code": "4140",
-            "name": "Filter Design",
-            "units": "3.00",
-            "description": "Approximation techniques. Active RC second order modules. Low pass filters, band-pass filters, high pass filters, notch filters are studied in detail. Sensitivity and high order filters. Design and laboratory implementation. Prerequisites:  EEE3303"
         },
         {
             "subject": "EEL",
@@ -8865,13 +8830,6 @@
         },
         {
             "subject": "EEL",
-            "code": "5278",
-            "name": "SG Cyber and IEDs",
-            "units": "3.00",
-            "description": "Design, simulate and solve smart grid cyber security issues. Manmade and natural large scale disturbances. Smart grid cyber networked standards and new Intelligent Electronic Devices (IED). Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "EEL",
             "code": "5285C",
             "name": "Renewable Energy Utilization",
             "units": "3.00",
@@ -8995,6 +8953,13 @@
             "name": "Pwr Sys Reliability",
             "units": "3.00",
             "description": "Expansion planning, load forecasting, reliability and availability application to generation planning, bulk power supply systems, generation system operation and production costing analysis. Prerequisites: EEL 4215 or permission of the instructor."
+        },
+        {
+            "subject": "EEL",
+            "code": "6273",
+            "name": "Power Sys Stab Cont",
+            "units": "3.00",
+            "description": "Direct methods for system stability, computer analysis of large scale models, Lyapunov stability, longer term stability, security analysis, MW-frequency control, isolated and multiple area control."
         },
         {
             "subject": "EEL",
@@ -11700,13 +11665,6 @@
         },
         {
             "subject": "FRE",
-            "code": "3500",
-            "name": "Hist French Civiliz",
-            "units": "3.00",
-            "description": "Open to any student who understands the target language. The development of a particular civilization. Emphasis on the evolution of a society, its ideas and its values."
-        },
-        {
-            "subject": "FRE",
             "code": "3504",
             "name": "Language & Culture",
             "units": "3.00",
@@ -11727,13 +11685,6 @@
             "description": "Introduces to Francophone cinema. While comparing movies from France and Francophone world, students explore various issues such as language, race, and postcolonial politics."
         },
         {
-            "subject": "FRE",
-            "code": "4850",
-            "name": "Struct Mod French",
-            "units": "3.00",
-            "description": "Systematic study of the phonology, morphology, syntax, and lexicon of Modern French. Taught in English."
-        },
-        {
             "subject": "FRW",
             "code": "3101",
             "name": "Francophone Lit and Culture",
@@ -11746,13 +11697,6 @@
             "name": "Independent Study",
             "units": "3.00",
             "description": "Project, field experience, readings, or apprenticeship."
-        },
-        {
-            "subject": "FRW",
-            "code": "4751",
-            "name": "Franc-Caribbean Lit",
-            "units": "3.00",
-            "description": "Introduction to the Francophone literature of the Caribbean; study of a literary tradition in French, with special emphasis on post-World War II writers."
         },
         {
             "subject": "FSS",
@@ -12624,6 +12568,13 @@
         },
         {
             "subject": "HFT",
+            "code": "3023C",
+            "name": "Coffee & Tea",
+            "units": "3.00",
+            "description": "Students will develop functional knowledge of the business of coffee, tea, and other non-alcoholic beverages in the hospitality industry in partnership with Lavazza Coffees."
+        },
+        {
+            "subject": "HFT",
             "code": "3033",
             "name": "Sustainability Team Mgmt",
             "units": "3.00",
@@ -12726,6 +12677,13 @@
             "name": "Internl:Travl+Touris",
             "units": "3.00",
             "description": "Study of the global tourism industry, organizations, tourist behavior, history and globalization. Economic, socio-cultural and environmental impacts on destinations and culture are examined."
+        },
+        {
+            "subject": "HFT",
+            "code": "3718",
+            "name": "Travel Tourism Syst",
+            "units": "3.00",
+            "description": "The course provides a foundation for the concept of travel and tourism as a system. Study of the importance of interrelated activities of the components integral to international and domestic travel and tourism: destination planning and development."
         },
         {
             "subject": "HFT",
@@ -12862,6 +12820,13 @@
         },
         {
             "subject": "HFT",
+            "code": "4247",
+            "name": "D&l in the Hosp. Industry",
+            "units": "3.00",
+            "description": "This course examines concepts related to under-represented minorities in the hospitality industry with an emphasis on navigating challenges and creating opportunities for aspiring leaders."
+        },
+        {
+            "subject": "HFT",
             "code": "4294",
             "name": "Sr. Sem. Hosp. Mgmt.",
             "units": "3.00",
@@ -12925,6 +12890,13 @@
         },
         {
             "subject": "HFT",
+            "code": "4653",
+            "name": "Franchising Hosp Industry",
+            "units": "3.00",
+            "description": "This course provides a better understanding of franchising in the hospitality industry from academic and practitioner perspectives. Discusses the reasons for using franchising as a growing strategy."
+        },
+        {
+            "subject": "HFT",
             "code": "4757",
             "name": "Advanced Events Mgt",
             "units": "3.00",
@@ -12957,13 +12929,6 @@
             "name": "Foodservice Trends",
             "units": "3.00",
             "description": "Advanced level course covers management issues relevant to current trends and challenges facing the foodservice industry.  Topics covered will vary as appropriate for current situations."
-        },
-        {
-            "subject": "HFT",
-            "code": "4875",
-            "name": "Wine MKT & Brand",
-            "units": "3.00",
-            "description": "An in-depth study of the 'on premise' and 'off premise' wine marketing. Wine program development (wine list) and brand development. Exploring the 'business of wine' and consumer behavior. Prerequisite: Minimum age 18."
         },
         {
             "subject": "HFT",
@@ -13474,7 +13439,7 @@
             "code": "6156",
             "name": "Econ and Dec Anal HS",
             "units": "3.00",
-            "description": "Using economics as a tool, this course analyzes specific world-wide health care problems and the functioning of global health care markets. Prerequisites: Completion of Foundation Courses or minimum of 9 credit hours of program coursework including HSA 5125, HSA 6185, and HSA 6176"
+            "description": "Using economics as a tool, this course analyzes specific world-wide health care problems and the functioning of health care markets. Prerequisites: Completion of Foundation Courses or minimum of 9 credit hours of program coursework including HSA 5125, HSA 6185, and HSA 6176"
         },
         {
             "subject": "HSA",
@@ -13891,6 +13856,13 @@
         },
         {
             "subject": "IDH",
+            "code": "4008",
+            "name": "Honors Seminar Viii",
+            "units": "3.00",
+            "description": "The second of a two semester sequence, this course is an interdisciplinary examination of expectations for the 21st Century."
+        },
+        {
+            "subject": "IDH",
             "code": "4905",
             "name": "Honors Independ Stud",
             "units": "0.00",
@@ -13978,7 +13950,7 @@
             "code": "4232",
             "name": "Sustainability in Action",
             "units": "3.00",
-            "description": "Application of sustainability concepts and principles to environmental problems solving in community, business of research settings, emphasizing project management and communication skills."
+            "description": "Application of sustainability concepts and principles to environmental problems solving in community, business of research settings, emphasizing project management and communication skills. Prerequisites: EVR 3326 or permission of instructor"
         },
         {
             "subject": "IDS",
@@ -14598,6 +14570,13 @@
         },
         {
             "subject": "INR",
+            "code": "4933",
+            "name": "Topics In Intl Pol",
+            "units": "3.00",
+            "description": "An intensive examination of a topic in international politics. Subject matter varies according to the instructor. Topic to be announced in advance."
+        },
+        {
+            "subject": "INR",
             "code": "4943",
             "name": "Intern Inr Affairs",
             "units": "0.00",
@@ -14665,6 +14644,13 @@
             "name": "Independent Study",
             "units": "0.00",
             "description": "Directed independent research. Requires prior approval by instructor."
+        },
+        {
+            "subject": "INR",
+            "code": "5935",
+            "name": "Topics Intl Relation",
+            "units": "3.00",
+            "description": "Varies according to the instructor. Prerequisites: Graduate standing or permission of the instructor."
         },
         {
             "subject": "INR",
@@ -16162,21 +16148,21 @@
             "code": "6950",
             "name": "Law Review: Board of Editors",
             "units": "1.00",
-            "description": "Students selected as members of the Board of Editors of the Law Review may earn credit for satisfactory completion of their Board duties.  As members of the Board of Editors, students will solicit, select, edit and publish articles submitted by lawyers, judges, and professors from across the country.  The Board of Editors also may organize and solicit participants for symposia on legal topics of current interest and publish the papers presented at the symposia.  Student editors will supervise the preparation of student comments by new members of the Law Review and will select and edit those comments for possible publication.  Student editors will train new Law Review members on proper citation format and cite-checking requirements for articles published in the Law Review.  Student editors will be responsible for all other aspects of the Law Review, including obtaining subscriptions, managing its finances, working with the publisher and others in the printing and distribution of the Law Review."
+            "description": "Students selected as members of the Board of Editors of the Law Review may earn credit for satisfactory completion of their Board duties.  As members of the Board of Editors, students will solicit, select, edit and publish articles submitted by lawyers, judges, and professors from across the country.  The Board of Editors also may organize and solicit participants for symposia on legal topics of current interest and publish the papers presented at the symposia.  Student editors will supervise the preparation of student comments by new members of the Law Review and will select and edit those comments for possible publication.  Student editors will train new Law Review members on proper citation format and cite-checking requirements for articles published in the Law Review.  Student editors will be responsible for all other aspects of the Law Review, including obtaining subscriptions, managing its finances, working with the publisher and others in the printing and distribution of the Law Review. The professor may designate this course as either pass/fail or as a letter graded course."
         },
         {
             "subject": "LAW",
             "code": "6956",
             "name": "Law Review: Senior Members",
             "units": "1.00",
-            "description": "Senior Members of the Law Review may earn credit for satisfactory completion of their duties. Senior Members will assist the Board of Editors in all aspects of the Law Review, including cite checking articles to be published in the Law Review."
+            "description": "Senior Members of the Law Review may earn credit for satisfactory completion of their duties. Senior Members will assist the Board of Editors in all aspects of the Law Review, including cite checking articles to be published in the Law Review. The professor may designate this course as either pass/fail or as a letter graded course."
         },
         {
             "subject": "LAW",
             "code": "6957",
             "name": "Law Review: Staff",
             "units": "1.00",
-            "description": "Staff Members may earn credit for satisfactory completion of their duties.  These student members are required to write a comment of publishable quality, complete instruction on cite checking, and assist the Board of Editors and Senior Members in cite checking and any other assigned duties needed to publish the Law Review."
+            "description": "Staff Members may earn credit for satisfactory completion of their duties.  These student members are required to write a comment of publishable quality, complete instruction on cite checking, and assist the Board of Editors and Senior Members in cite checking and any other assigned duties needed to publish the Law Review. The professor may designate this course as either pass/fail or as a letter graded course."
         },
         {
             "subject": "LAW",
@@ -16232,7 +16218,7 @@
             "code": "7373",
             "name": "Appellate Procedure",
             "units": "3.00",
-            "description": "This course focuses on practice and procedure in the Florida District Courts of Appeal and the Eleventh Circuit. The course covers selected state and federal statutes and court rules governing appellate procedure as well as key appellate topics such as the merits of appeal, ethical limitations, jurisdiction, finality, issue selection, preparation of the record, preservation of error, fundamental/plain error, harmless error, and standard and scope of review.  During the course students will typically draft several short appellate documents, such as a Notice of Appeal, a Designation of Record/Directions to Clerk, and a Request for Oral Argument, as well as an appellate brief outline; unlike Legal Skills and Values II or III, the course will not cover brief writing or oral argument."
+            "description": "During this course, students will focus on practice and procedure in the Florida District Courts of Appeal and the United States Court of Appeals for the Eleventh Circuit. The course covers selected state and federal statutes and court rules governing appellate procedure as well as key appellate topics such as the merits of appeal, ethical limitations, jurisdiction, finality, issue selection, preparation of the record, preservation of error, and standard and scope of review. Upon successful completion of Appellate Procedure, students will be able to: (1) describe and explain the structure of both the Florida District Courts of Appeal and the Eleventh Circuit Court of Appeals judicial systems, (2) explain the basic processes for appeals, (3) explain the basic rules of the Florida District Courts of Appeal and the Eleventh Circuit Court of Appeals, (4) describe the jurisdiction of the Florida District Courts of Appeal and the Eleventh Circuit Court of Appeals, (5) evaluate the role of counsel in filing appeals, including sanctions for filing frivolous appeals, and (6) describe what happens after the disposition of an appeal."
         },
         {
             "subject": "LAW",
@@ -16280,8 +16266,8 @@
             "subject": "LAW",
             "code": "7930",
             "name": "Special Topics",
-            "units": "2.00",
-            "description": "The content of this course varies.  It may include topics of current interest or not covered by other curricular offerings.  The course may be repeated if there is no duplication of subject matter."
+            "units": "1.00",
+            "description": "This is a variable content course intended to deliver content not covered by courses listed in the COL catalog. It may involve topics referred to cutting-edge or novel legal phenomena, topics addressing current events, or taught by special faculty. The course may be repeated if there is no duplication of subject matter. Depending on the topics covered, the course may fulfill the international, dispute resolution, experiential or other graduation requirement."
         },
         {
             "subject": "LAW",
@@ -16891,13 +16877,6 @@
             "name": "Environmental Lit",
             "units": "3.00",
             "description": "This course examines the range of ways literature from antiquity to the present has worked both to reflect and to shape the relationship between human beings and the nonhuman world. Prerequisite: ENC 1101 and ENC 1102"
-        },
-        {
-            "subject": "LIT",
-            "code": "4536",
-            "name": "Working Class Women Lit",
-            "units": "3.00",
-            "description": "Evaluates gender issues across cultural, race, and class lines. Examines impact of migration and assimilation on multi-ethnic literature."
         },
         {
             "subject": "LIT",
@@ -17752,6 +17731,13 @@
             "name": "Marketing Internship",
             "units": "0.00",
             "description": "Full-time supervised work in a selected organization."
+        },
+        {
+            "subject": "MAR",
+            "code": "6915",
+            "name": "Indep Study In Mar",
+            "units": "0.00",
+            "description": "Individual conferences; supervised reading; reports on personal investigations. Consent of faculty tutor, Department Chairperson and Dean required."
         },
         {
             "subject": "MAR",
@@ -18760,6 +18746,13 @@
             "name": "Differential Geometry",
             "units": "3.00",
             "description": "Curves and surfaces in 3-dimensional Euclidean space, Gauss-Bonnet Theorem, Smooth manifolds. Tensors on manifolds, Connections and curvature, Riemannian metrics. Prerequisite: MAC 2313, MAP 2302, MAS 3105 or equivalent"
+        },
+        {
+            "subject": "MTG",
+            "code": "5257",
+            "name": "Differential Geometry II",
+            "units": "3.00",
+            "description": "Continuation of 'Differential Geometry'. Topics include connections and curvature of fiber bundles, Lie groups. Additional topics chosen by the instructor. Prerequisite: MTG 4254 or MTG 5256 (or consent of the instructor)"
         },
         {
             "subject": "MUC",
@@ -21374,6 +21367,20 @@
         },
         {
             "subject": "NGR",
+            "code": "6714C",
+            "name": "Clin Teach Strat",
+            "units": "3.00",
+            "description": "Experience seminar in clinical teaching. Application of research-based literature and best practices in the development/implementation/evaluation of clinical education for nursing students."
+        },
+        {
+            "subject": "NGR",
+            "code": "6715",
+            "name": "Instruct Technology",
+            "units": "3.00",
+            "description": "Provides advanced technological knowledge, skills, and opportunity to develop strategies using technology to improve and enhance student learning in variety of settings."
+        },
+        {
+            "subject": "NGR",
             "code": "6718",
             "name": "Testing and Evaluation NSG EDU",
             "units": "3.00",
@@ -22263,13 +22270,6 @@
         },
         {
             "subject": "PAD",
-            "code": "5460",
-            "name": "Performance Magmt",
-            "units": "3.00",
-            "description": "Provides knowledge and skills regarding the work with measures and data\nto improve organizational performance"
-        },
-        {
-            "subject": "PAD",
             "code": "5805",
             "name": "Econ Dev Urb Revit",
             "units": "3.00",
@@ -22512,6 +22512,13 @@
             "name": "Clinical Med II",
             "units": "3.00",
             "description": "This course is a systematic review and discussion of the epidemiology, pathophysiology, clinical manifestations, diagnosis and management of the most common disease in humans. It builds upon the foundation of basic science knowledge and clinical assessment skills. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6014",
+            "name": "Physiology I",
+            "units": "3.00",
+            "description": "This is an integrated primary core course, foundational to principles of physiology. It will involve an intensive study of the clinical presentation, pathophysiology, and recognition of various disease and anomalies in the population. The contextual approach to these disciplines will include the interrelationship of prior and current learning incorporating the basic sciences, anatomy and physiology, ancillary diagnostics and medical terminology. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -22823,6 +22830,13 @@
         },
         {
             "subject": "PCB",
+            "code": "5328",
+            "name": "Spatial Ecology",
+            "units": "3.00",
+            "description": "Ecological processes with spatial components, including neighborhood interactions, foraging, metapopulations, infectious diseases, invasive species, and habitat associations. Prerequisite: PCB 5423 Corequisites: PCB 5454"
+        },
+        {
+            "subject": "PCB",
             "code": "5405",
             "name": "Biochemical Ecology",
             "units": "3.00",
@@ -22897,6 +22911,13 @@
             "name": "Hea/Fitness Instr",
             "units": "3.00",
             "description": "Knowledge and skills to evaluate one's fitness level and to design exercise and health enhancement programs for healthy individuals."
+        },
+        {
+            "subject": "PEP",
+            "code": "5115",
+            "name": "Strength and Cond for Hp",
+            "units": "3.00",
+            "description": "This course provides the knowledge and skills to evaluate and prescribe health and fitness enhancement programs for healthy adults."
         },
         {
             "subject": "PET",
@@ -23996,13 +24017,6 @@
             "name": "Special Topics: Aesthetics",
             "units": "3.00",
             "description": "Examines selected issues in aesthetics in depth such as the nature of art, fictive emotions, the artworld, or an artistic medium, truth and purpose in art, etc. May be repeated."
-        },
-        {
-            "subject": "PHI",
-            "code": "4938",
-            "name": "Topics: Phi of Religion",
-            "units": "3.00",
-            "description": "Examines issues of historical and contemporary significance in the Philosophy of Religion such as the existence and nature of God, evil, faith, religious experience, etc. Repeatable for credit."
         },
         {
             "subject": "PHI",
@@ -28276,6 +28290,13 @@
         },
         {
             "subject": "TCN",
+            "code": "5440",
+            "name": "Sftwr Dvmnt Telecom",
+            "units": "3.00",
+            "description": "Focuses on the aspects, tools, and techniques of developing software applications for telecommunications networks."
+        },
+        {
+            "subject": "TCN",
             "code": "5640",
             "name": "Telecom Ent Plan St",
             "units": "3.00",
@@ -28315,13 +28336,6 @@
             "name": "Ind Dev Of Telecom",
             "units": "3.00",
             "description": "This course, from a management perspective, addresses the evolution of the telecom industry, the impact it has on reshaping our world, and the importance of management decisions in telecom."
-        },
-        {
-            "subject": "TCN",
-            "code": "6880",
-            "name": "Telecom Pub Pol Dev",
-            "units": "3.00",
-            "description": "A concept-oriented examination of the domestic and international telecommunications policy processes and standards setting environment.  Prerequisite: Permission of the instructor."
         },
         {
             "subject": "THE",
@@ -28531,7 +28545,7 @@
             "code": "1110",
             "name": "Acting I",
             "units": "3.00",
-            "description": "Introduction to acting process using Spolin-based improvisational approach. Includes the study, theory and practice of theatre as it relates to performance.  Majors only."
+            "description": "Introduction to acting process using Spolin-based improvisational approach. Includes the study, theory and practice of theatre as it relates to performance. Prerequisite: Theatre Majors, Music Majors -BM/MM Musical Theatre Track"
         },
         {
             "subject": "TPP",
@@ -28545,7 +28559,7 @@
             "code": "2111",
             "name": "Acting II",
             "units": "3.00",
-            "description": "Stanislavsky techniques with an emphasis on making actable choices through rehearsal and text analysis. Scene work using the plays of Anton Chekhov. Majors only."
+            "description": "Stanislavsky techniques with an emphasis on making actable choices through rehearsal and text analysis. Scene work using the plays of Anton Chekhov. Majors only. Prerequisites: TPP1110 and theatre majors, BM/MM Musical Theatre Majors only"
         },
         {
             "subject": "TPP",
