@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1647738398,
+    "dataAsOf": 1648343496,
     "data": [
         {
             "subject": "ACG",
@@ -756,6 +756,13 @@
             "name": "Medical Anthropology",
             "units": "3.00",
             "description": "Anthropological approaches to the study of health and disease. Emphasis on cultural systems approach to the study of illness and health care."
+        },
+        {
+            "subject": "ANT",
+            "code": "3467",
+            "name": "Food and Culture",
+            "units": "3.00",
+            "description": "Introduction to the anthropology of food: European conquest of the New World, theories of famine, the industrial food system, food and nationalism, the organic food movement."
         },
         {
             "subject": "ANT",
@@ -6016,13 +6023,6 @@
         },
         {
             "subject": "COM",
-            "code": "4900",
-            "name": "Dir Ind Stud in Comm Arts",
-            "units": "1.00",
-            "description": "Specialized intensive study in a specific area of special interest to the student."
-        },
-        {
-            "subject": "COM",
             "code": "4930",
             "name": "Spec Topics in Comm Arts",
             "units": "3.00",
@@ -6625,6 +6625,20 @@
         },
         {
             "subject": "CWR",
+            "code": "5305",
+            "name": "Surf Hydro",
+            "units": "3.00",
+            "description": "Principles of Hydrology with a particular focus on surficial processes of interest to engineering design. Emphasizes applications to flood prevention and mitigation and stormwater management issues. Prerequisites: CWR 3201, CWR 3540 (or equivalent)."
+        },
+        {
+            "subject": "CWR",
+            "code": "5571",
+            "name": "Urbn Hydrol Green Infrast",
+            "units": "3.00",
+            "description": "Introduction to low impact development and stormwater green infrastructure for water quantity and quality control. Urban impervious cover characterization. Green infrastructure hydrologic modeling. Prerequisites: CWR 3201 and CWR 3540 (or equivalent)"
+        },
+        {
+            "subject": "CWR",
             "code": "5635",
             "name": "Optimization Water Res.",
             "units": "3.00",
@@ -7185,13 +7199,6 @@
         },
         {
             "subject": "ECO",
-            "code": "3303",
-            "name": "Devel Econ Thought",
-            "units": "3.00",
-            "description": "Evolution of economic theory and doctrine. Contributions to economic thought from ancient times to J. M. Keynes. Emphasis on institutional forces shaping the continuum of economic thinking."
-        },
-        {
-            "subject": "ECO",
             "code": "3410",
             "name": "Meas & Analy Eco Act",
             "units": "3.00",
@@ -7469,13 +7476,6 @@
             "name": "Women Econ Devel",
             "units": "3.00",
             "description": "Analysis of problems facing women in developing countries, focusing on gender and cultural issues and their relationships to economic development."
-        },
-        {
-            "subject": "ECS",
-            "code": "3200",
-            "name": "Economics Of Asia",
-            "units": "3.00",
-            "description": "Economic analysis of the problems of poverty, malnutrition and income inequality in South Asia. Rural poverty and agricultural transformation. The East Asian Miracle. The Asian Crisis. Economic liberalization in Asia."
         },
         {
             "subject": "ECS",
@@ -7941,13 +7941,6 @@
         },
         {
             "subject": "EDG",
-            "code": "6286",
-            "name": "Cur Eval & Improvmnt",
-            "units": "3.00",
-            "description": "Development of skills in curriculum evaluation and strategies for improvement of on-going curriculum."
-        },
-        {
-            "subject": "EDG",
             "code": "6627",
             "name": "Trends and Iss in C&I",
             "units": "3.00",
@@ -8298,6 +8291,13 @@
         },
         {
             "subject": "EEC",
+            "code": "4231",
+            "name": "Dev Learn Process Italy",
+            "units": "6.00",
+            "description": "This course focuses on early childhood practices through an Italian perspective. Emphasis on learning processes guiding curriculum and instruction in early childhood settings. No prerequisite"
+        },
+        {
+            "subject": "EEC",
             "code": "4250",
             "name": "Cur Instr Early Chld",
             "units": "3.00",
@@ -8316,6 +8316,13 @@
             "name": "Dir Stud Child Ed",
             "units": "0.00",
             "description": "Available to undergraduate and graduate students studying early childhood education. Provides for individual investigation in the area of early childhood education. Permission of the instructor required."
+        },
+        {
+            "subject": "EEC",
+            "code": "6232",
+            "name": "Dev Learn Process Italy",
+            "units": "6.00",
+            "description": "This course focuses on early childhood practices through an Italian perspective. Emphasis on learning processes guiding curriculum and instruction in early childhood settings. No prerequisite"
         },
         {
             "subject": "EEC",
@@ -8505,6 +8512,20 @@
             "name": "Microsystems and MEMS",
             "units": "3.00",
             "description": "This course will give students an introduction with an emphasis on design and analysis of fundamentals of electrochemical sensing and integration into microfluidic systems. Prerequisites: EEL 3396 or permission of the instructor."
+        },
+        {
+            "subject": "EEE",
+            "code": "6525",
+            "name": "Adv Sensor Signal Proc",
+            "units": "3.00",
+            "description": "Various sensor systems, sensor signal detection, signal estimations, distributed sensor networks, sensor data fusion approaches, wireless sensor networks, radar networks and optimal sensor allocation and sensor network design. Prerequisite: EEL 3514 or permission of the instructor."
+        },
+        {
+            "subject": "EEE",
+            "code": "6719",
+            "name": "CPS SEC",
+            "units": "3.00",
+            "description": "Expose students to fundamental security primitives specific to CPS. The topics will cover the cyber and physical attacks, security of CPS protocols, key management and privacy and control. Prerequisite: A Network Security related course or consent of the instructor"
         },
         {
             "subject": "EEE",
@@ -8827,6 +8848,13 @@
             "name": "Adv. Sys. Theory",
             "units": "3.00",
             "description": "State-space representations for continuous and discrete-time systems, controllability and observability, pole-zero allocation, Lyapunov stability theorem, state observers."
+        },
+        {
+            "subject": "EEL",
+            "code": "5278",
+            "name": "SG Cyber and IEDs",
+            "units": "3.00",
+            "description": "Design, simulate and solve smart grid cyber security issues. Manmade and natural large scale disturbances. Smart grid cyber networked standards and new Intelligent Electronic Devices (IED). Prerequisite: Graduate standing."
         },
         {
             "subject": "EEL",
@@ -9695,6 +9723,13 @@
             "name": "Ceramic Processing",
             "units": "3.00",
             "description": "Introduction to the science of ceramic processing, with emphasis on theoretical fundamentals and current state-of-the-art processing."
+        },
+        {
+            "subject": "EMA",
+            "code": "5990",
+            "name": "1D-2D Nanomaterials",
+            "units": "3.00",
+            "description": "N/A"
         },
         {
             "subject": "EMA",
@@ -10615,6 +10650,13 @@
         },
         {
             "subject": "ENV",
+            "code": "5347",
+            "name": "Waste Incinerationl",
+            "units": "3.00",
+            "description": "Domestic and industrial waste incineration and pollutant stream control of aqueous and airborne pollutants. Design of incineration."
+        },
+        {
+            "subject": "ENV",
             "code": "5356",
             "name": "Solid Haz Waste",
             "units": "3.00",
@@ -10937,6 +10979,13 @@
         },
         {
             "subject": "EVR",
+            "code": "3326",
+            "name": "Sustainability Prin Pract",
+            "units": "4.00",
+            "description": "Introduction to the principles and practices of sustainability and challenges for human society to provide a foundation for sustainability studies, including applications as practicums."
+        },
+        {
+            "subject": "EVR",
             "code": "3723",
             "name": "Nat Res Valuation Econ",
             "units": "3.00",
@@ -11039,13 +11088,6 @@
             "name": "Pop & Environment",
             "units": "3.00",
             "description": "A study of co-evolutionary relationships between humans and their environment and subsequent impacts on human populations across time."
-        },
-        {
-            "subject": "EVR",
-            "code": "4434",
-            "name": "Sustainable Cities",
-            "units": "3.00",
-            "description": "Introduction to the theories, concepts, and current trends relevant to the creation and maintenance of Sustainable Cities."
         },
         {
             "subject": "EVR",
@@ -11263,6 +11305,13 @@
             "name": "Prior Learning Assessment",
             "units": "0.00",
             "description": "PLA is college-level learning demonstrating knowledge, skills, & competencies obtained as a result of prior learning experiences through certifications, licensures, veteran status, workplace skills. Prerequisite: Instructor Approval and FES 1950"
+        },
+        {
+            "subject": "FES",
+            "code": "4904",
+            "name": "Disaster Mnmgt Ind Study",
+            "units": "3.00",
+            "description": "Independent Study course permits a student to pursue a research project or guided readings in a subject area not substantially covered in the curriculum. Prerequisite: Permission of instructor and department director"
         },
         {
             "subject": "FES",
@@ -11581,6 +11630,13 @@
         },
         {
             "subject": "FOL",
+            "code": "3955",
+            "name": "Foreign Study",
+            "units": "0.00",
+            "description": "Study abroad credits. Individual cases will be evaluated for approval."
+        },
+        {
+            "subject": "FOL",
             "code": "5800",
             "name": "Foreign Lang Teach Method",
             "units": "3.00",
@@ -11665,6 +11721,13 @@
         },
         {
             "subject": "FRE",
+            "code": "3421",
+            "name": "Rev Gram/Writing II",
+            "units": "3.00",
+            "description": "Instruction and practice in expository writing in French, with emphasis on organization, correct syntax, and vocabulary building."
+        },
+        {
+            "subject": "FRE",
             "code": "3504",
             "name": "Language & Culture",
             "units": "3.00",
@@ -11685,11 +11748,32 @@
             "description": "Introduces to Francophone cinema. While comparing movies from France and Francophone world, students explore various issues such as language, race, and postcolonial politics."
         },
         {
+            "subject": "FRE",
+            "code": "4501",
+            "name": "Contemp Fre Society",
+            "units": "3.00",
+            "description": "Course designed primarily for French majors, advanced undergraduates and graduates. Examination of the cultural, ideological, socio-political and economic fabric of France from WWI to the present."
+        },
+        {
+            "subject": "FRE",
+            "code": "4791",
+            "name": "French Phonology",
+            "units": "3.00",
+            "description": "Contrasts in the sound systems of English and French."
+        },
+        {
             "subject": "FRW",
             "code": "3101",
             "name": "Francophone Lit and Culture",
             "units": "3.00",
             "description": "This survey course examines the main literary movements and texts of the French and Francophone world from the Middle Ages to the present, while preparing students to take advanced literature courses."
+        },
+        {
+            "subject": "FRW",
+            "code": "3300",
+            "name": "French Comedies",
+            "units": "3.00",
+            "description": "A study in French comedies from the 15th century to the 19th century, with special emphasis on Moliere's plays."
         },
         {
             "subject": "FRW",
@@ -11725,6 +11809,13 @@
             "name": "Internatnl Cuisine",
             "units": "3.00",
             "description": "An opportunity for food aficionados to explore modern interpretations of international classic cuisine. Includes lecture, demonstration and preparation of favorite international dishes from restaurant menus around the world. Open to non-majors."
+        },
+        {
+            "subject": "FSS",
+            "code": "4015",
+            "name": "Princ. Culinology",
+            "units": "3.00",
+            "description": "A comprehensive course covering fundamentals of physical & chemical properties of foods, product development, processing & preservation technologies, emerging industrial food processing technologies."
         },
         {
             "subject": "FSS",
@@ -12610,6 +12701,13 @@
         },
         {
             "subject": "HFT",
+            "code": "3103",
+            "name": "Gbl Sust Tour Dev Nat Res",
+            "units": "3.00",
+            "description": "Study of sustainability and sustainable resource management in tourism. Interrelations of humans and the environment in tourism development."
+        },
+        {
+            "subject": "HFT",
             "code": "3263",
             "name": "Dining Services Mgmt",
             "units": "3.00",
@@ -12628,6 +12726,13 @@
             "name": "Hsptly Prop Mgmt",
             "units": "3.00",
             "description": "The problems of cost and operation of pest control, security, parking, general cleaning and upkeep, laundry, fire prevention, pools, tennis courts, and care of guest rooms and public space, with emphasis on equipment, personnel, and modern innovations. The housekeeping and property management function of the hotel."
+        },
+        {
+            "subject": "HFT",
+            "code": "3373",
+            "name": "Event Tech Management",
+            "units": "3.00",
+            "description": "This course will focus on event tech space for meetings and conferences. Emphasis is on multi-day programs and where innovation is taking place in logistics, technology and design."
         },
         {
             "subject": "HFT",
@@ -12659,10 +12764,24 @@
         },
         {
             "subject": "HFT",
+            "code": "3613",
+            "name": "Beverage Mgmt Law",
+            "units": "3.00",
+            "description": "An introduction to alcoholic beverage law and the fundamental laws, rules and regulations applicable to the retail (on-premise vs. off-premise) alcoholic beverage industry. Prerequisite: HFT 1020 or permission, HFT 3861, HFT 3603"
+        },
+        {
+            "subject": "HFT",
             "code": "3701",
             "name": "Sus Tourism Pract",
             "units": "3.00",
             "description": "Sustainability in the global tourism industry is examined through certifying organizations, destinations, international stakeholders. Global impacts and indicators are discussed."
+        },
+        {
+            "subject": "HFT",
+            "code": "3703",
+            "name": "Adventure and Ecotourism",
+            "units": "3.00",
+            "description": "GL course covering global issues in sustainable development specifically focused on adventure and ecotourism as tools. Examines concepts of eco-tourism development."
         },
         {
             "subject": "HFT",
@@ -12813,6 +12932,13 @@
         },
         {
             "subject": "HFT",
+            "code": "4064",
+            "name": "Beverage Entrepreneurship",
+            "units": "3.00",
+            "description": "An entrepreneurial & interactive course where the learner applies principles of management learned during their time in the program to develop a business plan related to the beverage industry."
+        },
+        {
+            "subject": "HFT",
             "code": "4240",
             "name": "Mng Service Org",
             "units": "3.00",
@@ -12838,6 +12964,13 @@
             "name": "Hosp Facil Environ System",
             "units": "3.00",
             "description": "A comprehensive survey of engineering, maintenance, and efficiency controls in hotels, restaurants. Emphasizes the importance of Operations Facilities Engineering Management and the environment."
+        },
+        {
+            "subject": "HFT",
+            "code": "4376",
+            "name": "Intro Entertainment Mgt",
+            "units": "3.00",
+            "description": "This class addresses the topics of performers, shipping, technology, special effects, contracts, logistics, industry terminology, and recent media venue entertainment headlines."
         },
         {
             "subject": "HFT",
@@ -13044,17 +13177,17 @@
         },
         {
             "subject": "HIS",
+            "code": "6906",
+            "name": "Adv Rdgs Atl Civ",
+            "units": "3.00",
+            "description": "A team-taught, comparative course dealing with the interactions between at least two of the geographical fields of concentration. May focus on one or more topics. Required of all Ph.D. students during their first term of study in the program. Prerequisite: Graduate standing. May be repeated with approval of Graduate Program Director."
+        },
+        {
+            "subject": "HIS",
             "code": "6909",
             "name": "Summer Doctoral Study",
             "units": "3.00",
             "description": "Doctoral students work under the close supervision of a member of the Graduate Faculty in a mentorial fashion in designing pre-dissertation research, preparation for comprehensive exams, and/or proposal writing for grants and fellowships to fund dissertation research. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "HIS",
-            "code": "6918",
-            "name": "Rsch Atlantic Civ",
-            "units": "3.00",
-            "description": "A research seminar on cross-cultural topics, involving the comparative method. Required of all Ph.D. students in the program, during second term of residence. Topics will vary. Prerequisite: Graduate standing. May be repeated with approval of Graduate Program Director."
         },
         {
             "subject": "HIS",
@@ -14458,6 +14591,13 @@
         },
         {
             "subject": "INR",
+            "code": "4031",
+            "name": "Media Intl Rel",
+            "units": "3.00",
+            "description": "Explores the impact of print and visual media on the practice of International Relations.  Examines how the media and their technologies determine the outcome of International Relations."
+        },
+        {
+            "subject": "INR",
             "code": "4075",
             "name": "Int Prot Hum Right",
             "units": "3.00",
@@ -14532,6 +14672,13 @@
             "name": "International Law of Sea",
             "units": "3.00",
             "description": "Introduction to the legal and political foundations of the law of the sea. Emphasis on rule of law of the sea treaties, efforts to conserve marine environment, and the resolution of maritime disputes."
+        },
+        {
+            "subject": "INR",
+            "code": "4436",
+            "name": "Inter Negotiation",
+            "units": "3.00",
+            "description": "Introduces students to the main components of international negotiations analysis.  Surveys the various stages of a negotiation process and examines key.  Applies theory to practice by considering and analyzing a set case of studies."
         },
         {
             "subject": "INR",
@@ -14616,13 +14763,6 @@
             "name": "Int'L Organizat I",
             "units": "3.00",
             "description": "Study of international organizations and their role in international relations. Emphasis on their legal status, rule-making capacities and role in dispute settlement and maintenance of peace."
-        },
-        {
-            "subject": "INR",
-            "code": "5607",
-            "name": "Intl Rel & Develp",
-            "units": "3.00",
-            "description": "An analysis and conceptualization of the process of development as it takes place in the international context. Special attention given to the role of international organizations in promoting development and the manner in which differences in developmental levels conditions international relations."
         },
         {
             "subject": "INR",
@@ -15305,6 +15445,27 @@
         },
         {
             "subject": "JRM",
+            "code": "6080",
+            "name": "Banking & Finance Reg.",
+            "units": "3.00",
+            "description": "This course is provides an overview for the business and human resources professional of the banking and finance sector's important role in ensuring compliance with complicated legal, regulatory and supervisory issues within banking law and practice. Prerequisite: Juris Master students only"
+        },
+        {
+            "subject": "JRM",
+            "code": "6081",
+            "name": "BSA I",
+            "units": "2.00",
+            "description": "This is the first part of LAW 6088. The course offers a study of the rules and\nregulations through which the Federal Deposit Insurance Corporation (FDIC)\nestablishes and maintains procedures designed to assure and monitor\ncompliance with the BSA and implementing regulations. The course introduces\nstudents to the administrative and enforcement mechanisms of OFAC (Office of\nForeign Assets Control) of the U.S. Department of Treasury. Part II reviews the\npenalties and other regulatory enforcement actions imposed for noncompliance\nwith money laundering laws, as well as criminal prosecutions for willful\nviolations of same. Prerequisite: Juris Masters Students Only"
+        },
+        {
+            "subject": "JRM",
+            "code": "6082",
+            "name": "BSA II",
+            "units": "2.00",
+            "description": "This is the second part of LAW 6088. The course offers a study of the rules and\nregulations through which the Federal Deposit Insurance Corporation (FDIC)\nestablishes and maintains procedures designed to assure and monitor\ncompliance with the BSA and implementing regulations. The course introduces\nstudents to the administrative and enforcement mechanisms of OF AC (Office of\nForeign Assets Control) of the U.S. Department of Treasury. Part II reviews the\npenalties and other regulatory enforcement actions imposed for noncompliance\nwith money laundering laws, as well as criminal prosecutions for willful\nviolations of same. Prerequisite: Juris Masters Students Only"
+        },
+        {
+            "subject": "JRM",
             "code": "6083",
             "name": "Con & Comm Lending",
             "units": "3.00",
@@ -15312,10 +15473,52 @@
         },
         {
             "subject": "JRM",
+            "code": "6084",
+            "name": "Consumer Fin Srv Reg",
+            "units": "3.00",
+            "description": "This course covers those regulations that are associated with financial products and services offered by banks. The focus of this course includes the Consumer Financial Protection Act, Equal Credit Opportunity, Community Reinvestment Acts, and federal and Florida laws governing fair credit reporting, trade practices, usury, electronic funds transfers, and funds availability. This course includes an analysis of the impact of the Dodd-Frank. Prerequisite: Juris Master students only."
+        },
+        {
+            "subject": "JRM",
             "code": "6091",
             "name": "Intro to Reg Compliance",
             "units": "3.00",
             "description": "This course introduces the student to regulatory compliance from a business and human resources professional's point of view. It examines Sarbanes-Oxley, HIPAA, and other regulations, and covers the most important best practices that are common across multiple pieces of legislation. Prerequisites: Juris Masters Student Only"
+        },
+        {
+            "subject": "JRM",
+            "code": "6100",
+            "name": "Reg of Medical Inst",
+            "units": "4.00",
+            "description": "This course, the complement of LAW 6863 Public Health and the Law, introduces the business and human resources professional to the regulation of hospitals and medical facilities. The courses focuses on some of the practical problems arising in the context of health care regulation and compliance. Prerequisite: Juris Master Students only."
+        },
+        {
+            "subject": "JRM",
+            "code": "6110",
+            "name": "Medicare and Medicaid Law",
+            "units": "3.00",
+            "description": "This course provides students with a fundamental understanding of the Medicare and Medicaid programs and the practical skills for using this information to serve their clients. The course examines the purpose and design of Medicare and Medicaid; the Medicare and Medicaid vocabulary; and the criteria for eligibility and enrollment in these programs. Prerequisite: Juris Master students only."
+        },
+        {
+            "subject": "JRM",
+            "code": "6120",
+            "name": "Public Health & the Law",
+            "units": "3.00",
+            "description": "This course introduces the student to the regulation of health professionals practicing in Florida. In particular, the course examines the different ways the law governs regulated and self-regulated conduct within the Florida health care system. Prerequisite:  Juris Master students only"
+        },
+        {
+            "subject": "JRM",
+            "code": "6541",
+            "name": "Leg Develop Disability",
+            "units": "3.00",
+            "description": "This course covers the fundamentals of disability law with an emphasis on resources, evaluations and appeals processes for the business and human resources professional. The main statutory focus will be on the Americans with Disabilities Act."
+        },
+        {
+            "subject": "JRM",
+            "code": "6580",
+            "name": "Leg Develop Education",
+            "units": "4.00",
+            "description": "This course presents the business and human resources professional with the emerging legal developments and regulatory standards governing such issues as liability in student attacks and the merits and constitutionality of drug testing students in school. Prerequisite: Juris Master students only"
         },
         {
             "subject": "JRM",
@@ -16691,6 +16894,13 @@
         },
         {
             "subject": "LIN",
+            "code": "3010",
+            "name": "General Linguistics",
+            "units": "3.00",
+            "description": "Examination and synthesis of the concepts and perspectives of major contributions to language theory. Equivalent to SPN 3733.  Students who take SPN 3733 may not receive credit for LIN 3010 or LIN 3013."
+        },
+        {
+            "subject": "LIN",
             "code": "3013",
             "name": "General Linguistics",
             "units": "3.00",
@@ -17741,13 +17951,6 @@
         },
         {
             "subject": "MAR",
-            "code": "6936",
-            "name": "Special Topics Mktg",
-            "units": "0.00",
-            "description": "For groups of students desiring intensive study of a particular topic or a limited number of topics, not otherwise offered in the curriculum. Consent of faculty supervisor and Department Chairperson required."
-        },
-        {
-            "subject": "MAR",
             "code": "7399",
             "name": "Advert & Persuasion",
             "units": "3.00",
@@ -17766,6 +17969,13 @@
             "name": "Mkt. Theory Sem",
             "units": "3.00",
             "description": "Intensive analysis of the nature and role of hypotheses, generalizations, and empirical regularities. Critical examination of theories of marketing and interaction of marketing theory and practice."
+        },
+        {
+            "subject": "MAR",
+            "code": "7849",
+            "name": "Motivation & Emotion",
+            "units": "3.00",
+            "description": "Doctoral seminar focused on theory and methods encompassed by consumer motivation and emotion research. Major topics include goals, self-regulation, and the motivational role of identity and emotions. Prerequisite: MAR 7507"
         },
         {
             "subject": "MAR",
@@ -17986,6 +18196,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7092",
+            "name": "Teaching Skills Elective",
+            "units": "1.00",
+            "description": "This is a non-clinical elective offered for two or four continuous weeks, designed to help students improve their teaching and/or curricular development skills through small-group, self-directed, experiential learning, and mentor feedback and engagement in authentic work. In this course, students will be provided with opportunities to learn about the foundational principles of adult learning theory, curriculum design, pedagogy, assessment, and teaching. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7100",
             "name": "Community Medicine Elective",
             "units": "1.00",
@@ -18112,10 +18329,24 @@
         },
         {
             "subject": "MDE",
+            "code": "7600",
+            "name": "General Surgery Elective",
+            "units": "1.00",
+            "description": "The student works directly with general and vascular surgeons. During the rotation, the student is exposed to all phases of patient care, including outpatient clinic, the operating room and hospital. Emphasis will be placed on the initial assessment, physical examination and preoperative evaluation of surgical patients. When appropriate, the student will follow individual patients whose cases are particularly instructive. While no formal projects are required, ample opportunity exists for independent projects as dictated by the student's special interests. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7660",
             "name": "Plastic & Reconstructive Sur E",
             "units": "1.00",
             "description": "The Plastic and Reconstructive Surgery Elective is a 4 week rotation designed to expose students to a wide variety of clinical problems and techniques commonly encountered in the field of plastic surgery. Students will be exposed to all subspecialties in plastic surgery, including general reconstructive surgery, pediatric/craniofacial surgery, hand surgery, and aesthetic surgery. Students will rotate through several offices/hospitals during the rotation and will be expected to participate in pre- and post-operative office visits, hospital visits, and surgeries. In addition, students will be expected to master wound closure techniques and other basic plastic surgery technical skills. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7661",
+            "name": "Breast Surgery Elective",
+            "units": "1.00",
+            "description": "The Breast Surgery Elective focuses exclusively on the clinical management of benign and malignant breast diseases. The student will become proficient in taking a history, performing a breast examination, and developing a differential diagnosis for breast patients. The student will learn about the surgical management of breast cancer and the integration of other modalities in the overall management of this disease. Working 1-on-1 with an FIU faculty attending surgeon, the student will have some responsibility for inpatient care and will have the opportunity to be first assistant in the operating room. Weekly didactic sessions with the attending physician will cover the most important aspects of breast cancer including biology, diagnostics, prevention, and treatment. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18133,10 +18364,24 @@
         },
         {
             "subject": "MDE",
+            "code": "7710",
+            "name": "Emergency Medicine Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to make the student familiar with the wide range of clinical conditions, minor to major which are responsible for the patient seeking care at an Emergency Room. The student will practice skills in the recognition and management of acute life threatening conditions and exacerbation of serious disease in a strictly supervised setting. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7763",
             "name": "Diagnostic Radiology Elective",
             "units": "1.00",
             "description": "This rotation is intended to give students an introduction to the basics of diagnostic imaging, the appropriate choice of imaging method for given clinical problems, and the side-effects and risks associated with each. Students will become familiar with imaging findings in common clinical conditions. The rotation will involve online modules, small group sessions and 'virtual' and real reading room sessions. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7765",
+            "name": "Intervent Rad Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to give students an introduction to the basics of Interventional Radiology (IR); including IR techniques and procedures, and an understanding of the field's role in the management of medical and surgical problems. Students will participate in the workup, treatment and follow-up of patients undergoing various IR procedures. Students will also gain experience in the interpretation of radiologic imaging such as ultrasound, CT, and MRI. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18151,6 +18396,13 @@
             "name": "Radiation Oncology Elective",
             "units": "1.00",
             "description": "This rotation provides students with supervised participation in the care of radiation oncology patients. This includes the diagnostic/clinical evaluation of the patient's disease and the development of treatment plans involving radiation therapy. Students are exposed to state-of-the- art radiation oncology equipment and, during the planning phase, are shown the use of CT imaging with plain and contrast-enhanced techniques for therapy planning and positioning of the patient for radiation treatment. They are exposed to the management of the most common tumors seen in our community, including breast, prostate, lung, Gl, skin, and head and neck cancer. Students are introduced to palliative care and the incorporation of integrative medicine in the overall care of the patient. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7820",
+            "name": "Pain Management Elective",
+            "units": "1.00",
+            "description": "Students will rotate in an ambulatory setting at a pain management practice under the direct supervision of an FIU faculty member. This rotation will provide students with exposure to the evaluation and management of acute and chronic pain including: upper and lower back pain; chronic arthritis; disk disease; radicular and neuropathic pain syndromes; and pain associated with malignancy. Students will gain an understanding of common procedures used in pain management: local anesthesia, joint injections, epidural injections, peripheral nerve blocks, and trigger point injections. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18181,11 +18433,32 @@
             "description": "The Pediatric Medicine Sub-internship gives the student increased responsibility for decisions made for the total care of the patient. In general, the student is expected to function more as an intern than as a third year student. During the sub-internship, the student will be exposed to all competencies central to medical education; including interpersonal skills, professionalism, practice and systems based learning, patient care, and medical knowledge. Sub-interns are expected to examine patients admitted to the inpatient hospitalist services, write daily progress notes and enter orders in the medical record, develop and assist in implementation of plans for care, and make daily rounds on all patients. Students will participate in all academic activities of the Hospitalist Service, including simulation training and didactic lectures. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
+            "subject": "MDI",
+            "code": "7600",
+            "name": "General Surgery Subinternship",
+            "units": "1.00",
+            "description": "This course is designed for students who desire a greater in-depth experience in general surgery or who are seriously considering surgery as a possible career choice. It serves as an exploratory path for a planned career in general surgery or other surgical sub-specialties. In this role, the subintern will have more responsibilities than a period 3 clerkship student. The student will examine patients, assist in surgery, participate in pre-operative and post-operative care and will also be encouraged to develop his/her clinical and technical skills. The student will be expected to participate in all of the educational activities of the Department of Surgery during the course of his/her rotation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDR",
+            "code": "7060",
+            "name": "Med Ethics and Hum Elective",
+            "units": "1.00",
+            "description": "Offered as a two-week rotation, with the option for an additional two-credit longitudinal component; this elective is designed for the individualized study of topics in clinical, research, and service-learning ethics and humanism in medicine. Students will examine ethical and humanistic issues in medicine that emerge in the clinical setting, lab, or community. Students will read, write and analyze case vignettes, attend community ethics activities (e.g. Hospital ethics committee meetings), develop a scholarly project, and contribute to an ethics research project. Humanism in medicine is the recognition that both practitioner and patient are human beings, with the shared values and experiences of humanity. This provides a framework for improved clinical interactions and addresses phenomena such as ethical leadership, inclusive communication, and burnout. The course director will create learning contracts tailored to students' individual interests, objectives, and clinical schedules. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
             "subject": "MDR",
             "code": "7910",
             "name": "Research Scholarship",
             "units": "1.00",
             "description": "The Research Scholarship Course aims to develop competencies required to do research as a lead investigator or colead investigator. This course provides students the opportunity to be exposed to and supported through the completion of a research project in a role that very closely resembles the role of a primary investigator or first author researcher. The student should be a full participant and a crucial element in the generation of (or fully understand, if assigned to an\nongoing project) the research idea (research question or hypothesis), the development of the project proposal, data collection tools, data collection activities, analysis, interpretation, and the writing of a short document summarizing the experience. Potential research projects could encompass, but are not to be limited to the areas of basic sciences and community-based clinical and epidemiological research.Prerequisite: Enrolled in the Herbert College of Medicine."
+        },
+        {
+            "subject": "MDS",
+            "code": "7710",
+            "name": "Emergency Medicine Selective",
+            "units": "3.00",
+            "description": "This rotation is intended to familiarize students with the wide range of clinical conditions, minor to major, which are responsible for the patient seeking care at an emergency department. Students practice skills in the recognition and management of acute life-threatening conditions and exacerbation of serious disease in a strictly supervised setting.Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MET",
@@ -18585,13 +18858,6 @@
             "name": "Media Mgt and Entrep",
             "units": "3.00",
             "description": "Introduction to the basic functions of media management with an emphasis on television and new media in a global marketplace; provides an understanding of business models and decision-making processes."
-        },
-        {
-            "subject": "MMC",
-            "code": "6736",
-            "name": "SOCMEDCOM",
-            "units": "3.00",
-            "description": "Provide students the tools and strategies needed to find and distribute news on social media, and teach them how to leverage social media attributes to build a brand."
         },
         {
             "subject": "MMC",
@@ -21017,13 +21283,6 @@
         },
         {
             "subject": "NGR",
-            "code": "6123",
-            "name": "Knowledge Develop",
-            "units": "3.00",
-            "description": "This course examines theory development, philosophical inquiry, and ways of organizing nursing knowledge.  Attention is directed to inquiry as grounded in languages and cultures."
-        },
-        {
-            "subject": "NGR",
             "code": "6172",
             "name": "APN Pharmacotherapeutics",
             "units": "3.00",
@@ -21402,17 +21661,17 @@
         },
         {
             "subject": "NGR",
-            "code": "6800",
-            "name": "Adv Nur Research I",
-            "units": "3.00",
-            "description": "The first course in a 2-course sequence on the design and conduct of nursing research focuses on the conceptual and empirical basis, design, sampling, and ethical conduct of nursing research."
-        },
-        {
-            "subject": "NGR",
             "code": "6801",
             "name": "Adv Nur Research II",
             "units": "3.00",
             "description": "The second course in a 2-course sequence on the design and conduct of nursing research focuses on measurement in nursing research, data management and analysis, and dissemination of findings."
+        },
+        {
+            "subject": "NGR",
+            "code": "6815",
+            "name": "Qualitative Methods",
+            "units": "3.00",
+            "description": "Critical issues, theoretical and practical applications for conducting qualitative research explored as they relate to health, social service and public administration environments."
         },
         {
             "subject": "NGR",
@@ -22487,6 +22746,13 @@
         },
         {
             "subject": "PAD",
+            "code": "7960",
+            "name": "Comp Exam In Pa",
+            "units": "6.00",
+            "description": "Intensive preparation for the comprehensive examinations in Public Affairs in both the core and areas of specialization. Prerequisite: Completion of program of studies."
+        },
+        {
+            "subject": "PAD",
             "code": "7980",
             "name": "PH.D. Dissertation",
             "units": "0.00",
@@ -22690,13 +22956,6 @@
         },
         {
             "subject": "PCB",
-            "code": "3374",
-            "name": "Tropical Ecology",
-            "units": "3.00",
-            "description": "In-depth survey of tropical climatology, ecological processes characteristic of tropical habitats, and biodiversity and conservation of tropical regions."
-        },
-        {
-            "subject": "PCB",
             "code": "3702",
             "name": "Interm Human Physiol",
             "units": "3.00",
@@ -22750,6 +23009,13 @@
             "name": "Developmental Bio",
             "units": "3.00",
             "description": "Comprehensive survey of principles of development and critical analysis of methods used to study these problems."
+        },
+        {
+            "subject": "PCB",
+            "code": "4301",
+            "name": "Freshwater Ecology",
+            "units": "3.00",
+            "description": "Community-level analysis of marshes, lakes and rivers from theoretical and practical viewpoints, emphasizing quantitative description of community structure and function."
         },
         {
             "subject": "PCB",
@@ -23572,13 +23838,6 @@
         },
         {
             "subject": "PHC",
-            "code": "6701",
-            "name": "Advanced R Computing",
-            "units": "3.00",
-            "description": "This course will introduce writing statistical computing and data science code in R covering data structures, graphics, reports, functions and scripts for analysis pipelines. Prerequisite: PHC 6099 or equivalent computational statistics course (with instructor permission)."
-        },
-        {
-            "subject": "PHC",
             "code": "6703",
             "name": "Epi Methods Exp Design",
             "units": "3.00",
@@ -24013,13 +24272,6 @@
         },
         {
             "subject": "PHI",
-            "code": "4932",
-            "name": "Special Topics: Aesthetics",
-            "units": "3.00",
-            "description": "Examines selected issues in aesthetics in depth such as the nature of art, fictive emotions, the artworld, or an artistic medium, truth and purpose in art, etc. May be repeated."
-        },
-        {
-            "subject": "PHI",
             "code": "4945",
             "name": "Philosophy Internship",
             "units": "0.00",
@@ -24066,13 +24318,6 @@
             "name": "Global Justice",
             "units": "3.00",
             "description": "An examination of philosophical perspectives on the problems of global justice. Course designated as a Global Learning course."
-        },
-        {
-            "subject": "PHM",
-            "code": "5935",
-            "name": "Adv Topics in Soc Pol Phi",
-            "units": "3.00",
-            "description": "Explores central problems in social and political philosophy. Possible topics include: justice, equality, freedom, democracy, the state, political obligation, etc. May be repeated for credit."
         },
         {
             "subject": "PHP",
@@ -24664,13 +24909,6 @@
         },
         {
             "subject": "PHZ",
-            "code": "3308",
-            "name": "Applied Nuclear Physics",
-            "units": "3.00",
-            "description": "An introduction to nuclear structure, radioactivity, nuclear reactions, radiation detection, interactions of radiation with matter, biological effects, and the application of nuclear physics."
-        },
-        {
-            "subject": "PHZ",
             "code": "3361",
             "name": "Radiation Detection",
             "units": "3.00",
@@ -24682,13 +24920,6 @@
             "name": "Intro To Biophysics",
             "units": "3.00",
             "description": "Physical investigation of biological molecules with special reference to structure and function of protein, biomembranes and visual receptors."
-        },
-        {
-            "subject": "PHZ",
-            "code": "4731",
-            "name": "Intro Health Physics",
-            "units": "3.00",
-            "description": "An introduction to health physics. Topics include the biological effects of radiation exposure, environmental and personnel monitoring, dosimetry and dose calculations, and governmental regulations."
         },
         {
             "subject": "PHZ",
@@ -24937,6 +25168,13 @@
         },
         {
             "subject": "POS",
+            "code": "6937",
+            "name": "Seminar: Politics",
+            "units": "0.00",
+            "description": "Subject matter varies according to instructor."
+        },
+        {
+            "subject": "POS",
             "code": "6976",
             "name": "Research Seminar",
             "units": "3.00",
@@ -25028,10 +25266,10 @@
         },
         {
             "subject": "POW",
-            "code": "3284",
-            "name": "Braz Short Story",
+            "code": "4390",
+            "name": "Brazilian Cinema",
             "units": "3.00",
-            "description": "Short stories by major Brazilian authors serve to expand students reading ability, help them become familiar with modern Brazilian life, and learn to approach this literacy form critically. Prerequisites: At least three semesters study of the language or permission of the instructor."
+            "description": "An examination of Brazilian films and culture from Cinema Novo to the present. Focuses on the northeast, urban society, magic and the Amazon. Taught in Portuguese."
         },
         {
             "subject": "PPE",
@@ -28304,17 +28542,17 @@
         },
         {
             "subject": "TCN",
-            "code": "6270",
-            "name": "Mble & Wrlss Netwks",
-            "units": "3.00",
-            "description": "Techniques in the design and operation of wireless networks; LANs, MANs, and WANs; analytical models; application of traffic and mobility models; mobility control, and wireless ATM."
-        },
-        {
-            "subject": "TCN",
             "code": "6275",
             "name": "Mobile Computing",
             "units": "3.00",
             "description": "Enabling technologies and impediments of mobile computing.  It includes mobile architectural design, mobile-aware and transparent adaptation, mobile data access and file systems, and ad-hoc networks."
+        },
+        {
+            "subject": "TCN",
+            "code": "6276",
+            "name": "Ant Wir Bod Cen Com",
+            "units": "3.00",
+            "description": "Advanced antenna theory, simulation, and design as applied to wireless communications, advanced state-of-the art antenna systems, and body-centric wireless communications."
         },
         {
             "subject": "TCN",
