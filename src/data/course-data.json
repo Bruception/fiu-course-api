@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1648343496,
+    "dataAsOf": 1648948446,
     "data": [
         {
             "subject": "ACG",
@@ -5351,6 +5351,13 @@
         },
         {
             "subject": "CIS",
+            "code": "4731",
+            "name": "Fundamentals BlkChn Tec",
+            "units": "3.00",
+            "description": "Introduction to blockchain key concepts such as proof-of-work, mining, distributed consensus, and its applications including cryptocurrencies, smart contracts, and supply chain monitoring. Prerequisite: COP 3530"
+        },
+        {
+            "subject": "CIS",
             "code": "4911",
             "name": "Senior Project",
             "units": "3.00",
@@ -6233,6 +6240,13 @@
         },
         {
             "subject": "COP",
+            "code": "5621",
+            "name": "Compiler Construct",
+            "units": "3.00",
+            "description": "Basic techniques of compilation; scanning; grammars and LL and LR parsing, code generation; symbol table management; optimization. Prerequisites: MAD 3512 and CEN 4010."
+        },
+        {
+            "subject": "COP",
             "code": "5725",
             "name": "Principles of DBMS",
             "units": "3.00",
@@ -6408,10 +6422,24 @@
         },
         {
             "subject": "CPO",
+            "code": "4333",
+            "name": "Pol Central America",
+            "units": "3.00",
+            "description": "This course analyzes the historical and contemporary political dynamics of the five countries of Central America. Special attention is given to problems of development and modernization within the context of the region's economic dependence on the United States. Special attention is given to the problem of political restraints on the modernization process and to those regional arrangements which have been created to solve the area's problems. The student will develop a better understanding of a region which has close ties to the United States."
+        },
+        {
+            "subject": "CPO",
             "code": "4360",
             "name": "Cuban Politics",
             "units": "3.00",
             "description": "Examines the course of twentieth century Cuban politics. The course is sub-divided into five parts covering the three periods of relatively stable politics and the two major revolutions."
+        },
+        {
+            "subject": "CPO",
+            "code": "4401",
+            "name": "Arab-Israeli Confl.",
+            "units": "3.00",
+            "description": "This course provides the student with an introduction to the political roots of the Middle East conflict, and examines the dilemmas of finding a solution by focusing on the domestic and international constraints imposed upon the major actors."
         },
         {
             "subject": "CPO",
@@ -6653,10 +6681,10 @@
         },
         {
             "subject": "DAA",
-            "code": "1100",
-            "name": "Modern Dance Tech I",
+            "code": "1200",
+            "name": "Ballet I",
             "units": "3.00",
-            "description": "Development of techniques and understanding of the art of contemporary dance includes theoretical component of studies in dance science or history. May be repeated."
+            "description": "Development of techniques and understanding of ballet, includes theoretical component of studies in dance science or history. May be repeated."
         },
         {
             "subject": "DAA",
@@ -7175,13 +7203,6 @@
             "name": "Intermed Microecon",
             "units": "3.00",
             "description": "Analysis of markets, theory of firm, demand and production theories, general equilibrium, and welfare economics. Prerequisites: ECO2023 and (MAC 2311 or MAC 2233)"
-        },
-        {
-            "subject": "ECO",
-            "code": "3202",
-            "name": "Applied Macroeconomi",
-            "units": "3.00",
-            "description": "Aggregate economic performance and business conditions analysis, nature and causes of economic expansions and recessions, inflation, balance of trade, balance of payments, and exchange rate problems, fiscal and monetary policies, short-run instability and long-run growth. Cannot be taken for credit concurrently with, or after taking ECO 3203."
         },
         {
             "subject": "ECO",
@@ -8074,17 +8095,17 @@
         },
         {
             "subject": "EDH",
+            "code": "6637",
+            "name": "Crisis Mgmt Higher Ed",
+            "units": "3.00",
+            "description": "This course studies the theories and practical approaches to managing crises in institutions of higher education. Students learn how institutions plan for crises and respond to crises effectively."
+        },
+        {
+            "subject": "EDH",
             "code": "6905",
             "name": "Dir Stud Higher Ed",
             "units": "0.00",
             "description": "Specialized intensive study in higher education and/or community college is in areas of interest to the student and is subject to approval of program advisor. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "EDH",
-            "code": "6935",
-            "name": "Special Top in Higher Ed",
-            "units": "3.00",
-            "description": "This course provides for the examination of a particular academic topic of interest to students in higher education."
         },
         {
             "subject": "EDH",
@@ -8851,6 +8872,13 @@
         },
         {
             "subject": "EEL",
+            "code": "5275",
+            "name": "Power Sys Protect",
+            "units": "3.00",
+            "description": "Analysis of power systems under faulted conditions using linear transformation. The study of surge, transient and waves on power lines. Computer-aided analysis and design emphasizing protection of equipment."
+        },
+        {
+            "subject": "EEL",
             "code": "5278",
             "name": "SG Cyber and IEDs",
             "units": "3.00",
@@ -9198,6 +9226,13 @@
             "name": "Student Teaching",
             "units": "12.00",
             "description": "Culminating internship experience for special education majors. Students will assume all responsibilities in classroom and all FEAP and ESE competencies learned in program will be demonstrated. Prerequisite: Student must be program admitted into a School of Education Initial Teacher Education Program prior to registering for this course."
+        },
+        {
+            "subject": "EEX",
+            "code": "4905",
+            "name": "Dir Stud Spec Ed",
+            "units": "0.00",
+            "description": "Concepts or competencies contracted between an undergraduate student and faculty member in accordance with the student's individual needs."
         },
         {
             "subject": "EEX",
@@ -10489,6 +10524,13 @@
         },
         {
             "subject": "ENL",
+            "code": "4930",
+            "name": "Spec Topics Eng Lit",
+            "units": "3.00",
+            "description": "An examination of the different aspects of English literature. May be repeated with change of content."
+        },
+        {
+            "subject": "ENL",
             "code": "5220",
             "name": "Major Brit Lit Fig",
             "units": "3.00",
@@ -11525,6 +11567,13 @@
         },
         {
             "subject": "FIN",
+            "code": "4941",
+            "name": "Fin Internship",
+            "units": "1.00",
+            "description": "Part-time supervised work in a selected bank or other organization in the area of finance."
+        },
+        {
+            "subject": "FIN",
             "code": "6943",
             "name": "Fin Internship",
             "units": "0.00",
@@ -11714,6 +11763,27 @@
         },
         {
             "subject": "FRE",
+            "code": "2270",
+            "name": "Foreign Study",
+            "units": "1.00",
+            "description": "Intermediate level. One semester full-time credit for foreign residence and study. Individual cases will be evaluated for approval."
+        },
+        {
+            "subject": "FRE",
+            "code": "3410",
+            "name": "Adv French Conv",
+            "units": "3.00",
+            "description": "To develop oral proficiency skills and a greater awareness of French culture."
+        },
+        {
+            "subject": "FRE",
+            "code": "3413",
+            "name": "Communication Arts",
+            "units": "3.00",
+            "description": "Develop communicative competence through intensive oral class work. Emphasis on ability to express ideas and appreciation of multiple aspects of French culture."
+        },
+        {
+            "subject": "FRE",
             "code": "3420",
             "name": "Rev Gram/Writing I",
             "units": "3.00",
@@ -11742,10 +11812,24 @@
         },
         {
             "subject": "FRE",
+            "code": "3990",
+            "name": "Francophone Business",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "FRE",
             "code": "4390",
             "name": "Francophone Cinema",
             "units": "3.00",
             "description": "Introduces to Francophone cinema. While comparing movies from France and Francophone world, students explore various issues such as language, race, and postcolonial politics."
+        },
+        {
+            "subject": "FRE",
+            "code": "4470",
+            "name": "Foreign Study",
+            "units": "0.00",
+            "description": "Full-semester credit for foreign residence and study/work. (Approval of Department required.)"
         },
         {
             "subject": "FRE",
@@ -12659,6 +12743,13 @@
         },
         {
             "subject": "HFT",
+            "code": "3006",
+            "name": "El &Soft Skills for Hosp.",
+            "units": "3.00",
+            "description": "This course will help students develop character traits and interpersonal skills associated with high emotional intelligence to improve work relationships with others."
+        },
+        {
+            "subject": "HFT",
             "code": "3023C",
             "name": "Coffee & Tea",
             "units": "3.00",
@@ -12771,6 +12862,13 @@
         },
         {
             "subject": "HFT",
+            "code": "3651",
+            "name": "Residential Hospitality",
+            "units": "3.00",
+            "description": "Residential Hospitality including management of Hi-Rise Condominiums (condos), Master Associations, and Home Owners Associations (HOA's) includes administration, operations, legal, financial aspects."
+        },
+        {
+            "subject": "HFT",
             "code": "3701",
             "name": "Sus Tourism Pract",
             "units": "3.00",
@@ -12803,6 +12901,13 @@
             "name": "Travel Tourism Syst",
             "units": "3.00",
             "description": "The course provides a foundation for the concept of travel and tourism as a system. Study of the importance of interrelated activities of the components integral to international and domestic travel and tourism: destination planning and development."
+        },
+        {
+            "subject": "HFT",
+            "code": "3733",
+            "name": "Tour Production",
+            "units": "3.00",
+            "description": "Comprehensive study of group and wholesale tour operations. Includes design, supplier negotiations and pricing aspects of tours. Examines marketing, sales and promotional techniques of the tour product."
         },
         {
             "subject": "HFT",
@@ -15158,13 +15263,6 @@
         },
         {
             "subject": "ISS",
-            "code": "4364",
-            "name": "Structure Analytic Method",
-            "units": "3.00",
-            "description": "An introduction to structured analytical methods and the application of those methods to contemporary cases."
-        },
-        {
-            "subject": "ISS",
             "code": "4385",
             "name": "Effective Govt Communication",
             "units": "3.00",
@@ -15316,13 +15414,6 @@
             "name": "Int Journalism Newsroom",
             "units": "3.00",
             "description": "Students will conceptualize and produce a digital publication, including layout, photography, video, audio and data visualization. Prerequisites:  MMC 3003, RTV 3531, JOU 3117, (DIG 4293 or VIC 4001), JOU 3300, (JOU 4108 or VIC 4001), 2.85 cumulative GPA"
-        },
-        {
-            "subject": "JOU",
-            "code": "4951",
-            "name": "Spanish Media Writing",
-            "units": "3.00",
-            "description": "This course will guide students in the methods and styles of reporting and writing in Spanish for digital and broadcast Hispanic media. It will prepare students to write and produce SFMN news stories. Prerequisite: MMC 3123"
         },
         {
             "subject": "JOU",
@@ -17174,6 +17265,13 @@
         },
         {
             "subject": "MAC",
+            "code": "1000",
+            "name": "College Algebra Stretch",
+            "units": "0.00",
+            "description": "Develops deeper problem-solving and algebraic skills of college algebra. Students can repeat this course. Prerequisite: Consent of the department."
+        },
+        {
+            "subject": "MAC",
             "code": "1105",
             "name": "College Algebra",
             "units": "3.00",
@@ -17199,6 +17297,20 @@
             "name": "PreCal Alg and Trig",
             "units": "4.00",
             "description": "Polynomials, Rational, Exponential and Logarithmic Functions, Trigonometry, Conic Sections, Cramer's Rule, Sequences and Series, Induction, Binomial theorem. Student cannot receive credit for both this course and MAC 1140 and/or MAC 1114."
+        },
+        {
+            "subject": "MAC",
+            "code": "1907",
+            "name": "Pre-Calculus Stretch",
+            "units": "0.00",
+            "description": "Version of MAC 1147 for continuing students with an unfinished grade. Develops deeper problem solving skills of the concepts of precalculus. Course can be repeated. Prerequisite: Consent of the Department"
+        },
+        {
+            "subject": "MAC",
+            "code": "2005",
+            "name": "Calculus 2 Stretch",
+            "units": "0.00",
+            "description": "This will be a section of Calculus 2 for students with an unfinished grade. It helps students learn techniques and applications of integration and infinite series, and apply them to their major. Prerequisite: Consent of the department."
         },
         {
             "subject": "MAC",
@@ -18287,10 +18399,24 @@
         },
         {
             "subject": "MDE",
+            "code": "7340",
+            "name": "Intensive Care Unit Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to prepare students to obtain necessary diagnostic and therapeutic skills to effectively care for patients diagnosed with critical medical disorders. Students work under direct the supervision of the ICU attending physician or as a member of a teaching team under the supervision of the attending physician, pulmonary/critical care fellow, and IM residents. Students assist in the admission, evaluation, and management of patients admitted\nto the Medical Intensive Care Unit..  Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7350",
             "name": "Nephrology Elective",
             "units": "1.00",
             "description": "This 2 week or 4 week elective offers students the opportunity to learn about the diseases of the kidney and become more skilled in their management. Students will participate in the care of patients with medical renal disease that are seen in the office and also on the renal inpatient consult service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7404",
+            "name": "Pediatric Ambulatory Services",
+            "units": "1.00",
+            "description": "The student, under direct physician supervision, will participate in the diagnosis and treatment plan for emergency and outpatient cases. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18354,6 +18480,13 @@
             "name": "Urology Elective",
             "units": "1.00",
             "description": "In this rotation, the student will acquire knowledge of Urology and urologic anatomy; develop an understanding of and ability to perform a urologic history and physical exam; interview and present patients; develop an understanding of emergent urologic issues as well as common urologic issues with an emphasis on the acute scrotum, urinary tract infections, urinary stones, incontinence, benign prostatic hyperplasia, erectile dysfunction, hematuria and prostate cancer/PSA testing by both didactic and practice based learning; develop an understanding of a spectrum of urologic procedures/surgeries, including foley catherization, cystoscopy, and transrectal ultrasound and prostate biopsy by observation and participation; develop an understanding of peri-operative urologic issues both urologic and non-urologic patients via inpatient encounters; and develop an understanding of the role of a Urologist in the care of both male and female patients and when an appropriate referral should be made (emergent or routine). The student will function as a supervised member of the urologic team, interacting with faculty and resident staff and participating in urologic clinics and in the operating room. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7682",
+            "name": "Trauma Surgery Elective",
+            "units": "1.00",
+            "description": "This elective provides the 4th year medical student experience in the evaluation and treatment of the patient with severe trauma. The student will be initially involved in the assessment and stabilization of the patient in the Trauma Room in the ER and will then be involved in the preoperative management, intraoperative treatment and postoperative recovery of the patient. Students will be exposed to emergency interpretation of imaging and diagnostic studies, ventilatory management, invasive monitoring procedures and interventional procedures such as chest tube insertion, thoracentesis and paracentesis. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18592,6 +18725,20 @@
             "name": "Ph.D. Dissertation",
             "units": "1.00",
             "description": "Continuing graduate-level research under the supervision of the student's advisor doctoral committee. Writing, revision, defense, and completion of a doctoral dissertation. Prerequisites: Graduate standing in Geosciences and satisfactory progress toward the doctoral degree."
+        },
+        {
+            "subject": "MGF",
+            "code": "1000",
+            "name": "Finite Math Stretch",
+            "units": "0.00",
+            "description": "This will be a section for students in MGF 1106 with an unfinished grade. Helps students develop better understanding of topics such as probability and logic and apply it in their major. Prerequisite: Consent of the department."
+        },
+        {
+            "subject": "MGF",
+            "code": "1001",
+            "name": "Social Choice Stretch",
+            "units": "0.00",
+            "description": "This course will help students develop a deeper understanding on how mathematics is used in our social life and help them make better financial decisions. Prerequisite: Consent of the department."
         },
         {
             "subject": "MGF",
@@ -18858,6 +19005,13 @@
             "name": "Media Mgt and Entrep",
             "units": "3.00",
             "description": "Introduction to the basic functions of media management with an emphasis on television and new media in a global marketplace; provides an understanding of business models and decision-making processes."
+        },
+        {
+            "subject": "MMC",
+            "code": "6412",
+            "name": "Applied Media Comm Skills",
+            "units": "3.00",
+            "description": "This advanced skills course covers a broad range of written, interpersonal, social media, presentation, and team communication skills for the advertising, marketing and public relations professions."
         },
         {
             "subject": "MMC",
@@ -23516,13 +23670,6 @@
         },
         {
             "subject": "PHC",
-            "code": "6055",
-            "name": "Data Mgmt Analysis",
-            "units": "3.00",
-            "description": "Covers practical issues related to the management, security, and analysis of epidemiologic data by creating, managing, and analyzing an epidemiologic database using statistical software packages. Prerequisite: PHC 6052, or permission of the instructor."
-        },
-        {
-            "subject": "PHC",
             "code": "6056",
             "name": "Long Hlt Data Analy",
             "units": "3.00",
@@ -23565,6 +23712,13 @@
         },
         {
             "subject": "PHC",
+            "code": "6084",
+            "name": "Intro Bayesian Inference",
+            "units": "3.00",
+            "description": "This course will introduce students to probabilistic statistical inference using the Bayesian approach, as well as equip students to perform basic computing within the Bayesian statistical framework. Prerequisite: PHC 6052 and PHC 6091"
+        },
+        {
+            "subject": "PHC",
             "code": "6091",
             "name": "Biostatistics 2",
             "units": "3.00",
@@ -23583,13 +23737,6 @@
             "name": "PH Management and Leadershp",
             "units": "3.00",
             "description": "This course integrates theory with practice by examining management, leadership and organizational behavior in public health organizations."
-        },
-        {
-            "subject": "PHC",
-            "code": "6113",
-            "name": "Comm. Health Promo.",
-            "units": "3.00",
-            "description": "This course allows students to develop and apply the research principles necessary for needs assessments, planning, implementation, and evaluation of health promotion programs for diverse populations. Prerequisite: PHC 6410"
         },
         {
             "subject": "PHC",
@@ -23838,6 +23985,13 @@
         },
         {
             "subject": "PHC",
+            "code": "6701",
+            "name": "Advanced R Computing",
+            "units": "3.00",
+            "description": "This course will introduce writing statistical computing and data science code in R covering data structures, graphics, reports, functions and scripts for analysis pipelines. Prerequisite: PHC 6099 or equivalent computational statistics course (with instructor permission)."
+        },
+        {
+            "subject": "PHC",
             "code": "6703",
             "name": "Epi Methods Exp Design",
             "units": "3.00",
@@ -23908,6 +24062,13 @@
         },
         {
             "subject": "PHC",
+            "code": "6931",
+            "name": "Sp Top Biostatistics",
+            "units": "1.00",
+            "description": "This is a series of 1-3 credit hour offerings, on topics of considerable interest to advanced masters and doctoral students in public health, not limited to statistical methods. Prerequisites: PHC 6052, PHC 6091, or permission of the instructor."
+        },
+        {
+            "subject": "PHC",
             "code": "6945",
             "name": "Practicum in Pub Health",
             "units": "3.00",
@@ -23940,6 +24101,20 @@
             "name": "Adv Epi Health Disparity",
             "units": "3.00",
             "description": "Provides advanced understanding of health disparity - disparity indicators, complex measurement methods and applications, theoretical frameworks, and analysis and evaluation of programs/policy."
+        },
+        {
+            "subject": "PHC",
+            "code": "7050",
+            "name": "Adv Biostat I",
+            "units": "3.00",
+            "description": "Introduction to mathematical expectation of random variables, probability distributions, moment generating functions, sampling, covariance and correlation, point estimation of distribution parameters.. Admission to the PhD program in Biostatistics, or satisfactory completion of the following undergraduate courses or their equivalents: MAC 2311-2313, MAS 3105, STA 3111-3112, STA 3163-3164, MAA 3200, STA 4321-4322, MAA 4211-4212."
+        },
+        {
+            "subject": "PHC",
+            "code": "7054",
+            "name": "Adv Biostat III",
+            "units": "3.00",
+            "description": "Generalized linear model and estimating equation approaches for non-linear public health data. Held in the Public Health Informatics Laboratory utilizing various statistical software."
         },
         {
             "subject": "PHC",
@@ -24087,13 +24262,6 @@
             "name": "Early Mdrn Philsophy",
             "units": "3.00",
             "description": "The basic concerns and teachings of representative philosophers and schools of thought in the period from the Renaissance to Kant and the linkages to their past and future are emphasized in this course."
-        },
-        {
-            "subject": "PHH",
-            "code": "3440",
-            "name": "Late Modern Philospy",
-            "units": "3.00",
-            "description": "The basic concerns and teachings of representative 19th century German thinkers (esp. Kant, Hegel, Schopenhauer, Marx, and Nietzsche) are emphasized.."
         },
         {
             "subject": "PHH",
@@ -25364,13 +25532,6 @@
         },
         {
             "subject": "PSB",
-            "code": "4434",
-            "name": "Psychopharm",
-            "units": "3.00",
-            "description": "Issues related to neurochemical interactions in the brain and how drugs affect behavior, mood, and thought processes. Discussions on addiction and current research and therapies for addiction. Prerequisite: PSB 3007."
-        },
-        {
-            "subject": "PSB",
             "code": "6351",
             "name": "Cog Neuro Methods II",
             "units": "3.00",
@@ -25599,6 +25760,13 @@
             "name": "Digital Editing and Design",
             "units": "3.00",
             "description": "Understanding the visual theories behind the design, editing and production of materials for print, broadcast and multimedia. Special attention given to digital pre-production and software skills. Prerequisites: MMC 3123 or COM 3714, ADV 3008 or PUR 3000, VIC 3400, MMC 3003 or PUR 1951. (Supplies fee assessed)"
+        },
+        {
+            "subject": "PUR",
+            "code": "4106",
+            "name": "Advanced PR Writing",
+            "units": "3.00",
+            "description": "Emphasis on the strategic aspects of public relations writing and preparation of more complex vehicles, such as annual reports, policy speeches, position papers, and complex press releases/press kits. Prerequisites: PUR 4100 (Supplies fee assessed)"
         },
         {
             "subject": "PUR",
@@ -27478,6 +27646,13 @@
         },
         {
             "subject": "SPN",
+            "code": "2270",
+            "name": "Foreign Study",
+            "units": "6.00",
+            "description": "Intermediate level. One semester full-time credit for foreign residence and study. Individual cases will be evaluated for approval."
+        },
+        {
+            "subject": "SPN",
             "code": "2340",
             "name": "Interm Sp Herit Spks",
             "units": "3.00",
@@ -28077,6 +28252,13 @@
             "name": "Adv Stat Qual Cntrl",
             "units": "3.00",
             "description": "Review of statistical methods useful in quality improvement. Statistical process control. Taguchi's and Deming's philosophies. Control charts. Process capability analysis. Acceptance sampling plans. Prerequisites: STA 3033 or STA 3163 or STA 4321 or equivalent."
+        },
+        {
+            "subject": "STA",
+            "code": "5906",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Individual conferences, assigned reading, and reports on independent investigation."
         },
         {
             "subject": "STA",
