@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1648948446,
+    "dataAsOf": 1649553245,
     "data": [
         {
             "subject": "ACG",
@@ -1323,6 +1323,13 @@
             "name": "Methodology",
             "units": "3.00",
             "description": "To introduce art history majors to the variety of methods scholars have adopted and developed for conveying their perspectives on art history, including aesthetics and art theory. Prerequisites: ARH 2000, ARH 2050, and ARH 2051."
+        },
+        {
+            "subject": "ARH",
+            "code": "3930",
+            "name": "Special Topics",
+            "units": "3.00",
+            "description": "Rotating special topics in art history. May be repeated with change of content."
         },
         {
             "subject": "ARH",
@@ -3762,6 +3769,13 @@
         },
         {
             "subject": "BSC",
+            "code": "6457",
+            "name": "Intro Bio Research",
+            "units": "3.00",
+            "description": "Analysis of existing biological data and experimental design. Prerequisite: Graduate status."
+        },
+        {
+            "subject": "BSC",
             "code": "6913",
             "name": "Student Research Lab",
             "units": "0.00",
@@ -5680,13 +5694,6 @@
         },
         {
             "subject": "CLP",
-            "code": "6426",
-            "name": "Neuropsychology",
-            "units": "3.00",
-            "description": "Introduces students to basic foundations and some advanced concepts in Neuropsychology, with a focus on clinical applications. Topics covered will include functional neuroanatomy, brain disorders across the lifespan, and assessment of neuropsychological functions. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "CLP",
             "code": "6432",
             "name": "Foundation Practicum I",
             "units": "3.00",
@@ -6678,6 +6685,13 @@
             "name": "Intro Commun Psy",
             "units": "3.00",
             "description": "An introduction to the issues and scope of Community Psychology. Students will be exposed to the development of Community Psychology as a growing discipline. Particular emphasis will be placed on the role of the community psychologist as an agent of social change."
+        },
+        {
+            "subject": "DAA",
+            "code": "1100",
+            "name": "Modern Dance Tech I",
+            "units": "3.00",
+            "description": "Development of techniques and understanding of the art of contemporary dance includes theoretical component of studies in dance science or history. May be repeated."
         },
         {
             "subject": "DAA",
@@ -7899,6 +7913,13 @@
         },
         {
             "subject": "EDF",
+            "code": "7656",
+            "name": "Comp Int'l Ed Pol",
+            "units": "3.00",
+            "description": "Advanced seminar in which students explore issues and debates related to national and international educational policies, and engage in applications of education policy comparisons."
+        },
+        {
+            "subject": "EDF",
             "code": "7931",
             "name": "Spec Top in Qual Res",
             "units": "3.00",
@@ -8477,6 +8498,13 @@
             "name": "Random Signal Princ",
             "units": "3.00",
             "description": "Noise, random processes, correlation, spectral analysis in the analysis and design of communication systems. Optimization techniques; minimum mean square error. Prerequisite: EEL 3514."
+        },
+        {
+            "subject": "EEE",
+            "code": "5557",
+            "name": "Radar Prin",
+            "units": "3.00",
+            "description": "Radar Range Equation, Noise and clutter detection, Target Reflectivity, Radar Transceiver Design, Monopulsing, Waveforms and Pulse Compression, Radar Detection, Doppler Phenomenology, CFAR. Prerequisites: EEL 5467, EEL 5426 or instructor permission"
         },
         {
             "subject": "EEE",
@@ -9093,6 +9121,13 @@
             "name": "Pattern Recognition",
             "units": "3.00",
             "description": "Pattern recognition techniques via computer: decision functions, optimum decision criteria, training algorithms, unsupervised learning, feature extraction, data reduction, machine intelligence.  Prerequisites: EEE 5543 or permission of Instructor."
+        },
+        {
+            "subject": "EEL",
+            "code": "6836",
+            "name": "Comp Vis Brain Elec",
+            "units": "3.00",
+            "description": "Computer techniques for the visualization of brain electrical activity.  Analysis of the origin of this activity as it relates to its measurement and visualization through computerized systems.  Prerequisites: EEE 4510 or permission of instructor."
         },
         {
             "subject": "EEL",
@@ -11182,6 +11217,13 @@
         },
         {
             "subject": "EVR",
+            "code": "5069",
+            "name": "Wetland Ecol and Management",
+            "units": "3.00",
+            "description": "Principles of ecology and management as applied to freshwater and estuarine wetlands. Prerequisites: Undergraduate degree in science, or PCB 3043, or permission of the instructor."
+        },
+        {
+            "subject": "EVR",
             "code": "5219",
             "name": "Water Resour Assess",
             "units": "3.00",
@@ -11354,6 +11396,13 @@
             "name": "Disaster Mnmgt Ind Study",
             "units": "3.00",
             "description": "Independent Study course permits a student to pursue a research project or guided readings in a subject area not substantially covered in the curriculum. Prerequisite: Permission of instructor and department director"
+        },
+        {
+            "subject": "FES",
+            "code": "4930",
+            "name": "Special Topics in DM",
+            "units": "3.00",
+            "description": "This course involves material of timely special or unique interest not contained in the regular course offerings within the department. Prerequisite: Permission of instructor and department director."
         },
         {
             "subject": "FES",
@@ -11634,6 +11683,13 @@
             "name": "Ph.D. Dissertation",
             "units": "0.00",
             "description": "Original research that is supervised by a faculty committee and defended openly before the university committee.  Prerequisites: Permission of Major Professor and Doctoral Candidacy."
+        },
+        {
+            "subject": "FIN",
+            "code": "7981",
+            "name": "Fin Dissert Prep",
+            "units": "3.00",
+            "description": "Preparatory background research and study to begin development of dissertation proposal.  Students should be able to complete proposal by the end of the course. Prerequisites: Completion of TIER 1 courses. (on demand)"
         },
         {
             "subject": "FLE",
@@ -14731,13 +14787,6 @@
         },
         {
             "subject": "INR",
-            "code": "4093",
-            "name": "Postcolonialism in IR",
-            "units": "3.00",
-            "description": "Introduces students to the practice and ideology of colonialism, its global repercussions to the present day, as well as postcolonial thinking and political projects."
-        },
-        {
-            "subject": "INR",
             "code": "4210",
             "name": "INR Scandinavia & Arctic",
             "units": "3.00",
@@ -16331,6 +16380,13 @@
             "name": "Education Law",
             "units": "2.00",
             "description": "The course focuses on educational policy and the intersection of public schools and the law.  The course covers topics such as school desegregation, compulsory school attendance laws, curriculum content, the First Amendment in schools (flag salutes, school prayer, government aid to parochial schools), school financing, voucher plans, community control of schools, bilingual education, and issues surrounding single-sex schools."
+        },
+        {
+            "subject": "LAW",
+            "code": "6591",
+            "name": "Family Ed Rights",
+            "units": "3.00",
+            "description": "The Family Education Rights and Privacy Act is a federal law that protects the privacy of student records of any educational institution that receives federal Department of Education funds. FERPA prohibits the federal funding of institutions that release education records without the consent of parents or eligible students. FERPA compliance is complex, because the law contains numerous exceptions applicable to certain individuals and to different situation, as well as several gray areas. The course explores these complexities and the difficulties of compliance in detail."
         },
         {
             "subject": "LAW",
@@ -20072,7 +20128,21 @@
         },
         {
             "subject": "MUO",
+            "code": "1501",
+            "name": "Opera Workshop",
+            "units": "1.00",
+            "description": "The presentation and performance of music literature indigenous to the opera stage. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MUO",
             "code": "4502",
+            "name": "Opera Workshop",
+            "units": "1.00",
+            "description": "The presentation and performance of music literature indigenous to the opera stage. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MUO",
+            "code": "5505",
             "name": "Opera Workshop",
             "units": "1.00",
             "description": "The presentation and performance of music literature indigenous to the opera stage. Prerequisite: Permission of the instructor."
@@ -20265,6 +20335,13 @@
             "name": "Jazz Improv II",
             "units": "2.00",
             "description": "A follow-up course that both reinforces and extends all materials learned in Jazz Improvisation I. Course stresses more complex chord structures, scales, and tunes. A concert will be held at conclusion of the term."
+        },
+        {
+            "subject": "MUT",
+            "code": "3170C",
+            "name": "Jazz Theory I",
+            "units": "3.00",
+            "description": "This 3-credit course is designed to streamline the jazz curriculum by replacing 'Jazz Eartraining', 'Introduction to Jazz Studies', and 'Jazz Styles and Analysis'. It is a required course for all jazz performance majors."
         },
         {
             "subject": "MUT",
@@ -20622,6 +20699,13 @@
             "name": "Prin App Jazz Bass",
             "units": "2.00",
             "description": "Individual instruction in applied jazz music on bass."
+        },
+        {
+            "subject": "MVJ",
+            "code": "3337",
+            "name": "Prin App Jazz Trump",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz trumpet at a principal level."
         },
         {
             "subject": "MVJ",
@@ -22921,6 +23005,13 @@
         },
         {
             "subject": "PAS",
+            "code": "6005",
+            "name": "Human Behavior",
+            "units": "2.00",
+            "description": "This is an integrated primary core course, foundational to the principles of human behavior and psychiatry. It will involve an intensive study of the clinical presentation, pathophysiology, and recognition of various diseases and anomalies in the population. The contextual approach to these disciplines will include the interrelationship or prior and current learning incorporating the basic sciences, anatomy and physiology, ancillary diagnostics and medical term. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6011",
             "name": "Clinical Med I",
             "units": "3.00",
@@ -22963,6 +23054,20 @@
         },
         {
             "subject": "PAS",
+            "code": "6018",
+            "name": "Integ Clin Concepts III",
+            "units": "2.00",
+            "description": "This is the final course in a series of three didactic year courses that provide students the opportunity to translate knowledge gained in concurrent didactic curriculum courses to clinical problems and clinical decision making. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6022",
+            "name": "Gross Anatomy",
+            "units": "4.00",
+            "description": "Gross Anatomy for Physician Assistant students is a clinically oriented course in which descriptive and surface anatomy are integrated with embryology. Organization of human anatomy is correlated with diagnostic imagine and pathophysiology. The objective is to provide students with a hands-on experience in the study of the human body, an understanding of relevant aspects of human development and its abnormalities. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6023",
             "name": "Pharma Disease Path I",
             "units": "2.00",
@@ -22984,6 +23089,27 @@
         },
         {
             "subject": "PAS",
+            "code": "6032",
+            "name": "Clinical Skills II",
+            "units": "1.00",
+            "description": "This course is the second in a two course sequence designed to provide students with an overview of skills and procedures needed for clinical practice as a PA. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6033",
+            "name": "Clinical Medicine III",
+            "units": "3.00",
+            "description": "This course is a systematic review and discussion of the epidemiology, pathophysiology, clinical manifestations, diagnosis and management of the most common diseases in humans. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6040",
+            "name": "Clinical Assess I",
+            "units": "3.00",
+            "description": "Students are introduced to the sequential process and skills involved in history taking and physical examination techniques. It emphasizes the 'normal' physical exam assessment, and introduces students to assessment techniques for the most common abnormal physical exam findings. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6041",
             "name": "Clinical Assess II",
             "units": "2.00",
@@ -22991,10 +23117,24 @@
         },
         {
             "subject": "PAS",
+            "code": "6050",
+            "name": "Role PA Amer Health Care",
+            "units": "3.00",
+            "description": "The first portion covers major aspects of the US health care system. The aim is to give students a broad foundation of knowledge regarding the basic components of the health system and its issues and trends. The second portion presents the key components of the PA profession and examines the scope and the role of the PA in medical practice. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6090",
             "name": "Cl App Evdnc Bas Pract I",
             "units": "3.00",
             "description": "This course provides an introduction to research design and methods including bio statistical analyses that are most commonly encountered within health research. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6091",
+            "name": "Cl App Evdnc Bad Pract II",
+            "units": "2.00",
+            "description": "Advanced application of research, statistical, and evidence-based medicine concepts presented in Clinical Applications of Evidence-Based Practice II with emphasis on studies assessing therapeutic intervention. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -23009,6 +23149,13 @@
             "name": "Psychiatry Clerkship",
             "units": "3.00",
             "description": "This four week clinical course in a psychiatric care setting will allow students to participate in daily rounds and become knowledgeable of the use of psychotropic medications for psychiatric disorders. Group therapy sessions will be a major part of the learning experience. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6184",
+            "name": "Med Microbio and Inf Diseas",
+            "units": "4.00",
+            "description": "Provides skills to integrate topics in basic microbiology and clinical infectious diseases. Lectures and small group case studies will provide students with an understanding of the basic principles of medical microbiology including microbial pathogenesis and clinical infectious diseases. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -23880,13 +24027,6 @@
         },
         {
             "subject": "PHC",
-            "code": "6422",
-            "name": "Reg. Environ. Healt. Sci",
-            "units": "3.00",
-            "description": "The application of law as it relates to the environment and human health. Legal process and rule-making; cost-benefit analysis; judicial review; evidentiary problems; and other elements of environmental law are emphasized."
-        },
-        {
-            "subject": "PHC",
             "code": "6430C",
             "name": "Public Health Economics",
             "units": "3.00",
@@ -24248,13 +24388,6 @@
             "name": "PH Pre Dissertation Res",
             "units": "1.00",
             "description": "This course is designed to provide Doctoral students with the guidance necessary to prepare for comprehensive examination and dissertation proposal under the guidance of the dissertation chair."
-        },
-        {
-            "subject": "PHH",
-            "code": "3401",
-            "name": "16 & 17 Century Phil",
-            "units": "3.00",
-            "description": "The basic concerns and teachings of representative European philosophers of the 16th and 17th centuries (esp. Hobbes, Descartes, Cavendish, Spinoza, Locke, Leibniz, and Amo) are emphasized."
         },
         {
             "subject": "PHH",
@@ -25259,6 +25392,13 @@
         },
         {
             "subject": "POS",
+            "code": "4905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Designed for advanced students who wish to pursue specialized topics in political science. Arrangements must be made with instructor during the prior semester."
+        },
+        {
+            "subject": "POS",
             "code": "4941",
             "name": "Legis Internship",
             "units": "1.00",
@@ -25270,6 +25410,13 @@
             "name": "Judicial Internship",
             "units": "1.00",
             "description": "Opportunity to gain practical experience by working with a judge, state attorney, public defender, or public interest organization on legal or judicial activities."
+        },
+        {
+            "subject": "POS",
+            "code": "4945",
+            "name": "Executive Intern",
+            "units": "0.00",
+            "description": "Opportunity to gain practical experience by working in the offices of a county manager, mayor, governor or president."
         },
         {
             "subject": "POS",
@@ -27188,6 +27335,13 @@
             "name": "Field Practicum III",
             "units": "6.00",
             "description": "The second advanced field practicum/ integrative seminar which includes licensure prep and capstone, giving students the opportunity to apply and integrate advanced clinical knowledge and skills. Prerequisites:  SOW6533, SOW6435, SOW6125, SOW6236  Corequisite: SOW6351"
+        },
+        {
+            "subject": "SOW",
+            "code": "6655",
+            "name": "Sw Child/Adol Prac",
+            "units": "3.00",
+            "description": "This course will provide students with the opportunity to select, apply and evaluate appropriate interventive strategies in working with children and adolescents. Specific attention to socio-cultural, gender and racial differences in understanding development issues and in critically assessing the applicability of practice theories."
         },
         {
             "subject": "SOW",
