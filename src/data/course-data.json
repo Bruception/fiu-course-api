@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1649553245,
+    "dataAsOf": 1650158151,
     "data": [
         {
             "subject": "ACG",
@@ -91,6 +91,13 @@
             "name": "Independent Study",
             "units": "1.00",
             "description": "Supervised accounting research projects determined by professor and student. May involve conferences, supervised reading and reports. Consent of sponsoring professor and admission to the Ph.D. program."
+        },
+        {
+            "subject": "ACG",
+            "code": "7938",
+            "name": "Special Topics",
+            "units": "3.00",
+            "description": "Topics vary according to instructor and student interest in problems and issues on the frontier issues of accounting. Prerequisite: Permission of doctoral advisor in Accounting."
         },
         {
             "subject": "ACG",
@@ -1543,13 +1550,6 @@
         },
         {
             "subject": "ARH",
-            "code": "5897",
-            "name": "Special Topics",
-            "units": "3.00",
-            "description": "Rotating special topics on the graduate level in art history. May be repeated with change of topic."
-        },
-        {
-            "subject": "ARH",
             "code": "5913",
             "name": "Research",
             "units": "1.00",
@@ -2072,13 +2072,6 @@
             "name": "Prosp & Exhib Prep",
             "units": "3.00",
             "description": "Offers students the opportunity to complete the research and preparation of written components required for graduation, including thesis and artist statement."
-        },
-        {
-            "subject": "ASH",
-            "code": "3223",
-            "name": "Middle East 1800-pres",
-            "units": "3.00",
-            "description": "Examines the major political and social developments in modern Middle Eastern history from 1800 to the present."
         },
         {
             "subject": "ASH",
@@ -5960,6 +5953,13 @@
         },
         {
             "subject": "COM",
+            "code": "3423",
+            "name": "Racism in Comm",
+            "units": "3.00",
+            "description": "This course helps students understanding the differences and 'otherness' of non-dominant groups, and how to critically think about and problem solve issues of race, gender, and class in communication."
+        },
+        {
+            "subject": "COM",
             "code": "3461",
             "name": "Intercultural Comm",
             "units": "3.00",
@@ -7941,10 +7941,24 @@
         },
         {
             "subject": "EDG",
+            "code": "4734",
+            "name": "Ed/Cul Prep for Int Teach",
+            "units": "3.00",
+            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
+        },
+        {
+            "subject": "EDG",
             "code": "4903",
             "name": "Independ Study Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to gain or enhance knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
+        },
+        {
+            "subject": "EDG",
+            "code": "4940",
+            "name": "Inter Teaching Internship",
+            "units": "3.00",
+            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
         },
         {
             "subject": "EDG",
@@ -9040,10 +9054,10 @@
         },
         {
             "subject": "EEL",
-            "code": "6273",
-            "name": "Power Sys Stab Cont",
+            "code": "6267",
+            "name": "Appl Of Is To Pso",
             "units": "3.00",
-            "description": "Direct methods for system stability, computer analysis of large scale models, Lyapunov stability, longer term stability, security analysis, MW-frequency control, isolated and multiple area control."
+            "description": "Power system security assessment using intelligence systems techniques such as pattern recognition, expert systems, and neural networks. Class projects include applying IS to load forecasting, alarm processing. Prerequisites: EEL 4214, EEL 6273."
         },
         {
             "subject": "EEL",
@@ -14353,13 +14367,6 @@
         },
         {
             "subject": "IND",
-            "code": "5445C",
-            "name": "Furn Design",
-            "units": "3.00",
-            "description": "Providing a general overview of furniture design process, this design/build studio course teaches students about ergonomics, scale, space, structure and materiality related to furniture design."
-        },
-        {
-            "subject": "IND",
             "code": "5454L",
             "name": "Adv CDs Lab",
             "units": "2.00",
@@ -15466,6 +15473,13 @@
         },
         {
             "subject": "JOU",
+            "code": "4951",
+            "name": "Spanish Media Writing",
+            "units": "3.00",
+            "description": "This course will guide students in the methods and styles of reporting and writing in Spanish for digital and broadcast Hispanic media. It will prepare students to write and produce SFMN news stories. Prerequisite: MMC 3123"
+        },
+        {
+            "subject": "JOU",
             "code": "5806",
             "name": "Student Media Adv",
             "units": "3.00",
@@ -15995,6 +16009,13 @@
             "name": "Formation Latin Amer",
             "units": "3.00",
             "description": "An examination of Latin America in the colonial period, focusing on conquest, Indian relations, the landed estate, urban functions, labor, and socioeconomic organization from the 15th through the 18th Centuries."
+        },
+        {
+            "subject": "LAH",
+            "code": "4134",
+            "name": "Abuse of Power",
+            "units": "3.00",
+            "description": "Examines practices understood as abuse of political power in colonial Spanish America."
         },
         {
             "subject": "LAH",
@@ -17895,6 +17916,13 @@
         },
         {
             "subject": "MAP",
+            "code": "5620",
+            "name": "Math Primer for Env Fin",
+            "units": "3.00",
+            "description": "This course is an introductory course that presents the mathematical tools necessary for financial instrument, pricing and hedging design. Prerequisite: Working knowledge of Calculus and Basic Statistics and Probability."
+        },
+        {
+            "subject": "MAP",
             "code": "6632",
             "name": "PDE in Risk Mgt",
             "units": "3.00",
@@ -18095,6 +18123,13 @@
             "name": "Customer Relationship Mgmt",
             "units": "3.00",
             "description": "Customer Relationship Management (CRM) is becoming an important strategic tool in consumer goods, firms, financial, health and tourist services, business-to-business firms, and in all of eMarketing."
+        },
+        {
+            "subject": "MAR",
+            "code": "4907",
+            "name": "Indepent Study In Mk",
+            "units": "3.00",
+            "description": "Individual conferences; supervised reading; reports on personal investigations. Consent of faculty supervisor and Department Chairperson required."
         },
         {
             "subject": "MAR",
@@ -19068,6 +19103,13 @@
             "name": "Applied Media Comm Skills",
             "units": "3.00",
             "description": "This advanced skills course covers a broad range of written, interpersonal, social media, presentation, and team communication skills for the advertising, marketing and public relations professions."
+        },
+        {
+            "subject": "MMC",
+            "code": "6736",
+            "name": "SOCMEDCOM",
+            "units": "3.00",
+            "description": "Provide students the tools and strategies needed to find and distribute news on social media, and teach them how to leverage social media attributes to build a brand."
         },
         {
             "subject": "MMC",
@@ -20800,6 +20842,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "4446",
+            "name": "Maj Applied Jazz Sax",
+            "units": "3.00",
+            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz.  Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
             "code": "4971",
             "name": "Senior Rec Jazz",
             "units": "0.00",
@@ -20884,6 +20933,13 @@
         },
         {
             "subject": "MVK",
+            "code": "1411",
+            "name": "Major Applied Piano",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on piano as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVK",
             "code": "2121L",
             "name": "Class Piano III",
             "units": "1.00",
@@ -20947,10 +21003,31 @@
         },
         {
             "subject": "MVK",
+            "code": "3431",
+            "name": "Major Applied Piano",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on piano as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVK",
+            "code": "3970L",
+            "name": "Junior Rec Keyboard",
+            "units": "0.00",
+            "description": "All music performance majors must present, during their junior year, at least one half of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
+        },
+        {
+            "subject": "MVK",
             "code": "4441",
             "name": "Major Applied Piano",
             "units": "3.00",
             "description": "Individual instruction in applied music on piano as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVK",
+            "code": "4640",
+            "name": "Keyboard Pedagogy",
+            "units": "2.00",
+            "description": "survey of current teaching methods and techniques in piano pedagogy. Supervised teaching provides hands-on experience."
         },
         {
             "subject": "MVK",
@@ -20986,6 +21063,13 @@
             "name": "Major Applied Organ",
             "units": "3.00",
             "description": "Individual instruction in applied music on organ as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVK",
+            "code": "5651",
+            "name": "Piano Pedagogy",
+            "units": "2.00",
+            "description": "Survey of current piano teaching methods."
         },
         {
             "subject": "MVP",
@@ -21105,6 +21189,13 @@
             "name": "Prin Applied Violin",
             "units": "2.00",
             "description": "Individual instruction in applied music on violin as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "2324",
+            "name": "Prin App Dble Bass",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -23334,6 +23425,13 @@
         },
         {
             "subject": "PCB",
+            "code": "4452",
+            "name": "Intro Wetland Eco and Managmt",
+            "units": "3.00",
+            "description": "Principles of wetland ecology and their application to management of freshwater and estuarine wetlands."
+        },
+        {
+            "subject": "PCB",
             "code": "4467C",
             "name": "Marine Reserves",
             "units": "4.00",
@@ -23915,13 +24013,6 @@
         },
         {
             "subject": "PHC",
-            "code": "6154C",
-            "name": "Ev Synth Clin and Health",
-            "units": "3.00",
-            "description": "This course covers evidence synthesis applied to decision-making processes in health-policy and clinical settings and describes methods for communicating evidence synthesis to its end-users. Prerequisites: PHC 6000, PHC 6065."
-        },
-        {
-            "subject": "PHC",
             "code": "6155C",
             "name": "Health Policy Analysis",
             "units": "3.00",
@@ -24104,6 +24195,13 @@
         },
         {
             "subject": "PHC",
+            "code": "6580",
+            "name": "Contemp Issues H P",
+            "units": "3.00",
+            "description": "Current problems and findings in health promotion content areas such as smoking, alcohol, and drug misuse, family health, safety, physical fitness, communicable and chronic diseases will be discussed."
+        },
+        {
+            "subject": "PHC",
             "code": "6600",
             "name": "Hlth Pro Theo & Des",
             "units": "3.00",
@@ -24269,6 +24367,13 @@
             "name": "Grant Writing",
             "units": "3.00",
             "description": "Course covers proposal writing political/social aspects of 'grantmanship' identifying sources of grant funding doing research to support the application, and tailoring the proposal to specific audiences."
+        },
+        {
+            "subject": "PHC",
+            "code": "7198",
+            "name": "Adv Qual in PH",
+            "units": "3.00",
+            "description": "Advanced research design, data analysis and writing findings in qualitative research. Prerequisites: PHC 6706, PHC 6715, or equivalent advanced research methods."
         },
         {
             "subject": "PHC",
@@ -24605,13 +24710,6 @@
             "name": "Philo Of Death",
             "units": "3.00",
             "description": "This course analyzes the meaning of death and man's attitude towards death and the dying. It examines how philosophy can share in the new confrontation between man and his death, and shows the ways philosophical thinking contributes to the discovery of an authentic attitude towards the phenomenon of death as part of human living."
-        },
-        {
-            "subject": "PHM",
-            "code": "4123",
-            "name": "Philo & Feminism",
-            "units": "3.00",
-            "description": "Explores central topics in feminist philosophy (the metaphysics of gender, oppression, sexual objectification, intersectionality) and contributions to epistemology, ethics, and aesthetics."
         },
         {
             "subject": "PHM",
@@ -25872,13 +25970,6 @@
             "name": "Public Policy",
             "units": "3.00",
             "description": "An intensive analysis of the normative theories of public policy making, with emphasis on the processes by which policy choices are made and implemented by government agencies. The current trends and perspectives of effective policy development (such as participatory democracy, multi-valued choice, etc.) are examined."
-        },
-        {
-            "subject": "PUP",
-            "code": "6105",
-            "name": "Urban Policy Innovations",
-            "units": "3.00",
-            "description": "Addresses the changing role and function of U.S. metropolitan areas in an age of growing global competition and focuses on key contemporary policy problems facing cities and suburbs."
         },
         {
             "subject": "PUR",
@@ -29568,13 +29659,6 @@
             "name": "British Empire",
             "units": "3.00",
             "description": "Examines the entire history of the British Empire, and explores classical theories on the motivations and goals behind imperial expansion."
-        },
-        {
-            "subject": "WOH",
-            "code": "4431",
-            "name": "Spanish Pacific",
-            "units": "3.00",
-            "description": "Examines the cultural and material interactions between Asia and the New World, and\ntheir impact in the Spanish Pacific and beyond."
         },
         {
             "subject": "WOH",
