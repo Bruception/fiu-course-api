@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1650158151,
+    "dataAsOf": 1650762800,
     "data": [
         {
             "subject": "ACG",
@@ -273,6 +273,13 @@
             "name": "Account Planning",
             "units": "3.00",
             "description": "This course introduces the student to contemporary account planning techniques. It stresses the interrelationship between advertising and the consumer and the role of consumer behavior. Prerequisites: ADV 3200 Corequisite: COM 4310"
+        },
+        {
+            "subject": "ADV",
+            "code": "4711",
+            "name": "Portfolio Workshop",
+            "units": "3.00",
+            "description": "Focus will be directed on building creative portfolio pieces for multiplication campaigns. Prerequisites: ADV 3200"
         },
         {
             "subject": "ADV",
@@ -1550,6 +1557,13 @@
         },
         {
             "subject": "ARH",
+            "code": "5897",
+            "name": "Special Topics",
+            "units": "3.00",
+            "description": "Rotating special topics on the graduate level in art history. May be repeated with change of topic."
+        },
+        {
+            "subject": "ARH",
             "code": "5913",
             "name": "Research",
             "units": "1.00",
@@ -2611,6 +2625,13 @@
             "name": "Prin Contruct Mgt",
             "units": "3.00",
             "description": "Covers the construction industry with emphasis on the principles of construction management."
+        },
+        {
+            "subject": "BCN",
+            "code": "3443",
+            "name": "Intro Concrete Industry",
+            "units": "3.00",
+            "description": "Overview of the history, careers, job functions, and professional organizations in the concrete industry. Topics include: overview of the concrete industry, history, components, production and uses."
         },
         {
             "subject": "BCN",
@@ -3724,6 +3745,13 @@
             "name": "Past Ecosystems",
             "units": "3.00",
             "description": "Analysis of local to global change in environments through time using faunal distributions, biodiversity, biogeography, physical and chemical properties of sediments, and stable isotopes."
+        },
+        {
+            "subject": "BSC",
+            "code": "5406",
+            "name": "Forensic Biology",
+            "units": "3.00",
+            "description": "Forensic applications of molecular biology including PCR, STR techniques and other laboratory methods and data interpretation. Prerequisite: Graduate status."
         },
         {
             "subject": "BSC",
@@ -7941,24 +7969,10 @@
         },
         {
             "subject": "EDG",
-            "code": "4734",
-            "name": "Ed/Cul Prep for Int Teach",
-            "units": "3.00",
-            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
             "code": "4903",
             "name": "Independ Study Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to gain or enhance knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
-        },
-        {
-            "subject": "EDG",
-            "code": "4940",
-            "name": "Inter Teaching Internship",
-            "units": "3.00",
-            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
         },
         {
             "subject": "EDG",
@@ -10472,6 +10486,13 @@
             "name": "Lit Crit & Schol",
             "units": "3.00",
             "description": "Techniques and goals of humanistic research, bibliography, and critical commentary."
+        },
+        {
+            "subject": "ENG",
+            "code": "5026",
+            "name": "Adv Textual Reading",
+            "units": "3.00",
+            "description": "The study of selected texts for interpretation from different critical and theoretical perspectives. May be repeated. Prerequisites: Admission to the graduate program in English or by permission of the instructor."
         },
         {
             "subject": "ENG",
@@ -13408,6 +13429,13 @@
         },
         {
             "subject": "HMG",
+            "code": "5999",
+            "name": "Graduation Preparation",
+            "units": "0.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "HMG",
             "code": "6001",
             "name": "Event Feasibility",
             "units": "3.00",
@@ -14105,13 +14133,6 @@
             "name": "Capstone-DS",
             "units": "1.00",
             "description": "Projects course using Python, SQL, R, and/or other specialized analysis toolkits to synthesize concepts from data analytics and visualization as applied to industry-relevant projects.Prerequisite: CAP 5768"
-        },
-        {
-            "subject": "IDH",
-            "code": "1001",
-            "name": "Honors Seminar I",
-            "units": "3.00",
-            "description": "Focuses on origins and the various interpretations by the different disciplines, including the roles of technology, science, humanities, and social science. Prerequisite: Admission to Honors Program."
         },
         {
             "subject": "IDH",
@@ -15470,13 +15491,6 @@
             "name": "Int Journalism Newsroom",
             "units": "3.00",
             "description": "Students will conceptualize and produce a digital publication, including layout, photography, video, audio and data visualization. Prerequisites:  MMC 3003, RTV 3531, JOU 3117, (DIG 4293 or VIC 4001), JOU 3300, (JOU 4108 or VIC 4001), 2.85 cumulative GPA"
-        },
-        {
-            "subject": "JOU",
-            "code": "4951",
-            "name": "Spanish Media Writing",
-            "units": "3.00",
-            "description": "This course will guide students in the methods and styles of reporting and writing in Spanish for digital and broadcast Hispanic media. It will prepare students to write and produce SFMN news stories. Prerequisite: MMC 3123"
         },
         {
             "subject": "JOU",
@@ -18392,6 +18406,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7061",
+            "name": "Seminar Phys Leadership",
+            "units": "2.00",
+            "description": "This course introduces medical students to the foundations of leadership principles and how they apply to the practice of medicine. The course covers four interrelated topics: 1) foundations of leadership; 2) managing common resources to maximize social welfare; 3) anticipating and responding to change at social, organizational, and individual levels; and 4) paradoxes in leadership in a complex world. Case studies are used to introduce students to critical leadership thinking and problem-based learning. Prerequisite: Enrolled in HWCOM"
+        },
+        {
+            "subject": "MDE",
             "code": "7067",
             "name": "PD and CM Capstone",
             "units": "1.00",
@@ -18413,6 +18434,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7120",
+            "name": "Family Medicine Elective",
+            "units": "1.00",
+            "description": "This intensive ambulatory or inpatient block is particularly suited to students interested in primary care. Students will be assigned to either an inpatient or outpatient Family Medicine experience. Under the supervision of FIU faculty, the student will assume a level of independence appropriate to a fourth year student. For each patient s/he sees, the student will be responsible for the history and physical, writing a note, presenting the case to the supervising faculty member, and putting the agreed-upon management plan into action. Through this process, students will hone their patient communication skills, diagnostic skills and clinical reasoning, development of management plans for common ambulatory or inpatient clinical scenarios, and execution of patient education. Students will attend all departmental rounds and teaching activities, as well as complete any relevant reading assignments. Students will be provided with regular feedback from the supervising physician. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7121",
             "name": "PC Sports Med Elective",
             "units": "1.00",
@@ -18431,6 +18459,13 @@
             "name": "Gyn Oncology Elective",
             "units": "1.00",
             "description": "This four week elective is intended for students who have already completed the basic core clerkship in OB/GYN and are interested in enhancing their exposure to the subspecialty of Gynecologic Oncology. The student will be provided experience in the inpatient and outpatient management of patients with pre-malignant and malignant conditions of the genital tract. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7180",
+            "name": "Pern/Mat Fetal Med Elect",
+            "units": "1.00",
+            "description": "This Period 4 clerkship allows students to experience the full range of maternal-fetal medicine and familiarizes students with the diagnosis and management of pregnant patients who have obstetrical, medical, or surgical complications. Students receive experience in ultrasound, genetics, genetic counseling, and the management of high-risk obstetrical patients. Students follow patients through the\ninpatient antepartum service and participate in the care of high-risk obstetrical patients admitted to the hospital. Attendance at the following conferences is required: FHR tracing and labor management review, high risk obstetrics conference, grand rounds, prenatal - neonatology conference, and journal\nclub. Students are required to take call on the Labor and Delivery Unit one night per week. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18504,6 +18539,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7400",
+            "name": "Pediatric Hospitalist Serv Ele",
+            "units": "1.00",
+            "description": "Medical students will examine patients admitted to the Inpatient Hospitalist Services, write daily entries into the medical record, develop and execute plans for patient care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students, residents, and fellows of the Hospitalist Service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7404",
             "name": "Pediatric Ambulatory Services",
             "units": "1.00",
@@ -18539,6 +18581,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7570",
+            "name": "Orthopedic Surgery Elective",
+            "units": "1.00",
+            "description": "The section of Orthopedics presents to the student a comprehensive outline of the spectrum of orthopedic surgery as practiced in a community hospital. The student is involved in an intensive in-patient experience and has significantly increased responsibility, involving primary workup of new patients and writing orders. The student performs procedures such as evaluating patients, taking an orthopedic history, and performing a physical examination of the musculoskeletal system. The student should improve his or her ability to manage complex patient presentations, including diagnosing and treating common adult orthopedic problems. The student should develop advanced skills in fracture treatment and cast application. He or she should be involved in joint replacement surgery and management of postoperative adult orthopedic patients.Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7580",
             "name": "Physical Med & Rehab Elec",
             "units": "1.00",
@@ -18550,6 +18599,20 @@
             "name": "General Surgery Elective",
             "units": "1.00",
             "description": "The student works directly with general and vascular surgeons. During the rotation, the student is exposed to all phases of patient care, including outpatient clinic, the operating room and hospital. Emphasis will be placed on the initial assessment, physical examination and preoperative evaluation of surgical patients. When appropriate, the student will follow individual patients whose cases are particularly instructive. While no formal projects are required, ample opportunity exists for independent projects as dictated by the student's special interests. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7632",
+            "name": "Cardiothoracic Surgery Electiv",
+            "units": "1.00",
+            "description": "The goal is to provide fourth year medical students with a special interest in Cardiothoracic Surgery with the opportunity to become more familiar with the pathophysiology and clinical presentation of the most common cardiothoracic diseases. It is expected that the medical student will be part of the Cardiothoracic Surgical team involved in the daily routine including the operating room, the cardiothoracic intensive care unit and floor. Some exposure to catheter based therapy in the hemodynamics room (cath lab) will also be included. Because of the short duration of the rotation, students will have exposure to both the cardiac and thoracic pathways. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7645",
+            "name": "Surg Oncology Elective",
+            "units": "1.00",
+            "description": "The goal of this elective is to introduce the student to the surgeon's role in the multidisciplinary management of patients with cancer. The program includes the evaluation and management of patients with malignant and benign solid tumors and their surgical management.  The full spectrum of care includes medical oncology, radiation oncology and nuclear oncology. The experience will include outpatient clinics, in-patient rounds/consults, surgery and exposure to clinical trials and clinical research. The students will attend and present at weekly multidisciplinary tumor conferences, attend cancer committees, and participate in monthly journal clubs. The opportunity to participate in clinical research will be made available to interested students. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18623,6 +18686,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7807",
+            "name": "Neuro-Oncology Elective",
+            "units": "4.00",
+            "description": "The management of patients with primary and metastatic brain malignancies is a complex endeavor. Treatment strategies for these patients often involve a multi-disciplinary approach. This rotation will provide exposure to all of the main modalities who care for patients with neurologic malignancies including radiation oncology, neurosurgical oncology, and medical neuro-oncology, with a focus on medical neuro-oncology. Outside of the core subspecialties, there are opportunities for time in neuro-radiology, review of current surgical cases with the pathology department, and exposure to rehab and palliative medicine through subspecialty\nclinics. Students should take away a basic understanding of the management of patients with primary and secondary brain malignancies as well as the neurologic complications of cancer patients undergoing treatment. Prerequisite: Student must be in his/her fourth year and have passed all third year core clerkships."
+        },
+        {
+            "subject": "MDE",
             "code": "7820",
             "name": "Pain Management Elective",
             "units": "1.00",
@@ -18634,6 +18704,13 @@
             "name": "Adult Inpatient Psychiatry Ele",
             "units": "1.00",
             "description": "This 2-week or 4-week rotation allows Period 4 medical students to refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and emergency psychiatry experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7871",
+            "name": "Child Inpatient Psych Elective",
+            "units": "1.00",
+            "description": "The 2-week or 4-week rotation exposes Period 4 medical students to child and adolescent psychiatry in a hospital setting and allows them to refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and emergency psychiatry experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDI",
@@ -20223,6 +20300,13 @@
             "name": "Recital Attendance",
             "units": "0.00",
             "description": "Students attend concerts and recitals as a corequisite to applied music. Required of music majors each semester."
+        },
+        {
+            "subject": "MUS",
+            "code": "3333",
+            "name": "Sound Reinforcement",
+            "units": "2.00",
+            "description": "Students gain hands-on experience with the music technology required for recording, mixing, and processing digital signals."
         },
         {
             "subject": "MUS",
@@ -23348,6 +23432,13 @@
         },
         {
             "subject": "PCB",
+            "code": "3374",
+            "name": "Tropical Ecology",
+            "units": "3.00",
+            "description": "In-depth survey of tropical climatology, ecological processes characteristic of tropical habitats, and biodiversity and conservation of tropical regions."
+        },
+        {
+            "subject": "PCB",
             "code": "3702",
             "name": "Interm Human Physiol",
             "units": "3.00",
@@ -23513,13 +23604,6 @@
             "name": "Adv Marine Reserves",
             "units": "4.00",
             "description": "Study of theory and methods for the design and management of Marine Protected Areas including a research project. Prerequisites: BSC 1010 and BSC 1011."
-        },
-        {
-            "subject": "PCB",
-            "code": "5423",
-            "name": "Adv Ecol:Popul/Comm",
-            "units": "3.00",
-            "description": "Advanced analysis of population and community ecology. Prerequisites: PCB 3043 or permission of the instructor or graduate status."
         },
         {
             "subject": "PCB",
@@ -24388,6 +24472,13 @@
             "name": "Em Iss Env Hlth Sci",
             "units": "2.00",
             "description": "This course will explore emerging scientific discoveries to understand environmental human disease and how the emerging technologies can be applied to environmental health and regulatory decisions."
+        },
+        {
+            "subject": "PHC",
+            "code": "7374C",
+            "name": "Org. Tox.",
+            "units": "4.00",
+            "description": "Provides an advanced understanding of the responses of specific, key organ systems (e.g. immune, renal, hepatic, reproductive) to toxic insult."
         },
         {
             "subject": "PHC",
@@ -28570,10 +28661,10 @@
         },
         {
             "subject": "STA",
-            "code": "6930",
-            "name": "Special Topics",
+            "code": "6870",
+            "name": "Time Series Analysis",
             "units": "3.00",
-            "description": "A course designed to give students an opportunity to pursue special studies not otherwise offered in the curriculum. May be repeated."
+            "description": "Stationarity, autocorrelation, autoregressive moving average (ARIMA) models; partial autocorrelation; statistical inference and R; non-stationarity; seasonality; forecasting; spectral methods. Prerequisite: STA 4322 or equivalent"
         },
         {
             "subject": "STA",
@@ -28665,6 +28756,13 @@
             "name": "Direct Individ Study",
             "units": "0.00",
             "description": "Supervised readings and/or field research and training. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "SYA",
+            "code": "5941",
+            "name": "Directed Field Rsch",
+            "units": "3.00",
+            "description": "Permission of the instructor required."
         },
         {
             "subject": "SYA",
@@ -28959,6 +29057,13 @@
             "name": "Sftwr Dvmnt Telecom",
             "units": "3.00",
             "description": "Focuses on the aspects, tools, and techniques of developing software applications for telecommunications networks."
+        },
+        {
+            "subject": "TCN",
+            "code": "5455",
+            "name": "Information Theory",
+            "units": "3.00",
+            "description": "Entropy and measure of information.  Proof and interpretation of Shannon's fundamental theorem for various channels, including noiseless, discrete, time-discrete and time-continous channels."
         },
         {
             "subject": "TCN",
@@ -29557,6 +29662,13 @@
         },
         {
             "subject": "TTE",
+            "code": "5607",
+            "name": "Transp Demand Anal",
+            "units": "3.00",
+            "description": "Travel demand analysis and forecasting. Modeling techniques including trip generation and distribution, mode split, and trip assignment. Practical applications. Prerequisite: TTE 4201."
+        },
+        {
+            "subject": "TTE",
             "code": "5805",
             "name": "Adv Geo Design Hwy",
             "units": "3.00",
@@ -29582,13 +29694,6 @@
             "name": "Emerg Mgmt And Plan",
             "units": "3.00",
             "description": "This course focuses on the concepts, processes, and techniques associated with developing and implementing emergency management plans in public, nonprofit, and health organizations."
-        },
-        {
-            "subject": "URP",
-            "code": "6315",
-            "name": "Intro Urb Plan Mgmt",
-            "units": "3.00",
-            "description": "An historic overview of land use planning and the rise of growth management with emphasis on implementation in complex market and political environments."
         },
         {
             "subject": "URS",
