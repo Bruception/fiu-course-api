@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1650762800,
+    "dataAsOf": 1651369011,
     "data": [
         {
             "subject": "ACG",
@@ -273,13 +273,6 @@
             "name": "Account Planning",
             "units": "3.00",
             "description": "This course introduces the student to contemporary account planning techniques. It stresses the interrelationship between advertising and the consumer and the role of consumer behavior. Prerequisites: ADV 3200 Corequisite: COM 4310"
-        },
-        {
-            "subject": "ADV",
-            "code": "4711",
-            "name": "Portfolio Workshop",
-            "units": "3.00",
-            "description": "Focus will be directed on building creative portfolio pieces for multiplication campaigns. Prerequisites: ADV 3200"
         },
         {
             "subject": "ADV",
@@ -1141,6 +1134,13 @@
             "name": "Des Hist XIX to XXI Lab",
             "units": "1.00",
             "description": "Laboratory section for ARC 5744. Reading and discussion of course texts and writing assignment. Laboratory work in conjunction with set lab. Prerequisites: ARC 2701, ARC 2702. Corequisite: ARC 5744."
+        },
+        {
+            "subject": "ARC",
+            "code": "5933",
+            "name": "Special Topics",
+            "units": "0.00",
+            "description": "Coursework on a particular aspect of architecture under the direction of faculty in a classroom format. Prerequisite: Program approval."
         },
         {
             "subject": "ARC",
@@ -6492,13 +6492,6 @@
         },
         {
             "subject": "CPO",
-            "code": "4726",
-            "name": "Ethnicity and Nationalism",
-            "units": "3.00",
-            "description": "Surveys and systematically compares multi-ethnic and multi-national states, politically, socially, and economically. Investigates integration, assimilation, coexistence, and stratification."
-        },
-        {
-            "subject": "CPO",
             "code": "4737",
             "name": "Transition and Human Rights",
             "units": "3.00",
@@ -7969,10 +7962,24 @@
         },
         {
             "subject": "EDG",
+            "code": "4734",
+            "name": "Ed/Cul Prep for Int Teach",
+            "units": "3.00",
+            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
+        },
+        {
+            "subject": "EDG",
             "code": "4903",
             "name": "Independ Study Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to gain or enhance knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
+        },
+        {
+            "subject": "EDG",
+            "code": "4940",
+            "name": "Inter Teaching Internship",
+            "units": "3.00",
+            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
         },
         {
             "subject": "EDG",
@@ -7997,10 +8004,24 @@
         },
         {
             "subject": "EDG",
+            "code": "5736",
+            "name": "Prep Inter Teach Intern",
+            "units": "3.00",
+            "description": "This course is to prepare students for an international teaching internship. Students will examine educational and cultural issues related to the U.S., their future host placement, and the world."
+        },
+        {
+            "subject": "EDG",
             "code": "5910",
             "name": "Independ Resrch Education",
             "units": "0.00",
             "description": "Designed to provide an opportunity to enhance their educational research knowledge, to research a specific area, issues and trends, and/or the delivery of education in K-12 settings. Prerequisite: Department consent is required."
+        },
+        {
+            "subject": "EDG",
+            "code": "5942",
+            "name": "Intl Educational Internship",
+            "units": "3.00",
+            "description": "Students will complete an international internship and be required to teach in international schools, engage in cultural immersion experiences, and conduct service-learning projects. Prerequisite: EDG 5XXX Preparation for International Teaching Internship"
         },
         {
             "subject": "EDG",
@@ -8022,6 +8043,13 @@
             "name": "Supvd Fld Exp",
             "units": "0.00",
             "description": "Students are provided an opportunity to perform supervisory duties appropriate to the students' professional goals. Only advanced graduate students are permitted to enroll."
+        },
+        {
+            "subject": "EDG",
+            "code": "6971",
+            "name": "Thesis in C&I",
+            "units": "1.00",
+            "description": "An individually supervised research project demonstrating the application of analytical, conceptual and technical skill to a specific curriculum and instruction problem."
         },
         {
             "subject": "EDG",
@@ -9691,6 +9719,13 @@
         },
         {
             "subject": "EIN",
+            "code": "5123",
+            "name": "Industrial Marketing",
+            "units": "3.00",
+            "description": "Fundamental concepts for industrial marketing including industrial goods, services, customers, and demands; Industrial procurement and buying behavior; and industrial market segmentation and strategy."
+        },
+        {
+            "subject": "EIN",
             "code": "5226C",
             "name": "Tqm For Engineers",
             "units": "3.00",
@@ -9698,10 +9733,38 @@
         },
         {
             "subject": "EIN",
+            "code": "5332",
+            "name": "Quality Engineering",
+            "units": "3.00",
+            "description": "This course examines quality control from an engineering standpoint. It covers ways to meet the challenge of designing high-quality products and processes at low cost. Prerequisites: EIN 5226"
+        },
+        {
+            "subject": "EIN",
+            "code": "5346",
+            "name": "Logistics Eng",
+            "units": "3.00",
+            "description": "Concepts and tools for effective design and management of supply chain systems. Includes logistics strategies, inventory management, customer service, supply chain integration and logistics network design.  Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "EIN",
             "code": "5359",
             "name": "Ind Fin Decisions",
             "units": "3.00",
             "description": "The use of financial techniques and data in planning, controlling and coordinating industrial activities. This course will familiarize the student with accounting concepts and analytical methods."
+        },
+        {
+            "subject": "EIN",
+            "code": "6133",
+            "name": "Enterprise Eng",
+            "units": "3.00",
+            "description": "Enterprise processes and functions, enterprise engineering methodology and techniques, enterprise scalability, systems and vertical integration, systems design and implementation. Prerequisite: Permission of Instructor."
+        },
+        {
+            "subject": "EIN",
+            "code": "6155",
+            "name": "Business Plan Devel",
+            "units": "3.00",
+            "description": "This course deals with the critical decisions and action steps that entrepreneurs must make in both planning and executing a new venture.  It also covers how to develop an effective written plan.  Prerequisite: Permission of advisor."
         },
         {
             "subject": "EIN",
@@ -9723,6 +9786,13 @@
             "name": "Inventory Control",
             "units": "3.00",
             "description": "Design of non-traditional inventory control systems. Development of several inventory system models. Exploration of methods of collecting appropriate demand and cost data for effective systems analysis. Prerequisite: ESI 3314"
+        },
+        {
+            "subject": "EIN",
+            "code": "6357",
+            "name": "Adv Engr Economy",
+            "units": "3.00",
+            "description": "Review of engineering economy and the evaluation of advanced manufacturing systems. Evaluation of alternative capital investments considering income taxes, depreciation, inflation, risk and uncertainty. Prerequisite: EGN 3613."
         },
         {
             "subject": "EIN",
@@ -10888,10 +10958,31 @@
         },
         {
             "subject": "ESI",
+            "code": "4452",
+            "name": "Proj Mgmt Sys Dsgn",
+            "units": "3.00",
+            "description": "Project planning, scheduling and control using activity network logic. System development techniques and strategies. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "ESI",
             "code": "5010C",
             "name": "Forecasting and Dmdn Mgt",
             "units": "3.00",
             "description": "Forecasting overview. Times series methods. Regression methods. Advanced forecasting models. Demand planning. Pricing and revenue optimization with capacity constraints. Case studies. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "ESI",
+            "code": "5522",
+            "name": "Sim Models Engr Sys",
+            "units": "3.00",
+            "description": "Simulation Methodology; design and implementation of models of engineering systems using computer software; case studies. Prerequisite: STA 3033 or ESI 3215 or equivalent and COP 3175 or equivalent."
+        },
+        {
+            "subject": "ESI",
+            "code": "5602",
+            "name": "Eng Data Model Rep",
+            "units": "3.00",
+            "description": "The course will cover the life cycle of designing, developing, and implementing engineering database systems by applying the IDEFLx methodology. Prerequisite: Permission of Instructor."
         },
         {
             "subject": "ESI",
@@ -12918,6 +13009,13 @@
         },
         {
             "subject": "HFT",
+            "code": "3392",
+            "name": "Entertainment at Venues",
+            "units": "3.00",
+            "description": "class spans a wide range of topics to showcase that entertainment is not confined to a\nshowroom - nightclub, fashion shows, cruise ships, theme parks, hotels, gaming, and lounges."
+        },
+        {
+            "subject": "HFT",
             "code": "3393",
             "name": "Entertainment Tour Mgt.",
             "units": "3.00",
@@ -14143,13 +14241,6 @@
         },
         {
             "subject": "IDH",
-            "code": "1931",
-            "name": "Honors Intro",
-            "units": "1.00",
-            "description": "The purpose of this course is to introduce students to the essentials needed for success at FIU and Honors. This year-long course will focus on writing, research, First-year, and leadership essentials."
-        },
-        {
-            "subject": "IDH",
             "code": "2003",
             "name": "Honors Seminar III",
             "units": "3.00",
@@ -14899,13 +14990,6 @@
         },
         {
             "subject": "INR",
-            "code": "4933",
-            "name": "Topics In Intl Pol",
-            "units": "3.00",
-            "description": "An intensive examination of a topic in international politics. Subject matter varies according to the instructor. Topic to be announced in advance."
-        },
-        {
-            "subject": "INR",
             "code": "4943",
             "name": "Intern Inr Affairs",
             "units": "0.00",
@@ -14966,13 +15050,6 @@
             "name": "Independent Study",
             "units": "0.00",
             "description": "Directed independent research. Requires prior approval by instructor."
-        },
-        {
-            "subject": "INR",
-            "code": "5935",
-            "name": "Topics Intl Relation",
-            "units": "3.00",
-            "description": "Varies according to the instructor. Prerequisites: Graduate standing or permission of the instructor."
         },
         {
             "subject": "INR",
@@ -16075,6 +16152,13 @@
         },
         {
             "subject": "LAS",
+            "code": "3322",
+            "name": "Introduction to Brazil",
+            "units": "3.00",
+            "description": "Interdisciplinary introduction to the history, politics, society and culture of Brazil."
+        },
+        {
+            "subject": "LAS",
             "code": "3330",
             "name": "Intro to the Caribbean",
             "units": "3.00",
@@ -16100,6 +16184,13 @@
             "name": "Special Topics in LACS",
             "units": "3.00",
             "description": "Topics in Latin American and the Caribbean will be selected to meet the academic needs of groups of students"
+        },
+        {
+            "subject": "LAS",
+            "code": "5325",
+            "name": "Survey of Brazil",
+            "units": "3.00",
+            "description": "Multidisciplinary survey of the literature of history, politics, society, and culture of Brazil."
         },
         {
             "subject": "LAS",
@@ -17286,13 +17377,6 @@
         },
         {
             "subject": "LIT",
-            "code": "4931",
-            "name": "Spec Top Women Lit",
-            "units": "3.00",
-            "description": "An examination of different aspects of literature by women. May be repeated with a change of content."
-        },
-        {
-            "subject": "LIT",
             "code": "5359",
             "name": "Afr Diasp Women Writ",
             "units": "3.00",
@@ -18259,6 +18343,13 @@
         },
         {
             "subject": "MAT",
+            "code": "5921",
+            "name": "Training Math Expo",
+            "units": "0.00",
+            "description": "Students prepare and present supervised lectures on undergraduate mathematical topics to fellow students."
+        },
+        {
+            "subject": "MAT",
             "code": "5970",
             "name": "Master's Research",
             "units": "0.00",
@@ -18417,6 +18508,13 @@
             "name": "PD and CM Capstone",
             "units": "1.00",
             "description": "The Professional Development Capstone is explicitly designed to address anticipated expectations of Professionalism in the first few months of residency and beyond. Additionally, the Capstone in Professional Development is intended to serve as a review of relevant topics for Internship and the introduction of specific practical topics not otherwise covered in the curriculum.\nThe Clinical Medicine Capstone is a yearlong required course for all Period 4 medical students. It consists of two components. The first component is a monthly online module including a clinical reasoning case exercise, several EKG and radiology challenge questions, and a short quiz based on a review article covering a topic relevant to internship. The second component, held during the final month of medical school, is a week-long transition to internship bootcamp consisting of small group and individual role play and standardized patient activities designed to simulate common clinical scenarios encountered during internship. Completion of each of the monthly modules and attendance at the bootcamp are mandatory and will be tracked. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7073",
+            "name": "One Health Elective",
+            "units": "2.00",
+            "description": "This four week clinical elective is designed to give medical students exposure to the field of veterinary medicine and the One Health medicine model. In this course, students will strengthen collaborative and transdisciplinary approaches, with the goal of achieving optimal health outcomes recognizing the interconnection between people, animals, plants, and their shared environment. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -19617,13 +19715,6 @@
         },
         {
             "subject": "MUH",
-            "code": "1560",
-            "name": "African-Amer Music",
-            "units": "3.00",
-            "description": "Examines the historical influence and development of African American music from its African roots to its dominance in the American popular culture."
-        },
-        {
-            "subject": "MUH",
             "code": "2018",
             "name": "Evolution of Jazz",
             "units": "3.00",
@@ -20468,6 +20559,13 @@
             "name": "Jazz Theory I",
             "units": "3.00",
             "description": "This 3-credit course is designed to streamline the jazz curriculum by replacing 'Jazz Eartraining', 'Introduction to Jazz Studies', and 'Jazz Styles and Analysis'. It is a required course for all jazz performance majors."
+        },
+        {
+            "subject": "MUT",
+            "code": "3401",
+            "name": "Counterpoint",
+            "units": "3.00",
+            "description": "A study of linear writing through species counterpoint. Two and three-part instrumental and vocal counterpoint of the 18th century: Canon, inventions, fugues. Emphasis will be placed on formal analysis."
         },
         {
             "subject": "MUT",
@@ -21381,6 +21479,13 @@
         },
         {
             "subject": "MVS",
+            "code": "4343",
+            "name": "Prin Applied Cello",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "4443",
             "name": "Major Applied Cello",
             "units": "3.00",
@@ -21462,6 +21567,13 @@
             "name": "Prin Applied Voice",
             "units": "2.00",
             "description": "Individual instruction in applied music on voice as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVV",
+            "code": "2421",
+            "name": "Major Applied Voice",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on voice as a major instrument. Music majors only."
         },
         {
             "subject": "MVV",
@@ -22414,13 +22526,6 @@
             "name": "Integ Nsg Care II",
             "units": "0.00",
             "description": "Second of two courses in the development of inter- and intra-professional collaborative care for managing care of diverse patients/clients and their families in simulated and community settings."
-        },
-        {
-            "subject": "NUR",
-            "code": "4905",
-            "name": "Independent Study",
-            "units": "0.00",
-            "description": "Faculty supervised introduction to problems in nursing in accord with the student's special interest."
         },
         {
             "subject": "NUR",
@@ -23604,6 +23709,13 @@
             "name": "Adv Marine Reserves",
             "units": "4.00",
             "description": "Study of theory and methods for the design and management of Marine Protected Areas including a research project. Prerequisites: BSC 1010 and BSC 1011."
+        },
+        {
+            "subject": "PCB",
+            "code": "5423",
+            "name": "Adv Ecol:Popul/Comm",
+            "units": "3.00",
+            "description": "Advanced analysis of population and community ecology. Prerequisites: PCB 3043 or permission of the instructor or graduate status."
         },
         {
             "subject": "PCB",
@@ -29410,13 +29522,6 @@
         },
         {
             "subject": "TPP",
-            "code": "3923",
-            "name": "Musical Th Wkshp I",
-            "units": "3.00",
-            "description": "An introduction to Musical Comedy performance: integration of the dramatic, musical and movement components will be studied through work on selected scenes.  Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "TPP",
             "code": "4114",
             "name": "Acting V",
             "units": "3.00",
@@ -29442,13 +29547,6 @@
             "name": "Acting VII",
             "units": "3.00",
             "description": "Audition techniques through preparation and presentation of audition material.  Includes an exploration of professional actor training and actor business protocol.  BFA majors only."
-        },
-        {
-            "subject": "TPP",
-            "code": "4253",
-            "name": "Adv Mus The Studies",
-            "units": "3.00",
-            "description": "Prepares students to audition for all types of musical theatre productions.  Class format is a master class."
         },
         {
             "subject": "TPP",
@@ -29865,13 +29963,6 @@
         },
         {
             "subject": "WST",
-            "code": "4617",
-            "name": "Gender & Genocide",
-            "units": "3.00",
-            "description": "This course examines the gendered dimension of genocide, exploring genocidal practices in terms of gender, sex, sexuality, ethnicity, race, and class under a critical feminist lens."
-        },
-        {
-            "subject": "WST",
             "code": "4905",
             "name": "Independent Study",
             "units": "0.00",
@@ -29904,13 +29995,6 @@
             "name": "Feminist Theory",
             "units": "3.00",
             "description": "Theories, issues and major paradigms underlying feminist scholarship.  Development of women's studies as a discipline.  Emphasis on multicultural approaches and perspectives."
-        },
-        {
-            "subject": "WST",
-            "code": "5618",
-            "name": "Gender and Genocide",
-            "units": "3.00",
-            "description": "Advanced examination of the gendered dimension of global genocides based on recent feminist genocide scholarship, addressing justice & reconciliation within the framework of the UN Genocide Convention"
         },
         {
             "subject": "WST",
