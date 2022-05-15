@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1651972086,
+    "dataAsOf": 1652577798,
     "data": [
         {
             "subject": "ACG",
@@ -322,6 +322,13 @@
             "name": "Rdgs In African Hist",
             "units": "3.00",
             "description": "An examination of historiographical traditions within African history. Topics will vary; with a change in theme, the course may be repeated. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "AFH",
+            "code": "5935",
+            "name": "Topics/African Hist",
+            "units": "3.00",
+            "description": "An examination of specific themes in African history. Topics will vary. With a change in theme, the course may be repeated. Prerequisite: Graduate standing."
         },
         {
             "subject": "AFR",
@@ -997,17 +1004,17 @@
         },
         {
             "subject": "ARH",
+            "code": "4471",
+            "name": "Post 1985 Art",
+            "units": "3.00",
+            "description": "Examines the changing roles of the arts within the current socio-political context of plurality, corporate sponsorship and mass communications."
+        },
+        {
+            "subject": "ARH",
             "code": "4512",
             "name": "Africa Diaspora Art",
             "units": "3.00",
             "description": "A survey of the origins and transformation of African Diaspora arts, and their regional manifestations across the Americas. It considers the Harlem Renaissance, Hip Hop, and identity politics."
-        },
-        {
-            "subject": "ARH",
-            "code": "4534",
-            "name": "Buddhist Art of Asia",
-            "units": "3.00",
-            "description": "This course investigates art, religion and literature in Asia. It examines the close connections between literary history and art history, and doctrines and visual images."
         },
         {
             "subject": "ARH",
@@ -1071,13 +1078,6 @@
             "name": "Contemporary Art",
             "units": "3.00",
             "description": "Course examines the visual arts in Europe and the U.S. from the 1960's to the present with focus on major art movements, artists, and artwork."
-        },
-        {
-            "subject": "ARH",
-            "code": "5532",
-            "name": "Beliefs Made Visible",
-            "units": "3.00",
-            "description": "This course investigates art, religion and literature in Asia. We will examine the close connections between literary history and art history, and doctrines and visual images."
         },
         {
             "subject": "ARH",
@@ -4308,6 +4308,13 @@
         },
         {
             "subject": "CIS",
+            "code": "5207",
+            "name": "Advanced Digital Forensic",
+            "units": "3.00",
+            "description": "Presents advanced AI/ML-based concepts in forensic software, tools, technology. Provides experience in selection and use of different tools for analyzing evidence and aiding investigations. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "CIS",
             "code": "5208",
             "name": "Soc Econ Pol Asp Cyber",
             "units": "3.00",
@@ -5523,13 +5530,6 @@
             "name": "Cognitive Development",
             "units": "3.00",
             "description": "An overview of cognitive development, with a focus on the theories, experimental evidence, and milestones in cognitive development. Topics include the development of attention, perception, memory, problem solving, categorization, concepts, language, reasoning, theory of mind, metacognition, and executive function. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "DEP",
-            "code": "7096",
-            "name": "Sem Lifespan Soc Dev",
-            "units": "3.00",
-            "description": "This course includes a consideration of general issues and discussion of the application of life-span models to selected topics development. Prerequisites: Graduate standing or permission of the instructor."
         },
         {
             "subject": "DIE",
@@ -8725,13 +8725,6 @@
         },
         {
             "subject": "EUH",
-            "code": "2030",
-            "name": "West Civ: Mod/Eur",
-            "units": "3.00",
-            "description": "Examines key developments of European Civilizations in the modern period."
-        },
-        {
-            "subject": "EUH",
             "code": "3143",
             "name": "Age of the Reformation",
             "units": "3.00",
@@ -8764,6 +8757,13 @@
             "name": "The Knight",
             "units": "3.00",
             "description": "Examines the cultural ideal of knighthood and the history of chivalric culture from the 12th-17th century, analyzing literature, warfare, society, and culture in Europe and the Mediterranean world."
+        },
+        {
+            "subject": "EUH",
+            "code": "4170",
+            "name": "Forgotten Medieval Realms",
+            "units": "3.00",
+            "description": "Covers years 1000-1500 in Nasrid Granada, Valois Burgundy, and the Byzantine Empire. A European and Mediterranean history course, it teaches themes of medievalism, nationalism, Romanticism, memory."
         },
         {
             "subject": "EUH",
@@ -10402,6 +10402,13 @@
             "name": "Global Food and Culture",
             "units": "3.00",
             "description": "Study of the ways in which global issues influence the how food functions in the global community."
+        },
+        {
+            "subject": "HFT",
+            "code": "3900",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "With permission from the Associate Dean, students may engage in independent research projects and other approved phases of independent study. Prerequisite: Consent of instructor."
         },
         {
             "subject": "HFT",
@@ -12358,10 +12365,10 @@
         },
         {
             "subject": "JOU",
-            "code": "5806",
-            "name": "Student Media Adv",
+            "code": "4951",
+            "name": "Spanish Media Writing",
             "units": "3.00",
-            "description": "Designed to assist teachers and advisors of journalism at the high school and junior college level, this course emphasizes the technical aspects of producing student newspapers, yearbooks, and magazines, as well as the legal and ethical considerations facing today's advisor. In addition, attention is given to matters pertaining to curriculum and methodology for effective journalistic instruction. (Offered at least once a year)."
+            "description": "This course will guide students in the methods and styles of reporting and writing in Spanish for digital and broadcast Hispanic media. It will prepare students to write and produce SFMN news stories. Prerequisite: MMC 3123"
         },
         {
             "subject": "JOU",
@@ -14241,10 +14248,24 @@
         },
         {
             "subject": "MAT",
+            "code": "4905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Individual conferences, assigned readings, and reports on independent investigations."
+        },
+        {
+            "subject": "MAT",
             "code": "4934",
             "name": "Senior Math Seminar",
             "units": "1.00",
             "description": "An exploration of research topics in the student's subfield. Coursework will include a written report, oral presentation, and departmental major field test."
+        },
+        {
+            "subject": "MAT",
+            "code": "4943",
+            "name": "Math Sciences Intern",
+            "units": "0.00",
+            "description": "A special program to encourage students to get on-the-job experience in computer sciences, statistics, or mathematics in an industrial enterprise, governmental agency or other organization. Requirements: minimum grade of 'B' or higher in all courses in the major area, and approval by Departmental Internship Committee. Application is required at least one term in advance of registration for this course. Prerequisite: Departmental approval."
         },
         {
             "subject": "MAT",
@@ -14308,6 +14329,13 @@
             "name": "General Micro Lab",
             "units": "1.00",
             "description": "Introduction to the principles and techniques of microbiology, genetics, taxonomy, biochemistry and ecology of microorganisms."
+        },
+        {
+            "subject": "MCB",
+            "code": "4503",
+            "name": "Virology",
+            "units": "3.00",
+            "description": "Principles and methods of study of bacterial, plant, and animal viruses. Molecular aspects of viral development, virus pathogens, and carcinogens."
         },
         {
             "subject": "MDC",
@@ -14578,7 +14606,7 @@
         {
             "subject": "MMC",
             "code": "3123",
-            "name": "Media Writing",
+            "name": "Writing Fundamentals",
             "units": "3.00",
             "description": "Writing for Media introduces students to professional media writing in journalism, broadcasting, digital media and social media. Prerequisites:  ENC1101, ENC 1102, [(JOU 2100 or DIG 3001 or RTV 3007) or admission to Visual Production Certificate]. Corequisite: JOU 2100 or DIG 3001 or RTV 3007"
         },
@@ -14871,6 +14899,20 @@
         },
         {
             "subject": "MUC",
+            "code": "5935",
+            "name": "Comp Forum",
+            "units": "1.00",
+            "description": "Student composers present their work for critique by faculty and topics relevant to composition are presented by faculty and guests."
+        },
+        {
+            "subject": "MUC",
+            "code": "6251",
+            "name": "Grad Mus Comp",
+            "units": "3.00",
+            "description": "The writing of evolved musical compositions with regard to each student's strengths and aesthetic development. Graduate standing in Music Composition and or permission of the instructor."
+        },
+        {
+            "subject": "MUC",
             "code": "6305",
             "name": "Elec Mus Lab I",
             "units": "2.00",
@@ -15116,6 +15158,13 @@
         },
         {
             "subject": "MUM",
+            "code": "5726",
+            "name": "Live Music Oper II",
+            "units": "3.00",
+            "description": "Continuation of MUM 5725, Live Music Operations I. Emphasis on promoters', producers', and managers' ability to project a profit margin. An on-campus production is required as the final project."
+        },
+        {
+            "subject": "MUM",
             "code": "5795",
             "name": "Music Prod Lab I",
             "units": "1.00",
@@ -15330,6 +15379,13 @@
             "name": "New Music Ensemble",
             "units": "1.00",
             "description": "A chamber group of varying instrumentation and size performing art music from the 20th century with emphasis on music from the past 20 years. Explores electronics, multimedia works, etc."
+        },
+        {
+            "subject": "MUN",
+            "code": "4513L",
+            "name": "Accompanying",
+            "units": "1.00",
+            "description": "Accompanying instrumental and vocal students in studio and recital situations."
         },
         {
             "subject": "MUN",
@@ -15760,6 +15816,13 @@
         },
         {
             "subject": "MVB",
+            "code": "3970L",
+            "name": "Junior Rec Brass",
+            "units": "0.00",
+            "description": "All music performance majors must present, during their junior year, at least one half of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
+        },
+        {
+            "subject": "MVB",
             "code": "4341",
             "name": "Prin Applied Trumpet",
             "units": "2.00",
@@ -15967,6 +16030,13 @@
             "name": "Prin App Jazz Piano",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz piano at a principal level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "4341",
+            "name": "Principle Applied Jazz Voice",
+            "units": "2.00",
+            "description": "Individual instruction in the Jazz Vocal Idiom. Study includes healthy vocal technique, eminent vocal jazz and related musical styles, expanded and advanced development of repertoire, specific and necessary skills for a strong performance."
         },
         {
             "subject": "MVJ",
@@ -16404,6 +16474,13 @@
         },
         {
             "subject": "MVS",
+            "code": "4444",
+            "name": "Major App Dble Bass",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on double brass as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "4541",
             "name": "Orch Audition Rep",
             "units": "3.00",
@@ -16443,6 +16520,13 @@
             "name": "Orch Audition Rep",
             "units": "3.00",
             "description": "This course prepares upper string players, primarily violinists, for professional auditions by coaching them intensively in the standard audition repertoire and by holding mock auditions. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MVV",
+            "code": "1211",
+            "name": "Secondary App Voice",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on voice as a secondary instrument."
         },
         {
             "subject": "MVV",
@@ -16527,6 +16611,13 @@
             "name": "Major Applied Voice",
             "units": "3.00",
             "description": "Individual instruction in applied music on voice as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "1211",
+            "name": "Secondary App Flute",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on flute as a secondary instrument."
         },
         {
             "subject": "MVW",
@@ -17587,13 +17678,6 @@
         },
         {
             "subject": "PAD",
-            "code": "4712",
-            "name": "It & E-Gov For Publc",
-            "units": "3.00",
-            "description": "Surveys personal and societal value assumptions in the context of the technological society.  Examines organizational societal value structures, and the ways in which technology creates rapid change and new alternative in values.  Interrelationship of the past, present, and future is explored."
-        },
-        {
-            "subject": "PAD",
             "code": "4723",
             "name": "App Res Meth",
             "units": "3.00",
@@ -17619,20 +17703,6 @@
             "name": "Internship",
             "units": "0.00",
             "description": "(Normally 3 credit hours) Supervised work experience in a public or quasi-public organization. Involves a variety of professional and technical job duties depending on the agency. May be repeated. Prerequisite: Permission of the department required."
-        },
-        {
-            "subject": "PAD",
-            "code": "5256",
-            "name": "Econ Thinking in Policy",
-            "units": "3.00",
-            "description": "Provides an introduction to basic economic principles, applications, and tools in the policymaking process."
-        },
-        {
-            "subject": "PAD",
-            "code": "5416",
-            "name": "Soc Eq Pers Mgmt",
-            "units": "3.00",
-            "description": "The course deals with the human resource management issues arising from equity and affirmative action requirements in the workplace."
         },
         {
             "subject": "PAD",
@@ -17748,13 +17818,6 @@
         },
         {
             "subject": "PAD",
-            "code": "6710",
-            "name": "IT and E-government",
-            "units": "3.00",
-            "description": "Studies the electronic delivery of government information and services and the problems of managing information technology in the public sector. Survey technology principles of IT and E-government."
-        },
-        {
-            "subject": "PAD",
             "code": "6718",
             "name": "Smart Governance",
             "units": "3.00",
@@ -17773,13 +17836,6 @@
             "name": "Intro Public Procurement",
             "units": "3.00",
             "description": "Course covers each phase of contract and project cycle, with an emphasis on tools and techniques to manage a public contract or project."
-        },
-        {
-            "subject": "PAD",
-            "code": "6856",
-            "name": "Contract Management",
-            "units": "3.00",
-            "description": "Overview of public procurement as a basic function of government. Public/private contracting arrangements studied in context of organizational structure, regulations, and current procurement issues."
         },
         {
             "subject": "PAD",
@@ -17804,17 +17860,10 @@
         },
         {
             "subject": "PAD",
-            "code": "7277",
-            "name": "PA and American Econ",
+            "code": "7703C",
+            "name": "Empirical Methods",
             "units": "3.00",
-            "description": "An analysis of the origins and growth of the American administrative state within the broader socioeconomic and cultural context, with particular emphasis on the post-World War II era."
-        },
-        {
-            "subject": "PAD",
-            "code": "7705",
-            "name": "Applied Quant Analysis I",
-            "units": "3.00",
-            "description": "Introduction to and application of selected linear multivariate statistical and quantitative models to the field of public administration. Prerequisites: PAD 6701 and PAD 6726."
+            "description": "An advanced research seminar focusing on research design and proposal development in public policy and administration. Particular attention is given to qualitative research methods."
         },
         {
             "subject": "PAD",
@@ -17822,13 +17871,6 @@
             "name": "Eco Dev and Urban Mgm",
             "units": "3.00",
             "description": "Details the theory and practice of contemporary urban management, with particular emphasis on development of the economic base as a requisite in a competitive federal system."
-        },
-        {
-            "subject": "PAD",
-            "code": "7960",
-            "name": "Comp Exam In Pa",
-            "units": "6.00",
-            "description": "Intensive preparation for the comprehensive examinations in Public Affairs in both the core and areas of specialization. Prerequisite: Completion of program of studies."
         },
         {
             "subject": "PAD",
@@ -18774,6 +18816,13 @@
             "name": "Sp Top Biostatistics",
             "units": "1.00",
             "description": "This is a series of 1-3 credit hour offerings, on topics of considerable interest to advanced masters and doctoral students in public health, not limited to statistical methods. Prerequisites: PHC 6052, PHC 6091, or permission of the instructor."
+        },
+        {
+            "subject": "PHC",
+            "code": "6934",
+            "name": "Scientific Writing",
+            "units": "3.00",
+            "description": "Covers the planning and execution of written and oral presentations in epidemiology/biostatistics by critically evaluating published articles and preparing a manuscript and an oral presentation. Prerequisites: PHC 6000, PHC 6013, PHC 6064, PHC 6065, PHC 6718 or permission of the instructor."
         },
         {
             "subject": "PHC",
@@ -19966,13 +20015,6 @@
             "description": "Trains students to create, manage, analyze, and present financial information for public service applications."
         },
         {
-            "subject": "PUP",
-            "code": "6015",
-            "name": "Public Policy",
-            "units": "3.00",
-            "description": "An intensive analysis of the normative theories of public policy making, with emphasis on the processes by which policy choices are made and implemented by government agencies. The current trends and perspectives of effective policy development (such as participatory democracy, multi-valued choice, etc.) are examined."
-        },
-        {
             "subject": "PUR",
             "code": "1951",
             "name": "PRAAC Orientation",
@@ -20167,6 +20209,13 @@
             "name": "Subj Area Reading",
             "units": "3.00",
             "description": "Skills, techniques and strategies for reading in content areas."
+        },
+        {
+            "subject": "RED",
+            "code": "5339",
+            "name": "Subj-Related Rdg",
+            "units": "3.00",
+            "description": "Skills, techniques and strategies for scaffolding the reading of struggling students and enhancing the comprehension and learning independence of all students using subject area materials."
         },
         {
             "subject": "RED",
@@ -23100,6 +23149,20 @@
             "name": "Human Anatomy Demo",
             "units": "1.00",
             "description": "Survey of organ systems of the human body with major emphasis on the skeletal, muscular, and peripheral nervous system. Guided examination of prosected human cadavers."
+        },
+        {
+            "subject": "ZOO",
+            "code": "3753",
+            "name": "Histology",
+            "units": "3.00",
+            "description": "Microscopic anatomy of cells, tissues and organs. Prerequisites:  BSC2010, CHM2210, CHM2211 Corequisite: ZOO 3753L or Instructor permission"
+        },
+        {
+            "subject": "ZOO",
+            "code": "3753L",
+            "name": "Histology Lab",
+            "units": "1.00",
+            "description": "Microscopic anatomy of cells, tissues and organs."
         },
         {
             "subject": "ZOO",
