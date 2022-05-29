@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1653181884,
+    "dataAsOf": 1653787105,
     "data": [
         {
             "subject": "ACG",
@@ -2285,6 +2285,13 @@
         },
         {
             "subject": "BCN",
+            "code": "5772",
+            "name": "Mgmt Const Org",
+            "units": "3.00",
+            "description": "This course studies the management of a construction company. Topics included are: company organization, incorporation structures, policies and procedures, finance, accounting, information modeling, bidding strategies, and operation."
+        },
+        {
+            "subject": "BCN",
             "code": "5774",
             "name": "Topics In Int Const",
             "units": "3.00",
@@ -3594,13 +3601,6 @@
         },
         {
             "subject": "CGN",
-            "code": "5930",
-            "name": "Sp Top In Civil Eng",
-            "units": "0.00",
-            "description": "A course designed to give groups of students an opportunity to pursue special studies not otherwise offered. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "CGN",
             "code": "6905",
             "name": "Dir Ind Study",
             "units": "0.00",
@@ -3759,13 +3759,6 @@
             "name": "Chem & Society Lab",
             "units": "1.00",
             "description": "A course for non-science majors which introduces students to basic concepts in chemistry and applies those concepts to contemporary issues such as air/water pollution, energy and food production, drugs, nutrition, and toxic chemicals. Prerequisites: One year of high school or college algebra. (Lab fees assessed) (F,S,SS)"
-        },
-        {
-            "subject": "CHM",
-            "code": "1025L",
-            "name": "Fundamentals Chem Lab",
-            "units": "1.00",
-            "description": "This course provides laboratory experiences designed to develop the students' skills in basic chemical laboratory techniques and practice (lab fees assessed)."
         },
         {
             "subject": "CHM",
@@ -4088,13 +4081,6 @@
             "name": "Aquatic Chemistry",
             "units": "3.00",
             "description": "Redox chemistry, chemistry of sediments, organic biogeochemistry, chemodynamics, and fates or organic pollutants in aqueous environments. Prerequisites: CHM 2211, CHM 4130, or permission of the instructor."
-        },
-        {
-            "subject": "CHM",
-            "code": "6036",
-            "name": "Advanced BioChem I",
-            "units": "3.00",
-            "description": "Overview of the structure and function of Biomacromolecules, i.e., proteins, enzymes, and nucleic acids emphasizing the current literature."
         },
         {
             "subject": "CHM",
@@ -5558,6 +5544,13 @@
             "name": "Cognitive Development",
             "units": "3.00",
             "description": "An overview of cognitive development, with a focus on the theories, experimental evidence, and milestones in cognitive development. Topics include the development of attention, perception, memory, problem solving, categorization, concepts, language, reasoning, theory of mind, metacognition, and executive function. Prerequisites: Graduate standing or permission of the instructor."
+        },
+        {
+            "subject": "DEP",
+            "code": "7096",
+            "name": "Sem Lifespan Soc Dev",
+            "units": "3.00",
+            "description": "This course includes a consideration of general issues and discussion of the application of life-span models to selected topics development. Prerequisites: Graduate standing or permission of the instructor."
         },
         {
             "subject": "DIE",
@@ -7833,6 +7826,13 @@
             "name": "Logistics Eng",
             "units": "3.00",
             "description": "Concepts and tools for effective design and management of supply chain systems. Includes logistics strategies, inventory management, customer service, supply chain integration and logistics network design.  Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "EIN",
+            "code": "5359",
+            "name": "Ind Fin Decisions",
+            "units": "3.00",
+            "description": "The use of financial techniques and data in planning, controlling and coordinating industrial activities. This course will familiarize the student with accounting concepts and analytical methods."
         },
         {
             "subject": "EIN",
@@ -12946,13 +12946,6 @@
         },
         {
             "subject": "LAW",
-            "code": "6114",
-            "name": "Crim Pro Adjudication",
-            "units": "3.00",
-            "description": "This course examines topics not covered in the basic course in Criminal Procedure, including the grand jury process, bail, the plea-bargain process, right to jury trial, double jeopardy, joinder and severance, and right to confront and examine witnesses."
-        },
-        {
-            "subject": "LAW",
             "code": "6520",
             "name": "Administrative Law",
             "units": "2.00",
@@ -14507,6 +14500,20 @@
         },
         {
             "subject": "MET",
+            "code": "4941",
+            "name": "Meteorology Internship",
+            "units": "0.00",
+            "description": "Practical meteorological work experience supervised by meteorology faculty at local media outlet, forecast office of laboratory. Offered for Pass/Fail only. May be repeated for credit. Prerequisites: Permission of Instructor"
+        },
+        {
+            "subject": "MET",
+            "code": "5311",
+            "name": "Dynamic Meteorology I",
+            "units": "3.00",
+            "description": "To study atmospheric phenomena on a rotating planet. It intends to lead towards an understanding of the theories of the atmospheric motion by applying concepts of Math., thermodynamics, and dynamics."
+        },
+        {
+            "subject": "MET",
             "code": "5355",
             "name": "Severe and Hazardous Wx",
             "units": "3.00",
@@ -15935,6 +15942,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "1411",
+            "name": "Major Jazz Drums",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz drums as a major instrument. Prerequisite: Music majors only."
+        },
+        {
+            "subject": "MVJ",
             "code": "1412",
             "name": "Major Applied Jazz Voice",
             "units": "2.00",
@@ -16321,6 +16335,13 @@
         {
             "subject": "MVP",
             "code": "2321",
+            "name": "Prin App Percussion",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on percussion as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVP",
+            "code": "3331",
             "name": "Prin App Percussion",
             "units": "2.00",
             "description": "Individual instruction in applied music on percussion as a principal instrument. Music majors only."
@@ -17941,6 +17962,13 @@
             "name": "Eco Dev and Urban Mgm",
             "units": "3.00",
             "description": "Details the theory and practice of contemporary urban management, with particular emphasis on development of the economic base as a requisite in a competitive federal system."
+        },
+        {
+            "subject": "PAD",
+            "code": "7960",
+            "name": "Comp Exam In Pa",
+            "units": "6.00",
+            "description": "Intensive preparation for the comprehensive examinations in Public Affairs in both the core and areas of specialization. Prerequisite: Completion of program of studies."
         },
         {
             "subject": "PAD",
@@ -20090,6 +20118,20 @@
             "name": "Public Service Budget Fin",
             "units": "3.00",
             "description": "Trains students to create, manage, analyze, and present financial information for public service applications."
+        },
+        {
+            "subject": "PUP",
+            "code": "4214",
+            "name": "Global Urb Inequality",
+            "units": "3.00",
+            "description": "Compares public policies and organizational techniques for responding to urban poverty and inequality with equitable, sustainable economic development measures."
+        },
+        {
+            "subject": "PUP",
+            "code": "4834",
+            "name": "Urban Resilience Sustain",
+            "units": "3.00",
+            "description": "Examines urban responses to the challenges of climate change from around the globe with an emphasis on local adaptation of successful techniques and approaches."
         },
         {
             "subject": "PUR",
