@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1653787105,
+    "dataAsOf": 1654391836,
     "data": [
         {
             "subject": "ACG",
@@ -1914,13 +1914,6 @@
         },
         {
             "subject": "ATR",
-            "code": "6507",
-            "name": "AT Entrepreneurship",
-            "units": "3.00",
-            "description": "Leadership and business strategies related to athletic training. Topics that will be\ncovered include characteristics associated with entrepreneurism, innovation, and\nidentifying niches."
-        },
-        {
-            "subject": "ATR",
             "code": "6546",
             "name": "Business in AT",
             "units": "3.00",
@@ -1928,10 +1921,17 @@
         },
         {
             "subject": "ATR",
-            "code": "6557",
-            "name": "Navigating Academia in AT",
+            "code": "6547",
+            "name": "Financial Planning AT",
             "units": "3.00",
-            "description": "Introduces the structure and governance of a college/University academic setting. Common terms, titles, roles, expectations are discussed. Components of teaching, scholarship, service, and advising."
+            "description": "Designed for the athletic training student to learn how to build a financial\nportfolio as it relates to professional and personal goals."
+        },
+        {
+            "subject": "ATR",
+            "code": "6555",
+            "name": "Academic Leadership in AT",
+            "units": "3.00",
+            "description": "Addresses leadership styles for athletic trainers working in a secondary school or\ncollege/University setting. Issues pertaining to human resources, personnel,\nsupervision, performance, promotion."
         },
         {
             "subject": "ATR",
@@ -1960,13 +1960,6 @@
             "name": "DAT Applied Scholarship I",
             "units": "3.00",
             "description": "Critically analyzes translational research and clinical practice. Guides one through\nunderstanding how clinically relevant research questions are developed, studied,\nand implemented."
-        },
-        {
-            "subject": "ATR",
-            "code": "7631",
-            "name": "DAT Applied Scholarship II",
-            "units": "3.00",
-            "description": "Designed to introduce one to applied scholarship. Describes the publication process for poster and presentation for local, state, regional, national, and international journals and conferences. Prerequisite: ATR 7630 or permission from the instructor."
         },
         {
             "subject": "ATR",
@@ -2544,6 +2537,13 @@
         },
         {
             "subject": "BME",
+            "code": "5941",
+            "name": "BME Internship",
+            "units": "1.00",
+            "description": "Engineering practice in biomedical applications at an industrial partner's site. Intern will be hired through cooperative agreement to conduct collaborative research with supervision of advisor."
+        },
+        {
+            "subject": "BME",
             "code": "6645",
             "name": "Drug Trans Modeling",
             "units": "3.00",
@@ -2607,6 +2607,20 @@
         },
         {
             "subject": "BMS",
+            "code": "6004",
+            "name": "Med Mol Bio",
+            "units": "3.00",
+            "description": "The course covers fundamental concepts of prokaryotic and eukaryotic molecular biology, as they relate to human health and diseases. Prerequisites: Enrollment in the HWCOM Graduate Certificate Program in Molecular and Biomedical Sciences."
+        },
+        {
+            "subject": "BMS",
+            "code": "6013",
+            "name": "Cell Med Bio and Biochem",
+            "units": "3.00",
+            "description": "The course covers fundamental concepts of cell biology and biochemistry, as they relate to human health and diseases. Prerequisite: Enrollment in HWCOM Graduate Certificate in Molecular and Biomedical Sciences."
+        },
+        {
+            "subject": "BMS",
             "code": "6016",
             "name": "Clinical Skills II",
             "units": "1.00",
@@ -2625,6 +2639,13 @@
             "name": "Community-Engaged Phys I",
             "units": "5.00",
             "description": "This Community-Engaged Physician I course is part of the Medicine and Society strand and encompasses the Green Family Foundation Neighborhood Health Education Learning Program (NeighborhoodHELP). This service-learning course integrates the community-engaged household visit experiences of NeighborhoodHELP with active learning class sessions. It aims to provide students the skills to assess the social determinants of health while simultaneously providing household-centered care in collaborative interprofessional teams. Students will learn the fundamentals of health education, health promotion, appropriate screening and preventive health services, and chronic disease management while having the opportunity to reflect critically on these activities during their household visits. With its emphasis on community medicine, the course also builds on concepts of population health and health disparities introduced in prior courses and culminates in a community-based group project. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6301",
+            "name": "Med Microbio and Immun",
+            "units": "3.00",
+            "description": "The course is designed to introduce the students to the general principles of infectious disease, host responses and the pathogen's evasion that are relevant for a foundation in clinical medicine. Prerequisite: Enrollment in the HWCOM Graduate Certificate Program in Molecular and Biomedical Sciences."
         },
         {
             "subject": "BMS",
@@ -4081,6 +4102,13 @@
             "name": "Aquatic Chemistry",
             "units": "3.00",
             "description": "Redox chemistry, chemistry of sediments, organic biogeochemistry, chemodynamics, and fates or organic pollutants in aqueous environments. Prerequisites: CHM 2211, CHM 4130, or permission of the instructor."
+        },
+        {
+            "subject": "CHM",
+            "code": "6036",
+            "name": "Advanced BioChem I",
+            "units": "3.00",
+            "description": "Overview of the structure and function of Biomacromolecules, i.e., proteins, enzymes, and nucleic acids emphasizing the current literature."
         },
         {
             "subject": "CHM",
@@ -7774,7 +7802,7 @@
         {
             "subject": "EGS",
             "code": "6008",
-            "name": "Found of Eng and Comp Edu",
+            "name": "Foundations ECED Schol",
             "units": "3.00",
             "description": "Introductory course providing a conceptual understanding of engineering and computing education through philosophical theories for research and practice."
         },
@@ -9697,13 +9725,6 @@
             "description": "This program allows graduate students to work in jobs significantly related to their major area of study and career goals. This is supervised work with carefully designed and monitored work assignments.  Specific placement must be approved by the faculty advisor prior to enrollment.  Work performed on the current job cannot be used for internship credit. Prerequisite: Graduate Students."
         },
         {
-            "subject": "GEB",
-            "code": "7911",
-            "name": "Qual Res Methods",
-            "units": "3.00",
-            "description": "This course introduces a structured approach to qualitative research in business.  It includes study of methods such as case studies, ethnography, archival studies, and action research."
-        },
-        {
             "subject": "GEO",
             "code": "2000",
             "name": "Intro To Geography",
@@ -10017,6 +10038,13 @@
             "name": "Ph.D. Dissertation",
             "units": "0.00",
             "description": "Field and/or laboratory research directed towards completion of the doctoral dissertation. Selected in consultation with major professor. Prerequisite: Permission of the Major Professor and Doctoral Candidacy."
+        },
+        {
+            "subject": "GMS",
+            "code": "6922",
+            "name": "Prof Skl Med Scie I",
+            "units": "1.00",
+            "description": "The course provides students with a small structured learning environment in which to analyze the relationships between concepts and develop the ability to evaluate and integrate information. Prerequisite: Enrollment in the HWCOM Graduate Certificate Program in Molecular and Biomedical Sciences."
         },
         {
             "subject": "GMS",
@@ -12243,6 +12271,13 @@
             "name": "Info Systems Internship II",
             "units": "0.00",
             "description": "A continuation of ISM 3949. A program enabling MIS majors to work in jobs significantly related to their major area and career goals. Placement must be approved by instructor."
+        },
+        {
+            "subject": "ISM",
+            "code": "7126",
+            "name": "Design Science Research",
+            "units": "3.00",
+            "description": "Doctoral seminar surveying of the technical side of the Information Systems (IS) research field, typically referred to as Design Science Research (DSR)."
         },
         {
             "subject": "ISM",
@@ -14521,6 +14556,13 @@
         },
         {
             "subject": "MET",
+            "code": "5530",
+            "name": "Hurricane Meteoro Impacts",
+            "units": "3.00",
+            "description": "Hurricane formation, motion, and impacts on the graduate level. Adds critical reading of the scientific and disaster literatures and quantitative problem sets to the undergraduate experience. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MET",
             "code": "5707",
             "name": "Oper Meteorology Research I",
             "units": "3.00",
@@ -15771,13 +15813,6 @@
             "name": "Form And Analysis",
             "units": "3.00",
             "description": "Study and analysis from the smaller forms of musical composition to multimovement forms."
-        },
-        {
-            "subject": "MUT",
-            "code": "4353",
-            "name": "Jazz Arranging",
-            "units": "2.00",
-            "description": "This course teaches the fundamental aspects of jazz arranging: instrumentation, transposition, section and ensemble writing, chord voicing, counterpoint, and form and analysis. The performance of an original arrangement is required as a final project."
         },
         {
             "subject": "MUT",
@@ -18235,6 +18270,13 @@
             "name": "Global Change Ecology",
             "units": "3.00",
             "description": "This course will examine the global consequences of human activities and illuminate how anthropogenic changes in the Earth system alter terrestrial, freshwater and marine ecosystems. [A] Prerequisite: PCB 3043"
+        },
+        {
+            "subject": "PCB",
+            "code": "4403C",
+            "name": "Urban Vector Bio",
+            "units": "4.00",
+            "description": "Study of urban vectors focuses on how they explore urbanized environments and affect humans, how they transmit diseases and interact with viruses and parasites, and tools to control them [A]. Prerequisites: BSC 2010, BSC 2010L, BSC2011, and BSC2011L."
         },
         {
             "subject": "PCB",
