@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1654391836,
+    "dataAsOf": 1654996559,
     "data": [
         {
             "subject": "ACG",
@@ -56,13 +56,6 @@
             "name": "Auditing",
             "units": "3.00",
             "description": "Standards and procedures of auditing financial information, ethics and responsibilities of auditors, collection and documentation of audit evidence, reporting and international auditing standards. Must be taken in the last semester of the student's program. Prerequisites: (a) Grade of 'C' or higher in ACG4101 or equivalent, and (b) 60 credits earned."
-        },
-        {
-            "subject": "ACG",
-            "code": "4931",
-            "name": "Special Topics",
-            "units": "0.00",
-            "description": "For groups of students who wish an intensive study of a particular topic or a limited number of topics not otherwise offered in the curriculum. Prerequisite: Permission of the Director of the School of Accounting."
         },
         {
             "subject": "ACG",
@@ -493,6 +486,13 @@
         },
         {
             "subject": "ANG",
+            "code": "5906",
+            "name": "Direct Individual Studies",
+            "units": "3.00",
+            "description": "Supervised readings and/or field research and training."
+        },
+        {
+            "subject": "ANG",
             "code": "5915",
             "name": "Directed Field Resea",
             "units": "0.00",
@@ -581,13 +581,6 @@
             "name": "Intro Qual Research Meth",
             "units": "3.00",
             "description": "Introduction to qualitative data collection, analysis, and documentation.  Fieldwork experiences include observation, interviewing, and utilizing non-obtrusive measures."
-        },
-        {
-            "subject": "ANT",
-            "code": "3610",
-            "name": "Language And Culture",
-            "units": "3.00",
-            "description": "Examines the relationship between language and culture, with emphasis on the linguistic structuring of perception and culture; speech styles and their relationship to the identities and inequalities associated with gender, class and ethnicity; and the politics of bilingualism and multilingual nations."
         },
         {
             "subject": "ANT",
@@ -2453,13 +2446,6 @@
         },
         {
             "subject": "BME",
-            "code": "4422",
-            "name": "Neural Computation",
-            "units": "3.00",
-            "description": "This course provides an introduction to the working principles of neurons and neural circuits with emphasis on mathematical models."
-        },
-        {
-            "subject": "BME",
             "code": "4503C",
             "name": "Medical Inst Design",
             "units": "4.00",
@@ -2502,6 +2488,13 @@
         },
         {
             "subject": "BME",
+            "code": "4940",
+            "name": "Undergraduate Internship",
+            "units": "0.00",
+            "description": "Engineering practice in biomedical applications in device manufacturing, research and development, healthcare delivery or a related area. Interns will be required to submit a pre-semester objective to the Biomedical Engineering Academic Advisor, as well as a final report and evaluation that must be completed and approved by the internship supervisor."
+        },
+        {
+            "subject": "BME",
             "code": "4949",
             "name": "BME CO-OP",
             "units": "1.00",
@@ -2534,13 +2527,6 @@
             "name": "BME Dev Design",
             "units": "3.00",
             "description": "User inputs; regulatory, ethical, societal, and environmental considerations; creativity; project management; prototype construction and testing; project feasibility; writing and oral communication. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "BME",
-            "code": "5941",
-            "name": "BME Internship",
-            "units": "1.00",
-            "description": "Engineering practice in biomedical applications at an industrial partner's site. Intern will be hired through cooperative agreement to conduct collaborative research with supervision of advisor."
         },
         {
             "subject": "BME",
@@ -2607,6 +2593,13 @@
         },
         {
             "subject": "BMS",
+            "code": "6001",
+            "name": "Genes, Molecules, and Cells",
+            "units": "5.00",
+            "description": "This course is designed to introduce the fundamental concepts of cell and molecular biology, biochemistry, and medical genetics as they relate to normal and disease processes. The topics will be covered in lectures, small group and whole class discussion. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
             "code": "6004",
             "name": "Med Mol Bio",
             "units": "3.00",
@@ -2618,6 +2611,13 @@
             "name": "Cell Med Bio and Biochem",
             "units": "3.00",
             "description": "The course covers fundamental concepts of cell biology and biochemistry, as they relate to human health and diseases. Prerequisite: Enrollment in HWCOM Graduate Certificate in Molecular and Biomedical Sciences."
+        },
+        {
+            "subject": "BMS",
+            "code": "6015",
+            "name": "Clinical Skills I",
+            "units": "4.00",
+            "description": "Clinical Skills I will focus on teaching the knowledge, skills and attitudes needed in areas such as communication, the physical examination and documentation. These skills are developed and refined using various teaching modalities and later integrated with more advanced clinical skills during the Clinical Skills II course. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "BMS",
@@ -2635,10 +2635,24 @@
         },
         {
             "subject": "BMS",
+            "code": "6067",
+            "name": "Syst Based Practice",
+            "units": "1.00",
+            "description": "This course provides the student with a fundamental understanding of the U.S. healthcare delivery systems, policies that shape healthcare, and the Quality and Safety movement. Prerequisite: Enrolled in the College of Medicine."
+        },
+        {
+            "subject": "BMS",
             "code": "6071",
             "name": "Community-Engaged Phys I",
             "units": "5.00",
             "description": "This Community-Engaged Physician I course is part of the Medicine and Society strand and encompasses the Green Family Foundation Neighborhood Health Education Learning Program (NeighborhoodHELP). This service-learning course integrates the community-engaged household visit experiences of NeighborhoodHELP with active learning class sessions. It aims to provide students the skills to assess the social determinants of health while simultaneously providing household-centered care in collaborative interprofessional teams. Students will learn the fundamentals of health education, health promotion, appropriate screening and preventive health services, and chronic disease management while having the opportunity to reflect critically on these activities during their household visits. With its emphasis on community medicine, the course also builds on concepts of population health and health disparities introduced in prior courses and culminates in a community-based group project. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6100",
+            "name": "Structure of Human Body",
+            "units": "1.00",
+            "description": "This course is designed to introduce first year medical students to essential concepts of the structure of the human body, including early human development, composition of different tissues, and organ morphology. Basic concepts of embryology, histology, and gross anatomy from the microscopic to the organ system level are taught as the foundation for an in-depth understanding of the physiology of the human body and of clinical medicine. Lectures, laboratory sessions, and case presentations will be used to deliver course objectives. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "BMS",
@@ -2649,6 +2663,13 @@
         },
         {
             "subject": "BMS",
+            "code": "6500",
+            "name": "Integrated Function-Human Body",
+            "units": "1.00",
+            "description": "The course is designed to introduce first year medical students to essential concepts of physiology and immunology.  The goal is to provide the students with a strong foundation relevant to their understanding of pathological conditions and to their future diagnostic and therapeutic decision making. Physiology is taught using an organ system approach, emphasizing the interplay of molecules, cells, tissues, organs and systems to maintain normal function of the human body. Normal and abnormal functions of the immune system are introduced. Integration of immunology with organ system physiology is emphasized. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
             "code": "6631",
             "name": "Hematop and Lymph Systems",
             "units": "3.00",
@@ -2656,10 +2677,73 @@
         },
         {
             "subject": "BMS",
+            "code": "6632",
+            "name": "Endocrine System",
+            "units": "3.00",
+            "description": "This Endocrine System course: (1) Introduces medical students to the abnormal processes and principal therapies of endocrine disorders, building upon the specific topics discussed in the course Integrated Functions of the Human Body and Structure of the Human Body; (2) Advances medical students' knowledge and comprehension of the aforementioned disorders and therapeutic modalities, including the influence and effects of gender, ethnicity, and behavior of patients on specific endocrine diseases. To provide an interactive teaching and learning environment, the course includes 'question and answer' sessions interspersed during the lectures as well as case discussions. A solid understanding of normal endocrine processes (including hormone synthesis, secretion, action, and metabolism) and anatomy and function of endocrine organs are required to successfully master this course. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
             "code": "6633",
             "name": "Cardio and Resp System",
             "units": "6.00",
             "description": "This course is an introductory learning opportunity to gain the basic concepts of cardiac and pulmonary medicine. The course will review the cardiopulmonary structures and anatomic and physiologic relationships and their integration with clinical medicine. The course will cover abnormal cardiovascular and pulmonary structures and physiology and the associated mechanisms of the related diseases. The clinical manifestations of derangements of the cardiopulmonary system will be reviewed. The student will be introduced to the diagnostic and therapeutic interventions in cardiopulmonary disease. Case-based approaches, group discussions, simulations, and didactic presentations, with some exposure to clinical skills, will be used to achieve course objectives. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6634",
+            "name": "Gastro Syst and Med Nutri",
+            "units": "4.00",
+            "description": "This course is designed to introduce second year medical students to the principles of diseases affecting the human body's digestive system.  The course will cover conditions affecting the hollow viscera (esophagus, stomach, small intestine and colon) as well as solid organs that are part of the digestive system (liver and pancreas).  Clinical cases will be used to introduce students to critical medical thinking and problem-based learning. Integration of anatomy, physiology, immunology and histology will be emphasized. Prerequisite: Enrolled in the College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6635",
+            "name": "Musculoskeletal Systems",
+            "units": "1.00",
+            "description": "This second year medical school course is designed to provide students the opportunity to learn the normal development, structure, and function of the musculoskeletal system, expanding upon the foundations from the first-year anatomy course. Common congenital and acquired pathologic conditions, as well as interpretation of diagnostic tests and basic treatment options are reviewed. The following areas are emphasized: effects of environment, nutrition, exercise, and aging on bone and joint homeostasis; radiological assessment and correlation with pathoanatomy; infectious, neoplastic, and mechanical disorders affecting the musculoskeletal system; basis of autoimmunity, rheumatologic diseases and inflammatory disorders. The course provides opportunities to learn and assess application of pathophysiologic reasoning as well as clinical, laboratory and radiologic findings to assist in differential diagnosis with review of treatment strategies. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6637",
+            "name": "Reproductive System",
+            "units": "3.00",
+            "description": "Reproductive Systems provides an overview of the development of the male and female reproductive systems with a focus on abnormalities of sexual differentiation and function, the physiology of control of the menstrual cycle, conception, infertility, menopause and pregnancy. In addition, the pathophysiology of the male reproductive system will be covered. Prerequisite: Enrolled in the College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6638",
+            "name": "Renal System",
+            "units": "1.00",
+            "description": "This course is an introduction to the study of the renal system. It will help the student integrate what they have learned in previous courses (e.g., Anatomy, Physiology, Biochemistry, Genetics, Epidemiology, Histology, and Pharmacology) and lead to an understanding of the mechanisms of diseases involving the kidneys. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6820",
+            "name": "Medical Jurisprudence",
+            "units": "1.00",
+            "description": "Medical Jurisprudence introduces students to health law concepts students will initially encounter in clinical settings and provides a framework to identify and analyze pertinent legal issues. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6826",
+            "name": "Ethical Foundation of Med",
+            "units": "1.00",
+            "description": "This course gives students a foundation in bioethics and the obligations of medical practice as coming from a social contract. It serves as the foundational course to prepare students to make daily ethical decisions related to ethical issues, challenges, and dilemmas they will encounter as students and socially accountable physicians. The course provides historical background on the social and moral foundations of modern medicine. Students review the major medical oaths and codes; work through cases; and analyze the ethical basis of decision-making by focusing on informed consent and advance care planning. They discuss the social and cultural factors in patient-doctor interaction, including implicit bias. Students are also introduced to the role and value of the humanities and arts in medicine. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6827",
+            "name": "Foundations for the CEP",
+            "units": "1.00",
+            "description": "This course will serve as an introduction to the community engaged physician course series, the longitudinal service-learning program that encompasses the Green Family Foundation Neighborhood Health Education Learning Program (NeighborhoodHELP). It aims to provide a foundation of empirical knowledge for understanding and promoting health in communities and working with vulnerable populations. The course places special emphasis on cultural humility, health equity, and the social determinants of health. Students also begin to develop collaborative skills to work effectively as part of interprofessional teams. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "BMS",
+            "code": "6891",
+            "name": "Prof Beh & Humanism",
+            "units": "1.00",
+            "description": "This course has two components: Professional Behavior I and Humanism. Professional Behavior I is a course within the Professional Development strand designed to introduce and teach awareness of certain values, emotions, attitudes, and behaviors, as well as to help students develop skills for self-reflection. This course aims to prepare the future physician emotionally for the many diverse psychological experiences associated with the clinical setting and professional life. It challenges students to develop an awareness of their biases and behavioral and personal issues. It also nurtures students\u00c2\u00bf understanding of the emotional stress associated with the practice of medicine, and how these personal stressors can impact patient care and health outcomes. The Humanism component of the course introduces students to mindfulness practices and asks them to reflect on compassion, empathy, the core professional values of medicine, and their own personal values as they relate to their current and future work in health care. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "BMS",
@@ -2674,20 +2758,6 @@
             "name": "Core Concepts in Medicine",
             "units": "2.00",
             "description": "The major themes of Osler Friday are student-driven inquiry, learning and teaching with integration of the 6 core competencies of medical education. Problem-based learning in small groups followed by large group consultation with specialists will serve as the primary learning format. Individual and pair assignments in critical appraisal, clinical application of statistics, and a group assignment in case development will also support the course learning objectives. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
-        },
-        {
-            "subject": "BOT",
-            "code": "3154",
-            "name": "Local Flora",
-            "units": "3.00",
-            "description": "Introduction to the taxonomy and ecology of common native, cultivated, and exotic plant species in southern Florida. Laboratory observation of the gross features of vascular plants and practice in the use of keys for identification. Basic ecology of principle plant communities of Southern Florida. Field trips."
-        },
-        {
-            "subject": "BOT",
-            "code": "3154L",
-            "name": "Local Flora Lab",
-            "units": "1.00",
-            "description": "Introduction to the taxonomy and ecology of common native, cultivated, and exotic plant species in southern Florida. Laboratory observation of the gross features of vascular plants and practice in the use of keys for identification. Basic ecology of principle plant communities of Southern Florida. Field trips."
         },
         {
             "subject": "BOT",
@@ -3783,6 +3853,13 @@
         },
         {
             "subject": "CHM",
+            "code": "1025L",
+            "name": "Fundamentals Chem Lab",
+            "units": "1.00",
+            "description": "This course provides laboratory experiences designed to develop the students' skills in basic chemical laboratory techniques and practice (lab fees assessed)."
+        },
+        {
+            "subject": "CHM",
             "code": "1033",
             "name": "Survey Of Chemistry",
             "units": "4.00",
@@ -3822,13 +3899,6 @@
             "name": "Gen Chem Lab II",
             "units": "1.00",
             "description": "Continuation of General Chemistry I (CHM 1045). Fundamental principles of chemistry: thermodynamics, solutions, kinetics, equilibrium and electrochemistry. Concurrent registration in both lecture and laboratory is required. (Lab fees assessed)"
-        },
-        {
-            "subject": "CHM",
-            "code": "2200",
-            "name": "Survey Organic Chem",
-            "units": "3.00",
-            "description": "A basic one-semester survey course in organic chemistry for non-majors presenting a broad background in the reactions and structures of organic molecules. Does not fulfill requirements for chemistry, biology, or pre-med majors. Laboratory must be taken concurrently with the course. (Lab fees assessed)"
         },
         {
             "subject": "CHM",
@@ -4123,13 +4193,6 @@
             "name": "Env Organic Chem",
             "units": "3.00",
             "description": "Characteristics, origin, fate and transformation of organic compounds in air, water, sediments and biota. Prerequisites: CHM 2211, CHM 3411, or permission of the instructor."
-        },
-        {
-            "subject": "CHM",
-            "code": "6480",
-            "name": "Quantum Mechanics",
-            "units": "3.00",
-            "description": "Introduction to quantum mechanics. The Schrodinger equation and its solutions, approximation methods, spin, symmetry, structure of atoms and molecules. Prerequisites: CHM 3411 or permission of the instructor."
         },
         {
             "subject": "CHM",
@@ -10041,10 +10104,31 @@
         },
         {
             "subject": "GMS",
+            "code": "6220",
+            "name": "Molecular Cell Biology",
+            "units": "6.00",
+            "description": "The course gives graduate students an introduction to fundamental concepts in biochemistry, cellular and molecular biology, and genetics with an emphasis on medically-relevant themes. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
+            "code": "6605",
+            "name": "Basic Human Anatomy",
+            "units": "3.00",
+            "description": "This course gives graduate students an introduction to basic concepts of human anatomy, including embryology, histology, gross anatomy and neuroanatomy. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
             "code": "6922",
             "name": "Prof Skl Med Scie I",
             "units": "1.00",
             "description": "The course provides students with a small structured learning environment in which to analyze the relationships between concepts and develop the ability to evaluate and integrate information. Prerequisite: Enrollment in the HWCOM Graduate Certificate Program in Molecular and Biomedical Sciences."
+        },
+        {
+            "subject": "GMS",
+            "code": "6940",
+            "name": "Supervised Teaching",
+            "units": "1.00",
+            "description": "Students will assist the faculty members who teach either graduate or medical students. Prerequisite: HWCOM Graduate School Enrollment."
         },
         {
             "subject": "GMS",
@@ -12960,10 +13044,94 @@
         },
         {
             "subject": "LAW",
+            "code": "5000",
+            "name": "Contracts",
+            "units": "4.00",
+            "description": "This course introduces and explores the function of contracts in a free enterprise economy. It covers the evolution and application of common law doctrines and, where applicable, those provisions of the Uniform Commercial Code governing the contracts process, including mutual assent, consideration, reliance, conditions,\r\ninterpretation of contract language, performance and breach, and remedies. The course may also cover impossibility and frustration, beneficiaries, and assignments."
+        },
+        {
+            "subject": "LAW",
             "code": "5072",
             "name": "Bus Law for Engineers",
             "units": "3.00",
             "description": "Focused on the formation, governance, operation, and legal protection of businesses. Coverage includes contracts, malpractice, products liability, employment law, and intellectual property law."
+        },
+        {
+            "subject": "LAW",
+            "code": "5100",
+            "name": "Criminal Law",
+            "units": "3.00",
+            "description": "The purpose of the course is to introduce the principles and objectives of the criminal law and to explore its utility and limitations as a means of social control. The course covers general common law elements and principles, including actus reus and mens rea; general defenses, including insanity, ignorance and\r\nmistake, duress, self-defense, defense of others and of property, necessity, and entrapment; the criminal capacity of children and of corporations; theories of liability for various parties to crime; and vicarious strict liability."
+        },
+        {
+            "subject": "LAW",
+            "code": "5259",
+            "name": "Intro International & Comp Law",
+            "units": "3.00",
+            "description": "This course introduces students to public international law, international economic law, and comparative law. Exposure to the law of nations in the international component of the course poses critical jurisprudential questions on the nature of law, the role of enforceability, and the prospects for constructing an international society. The comparative component compares and contrasts the\r\ncommon law system that prevails in the United States to civil law systems, especially as they have evolved in Latin America. Together the course provides the foundation for later advanced study in these and other topics as part of the upper level curriculum."
+        },
+        {
+            "subject": "LAW",
+            "code": "5501",
+            "name": "Constitutional Law",
+            "units": "4.00",
+            "description": "This course deals with the fundamental principles of American constitutionalism. It considers the relationships between the branches of the federal government within the separation of powers and the relationship of the national government with the states within our federalism. It focuses on the institution of the Supreme\r\nCourt and its power of judicial review and how that power is exercised to interpret the Constitution. The various powers of Congress are studied, especially the commerce clause power, including its negative effects on the state police power. The executive powers of the President, both domestic and foreign, are explored. The constitutional relationship between the individual and the government is analyzed within the context of the due process and equal protection clauses of the fourteenth amendment."
+        },
+        {
+            "subject": "LAW",
+            "code": "5700",
+            "name": "Torts",
+            "units": "4.00",
+            "description": "This course examines the body of law directed toward the compensation of individuals for injuries to their protected legal interests. It includes liability for negligence and for intentional interference with person and property, and liability without fault (strict liability). Covered are doctrines including duty, breach of\nduty, causation, damages, and defenses."
+        },
+        {
+            "subject": "LAW",
+            "code": "5792",
+            "name": "Legal Skills & Values I",
+            "units": "3.00",
+            "description": "The Legal Skills and Values Program at the College of Law combines demanding traditional instruction in legal research and writing with an introduction to other lawyering skills, like interviewing and counseling, and to issues of  professionalism. It is a required three-semester curriculum that will run throughout the first year, and must be completed by the end of the fourth semester by full-time students and by the end of the fifth semester by parttime students. It is premised on the beliefs that 1) strong research and writing skills are vital to lawyers in all areas of practice; 2) other lawyering skills should be introduced early in a student's\r\nacademic career; and 3) concerns for the ethical sensitivity and civility of lawyers demand an early and recurring emphasis."
+        },
+        {
+            "subject": "LAW",
+            "code": "6010",
+            "name": "Sales",
+            "units": "2.00",
+            "description": "This course covers contracts for the sale of goods under Article 2 of the Uniform Commercial Code. Some consideration will also be given to leasing of goods under Article 2A of the Code."
+        },
+        {
+            "subject": "LAW",
+            "code": "6038",
+            "name": "Financial Technology Law",
+            "units": "2.00",
+            "description": "The course will provide foundational information on various transformative technologies, their historical development and current and future uses domestically and internationally in the financial sector. Students will learn an extensive vocabulary of terms and concepts related to the creation, maintenance, controversies, regulation, and limits of these technologies. Students will apply this knowledge to discuss, analyze, and predict the outcome of legal issues related to them and government regulation surrounding them. Students will also develop competency in concepts related to cryptocurrencies, blockchain and its uses in the financial sector in the U.S. and elsewhere. This course satisfies the international graduation requirement and is part of the entrepreneurship course list of the Graduate Certificate in Intellectual Property."
+        },
+        {
+            "subject": "LAW",
+            "code": "6051",
+            "name": "Secured Transactions",
+            "units": "2.00",
+            "description": "This course covers the creation, perfection, and enforcement of security interests in personal property under Article 9 of the Uniform Commercial Code, including priorities among conflicting interests in the same property and choice of law problems. Some discussion of bankruptcy law as it affects the interests of secured\r\ncreditors may also be included."
+        },
+        {
+            "subject": "LAW",
+            "code": "6060",
+            "name": "Business Organizations",
+            "units": "4.00",
+            "description": "This is a basic course on state and federal law governing incorporated business enterprises, partnerships and limited liability companies."
+        },
+        {
+            "subject": "LAW",
+            "code": "6103",
+            "name": "International Criminal Law",
+            "units": "2.00",
+            "description": "The course explores international crimes, such as genocide, crimes against humanity, torture, narcotics trafficking, terrorism, and war crimes. It focuses on contemporary responses by way of international criminal jurisdiction claimed by individual states, bilateral cooperation on extradition and evidence gathering, prosecutions before ad hoc international tribunals, and the development of an international body of criminal law and procedure.  Particular attention is paid to the question of jurisdiction, including the reach of U.S. Constitutional protections to investigations and law enforcement activities overseas.  Special consideration is given to international terrorism, the role of human rights in international criminal law, and the establishment of an international criminal court."
+        },
+        {
+            "subject": "LAW",
+            "code": "6105",
+            "name": "Death Penalty Law",
+            "units": "2.00",
+            "description": "This course will introduce a basic outline of the many components of the death penalty post Furman, including the procedural regulations placed upon litigation. Topics will include Eighth Amendment challenges (e.g. juveniles, the mentally retarded), jury sentencing, racial disparities, the prosecution function, effective defense representation, and international law. There will be a particular emphasis on the sentencing phase of death penalty cases. Prerequisites: Foundation courses completed. Corequisite: Evidence preferred but not required."
         },
         {
             "subject": "LAW",
@@ -12981,6 +13149,97 @@
         },
         {
             "subject": "LAW",
+            "code": "6263",
+            "name": "Int'l Human Rit Law",
+            "units": "2.00",
+            "description": "This course is an introduction to the international law protecting human rights. It examines the theory and the history of the field, together with key United Nations documents. International treaty and non-treaty mechanisms for protecting and promoting human rights, including regional systems and the role of nongovernmental organizations, are covered."
+        },
+        {
+            "subject": "LAW",
+            "code": "6264",
+            "name": "Immigration Law",
+            "units": "2.00",
+            "description": "This course examines the major aspects of the Immigration and Nationality Act. The interrelationship between the administrative agencies empowered to execute the Immigration and Nationality Act's mandate will be studied. Major attention will be focused on the immigrant and nonimmigrant visa system, political asylum and\nrefugees, exclusion and deportation of the foreign-born, and naturalization. Policy implications behind the statute and judicial interpretations are addressed."
+        },
+        {
+            "subject": "LAW",
+            "code": "6302",
+            "name": "Federal Courts",
+            "units": "3.00",
+            "description": "The course examines the power and role of the federal courts as defined by the United States Constitution, federal statutes and judicial decisions. Among the topics examined are federal question, diversity and civil rights jurisdiction, habeas corpus, immunities of state and local governments from suit, and abstention."
+        },
+        {
+            "subject": "LAW",
+            "code": "6316",
+            "name": "Int'l Commercial Arbitration",
+            "units": "2.00",
+            "description": "The course covers the basics of the law and practice of international commercial arbitration, including: drafting arbitration clauses in international transactions and enforcement of arbitral agreements; preparing and presenting cases before arbitral tribunals, including issues of witnesses, experts, discovery and evidence; recognition, enforcement and setting aside of arbitral awards; the major international arbitral institutions and their rules of procedure; the relationship between international arbitration and national court systems; and various treaties and conventions dealing with international arbitration."
+        },
+        {
+            "subject": "LAW",
+            "code": "6330",
+            "name": "Evidence",
+            "units": "3.00",
+            "description": "This course addresses the law of evidence, including: hearsay, judicial notice, burden of proof, and presumptions; functions of judge and jury; competency and privileges of witnesses; and, exclusion of testimony of witnesses and documents."
+        },
+        {
+            "subject": "LAW",
+            "code": "6350",
+            "name": "Law & Procedure: US & Florida",
+            "units": "4.00",
+            "description": "The course will function as a capstone course reviewing differences and distinctions between state law and general common law principles in certain fundamental areas of law. The differences and distinctions will focus on those areas determined to be of significance to the Florida Board of Bar Examiners, as indicated by the areas typically tested on the Florida and Multistate portions of the bar examination. Prerequisites: Offered to 3L and 4L students."
+        },
+        {
+            "subject": "LAW",
+            "code": "6361",
+            "name": "Pre-Trial Practice",
+            "units": "2.00",
+            "description": "This course covers trial preparation from client interview to the courthouse steps. The course considers theory of the case, fact investigation, pleadings, discovery and disclosure (depositions, interrogatories, requests for production), motion practice, settlement conferences and negotiations, and final pretrial preparation and professionalism values."
+        },
+        {
+            "subject": "LAW",
+            "code": "6363",
+            "name": "Trial Advocacy",
+            "units": "3.00",
+            "description": "The focus of this course is on trial tactics and techniques. All students participate as counsel and perform the assignments. All phases of an actual trial are examined, including direct and crossexamination of witnesses, and opening and closing arguments. Corequisite: Evidence."
+        },
+        {
+            "subject": "LAW",
+            "code": "6372",
+            "name": "Adv Appellate Advocacy",
+            "units": "2.00",
+            "description": "Students, working in two-person teams, will prepare an appellate brief and deliver an appellate oral argument in a competition format. Students will receive substantial classroom instruction in persuasive brief writing and oral advocacy as well as the relevant appellate rules and procedure topics. Prerequisite: Students on academic supervision may enroll only with approval of course instructor and Dean of Academic Support"
+        },
+        {
+            "subject": "LAW",
+            "code": "6425",
+            "name": "Construction Law",
+            "units": "2.00",
+            "description": "This course will consider legal issues encountered in construction projects, beginning with the role of the construction lawyer and review of duties and liabilities of the construction team - Architect, Engineer, Owner, Contractor, Construction Manager. The course includes discussion of the bidding process (including bid protest and bid awards), the contracting process with emphasis on key contract provisions, contract performance issues, litigation liability and damage issues, and bonding issues."
+        },
+        {
+            "subject": "LAW",
+            "code": "6430",
+            "name": "Wills and Trusts",
+            "units": "3.00",
+            "description": "This course considers the intergenerational transfer of wealth in the United States is controlled by both statutory and common law principles. Competing views of the individual's freedom of disposition and state power both to channel and to tax property have led to an interesting and complex array of legal devices and\ninstitutions. These include statutory intestacy and elective share provisions, wills, and trusts. Related topics to be addressed will include planning for incapacity, future interests in property, powers of appointment, life insurance, and introductory aspects of trust and estate administration."
+        },
+        {
+            "subject": "LAW",
+            "code": "6460",
+            "name": "Land Use Planning & Control",
+            "units": "2.00",
+            "description": "Since the 1920s, our society has regulated urban and rural uses of land in an attempt to encourage the prudent allocation of our land resources, thus this course undertakes an intensive analysis of the traditional regulatory techniques, including general and specific planning, zoning, and subdivision mapping, and relates them to the practical and political aspects of the land use entitlement process and to resolve conflicting preferences."
+        },
+        {
+            "subject": "LAW",
+            "code": "6471",
+            "name": "Environmental Law",
+            "units": "3.00",
+            "description": "This is a survey of environmental regulation, addressing the environmental policies, rights, and remedies provided by the common law and various federal statues. The course focuses on the National Environmental Policy Act, the Clean Air Act, the\r\nComprehensive Environmental Response, Compensation, and Liability Act, and various other statutes and common law doctrines related to hazardous wastes and toxic substances. Throughout the course, students will be asked to pay attention to the regulatory and administrative structures invoked by these statutes and doctrines."
+        },
+        {
+            "subject": "LAW",
             "code": "6520",
             "name": "Administrative Law",
             "units": "2.00",
@@ -12995,10 +13254,52 @@
         },
         {
             "subject": "LAW",
+            "code": "6561",
+            "name": "Sec Law Enfrcmnt",
+            "units": "2.00",
+            "description": "Course is designed to the study of federal statutes, case law, and regulations, which are designed to protect investors from fraud. Prerequisites: Securities Regulations, and The Law of Corporate Finance. Corequisite: Business Organizations."
+        },
+        {
+            "subject": "LAW",
+            "code": "6574",
+            "name": "International Intell Property",
+            "units": "2.00",
+            "description": "This course provides students with an overview of intellectual property (IP) law in the global context, commencing with a survey of patent, copyright and trademarks. We will learn about the multilateral institutions that address IP issues, and study the leading multilateral IP treaties, including the World Trade Organization Agreement on Trade-Related Intellectual Property Rights, the Paris Convention for the Protection of Industrial Property, the Berne Convention for the Protection of Literary and Artistic Works, and other international agreements that facilitate the protection of IP interests in multiple countries. In addition to studying domestic and international mechanisms for the protection of IPRs, we will review current issues in International IP law and policy. No technical background is required for this course."
+        },
+        {
+            "subject": "LAW",
+            "code": "6584",
+            "name": "Election Law",
+            "units": "2.00",
+            "description": "This course examines federal and state law regulating the conduct of elections and the financing of campaigns. It includes: aspects of federal and state constitutional law on speech, association, and equal protection; state law on who gets to vote and who gets voted for; and problems of apportionment, gerrymandering, race-conscious districting under the Voting Rights Act, and party governance. With respect to campaign finance, it considers: how much and what kinds of legal regulation are appropriate regarding parties, candidates,\r\nindependents, political action committees, corporations, unions, and individuals; and the appropriate role of the courts."
+        },
+        {
+            "subject": "LAW",
             "code": "6591",
             "name": "Family Ed Rights",
             "units": "3.00",
             "description": "The Family Education Rights and Privacy Act is a federal law that protects the privacy of student records of any educational institution that receives federal Department of Education funds. FERPA prohibits the federal funding of institutions that release education records without the consent of parents or eligible students. FERPA compliance is complex, because the law contains numerous exceptions applicable to certain individuals and to different situation, as well as several gray areas. The course explores these complexities and the difficulties of compliance in detail."
+        },
+        {
+            "subject": "LAW",
+            "code": "6600",
+            "name": "Federal Income Tax",
+            "units": "3.00",
+            "description": "This course offers an introduction to the fundamental principles of\r\nfederal income taxation, particularly as applied to individuals,\r\nincluding the concepts of gross income, identification of the proper\r\ntaxpayer, deductions, income tax accounting, capital gains and losses, deferred payment sales and non-recognition transactions. Consideration will be given to issues of tax policy and tax planning techniques."
+        },
+        {
+            "subject": "LAW",
+            "code": "6702",
+            "name": "Products Liability",
+            "units": "2.00",
+            "description": "This course is a survey of the history, growth and development of the law regarding injury to persons and property resulting from the use of defective products. The course will examine the various legal theories of fraud, warranty, implied warranties of fitness and merchantability, negligence, and strict liability."
+        },
+        {
+            "subject": "LAW",
+            "code": "6710",
+            "name": "Family Law",
+            "units": "2.00",
+            "description": "This course examines state regulation of sexual and marital relationships, including the conflict between the doctrines of family privacy and state intervention in the marital relationship."
         },
         {
             "subject": "LAW",
@@ -13016,10 +13317,45 @@
         },
         {
             "subject": "LAW",
+            "code": "6730",
+            "name": "Admiralty Law",
+            "units": "2.00",
+            "description": "This course is an introduction to the law of the sea under federal and international law. Topics covered will include rules governing liability for maritime collision, rights and duties arising from personal injury or death of a seaman, liabilities of ship owners and insurers, maritime liens and mortgages, and special problems caused by involvement of governments as parties to maritime transactions and litigation. Other topics will include admiralty practice and procedure and maritime environmental law."
+        },
+        {
+            "subject": "LAW",
             "code": "6750",
             "name": "Professional Responsibility",
             "units": "3.00",
             "description": "This course will examine the law of professional responsibility, including professionalism and malpractice risk management, with significant emphasis on the rules of ethics governing lawyers and judges. The objective is to give students an appreciation for the challenges they will face as practitioners, and a working knowledge of the principles of professionalism and the ethics rules that they will use in their daily practices."
+        },
+        {
+            "subject": "LAW",
+            "code": "6754",
+            "name": "PIWBP",
+            "units": "1.00",
+            "description": "To enhance a law student's understanding of the legal profession through an intentional exploration of the values, guiding principles, and well-being practices considered foundational to the practice of law. Prerequisite: Recommended - Professional Responsibility."
+        },
+        {
+            "subject": "LAW",
+            "code": "6780",
+            "name": "Legal Analysis",
+            "units": "1.00",
+            "description": "This course will advance students' legal analysis, legal writing and test taking skills.  Students will address legal methods useful in developing a full understanding of doctrinal rules and of how those rules operate within legal analytical frameworks.  There will be regular practice exams, in-class writing assignments and individual conferences."
+        },
+        {
+            "subject": "LAW",
+            "code": "6783",
+            "name": "Adv Legal Analysis",
+            "units": "2.00",
+            "description": "Advanced legal analysis presents students with the opportunity to refine the core skills necessary for success on the bar exam. After an introduction to the testing methods used on the bar exam, students will learn optimal ways to prepare for their bar study. Students will then complete numerous multiple choice and essay questions, similar to those used on the Multistate Bar Examination and on the state day of the bar, and receive extensive feedback from faculty regarding their strengths and weaknesses. The course culminates in an examination designed to stimulate the actual bar exam. Prerequisite: Open to students in the fall semester of the final year of study at the College of Law."
+        },
+        {
+            "subject": "LAW",
+            "code": "6797",
+            "name": "Legal Skills & Values III",
+            "units": "2.00",
+            "description": "This course will advance students legal skills in analysis, research, objective writing, persuasive writing, and oral communications, and also raise new professionalism issues. In this course students will interview and counsel a client regarding a dispute and then research the legal issues raised by the dispute. Students will write a Complaint or Answer, a Demand Letter or Response Letter, an\r\nobjective memo to a senior attorney describing the legal issues and their proposed course of action, and then prepare or respond to discovery requests. Students will mediate with opposing counsel to resolve the dispute, and will ultimately write a brief in support of their client's position."
         },
         {
             "subject": "LAW",
@@ -13030,10 +13366,38 @@
         },
         {
             "subject": "LAW",
+            "code": "6800",
+            "name": "IAC",
+            "units": "2.00",
+            "description": "Students selected as members of the international arbitration competition will participate in activities geared to learn about the use of international commercial law, international investment law, and arbitration for resolution of international disputes. The competition is structured in two phases: the writing of memoranda for the claimant and the respondent and the hearing of oral argument based upon the memoranda - both settled by arbitral experts in the issues considered. The forensic and written exercises require determining questions of contract - flowing from a transaction relating to the sale or purchase of goods under the United Nations Convention on Contracts for the International Sale of Goods and other uniform international commercial or investment law - in the context of an arbitration of a dispute under specified Arbitration Rules. Since the teams and the arbitrators are usually from both common and civil law countries, students will be permitted to learn from approaches taken by lawyers from other systems. May be repeated."
+        },
+        {
+            "subject": "LAW",
+            "code": "6806",
+            "name": "LSV: LLM",
+            "units": "2.00",
+            "description": "This course provides graduate law students with essential training on legal research, writing, and analysis to understand common documents found in the practice of law in the United States. It covers basic aspects of professional communication, including legal correspondence and memorandum writing."
+        },
+        {
+            "subject": "LAW",
             "code": "6823",
             "name": "Law Prac Tech",
             "units": "2.00",
             "description": "Technology and its use is changing the practice of law. Law Practice Technology will expose students to the theory and use of technology in legal practice, examining the role different technologies and their use in supporting legal practice and providing legal representation. This course will examine: litigation technologies; document management; practice management; electronic discovery; project management; eLawyering and virtual law practice; web design basics; and the ethical, security and privacy issues related to the development and use of technology in legal practice. Prerequisite: Civil Procedure."
+        },
+        {
+            "subject": "LAW",
+            "code": "6824",
+            "name": "Intl Legal Research",
+            "units": "1.00",
+            "description": "International and Foreign Legal Research aims to provide students with a basic foundation to competently research international, comparative and foreign law. This course will familiarize students with the basic sources of international law and the national law of key foreign jurisdictions, and help students develop the necessary skills to efficiently research transnational legal questions. Prerequisite: Cannot be taken simultaneously with LSV 2."
+        },
+        {
+            "subject": "LAW",
+            "code": "6936",
+            "name": "Seminars",
+            "units": "2.00",
+            "description": "Seminars provide an opportunity for intensive analysis of legal and policy issues in a specialized area of study, culminating in a multi-draft research paper of twenty-five or more pages (in order to satisfy the graduation writing requirement). Seminars require a considerable investment in time by students and faculty, and a corresponding responsibility for thorough preparation and participation by all members of the seminar. Seminars may also include a final examination."
         },
         {
             "subject": "LAW",
@@ -13048,6 +13412,13 @@
             "name": "Criminal Externship Placement",
             "units": "2.00",
             "description": "To enable students to gain a better understanding of the major issues involved with criminal law practice and the criminal justice system. Prerequisite or Corequisite: Professional Responsibility."
+        },
+        {
+            "subject": "LAW",
+            "code": "6948",
+            "name": "Business Tech Clinic",
+            "units": "4.00",
+            "description": "Law students provide basic corporate legal assistance to for profit small businesses, entrepreneurs, and non-profit organizations that cannot afford to pay market rates for legal services. Prerequisites: 45 credits, Corequisite: Professional Responsibility, Business Organization or Patent Law or Trademark Law"
         },
         {
             "subject": "LAW",
@@ -13072,6 +13443,13 @@
         },
         {
             "subject": "LAW",
+            "code": "7200",
+            "name": "US Law I",
+            "units": "2.00",
+            "description": "This course introduces graduate students to the United States legal system. It covers fundamental aspects of legal analysis and argumentation, the sources of law, the reading of cases and statutes in the common law tradition, and the structure of the legal system in the United States today. It addresses general approaches to constructing legal arguments, the use of primary and secondary sources in the United States, the development of United States law, the role and function of various institutions in the context of federalism, the legal process, the legal profession, and legislative and administrative developments."
+        },
+        {
+            "subject": "LAW",
             "code": "7268",
             "name": "Int'l Env Law",
             "units": "2.00",
@@ -13083,6 +13461,13 @@
             "name": "Complex Litigation",
             "units": "2.00",
             "description": "Students learn how the federal rules of civil procedure, particularly in the area of complex litigation, can become instruments of policy.  Topics include class actions and multi-district litigation."
+        },
+        {
+            "subject": "LAW",
+            "code": "7364",
+            "name": "Advanced Trial Advocacy",
+            "units": "3.00",
+            "description": "This course focuses on advanced elements, concepts, and strategies in presenting complex cases to a jury, namely jury selection, presentation of scientific evidence, and examination of expert witness. Prerequisites: Trial Advocacy, Evidence, Approval by the Director of the Trial Advocacy Program."
         },
         {
             "subject": "LAW",
@@ -14434,6 +14819,13 @@
             "name": "Comm-Engaged Phys II",
             "units": "1.00",
             "description": "This course is a continuation of the Community Engaged Physician I course and the longitudinal NeighborhoodHELP service-learning program that reinforces concepts offered earlier in the Medicine and Society strand. Through NeighborhoodHELP, the course offers opportunities for students to apply what they have learned and to reflect critically on their service-learning experiences. During their household visits, students will address the social and health needs of households, develop care plans in interprofessional teams, and integrate learning from their Clinical Medicine courses. Prerequisite: Enrolled in College of Medicine."
+        },
+        {
+            "subject": "MDC",
+            "code": "6103",
+            "name": "Comm-Engaged Phys III",
+            "units": "1.00",
+            "description": "This course is a continuation of the Community Engaged Physician II course and the longitudinal NeighborhoodHELP service-learning program that reinforces concepts offered earlier in the Medicine and Society strand. Through NeighborhoodHELP, the course offers opportunities for students to apply what they have learned and to reflect critically on their service-learning experiences. During their household visits, students will address the social and health needs of households, develop care plans in interprofessional teams, and integrate learning from their Clinical Medicine courses. Prerequisite: Enrolled in College of Medicine."
         },
         {
             "subject": "MDC",
@@ -16432,6 +16824,13 @@
         },
         {
             "subject": "MVS",
+            "code": "1312",
+            "name": "Prin Applied Viola",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on viola as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "1411",
             "name": "Major Applied Violin",
             "units": "2.00",
@@ -16443,6 +16842,13 @@
             "name": "Major Applied Viola",
             "units": "2.00",
             "description": "Individual instruction in applied music on viola as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "1413",
+            "name": "Major Applied Cello",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on cello as a major instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -16765,6 +17171,13 @@
             "name": "Prin Appl Saxophone",
             "units": "2.00",
             "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "1415",
+            "name": "Major Appl Saxophone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -17346,13 +17759,6 @@
             "name": "Hlth Assess and Promo Nsg",
             "units": "4.00",
             "description": "Health and physical assessment of diverse individuals and health promotion; disease and injury prevention, evidence-based teaching/learning in multicultural environment. Prerequisite:  Admission to Nursing Major"
-        },
-        {
-            "subject": "NUR",
-            "code": "3119",
-            "name": "Nsg Concepts and Issues",
-            "units": "3.00",
-            "description": "Concepts and issues in professional nursing, including historical and theoretical aspects, standards, and use of communication, collaboration, advocacy, and technology within a global environment. Prerequisite: Admission to Nursing Major"
         },
         {
             "subject": "NUR",
@@ -18987,6 +19393,13 @@
         },
         {
             "subject": "PHC",
+            "code": "7017",
+            "name": "Adv Epi Health Disparity",
+            "units": "3.00",
+            "description": "Provides advanced understanding of health disparity - disparity indicators, complex measurement methods and applications, theoretical frameworks, and analysis and evaluation of programs/policy."
+        },
+        {
+            "subject": "PHC",
             "code": "7050",
             "name": "Adv Biostat I",
             "units": "3.00",
@@ -20149,13 +20562,6 @@
         },
         {
             "subject": "PUP",
-            "code": "4103",
-            "name": "South Florida Urban Lab",
-            "units": "3.00",
-            "description": "An in-depth exploration of major public issues confronting urban South Florida with a focus on developing and implementing multi-sectoral solutions."
-        },
-        {
-            "subject": "PUP",
             "code": "4110",
             "name": "Public Service Budget Fin",
             "units": "3.00",
@@ -20167,13 +20573,6 @@
             "name": "Global Urb Inequality",
             "units": "3.00",
             "description": "Compares public policies and organizational techniques for responding to urban poverty and inequality with equitable, sustainable economic development measures."
-        },
-        {
-            "subject": "PUP",
-            "code": "4834",
-            "name": "Urban Resilience Sustain",
-            "units": "3.00",
-            "description": "Examines urban responses to the challenges of climate change from around the globe with an emphasis on local adaptation of successful techniques and approaches."
         },
         {
             "subject": "PUR",
@@ -21238,13 +21637,6 @@
             "name": "Child Welfare",
             "units": "3.00",
             "description": "This course will explore professional practice and policy issues in child welfare with emphasis on interventions in child maltreatment."
-        },
-        {
-            "subject": "SOW",
-            "code": "4905",
-            "name": "Individual Study",
-            "units": "0.00",
-            "description": "Individually selected program of supervised study related to specific social work issues. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "SOW",
@@ -23317,20 +23709,6 @@
             "name": "Human Anatomy Demo",
             "units": "1.00",
             "description": "Survey of organ systems of the human body with major emphasis on the skeletal, muscular, and peripheral nervous system. Guided examination of prosected human cadavers."
-        },
-        {
-            "subject": "ZOO",
-            "code": "3753",
-            "name": "Histology",
-            "units": "3.00",
-            "description": "Microscopic anatomy of cells, tissues and organs. Prerequisites:  BSC2010, CHM2210, CHM2211 Corequisite: ZOO 3753L or Instructor permission"
-        },
-        {
-            "subject": "ZOO",
-            "code": "3753L",
-            "name": "Histology Lab",
-            "units": "1.00",
-            "description": "Microscopic anatomy of cells, tissues and organs."
         },
         {
             "subject": "ZOO",
