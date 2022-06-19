@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1654996559,
+    "dataAsOf": 1655601392,
     "data": [
         {
             "subject": "ACG",
@@ -2348,13 +2348,6 @@
         },
         {
             "subject": "BCN",
-            "code": "6935",
-            "name": "Sem Constr Mgt",
-            "units": "3.00",
-            "description": "Advanced study of problems, trends, and issues in a time of rapid change in building and management technology. Topics selected or developed by class."
-        },
-        {
-            "subject": "BCN",
             "code": "6971",
             "name": "Thesis",
             "units": "1.00",
@@ -3206,13 +3199,6 @@
             "name": "Machine Learning",
             "units": "3.00",
             "description": "Decision trees, Bayesian learning reinforcement learning as well as theoretical concepts such as inductive bias, the PAC learning, minimum description length principle."
-        },
-        {
-            "subject": "CAP",
-            "code": "5627",
-            "name": "Affect Intelligent Agent",
-            "units": "3.00",
-            "description": "Design and implementation methods using artificial intelligence (AI) techniques, human-computer interaction (HCI) principles, emotion theories; applications, e.g. health informatics, education, games."
         },
         {
             "subject": "CAP",
@@ -7795,7 +7781,7 @@
         {
             "subject": "EGN",
             "code": "6900",
-            "name": "Meth Prac Eng & Comp Edu",
+            "name": "ECED Res Methods",
             "units": "3.00",
             "description": "Foundational course in research methods and practices of engineering and computing education researchers, focusing on research design decisions, research quality, ethical implications, and publishing."
         },
@@ -8491,13 +8477,6 @@
             "name": "Theory & Pop Culture",
             "units": "3.00",
             "description": "Various theoretical approaches applied to popular culture artifacts such as ad campaigns, music, artwork, cartoons, moving images, etc. Prerequisites: ENC 1102 or ENC 2304."
-        },
-        {
-            "subject": "ENG",
-            "code": "4043",
-            "name": "Contemp Lit Theory",
-            "units": "3.00",
-            "description": "An examination of the works of recent literary theorists."
         },
         {
             "subject": "ENG",
@@ -11525,6 +11504,13 @@
         },
         {
             "subject": "IDS",
+            "code": "3073",
+            "name": "Understand Lib Stud Major",
+            "units": "3.00",
+            "description": "This course guides majors on the journey to designing their own subject-matter and intellectual focus in one of the three Liberal Studies undergraduate degrees."
+        },
+        {
+            "subject": "IDS",
             "code": "3183",
             "name": "Hlth w/o Bdrs",
             "units": "3.00",
@@ -12680,6 +12666,13 @@
         },
         {
             "subject": "JRM",
+            "code": "6300",
+            "name": "Intro to American Law",
+            "units": "3.00",
+            "description": "This is a required course for all students in the J.M. program. It provides a basic overview of the U.S. legal system. An effort is made to include broad coverage of important areas of American law, including constitutional law, criminal law and procedure, environmental and natural resources law, and family law. Students will be introduced to some of the most important cases in U.S. legal history. Prerequisites: Juris Masters students only"
+        },
+        {
+            "subject": "JRM",
             "code": "6541",
             "name": "Leg Develop Disability",
             "units": "3.00",
@@ -12691,6 +12684,20 @@
             "name": "Leg Develop Education",
             "units": "4.00",
             "description": "This course presents the business and human resources professional with the emerging legal developments and regulatory standards governing such issues as liability in student attacks and the merits and constitutionality of drug testing students in school. Prerequisite: Juris Master students only"
+        },
+        {
+            "subject": "JRM",
+            "code": "6700",
+            "name": "Torts and Criminal Wrongs",
+            "units": "3.00",
+            "description": "This course introduces and explores the basis for civil and criminal liability, including the liability for negligence for intentional wrongs, and for liability without fault (strict liability). Doctrines covered include duty, breach of duty, causation, damages and defenses, as well as elements of and defenses to criminal liability in the compliance context. Prerequisites: Juris Masters Student Only"
+        },
+        {
+            "subject": "JRM",
+            "code": "6710",
+            "name": "Legal Analysis and Writing",
+            "units": "3.00",
+            "description": "Students in this required course are introduced to the art of analytical legal writing. Students will learn to analyze cases, statutes and other authorities. The course emphasizes student development in the following skills: organizing the analysis of legal issues logically and coherently; expressing written legal analysis clearly, concisely, and effectively; developing and defending legal arguments, both in writing and orally; performing basic legal research; drafting selected legal documents; and using proper citation form. The writing exercises promote the students' awareness and appreciation of relevant ethical standards. Prerequisite: Juris Master students only."
         },
         {
             "subject": "KOR",
@@ -13429,10 +13436,24 @@
         },
         {
             "subject": "LAW",
+            "code": "6950",
+            "name": "Law Review: Board of Editors",
+            "units": "1.00",
+            "description": "Students selected as members of the Board of Editors of the Law Review may earn credit for satisfactory completion of their Board duties.  As members of the Board of Editors, students will solicit, select, edit and publish articles submitted by lawyers, judges, and professors from across the country.  The Board of Editors also may organize and solicit participants for symposia on legal topics of current interest and publish the papers presented at the symposia.  Student editors will supervise the preparation of student comments by new members of the Law Review and will select and edit those comments for possible publication.  Student editors will train new Law Review members on proper citation format and cite-checking requirements for articles published in the Law Review.  Student editors will be responsible for all other aspects of the Law Review, including obtaining subscriptions, managing its finances, working with the publisher and others in the printing and distribution of the Law Review. The professor may designate this course as either pass/fail or as a letter graded course."
+        },
+        {
+            "subject": "LAW",
             "code": "6956",
             "name": "Law Review: Senior Members",
             "units": "1.00",
             "description": "Senior Members of the Law Review may earn credit for satisfactory completion of their duties. Senior Members will assist the Board of Editors in all aspects of the Law Review, including cite checking articles to be published in the Law Review. The professor may designate this course as either pass/fail or as a letter graded course."
+        },
+        {
+            "subject": "LAW",
+            "code": "6957",
+            "name": "Law Review: Staff",
+            "units": "1.00",
+            "description": "Staff Members may earn credit for satisfactory completion of their duties.  These student members are required to write a comment of publishable quality, complete instruction on cite checking, and assist the Board of Editors and Senior Members in cite checking and any other assigned duties needed to publish the Law Review. The professor may designate this course as either pass/fail or as a letter graded course."
         },
         {
             "subject": "LAW",
@@ -13454,6 +13475,13 @@
             "name": "Int'l Env Law",
             "units": "2.00",
             "description": "This course focuses on issues including marine pollution, transboundary movement of hazardous waste, climate change, biodiversity, the relation of population and the environment, and other global and transboundary environmental problems."
+        },
+        {
+            "subject": "LAW",
+            "code": "7303",
+            "name": "Florida Civil Practice",
+            "units": "2.00",
+            "description": "This course entails a study of Florida civil practice from the commencement of an action through final judgment."
         },
         {
             "subject": "LAW",
@@ -14728,6 +14756,13 @@
             "name": "Independent Study",
             "units": "0.00",
             "description": "Individual conferences, assigned readings, and reports on independent investigations."
+        },
+        {
+            "subject": "MAT",
+            "code": "4930",
+            "name": "Special Topics",
+            "units": "0.00",
+            "description": "A course designed to give groups of students an opportunity to pursue special studies not otherwise offered."
         },
         {
             "subject": "MAT",
@@ -16299,6 +16334,13 @@
         },
         {
             "subject": "MVB",
+            "code": "3433",
+            "name": "Major Appl Trombone",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "3435",
             "name": "Maj Applied Tuba",
             "units": "3.00",
@@ -16758,6 +16800,13 @@
             "name": "Piano Pedagogy",
             "units": "2.00",
             "description": "Survey of current piano teaching methods."
+        },
+        {
+            "subject": "MVP",
+            "code": "1411",
+            "name": "Major App Percussion",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on percussion as a major instrument. Music majors only."
         },
         {
             "subject": "MVP",
@@ -17297,13 +17346,6 @@
             "name": "Res Meth In Nsg",
             "units": "3.00",
             "description": "Research methods and designs commonly used in nursing. Focuses on the research process as it is integrated in the interchange of theory, practice, and research using information systems. Prerequisites: Statistics, departmental permission and NGR 5110. Corequisite: NGR 5110."
-        },
-        {
-            "subject": "NGR",
-            "code": "5905",
-            "name": "Indep Study In Nsg",
-            "units": "0.00",
-            "description": "Individually determined, research oriented, in-depth study of a nursing problem or clinical experience as approved by the faculty preceptor."
         },
         {
             "subject": "NGR",
@@ -20954,13 +20996,6 @@
         },
         {
             "subject": "REL",
-            "code": "3139",
-            "name": "Af-Amer Relig Mvmts",
-            "units": "3.00",
-            "description": "Analysis of the history, beliefs and practices of select key African-American religious movements, such as storefront churches and the Nation of Islam."
-        },
-        {
-            "subject": "REL",
             "code": "3145",
             "name": "Women And Religion",
             "units": "3.00",
@@ -23065,6 +23100,13 @@
             "name": "Telecom Ent Plan St",
             "units": "3.00",
             "description": "Methodologies for re-engineering, project management, strategic planning, change management, RFPs, and life-cycle management within the telecommunications and IT arena.  Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "TCN",
+            "code": "6270",
+            "name": "Mble & Wrlss Netwks",
+            "units": "3.00",
+            "description": "Techniques in the design and operation of wireless networks; LANs, MANs, and WANs; analytical models; application of traffic and mobility models; mobility control, and wireless ATM."
         },
         {
             "subject": "TCN",
