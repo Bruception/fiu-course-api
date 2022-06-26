@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1655601392,
+    "dataAsOf": 1656206524,
     "data": [
         {
             "subject": "ACG",
@@ -840,13 +840,6 @@
             "name": "Architecture Philosophy",
             "units": "3.00",
             "description": "This course explores how ideas from contemporary continental philosophy and other\nrelated fields might inform a discourse about architecture and urbanism. Prerequisite: ARC 6229"
-        },
-        {
-            "subject": "ARC",
-            "code": "6280",
-            "name": "Pro Office Practice",
-            "units": "3.00",
-            "description": "Study of the ethical, legal, financial, and managerial aspects of professional practice in architecture."
         },
         {
             "subject": "ARC",
@@ -2347,13 +2340,6 @@
             "description": "Graduate level research carried out under the supervision of a faculty member."
         },
         {
-            "subject": "BCN",
-            "code": "6971",
-            "name": "Thesis",
-            "units": "1.00",
-            "description": "(Total of 6 credit hours spread over at least two consecutive terms with 1-3 credit hours in each must be completed.) Students develop a thesis under the direction of a senior faculty mentor, and their supervisory committee, and advance and defend their propositions before an audience of peers, scholars, and their supervisory committee. Requires approval of advisor, supervisory committee, and Department Chair."
-        },
-        {
             "subject": "BME",
             "code": "1008C",
             "name": "Intro to Biomed Eng",
@@ -2520,6 +2506,13 @@
             "name": "BME Dev Design",
             "units": "3.00",
             "description": "User inputs; regulatory, ethical, societal, and environmental considerations; creativity; project management; prototype construction and testing; project feasibility; writing and oral communication. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "BME",
+            "code": "6565",
+            "name": "Quant Micro Vis",
+            "units": "3.00",
+            "description": "Practical and useful projects in optical, confocal, near field, scanning probe and other advanced microscopy and cytometry.  Spatial and spectral quantitation of physiologic measures in living tissue.  Prerequisite: Permission of the instructor. Corequisite: BME 5560."
         },
         {
             "subject": "BME",
@@ -3699,13 +3692,6 @@
         },
         {
             "subject": "CGN",
-            "code": "6930",
-            "name": "Adv Specn Topics Ce",
-            "units": "0.00",
-            "description": "A course designed to give groups of students an opportunity to pursue special studies in an advanced topic of Civil Engineering not otherwise offered. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "CGN",
             "code": "6939",
             "name": "Graduate Seminar",
             "units": "0.00",
@@ -3836,6 +3822,13 @@
             "name": "Chem & Society Lab",
             "units": "1.00",
             "description": "A course for non-science majors which introduces students to basic concepts in chemistry and applies those concepts to contemporary issues such as air/water pollution, energy and food production, drugs, nutrition, and toxic chemicals. Prerequisites: One year of high school or college algebra. (Lab fees assessed) (F,S,SS)"
+        },
+        {
+            "subject": "CHM",
+            "code": "1025",
+            "name": "Fundamental Chem",
+            "units": "3.00",
+            "description": "Introduces students to basic mathematics required in chemistry, nature of matter, atomic structure, simple chemical reactions and stoichiometry."
         },
         {
             "subject": "CHM",
@@ -4963,6 +4956,13 @@
             "name": "Conflict Management",
             "units": "3.00",
             "description": "Students will analyze conflict management concepts, principles, strategies and techniques, and examine the communication skills needed for productive conflict management or resolution."
+        },
+        {
+            "subject": "COM",
+            "code": "4900",
+            "name": "Dir Ind Stud in Comm Arts",
+            "units": "1.00",
+            "description": "Specialized intensive study in a specific area of special interest to the student."
         },
         {
             "subject": "COM",
@@ -6188,6 +6188,13 @@
             "name": "Women Econ Devel",
             "units": "3.00",
             "description": "Analysis of problems facing women in developing countries, focusing on gender and cultural issues and their relationships to economic development."
+        },
+        {
+            "subject": "ECS",
+            "code": "3403",
+            "name": "Econ Latin America",
+            "units": "3.00",
+            "description": "Study of current economic issues facing Latin American countries, including population growth, poverty, inequality, inflation, trade and balance of payment problems, economic reform, and regional integration."
         },
         {
             "subject": "ECS",
@@ -7808,6 +7815,13 @@
         },
         {
             "subject": "EGN",
+            "code": "6999",
+            "name": "CENGR Internship",
+            "units": "0.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "EGN",
             "code": "7918",
             "name": "Graduate Research",
             "units": "1.00",
@@ -8746,13 +8760,6 @@
         },
         {
             "subject": "ENV",
-            "code": "6916",
-            "name": "Engineering Project",
-            "units": "0.00",
-            "description": "Individual work culminating in a professional practice-oriented report suitable for the requirements of the M.S. degree-project option. Only three credits are applicable towards degree. Prerequisites: Completion of 20 graduate credits and approved proposal."
-        },
-        {
-            "subject": "ENV",
             "code": "6971",
             "name": "Thesis",
             "units": "0.00",
@@ -9044,13 +9051,6 @@
             "name": "Beaches and Tourism",
             "units": "3.00",
             "description": "Discussion and analysis of the dual role of beaches as foremost global recreational areas and important coastal environmental resources."
-        },
-        {
-            "subject": "EVR",
-            "code": "4905",
-            "name": "Independent Study",
-            "units": "0.00",
-            "description": "Student develops and carries out research project with guidance from professor. Permission of the instructor."
         },
         {
             "subject": "EVR",
@@ -9492,13 +9492,6 @@
             "name": "Foreign Study",
             "units": "0.00",
             "description": "Study abroad credits. Individual cases will be evaluated for approval."
-        },
-        {
-            "subject": "FOL",
-            "code": "5800",
-            "name": "Foreign Lang Teach Method",
-            "units": "3.00",
-            "description": "Introduction to the theory and practice of teaching foreign language methodology. Prerequisite: Graduate standing."
         },
         {
             "subject": "FOL",
@@ -10181,6 +10174,13 @@
         },
         {
             "subject": "GRA",
+            "code": "3803C",
+            "name": "Design for Mobility",
+            "units": "3.00",
+            "description": "This is an intermediate graphic design course that provides extensive study of the design principles and their applications to interactive mobile solutions for the screen."
+        },
+        {
+            "subject": "GRA",
             "code": "3817",
             "name": "Graphic Design II",
             "units": "3.00",
@@ -10304,13 +10304,6 @@
             "name": "El &Soft Skills for Hosp.",
             "units": "3.00",
             "description": "This course will help students develop character traits and interpersonal skills associated with high emotional intelligence to improve work relationships with others."
-        },
-        {
-            "subject": "HFT",
-            "code": "3023C",
-            "name": "Coffee & Tea",
-            "units": "3.00",
-            "description": "Students will develop functional knowledge of the business of coffee, tea, and other non-alcoholic beverages in the hospitality industry in partnership with Lavazza Coffees."
         },
         {
             "subject": "HFT",
@@ -12162,13 +12155,6 @@
         },
         {
             "subject": "ISC",
-            "code": "3999",
-            "name": "CASE Internship",
-            "units": "0.00",
-            "description": "N/A"
-        },
-        {
-            "subject": "ISC",
             "code": "4935",
             "name": "Senior Sem Earth & Enviro",
             "units": "1.00",
@@ -12544,13 +12530,6 @@
             "name": "Reporting Social Ethnic",
             "units": "3.00",
             "description": "This course is an introduction to basic elements of journalistic storytelling with special emphasis in how to broaden the understanding on social and ethnic issues. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "JOU",
-            "code": "6931",
-            "name": "Sem Spcl Topics",
-            "units": "0.00",
-            "description": "Instruction in specialized areas of journalism. Prerequisite: Graduate standing."
         },
         {
             "subject": "JPN",
@@ -13855,13 +13834,6 @@
             "description": "Designed to provide an in-depth examination of RT facilitation techniques as they are implemented with individuals with various disabling conditions or limitations."
         },
         {
-            "subject": "LEI",
-            "code": "6922",
-            "name": "Supervised Field Exp",
-            "units": "0.00",
-            "description": "This course provides a practical experience for individuals interested in administrative responsibilities. Permission of the instructor and Department Chairperson required."
-        },
-        {
             "subject": "LIN",
             "code": "3010",
             "name": "General Linguistics",
@@ -14199,6 +14171,13 @@
         },
         {
             "subject": "MAE",
+            "code": "4942",
+            "name": "Student Teaching",
+            "units": "9.00",
+            "description": "Supervised teaching in a middle school or senior high school."
+        },
+        {
+            "subject": "MAE",
             "code": "6305",
             "name": "Early Child Math",
             "units": "3.00",
@@ -14518,6 +14497,13 @@
             "name": "Math Primer for Env Fin",
             "units": "3.00",
             "description": "This course is an introductory course that presents the mathematical tools necessary for financial instrument, pricing and hedging design. Prerequisite: Working knowledge of Calculus and Basic Statistics and Probability."
+        },
+        {
+            "subject": "MAP",
+            "code": "6631",
+            "name": "Intro Quant RAM",
+            "units": "3.00",
+            "description": "A mathematical introduction to arbitrage-based pricing of derivative securities."
         },
         {
             "subject": "MAR",
@@ -15270,13 +15256,6 @@
         },
         {
             "subject": "MMC",
-            "code": "6736",
-            "name": "SOCMEDCOM",
-            "units": "3.00",
-            "description": "Provide students the tools and strategies needed to find and distribute news on social media, and teach them how to leverage social media attributes to build a brand."
-        },
-        {
-            "subject": "MMC",
             "code": "6900",
             "name": "Independent Study",
             "units": "3.00",
@@ -15732,6 +15711,13 @@
         },
         {
             "subject": "MUN",
+            "code": "1120L",
+            "name": "Symphony Band",
+            "units": "1.00",
+            "description": "Concert Band ensemble for music majors on secondary instruments and non-music majors.  Various types of concert band literature covered from differing grade levels.  Course open to anyone who has previous experience playing a wind or percussion instrument."
+        },
+        {
+            "subject": "MUN",
             "code": "1140L",
             "name": "Symphonic Wind Ens",
             "units": "1.00",
@@ -15834,6 +15820,13 @@
             "name": "Laptop Ensemble",
             "units": "1.00",
             "description": "Explores new combinations of live electronics with acoustic instruments and other media by performing a diverse repertoire of music and new works. Repeatable."
+        },
+        {
+            "subject": "MUN",
+            "code": "3123L",
+            "name": "Symphony Band",
+            "units": "1.00",
+            "description": "Concert Band ensemble for music majors on secondary instruments and non-music majors.  Various types of concert band literature covered from differing grade levels.  Course open to anyone who has previous experience playing a wind or percussion instrument."
         },
         {
             "subject": "MUN",
@@ -15946,6 +15939,13 @@
             "name": "FIU Marching Band",
             "units": "1.00",
             "description": "A study and performance of pop, jazz, and rock musical selections for the instrumental medium. Students will demonstrate what they have learned by performing and through individualized playing examinations. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MUN",
+            "code": "5125L",
+            "name": "Symphony Band",
+            "units": "1.00",
+            "description": "Concert Band ensemble for music majors on secondary instruments and non-music majors. Various types of concert band literature covered from differing grade levels. Course open to anyone who has previous experience playing a wind or percussion instrument."
         },
         {
             "subject": "MUN",
@@ -17279,13 +17279,6 @@
         },
         {
             "subject": "MVW",
-            "code": "4345",
-            "name": "Prin App Saxophone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
             "code": "4442",
             "name": "Major Applied Oboe",
             "units": "3.00",
@@ -17801,13 +17794,6 @@
             "name": "Hlth Assess and Promo Nsg",
             "units": "4.00",
             "description": "Health and physical assessment of diverse individuals and health promotion; disease and injury prevention, evidence-based teaching/learning in multicultural environment. Prerequisite:  Admission to Nursing Major"
-        },
-        {
-            "subject": "NUR",
-            "code": "3125",
-            "name": "Patho Of Nur Prac",
-            "units": "3.00",
-            "description": "Adaptive responses of cells, tissues, organs and systems in the pathogenesis, clinical manifestations, and nursing management of common diseases across the life span of diverse individuals."
         },
         {
             "subject": "NUR",
@@ -19453,13 +19439,6 @@
             "name": "Adv Biostat III",
             "units": "3.00",
             "description": "Generalized linear model and estimating equation approaches for non-linear public health data. Held in the Public Health Informatics Laboratory utilizing various statistical software."
-        },
-        {
-            "subject": "PHC",
-            "code": "7198",
-            "name": "Adv Qual in PH",
-            "units": "3.00",
-            "description": "Advanced research design, data analysis and writing findings in qualitative research. Prerequisites: PHC 6706, PHC 6715, or equivalent advanced research methods."
         },
         {
             "subject": "PHC",
@@ -22333,20 +22312,6 @@
         },
         {
             "subject": "SPN",
-            "code": "6930",
-            "name": "Special Topics Lin",
-            "units": "3.00",
-            "description": "Content to be determined by students and instructor. (Approval of the Department required.)"
-        },
-        {
-            "subject": "SPN",
-            "code": "6970",
-            "name": "Thesis Research",
-            "units": "0.00",
-            "description": "Research toward completion of Master's Thesis. Repeatable. Prerequisite: Permission of the Department."
-        },
-        {
-            "subject": "SPN",
             "code": "7980",
             "name": "Ph.D. Dissertation",
             "units": "0.00",
@@ -22855,13 +22820,6 @@
             "name": "Topics GIS and Soc Rsch",
             "units": "3.00",
             "description": "Advanced GIS skills in areas such as geographically weighted regression and use of census data with regard to social research."
-        },
-        {
-            "subject": "SYA",
-            "code": "7941",
-            "name": "Field Research",
-            "units": "0.00",
-            "description": "Research projects or certain aspects of research in a field situation carried out by one or more students under the direction of a faculty member. Topics vary. Usually selected on an individual basis. Hours may vary."
         },
         {
             "subject": "SYA",
