@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1656206524,
+    "dataAsOf": 1656811192,
     "data": [
         {
             "subject": "ACG",
@@ -1617,6 +1617,13 @@
             "name": "East Asian Civ",
             "units": "3.00",
             "description": "The historical developments of Chinese and Japanese civilizations and cultures from the earliest beginnings and classical period through the middle ages and eighteenth century as well as the modern era."
+        },
+        {
+            "subject": "ASH",
+            "code": "4384",
+            "name": "Hist/Women In Asia",
+            "units": "3.00",
+            "description": "Examines the history of women in Asia in relation to religious ideologies, philosophies, family roles, work roles, imperialism and nationalism, global feminism, and women's bodies."
         },
         {
             "subject": "ASH",
@@ -3601,6 +3608,13 @@
         },
         {
             "subject": "CES",
+            "code": "5106",
+            "name": "Adv Struct Analy",
+            "units": "3.00",
+            "description": "Extension of the fundamental topics of structural analysis with emphasis on energy methods and methods best suited for nonprismatic members."
+        },
+        {
+            "subject": "CES",
             "code": "5325",
             "name": "Design Hwy Bridges",
             "units": "3.00",
@@ -4098,13 +4112,6 @@
         },
         {
             "subject": "CHM",
-            "code": "5236",
-            "name": "Spectroscopic Tech",
-            "units": "3.00",
-            "description": "Advanced techniques for the spectroscopic identification of organic compounds. Interpretation of spectral information for determination of structures of various classes of organic compounds. Prerequisites: CHM 4220 and CHM 4230L."
-        },
-        {
-            "subject": "CHM",
             "code": "5251",
             "name": "Organometallic Chem",
             "units": "3.00",
@@ -4382,6 +4389,13 @@
             "name": "Research Exper for Undergrad",
             "units": "0.00",
             "description": "Participation in ongoing research in the research centers of the school."
+        },
+        {
+            "subject": "CIS",
+            "code": "4930",
+            "name": "Special Topics",
+            "units": "0.00",
+            "description": "A course designed to give groups of students an opportunity to pursue special studies not otherwise offered."
         },
         {
             "subject": "CIS",
@@ -8626,6 +8640,13 @@
             "description": "Designed for those wanting to start or grow a business. Students analyze unstructured business situations and use critical thinking and business development principles to develop the solutions."
         },
         {
+            "subject": "ENT",
+            "code": "4704",
+            "name": "Intl Entrepreneurship",
+            "units": "3.00",
+            "description": "This course provides a foundation in international entrepreneurship, focusing on the experiences of small as well as large entrepreneurial firms. Cross-national and cross-cultural business practices are analyzed."
+        },
+        {
             "subject": "ENV",
             "code": "3001",
             "name": "Intro Enviro Engrng",
@@ -8652,13 +8673,6 @@
             "name": "ENV Lab II",
             "units": "1.00",
             "description": "Experiments involving use of analysis and instrumental techniques for the evaluation of environmental samples, and hands-on design aspects associated to environmental engineering treatment processes."
-        },
-        {
-            "subject": "ENV",
-            "code": "4024",
-            "name": "Bioremediation Eng",
-            "units": "3.00",
-            "description": "Biotransformation of sub-surface contaminants in gaining recognition as a viable treatment tool. This course provides students with quantitative methods required to design bioremediation systems. Prerequisites: ENV 3001 and ENV 3001L."
         },
         {
             "subject": "ENV",
@@ -8701,13 +8715,6 @@
             "name": "Environmental Eng Seminar",
             "units": "1.00",
             "description": "Basic principles and applications of environmental engineering, including environmental science, solid and hazardous waste, water resources, water supply, wastewater, and air quality for environmental engineering students."
-        },
-        {
-            "subject": "ENV",
-            "code": "5027",
-            "name": "Bioremediation",
-            "units": "3.00",
-            "description": "Bio-transformation of subsurface contaminants is gaining recognition as a viable treatment tool. This course provides students with quantitative methods required to design bioremediation systems. Project required. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "ENV",
@@ -13135,6 +13142,13 @@
         },
         {
             "subject": "LAW",
+            "code": "6116",
+            "name": "White Collar Crime",
+            "units": "2.00",
+            "description": "Using the vehicle of federal investigation and prosecution of white-collar crime, this course will explore the interplay of different fields of law and of legal standards and administrative discretion features common to many types of transactional practice.  The materials considered will be chosen from the fields of substantive criminal law, criminal procedure, sentencing, administrative law, evidence, corporate law, and professional responsibility.  Topics considered will include entity criminal liability, substantive federal crimes (e.g., mail fraud and RICO), grand jury investigations, administrative agency subpoena authority, parallel civil and criminal proceedings, application of the self-incrimination and lawyer-client privileges, federal sentencing guidelines (for individuals and entities) and forfeitures.  Considerable attention will be given to Department of Justice policies and strategies utilized by counsel representing witnesses, targets, and defendants.  Prerequisite: Criminal Procedure: Investigation."
+        },
+        {
+            "subject": "LAW",
             "code": "6263",
             "name": "Int'l Human Rit Law",
             "units": "2.00",
@@ -13251,6 +13265,13 @@
             "name": "International Intell Property",
             "units": "2.00",
             "description": "This course provides students with an overview of intellectual property (IP) law in the global context, commencing with a survey of patent, copyright and trademarks. We will learn about the multilateral institutions that address IP issues, and study the leading multilateral IP treaties, including the World Trade Organization Agreement on Trade-Related Intellectual Property Rights, the Paris Convention for the Protection of Industrial Property, the Berne Convention for the Protection of Literary and Artistic Works, and other international agreements that facilitate the protection of IP interests in multiple countries. In addition to studying domestic and international mechanisms for the protection of IPRs, we will review current issues in International IP law and policy. No technical background is required for this course."
+        },
+        {
+            "subject": "LAW",
+            "code": "6576",
+            "name": "Trademarks and GI",
+            "units": "2.00",
+            "description": "This course will introduce students to the law of trademarks and unfair competition. Trademark law aims to protect against consumer confusion and the appropriation of commercial goodwill. Trademarks can have tremendous value in a variety of industries, ranging from food and agriculture to fashion and entertainment. Students will learn about acquiring, prosecuting, and enforcing trademark rights in the business context. In addition the course will cover the theoretical underpinnings of trademark protection and evaluate current issues related to trademark law domestically and internationally. This includes a consideration of the relationship between trademarks and geographical indications. No technical background is required for this course. Intellectual Property Law is recommended but not required."
         },
         {
             "subject": "LAW",
@@ -17825,13 +17846,6 @@
         },
         {
             "subject": "NUR",
-            "code": "3535L",
-            "name": "Psychosocial Nur Cl",
-            "units": "3.00",
-            "description": "In the clinical setting, development of nursing skills for managing care of individuals with psychosocial diseases/disorders in multicultural communities."
-        },
-        {
-            "subject": "NUR",
             "code": "3666",
             "name": "Ev Bsd Nsg and Res Gbl Hlth",
             "units": "3.00",
@@ -20622,13 +20636,6 @@
             "name": "Digital Editing and Design",
             "units": "3.00",
             "description": "Understanding the visual theories behind the design, editing and production of materials for print, broadcast and multimedia. Special attention given to digital pre-production and software skills. Prerequisites: MMC 3123 or COM 3714, ADV 3008 or PUR 3000, VIC 3400, MMC 3003 or PUR 1951. (Supplies fee assessed)"
-        },
-        {
-            "subject": "PUR",
-            "code": "4106",
-            "name": "Advanced PR Writing",
-            "units": "3.00",
-            "description": "Emphasis on the strategic aspects of public relations writing and preparation of more complex vehicles, such as annual reports, policy speeches, position papers, and complex press releases/press kits. Prerequisites: PUR 4100 (Supplies fee assessed)"
         },
         {
             "subject": "PUR",
