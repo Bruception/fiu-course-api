@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1656811192,
+    "dataAsOf": 1657416602,
     "data": [
         {
             "subject": "ACG",
@@ -1620,13 +1620,6 @@
         },
         {
             "subject": "ASH",
-            "code": "4384",
-            "name": "Hist/Women In Asia",
-            "units": "3.00",
-            "description": "Examines the history of women in Asia in relation to religious ideologies, philosophies, family roles, work roles, imperialism and nationalism, global feminism, and women's bodies."
-        },
-        {
-            "subject": "ASH",
             "code": "4404",
             "name": "History of China",
             "units": "3.00",
@@ -2051,13 +2044,6 @@
             "name": "Prin Contruct Mgt",
             "units": "3.00",
             "description": "Covers the construction industry with emphasis on the principles of construction management."
-        },
-        {
-            "subject": "BCN",
-            "code": "3443",
-            "name": "Intro Concrete Industry",
-            "units": "3.00",
-            "description": "Overview of the history, careers, job functions, and professional organizations in the concrete industry. Topics include: overview of the concrete industry, history, components, production and uses."
         },
         {
             "subject": "BCN",
@@ -4109,13 +4095,6 @@
             "name": "Grad Organic Chem",
             "units": "3.00",
             "description": "Advanced topics in organic chemistry. Structure of organic molecules, reaction mechanisms, organic synthesis, and natural product chemistry. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "CHM",
-            "code": "5251",
-            "name": "Organometallic Chem",
-            "units": "3.00",
-            "description": "Fundamentals and applications of organometallic chemistry. Structures and bonding, ligand types, organometallic reactions, physical methods of characterization. Prerequisites: CHM 4610, CHM 3411."
         },
         {
             "subject": "CHM",
@@ -8134,13 +8113,6 @@
             "name": "Mech Vibrations",
             "units": "3.00",
             "description": "Theory and application of mechanical vibrations. Includes damped and undamped vibrations with one or more degrees of freedom computer methods emphasized."
-        },
-        {
-            "subject": "EML",
-            "code": "4416",
-            "name": "Solar Engy Tech Fund Appl",
-            "units": "3.00",
-            "description": "Principles of solar energy conversion, BIPV systems, solar thermal systems - air and water collectors, solar assisted air conditional systems."
         },
         {
             "subject": "EML",
@@ -16432,6 +16404,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "1410",
+            "name": "Maj App Jazz Piano",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz piano as a major level."
+        },
+        {
+            "subject": "MVJ",
             "code": "1411",
             "name": "Major Jazz Drums",
             "units": "2.00",
@@ -20401,6 +20380,13 @@
         },
         {
             "subject": "PSB",
+            "code": "3504",
+            "name": "Developmental Neurosci",
+            "units": "3.00",
+            "description": "The development of the nervous system in various species, and how understanding development informs our understanding of disease and normal function. Prerequisite: PSB 3007."
+        },
+        {
+            "subject": "PSB",
             "code": "3823",
             "name": "Behavioral Neuroscience",
             "units": "3.00",
@@ -21535,13 +21521,6 @@
         },
         {
             "subject": "SOW",
-            "code": "2001",
-            "name": "Expl of Human Svcs Profes",
-            "units": "3.00",
-            "description": "An overview of human services professions focusing on social work, generalist human services, couples and family counseling, clinical and counseling psychology, and school counseling."
-        },
-        {
-            "subject": "SOW",
             "code": "3100",
             "name": "Dyn Hum Bh/Soc Envm",
             "units": "3.00",
@@ -22155,13 +22134,6 @@
             "name": "Intro to Sport Management",
             "units": "3.00",
             "description": "This course introduces the student to the academic and professional field of sport management, including the disciplinary foundations of sport and career opportunities in the sport industry."
-        },
-        {
-            "subject": "SPM",
-            "code": "3941",
-            "name": "Practicum in Sport Manage",
-            "units": "3.00",
-            "description": "This course provides students with an opportunity to explore employment opportunities in various sectors of the sport industry. Prerequisite: SPM 3001"
         },
         {
             "subject": "SPM",
