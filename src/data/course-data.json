@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1657416602,
+    "dataAsOf": 1658021156,
     "data": [
         {
             "subject": "ACG",
@@ -836,10 +836,10 @@
         },
         {
             "subject": "ARC",
-            "code": "6204",
-            "name": "Architecture Philosophy",
+            "code": "6229",
+            "name": "Theories of the Digital",
             "units": "3.00",
-            "description": "This course explores how ideas from contemporary continental philosophy and other\nrelated fields might inform a discourse about architecture and urbanism. Prerequisite: ARC 6229"
+            "description": "This course explores theories of the digital. The aim is to develop a theoretical framework to understand the impact of the digital on architectural design, fabrication and urban life. Prerequisite: Admission to the doctoral program."
         },
         {
             "subject": "ARC",
@@ -2257,13 +2257,6 @@
         },
         {
             "subject": "BCN",
-            "code": "5772",
-            "name": "Mgmt Const Org",
-            "units": "3.00",
-            "description": "This course studies the management of a construction company. Topics included are: company organization, incorporation structures, policies and procedures, finance, accounting, information modeling, bidding strategies, and operation."
-        },
-        {
-            "subject": "BCN",
             "code": "5774",
             "name": "Topics In Int Const",
             "units": "3.00",
@@ -2331,6 +2324,13 @@
             "name": "Supervised Research",
             "units": "0.00",
             "description": "Graduate level research carried out under the supervision of a faculty member."
+        },
+        {
+            "subject": "BCN",
+            "code": "6916",
+            "name": "Dev In Const Tech",
+            "units": "3.00",
+            "description": "Study of advanced field techniques and emerging uses worldwide. Information flow and creativity are highlighted as crucial elements which stimulate new developments. This course prepares the students to understand and deal with concepts of change."
         },
         {
             "subject": "BME",
@@ -3069,6 +3069,13 @@
         },
         {
             "subject": "BSC",
+            "code": "6920",
+            "name": "Workshop: Vessel Ops",
+            "units": "1.00",
+            "description": "A workshop covering the use of small vessels ("
+        },
+        {
+            "subject": "BSC",
             "code": "6926",
             "name": "Workshop Biology",
             "units": "0.00",
@@ -3136,6 +3143,13 @@
             "name": "Advanced Business Law",
             "units": "3.00",
             "description": "Substantive issues and principles of law including agency, partnership and corporation law, commercial paper, antitrust, employment, administrative, environmental and computer law; ethical issues in business law. Prerequisite: (a) Grade of C or higher in BUL 4310 or BUL 4320; and (b) qualifying Accounting Entrance Exam score and GPA (BUEE only)"
+        },
+        {
+            "subject": "BUL",
+            "code": "6810",
+            "name": "Bus/Leg Environment",
+            "units": "3.00",
+            "description": "Examines current legal, regulatory, ethical, and political issues within the context of public law. Topics include employment, antitrust, administrative, cyberlaw, and contracts and tort."
         },
         {
             "subject": "CAP",
@@ -3878,6 +3892,13 @@
             "name": "Gen Chem Lab II",
             "units": "1.00",
             "description": "Continuation of General Chemistry I (CHM 1045). Fundamental principles of chemistry: thermodynamics, solutions, kinetics, equilibrium and electrochemistry. Concurrent registration in both lecture and laboratory is required. (Lab fees assessed)"
+        },
+        {
+            "subject": "CHM",
+            "code": "2200",
+            "name": "Survey Organic Chem",
+            "units": "3.00",
+            "description": "A basic one-semester survey course in organic chemistry for non-majors presenting a broad background in the reactions and structures of organic molecules. Does not fulfill requirements for chemistry, biology, or pre-med majors. Laboratory must be taken concurrently with the course. (Lab fees assessed)"
         },
         {
             "subject": "CHM",
@@ -4655,13 +4676,6 @@
             "name": "Adv Clinical Prac",
             "units": "1.00",
             "description": "Allows students to practice clinical skills through participation in interactive classroom exercises while gaining clinical experience. Prerequisite: Clinical Practicum (CLP 6945)."
-        },
-        {
-            "subject": "CLP",
-            "code": "6947",
-            "name": "Foundations Practicum II",
-            "units": "3.00",
-            "description": "This course provides a comprehensive introduction to the principles of psychological treatments for children and adolescents, with applied practice and supervision in psychotherapy techniques. Prerequisites: PSY 5939 (Foundation Practicum I: Assessment)."
         },
         {
             "subject": "CLP",
@@ -6632,6 +6646,13 @@
         },
         {
             "subject": "EDG",
+            "code": "7667C",
+            "name": "Adv Topics Curr Stud",
+            "units": "3.00",
+            "description": "Advanced study of current topics and research issues in curriculum studies. May be repeated."
+        },
+        {
+            "subject": "EDG",
             "code": "7923C",
             "name": "Doc Semin Curr Stud",
             "units": "3.00",
@@ -7360,13 +7381,6 @@
         },
         {
             "subject": "EEL",
-            "code": "5500",
-            "name": "Dig Comm Sys I",
-            "units": "3.00",
-            "description": "This course will consider most important aspects of digital communication systems such as noise related subjects, random signals, linear systems, and baseband digital modulation and multiplexing."
-        },
-        {
-            "subject": "EEL",
             "code": "5718",
             "name": "Comp-Comm Ntwk Eng",
             "units": "3.00",
@@ -7490,6 +7504,13 @@
             "name": "Special Topics",
             "units": "0.00",
             "description": "Course covers advanced topics not in existing graduate courses in electrical and computer engineering. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "EEL",
+            "code": "6932",
+            "name": "Graduate Seminar",
+            "units": "1.00",
+            "description": "An examination of recent technical findings in selected areas of concern. Emphasis is placed on presentations (oral and written), research activities, readings, and active discussions among participants. Prerequisite: Consent of graduate advisor."
         },
         {
             "subject": "EEL",
@@ -11315,13 +11336,6 @@
         },
         {
             "subject": "HUN",
-            "code": "5123",
-            "name": "Ethnic Food Habits",
-            "units": "3.00",
-            "description": "Systematic study of food habits of various cultural groups. Emphasis on methodology, analysis of data, relationship of food habits to nutritional standards, and corrective measures. Includes laboratory. Prerequisite: Competency in food preparation and nutrition. Recommended for non-majors."
-        },
-        {
-            "subject": "HUN",
             "code": "5611",
             "name": "Nutr Educ Community",
             "units": "3.00",
@@ -12184,6 +12198,13 @@
         {
             "subject": "ISE",
             "code": "4991",
+            "name": "Study Abroad IHE",
+            "units": "1.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "ISE",
+            "code": "6991",
             "name": "Study Abroad IHE",
             "units": "1.00",
             "description": "N/A"
@@ -14898,6 +14919,41 @@
             "description": "The course introduces Period 3 medical students to general and specialty psychiatry and allows students to develop competencies in diagnosing and treating psychiatric disorders. The structure of the clerkship ensures that students receive exposure to different clinical practice settings, including emergency department (ED), inpatient, outpatient, and consultation-liaison services. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
+            "subject": "MDE",
+            "code": "7570",
+            "name": "Orthopedic Surgery Elective",
+            "units": "1.00",
+            "description": "The section of Orthopedics presents to the student a comprehensive outline of the spectrum of orthopedic surgery as practiced in a community hospital. The student is involved in an intensive in-patient experience and has significantly increased responsibility, involving primary workup of new patients and writing orders. The student performs procedures such as evaluating patients, taking an orthopedic history, and performing a physical examination of the musculoskeletal system. The student should improve his or her ability to manage complex patient presentations, including diagnosing and treating common adult orthopedic problems. The student should develop advanced skills in fracture treatment and cast application. He or she should be involved in joint replacement surgery and management of postoperative adult orthopedic patients.Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7675",
+            "name": "Urology Elective",
+            "units": "1.00",
+            "description": "In this rotation, the student will acquire knowledge of Urology and urologic anatomy; develop an understanding of and ability to perform a urologic history and physical exam; interview and present patients; develop an understanding of emergent urologic issues as well as common urologic issues with an emphasis on the acute scrotum, urinary tract infections, urinary stones, incontinence, benign prostatic hyperplasia, erectile dysfunction, hematuria and prostate cancer/PSA testing by both didactic and practice based learning; develop an understanding of a spectrum of urologic procedures/surgeries, including foley catherization, cystoscopy, and transrectal ultrasound and prostate biopsy by observation and participation; develop an understanding of peri-operative urologic issues both urologic and non-urologic patients via inpatient encounters; and develop an understanding of the role of a Urologist in the care of both male and female patients and when an appropriate referral should be made (emergent or routine). The student will function as a supervised member of the urologic team, interacting with faculty and resident staff and participating in urologic clinics and in the operating room. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7763",
+            "name": "Diagnostic Radiology Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to give students an introduction to the basics of diagnostic imaging, the appropriate choice of imaging method for given clinical problems, and the side-effects and risks associated with each. Students will become familiar with imaging findings in common clinical conditions. The rotation will involve online modules, small group sessions and 'virtual' and real reading room sessions. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDI",
+            "code": "7122",
+            "name": "Family Med Subinternship",
+            "units": "1.00",
+            "description": "Family medicine is the specialty that focuses on care for the whole person regardless of age, sex, or disease, set within his or her social and community context. The Family Medicine Sub-Internship consists of both an ambulatory and inpatient experience. Under the supervision of FIU HWCOM faculty, students assume an appropriate level of clinical independence; allowing them to practice diagnostic and clinical reasoning, disease management skills, and patient communication and education for patients of varying ages and comorbidities. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDI",
+            "code": "7160",
+            "name": "Obgyn Subinternship",
+            "units": "4.00",
+            "description": "During the obstetrics and gynecology (ob/gyn) sub-internship, the student is responsible for performing all intern level activities under supervision including, but not limited to: evaluating patients' presenting issues and all medical concerns, admitting patients, managing labor and delivery, and formulating a management plan. The sub-intern will demonstrate the ability to counsel and obtain informed consent for vaginal and cesarean deliveries and postpartum tubal ligations. S/he will interpret fetal heart rate tracings and formulate a plan of care for an abnormal tracing. S/he will be responsible for crosscoverage of postpartum patients during labor and delivery shifts. S/he may also be involved in the gynecologic care of patients, including pre-, intra- and post-operative management. The student is\nexpected to participate in all of the educational activities of the Department of Obstetrics and Gynecology during the sub-internship. Prerequisite: Student must be In his/her fourth year and have successfully completed all core third year clerkships."
+        },
+        {
             "subject": "MDR",
             "code": "7910",
             "name": "Research Scholarship",
@@ -15732,6 +15788,13 @@
         },
         {
             "subject": "MUN",
+            "code": "1380L",
+            "name": "University Singers",
+            "units": "1.00",
+            "description": "A chorus performing a repertoire primarily from great choral works. Large orchestral accompaniment as well as various instrumental ensembles will be utilized."
+        },
+        {
+            "subject": "MUN",
             "code": "1430",
             "name": "Univ Brass Choir",
             "units": "1.00",
@@ -16208,13 +16271,6 @@
         },
         {
             "subject": "MUT",
-            "code": "2641",
-            "name": "Jazz Improvisation I",
-            "units": "2.00",
-            "description": "A beginning course in Jazz improvisation that teaches fundamental aspects, chord structures and extensions, chord scales, melodic patterns, and tunes. Course will involve both theory and practical application. A concert will be held at conclusion of the term."
-        },
-        {
-            "subject": "MUT",
             "code": "3170C",
             "name": "Jazz Theory I",
             "units": "3.00",
@@ -16242,13 +16298,6 @@
             "description": "Analytical, theoretical and aural skills required for successful graduate studies in music. Prerequisites: Placement exam or permission of the instructor."
         },
         {
-            "subject": "MUT",
-            "code": "5646",
-            "name": "Adv Jazz Tech I",
-            "units": "3.00",
-            "description": "A comprehensive, theoretical study of topics related to jazz performance. Includes the nature of improvisation, advanced jazz harmony, theory of jazz improvisation, transcribing and analyzing solos of jazz masters."
-        },
-        {
             "subject": "MVB",
             "code": "1311",
             "name": "Prin Applied Trumpet",
@@ -16268,6 +16317,13 @@
             "name": "Prin App Bariton Ho",
             "units": "2.00",
             "description": "Individual instruction in applied music on baritone horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "1411",
+            "name": "Major Applied Trumpet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on trumpet as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -16544,6 +16600,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "3434",
+            "name": "Maj App Jazz Bass",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on jazz bass at a major level."
+        },
+        {
+            "subject": "MVJ",
             "code": "3435",
             "name": "Maj App Jazz Drms",
             "units": "3.00",
@@ -16800,6 +16863,13 @@
             "name": "Piano Pedagogy",
             "units": "2.00",
             "description": "Survey of current piano teaching methods."
+        },
+        {
+            "subject": "MVP",
+            "code": "1311",
+            "name": "Prin App Percussion",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on percussion as a principal instrument. Music majors only."
         },
         {
             "subject": "MVP",
@@ -17822,6 +17892,13 @@
             "name": "Psychosocial Nurs",
             "units": "3.00",
             "description": "Development of nursing skills for managing care of diverse individuals with psychosocial diseases/disorders in multicultural communities."
+        },
+        {
+            "subject": "NUR",
+            "code": "3535L",
+            "name": "Psychosocial Nur Cl",
+            "units": "3.00",
+            "description": "In the clinical setting, development of nursing skills for managing care of individuals with psychosocial diseases/disorders in multicultural communities."
         },
         {
             "subject": "NUR",
@@ -21268,13 +21345,6 @@
             "description": "Students will learn broadcast techniques, video editing, newscast and segment production, and on camera reporting. Students will learn to operate studio systems and deliver news on camera. Prerequisite: RTV 6309."
         },
         {
-            "subject": "RUS",
-            "code": "1130",
-            "name": "Russian I",
-            "units": "5.00",
-            "description": "Provides training in the acquisition and application of basic language skills."
-        },
-        {
             "subject": "SCE",
             "code": "4310",
             "name": "Teach Elem Science",
@@ -22298,13 +22368,6 @@
         },
         {
             "subject": "SPS",
-            "code": "6191",
-            "name": "Psy Ed As I",
-            "units": "3.00",
-            "description": "This course addresses competencies in the assessment of intellectual ability and adaptive behavior in children. Corequisite: SPS 6191L for School Psychology majors. No corequisite for other majors."
-        },
-        {
-            "subject": "SPS",
             "code": "6192",
             "name": "Psy Ed As II",
             "units": "3.00",
@@ -22918,6 +22981,13 @@
             "name": "Health & Medicine in Soci",
             "units": "3.00",
             "description": "Presents an overview of the social facets of health/illness, healthcare approaches, and healthcare policies in local and global perspective."
+        },
+        {
+            "subject": "SYO",
+            "code": "6405",
+            "name": "Grad Medical Sociol",
+            "units": "3.00",
+            "description": "Examination of the social significance of health, illness, and medicine in the U.S. as compared to other societies. Includes disease type and distribution as well as a critique of health care professions, organizations, and policies. Prerequisite: Graduate standing."
         },
         {
             "subject": "SYP",
@@ -23576,13 +23646,6 @@
             "name": "Intro to LGBTQ+ Studies",
             "units": "3.00",
             "description": "This is a global learning foundations course which will introduce you to the study of non-normative sexualities around the world."
-        },
-        {
-            "subject": "WST",
-            "code": "3644",
-            "name": "Intro Transgender Studies",
-            "units": "3.00",
-            "description": "This course introduces students to the new and evolving field of transgender studies, exploring trans lives, experiences, issues, and ideas across an array of disciplinary perspectives."
         },
         {
             "subject": "WST",
