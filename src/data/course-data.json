@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1658021156,
+    "dataAsOf": 1658626007,
     "data": [
         {
             "subject": "ACG",
@@ -66,10 +66,10 @@
         },
         {
             "subject": "ACG",
-            "code": "7157",
-            "name": "Thry & Rsrch In Actg",
+            "code": "7889",
+            "name": "Pos Thry Resch In Ac",
             "units": "3.00",
-            "description": "An evaluative overview of the classical literature in financial accounting and the contemporary empirical research published in the leading scholarly journals. Examined are income determination theories, normative accounting principles, accounting information and stock prices, and principal-agent relationships. Prerequisite: Permission of Doctoral advisor in Accounting."
+            "description": "Construction of theory to explain accounting and auditing practices in an environment of regulation using empirical research findings from a growing body of economic-based research in accounting and finance. Prerequisite: Permission of doctoral advisor in Accounting."
         },
         {
             "subject": "ACG",
@@ -787,6 +787,13 @@
         },
         {
             "subject": "ARC",
+            "code": "5734",
+            "name": "Culture and Art in Italy",
+            "units": "3.00",
+            "description": "Course describes the evolution of culture and aesthetics and their immediate relationship with the creation of these works. Consists of site visits and class lectures. Additional readings and project for graduate students."
+        },
+        {
+            "subject": "ARC",
             "code": "5744",
             "name": "Des Hist XIX to XXI",
             "units": "2.00",
@@ -798,6 +805,13 @@
             "name": "Des Hist XIX to XXI Lab",
             "units": "1.00",
             "description": "Laboratory section for ARC 5744. Reading and discussion of course texts and writing assignment. Laboratory work in conjunction with set lab. Prerequisites: ARC 2701, ARC 2702. Corequisite: ARC 5744."
+        },
+        {
+            "subject": "ARC",
+            "code": "5745",
+            "name": "Urban Arch 20th Cent",
+            "units": "3.00",
+            "description": "The course will examines debates on urban architecture surrounding the rise of Modernism in the 1920s and will follow those lines of thought into current discussions of  architectural design in cities."
         },
         {
             "subject": "ARC",
@@ -3010,13 +3024,6 @@
             "name": "Senior Seminar",
             "units": "1.00",
             "description": "An exploration of various research works in biological sciences. Oral presentation by the students required. Prerequisites or Corequisites:  PCB3043,PCB4674, PCB 3063, and PCB 4023 or OCP 3002, or BSC 3848"
-        },
-        {
-            "subject": "BSC",
-            "code": "4934",
-            "name": "Topics In Biology",
-            "units": "0.00",
-            "description": "An intensive study of a particular topic or limited number of topics not otherwise offered in the curriculum."
         },
         {
             "subject": "BSC",
@@ -5931,6 +5938,13 @@
             "description": "Intensive study of designs, strategies, and methods of single-case behavioral research."
         },
         {
+            "subject": "EAB",
+            "code": "4990",
+            "name": "Ethics in ABA",
+            "units": "2.00",
+            "description": "N/A"
+        },
+        {
             "subject": "EAS",
             "code": "4200",
             "name": "Intr Design Anal Aer Str",
@@ -7038,13 +7052,6 @@
         },
         {
             "subject": "EEE",
-            "code": "5718",
-            "name": "loT Security and Privacy",
-            "units": "3.00",
-            "description": "In this class, the students will learn the topics related to the security and privacy of Internet of Things field by learning the state-of-the-art in these areas and by gaining hands-on experience on real loT devices in a class project. This class involves significant programming. Prerequisites: EEL 2880 or COP 2210 or COP 2250 or equivalent or other prior programming experience or instructor permission and prior security class or instructor permission."
-        },
-        {
-            "subject": "EEE",
             "code": "6285",
             "name": "Biosig Proc I",
             "units": "3.00",
@@ -7378,6 +7385,13 @@
             "name": "Ant Wireless Com Sys",
             "units": "3.00",
             "description": "Antenna principles, wire antennas, printed antennas, antenna arrays, and measurements. Full-wave simulation software is used for the design and analysis of antennas for wireless communication systems. Prerequisite: EEL 4410 or permission of the instructor."
+        },
+        {
+            "subject": "EEL",
+            "code": "5500",
+            "name": "Dig Comm Sys I",
+            "units": "3.00",
+            "description": "This course will consider most important aspects of digital communication systems such as noise related subjects, random signals, linear systems, and baseband digital modulation and multiplexing."
         },
         {
             "subject": "EEL",
@@ -7959,13 +7973,6 @@
             "name": "Inventory Control",
             "units": "3.00",
             "description": "Design of non-traditional inventory control systems. Development of several inventory system models. Exploration of methods of collecting appropriate demand and cost data for effective systems analysis. Prerequisite: ESI 3314"
-        },
-        {
-            "subject": "EIN",
-            "code": "6357",
-            "name": "Adv Engr Economy",
-            "units": "3.00",
-            "description": "Review of engineering economy and the evaluation of advanced manufacturing systems. Evaluation of alternative capital investments considering income taxes, depreciation, inflation, risk and uncertainty. Prerequisite: EGN 3613."
         },
         {
             "subject": "EIN",
@@ -10307,6 +10314,13 @@
         },
         {
             "subject": "HFT",
+            "code": "3023C",
+            "name": "Coffee & Tea",
+            "units": "3.00",
+            "description": "Students will develop functional knowledge of the business of coffee, tea, and other non-alcoholic beverages in the hospitality industry in partnership with Lavazza Coffees."
+        },
+        {
+            "subject": "HFT",
             "code": "3066",
             "name": "The Art and Science Winemakng",
             "units": "3.00",
@@ -11487,13 +11501,6 @@
             "name": "First Yr Sem Sustain",
             "units": "1.00",
             "description": "Seminar course meant for freshmen or 1st year transfer students in the undergraduate Sustainability and Environment program. Topics include: designing plan of study, career development, getting help."
-        },
-        {
-            "subject": "IDS",
-            "code": "3073",
-            "name": "Understand Lib Stud Major",
-            "units": "3.00",
-            "description": "This course guides majors on the journey to designing their own subject-matter and intellectual focus in one of the three Liberal Studies undergraduate degrees."
         },
         {
             "subject": "IDS",
@@ -12806,13 +12813,6 @@
         },
         {
             "subject": "LAA",
-            "code": "6656",
-            "name": "LSCP ARCH Grad Design 4",
-            "units": "6.00",
-            "description": "Application of interdisciplinary principles and methods to urban planning and design in tropical and subtropical contexts."
-        },
-        {
-            "subject": "LAA",
             "code": "6905",
             "name": "Independent Study",
             "units": "0.00",
@@ -13034,13 +13034,6 @@
             "name": "Contracts",
             "units": "4.00",
             "description": "This course introduces and explores the function of contracts in a free enterprise economy. It covers the evolution and application of common law doctrines and, where applicable, those provisions of the Uniform Commercial Code governing the contracts process, including mutual assent, consideration, reliance, conditions,\r\ninterpretation of contract language, performance and breach, and remedies. The course may also cover impossibility and frustration, beneficiaries, and assignments."
-        },
-        {
-            "subject": "LAW",
-            "code": "5072",
-            "name": "Bus Law for Engineers",
-            "units": "3.00",
-            "description": "Focused on the formation, governance, operation, and legal protection of businesses. Coverage includes contracts, malpractice, products liability, employment law, and intellectual property law."
         },
         {
             "subject": "LAW",
@@ -13510,6 +13503,13 @@
             "name": "Prosecution Inn. Project",
             "units": "2.00",
             "description": "The prosecution innocence project (PIP) is a one semester, two credit experiential learning course that provides an opportunity for students to participate in a thorough and actual review of the prosecution file, including arrest and booking reports, general offense reports, supplemental reports, witness statements, law enforcement interviews, jail calls, 911 calls, lab reports, depositions, photographs and any other items of note. Students will develop an understanding of the many components of criminal investigation and trial and post-conviction proceedings and hone research and writing skills, as they write legal memoranda on a variety of subjects including competency of counsel, forensic science, Brady/Giglio evidence, legalities of police investigations, and post-conviction remedies."
+        },
+        {
+            "subject": "LAW",
+            "code": "7944",
+            "name": "Adv Leg Clinic",
+            "units": "1.00",
+            "description": "Advanced clinical training under the supervision of a law school faculty member in order to complete projects or cases begun by the student during a clinic, or to pursue in more depth the subject of the clinic."
         },
         {
             "subject": "LAW",
@@ -14920,6 +14920,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7250",
+            "name": "Dermatology Elective",
+            "units": "1.00",
+            "description": "This elective course is designed to give the student exposure to clinical dermatology, including the diagnosis and management of common skin diseases seen in general practice. The majority of the student's time will be spent working with faculty members in the outpatient clinical setting; although there may be some opportunities for inpatient consultations and other work. Upon completion of this elective, the student will know the clinical features of the most commonly encountered skin diseases and will be familiar with the modalities available for their management. This elective will be useful to students planning a career in a primary care specialty or dermatology. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7570",
             "name": "Orthopedic Surgery Elective",
             "units": "1.00",
@@ -15382,6 +15389,13 @@
         },
         {
             "subject": "MSL",
+            "code": "4400",
+            "name": "Us Military History",
+            "units": "3.00",
+            "description": "Examines the Military Heritage of the United States from colonial wars to the present; focuses on the operational and strategic levels of warfare."
+        },
+        {
+            "subject": "MSL",
             "code": "4900",
             "name": "Independent Study",
             "units": "3.00",
@@ -15652,13 +15666,6 @@
             "name": "Choral Literature",
             "units": "3.00",
             "description": "A survey of sacred and secular choral literature from the Middle Ages to the present. Emphasis on stylistic analysis and performance practice for each style period. Includes score study, aural analysis of recorded performances and in-class performances. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MUM",
-            "code": "3601",
-            "name": "Audio Techniques I",
-            "units": "3.00",
-            "description": "Basic sound engineering, including the basic workings of P.A. equipment and the interplay between the various components."
         },
         {
             "subject": "MUM",
@@ -16320,10 +16327,24 @@
         },
         {
             "subject": "MVB",
+            "code": "1315",
+            "name": "Prin Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "1411",
             "name": "Major Applied Trumpet",
             "units": "2.00",
             "description": "Individual instruction in applied music on trumpet as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "1415",
+            "name": "Maj Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -16408,6 +16429,13 @@
             "name": "Prin Applied Trumpet",
             "units": "2.00",
             "description": "Individual instruction in applied music on trumpet as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "4345",
+            "name": "Prin Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -16523,6 +16551,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "2329",
+            "name": "Prin App Jazz Drums",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz drums at a principal level."
+        },
+        {
+            "subject": "MVJ",
             "code": "2422",
             "name": "Major Applied Jazz Voice",
             "units": "2.00",
@@ -16541,6 +16576,13 @@
             "name": "Maj App Jazz Bass",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz bass at a major level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "2425",
+            "name": "Maj App Jazz Drms",
+            "units": "2.00",
+            "description": "Individual instruction on jazz drums at the applied level. Prerequisite: Audition."
         },
         {
             "subject": "MVJ",
@@ -16583,6 +16625,13 @@
             "name": "Prin App Jazz Trump",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz trumpet at a principal level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "3339",
+            "name": "Prin App Jazz Drums",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz drums at a principal level."
         },
         {
             "subject": "MVJ",
@@ -16649,6 +16698,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "4349",
+            "name": "Prin App Jazz Drums",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz drums at a principal level."
+        },
+        {
+            "subject": "MVJ",
             "code": "4442",
             "name": "Major Applied Jazz Voice",
             "units": "3.00",
@@ -16695,6 +16751,13 @@
             "name": "Jazz Piano Tech",
             "units": "1.00",
             "description": "Performance of basic jazz standards. Includes basic techniques of the instrument, chord voicing, comping, lead sheet realization for non-pianists."
+        },
+        {
+            "subject": "MVJ",
+            "code": "5359",
+            "name": "Prin App Jazz Drums",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz drums at a principal level. Music majors only."
         },
         {
             "subject": "MVJ",
@@ -19449,6 +19512,13 @@
         },
         {
             "subject": "PHC",
+            "code": "6920",
+            "name": "Spec Topics EHS",
+            "units": "3.00",
+            "description": "This course is designed to impart in depth knowledge of emerging issues in the area of environmental and occupational health."
+        },
+        {
+            "subject": "PHC",
             "code": "6921",
             "name": "EHS seminar",
             "units": "1.00",
@@ -20454,6 +20524,13 @@
             "name": "Intro Behav Neurosci",
             "units": "3.00",
             "description": "An overview of the nervous system, neurophysiology, neurochemistry, and a brief introduction to brain disorders. Discussions on ethics in neuroscience research. Prerequisite: BSC 2010/L General Biology I & Lab; BSC 2011/L General Biology II & Lab; CHM 1045/L General Chemistry I & Lab; CHM 1046/L General Chemistry II &Lab"
+        },
+        {
+            "subject": "PSB",
+            "code": "3101",
+            "name": "Behav Neuro Methods",
+            "units": "3.00",
+            "description": "Techniques used to examine the functions of the brain in various species from invertebrates to humans. Prerequisite: PSB 3007."
         },
         {
             "subject": "PSB",
@@ -22526,6 +22603,20 @@
             "name": "Pre-Dis Research",
             "units": "0.00",
             "description": "Enables students to concentrate on completion of their dissertation prospectus during the term in which they take Ph.D. comprehensive exams. Prerequisite: Completion of all other Ph.D. coursework."
+        },
+        {
+            "subject": "SRK",
+            "code": "2100",
+            "name": "Sanskrit I",
+            "units": "3.00",
+            "description": "Basic Sanskrit skills including Devanagiri alphabet; fundamentals of oral communication; grammar; use of dictionary; history of Sanskrit languages and literature."
+        },
+        {
+            "subject": "SRK",
+            "code": "5001",
+            "name": "Sanskrit Exegesis I",
+            "units": "3.00",
+            "description": "Application of both modern and traditional interpretations of selected readings from classical Sanskrit texts. Prerequisites: SRK 2101 or permission of the instructor."
         },
         {
             "subject": "SSE",
