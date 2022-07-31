@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1658626007,
+    "dataAsOf": 1659230790,
     "data": [
         {
             "subject": "ACG",
@@ -2005,13 +2005,6 @@
         },
         {
             "subject": "BCH",
-            "code": "6108",
-            "name": "Biochem Techniques",
-            "units": "3.00",
-            "description": "Introduction to theories of basic biochemical techniques commonly used in a biochemistry laboratory."
-        },
-        {
-            "subject": "BCH",
             "code": "7930",
             "name": "Biochem Graduate Seminar",
             "units": "0.00",
@@ -2317,13 +2310,6 @@
             "name": "Value Engineering",
             "units": "3.00",
             "description": "Relationship of costs to time and life cycle of construction projects, and methods to improve the economic value of construction projects."
-        },
-        {
-            "subject": "BCN",
-            "code": "6675",
-            "name": "Dec & Risk In Const",
-            "units": "3.00",
-            "description": "Techniques of decision analysis for the medium to top level management personnel in the construction industry. Typical construction related problems that involve risk and uncertainty are studied."
         },
         {
             "subject": "BCN",
@@ -3024,6 +3010,13 @@
             "name": "Senior Seminar",
             "units": "1.00",
             "description": "An exploration of various research works in biological sciences. Oral presentation by the students required. Prerequisites or Corequisites:  PCB3043,PCB4674, PCB 3063, and PCB 4023 or OCP 3002, or BSC 3848"
+        },
+        {
+            "subject": "BSC",
+            "code": "4944",
+            "name": "Forensic Internship",
+            "units": "0.00",
+            "description": "Connect forensic theory and practice in a professional work environment. Interns gain experience and professional connections. Course can be repeated. Prerequisites: Permission from FIU faculty advisor is required."
         },
         {
             "subject": "BSC",
@@ -4056,6 +4049,13 @@
         },
         {
             "subject": "CHM",
+            "code": "4300",
+            "name": "Bio-Organic Chem",
+            "units": "3.00",
+            "description": "Chemistry of naturally-occurring organic compounds of biological importance. The relationship between organic chemistry and the chemical reactions which constitute the living organism."
+        },
+        {
+            "subject": "CHM",
             "code": "4304",
             "name": "Biol Chemistry I",
             "units": "3.00",
@@ -4081,13 +4081,6 @@
             "name": "Bio Chem Lab II",
             "units": "1.00",
             "description": "Continuation of Biological Chemistry Laboratory I. Experimental methods presented include NMR, enzyme inhibition assays, macromolecular thermodynamics, peptide sequencing, ligand binding assays, chromatography."
-        },
-        {
-            "subject": "CHM",
-            "code": "4611",
-            "name": "Adv Inorganic Chemis",
-            "units": "3.00",
-            "description": "Atomic structure, periodicity, bonding and structure of inorganic compounds, solution chemistry, ligand field theory, organometallic chemistry, and specific chemistry of the elements. Prerequisite: CHM3610, CHM2211, CHM2211L, CHM3410, CHM3410L."
         },
         {
             "subject": "CHM",
@@ -4126,6 +4119,13 @@
         },
         {
             "subject": "CHM",
+            "code": "5236",
+            "name": "Spectroscopic Tech",
+            "units": "3.00",
+            "description": "Advanced techniques for the spectroscopic identification of organic compounds. Interpretation of spectral information for determination of structures of various classes of organic compounds. Prerequisites: CHM 4220 and CHM 4230L."
+        },
+        {
+            "subject": "CHM",
             "code": "5305",
             "name": "Grad Biol Chem",
             "units": "3.00",
@@ -4151,13 +4151,6 @@
             "name": "Grad Phys Chem II",
             "units": "4.00",
             "description": "Gas laws; thermodynamics and equilibrium, electrochemistry, and chemical kinetics. Prerequisite: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "CHM",
-            "code": "5620",
-            "name": "Graduate Inorganic Chem",
-            "units": "3.00",
-            "description": "Atomic structure, periodicity, bonding and structure of inorganic compounds, solution chemistry, ligand field theory, organometallic chemistry, and specific chemistry of the elements. Prerequisite: Graduate standing or permission of instructor."
         },
         {
             "subject": "CHM",
@@ -7017,6 +7010,13 @@
         },
         {
             "subject": "EEE",
+            "code": "4550",
+            "name": "Intro Radar Sys",
+            "units": "3.00",
+            "description": "Radar equation, MTI and pulse Doppler radar, tracking radar, signal detection in noise, radar clutter, propagation of radar waves, radar antenna, radar transmitters, and radar receivers."
+        },
+        {
+            "subject": "EEE",
             "code": "4717",
             "name": "IoT-Sec-Intro",
             "units": "3.00",
@@ -7392,13 +7392,6 @@
             "name": "Dig Comm Sys I",
             "units": "3.00",
             "description": "This course will consider most important aspects of digital communication systems such as noise related subjects, random signals, linear systems, and baseband digital modulation and multiplexing."
-        },
-        {
-            "subject": "EEL",
-            "code": "5718",
-            "name": "Comp-Comm Ntwk Eng",
-            "units": "3.00",
-            "description": "System engineering synthesis, analysis, and evaluation of computer-communication networks. Network design, routing and flow control, telecommunication traffic engineering, transmission, switching, etc."
         },
         {
             "subject": "EEL",
@@ -7833,6 +7826,13 @@
             "name": "Advanced Special Topics",
             "units": "1.00",
             "description": "An advanced special topics course for PhD students to pursue and study areas in engineering or computing education at an advanced level that otherwise would not be offered."
+        },
+        {
+            "subject": "EGN",
+            "code": "6942",
+            "name": "Teach Pract Eng Comp Ed",
+            "units": "1.00",
+            "description": "Structured application of educational theories and pedagogy through classroom teaching experiences and weekly learning community meetings. Requires students find a faculty teaching mentor."
         },
         {
             "subject": "EGN",
@@ -8640,13 +8640,6 @@
             "description": "Designed for those wanting to start or grow a business. Students analyze unstructured business situations and use critical thinking and business development principles to develop the solutions."
         },
         {
-            "subject": "ENT",
-            "code": "4704",
-            "name": "Intl Entrepreneurship",
-            "units": "3.00",
-            "description": "This course provides a foundation in international entrepreneurship, focusing on the experiences of small as well as large entrepreneurial firms. Cross-national and cross-cultural business practices are analyzed."
-        },
-        {
             "subject": "ENV",
             "code": "3001",
             "name": "Intro Enviro Engrng",
@@ -9411,6 +9404,13 @@
         },
         {
             "subject": "FIN",
+            "code": "6515",
+            "name": "Securities Analysis",
+            "units": "3.00",
+            "description": "An analysis of securities and the organization and operation of their markets. The determination of the risk reward structure of equity and debt securities and their valuation. Special emphasis on common stocks. Other topics include options, mutual funds and technical analysis. Prerequisite: FIN 6406."
+        },
+        {
+            "subject": "FIN",
             "code": "6943",
             "name": "Fin Internship",
             "units": "0.00",
@@ -9642,13 +9642,6 @@
         },
         {
             "subject": "FSS",
-            "code": "3073",
-            "name": "Intl Bak, Conf & Des",
-            "units": "3.00",
-            "description": "Provides a professional understanding and foundation of management for food production in a pastry department or industrial baking facility within the foodservice industry."
-        },
-        {
-            "subject": "FSS",
             "code": "3230C",
             "name": "Intro Comm Food Serv",
             "units": "3.00",
@@ -9667,13 +9660,6 @@
             "name": "Internatnl Cuisine",
             "units": "3.00",
             "description": "An opportunity for food aficionados to explore modern interpretations of international classic cuisine. Includes lecture, demonstration and preparation of favorite international dishes from restaurant menus around the world. Open to non-majors."
-        },
-        {
-            "subject": "FSS",
-            "code": "4015",
-            "name": "Princ. Culinology",
-            "units": "3.00",
-            "description": "A comprehensive course covering fundamentals of physical & chemical properties of foods, product development, processing & preservation technologies, emerging industrial food processing technologies."
         },
         {
             "subject": "FSS",
@@ -10339,6 +10325,13 @@
             "name": "Social Respon in Hosp Ind",
             "units": "3.00",
             "description": "This course examines hospitality companies and global issues that will affect their communities and business. It includes service learning and reflection of your individual responsibilities."
+        },
+        {
+            "subject": "HFT",
+            "code": "3074",
+            "name": "Personal Empower in Hosp Ind",
+            "units": "3.00",
+            "description": "Student will increase their interpersonal skills in a business setting by applying a set of tested techniques that will increase their professional success. They will develop personal strengths."
         },
         {
             "subject": "HFT",
@@ -11623,6 +11616,13 @@
         },
         {
             "subject": "IND",
+            "code": "5205",
+            "name": "Fund vessel design",
+            "units": "3.00",
+            "description": "This course explores the fundamentals of design for commercial Marine passenger Vessels: Cruise Ships, ferries, Yachts, and Superyachts. Prerequisite: IND 6256. Corequisite: IND 6257"
+        },
+        {
+            "subject": "IND",
             "code": "5235",
             "name": "Form Studio 1",
             "units": "6.00",
@@ -11781,13 +11781,6 @@
             "name": "Independent Study",
             "units": "1.00",
             "description": "Coursework on a particular aspect of architecture under the direction of faculty in an individual study format. Prerequisite: Program approval."
-        },
-        {
-            "subject": "IND",
-            "code": "6970",
-            "name": "Masters Project",
-            "units": "1.00",
-            "description": "The curriculum was reordered and the Master's project is now the terminal studio for all students."
         },
         {
             "subject": "INP",
@@ -12768,13 +12761,6 @@
             "name": "LSCP Arch Intern",
             "units": "3.00",
             "description": "Advanced issues in professional practice learned through work experience with a licensed professional."
-        },
-        {
-            "subject": "LAA",
-            "code": "6245",
-            "name": "Theory Urban Design",
-            "units": "3.00",
-            "description": "Critical review of the principal theories of urbanism that have influenced the fabric and image of the city in Western history."
         },
         {
             "subject": "LAA",
@@ -14023,6 +14009,13 @@
             "description": "An introduction to complex variables, beginning with the algebra and geometry of the complex number system. Topics include: complex functions; analytic functions; Cauchy's theorem and its consequences; Taylor and Laurent series; residue calculus; evaluation of real integrals and summation of series; conformal mapping."
         },
         {
+            "subject": "MAA",
+            "code": "6616",
+            "name": "Real Analysis",
+            "units": "3.00",
+            "description": "Function spaces, Lebesgue Measure and Integral with applications, properties of Lp spaces, differentiation, Radon-Nikodym theorem. Prerequisites: MAS 3105, MAA 4211, MAP 4401 or MAA 4212."
+        },
+        {
             "subject": "MAC",
             "code": "1000",
             "name": "College Algebra Stretch",
@@ -14507,10 +14500,24 @@
         },
         {
             "subject": "MAP",
+            "code": "5467",
+            "name": "Stochastic Diff Eqns",
+            "units": "3.00",
+            "description": "Review of measure theory, stochastic processes, Ito Integral and its properties, martingales and their generalizations, stochastic differential equations, diffusions. Applications to boundary value problems and finance. Prerequisites: MAS 3105, MAP 4401, MAA 4211, MAA 5616 or permission of instructor."
+        },
+        {
+            "subject": "MAP",
             "code": "5620",
             "name": "Math Primer for Env Fin",
             "units": "3.00",
             "description": "This course is an introductory course that presents the mathematical tools necessary for financial instrument, pricing and hedging design. Prerequisite: Working knowledge of Calculus and Basic Statistics and Probability."
+        },
+        {
+            "subject": "MAP",
+            "code": "6506",
+            "name": "Adv Methods Math Physics",
+            "units": "3.00",
+            "description": "Continuation of Functional Analysis (MAA 6506). Topics include compact and trace class operators, spectral theory, perturbation theory. Previous exposure to MAP 5415 is preferred but not required. Prerequisite: MAA 6406, MAA 6506 or consent of the instructor"
         },
         {
             "subject": "MAP",
@@ -14751,6 +14758,13 @@
             "description": "Topics to be discussed are selected from the following: congruencies, Diophantine equations, distribution of primes, primitive roots, quadratic reciprocity, and classical theorems of number theory."
         },
         {
+            "subject": "MAS",
+            "code": "5145",
+            "name": "Applied Linear Alg",
+            "units": "3.00",
+            "description": "Vector spaces and linear maps, solutions of linear systems, orthogonal projection and QR factorization, determinant and eigenvalues of a matrix. Prerequisites: MAS 3105 and MAA 3200."
+        },
+        {
             "subject": "MAT",
             "code": "4905",
             "name": "Independent Study",
@@ -14920,6 +14934,27 @@
         },
         {
             "subject": "MDE",
+            "code": "7048",
+            "name": "Narrative Medicine Elect",
+            "units": "1.00",
+            "description": "Pioneered by Rita Charon, narrative medicine trains doctors and other caregivers to use careful listening and reflective writing to forge deeper connections with their patients, resulting in the provision of better care and the promotion of physician wellness. The narrative medicine elective is offered as a two week rotation, with the option for students to enroll in an additional two-credit longitudinal component. During this elective, students will have the opportunity to explore different types of narrative medicine writing\u00c2\u00bfincluding the parallel chart, 55-word stories, poetry and using narratives as an advocacy tool. Students will participate in discussion sessions about assigned readings; participate in small group writing workshops; and share their writing with their peers. The course director will create individualized writing plans tailored to students' specific interests, objectives, and clinical schedules. Students will write a total, including drafts, of about 10,000 words.  Prerequisite: Enrolled in HWCOM."
+        },
+        {
+            "subject": "MDE",
+            "code": "7100",
+            "name": "Community Medicine Elective",
+            "units": "1.00",
+            "description": "This intensive ambulatory block will serve as a community based primary care experience. Under the supervision of community based FIU faculty, the student will assume a level of independence appropriate to his/her skills and training level. Students will practice patient-centered communication, diagnostic and management skills, clinical reasoning, management of common ambulatory clinical issues, and patient education and negotiation. Experiences may include any primary care specialty (e.g. family medicine, internal medicine, pediatrics, obstetrics and gynecology, psychiatry). Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7204",
+            "name": "Hospitalist Service Elective",
+            "units": "1.00",
+            "description": "The four week Hospitalist rotation is designed to allow fourth year students the opportunity to participate with increased responsibility in the care of patients admitted to the internal medicine/hospitalist service. Students provide longitudinal care for hospitalized patients from the time of consultation in the emergency room to the patient's discharge and/or transfer. Students' schedules vary according to the needs of each site; students are expected to take call every fourth night. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7250",
             "name": "Dermatology Elective",
             "units": "1.00",
@@ -14927,10 +14962,31 @@
         },
         {
             "subject": "MDE",
+            "code": "7494",
+            "name": "Ped Ortho Surg Elective",
+            "units": "1.00",
+            "description": "The section of Orthopedics presents to the fourth-year student a comprehensive outline of the spectrum of orthopedic surgery as practiced in a pediatric setting. The student is involved in an intensive in-patient experience and has increased responsibility, involving primary workup of new patients and writing orders. The student also performs procedures such as evaluating patients, taking an orthopedic history, performing a physical examination of the musculoskeletal system, assisting in the operating room, and being involved in postoperative care. The student is involved in the management of orthopedic trauma and is expected to participate with the orthopedic surgery team in the diagnosis, surgical treatment, and postoperative management of orthopedic trauma patients. The student may participate directly with patients in the emergency department, operating room, intensive care unit, and the orthopedic unit. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7570",
             "name": "Orthopedic Surgery Elective",
             "units": "1.00",
             "description": "The section of Orthopedics presents to the student a comprehensive outline of the spectrum of orthopedic surgery as practiced in a community hospital. The student is involved in an intensive in-patient experience and has significantly increased responsibility, involving primary workup of new patients and writing orders. The student performs procedures such as evaluating patients, taking an orthopedic history, and performing a physical examination of the musculoskeletal system. The student should improve his or her ability to manage complex patient presentations, including diagnosing and treating common adult orthopedic problems. The student should develop advanced skills in fracture treatment and cast application. He or she should be involved in joint replacement surgery and management of postoperative adult orthopedic patients.Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7580",
+            "name": "Physical Med & Rehab Elec",
+            "units": "1.00",
+            "description": "This elective offers students experience in the diagnosis and management of patients with a variety of neuro-muscular diagnoses such as stroke, spinal cord injury, traumatic brain injury, and neuro-degenerative disorders such as multiple sclerosis. Students may treat patients with musculo-skeletal disorders such as amputation, total hip arthroplasty, total knee arthroplasty, and multiple trauma victims. Students attend physical, occupational, and speech therapy sessions with their patients to learn the daily process of rehabilitation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7592",
+            "name": "Otolaryngology/ENT Elective",
+            "units": "1.00",
+            "description": "This clinical elective exposes medical students to the surgical subspecialty of Otolaryngology-Head and Neck Surgery, also known as Ear, Nose and Throat (ENT). Medical students work directly with clinical team in the operating room, inpatient setting, and outpatient clinic caring for patients with a variety of medical and surgical diseases affecting the head and neck region. Students are expected to be an active member of the patient care team; they should participate in diagnostic evaluations, present their findings to the attending physician, and synthesize assessments and plans. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -14945,6 +15001,20 @@
             "name": "Diagnostic Radiology Elective",
             "units": "1.00",
             "description": "This rotation is intended to give students an introduction to the basics of diagnostic imaging, the appropriate choice of imaging method for given clinical problems, and the side-effects and risks associated with each. Students will become familiar with imaging findings in common clinical conditions. The rotation will involve online modules, small group sessions and 'virtual' and real reading room sessions. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7780",
+            "name": "Radiation Oncology Elective",
+            "units": "1.00",
+            "description": "This rotation provides students with supervised participation in the care of radiation oncology patients. This includes the diagnostic/clinical evaluation of the patient's disease and the development of treatment plans involving radiation therapy. Students are exposed to state-of-the- art radiation oncology equipment and, during the planning phase, are shown the use of CT imaging with plain and contrast-enhanced techniques for therapy planning and positioning of the patient for radiation treatment. They are exposed to the management of the most common tumors seen in our community, including breast, prostate, lung, Gl, skin, and head and neck cancer. Students are introduced to palliative care and the incorporation of integrative medicine in the overall care of the patient. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7862",
+            "name": "Adult Inpatient Psychiatry Ele",
+            "units": "1.00",
+            "description": "This 2-week or 4-week rotation allows Period 4 medical students to refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and emergency psychiatry experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDI",
@@ -14966,6 +15036,13 @@
             "name": "Research Scholarship",
             "units": "1.00",
             "description": "The Research Scholarship Course aims to develop competencies required to do research as a lead investigator or colead investigator. This course provides students the opportunity to be exposed to and supported through the completion of a research project in a role that very closely resembles the role of a primary investigator or first author researcher. The student should be a full participant and a crucial element in the generation of (or fully understand, if assigned to an\nongoing project) the research idea (research question or hypothesis), the development of the project proposal, data collection tools, data collection activities, analysis, interpretation, and the writing of a short document summarizing the experience. Potential research projects could encompass, but are not to be limited to the areas of basic sciences and community-based clinical and epidemiological research.Prerequisite: Enrolled in the Herbert College of Medicine."
+        },
+        {
+            "subject": "MDS",
+            "code": "7710",
+            "name": "Emergency Medicine Selective",
+            "units": "3.00",
+            "description": "This rotation is intended to familiarize students with the wide range of clinical conditions, minor to major, which are responsible for the patient seeking care at an emergency department. Students practice skills in the recognition and management of acute life-threatening conditions and exacerbation of serious disease in a strictly supervised setting.Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MET",
@@ -15669,6 +15746,13 @@
         },
         {
             "subject": "MUM",
+            "code": "3601",
+            "name": "Audio Techniques I",
+            "units": "3.00",
+            "description": "Basic sound engineering, including the basic workings of P.A. equipment and the interplay between the various components."
+        },
+        {
+            "subject": "MUM",
             "code": "3742L",
             "name": "Music Production",
             "units": "3.00",
@@ -16313,6 +16397,13 @@
         },
         {
             "subject": "MVB",
+            "code": "1312",
+            "name": "Prin Appl French Hor",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on French horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "1313",
             "name": "Prin Appl Trombone",
             "units": "2.00",
@@ -16341,6 +16432,20 @@
         },
         {
             "subject": "MVB",
+            "code": "1412",
+            "name": "Major Appl Fr Horn",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "1413",
+            "name": "Major Appl Trombone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "1415",
             "name": "Maj Applied Tuba",
             "units": "2.00",
@@ -16355,6 +16460,13 @@
         },
         {
             "subject": "MVB",
+            "code": "2322",
+            "name": "Prin Appl French Hor",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on French horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "2323",
             "name": "Prin Appl Trombone",
             "units": "2.00",
@@ -16366,6 +16478,27 @@
             "name": "Prin Applied Tuba",
             "units": "2.00",
             "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "2421",
+            "name": "Major Appl Trumpet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on trumpet as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "2422",
+            "name": "Major Appl Fr Horn",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "2423",
+            "name": "Major Appl Trombone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -16404,6 +16537,20 @@
         },
         {
             "subject": "MVB",
+            "code": "3431",
+            "name": "Major Appl Trumpet",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on trumpet as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "3432",
+            "name": "Major Appl Fr Horn",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "3433",
             "name": "Major Appl Trombone",
             "units": "3.00",
@@ -16432,6 +16579,20 @@
         },
         {
             "subject": "MVB",
+            "code": "4342",
+            "name": "Prin Appl French Hor",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on French horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "4343",
+            "name": "Prin Appl Trombone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "4345",
             "name": "Prin Applied Tuba",
             "units": "2.00",
@@ -16446,10 +16607,80 @@
         },
         {
             "subject": "MVB",
+            "code": "4442",
+            "name": "Major Appl Fr Horn",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "4443",
+            "name": "Major Appl Trombone",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
             "code": "4444",
             "name": "Maj Appl Bariton Hor",
             "units": "3.00",
             "description": "Individual instruction in applied music on baritone horn as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "4445",
+            "name": "Maj Applied Tuba",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "5351",
+            "name": "Prin Applied Trumpet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on trumpet as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "5352",
+            "name": "Prin Appl French Hor",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on French horn as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "5353",
+            "name": "Prin Appl Trombone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "5355",
+            "name": "Prin Applied Tuba",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "5451",
+            "name": "Major Appl Trumpet",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on trumpet as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "5452",
+            "name": "Major Appl Fr Horn",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVB",
+            "code": "5453",
+            "name": "Major Appl Trombone",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -16488,6 +16719,20 @@
         },
         {
             "subject": "MVJ",
+            "code": "1316",
+            "name": "Prin Applied Jazz Sa",
+            "units": "2.00",
+            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz. Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
+            "code": "1317",
+            "name": "Prin App Jazz Trump",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz trumpet at a principal level."
+        },
+        {
+            "subject": "MVJ",
             "code": "1410",
             "name": "Maj App Jazz Piano",
             "units": "2.00",
@@ -16516,6 +16761,27 @@
         },
         {
             "subject": "MVJ",
+            "code": "1414",
+            "name": "Maj App Jazz Bass",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz bass at a major level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "1416",
+            "name": "Maj Applied Jazz Sax",
+            "units": "2.00",
+            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz.  Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
+            "code": "1417",
+            "name": "Maj App Jazz Trumpet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz trumpet at a major level."
+        },
+        {
+            "subject": "MVJ",
             "code": "2220",
             "name": "Sec Jazz Piano",
             "units": "1.00",
@@ -16530,6 +16796,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "2310",
+            "name": "Prin App Jazz Piano",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz piano at a principal level."
+        },
+        {
+            "subject": "MVJ",
             "code": "2321",
             "name": "Principle Applied Jazz Voice",
             "units": "2.00",
@@ -16537,10 +16810,24 @@
         },
         {
             "subject": "MVJ",
+            "code": "2323",
+            "name": "Prin App Jazz Guitar",
+            "units": "2.00",
+            "description": "Individual instruction in applied jazz music on guitar."
+        },
+        {
+            "subject": "MVJ",
             "code": "2324",
             "name": "Prin App Jazz Bass",
             "units": "2.00",
             "description": "Individual instruction in applied jazz music on bass."
+        },
+        {
+            "subject": "MVJ",
+            "code": "2326",
+            "name": "Prin Applied Jazz Sa",
+            "units": "2.00",
+            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz. Prerequisite: Audition."
         },
         {
             "subject": "MVJ",
@@ -16555,6 +16842,13 @@
             "name": "Prin App Jazz Drums",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz drums at a principal level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "2420",
+            "name": "Maj App Jazz Piano",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz piano as a major level."
         },
         {
             "subject": "MVJ",
@@ -16593,6 +16887,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "2427",
+            "name": "Maj App Jazz Trumpet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz trumpet at a major level."
+        },
+        {
+            "subject": "MVJ",
             "code": "3330",
             "name": "Prin App Jazz Piano",
             "units": "2.00",
@@ -16621,6 +16922,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "3336",
+            "name": "Prin Applied Jazz Sa",
+            "units": "2.00",
+            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz. Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
             "code": "3337",
             "name": "Prin App Jazz Trump",
             "units": "2.00",
@@ -16632,6 +16940,13 @@
             "name": "Prin App Jazz Drums",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz drums at a principal level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "3430",
+            "name": "Maj App Jazz Piano",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on jazz piano as a major level."
         },
         {
             "subject": "MVJ",
@@ -16698,10 +17013,38 @@
         },
         {
             "subject": "MVJ",
+            "code": "4343",
+            "name": "Prin App Jazz Guitar",
+            "units": "2.00",
+            "description": "Individual instruction in applied jazz music on guitar."
+        },
+        {
+            "subject": "MVJ",
+            "code": "4346",
+            "name": "Prin Applied Jazz Sa",
+            "units": "2.00",
+            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz. Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
+            "code": "4347",
+            "name": "Prin App Jazz Trump",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on jazz trumpet at a principal level."
+        },
+        {
+            "subject": "MVJ",
             "code": "4349",
             "name": "Prin App Jazz Drums",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz drums at a principal level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "4440",
+            "name": "Maj App Jazz Piano",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on jazz piano as a major level."
         },
         {
             "subject": "MVJ",
@@ -16740,6 +17083,13 @@
         },
         {
             "subject": "MVJ",
+            "code": "4447",
+            "name": "Maj App Jazz Trumpet",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on jazz trumpet at a major level."
+        },
+        {
+            "subject": "MVJ",
             "code": "4971",
             "name": "Senior Rec Jazz",
             "units": "0.00",
@@ -16751,6 +17101,27 @@
             "name": "Jazz Piano Tech",
             "units": "1.00",
             "description": "Performance of basic jazz standards. Includes basic techniques of the instrument, chord voicing, comping, lead sheet realization for non-pianists."
+        },
+        {
+            "subject": "MVJ",
+            "code": "5351",
+            "name": "Principle Applied Jazz Voice",
+            "units": "2.00",
+            "description": "Individual instruction in the Jazz Vocal Idiom. Study includes health and vocal technique, advanced development of repertoire, specific and necessary skills for compelling public performance."
+        },
+        {
+            "subject": "MVJ",
+            "code": "5353",
+            "name": "Prin App Jazz Guitar",
+            "units": "2.00",
+            "description": "Individual instruction in applied jazz music on guitar."
+        },
+        {
+            "subject": "MVJ",
+            "code": "5356",
+            "name": "Prin  Applied Jazz Sa",
+            "units": "2.00",
+            "description": "Individual advanced instruction on major instrument. An in-depth study of overall instrumental technique, eminent jazz styles, and other performance practices that are particularly relevant to jazz."
         },
         {
             "subject": "MVJ",
@@ -16782,10 +17153,31 @@
         },
         {
             "subject": "MVJ",
+            "code": "5454",
+            "name": "Maj App Jazz Bass",
+            "units": "3.00",
+            "description": "Individual instruction on major instrument, focusing on the jazz idiom. An in-depth study of overall instrumental technique, eminent styles, and other performance practices that are particularly relevant to jazz and commercial performance."
+        },
+        {
+            "subject": "MVJ",
             "code": "5455",
             "name": "Maj App Jazz Drms",
             "units": "3.00",
             "description": "Individual instruction in applied music at the graduate level. Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
+            "code": "5456",
+            "name": "Maj Applied Jazz Sax",
+            "units": "3.00",
+            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz.  Prerequisite: Audition."
+        },
+        {
+            "subject": "MVJ",
+            "code": "5457",
+            "name": "Maj App Jazz Trumpet",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on jazz trumpet at a major level. Music majors only."
         },
         {
             "subject": "MVK",
@@ -16887,6 +17279,13 @@
         },
         {
             "subject": "MVK",
+            "code": "4341",
+            "name": "Prin App Piano",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on piano as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVK",
             "code": "4441",
             "name": "Major Applied Piano",
             "units": "3.00",
@@ -16912,6 +17311,13 @@
             "name": "Sec Applied Piano",
             "units": "1.00",
             "description": "Individual instruction in applied music on piano as a secondary instrument."
+        },
+        {
+            "subject": "MVK",
+            "code": "5351",
+            "name": "Prin App Piano",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on piano as a principal instrument. Music majors only."
         },
         {
             "subject": "MVK",
@@ -17013,6 +17419,27 @@
         },
         {
             "subject": "MVS",
+            "code": "1313",
+            "name": "Prin Applied Cello",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "1314",
+            "name": "Prin App Dble Bass",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "1316",
+            "name": "Principal App Guitar",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on guitar as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "1411",
             "name": "Major Applied Violin",
             "units": "2.00",
@@ -17062,6 +17489,20 @@
         },
         {
             "subject": "MVS",
+            "code": "2322",
+            "name": "Prin Applied Viola",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on viola as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "2323",
+            "name": "Prin Applied Cello",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "2324",
             "name": "Prin App Dble Bass",
             "units": "2.00",
@@ -17090,6 +17531,13 @@
         },
         {
             "subject": "MVS",
+            "code": "2423",
+            "name": "Major Applied Cello",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on cello as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "2424",
             "name": "Major App Dble Bass",
             "units": "2.00",
@@ -17111,10 +17559,24 @@
         },
         {
             "subject": "MVS",
+            "code": "3332",
+            "name": "Prin Applied Viola",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on viola as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "3333",
             "name": "Prin Applied Cello",
             "units": "2.00",
             "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "3334",
+            "name": "Prin App Dble Bass",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -17153,6 +17615,13 @@
         },
         {
             "subject": "MVS",
+            "code": "3436",
+            "name": "Major Applied Guitar",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on guitar as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "3970",
             "name": "Junior Rec String",
             "units": "0.00",
@@ -17167,6 +17636,13 @@
         },
         {
             "subject": "MVS",
+            "code": "4342",
+            "name": "Prin Applied Viola",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on viola as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "4343",
             "name": "Prin Applied Cello",
             "units": "2.00",
@@ -17174,10 +17650,31 @@
         },
         {
             "subject": "MVS",
+            "code": "4344",
+            "name": "Prin App Dble Bass",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "4346",
+            "name": "Principal App Guitar",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on guitar as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "4441",
             "name": "Major Applied Violin",
             "units": "3.00",
             "description": "Individual instruction in applied music on violin as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "4442",
+            "name": "Major Applied Viola",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on viola as a major instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -17195,10 +17692,59 @@
         },
         {
             "subject": "MVS",
+            "code": "4446",
+            "name": "Major Applied Guitar",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on guitar as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
             "code": "4541",
             "name": "Orch Audition Rep",
             "units": "3.00",
             "description": "This course prepares upper string players, primarily violinists, for professional auditions by coaching them intensively in the standard audition repertoire and by holding mock auditions. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "MVS",
+            "code": "5351",
+            "name": "Prin Applied Violin",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on violin as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "5352",
+            "name": "Prin Applied Viola",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on viola as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "5353",
+            "name": "Prin Applied Cello",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "5354",
+            "name": "Prin App Dble Bass",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "5356",
+            "name": "Principal App Guitar",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on guitar as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVS",
+            "code": "5451",
+            "name": "Major Applied Violin",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on violin as a major instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -17342,6 +17888,13 @@
         },
         {
             "subject": "MVW",
+            "code": "1312",
+            "name": "Principal Appl Oboe",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
             "code": "1313",
             "name": "Prin App Clarinet",
             "units": "2.00",
@@ -17353,6 +17906,27 @@
             "name": "Prin Appl Saxophone",
             "units": "2.00",
             "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "1411",
+            "name": "Major Applied Flute",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "1412",
+            "name": "Major Applied Oboe",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "1413",
+            "name": "Major Appl Clarinet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on clarinet as a major instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -17370,10 +17944,38 @@
         },
         {
             "subject": "MVW",
+            "code": "2322",
+            "name": "Principal Appl Oboe",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
             "code": "2323",
             "name": "Prin App Clarinet",
             "units": "2.00",
             "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "2325",
+            "name": "Prin Appl Saxophone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "2421",
+            "name": "Major Applied Flute",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "2422",
+            "name": "Major Applied Oboe",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -17384,10 +17986,31 @@
         },
         {
             "subject": "MVW",
+            "code": "2425",
+            "name": "Major Appl Saxophone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
             "code": "3331",
             "name": "Principal App Flute",
             "units": "2.00",
             "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "3332",
+            "name": "Principal Appl Oboe",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "3333",
+            "name": "Prin App Clarinet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -17398,10 +18021,31 @@
         },
         {
             "subject": "MVW",
+            "code": "3431",
+            "name": "Major Applied Flute",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
             "code": "3432",
             "name": "Major Applied Oboe",
             "units": "3.00",
             "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "3433",
+            "name": "Major Appl Clarinet",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on clarinet as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "3435",
+            "name": "Major Appl Saxophone",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -17412,10 +18056,52 @@
         },
         {
             "subject": "MVW",
+            "code": "4341",
+            "name": "Principla App Flute",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "4342",
+            "name": "Principal Appl Oboe",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "4343",
+            "name": "Prin Applied Clarine",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "4345",
+            "name": "Prin App Saxophone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "4441",
+            "name": "Major Applied Flute",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
             "code": "4442",
             "name": "Major Applied Oboe",
             "units": "3.00",
             "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "4443",
+            "name": "Major Appl Clarinet",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on clarinet as a major instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -17433,10 +18119,59 @@
         },
         {
             "subject": "MVW",
+            "code": "5351",
+            "name": "Principal App Flute",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "5352",
+            "name": "Principal Appl Oboe",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "5353",
+            "name": "Prin App Clarinet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "5355",
+            "name": "Prin Appl Saxophone",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
             "code": "5451",
             "name": "Major Applied Flute",
             "units": "3.00",
             "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "5452",
+            "name": "Major Applied Oboe",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "5453",
+            "name": "Major Appl Clarinet",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on clarinet as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "5455",
+            "name": "Major Appl Saxophone",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
         },
         {
             "subject": "NGR",
@@ -20569,10 +21304,10 @@
         },
         {
             "subject": "PSB",
-            "code": "6351",
-            "name": "Cog Neuro Methods II",
+            "code": "4434",
+            "name": "Psychopharm",
             "units": "3.00",
-            "description": "Data analysis methods and psychological applications in cognitive neuroimaging, including image pre-processing, statistical modeling, brain connectivity techniques, and the visualization, interpretation, and reporting of results. Prerequisite: PSB 6350."
+            "description": "Issues related to neurochemical interactions in the brain and how drugs affect behavior, mood, and thought processes. Discussions on addiction and current research and therapies for addiction. Prerequisite: PSB 3007."
         },
         {
             "subject": "PSY",
