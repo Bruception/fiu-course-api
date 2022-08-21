@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1660439921,
+    "dataAsOf": 1661044602,
     "data": [
         {
             "subject": "ACG",
@@ -77,6 +77,13 @@
             "name": "Ph.D. Dissertation",
             "units": "1.00",
             "description": "Original research that is supervised by a faculty committee and defended openly before the university committee. Prerequisites: Permission of Major Professor and Doctoral Candidacy."
+        },
+        {
+            "subject": "ACG",
+            "code": "7981",
+            "name": "Dissertation Preparation",
+            "units": "1.00",
+            "description": "Preparatory background research and study to begin development of dissertation proposal. Students should be able to complete proposal by end of the course. Prerequisite: Completion of TIER 1 courses. (on demand)"
         },
         {
             "subject": "ADE",
@@ -2445,13 +2452,6 @@
             "description": "An examination of the ecology of plants at the individual, population, and community levels."
         },
         {
-            "subject": "BOT",
-            "code": "6926C",
-            "name": "Ws: Plt Nutr Anal",
-            "units": "1.00",
-            "description": "Field and laboratory methods used in the assessment of nutrient availability for primary producers. Prerequisite: Permission of the instructor."
-        },
-        {
             "subject": "BSC",
             "code": "2010",
             "name": "General Biology I",
@@ -3426,13 +3426,6 @@
         },
         {
             "subject": "CHI",
-            "code": "2200",
-            "name": "Interm Chinese",
-            "units": "3.00",
-            "description": "Provides intermediate training in the acquisition and application of basic language skills. Prerequisites: One year prior study at college level or permission of the instructor."
-        },
-        {
-            "subject": "CHI",
             "code": "3440",
             "name": "Business Chinese",
             "units": "3.00",
@@ -3657,13 +3650,6 @@
         },
         {
             "subject": "CHM",
-            "code": "4300",
-            "name": "Bio-Organic Chem",
-            "units": "3.00",
-            "description": "Chemistry of naturally-occurring organic compounds of biological importance. The relationship between organic chemistry and the chemical reactions which constitute the living organism."
-        },
-        {
-            "subject": "CHM",
             "code": "4304",
             "name": "Biol Chemistry I",
             "units": "3.00",
@@ -3689,6 +3675,13 @@
             "name": "Bio Chem Lab II",
             "units": "1.00",
             "description": "Continuation of Biological Chemistry Laboratory I. Experimental methods presented include NMR, enzyme inhibition assays, macromolecular thermodynamics, peptide sequencing, ligand binding assays, chromatography."
+        },
+        {
+            "subject": "CHM",
+            "code": "4611",
+            "name": "Adv Inorganic Chemis",
+            "units": "3.00",
+            "description": "Atomic structure, periodicity, bonding and structure of inorganic compounds, solution chemistry, ligand field theory, organometallic chemistry, and specific chemistry of the elements. Prerequisite: CHM3610, CHM2211, CHM2211L, CHM3410, CHM3410L."
         },
         {
             "subject": "CHM",
@@ -3769,6 +3762,13 @@
         },
         {
             "subject": "CHM",
+            "code": "5620",
+            "name": "Graduate Inorganic Chem",
+            "units": "3.00",
+            "description": "Atomic structure, periodicity, bonding and structure of inorganic compounds, solution chemistry, ligand field theory, organometallic chemistry, and specific chemistry of the elements. Prerequisite: Graduate standing or permission of instructor."
+        },
+        {
+            "subject": "CHM",
             "code": "5765",
             "name": "Aquatic Chemistry",
             "units": "3.00",
@@ -3794,6 +3794,13 @@
             "name": "Env Organic Chem",
             "units": "3.00",
             "description": "Characteristics, origin, fate and transformation of organic compounds in air, water, sediments and biota. Prerequisites: CHM 2211, CHM 3411, or permission of the instructor."
+        },
+        {
+            "subject": "CHM",
+            "code": "6905",
+            "name": "Ind Study Chemistry",
+            "units": "0.00",
+            "description": "Independent study and problems in an area of chemistry, under faculty supervision. May be repeated. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "CHM",
@@ -3976,6 +3983,13 @@
             "name": "Fundamentals BlkChn Tec",
             "units": "3.00",
             "description": "Introduction to blockchain key concepts such as proof-of-work, mining, distributed consensus, and its applications including cryptocurrencies, smart contracts, and supply chain monitoring. Prerequisite: COP 3530"
+        },
+        {
+            "subject": "CIS",
+            "code": "4911",
+            "name": "Senior Project",
+            "units": "3.00",
+            "description": "Students work on faculty supervised projects in teams of up to 5 members to design and implement solutions to problems utilizing knowledge obtained across the sprectum of Computer Science courses. Prerequisites: CEN 4010 and Permission of the Senior Project Coordinator."
         },
         {
             "subject": "CIS",
@@ -4263,13 +4277,6 @@
             "name": "Adv Clinical Prac",
             "units": "1.00",
             "description": "Allows students to practice clinical skills through participation in interactive classroom exercises while gaining clinical experience. Prerequisite: Clinical Practicum (CLP 6945)."
-        },
-        {
-            "subject": "CLP",
-            "code": "6947",
-            "name": "Foundations Practicum II",
-            "units": "3.00",
-            "description": "This course provides a comprehensive introduction to the principles of psychological treatments for children and adolescents, with applied practice and supervision in psychotherapy techniques. Prerequisites: PSY 5939 (Foundation Practicum I: Assessment)."
         },
         {
             "subject": "CLP",
@@ -5721,13 +5728,6 @@
             "description": "Analytical approaches to economic development. Analysis of macro models, specific resources and sectors, and trade and income distributional problems in relation to developing countries. Prerequisites: ECO 7115 and ECO 7116 or equivalents."
         },
         {
-            "subject": "ECT",
-            "code": "3004",
-            "name": "Found Voc Ed",
-            "units": "3.00",
-            "description": "History of vocational legislation, principles and practices on the national, state, and local levels."
-        },
-        {
             "subject": "EDA",
             "code": "6061",
             "name": "Intro Educ Leadrshp",
@@ -5978,6 +5978,13 @@
             "name": "Instructional Decisions",
             "units": "3.00",
             "description": "Includes instructional decisions, classroom management, assessment and ethics, supportive of students' thinking and individual differences."
+        },
+        {
+            "subject": "EDG",
+            "code": "4940",
+            "name": "Inter Teaching Internship",
+            "units": "3.00",
+            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
         },
         {
             "subject": "EDG",
@@ -6688,6 +6695,13 @@
         },
         {
             "subject": "EEL",
+            "code": "5482",
+            "name": "Fields & Waves Eng.",
+            "units": "3.00",
+            "description": "Concepts and theorems in fields and waves, analytic techniques for guided waves, radiation and scattering, numerical techniques for analysis of electrical devices."
+        },
+        {
+            "subject": "EEL",
             "code": "5500",
             "name": "Dig Comm Sys I",
             "units": "3.00",
@@ -6895,6 +6909,13 @@
             "name": "Dir Stud Spec Ed",
             "units": "0.00",
             "description": "Concepts or competencies contracted between an undergraduate student and faculty member in accordance with the student's individual needs."
+        },
+        {
+            "subject": "EEX",
+            "code": "5075",
+            "name": "Teach Exc Incl Set",
+            "units": "3.00",
+            "description": "To develop understandings, skills and dispositions necessary to instruct students with disabilities in inclusive settings, and to collaborate with professionals and parents. 10 field hours required."
         },
         {
             "subject": "EEX",
@@ -8255,13 +8276,6 @@
             "description": "Examines biology of soil organisms and biologically-mediated chemical transformations occurring in soil ecosystems."
         },
         {
-            "subject": "EVT",
-            "code": "4502",
-            "name": "Intr Voc Spec Needs",
-            "units": "3.00",
-            "description": "Knowledge of historical developments, legislation, instructional strategies, and program alternatives required to instruct special needs students in vocationally related environments."
-        },
-        {
             "subject": "EXP",
             "code": "3304",
             "name": "Motivation & Emotion",
@@ -8470,13 +8484,6 @@
             "name": "Intl Banking",
             "units": "3.00",
             "description": "Objective of course is to provide student with an understanding of nature of international banking and the major cultural, economic, social, and legal environments in which international banking operates."
-        },
-        {
-            "subject": "FIN",
-            "code": "4651",
-            "name": "Lat Am Fin Mkt & Ins",
-            "units": "3.00",
-            "description": "This course examines the Latin American financial climate and especially financial markets and institutions. Topics include evolution of the money and capital markets, regulation, banking innovations, the role of foreign banking, integration and globalization of banking."
         },
         {
             "subject": "FIN",
@@ -8843,13 +8850,6 @@
             "description": "Designed to introduce students to German corporate culture and German language used in business settings. Prerequisite: Completion of GER 1131 or instructor's permission"
         },
         {
-            "subject": "GET",
-            "code": "4560",
-            "name": "Berlin Then and Now",
-            "units": "3.00",
-            "description": "Designed to introduce students to major social, cultural and architectural landmarks of Berlin and discuss the impact of social and political changes on the urban and cultural landscape of the city."
-        },
-        {
             "subject": "GIS",
             "code": "3043C",
             "name": "Introduction To Gis",
@@ -9152,24 +9152,10 @@
         },
         {
             "subject": "HAI",
-            "code": "1072",
-            "name": "HAI Creole Medical/Legal",
-            "units": "3.00",
-            "description": "Course designed for healthcare and legal professionals with no previous training in Haitian Creole. Emphasis on medical and legal terms in daily conversation related to health, hygiene and law."
-        },
-        {
-            "subject": "HAI",
             "code": "2320",
             "name": "Haitian Creole Read/Comp",
             "units": "3.00",
             "description": "Online course for effective writing as a mean of communication to express ideas and to engage with multiple literacies. With a focus on techniques that help develop critical thinking skills. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "HAI",
-            "code": "3204",
-            "name": "Intro Creole Translation",
-            "units": "3.00",
-            "description": "Provides an in-depth introduction to Haitian Creole/English and English/Haitian Creole translation.  Prerequisite: Intermediate/Advanced knowledge of Haitian Creole"
         },
         {
             "subject": "HAI",
@@ -9544,6 +9530,13 @@
         },
         {
             "subject": "HFT",
+            "code": "4561",
+            "name": "Dest Mgt for Cult Htg",
+            "units": "3.00",
+            "description": "This course is designed to help students apply theories; principles, concepts and tools needed for sustainably planning, marketing and managing a destination for cultural and heritage tourism (CHT)."
+        },
+        {
+            "subject": "HFT",
             "code": "4653",
             "name": "Franchising Hosp Industry",
             "units": "3.00",
@@ -9604,13 +9597,6 @@
             "name": "War & Society",
             "units": "3.00",
             "description": "An examination of the ways societies have organized themselves for external and internal wars. The course will also explore the changing conduct of war, the image of the warrior, and the ways in which military institutions have crystallized class structures."
-        },
-        {
-            "subject": "HIS",
-            "code": "4400",
-            "name": "Urban Society",
-            "units": "3.00",
-            "description": "A comparative study of the cultural, social, political and economic development of cities. Topics include: the ancient city, industrialization, immigration, poverty and urban planning."
         },
         {
             "subject": "HIS",
@@ -9699,6 +9685,13 @@
         {
             "subject": "HMG",
             "code": "5901",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "With permission from the Associate Dean, students may engage in independent research projects and other approved phases of independent study. Prerequisite: Permission."
+        },
+        {
+            "subject": "HMG",
+            "code": "5906",
             "name": "Independent Study",
             "units": "0.00",
             "description": "With permission from the Associate Dean, students may engage in independent research projects and other approved phases of independent study. Prerequisite: Permission."
@@ -10615,13 +10608,6 @@
         },
         {
             "subject": "INR",
-            "code": "3251",
-            "name": "African Development",
-            "units": "3.00",
-            "description": "Examines theories of underdevelopment in Africa and explores international efforts to promote national and human development on the continent."
-        },
-        {
-            "subject": "INR",
             "code": "3262",
             "name": "Inr Russia/Fmr Ussr",
             "units": "3.00",
@@ -10878,6 +10864,13 @@
             "name": "Senior Sem Earth & Enviro",
             "units": "1.00",
             "description": "Capstone course for graduating seniors in Earth and Environmental science. Includes discussion career pathways and completion of a research project with written and oral presentations. Prerequisite: Senior standing and permission of department."
+        },
+        {
+            "subject": "ISC",
+            "code": "4940",
+            "name": "Research Internship E&E",
+            "units": "0.00",
+            "description": "Directed research internship under the supervision of a professor in the student's field of interest. Subject may deal with laboratory work, field work, and/or bibliographical work. Prerequisite: Permission of instructor."
         },
         {
             "subject": "ISC",
@@ -11273,13 +11266,6 @@
         },
         {
             "subject": "JPN",
-            "code": "3401",
-            "name": "Advanced JPN II",
-            "units": "3.00",
-            "description": "Continuation of Advanced Japanese I which provides advanced training in the acquisition and application of the language skills."
-        },
-        {
-            "subject": "JPN",
             "code": "3500",
             "name": "Jpn Culture/Society",
             "units": "3.00",
@@ -11504,13 +11490,6 @@
         },
         {
             "subject": "LAS",
-            "code": "3330",
-            "name": "Intro to the Caribbean",
-            "units": "3.00",
-            "description": "Introduction to the Caribbean, its key regions, historical periods, and concepts."
-        },
-        {
-            "subject": "LAS",
             "code": "5325",
             "name": "Survey of Brazil",
             "units": "3.00",
@@ -11522,13 +11501,6 @@
             "name": "Independent Study",
             "units": "0.00",
             "description": "Supervised readings or field research and training. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "LAS",
-            "code": "5931",
-            "name": "Special Topics in LACS",
-            "units": "3.00",
-            "description": "Topics in Latin America and the Caribbean will be selected to meet the academic needs of groups of students."
         },
         {
             "subject": "LAS",
@@ -11826,6 +11798,13 @@
         },
         {
             "subject": "LAW",
+            "code": "6754",
+            "name": "PIWBP",
+            "units": "1.00",
+            "description": "To enhance a law student's understanding of the legal profession through an intentional exploration of the values, guiding principles, and well-being practices considered foundational to the practice of law. Prerequisite: Recommended - Professional Responsibility."
+        },
+        {
+            "subject": "LAW",
             "code": "6780",
             "name": "Legal Analysis",
             "units": "1.00",
@@ -11991,6 +11970,13 @@
             "name": "Appellate Advocacy Competition",
             "units": "2.00",
             "description": "Students selected as members of the Board of Advocates Appellate Advocacy Group will compete in a regional, national, or international appellate advocacy competition and will earn credit for satisfactory completion of their competition duties.  Students, working in a team, will typically prepare an appellate brief and then deliver an appellate oral argument multiple times during the competition oral argument rounds.  Prerequisite: Appellate Procedure."
+        },
+        {
+            "subject": "LAW",
+            "code": "7954",
+            "name": "Negotiation Comp",
+            "units": "1.00",
+            "description": "Students selected as members of the Board of Advocates Negotiations Group will compete in a regional or national negotiations competition and will earn credit for satisfactory completion of their competition duties. Students, working in a team, will typically prepare and then negotiate an agreement with opposing counsel."
         },
         {
             "subject": "LAW",
@@ -12215,13 +12201,6 @@
             "name": "Facilitation Techniques in RT",
             "units": "3.00",
             "description": "Designed to provide an in-depth examination of RT facilitation techniques as they are implemented with individuals with various disabling conditions or limitations."
-        },
-        {
-            "subject": "LEI",
-            "code": "4931",
-            "name": "Special Topics",
-            "units": "0.00",
-            "description": "Analyzes and utilizes recent developments related to problems, practices, contemporary issues, practices and methodologies in Leisure Service Management. Permission of the instructor."
         },
         {
             "subject": "LEI",
@@ -12904,6 +12883,13 @@
         },
         {
             "subject": "MAP",
+            "code": "4634",
+            "name": "Quant Risk Manag",
+            "units": "3.00",
+            "description": "Interdisciplinary course with a strong quantitative approach to the risk management process of small and big businesses."
+        },
+        {
+            "subject": "MAP",
             "code": "4990",
             "name": "ML in Quant Finance",
             "units": "3.00",
@@ -12936,6 +12922,13 @@
             "name": "Adv Methods Math Physics",
             "units": "3.00",
             "description": "Continuation of Functional Analysis (MAA 6506). Topics include compact and trace class operators, spectral theory, perturbation theory. Previous exposure to MAP 5415 is preferred but not required. Prerequisite: MAA 6406, MAA 6506 or consent of the instructor"
+        },
+        {
+            "subject": "MAP",
+            "code": "6631",
+            "name": "Intro Quant RAM",
+            "units": "3.00",
+            "description": "A mathematical introduction to arbitrage-based pricing of derivative securities."
         },
         {
             "subject": "MAR",
@@ -13163,6 +13156,13 @@
         },
         {
             "subject": "MAT",
+            "code": "4905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Individual conferences, assigned readings, and reports on independent investigations."
+        },
+        {
+            "subject": "MAT",
             "code": "4930",
             "name": "Special Topics",
             "units": "0.00",
@@ -13174,6 +13174,13 @@
             "name": "Senior Math Seminar",
             "units": "1.00",
             "description": "An exploration of research topics in the student's subfield. Coursework will include a written report, oral presentation, and departmental major field test."
+        },
+        {
+            "subject": "MAT",
+            "code": "5907",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "Individual conferences, assigned reading, and reports on independent investigations."
         },
         {
             "subject": "MAT",
@@ -13680,6 +13687,13 @@
             "description": "Continuation of 'Differential Geometry'. Topics include connections and curvature of fiber bundles, Lie groups. Additional topics chosen by the instructor. Prerequisite: MTG 4254 or MTG 5256 (or consent of the instructor)"
         },
         {
+            "subject": "MTG",
+            "code": "5347",
+            "name": "Algebraic Topology II",
+            "units": "3.00",
+            "description": "Continuation of 'Introduction to Algebraic Topology' (MTG 5256). Topics include singular cohomology, Kunneth, universal coefficient, and duality theorems. Additional topics chosen by the instructor. Prerequisite: MTG 5256 (or consent of the instructor)"
+        },
+        {
             "subject": "MUC",
             "code": "2221",
             "name": "Composition Sem. I",
@@ -13939,6 +13953,13 @@
             "description": "A survey of sacred and secular choral literature from the Middle Ages to the present. Emphasis on stylistic analysis and performance practice for each style period. Includes score study, aural analysis of recorded performances and in-class performances. Prerequisite: Permission of the instructor."
         },
         {
+            "subject": "MUL",
+            "code": "5671",
+            "name": "Opera Literature",
+            "units": "3.00",
+            "description": "A chronological survey of operatic literature from the 17th century to the present day.  Emphasis placed on the historical milieu in which the operatic form evolved through the ages."
+        },
+        {
             "subject": "MUM",
             "code": "3601",
             "name": "Audio Techniques I",
@@ -14045,13 +14066,6 @@
         },
         {
             "subject": "MUN",
-            "code": "1120L",
-            "name": "Symphony Band",
-            "units": "1.00",
-            "description": "Concert Band ensemble for music majors on secondary instruments and non-music majors.  Various types of concert band literature covered from differing grade levels.  Course open to anyone who has previous experience playing a wind or percussion instrument."
-        },
-        {
-            "subject": "MUN",
             "code": "1140L",
             "name": "Symphonic Wind Ens",
             "units": "1.00",
@@ -14098,13 +14112,6 @@
             "name": "Chamber Music",
             "units": "1.00",
             "description": "Small ensemble in the performing of chamber music literature."
-        },
-        {
-            "subject": "MUN",
-            "code": "1471",
-            "name": "Collegium Musicum",
-            "units": "1.00",
-            "description": "Collegium musicum provides a forum for the study and performance of the musical literature of the Medieval, Renaissance, and Baroque eras."
         },
         {
             "subject": "MUN",
@@ -14213,13 +14220,6 @@
         },
         {
             "subject": "MUN",
-            "code": "3474",
-            "name": "Collegium Musicum",
-            "units": "1.00",
-            "description": "Collegium musicum provides a forum for the study and performance of the musical literature of the Medieval, Renaissance, and Baroque eras.  Sources research and programming are an additional component."
-        },
-        {
-            "subject": "MUN",
             "code": "3713",
             "name": "Studio Jazz",
             "units": "1.00",
@@ -14311,13 +14311,6 @@
         },
         {
             "subject": "MUN",
-            "code": "5125L",
-            "name": "Symphony Band",
-            "units": "1.00",
-            "description": "Concert Band ensemble for music majors on secondary instruments and non-music majors. Various types of concert band literature covered from differing grade levels. Course open to anyone who has previous experience playing a wind or percussion instrument."
-        },
-        {
-            "subject": "MUN",
             "code": "5145L",
             "name": "Symphonic Wind Ens",
             "units": "1.00",
@@ -14357,13 +14350,6 @@
             "name": "Chamber Music",
             "units": "1.00",
             "description": "Small ensemble in the performing of chamber music literature. Prerequisite: Permission of conductor."
-        },
-        {
-            "subject": "MUN",
-            "code": "5477",
-            "name": "Collegium Musicum",
-            "units": "1.00",
-            "description": "Collegium musicum provides a forum for the study and performance of the musical literature of the Medieval, Renaissance, and Baroque eras.  Participation in the composition of program notes and rehearsal direction are additional components."
         },
         {
             "subject": "MUN",
@@ -15099,6 +15085,13 @@
             "name": "Maj App Jazz Trumpet",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz trumpet at a major level."
+        },
+        {
+            "subject": "MVJ",
+            "code": "3230",
+            "name": "Sec Jazz Piano",
+            "units": "1.00",
+            "description": "Individual instruction in applied jazz music on piano."
         },
         {
             "subject": "MVJ",
@@ -16082,6 +16075,13 @@
         },
         {
             "subject": "MVV",
+            "code": "5251",
+            "name": "Secondary App Voice",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on voice as a secondary instrument."
+        },
+        {
+            "subject": "MVV",
             "code": "5351",
             "name": "Prin Applied Voice",
             "units": "2.00",
@@ -16387,6 +16387,13 @@
             "name": "Major Appl Clarinet",
             "units": "3.00",
             "description": "Individual instruction in applied music on clarinet as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "5454",
+            "name": "Major Appl Bassoon",
+            "units": "3.00",
+            "description": "Individual instruction in applied music on bassoon as a major instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -17440,13 +17447,6 @@
         },
         {
             "subject": "PCB",
-            "code": "4232",
-            "name": "Bio Aids",
-            "units": "3.00",
-            "description": "An overview of Acquired Immune Deficiency Syndrome (AIDS) from biomedical and psychosocial perspectives."
-        },
-        {
-            "subject": "PCB",
             "code": "4233",
             "name": "Immunology",
             "units": "3.00",
@@ -17465,13 +17465,6 @@
             "name": "Global Change Ecology",
             "units": "3.00",
             "description": "This course will examine the global consequences of human activities and illuminate how anthropogenic changes in the Earth system alter terrestrial, freshwater and marine ecosystems. [A] Prerequisite: PCB 3043"
-        },
-        {
-            "subject": "PCB",
-            "code": "4403C",
-            "name": "Urban Vector Bio",
-            "units": "4.00",
-            "description": "Study of urban vectors focuses on how they explore urbanized environments and affect humans, how they transmit diseases and interact with viruses and parasites, and tools to control them [A]. Prerequisites: BSC 2010, BSC 2010L, BSC2011, and BSC2011L."
         },
         {
             "subject": "PCB",
@@ -17916,13 +17909,6 @@
         },
         {
             "subject": "PHC",
-            "code": "6307",
-            "name": "Exp Assess Env Epi",
-            "units": "3.00",
-            "description": "Surveys available mechanisms utilized by public health and environmental agencies to monitor levels of pollution, environmental quality, and change in environmental conditions which impact human health."
-        },
-        {
-            "subject": "PHC",
             "code": "6315",
             "name": "Intro to Env Hlth Sci",
             "units": "3.00",
@@ -18049,13 +18035,6 @@
         },
         {
             "subject": "PHC",
-            "code": "6921",
-            "name": "EHS seminar",
-            "units": "1.00",
-            "description": "This is an oral communication course intended to provide graduate students the opportunity to practice speaking in front of an audience and to present their research data or topic of interest."
-        },
-        {
-            "subject": "PHC",
             "code": "6930C",
             "name": "Integrative Sem Pub Hlth",
             "units": "3.00",
@@ -18102,27 +18081,6 @@
             "name": "Adv Biostat III",
             "units": "3.00",
             "description": "Generalized linear model and estimating equation approaches for non-linear public health data. Held in the Public Health Informatics Laboratory utilizing various statistical software."
-        },
-        {
-            "subject": "PHC",
-            "code": "7327",
-            "name": "Em Iss Env Hlth Sci",
-            "units": "2.00",
-            "description": "This course will explore emerging scientific discoveries to understand environmental human disease and how the emerging technologies can be applied to environmental health and regulatory decisions."
-        },
-        {
-            "subject": "PHC",
-            "code": "7374C",
-            "name": "Org. Tox.",
-            "units": "4.00",
-            "description": "Provides an advanced understanding of the responses of specific, key organ systems (e.g. immune, renal, hepatic, reproductive) to toxic insult."
-        },
-        {
-            "subject": "PHC",
-            "code": "7384",
-            "name": "Adv-Neurotox",
-            "units": "4.00",
-            "description": "This doctoral course will provide students an in-depth knowledge of how various environmental neurotoxicants may induce neurotoxicity resulting in neurodegeneration as seen in some brain diseases. Prerequisite: PHC 7381C"
         },
         {
             "subject": "PHC",
@@ -18874,13 +18832,6 @@
             "description": "An analysis of major theories of justice from Plato to the present. Emphasis on the implications of theory for U.S. constitutional law, the role of judges, and the nature of the good society."
         },
         {
-            "subject": "POW",
-            "code": "4390",
-            "name": "Brazilian Cinema",
-            "units": "3.00",
-            "description": "An examination of Brazilian films and culture from Cinema Novo to the present. Focuses on the northeast, urban society, magic and the Amazon. Taught in Portuguese."
-        },
-        {
             "subject": "PPE",
             "code": "3003",
             "name": "Thry Of Personality",
@@ -18900,13 +18851,6 @@
             "name": "Psy/Dreams & Dreamin",
             "units": "3.00",
             "description": "An in-depth examination of the most important psychological theories of dream function and of the use of dreams in different therapeutic approaches. The current research on the physiology and psychology of sleep is also evaluated."
-        },
-        {
-            "subject": "PRT",
-            "code": "3510",
-            "name": "Witnessing War Luso Cult",
-            "units": "3.00",
-            "description": "Introduction to Witness Literature in Portuguese-speaking cultures (Portugal, Brazil, Angola, Mozambique) with a focus on challenges and dilemmas of the act of witnessing war."
         },
         {
             "subject": "PSB",
@@ -18970,6 +18914,13 @@
             "name": "Psychopharm",
             "units": "3.00",
             "description": "Issues related to neurochemical interactions in the brain and how drugs affect behavior, mood, and thought processes. Discussions on addiction and current research and therapies for addiction. Prerequisite: PSB 3007."
+        },
+        {
+            "subject": "PSB",
+            "code": "6351",
+            "name": "Cog Neuro Methods II",
+            "units": "3.00",
+            "description": "Data analysis methods and psychological applications in cognitive neuroimaging, including image pre-processing, statistical modeling, brain connectivity techniques, and the visualization, interpretation, and reporting of results. Prerequisite: PSB 6350."
         },
         {
             "subject": "PSY",
@@ -19784,6 +19735,13 @@
             "description": "Students will be exposed to the fundamentals of career development strategies and clarify interests and skills as related to major/career choice."
         },
         {
+            "subject": "SLS",
+            "code": "3933",
+            "name": "Topics in Career Dev",
+            "units": "0.00",
+            "description": "An examination of topics and skills related to career and professional development in the areas of liberal arts, education, and sciences. This course is repeatable with change of content."
+        },
+        {
             "subject": "SMT",
             "code": "2044",
             "name": "STEP 1&2 Lesson Math and Sci",
@@ -20548,13 +20506,6 @@
         },
         {
             "subject": "SPN",
-            "code": "4415",
-            "name": "LATIN AMER PODCAST",
-            "units": "3.00",
-            "description": "Provides an overview and the skills for the analysis of audio storytelling content in Spanish while covering the basic skills for podcast scripting and recording. Prerequisite: SPN 3422 or advanced proficiency in Spanish."
-        },
-        {
-            "subject": "SPN",
             "code": "4500",
             "name": "Spanish Culture",
             "units": "3.00",
@@ -21077,6 +21028,13 @@
             "name": "Internat Migration",
             "units": "3.00",
             "description": "Comparative analysis of the causes, consequences, and policies concerning population movements across national borders. Includes review of various theories of labor migration. Students will conduct research on a migration or refugee topic. Prerequisites: Graduate standing or permission of the instructor."
+        },
+        {
+            "subject": "SYD",
+            "code": "7903",
+            "name": "Directed Readings",
+            "units": "0.00",
+            "description": "Readings under the direction of a faculty member focusing on one of the tracks in the Ph.D. program. Hours may vary."
         },
         {
             "subject": "SYG",
@@ -21619,6 +21577,13 @@
         },
         {
             "subject": "TTE",
+            "code": "4202",
+            "name": "Traffic Engineering",
+            "units": "3.00",
+            "description": "Speed and volume studies, traffic operations and characteristics, traffic flow theory, accident characteristics."
+        },
+        {
+            "subject": "TTE",
             "code": "5215",
             "name": "Fund Of Traffic Eng",
             "units": "3.00",
@@ -21756,13 +21721,6 @@
             "name": "Independent Study",
             "units": "0.00",
             "description": "Supervised readings course designed for advanced students who wish to pursue specialized topics in women's studies.  Arrangements must be made with faculty member during prior semester.  Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "WST",
-            "code": "4930",
-            "name": "WST Special Topics",
-            "units": "3.00",
-            "description": "Selected topics in Women's Studies.  Subject of course varies with instructor."
         },
         {
             "subject": "WST",
