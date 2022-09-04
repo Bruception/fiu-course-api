@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1661650020,
+    "dataAsOf": 1662254464,
     "data": [
         {
             "subject": "ACG",
@@ -4406,13 +4406,6 @@
         },
         {
             "subject": "CNT",
-            "code": "6150",
-            "name": "Adv Sensor/loT Deep Learn",
-            "units": "3.00",
-            "description": "This course will focus use of deep learning techniques and algorithms on structured and unstructured data received from sensors and loT devices."
-        },
-        {
-            "subject": "CNT",
             "code": "6154",
             "name": "Adv loT Applied ML",
             "units": "3.00",
@@ -5985,20 +5978,6 @@
             "name": "Instructional Decisions",
             "units": "3.00",
             "description": "Includes instructional decisions, classroom management, assessment and ethics, supportive of students' thinking and individual differences."
-        },
-        {
-            "subject": "EDG",
-            "code": "4734",
-            "name": "Ed/Cul Prep for Int Teach",
-            "units": "3.00",
-            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
-        },
-        {
-            "subject": "EDG",
-            "code": "4940",
-            "name": "Inter Teaching Internship",
-            "units": "3.00",
-            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
         },
         {
             "subject": "EDG",
@@ -9879,6 +9858,13 @@
             "description": "Structured hospitality practical training work experience involving training program and job rotations not previously performed. Ten week/300 hour minimum. Report and management project required. Prerequisites: Documented completion of 1000 hospitality related work hours of which at least 500 hours must be completed while enrolled at FIU. Permission of the instructor."
         },
         {
+            "subject": "HMG",
+            "code": "6972",
+            "name": "Hosp and Tour Thesis",
+            "units": "1.00",
+            "description": "Design and preparation of an original research investigation in the hospitality and tourism discipline. Prerequisites: STA 5206, STA 6166, and STA 6167 and permission of the instructor."
+        },
+        {
             "subject": "HOS",
             "code": "3012",
             "name": "Intro Horticulture Scienc",
@@ -12313,6 +12299,13 @@
             "name": "Mod English Grammar",
             "units": "3.00",
             "description": "Practical study of syntax."
+        },
+        {
+            "subject": "LIN",
+            "code": "4801",
+            "name": "Semantics",
+            "units": "3.00",
+            "description": "The study of the semantic structure of languages. The structures underlying the meanings of words and underlying syntactic structures."
         },
         {
             "subject": "LIN",
@@ -16485,6 +16478,13 @@
             "name": "Res Meth In Nsg",
             "units": "3.00",
             "description": "Research methods and designs commonly used in nursing. Focuses on the research process as it is integrated in the interchange of theory, practice, and research using information systems. Prerequisites: Statistics, departmental permission and NGR 5110. Corequisite: NGR 5110."
+        },
+        {
+            "subject": "NGR",
+            "code": "5905",
+            "name": "Indep Study In Nsg",
+            "units": "0.00",
+            "description": "Individually determined, research oriented, in-depth study of a nursing problem or clinical experience as approved by the faculty preceptor."
         },
         {
             "subject": "NGR",
@@ -21616,13 +21616,6 @@
             "name": "Field Component",
             "units": "3.00",
             "description": "Provides opportunity to carry out a variety of projects designed to develop critical reflection about teaching beliefs and practices in an ESOL classroom environment. Prerequisites: Admission to MS/TESOL program and completion of required course work."
-        },
-        {
-            "subject": "TTE",
-            "code": "4102",
-            "name": "Urban Transp Planning",
-            "units": "3.00",
-            "description": "Introduces the fundamental concepts, theory, and history in transportation planning, the connections between transportation system and other components in the society, and basic planning methods."
         },
         {
             "subject": "TTE",
