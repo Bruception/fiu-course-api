@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1662254464,
+    "dataAsOf": 1662859761,
     "data": [
         {
             "subject": "ACG",
@@ -11494,6 +11494,13 @@
             "name": "Introduction to Brazil",
             "units": "3.00",
             "description": "Interdisciplinary introduction to the history, politics, society and culture of Brazil."
+        },
+        {
+            "subject": "LAS",
+            "code": "3330",
+            "name": "Intro to the Caribbean",
+            "units": "3.00",
+            "description": "Introduction to the Caribbean, its key regions, historical periods, and concepts."
         },
         {
             "subject": "LAS",
