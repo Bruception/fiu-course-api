@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1663465870,
+    "dataAsOf": 1664069130,
     "data": [
         {
             "subject": "ACG",
@@ -259,13 +259,6 @@
             "name": "Rdgs In African Hist",
             "units": "3.00",
             "description": "An examination of historiographical traditions within African history. Topics will vary; with a change in theme, the course may be repeated. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "AFH",
-            "code": "5935",
-            "name": "Topics/African Hist",
-            "units": "3.00",
-            "description": "An examination of specific themes in African history. Topics will vary. With a change in theme, the course may be repeated. Prerequisite: Graduate standing."
         },
         {
             "subject": "AFR",
@@ -689,13 +682,6 @@
         },
         {
             "subject": "ARC",
-            "code": "5933",
-            "name": "Special Topics",
-            "units": "0.00",
-            "description": "Coursework on a particular aspect of architecture under the direction of faculty in a classroom format. Prerequisite: Program approval."
-        },
-        {
-            "subject": "ARC",
             "code": "5935",
             "name": "Special Topics",
             "units": "3.00",
@@ -714,13 +700,6 @@
             "name": "Architecture Internship",
             "units": "1.00",
             "description": "Advanced issues in architecture practice learned through work experience with licensed professionals."
-        },
-        {
-            "subject": "ARC",
-            "code": "6184",
-            "name": "ADV Studies in tech",
-            "units": "3.00",
-            "description": "This course explores the role of emerging technologies including robotics, digital\nfabrication, sensing, and advanced visualization tools for innovation in design and\narchitectural production. Prerequisite: admission to doctoral program"
         },
         {
             "subject": "ARC",
@@ -763,13 +742,6 @@
             "name": "Adv Research Methods",
             "units": "3.00",
             "description": "Advanced methods of data acquisition, analysis, and interpretation used in\narchitectural research."
-        },
-        {
-            "subject": "ARC",
-            "code": "7982",
-            "name": "Doctoral Defense",
-            "units": "3.00",
-            "description": "The formal presentation of the Doctoral Project. Prerequisite: ARC 7980, 12 credits, Corequisite: ARC 7980, 9 credits."
         },
         {
             "subject": "ARE",
@@ -955,13 +927,6 @@
         },
         {
             "subject": "ARH",
-            "code": "5482",
-            "name": "Contemporary Art",
-            "units": "3.00",
-            "description": "Course examines the visual arts in Europe and the U.S. from the 1960's to the present with focus on major art movements, artists, and artwork."
-        },
-        {
-            "subject": "ARH",
             "code": "5483",
             "name": "Graduate Post 1989 Art",
             "units": "3.00",
@@ -997,24 +962,10 @@
         },
         {
             "subject": "ARH",
-            "code": "5897",
-            "name": "Special Topics",
-            "units": "3.00",
-            "description": "Rotating special topics on the graduate level in art history. May be repeated with change of topic."
-        },
-        {
-            "subject": "ARH",
             "code": "5913",
             "name": "Research",
             "units": "1.00",
             "description": "Art history, criticism, and theory in areas not covered by the present program and which the student wishes to study. Prerequisite: Permission of the instructor. May be repeated."
-        },
-        {
-            "subject": "ARH",
-            "code": "5940",
-            "name": "Internship Exper",
-            "units": "3.00",
-            "description": "Supervised work experience in approved institution. Prerequisite: Permission of Director of Museum Studies.  May be repeated."
         },
         {
             "subject": "ART",
@@ -1256,13 +1207,6 @@
         },
         {
             "subject": "ART",
-            "code": "4322C",
-            "name": "Adv. Classical Drawing",
-            "units": "3.00",
-            "description": "Further development of conceptual, perceptual and technical classical drawing skills in various mediums, and the visual articulation of textural, spatial and expressive qualities. May be repeated. Prerequisite: ART 3314C"
-        },
-        {
-            "subject": "ART",
             "code": "4333C",
             "name": "Advanced Figure Drawing",
             "units": "3.00",
@@ -1347,13 +1291,6 @@
         },
         {
             "subject": "ART",
-            "code": "4940",
-            "name": "Art Internship",
-            "units": "0.00",
-            "description": "Experience in art practice learned through work with licensed professionals."
-        },
-        {
-            "subject": "ART",
             "code": "4952C",
             "name": "Thesis I",
             "units": "3.00",
@@ -1403,24 +1340,10 @@
         },
         {
             "subject": "ART",
-            "code": "5580C",
-            "name": "Painting",
-            "units": "3.00",
-            "description": "Advanced painting. May be repeated."
-        },
-        {
-            "subject": "ART",
             "code": "5584C",
             "name": "Grad Figure Painting",
             "units": "3.00",
             "description": "Graduate figure painting focuses on highly developed perceptual and technical painting skills in various aspects of figure study. May be repeated. Prerequisites: ART 4560C or approved course work."
-        },
-        {
-            "subject": "ART",
-            "code": "5655C",
-            "name": "Digital Art Lab",
-            "units": "3.00",
-            "description": "This is an advanced graduate level studio course in the digital arts experimenting with and finding compelling strategies for digital arts production."
         },
         {
             "subject": "ART",
@@ -1484,13 +1407,6 @@
             "name": "Grad Art Sem I",
             "units": "3.00",
             "description": "Students will locate and discuss their own work within the context of the contemporary art world.  Also, issues and practical concerns for the professional artist will be addressed, such as dealing with guidelines, grant writing and business procedures.  Required for MFA students."
-        },
-        {
-            "subject": "ART",
-            "code": "5940",
-            "name": "Advanced Art Internship",
-            "units": "0.00",
-            "description": "Experience in art practice learned through work with licensed professionals. Prerequisite: Limited to MFA Students in the department of Art and Art History."
         },
         {
             "subject": "ASH",
@@ -1627,24 +1543,10 @@
         },
         {
             "subject": "ASN",
-            "code": "5910",
-            "name": "Ind Research",
-            "units": "1.00",
-            "description": "Topics will be selected to meet academic needs for students doing research in some specialized area of asian studies.  Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "ASN",
             "code": "5932",
             "name": "Special Topics",
             "units": "3.00",
             "description": "An examination of specific topics in Asian Studies. The content to be determined by instructor."
-        },
-        {
-            "subject": "ASN",
-            "code": "6912",
-            "name": "Master's Essay in AS",
-            "units": "1.00",
-            "description": "Supervised research project. Requires prior approval by instructor. Prerequisite: Graduate standing. May be retaken for credit."
         },
         {
             "subject": "ASN",
@@ -2047,13 +1949,6 @@
         },
         {
             "subject": "BCN",
-            "code": "5905",
-            "name": "Independent Studies",
-            "units": "0.00",
-            "description": "Individual studies under supervision of faculty, tutor, or advisor. Requires prior approval of advisor and Chair."
-        },
-        {
-            "subject": "BCN",
             "code": "5906",
             "name": "Special Topics",
             "units": "0.00",
@@ -2065,13 +1960,6 @@
             "name": "Grad CM Internship",
             "units": "1.00",
             "description": "Supervised work in construction management. Evaluation and reports required. Prerequisites: Consent of advisor and Department Chair"
-        },
-        {
-            "subject": "BCN",
-            "code": "6910",
-            "name": "Supervised Research",
-            "units": "0.00",
-            "description": "Graduate level research carried out under the supervision of a faculty member."
         },
         {
             "subject": "BCN",
@@ -2205,6 +2093,13 @@
             "name": "Undergrad Seminar",
             "units": "0.00",
             "description": "The course consists of oral presentations made by guests, faculty and students on current topics and research activities in Biomedical Engineering."
+        },
+        {
+            "subject": "BME",
+            "code": "4949",
+            "name": "BME CO-OP",
+            "units": "1.00",
+            "description": "Engineering Practice in biomedical applications at an industrial partner's site. Intern will be hired through a cooperative agreement to conduct collaborative research with supervision of advisor."
         },
         {
             "subject": "BME",
@@ -2625,13 +2520,6 @@
             "name": "Scientific Diving",
             "units": "3.00",
             "description": "Covers all aspects of conducting safe underwater research, including theoretical and practical aspects of diving, diving equipment, and scientific techniques."
-        },
-        {
-            "subject": "BSC",
-            "code": "4914",
-            "name": "Student Research Lab",
-            "units": "0.00",
-            "description": "Independent laboratory study in a project or projects of the student's choice. Registration by consultation with instructor. May be repeated for additional credit."
         },
         {
             "subject": "BSC",
@@ -3080,13 +2968,6 @@
             "name": "Supervised Research",
             "units": "1.00",
             "description": "Graduate students engage in criminal justice research under the direction of a faculty member. May be repeated for credit. Prerequisites: CCJ 6705, CCJ 6706."
-        },
-        {
-            "subject": "CCJ",
-            "code": "6946",
-            "name": "Internship Program",
-            "units": "0.00",
-            "description": "Provides graduate student with the opportunity to gain work experience in an organization. Prerequisite: Student must have a minimum of 3.0 GPA."
         },
         {
             "subject": "CCJ",
@@ -3692,13 +3573,6 @@
         },
         {
             "subject": "CHM",
-            "code": "4911L",
-            "name": "Undergrad Res 2",
-            "units": "0.00",
-            "description": "Faculty directed research in chemistry. Credit is assigned based on 4 hr/wk laboratory/library work per credit hour. May be repeated."
-        },
-        {
-            "subject": "CHM",
             "code": "4930",
             "name": "Senior Seminar",
             "units": "1.00",
@@ -3752,13 +3626,6 @@
             "name": "Grad Physical Chem",
             "units": "4.00",
             "description": "Prequantum physics, the Schrodinger equation and its solutions, atoms and molecules, rotational, vibrational, and electronic spectroscopy. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "CHM",
-            "code": "5426",
-            "name": "Grad Phys Chem II",
-            "units": "4.00",
-            "description": "Gas laws; thermodynamics and equilibrium, electrochemistry, and chemical kinetics. Prerequisite: Graduate standing or permission of the instructor."
         },
         {
             "subject": "CHM",
@@ -3832,13 +3699,6 @@
         },
         {
             "subject": "CHM",
-            "code": "6970",
-            "name": "Thesis Research",
-            "units": "0.00",
-            "description": "Research toward completion of Master's Thesis. Repeatable. Prerequisite: Permission of the department."
-        },
-        {
-            "subject": "CHM",
             "code": "6971",
             "name": "Thesis",
             "units": "0.00",
@@ -3906,13 +3766,6 @@
             "name": "Forens Biochem Appl",
             "units": "3.00",
             "description": "Forensic applications of biochemistry including metabolite analysis, DNA analysis and other laboratory methods and data interpretation."
-        },
-        {
-            "subject": "CHS",
-            "code": "4591",
-            "name": "Forensic Sci Intern",
-            "units": "3.00",
-            "description": "Internship in a forensic-science laboratory, contributing in a specific manner on an assigned problem. Twenty hrs/wk. Written report required. Open only to students in the Criminalistics Chemistry Program."
         },
         {
             "subject": "CHS",
@@ -4070,13 +3923,6 @@
         },
         {
             "subject": "CIS",
-            "code": "6970",
-            "name": "Thesis",
-            "units": "0.00",
-            "description": "Prerequisite: Completion of all other requirements for the M.S. Degree in Computer Science."
-        },
-        {
-            "subject": "CIS",
             "code": "7910",
             "name": "Graduate Research",
             "units": "0.00",
@@ -4172,13 +4018,6 @@
             "name": "Cybercrime",
             "units": "3.00",
             "description": "Examines criminality in online environments, including hacking, online identity theft,\nfraud, terror, trade in illicit substances/items, sexual crimes, and responses to cyber criminality."
-        },
-        {
-            "subject": "CJE",
-            "code": "6716",
-            "name": "Law Enforcement Practicum",
-            "units": "3.00",
-            "description": "Combines classroom instruction with specialized police training and workplace experience to produce successful law enforcement professionals and future leaders in the field."
         },
         {
             "subject": "CJL",
@@ -4508,6 +4347,13 @@
             "name": "Fnd. of Comm.",
             "units": "3.00",
             "description": "Introduction to future practitioners of public relations, advertising, and applied communication of the written and visual styles of communication used in their professions. Prerequisites: ENC 1101 and ENC 1102"
+        },
+        {
+            "subject": "COM",
+            "code": "3940",
+            "name": "Internship Experience",
+            "units": "0.00",
+            "description": "Experience in communication practice learned through work and application in an organization."
         },
         {
             "subject": "COM",
@@ -5302,20 +5148,6 @@
         },
         {
             "subject": "DIE",
-            "code": "6907",
-            "name": "Indiv Study Diet/Nut",
-            "units": "0.00",
-            "description": "Intensive individual investigation of a phase of dietetics. Emphasis on recent findings in dietetics and allied disciplines. Prerequisite: Permission of the Instructor."
-        },
-        {
-            "subject": "DIE",
-            "code": "6915",
-            "name": "Supervised Research",
-            "units": "0.00",
-            "description": "Continuation of thesis research under thesis advisor. Repeatable. Prerequisite: Completion of all other required course work."
-        },
-        {
-            "subject": "DIE",
             "code": "6937",
             "name": "Graduate Seminar",
             "units": "1.00",
@@ -5579,13 +5411,6 @@
             "name": "Topics In Theory",
             "units": "3.00",
             "description": "Study of a particular topic or a selected number of topics in economics theory not otherwise offered in the curriculum."
-        },
-        {
-            "subject": "ECO",
-            "code": "5709",
-            "name": "The World Economy",
-            "units": "3.00",
-            "description": "Designed to give an overview of the crucial issues in the world economy. The course covers trade, capital, labor, and technology flows; transnational economic organizations; current economic crisis; global economic interdependence; and the nature and characteristics of international economic order. Required for MIB Program."
         },
         {
             "subject": "ECO",
@@ -5869,13 +5694,6 @@
         },
         {
             "subject": "EDF",
-            "code": "5905",
-            "name": "Dir Stud Educ",
-            "units": "0.00",
-            "description": "The student plans and carries out an independent study project under direction. Topics are to directly relate to content of education courses. Independent study may not substitute for regular course offerings. Prerequisites: Written permission of the chairman of the Division and the approval of the instructor."
-        },
-        {
-            "subject": "EDF",
             "code": "6211",
             "name": "Edu Psy: Appl Found",
             "units": "3.00",
@@ -6016,13 +5834,6 @@
         },
         {
             "subject": "EDG",
-            "code": "7226",
-            "name": "Advanced Research Teach",
-            "units": "1.00",
-            "description": "This course supports advanced research for doctoral students before their admission to candidacy. It is designed for students in a Teaching & Learning doctoral program. It is not appropriate for students who have been admitted to candidacy. This course may be repeated"
-        },
-        {
-            "subject": "EDG",
             "code": "7362",
             "name": "Inst: Theo And Res",
             "units": "3.00",
@@ -6121,31 +5932,10 @@
         },
         {
             "subject": "EDH",
-            "code": "7964",
-            "name": "Doctoral Candidacy Exam",
-            "units": "1.00",
-            "description": "Prerequisite: Permission of Major Professor."
-        },
-        {
-            "subject": "EDH",
             "code": "7980",
             "name": "Ph.D. Dissertation",
             "units": "0.00",
             "description": "This course consists of research for doctoral dissertation. Prerequisites: Permission of Major Professor. Course may be repeated as needed."
-        },
-        {
-            "subject": "EDH",
-            "code": "7983",
-            "name": "Dissertation Proposal Sem",
-            "units": "1.00",
-            "description": "This course is a defense of the dissertation proposal. Instructor consent required. Prerequisite: Major Professor Approval."
-        },
-        {
-            "subject": "EDH",
-            "code": "7985",
-            "name": "Dissertation Defense",
-            "units": "1.00",
-            "description": "This course is the defense of dissertation."
         },
         {
             "subject": "EDP",
@@ -6639,13 +6429,6 @@
         },
         {
             "subject": "EEL",
-            "code": "4949",
-            "name": "Co-Op Work Exp",
-            "units": "0.00",
-            "description": "Practical Co-op engineering work under approved industrial supervision."
-        },
-        {
-            "subject": "EEL",
             "code": "5278",
             "name": "SG Cyber and IEDs",
             "units": "3.00",
@@ -6688,13 +6471,6 @@
         },
         {
             "subject": "EEL",
-            "code": "5500",
-            "name": "Dig Comm Sys I",
-            "units": "3.00",
-            "description": "This course will consider most important aspects of digital communication systems such as noise related subjects, random signals, linear systems, and baseband digital modulation and multiplexing."
-        },
-        {
-            "subject": "EEL",
             "code": "5718",
             "name": "Comp-Comm Ntwk Eng",
             "units": "3.00",
@@ -6713,13 +6489,6 @@
             "name": "Image Processing",
             "units": "3.00",
             "description": "Image Fundamentals, Image Transforms, Image Enhancement, Edge Detection, Image Segmentation, Texture Analysis, Image Restoration, and Image Compression. Prerequisite: EEL 3135 and knowledge of any programming language (FORTRAN, Pascal, C)."
-        },
-        {
-            "subject": "EEL",
-            "code": "5935",
-            "name": "Adv Spec Topics",
-            "units": "0.00",
-            "description": "A course designed to give groups of students an opportunity to pursue special studies in an advanced topic of Electrical Engineering not otherwise offered. Prerequisite: Consent of instructor."
         },
         {
             "subject": "EEL",
@@ -6888,13 +6657,6 @@
             "name": "Student Teaching",
             "units": "12.00",
             "description": "Culminating internship experience for special education majors. Students will assume all responsibilities in classroom and all FEAP and ESE competencies learned in program will be demonstrated. Prerequisite: Student must be program admitted into a School of Education Initial Teacher Education Program prior to registering for this course."
-        },
-        {
-            "subject": "EEX",
-            "code": "4905",
-            "name": "Dir Stud Spec Ed",
-            "units": "0.00",
-            "description": "Concepts or competencies contracted between an undergraduate student and faculty member in accordance with the student's individual needs."
         },
         {
             "subject": "EEX",
@@ -7070,13 +6832,6 @@
             "name": "Seminar on STEM Edu Res",
             "units": "0.00",
             "description": "Weekly interactive and engaging presentations featuring faculty, students and guest speakers sharing research topics in science, technology, engineering and mathematics (STEM) topics."
-        },
-        {
-            "subject": "EGN",
-            "code": "6939",
-            "name": "Advanced Special Topics",
-            "units": "1.00",
-            "description": "An advanced special topics course for PhD students to pursue and study areas in engineering or computing education at an advanced level that otherwise would not be offered."
         },
         {
             "subject": "EGN",
@@ -7434,13 +7189,6 @@
             "name": "Special Topics/Proj",
             "units": "0.00",
             "description": "Individual conferences, assigned readings, and reports on independent investigations selected by the students and professor with approval of advisor."
-        },
-        {
-            "subject": "EML",
-            "code": "4940",
-            "name": "Undergraduate Internship",
-            "units": "1.00",
-            "description": "Undergraduate students gain work experience through supervised internship in industry. The student develops an internship program proposal, and the work performed is documented and presented. Prerequisites: Permission of departmental advisor or undergraduate program director."
         },
         {
             "subject": "EML",
@@ -7896,13 +7644,6 @@
             "name": "Water Treatment",
             "units": "3.00",
             "description": "Course emphasizes water quality, quantities, treatment and distribution systems particularly as relates to municipal water supply. Requires laboratory project. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "ENV",
-            "code": "5905",
-            "name": "Dir Ind Study",
-            "units": "0.00",
-            "description": "Individual research studies available to academically qualified students on graduate status."
         },
         {
             "subject": "ENV",
@@ -8381,13 +8122,6 @@
             "description": "An interdisciplinary survey of cinematic representations of the Holocaust from the 1940s to the present, addressing ethical challenges such as Holocaust comedy and the representation of atrocity."
         },
         {
-            "subject": "FIL",
-            "code": "4940",
-            "name": "Intern Film Studies",
-            "units": "0.00",
-            "description": "Students enrolled in the Film Studies Certificate Program work at the FIU Film Society and related film activities on archival research as well as working on organizing various aspects of the FIU Miami Film Festival including the concurrent seminars."
-        },
-        {
             "subject": "FIN",
             "code": "3005",
             "name": "Intro to Business Finance",
@@ -8498,13 +8232,6 @@
             "name": "Securities Analysis",
             "units": "3.00",
             "description": "An analysis of securities and the organization and operation of their markets. The determination of the risk reward structure of equity and debt securities and their valuation. Special emphasis on common stocks. Other topics include options, mutual funds and technical analysis. Prerequisite: FIN 6406."
-        },
-        {
-            "subject": "FIN",
-            "code": "6943",
-            "name": "Fin Internship",
-            "units": "0.00",
-            "description": "Student placement within a financial institution, business firm or other organization for the purpose of providing practical experience to supplement theoretical classroom instruction. Periodic reports and conferences required. Permission of the instructor and Department Chairperson."
         },
         {
             "subject": "FIN",
@@ -8745,13 +8472,6 @@
             "description": "Internship program enabling students to participate in business-related internships to include new startups, product/service launches, and/or business re-engineering, innovation projects. Prerequisite: Instructor Approval"
         },
         {
-            "subject": "GEB",
-            "code": "6941C",
-            "name": "Grad Bus Internship",
-            "units": "0.00",
-            "description": "This program allows graduate students to work in jobs significantly related to their major area of study and career goals. This is supervised work with carefully designed and monitored work assignments.  Specific placement must be approved by the faculty advisor prior to enrollment.  Work performed on the current job cannot be used for internship credit. Prerequisite: Graduate Students."
-        },
-        {
             "subject": "GEO",
             "code": "2000",
             "name": "Intro To Geography",
@@ -8792,13 +8512,6 @@
             "name": "Independent Study",
             "units": "1.00",
             "description": "Directed independent research in systematic geography. Requires prior approval by instructor."
-        },
-        {
-            "subject": "GEO",
-            "code": "5906",
-            "name": "Directed Ind Studies",
-            "units": "3.00",
-            "description": "Supervised readings and/or field research and training."
         },
         {
             "subject": "GEO",
@@ -8974,13 +8687,6 @@
             "name": "Coastal Hazards",
             "units": "3.00",
             "description": "Focus on the processes responsible for tsunamis, storm surges, coastal erosion, land subsidence, sea level rise, etc. and their mitigation."
-        },
-        {
-            "subject": "GLY",
-            "code": "4947",
-            "name": "Internship in Geoscience",
-            "units": "0.00",
-            "description": "Practical geological, geophysical, or hydrological work experience at local companies, non-profits, or government agencies supervised by a faculty member. May be repeated for credit. (Pass/Fail Only) Prerequisite: Permission of Instructor."
         },
         {
             "subject": "GLY",
@@ -9593,13 +9299,6 @@
         },
         {
             "subject": "HIS",
-            "code": "4908",
-            "name": "Independent Studies",
-            "units": "0.00",
-            "description": "Individual conferences, assigned readings and reports on independent investigations, with the consent of the instructor."
-        },
-        {
-            "subject": "HIS",
             "code": "4930",
             "name": "Special Topics",
             "units": "3.00",
@@ -9611,13 +9310,6 @@
             "name": "Senior Seminar",
             "units": "3.00",
             "description": "A seminar to be taken by all history majors, to provide experience in research, writing, and critical analysis."
-        },
-        {
-            "subject": "HIS",
-            "code": "4941",
-            "name": "Public History Internship",
-            "units": "0.00",
-            "description": "Gain hands-on experience in archives, libraries, museums, or public history projects. Prepare for a number of careers or fields of study. May be repeated. Prerequisite: Permission of the department required."
         },
         {
             "subject": "HIS",
@@ -9678,13 +9370,6 @@
         {
             "subject": "HMG",
             "code": "5901",
-            "name": "Independent Study",
-            "units": "0.00",
-            "description": "With permission from the Associate Dean, students may engage in independent research projects and other approved phases of independent study. Prerequisite: Permission."
-        },
-        {
-            "subject": "HMG",
-            "code": "5906",
             "name": "Independent Study",
             "units": "0.00",
             "description": "With permission from the Associate Dean, students may engage in independent research projects and other approved phases of independent study. Prerequisite: Permission."
@@ -10110,13 +9795,6 @@
             "description": "Study of human diseases/disorders of the immune, cardiovascular, hematopoietic, central nervous, musculoskeletal, respiratory, urinary/reproductive, gastrointestinal and endocrine systems."
         },
         {
-            "subject": "HSC",
-            "code": "7935C",
-            "name": "Doctoral Seminar HSR",
-            "units": "2.00",
-            "description": "This doctoral seminar includes presentations by researchers and doctoral students on studies, theories, and applications related to health systems research."
-        },
-        {
             "subject": "HUM",
             "code": "1020",
             "name": "Intro to Humanities",
@@ -10482,13 +10160,6 @@
         },
         {
             "subject": "IND",
-            "code": "5948",
-            "name": "Grad Internship",
-            "units": "1.00",
-            "description": "Advanced issues in professional practice learned through work experience with design professionals."
-        },
-        {
-            "subject": "IND",
             "code": "6255",
             "name": "IND Grad 1",
             "units": "6.00",
@@ -10832,13 +10503,6 @@
         },
         {
             "subject": "INR",
-            "code": "7910",
-            "name": "Pre-Diss Research",
-            "units": "1.00",
-            "description": "Students develop a dissertation proposal under the direction of a faculty member."
-        },
-        {
-            "subject": "INR",
             "code": "7980",
             "name": "PH. D. Dissertation",
             "units": "1.00",
@@ -10857,13 +10521,6 @@
             "name": "First Year Sem Earth Env",
             "units": "1.00",
             "description": "Weekly seminar course meant for freshmen or 1st year transfer students in the undergraduate Earth and Environment programs. Topics include: assessing your skills, planning your program, and getting help."
-        },
-        {
-            "subject": "ISC",
-            "code": "3523",
-            "name": "Research Methods",
-            "units": "3.00",
-            "description": "Students use tools that scientists use to solve scientific problems and develop insight into processes involved in scientific discovery. Focus on research methods for prospective science teachers."
         },
         {
             "subject": "ISC",
@@ -10955,13 +10612,6 @@
             "name": "Business App Development",
             "units": "3.00",
             "description": "Design, implement, test, debug, and document business applications using a business programming language. Compelling exercises illustrate how applications implement business processes. Prerequisites: (a) QMB3003 or (STA2023 and (MAC2233 or Calc I or higher)) or equivalents with a grade of 'C' or higher; (b) 45 credit hours earned; (c) BBA in IS students or permission of instructor only"
-        },
-        {
-            "subject": "ISM",
-            "code": "3949",
-            "name": "Info Systems Internship I",
-            "units": "0.00",
-            "description": "A program enabling MIS majors to work in jobs significantly related to their major area and career goals. Placement must be approved by instructor."
         },
         {
             "subject": "ISM",
@@ -11424,13 +11074,6 @@
             "name": "Children's Lit",
             "units": "3.00",
             "description": "Focuses on the exploration of children's literature and its integration into the early childhood curriculum from a global perspective."
-        },
-        {
-            "subject": "LAE",
-            "code": "4942",
-            "name": "Student Teaching",
-            "units": "6.00",
-            "description": "Supervised teaching in a middle school or senior high school."
         },
         {
             "subject": "LAE",
@@ -11931,13 +11574,6 @@
         },
         {
             "subject": "LAW",
-            "code": "6984",
-            "name": "Judicial Externship Placement",
-            "units": "2.00",
-            "description": "To enable students to serve as judicial externs with participating judges, magistrates or referees in State or Federal Courts. Prerequisites: Student must have a G.P.A. of 2.75 and a writing sample."
-        },
-        {
-            "subject": "LAW",
             "code": "7200",
             "name": "US Law I",
             "units": "2.00",
@@ -12110,13 +11746,6 @@
             "name": "Org Conflict & Dispute Res",
             "units": "3.00",
             "description": "Examines the causes, consequences, and cost of organizational conflict and the\ndispute resolution systems organizations use to resolve conflict."
-        },
-        {
-            "subject": "LBS",
-            "code": "5930",
-            "name": "Topic Labor Studies",
-            "units": "0.00",
-            "description": "Selected topics or themes in Labor Studies. Themes will vary from semester to semester. With a change in content, course may be repeated. May include field work. Prerequisite: Graduate standing."
         },
         {
             "subject": "LEI",
@@ -12841,13 +12470,6 @@
         },
         {
             "subject": "MAN",
-            "code": "4949",
-            "name": "Mgt Internship II",
-            "units": "3.00",
-            "description": "Continuation of MAN 3949."
-        },
-        {
-            "subject": "MAN",
             "code": "4970",
             "name": "IBH Project Seminar",
             "units": "3.00",
@@ -12866,13 +12488,6 @@
             "name": "Analysis Of Corp Pol",
             "units": "3.00",
             "description": "Links functional areas of management to provide integrated view of organization and public policy. Emphasis on measurement, analysis and conceptualization of organization as a totality of operations."
-        },
-        {
-            "subject": "MAN",
-            "code": "7910",
-            "name": "Adv Mgmt Res Mthds",
-            "units": "3.00",
-            "description": "Covers applications of analytical methods in contemporary management research. Emphasis is given to complex research design strategies including multivariate techniques and multidimensional scaling."
         },
         {
             "subject": "MAN",
@@ -12922,13 +12537,6 @@
             "name": "Quant Risk Manag",
             "units": "3.00",
             "description": "Interdisciplinary course with a strong quantitative approach to the risk management process of small and big businesses."
-        },
-        {
-            "subject": "MAP",
-            "code": "4990",
-            "name": "ML in Quant Finance",
-            "units": "3.00",
-            "description": "N/A"
         },
         {
             "subject": "MAP",
@@ -13380,24 +12988,10 @@
         },
         {
             "subject": "MET",
-            "code": "5311",
-            "name": "Dynamic Meteorology I",
-            "units": "3.00",
-            "description": "To study atmospheric phenomena on a rotating planet. It intends to lead towards an understanding of the theories of the atmospheric motion by applying concepts of Math., thermodynamics, and dynamics."
-        },
-        {
-            "subject": "MET",
             "code": "5355",
             "name": "Severe and Hazardous Wx",
             "units": "3.00",
             "description": "Focuses on introducing thunderstorms, squall lines, mesoscale convection systems, and their interactions with synoptic scale weather. Prerequisites: MET 3003 or permission of the instructor."
-        },
-        {
-            "subject": "MET",
-            "code": "5530",
-            "name": "Hurricane Meteoro Impacts",
-            "units": "3.00",
-            "description": "Hurricane formation, motion, and impacts on the graduate level. Adds critical reading of the scientific and disaster literatures and quantitative problem sets to the undergraduate experience. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "MET",
@@ -13604,13 +13198,6 @@
         },
         {
             "subject": "MMC",
-            "code": "5946C",
-            "name": "JOU + Media Internship 2",
-            "units": "0.00",
-            "description": "This internship is designed to enhance the learning experience of graduate students through intense critical analysis and skills building in a relevant work environment."
-        },
-        {
-            "subject": "MMC",
             "code": "6108",
             "name": "Theories Mass Comm Writing",
             "units": "3.00",
@@ -13758,13 +13345,6 @@
         },
         {
             "subject": "MUC",
-            "code": "3231",
-            "name": "Composition Sem III",
-            "units": "2.00",
-            "description": "A continuation of Composition I to further the development of students compositional abilities through the writing of more evolved works with regard to duration, instrumentation."
-        },
-        {
-            "subject": "MUC",
             "code": "3232",
             "name": "Composition Sem IV",
             "units": "2.00",
@@ -13793,31 +13373,10 @@
         },
         {
             "subject": "MUC",
-            "code": "5935",
-            "name": "Comp Forum",
-            "units": "1.00",
-            "description": "Student composers present their work for critique by faculty and topics relevant to composition are presented by faculty and guests."
-        },
-        {
-            "subject": "MUC",
-            "code": "6251",
-            "name": "Grad Mus Comp",
-            "units": "3.00",
-            "description": "The writing of evolved musical compositions with regard to each student's strengths and aesthetic development. Graduate standing in Music Composition and or permission of the instructor."
-        },
-        {
-            "subject": "MUC",
             "code": "6305",
             "name": "Elec Mus Lab I",
             "units": "2.00",
             "description": "Exploration of the electronic medium including the history of electronic music, digital studio techniques, analog studio techniques, digital synthesis and analog synthesis."
-        },
-        {
-            "subject": "MUC",
-            "code": "6405",
-            "name": "Elec Mus Lab III",
-            "units": "2.00",
-            "description": "Special projects in advanced electronic music programming environments including C-sound, MAX, Interactor, HMSL and CHANT. Includes one large composition project. Can be repeated 4 times."
         },
         {
             "subject": "MUE",
@@ -13863,13 +13422,6 @@
         },
         {
             "subject": "MUE",
-            "code": "3920",
-            "name": "MUE Forum",
-            "units": "0.00",
-            "description": "Weekly forum for professional development and special topics for certification. Required by all music education students; repeatable each semester prior to internship."
-        },
-        {
-            "subject": "MUE",
             "code": "4940",
             "name": "Stud Tch In Mus Ed",
             "units": "9.00",
@@ -13895,13 +13447,6 @@
             "name": "Res In Music Ed",
             "units": "3.00",
             "description": "A survey of current research and past research trends in music education. Applied training in techniques of design and data analysis."
-        },
-        {
-            "subject": "MUE",
-            "code": "6910",
-            "name": "Directed Research",
-            "units": "3.00",
-            "description": "This course is designed to provide an opportunity for students to engage in high-level inquiry focusing on an area of specialization within the music education profession."
         },
         {
             "subject": "MUE",
@@ -13967,13 +13512,6 @@
             "description": "A survey of music from antiquity to 1600. Lectures on historical styles will be supplemented with recordings and musical analysis."
         },
         {
-            "subject": "MUH",
-            "code": "3220",
-            "name": "History of Musical Theatre",
-            "units": "3.00",
-            "description": "A survey of the history of English language musical theatre from its development at the end of the 19th century to present day."
-        },
-        {
             "subject": "MUL",
             "code": "1010",
             "name": "Music Lit/Appreciation",
@@ -13986,13 +13524,6 @@
             "name": "Art Song Lit",
             "units": "3.00",
             "description": "A chronological survey of solo vocal literature from the Medieval period to the national schools of the contemporary era."
-        },
-        {
-            "subject": "MUL",
-            "code": "4662",
-            "name": "His & Lit Of Opera",
-            "units": "3.00",
-            "description": "Chronological survey of opera literature from the 17th century to present day. Analysis and performance of representative works."
         },
         {
             "subject": "MUL",
@@ -14276,13 +13807,6 @@
         },
         {
             "subject": "MUN",
-            "code": "4103L",
-            "name": "Golden Panther Band",
-            "units": "1.00",
-            "description": "A study and performance of pop, jazz, and rock musical selections for the instrumental medium. Students will demonstrate what they have learned by performing and through individualized playing examinations."
-        },
-        {
-            "subject": "MUN",
             "code": "4143L",
             "name": "Symphonic Wind Ens",
             "units": "1.00",
@@ -14346,13 +13870,6 @@
         },
         {
             "subject": "MUN",
-            "code": "5105L",
-            "name": "FIU Marching Band",
-            "units": "1.00",
-            "description": "A study and performance of pop, jazz, and rock musical selections for the instrumental medium. Students will demonstrate what they have learned by performing and through individualized playing examinations. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "MUN",
             "code": "5125L",
             "name": "Symphony Band",
             "units": "1.00",
@@ -14406,13 +13923,6 @@
             "name": "Chamber Music",
             "units": "1.00",
             "description": "Small ensemble in the performing of chamber music literature. Prerequisite: Permission of conductor."
-        },
-        {
-            "subject": "MUN",
-            "code": "5485",
-            "name": "Guitar Ensemble",
-            "units": "1.00",
-            "description": "The presentation and performance of music literature characteristic of the Guitar Ensemble. Prerequisite: Permission of conductor."
         },
         {
             "subject": "MUN",
@@ -14647,13 +14157,6 @@
         },
         {
             "subject": "MVB",
-            "code": "1311",
-            "name": "Prin Applied Trumpet",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on trumpet as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
             "code": "1312",
             "name": "Prin Appl French Hor",
             "units": "2.00",
@@ -14675,38 +14178,10 @@
         },
         {
             "subject": "MVB",
-            "code": "1315",
-            "name": "Prin Applied Tuba",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
             "code": "1411",
             "name": "Major Applied Trumpet",
             "units": "2.00",
             "description": "Individual instruction in applied music on trumpet as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "1412",
-            "name": "Major Appl Fr Horn",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "1413",
-            "name": "Major Appl Trombone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "1415",
-            "name": "Maj Applied Tuba",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -14717,24 +14192,10 @@
         },
         {
             "subject": "MVB",
-            "code": "2322",
-            "name": "Prin Appl French Hor",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on French horn as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
             "code": "2323",
             "name": "Prin Appl Trombone",
             "units": "2.00",
             "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "2325",
-            "name": "Prin Applied Tuba",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -14745,24 +14206,10 @@
         },
         {
             "subject": "MVB",
-            "code": "2422",
-            "name": "Major Appl Fr Horn",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
             "code": "2423",
             "name": "Major Appl Trombone",
             "units": "2.00",
             "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "2425",
-            "name": "Maj Applied Tuba",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
         },
         {
             "subject": "MVB",
@@ -14794,20 +14241,6 @@
         },
         {
             "subject": "MVB",
-            "code": "3431",
-            "name": "Major Appl Trumpet",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on trumpet as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "3432",
-            "name": "Major Appl Fr Horn",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
             "code": "3433",
             "name": "Major Appl Trombone",
             "units": "3.00",
@@ -14836,84 +14269,7 @@
         },
         {
             "subject": "MVB",
-            "code": "4342",
-            "name": "Prin Appl French Hor",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on French horn as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "4343",
-            "name": "Prin Appl Trombone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
             "code": "4345",
-            "name": "Prin Applied Tuba",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "4441",
-            "name": "Major Appl Trumpet",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on trumpet as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "4442",
-            "name": "Major Appl Fr Horn",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on French horn as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "4443",
-            "name": "Major Appl Trombone",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "4444",
-            "name": "Maj Appl Bariton Hor",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on baritone horn as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "4445",
-            "name": "Maj Applied Tuba",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on tuba as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "5351",
-            "name": "Prin Applied Trumpet",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on trumpet as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "5352",
-            "name": "Prin Appl French Hor",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on French horn as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "5353",
-            "name": "Prin Appl Trombone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on applied trombone as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
-            "code": "5355",
             "name": "Prin Applied Tuba",
             "units": "2.00",
             "description": "Individual instruction in applied music on tuba as a principal instrument. Music majors only."
@@ -14934,13 +14290,6 @@
         },
         {
             "subject": "MVB",
-            "code": "5453",
-            "name": "Major Appl Trombone",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on trombone as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVB",
             "code": "5455",
             "name": "Maj Applied Tuba",
             "units": "3.00",
@@ -14952,13 +14301,6 @@
             "name": "Principle Applied Jazz Voice",
             "units": "2.00",
             "description": "Individual instruction in the Jazz Vocal Idiom, includes healthy vocal technique, vocal jazz and related styles, development of repertoire, and general aspects of strong public performance."
-        },
-        {
-            "subject": "MVJ",
-            "code": "1310",
-            "name": "Prin App Jazz Piano",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz piano as a principal level. Prerequisite: Music majors only."
         },
         {
             "subject": "MVJ",
@@ -14976,20 +14318,6 @@
         },
         {
             "subject": "MVJ",
-            "code": "1316",
-            "name": "Prin Applied Jazz Sa",
-            "units": "2.00",
-            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz. Prerequisite: Audition."
-        },
-        {
-            "subject": "MVJ",
-            "code": "1317",
-            "name": "Prin App Jazz Trump",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz trumpet at a principal level."
-        },
-        {
-            "subject": "MVJ",
             "code": "1410",
             "name": "Maj App Jazz Piano",
             "units": "2.00",
@@ -15004,31 +14332,10 @@
         },
         {
             "subject": "MVJ",
-            "code": "1412",
-            "name": "Major Applied Jazz Voice",
-            "units": "2.00",
-            "description": "Individual instruction in the Jazz Vocal Idiom. Study includes health and vocal technique, advanced development of repertoire, specific and necessary skills for compelling public performance."
-        },
-        {
-            "subject": "MVJ",
-            "code": "1413",
-            "name": "Maj App Jazz Guitar",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz guitar at a major level."
-        },
-        {
-            "subject": "MVJ",
             "code": "1414",
             "name": "Maj App Jazz Bass",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz bass at a major level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "1416",
-            "name": "Maj Applied Jazz Sax",
-            "units": "2.00",
-            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz.  Prerequisite: Audition."
         },
         {
             "subject": "MVJ",
@@ -15043,20 +14350,6 @@
             "name": "Sec Jazz Piano",
             "units": "1.00",
             "description": "Individual instruction in applied jazz music on piano."
-        },
-        {
-            "subject": "MVJ",
-            "code": "2228",
-            "name": "Sec Jazz Trombone",
-            "units": "1.00",
-            "description": "Individual instruction in applied jazz music on trombone."
-        },
-        {
-            "subject": "MVJ",
-            "code": "2310",
-            "name": "Prin App Jazz Piano",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz piano at a principal level."
         },
         {
             "subject": "MVJ",
@@ -15081,41 +14374,6 @@
         },
         {
             "subject": "MVJ",
-            "code": "2326",
-            "name": "Prin Applied Jazz Sa",
-            "units": "2.00",
-            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz. Prerequisite: Audition."
-        },
-        {
-            "subject": "MVJ",
-            "code": "2327",
-            "name": "Prin App Jazz Trump",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz trumpet at a principal level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "2329",
-            "name": "Prin App Jazz Drums",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz drums at a principal level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "2420",
-            "name": "Maj App Jazz Piano",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz piano as a major level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "2422",
-            "name": "Major Applied Jazz Voice",
-            "units": "2.00",
-            "description": "Individual instruction in the Jazz Vocal Idiom. Study includes health and vocal technique, advanced development of repertoire, specific and necessary skills for a compelling public performance."
-        },
-        {
-            "subject": "MVJ",
             "code": "2423",
             "name": "Maj App Jazz Guitar",
             "units": "2.00",
@@ -15130,31 +14388,10 @@
         },
         {
             "subject": "MVJ",
-            "code": "2425",
-            "name": "Maj App Jazz Drms",
-            "units": "2.00",
-            "description": "Individual instruction on jazz drums at the applied level. Prerequisite: Audition."
-        },
-        {
-            "subject": "MVJ",
-            "code": "2426",
-            "name": "Maj Applied Jazz Sax",
-            "units": "2.00",
-            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz.  Prerequisite: Audition."
-        },
-        {
-            "subject": "MVJ",
             "code": "2427",
             "name": "Maj App Jazz Trumpet",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz trumpet at a major level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "3230",
-            "name": "Sec Jazz Piano",
-            "units": "1.00",
-            "description": "Individual instruction in applied jazz music on piano."
         },
         {
             "subject": "MVJ",
@@ -15186,31 +14423,10 @@
         },
         {
             "subject": "MVJ",
-            "code": "3336",
-            "name": "Prin Applied Jazz Sa",
-            "units": "2.00",
-            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz. Prerequisite: Audition."
-        },
-        {
-            "subject": "MVJ",
             "code": "3337",
             "name": "Prin App Jazz Trump",
             "units": "2.00",
             "description": "Individual instruction in applied music on jazz trumpet at a principal level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "3339",
-            "name": "Prin App Jazz Drums",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz drums at a principal level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "3430",
-            "name": "Maj App Jazz Piano",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on jazz piano as a major level."
         },
         {
             "subject": "MVJ",
@@ -15221,24 +14437,10 @@
         },
         {
             "subject": "MVJ",
-            "code": "3433",
-            "name": "Maj App Jazz Guitar",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on jazz guitar at a major level."
-        },
-        {
-            "subject": "MVJ",
             "code": "3434",
             "name": "Maj App Jazz Bass",
             "units": "3.00",
             "description": "Individual instruction in applied music on jazz bass at a major level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "3435",
-            "name": "Maj App Jazz Drms",
-            "units": "3.00",
-            "description": "Individual instruction in applied music in the jazz idiom. Prerequisite: Audition."
         },
         {
             "subject": "MVJ",
@@ -15249,13 +14451,6 @@
         },
         {
             "subject": "MVJ",
-            "code": "3437",
-            "name": "Maj App Jazz Trumpet",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on jazz trumpet at a major level."
-        },
-        {
-            "subject": "MVJ",
             "code": "3970",
             "name": "Junior Recital-Jazz",
             "units": "0.00",
@@ -15263,59 +14458,10 @@
         },
         {
             "subject": "MVJ",
-            "code": "4340",
-            "name": "Prin App Jazz Piano",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz piano at a principal level."
-        },
-        {
-            "subject": "MVJ",
             "code": "4341",
             "name": "Principle Applied Jazz Voice",
             "units": "2.00",
             "description": "Individual instruction in the Jazz Vocal Idiom. Study includes healthy vocal technique, eminent vocal jazz and related musical styles, expanded and advanced development of repertoire, specific and necessary skills for a strong performance."
-        },
-        {
-            "subject": "MVJ",
-            "code": "4343",
-            "name": "Prin App Jazz Guitar",
-            "units": "2.00",
-            "description": "Individual instruction in applied jazz music on guitar."
-        },
-        {
-            "subject": "MVJ",
-            "code": "4346",
-            "name": "Prin Applied Jazz Sa",
-            "units": "2.00",
-            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz. Prerequisite: Audition."
-        },
-        {
-            "subject": "MVJ",
-            "code": "4347",
-            "name": "Prin App Jazz Trump",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz trumpet at a principal level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "4349",
-            "name": "Prin App Jazz Drums",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz drums at a principal level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "4440",
-            "name": "Maj App Jazz Piano",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on jazz piano as a major level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "4442",
-            "name": "Major Applied Jazz Voice",
-            "units": "3.00",
-            "description": "Individual instruction in the Jazz Vocal Idiom. Study includes healthy vocal technique, eminent vocal jazz and related musical styles, expanded and advanced development of repertoire, specific and necessary skills for a strong public performance."
         },
         {
             "subject": "MVJ",
@@ -15330,13 +14476,6 @@
             "name": "Maj App Jazz Bass",
             "units": "3.00",
             "description": "Individual instruction in applied music on jazz bass at a major level."
-        },
-        {
-            "subject": "MVJ",
-            "code": "4445",
-            "name": "Maj App Jazz Drms",
-            "units": "3.00",
-            "description": "Individual instruction in applied music in the jazz idiom. Prerequisite: Audition."
         },
         {
             "subject": "MVJ",
@@ -15368,41 +14507,6 @@
         },
         {
             "subject": "MVJ",
-            "code": "5250",
-            "name": "Sec Jazz Piano",
-            "units": "1.00",
-            "description": "Individual instruction in applied jazz music on piano."
-        },
-        {
-            "subject": "MVJ",
-            "code": "5351",
-            "name": "Principle Applied Jazz Voice",
-            "units": "2.00",
-            "description": "Individual instruction in the Jazz Vocal Idiom. Study includes health and vocal technique, advanced development of repertoire, specific and necessary skills for compelling public performance."
-        },
-        {
-            "subject": "MVJ",
-            "code": "5353",
-            "name": "Prin App Jazz Guitar",
-            "units": "2.00",
-            "description": "Individual instruction in applied jazz music on guitar."
-        },
-        {
-            "subject": "MVJ",
-            "code": "5356",
-            "name": "Prin  Applied Jazz Sa",
-            "units": "2.00",
-            "description": "Individual advanced instruction on major instrument. An in-depth study of overall instrumental technique, eminent jazz styles, and other performance practices that are particularly relevant to jazz."
-        },
-        {
-            "subject": "MVJ",
-            "code": "5359",
-            "name": "Prin App Jazz Drums",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on jazz drums at a principal level. Music majors only."
-        },
-        {
-            "subject": "MVJ",
             "code": "5450",
             "name": "Maj App Jazz Pno",
             "units": "3.00",
@@ -15417,38 +14521,10 @@
         },
         {
             "subject": "MVJ",
-            "code": "5453",
-            "name": "Maj App Jazz Guitar",
-            "units": "3.00",
-            "description": "Individual instruction on major instrument, focusing on the jazz idiom. An in-depth study of overall instrumental technique, eminent styles, and other performance practices that are particularly relevant to jazz and commercial performance."
-        },
-        {
-            "subject": "MVJ",
-            "code": "5454",
-            "name": "Maj App Jazz Bass",
-            "units": "3.00",
-            "description": "Individual instruction on major instrument, focusing on the jazz idiom. An in-depth study of overall instrumental technique, eminent styles, and other performance practices that are particularly relevant to jazz and commercial performance."
-        },
-        {
-            "subject": "MVJ",
             "code": "5455",
             "name": "Maj App Jazz Drms",
             "units": "3.00",
             "description": "Individual instruction in applied music at the graduate level. Prerequisite: Audition."
-        },
-        {
-            "subject": "MVJ",
-            "code": "5456",
-            "name": "Maj Applied Jazz Sax",
-            "units": "3.00",
-            "description": "Individual instruction on major instrument.  An in-depth study of overall instrumental technique, styles, and other performance practices particularly relevant to jazz.  Prerequisite: Audition."
-        },
-        {
-            "subject": "MVJ",
-            "code": "5457",
-            "name": "Maj App Jazz Trumpet",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on jazz trumpet at a major level. Music majors only."
         },
         {
             "subject": "MVK",
@@ -15508,20 +14584,6 @@
         },
         {
             "subject": "MVK",
-            "code": "2321",
-            "name": "Prin App Piano",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on piano as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVK",
-            "code": "2421",
-            "name": "Major Applied Piano",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on piano as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVK",
             "code": "3135",
             "name": "Cls Jazz Pno I",
             "units": "1.00",
@@ -15550,31 +14612,10 @@
         },
         {
             "subject": "MVK",
-            "code": "4341",
-            "name": "Prin App Piano",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on piano as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVK",
-            "code": "4441",
-            "name": "Major Applied Piano",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on piano as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVK",
             "code": "4640",
             "name": "Keyboard Pedagogy",
             "units": "2.00",
             "description": "survey of current teaching methods and techniques in piano pedagogy. Supervised teaching provides hands-on experience."
-        },
-        {
-            "subject": "MVK",
-            "code": "4971L",
-            "name": "Senior Rec Keyboard",
-            "units": "0.00",
-            "description": "All music majors must present, before graduation, at least one half (full recital performance major) of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
         },
         {
             "subject": "MVK",
@@ -15648,13 +14689,6 @@
         },
         {
             "subject": "MVP",
-            "code": "4341",
-            "name": "Prin App Percussion",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on percussion as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVP",
             "code": "5451",
             "name": "Major App Percussion",
             "units": "3.00",
@@ -15673,13 +14707,6 @@
             "name": "Secondary App Violin",
             "units": "1.00",
             "description": "Individual instruction in applied music on violin as a secondary instrument."
-        },
-        {
-            "subject": "MVS",
-            "code": "1212",
-            "name": "Secondary App Viola",
-            "units": "1.00",
-            "description": "Individual instruction in applied music on viola as a secondary instrument."
         },
         {
             "subject": "MVS",
@@ -15704,31 +14731,10 @@
         },
         {
             "subject": "MVS",
-            "code": "1313",
-            "name": "Prin Applied Cello",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "1314",
-            "name": "Prin App Dble Bass",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
             "code": "1316",
             "name": "Principal App Guitar",
             "units": "2.00",
             "description": "Individual instruction in applied music on guitar as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "1411",
-            "name": "Major Applied Violin",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on violin as a major instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -15753,55 +14759,6 @@
         },
         {
             "subject": "MVS",
-            "code": "1416",
-            "name": "Major Applied Guitar",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on guitar as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "2221",
-            "name": "Secondary App Violin",
-            "units": "1.00",
-            "description": "Individual instruction in applied music on violin as a secondary instrument."
-        },
-        {
-            "subject": "MVS",
-            "code": "2321",
-            "name": "Prin Applied Violin",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on violin as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "2322",
-            "name": "Prin Applied Viola",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on viola as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "2323",
-            "name": "Prin Applied Cello",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "2324",
-            "name": "Prin App Dble Bass",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "2326",
-            "name": "Principal App Guitar",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on guitar as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
             "code": "2421",
             "name": "Major Applied Violin",
             "units": "2.00",
@@ -15813,20 +14770,6 @@
             "name": "Major Applied Viola",
             "units": "2.00",
             "description": "Individual instruction in applied music on viola as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "2423",
-            "name": "Major Applied Cello",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on cello as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "2424",
-            "name": "Major App Dble Bass",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on double brass as a major instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -15844,24 +14787,10 @@
         },
         {
             "subject": "MVS",
-            "code": "3332",
-            "name": "Prin Applied Viola",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on viola as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
             "code": "3333",
             "name": "Prin Applied Cello",
             "units": "2.00",
             "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "3334",
-            "name": "Prin App Dble Bass",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -15886,24 +14815,10 @@
         },
         {
             "subject": "MVS",
-            "code": "3433",
-            "name": "Major Applied Cello",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on cello as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
             "code": "3434",
             "name": "Major App Dble Bass",
             "units": "3.00",
             "description": "Individual instruction in applied music on double brass as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "3436",
-            "name": "Major Applied Guitar",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on guitar as a major instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -15914,31 +14829,10 @@
         },
         {
             "subject": "MVS",
-            "code": "4341",
-            "name": "Prin Applied Violin",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on violin as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "4342",
-            "name": "Prin Applied Viola",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on viola as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
             "code": "4343",
             "name": "Prin Applied Cello",
             "units": "2.00",
             "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "4344",
-            "name": "Prin App Dble Bass",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -15977,13 +14871,6 @@
         },
         {
             "subject": "MVS",
-            "code": "4446",
-            "name": "Major Applied Guitar",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on guitar as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
             "code": "4541",
             "name": "Orch Audition Rep",
             "units": "3.00",
@@ -16005,34 +14892,6 @@
         },
         {
             "subject": "MVS",
-            "code": "5353",
-            "name": "Prin Applied Cello",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on cello as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "5354",
-            "name": "Prin App Dble Bass",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on double brass as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "5356",
-            "name": "Principal App Guitar",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on guitar as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "5451",
-            "name": "Major Applied Violin",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on violin as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
             "code": "5452",
             "name": "Major Applied Viola",
             "units": "3.00",
@@ -16051,13 +14910,6 @@
             "name": "Major App Dble Bass",
             "units": "3.00",
             "description": "Individual instruction in applied music on double brass as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVS",
-            "code": "5456",
-            "name": "Major Applied Guitar",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on guitar as a major instrument. Music majors only."
         },
         {
             "subject": "MVS",
@@ -16124,13 +14976,6 @@
         },
         {
             "subject": "MVV",
-            "code": "4341",
-            "name": "Prin Applied Voice",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on voice as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVV",
             "code": "4441",
             "name": "Major Applied Voice",
             "units": "3.00",
@@ -16145,24 +14990,10 @@
         },
         {
             "subject": "MVV",
-            "code": "5351",
-            "name": "Prin Applied Voice",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on voice as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVV",
             "code": "5451",
             "name": "Major Applied Voice",
             "units": "3.00",
             "description": "Individual instruction in applied music on voice as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "1211",
-            "name": "Secondary App Flute",
-            "units": "1.00",
-            "description": "Individual instruction in applied music on flute as a secondary instrument."
         },
         {
             "subject": "MVW",
@@ -16173,45 +15004,10 @@
         },
         {
             "subject": "MVW",
-            "code": "1312",
-            "name": "Principal Appl Oboe",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "1313",
-            "name": "Prin App Clarinet",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "1315",
-            "name": "Prin Appl Saxophone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
             "code": "1411",
             "name": "Major Applied Flute",
             "units": "2.00",
             "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "1412",
-            "name": "Major Applied Oboe",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "1413",
-            "name": "Major Appl Clarinet",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on clarinet as a major instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -16229,38 +15025,10 @@
         },
         {
             "subject": "MVW",
-            "code": "2322",
-            "name": "Principal Appl Oboe",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "2323",
-            "name": "Prin App Clarinet",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
             "code": "2325",
             "name": "Prin Appl Saxophone",
             "units": "2.00",
             "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "2421",
-            "name": "Major Applied Flute",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "2422",
-            "name": "Major Applied Oboe",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -16271,31 +15039,10 @@
         },
         {
             "subject": "MVW",
-            "code": "2425",
-            "name": "Major Appl Saxophone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
             "code": "3331",
             "name": "Principal App Flute",
             "units": "2.00",
             "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "3332",
-            "name": "Principal Appl Oboe",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "3333",
-            "name": "Prin App Clarinet",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -16306,20 +15053,6 @@
         },
         {
             "subject": "MVW",
-            "code": "3431",
-            "name": "Major Applied Flute",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "3432",
-            "name": "Major Applied Oboe",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
             "code": "3433",
             "name": "Major Appl Clarinet",
             "units": "3.00",
@@ -16327,31 +15060,10 @@
         },
         {
             "subject": "MVW",
-            "code": "3435",
-            "name": "Major Appl Saxophone",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
             "code": "3970L",
             "name": "Junior Rec Woodwind",
             "units": "0.00",
             "description": "All music performance majors must present, during their junior year, at least one half of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
-        },
-        {
-            "subject": "MVW",
-            "code": "4341",
-            "name": "Principla App Flute",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "4342",
-            "name": "Principal Appl Oboe",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -16369,13 +15081,6 @@
         },
         {
             "subject": "MVW",
-            "code": "4441",
-            "name": "Major Applied Flute",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
             "code": "4442",
             "name": "Major Applied Oboe",
             "units": "3.00",
@@ -16383,87 +15088,10 @@
         },
         {
             "subject": "MVW",
-            "code": "4443",
-            "name": "Major Appl Clarinet",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on clarinet as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "4445",
-            "name": "Major Appl Saxophone",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "4971L",
-            "name": "Senior Rec Woodwind",
-            "units": "0.00",
-            "description": "All music majors must present, before graduation, at least one half (full recital performance major) of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
-        },
-        {
-            "subject": "MVW",
-            "code": "5351",
-            "name": "Principal App Flute",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "5352",
-            "name": "Principal Appl Oboe",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on oboe as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "5353",
-            "name": "Prin App Clarinet",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "5355",
-            "name": "Prin Appl Saxophone",
-            "units": "2.00",
-            "description": "Individual instruction in applied music on saxophone as a principal instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
             "code": "5451",
             "name": "Major Applied Flute",
             "units": "3.00",
             "description": "Individual instruction in applied music on flute as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "5452",
-            "name": "Major Applied Oboe",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on oboe as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "5453",
-            "name": "Major Appl Clarinet",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on clarinet as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "5454",
-            "name": "Major Appl Bassoon",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on bassoon as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVW",
-            "code": "5455",
-            "name": "Major Appl Saxophone",
-            "units": "3.00",
-            "description": "Individual instruction in applied music on saxophone as a major instrument. Music majors only."
         },
         {
             "subject": "NGR",
@@ -17279,13 +15907,6 @@
         },
         {
             "subject": "PAD",
-            "code": "6946",
-            "name": "Pad Internship",
-            "units": "0.00",
-            "description": "(Normally 3 credit hours) Supervised work in a public or quasi-public organization. Should not be undertaken until completion of required courses in public administration program. May be repeated. Prerequisite: Approval of internship coordinator."
-        },
-        {
-            "subject": "PAD",
             "code": "7055",
             "name": "Scope/The Pa & Pol",
             "units": "3.00",
@@ -17608,13 +16229,6 @@
         },
         {
             "subject": "PCB",
-            "code": "5418C",
-            "name": "Adv Marine Reserves",
-            "units": "4.00",
-            "description": "Study of theory and methods for the design and management of Marine Protected Areas including a research project. Prerequisites: BSC 1010 and BSC 1011."
-        },
-        {
-            "subject": "PCB",
             "code": "5423",
             "name": "Adv Ecol:Popul/Comm",
             "units": "3.00",
@@ -17797,13 +16411,6 @@
         },
         {
             "subject": "PGY",
-            "code": "4155C",
-            "name": "Color Photography IV",
-            "units": "3.00",
-            "description": "Advanced color photography with portfolio and exhibition project for BFA exhibition."
-        },
-        {
-            "subject": "PGY",
             "code": "4412C",
             "name": "Advanced Photography",
             "units": "3.00",
@@ -17822,20 +16429,6 @@
             "name": "Adv Digital Photo I",
             "units": "3.00",
             "description": "Advanced documentary digital photography with an expectation of highly skilled technical ability, evolved personal vision and aesthetic direction. Includes individual and group critiques. May be repeated."
-        },
-        {
-            "subject": "PGY",
-            "code": "5425C",
-            "name": "Photography",
-            "units": "3.00",
-            "description": "Advanced photography. May be repeated."
-        },
-        {
-            "subject": "PGY",
-            "code": "5530C",
-            "name": "Color Photography",
-            "units": "3.00",
-            "description": "Advanced color photography. Course may be repeated."
         },
         {
             "subject": "PGY",
@@ -17864,13 +16457,6 @@
             "name": "Crisis Leadership",
             "units": "3.00",
             "description": "Analyze disasters through methods of leadership. Developing effective leaders who take responsibility and build teams in the preparation, response, and recovery phases of an incident is paramount."
-        },
-        {
-            "subject": "PHC",
-            "code": "4940",
-            "name": "Internship in Disaster",
-            "units": "3.00",
-            "description": "On-the-job learning experiences at approved organizations allow interns to assist and observe all job functions and duties related to various aspects within their respective industry."
         },
         {
             "subject": "PHC",
@@ -18172,13 +16758,6 @@
             "name": "PH Survey Research",
             "units": "3.00",
             "description": "This course facilitates the systematic identification, interpretation, and understanding of survey research concepts, principles, and practices in public health. Prerequisites: PHC 6000, PHC 6065, PHC 6410, PHC 6706."
-        },
-        {
-            "subject": "PHC",
-            "code": "7917",
-            "name": "Env Pre Doc Res",
-            "units": "1.00",
-            "description": "This course is designed to provide the Pre-Doctoral student with experience in the conduct of a research project with guidance from appropriate environmental and occupational health faculty."
         },
         {
             "subject": "PHC",
@@ -18805,13 +17384,6 @@
         },
         {
             "subject": "POS",
-            "code": "5909",
-            "name": "Independent Study",
-            "units": "0.00",
-            "description": "Designed for advanced students who wish to pursue specialized topics in political science. Arrangements must be made with instructor during prior semester."
-        },
-        {
-            "subject": "POS",
             "code": "6937",
             "name": "Seminar: Politics",
             "units": "0.00",
@@ -19033,13 +17605,6 @@
             "name": "Honors Research Proj",
             "units": "0.00",
             "description": "Limited to qualified seniors seeking honors in psychology. Students must submit a research plan and have a research advisor's approval of the research project prior to enrollment in the course. A written report of the research in the A.P.A. publication style must be submitted for evaluation before credit will be awarded. Offered for Pass/Fail only."
-        },
-        {
-            "subject": "PSY",
-            "code": "4916",
-            "name": "Indep Research",
-            "units": "1.00",
-            "description": "Limited to qualified students who have permission from a faculty member and who present a written proposal for research. Students enrolled in this course are expected to have regularly scheduled meetings with their faculty advisor, and to submit a written report of their research."
         },
         {
             "subject": "PSY",
@@ -19323,13 +17888,6 @@
         },
         {
             "subject": "RED",
-            "code": "5911",
-            "name": "Dir Study Read Ed",
-            "units": "0.00",
-            "description": "Elective in Reading Education. Directed study in area of reading instruction. Permission of the instructor required."
-        },
-        {
-            "subject": "RED",
             "code": "6314",
             "name": "Literacy Theo/Instr",
             "units": "3.00",
@@ -19561,13 +18119,6 @@
         },
         {
             "subject": "REL",
-            "code": "4910",
-            "name": "Independent Research",
-            "units": "0.00",
-            "description": "Topics will be selected to meet the academic needs of the individual student."
-        },
-        {
-            "subject": "REL",
             "code": "4937",
             "name": "Special Topics",
             "units": "3.00",
@@ -19586,13 +18137,6 @@
             "name": "Rel, Nat, and Globalization",
             "units": "3.00",
             "description": "Through exploring sources for contemporary attitudes and values about 'nature', this course examines environmental ethical issues surrounding the process commonly referred to as globalization. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "RLG",
-            "code": "5262",
-            "name": "Nt Greek Exeg I",
-            "units": "3.00",
-            "description": "A detailed overview of the principles of Greek grammar that shows the student how to use Greek in the study of the New Testament. Prerequisite: Graduate standing."
         },
         {
             "subject": "RLG",
@@ -19845,13 +18389,6 @@
             "name": "Prob Based Instr Math-Sci",
             "units": "3.00",
             "description": "Focus on exploring authentic, important, and meaningful questions and developing a PBI science/mathematics unit, employing processes/technologies that scientists, mathematicians, and engineers use. Prerequisite: SMT 4301 or Program permission"
-        },
-        {
-            "subject": "SMT",
-            "code": "4944",
-            "name": "Advanced LA Intern 2",
-            "units": "0.00",
-            "description": "Available to those with 1-3 semesters of LA Intern experience. Serves as LA team leader; works with faculty in weekly LA planning sessions. May be repeated. Permission of instructor required. Prerequisites: SMT4946. Corequisite: Students must be employed as LAs during the semester they registered."
         },
         {
             "subject": "SMT",
@@ -20590,13 +19127,6 @@
         },
         {
             "subject": "SPN",
-            "code": "5908",
-            "name": "Independent Study",
-            "units": "0.00",
-            "description": "Project, field experience, readings, or research."
-        },
-        {
-            "subject": "SPN",
             "code": "7980",
             "name": "Ph.D. Dissertation",
             "units": "0.00",
@@ -21283,13 +19813,6 @@
         },
         {
             "subject": "THE",
-            "code": "3940",
-            "name": "Internship Experience",
-            "units": "0.00",
-            "description": "Experience in theatrical services gained through work with professionals."
-        },
-        {
-            "subject": "THE",
             "code": "4110",
             "name": "Theatre History I",
             "units": "3.00",
@@ -21395,31 +19918,10 @@
         },
         {
             "subject": "TPA",
-            "code": "3293L",
-            "name": "Teh Theatre Lab IV",
-            "units": "1.00",
-            "description": "Supervised crew work. Required of Theatre majors."
-        },
-        {
-            "subject": "TPA",
-            "code": "3296",
-            "name": "Adv Tech Proj I",
-            "units": "2.00",
-            "description": "Advanced practical projects in theatre design and technology in support of produced departmental productions. Projects are assigned to the student on the basis of emphasis and experience. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "TPA",
             "code": "3930",
             "name": "Spec Topics in Theatre",
             "units": "0.00",
             "description": "Lecture-lab studies in particular areas of theatre production, one area per semester, including prop making, sound design, and special effects.  May be repeated 3 times for up to 9 credits."
-        },
-        {
-            "subject": "TPA",
-            "code": "4297",
-            "name": "Adv Tech Proj II",
-            "units": "2.00",
-            "description": "Advanced practical projects in theatre design and technology in support of produced departmental productions. Projects are assigned to the student on the basis of emphasis and experience. Prerequisite: Permission of the instructor."
         },
         {
             "subject": "TPA",
@@ -21562,13 +20064,6 @@
             "description": "Logistics activities of multinational firms, international transportation systems, global sourcing, customer service, faculty location, inventory management, customs issues, export-import activities and the role of governments."
         },
         {
-            "subject": "TRA",
-            "code": "4945",
-            "name": "Logistics Internship",
-            "units": "3.00",
-            "description": "Full-time supervised work in a selected organization. \nPrerequisites: A grade of 'C' of higher in TRA 4203 or equivalent, 50 credit hours earned"
-        },
-        {
             "subject": "TSL",
             "code": "3080",
             "name": "Esol Prin/Prac I",
@@ -21616,13 +20111,6 @@
             "name": "Bil. in Lang. Ed.",
             "units": "3.00",
             "description": "Examination of foundations of multilingualism and how such supports contextualized language learning through inquiries into dual language development and language policy."
-        },
-        {
-            "subject": "TSL",
-            "code": "6908",
-            "name": "Field Component",
-            "units": "3.00",
-            "description": "Provides opportunity to carry out a variety of projects designed to develop critical reflection about teaching beliefs and practices in an ESOL classroom environment. Prerequisites: Admission to MS/TESOL program and completion of required course work."
         },
         {
             "subject": "TTE",
@@ -21773,13 +20261,6 @@
         },
         {
             "subject": "WST",
-            "code": "4905",
-            "name": "Independent Study",
-            "units": "0.00",
-            "description": "Supervised readings course designed for advanced students who wish to pursue specialized topics in women's studies.  Arrangements must be made with faculty member during prior semester.  Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "WST",
             "code": "4940",
             "name": "Women Studies Intern",
             "units": "0.00",
@@ -21798,13 +20279,6 @@
             "name": "WST Special Topics",
             "units": "3.00",
             "description": "Selected topics in women's studies.  Subject of course varies with instructor."
-        },
-        {
-            "subject": "XDP",
-            "code": "7000",
-            "name": "PH.D. Student Exch.UM",
-            "units": "1.00",
-            "description": "N/A"
         },
         {
             "subject": "ZOO",
