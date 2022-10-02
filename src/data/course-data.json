@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1664069130,
+    "dataAsOf": 1664675147,
     "data": [
         {
             "subject": "ACG",
@@ -9313,6 +9313,13 @@
         },
         {
             "subject": "HIS",
+            "code": "4941",
+            "name": "Public History Internship",
+            "units": "0.00",
+            "description": "Gain hands-on experience in archives, libraries, museums, or public history projects. Prepare for a number of careers or fields of study. May be repeated. Prerequisite: Permission of the department required."
+        },
+        {
+            "subject": "HIS",
             "code": "5084",
             "name": "History Memory Public",
             "units": "3.00",
@@ -18116,6 +18123,13 @@
             "name": "Methods Study Relig",
             "units": "3.00",
             "description": "This course examines a number of the most important methods used in the academic study of religion, together with representative examples of the use of these methods."
+        },
+        {
+            "subject": "REL",
+            "code": "4910",
+            "name": "Independent Research",
+            "units": "0.00",
+            "description": "Topics will be selected to meet the academic needs of the individual student."
         },
         {
             "subject": "REL",
