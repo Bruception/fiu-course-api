@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1665278841,
+    "dataAsOf": 1665884729,
     "data": [
         {
             "subject": "ACG",
@@ -12971,6 +12971,20 @@
             "name": "Intensive Care Unit Elective",
             "units": "1.00",
             "description": "This rotation is intended to prepare students to obtain necessary diagnostic and therapeutic skills to effectively care for patients diagnosed with critical medical disorders. Students work under direct the supervision of the ICU attending physician or as a member of a teaching team under the supervision of the attending physician, pulmonary/critical care fellow, and IM residents. Students assist in the admission, evaluation, and management of patients admitted\nto the Medical Intensive Care Unit..  Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7550",
+            "name": "Ophthalmology Elective",
+            "units": "1.00",
+            "description": "The clinical rotation in ophthalmology provides students with a focused and in-depth experience in the evaluation, diagnosis, and management of ophthalmic conditions. Students spend substantial time in the clinic and the operating room in general ophthalmology or their ophthalmologic subspecialty of interest. Students are expected to be actively involved in the workup of patients with various presenting concerns; and to interpret and present their findings and suggested clinical management to the attending physician. Students also have the opportunity to perform research in a preferred area of interest. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7580",
+            "name": "Physical Med & Rehab Elec",
+            "units": "1.00",
+            "description": "This elective offers students experience in the diagnosis and management of patients with a variety of neuro-muscular diagnoses such as stroke, spinal cord injury, traumatic brain injury, and neuro-degenerative disorders such as multiple sclerosis. Students may treat patients with musculo-skeletal disorders such as amputation, total hip arthroplasty, total knee arthroplasty, and multiple trauma victims. Students attend physical, occupational, and speech therapy sessions with their patients to learn the daily process of rehabilitation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
