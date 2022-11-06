@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1667093773,
+    "dataAsOf": 1667697961,
     "data": [
         {
             "subject": "ACG",
@@ -339,13 +339,6 @@
         },
         {
             "subject": "AFH",
-            "code": "4450",
-            "name": "Hist South Africa",
-            "units": "3.00",
-            "description": "Examines the development of the South African nation in terms of its African and European heritage from the early Khoisan societies through apartheid and Mandela's election."
-        },
-        {
-            "subject": "AFH",
             "code": "5905",
             "name": "Rdgs In African Hist",
             "units": "3.00",
@@ -486,13 +479,6 @@
         },
         {
             "subject": "AMH",
-            "code": "4140",
-            "name": "Age Of Jefferson",
-            "units": "3.00",
-            "description": "A survey of Jeffersonian America (1790-1828) with emphasis on the origins of American politics, the emerging American economy, the rise of American nationalism, and Jeffersonian mind."
-        },
-        {
-            "subject": "AMH",
             "code": "4333",
             "name": "American Conservatism",
             "units": "3.00",
@@ -511,13 +497,6 @@
             "name": "Florida To 1877",
             "units": "3.00",
             "description": "Overview of Florida from the fifteenth through nineteenth centuries. Examines the changing economic, social, and political position of the peninsula and provides an understanding of how Florida has been shaped by its geography and colonial experience."
-        },
-        {
-            "subject": "AMH",
-            "code": "4570",
-            "name": "African-Amer Hist",
-            "units": "3.00",
-            "description": "Black society in the United States and its relation to the political, economic, social, and cultural history of America."
         },
         {
             "subject": "AMH",
@@ -1354,13 +1333,6 @@
         },
         {
             "subject": "ARH",
-            "code": "4553",
-            "name": "Chinese Painting",
-            "units": "3.00",
-            "description": "In examination of the social history of Chinese painting, this course looks into masters, masterpieces and art patrons of the last 3000 years."
-        },
-        {
-            "subject": "ARH",
             "code": "4710",
             "name": "Hist Of Photography",
             "units": "3.00",
@@ -1452,13 +1424,6 @@
         },
         {
             "subject": "ARH",
-            "code": "5561",
-            "name": "Chinese Painting",
-            "units": "3.00",
-            "description": "In examination of the social history of Chinese painting, this course looks into masters, masterpieces and art patrons of the last 3000 years."
-        },
-        {
-            "subject": "ARH",
             "code": "5715",
             "name": "Hist Of Photo",
             "units": "3.00",
@@ -1484,13 +1449,6 @@
             "name": "Advanced Art and Politics",
             "units": "3.00",
             "description": "The course explores the political role of art in Europe and Latin America from ancient Greece to the present. It also traces how the idea of the 'political' changed from the ancient to modern periods. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "ARH",
-            "code": "5897",
-            "name": "Special Topics",
-            "units": "3.00",
-            "description": "Rotating special topics on the graduate level in art history. May be repeated with change of topic."
         },
         {
             "subject": "ARH",
@@ -2677,13 +2635,6 @@
         },
         {
             "subject": "BCN",
-            "code": "5706",
-            "name": "Interdis Aspect Hou",
-            "units": "3.00",
-            "description": "Recognition and definition of those factors which affect the planning, financing, and construction of housing projects. The operations and responsibilities of a multidisciplinary team dealing with decision process. This course takes a critical look at the housing delivery system to include: how the housing industry operates, various technologies prevalent in housing construction, and constraints to housing. The course will also look at the future, examining problems and forces that will shape opportunities."
-        },
-        {
-            "subject": "BCN",
             "code": "5716",
             "name": "Produc In Const",
             "units": "3.00",
@@ -3321,13 +3272,6 @@
         },
         {
             "subject": "BOT",
-            "code": "1010L",
-            "name": "Intro Botany Lab",
-            "units": "1.00",
-            "description": "A history of mankind's study and use of plants, and a survey of plants of economic importance. Includes lab. No science prerequisite. (Lab fees assessed)"
-        },
-        {
-            "subject": "BOT",
             "code": "3014",
             "name": "Plant Life History",
             "units": "3.00",
@@ -3745,13 +3689,6 @@
             "name": "Workshop Biology",
             "units": "0.00",
             "description": "A short intensive treatment of a specialized research topic or technique. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "BSC",
-            "code": "6936",
-            "name": "Topics In Biology",
-            "units": "0.00",
-            "description": "An intensive study of a particular topic or limited number of topics not otherwise offered in the curriculum. May be repeated for credit with different subject content. Prerequisites: Senior or graduate status."
         },
         {
             "subject": "BSC",
@@ -5295,13 +5232,6 @@
         },
         {
             "subject": "CIS",
-            "code": "3930",
-            "name": "Special Topics",
-            "units": "0.00",
-            "description": "A course designed to give groups of students an opportunity to pursue special studies not otherwise offered."
-        },
-        {
-            "subject": "CIS",
             "code": "3950",
             "name": "Capstone I",
             "units": "1.00",
@@ -5467,6 +5397,13 @@
             "name": "Race and Punishment",
             "units": "3.00",
             "description": "Critically examines the US system of racialized crime control and punishment and how this system is maintained in the absence of official racially biased laws, policies, and practices."
+        },
+        {
+            "subject": "CJC",
+            "code": "6935",
+            "name": "Seminar in Corrections",
+            "units": "3.00",
+            "description": "Examines history of corrections in America, philosophies behind correctional usage, techniques and services used for punishment and rehabilitation, and current trends and statistics."
         },
         {
             "subject": "CJE",
@@ -5645,27 +5582,6 @@
         },
         {
             "subject": "CLP",
-            "code": "6060",
-            "name": "Affective Bases",
-            "units": "3.00",
-            "description": "A comprehensive introduction to the literature on affective science with a focus on: behavioral,biological, cognitive, and social dimensions, as well as the relevance to clinical science. Prerequisite: Graduate Standing"
-        },
-        {
-            "subject": "CLP",
-            "code": "6426",
-            "name": "Neuropsychology",
-            "units": "3.00",
-            "description": "Introduces students to basic foundations and some advanced concepts in Neuropsychology, with a focus on clinical applications. Topics covered will include functional neuroanatomy, brain disorders across the lifespan, and assessment of neuropsychological functions. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "CLP",
-            "code": "6432",
-            "name": "Foundation Practicum I",
-            "units": "3.00",
-            "description": "This course provides a comprehensive introduction to the principles of psychological assessment and measurement in children and hands on practice in the administration of selected cognitive tests. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "CLP",
             "code": "6436",
             "name": "Intro Psy Assessment",
             "units": "3.00",
@@ -5677,20 +5593,6 @@
             "name": "Assessment and Treatment I",
             "units": "3.00",
             "description": "Provides an in-depth examination of the evidenced-based assessments used in the psychological evaluation and treatment for children and adolescents with internalizing problems. Prerequisite: CLP 5007."
-        },
-        {
-            "subject": "CLP",
-            "code": "6472",
-            "name": "Assessment and Treatment II",
-            "units": "3.00",
-            "description": "Provides an in-depth examination of the evidenced-based assessments used in the psychological evaluation and treatment for children and adolescents with externalizing problems. Prerequisite: CLP 5007."
-        },
-        {
-            "subject": "CLP",
-            "code": "6473",
-            "name": "Assessment and Treatment III",
-            "units": "3.00",
-            "description": "Provides an overview of theory, research, and evidenced-based practices relevant for evidence based assessment and intervention for use with developmental, learning and pediatric disorders. Prerequisite: CLP 5007."
         },
         {
             "subject": "CLP",
@@ -6772,24 +6674,10 @@
         },
         {
             "subject": "DEP",
-            "code": "5058",
-            "name": "Bio-Behavioral Devel",
-            "units": "3.00",
-            "description": "Introduction to theory and research underlying behavioral development. Covers such pre-and post-natal determinants as evolution, genetics, neuroendocrines, as well as social development, behavioral ecology, and sociobiology."
-        },
-        {
-            "subject": "DEP",
             "code": "5065",
             "name": "Cognitive Development",
             "units": "3.00",
             "description": "An overview of cognitive development, with a focus on the theories, experimental evidence, and milestones in cognitive development. Topics include the development of attention, perception, memory, problem solving, categorization, concepts, language, reasoning, theory of mind, metacognition, and executive function. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "DEP",
-            "code": "5796",
-            "name": "Dev Research Methods",
-            "units": "3.00",
-            "description": "Survey of issues and methods at all stages of life-span developmental research including theory, methods, design, and data reduction."
         },
         {
             "subject": "DEP",
@@ -8767,13 +8655,6 @@
         },
         {
             "subject": "EEL",
-            "code": "5275",
-            "name": "Power Sys Protect",
-            "units": "3.00",
-            "description": "Analysis of power systems under faulted conditions using linear transformation. The study of surge, transient and waves on power lines. Computer-aided analysis and design emphasizing protection of equipment."
-        },
-        {
-            "subject": "EEL",
             "code": "5278",
             "name": "SG Cyber and IEDs",
             "units": "3.00",
@@ -9124,6 +9005,13 @@
         },
         {
             "subject": "EEX",
+            "code": "5068",
+            "name": "Instr Prac Ese I",
+            "units": "3.00",
+            "description": "This course includes the theoretical basis and principles of appropriate instructional practices and techniques for students with mild disabilities, IEP planning, and curriculum development."
+        },
+        {
+            "subject": "EEX",
             "code": "5075",
             "name": "Teach Exc Incl Set",
             "units": "3.00",
@@ -9145,10 +9033,24 @@
         },
         {
             "subject": "EEX",
+            "code": "5771",
+            "name": "Found Trans Disable",
+            "units": "3.00",
+            "description": "Explores personal living skills, employability and transitional skills for adulthood in relation to persons with mental, sensory and physical disabilities."
+        },
+        {
+            "subject": "EEX",
             "code": "6756",
             "name": "Families w Disabilities",
             "units": "3.00",
             "description": "This course familiarizes students with the skills needed to work in effective partnerships with families of children with disabilities and related school personnel."
+        },
+        {
+            "subject": "EEX",
+            "code": "6765",
+            "name": "Inst Tech Spec Ed",
+            "units": "3.00",
+            "description": "Provides teachers of students with special needs current knowledge in instructional technology, appropriate to enhance student learning."
         },
         {
             "subject": "EEX",
@@ -9310,13 +9212,6 @@
             "name": "Human-centered Design",
             "units": "3.00",
             "description": "A collaborative, projects-based course in human-centered design and systems analysis. Should be taken one semester prior to or concurrently with EGN 4943, EML 4905, or equivalent courses."
-        },
-        {
-            "subject": "EGN",
-            "code": "3945",
-            "name": "Coop Ed in Eng",
-            "units": "3.00",
-            "description": "The cooperative education in engineering course is for current interdisciplinary engineering students to pursue an experiential education opportunity at an organization focused on their area of study. Prerequisite: Junior standing"
         },
         {
             "subject": "EGN",
@@ -10741,13 +10636,6 @@
         },
         {
             "subject": "EUH",
-            "code": "4286",
-            "name": "Topic-European His",
-            "units": "3.00",
-            "description": "An examination of selected topics or themes in early modern and modern European history. The themes will vary from semester to semester. With a change in content, the course may be repeated. (The theme will be announced in the yearly schedule)."
-        },
-        {
-            "subject": "EUH",
             "code": "4408",
             "name": "Alexander The Great",
             "units": "3.00",
@@ -11144,13 +11032,6 @@
             "name": "Prosem Exp Psy",
             "units": "3.00",
             "description": "Provides a comprehensive review of current research and theory in areas such as learning, memory, cognition, sensation, and perception. Prerequisites: Graduate standing or permission of the instructor."
-        },
-        {
-            "subject": "EXP",
-            "code": "5508",
-            "name": "Applied Cog Psych",
-            "units": "3.00",
-            "description": "Covers the basic theories of cognitive psychology perception, attention, memory, learning, knowledge, with emphasis on application to real-world problems. Prerequisite: Graduate standing."
         },
         {
             "subject": "FES",
@@ -12813,17 +12694,17 @@
         },
         {
             "subject": "HIS",
-            "code": "4091",
-            "name": "History Through Things",
-            "units": "3.00",
-            "description": "Explores material culture, art, and design in the modern era. Topics studied include consumerism, modernity, and daily life with emphasis on museum collections."
-        },
-        {
-            "subject": "HIS",
             "code": "4281",
             "name": "Biography as History",
             "units": "3.00",
             "description": "Biography as an approach to history. Life stories as ways of examining different national or regional histories within a particular historical context. May be repeated with a change in content."
+        },
+        {
+            "subject": "HIS",
+            "code": "4908",
+            "name": "Independent Studies",
+            "units": "0.00",
+            "description": "Individual conferences, assigned readings and reports on independent investigations, with the consent of the instructor."
         },
         {
             "subject": "HIS",
@@ -12859,13 +12740,6 @@
             "name": "History Memory Public",
             "units": "3.00",
             "description": "Critical examination of theories and texts on museums, monuments, archives, historical sites, community organizations, and/or oral histories. Specific topical focus to be determined by instructor. Prerequisite: Graduate standing, may be repeated with approval of Graduate Program Director."
-        },
-        {
-            "subject": "HIS",
-            "code": "5289",
-            "name": "Comparative History",
-            "units": "3.00",
-            "description": "A study of specific topics in history that cut across regional, national, and chronological lines. The topics will change from semester to semester, and with a change in content, the course may be repeated. (The topic of the course will be announced in the yearly schedule). Prerequisite: Graduate standing."
         },
         {
             "subject": "HIS",
@@ -15032,10 +14906,45 @@
         },
         {
             "subject": "JRM",
+            "code": "6010",
+            "name": "Contracts & Business Law",
+            "units": "4.00",
+            "description": "This course provides an overview of law within the business environment. It is designed to enable the student to develop an understanding of the terms and concepts that govern basic Contract/Business Law. Prerequisite: Juris Master students only"
+        },
+        {
+            "subject": "JRM",
+            "code": "6070",
+            "name": "Regulation Health Ins",
+            "units": "3.00",
+            "description": "This course will explore the obligations of large and small employers with respect to health insurance. The ACA includes a 'shared responsibility' provision, with potential penalties for employer noncompliance. The course covers employer liability under the ACA and the specific ways the Act will impact access, quality, costs, and tax implications. The course provides a general understanding of the US health care system and the challenges of health care reform in relation to employer compliance under the Act. Prerequisite: Juris Master students only."
+        },
+        {
+            "subject": "JRM",
+            "code": "6083",
+            "name": "Con & Comm Lending",
+            "units": "3.00",
+            "description": "This course covers those regulations that address a bank's core profit-making products, particularly consumer and commercial lending. The focus explores how banks lend, how banks structure common loan products, and how they secure collateral. This course will also survey appropriate sections of the Uniform Commercial Code, the credit process, real estate lending (including Truth in Lending), loan origination, affirmative and negative covenants, defaults, and provisions of the Bank Holding Company Act. Prerequisite: Juris Master students only."
+        },
+        {
+            "subject": "JRM",
+            "code": "6091",
+            "name": "Intro to Reg Compliance",
+            "units": "3.00",
+            "description": "This course introduces the student to regulatory compliance from a business and human resources professional's point of view. It examines Sarbanes-Oxley, HIPAA, and other regulations, and covers the most important best practices that are common across multiple pieces of legislation. Prerequisites: Juris Masters Student Only"
+        },
+        {
+            "subject": "JRM",
             "code": "6300",
             "name": "Intro to American Law",
             "units": "3.00",
             "description": "This is a required course for all students in the J.M. program. It provides a basic overview of the U.S. legal system. An effort is made to include broad coverage of important areas of American law, including constitutional law, criminal law and procedure, environmental and natural resources law, and family law. Students will be introduced to some of the most important cases in U.S. legal history. Prerequisites: Juris Masters students only"
+        },
+        {
+            "subject": "JRM",
+            "code": "6541",
+            "name": "Leg Develop Disability",
+            "units": "3.00",
+            "description": "This course covers the fundamentals of disability law with an emphasis on resources, evaluations and appeals processes for the business and human resources professional. The main statutory focus will be on the Americans with Disabilities Act."
         },
         {
             "subject": "JRM",
@@ -15312,13 +15221,6 @@
         },
         {
             "subject": "LAH",
-            "code": "3132",
-            "name": "Formation Latin Amer",
-            "units": "3.00",
-            "description": "An examination of Latin America in the colonial period, focusing on conquest, Indian relations, the landed estate, urban functions, labor, and socioeconomic organization from the 15th through the 18th Centuries."
-        },
-        {
-            "subject": "LAH",
             "code": "4134",
             "name": "Abuse of Power",
             "units": "3.00",
@@ -15494,6 +15396,13 @@
         },
         {
             "subject": "LAW",
+            "code": "5781",
+            "name": "Legal Reasoning",
+            "units": "2.00",
+            "description": "THE COURSE IS DESIGNED TO TEACH AND REINFORCE SKILLS RELATING TO LEGAL ANALYSIS AND ACADEMIC PERFORMANCE, INCLUDING SKILLS RELATING TO LEGAL PROBLEM SOLVING AND WRITTEN EXPRESSION."
+        },
+        {
+            "subject": "LAW",
             "code": "5792",
             "name": "Legal Skills & Values I",
             "units": "3.00",
@@ -15512,6 +15421,13 @@
             "name": "Sales",
             "units": "2.00",
             "description": "This course covers contracts for the sale of goods under Article 2 of the Uniform Commercial Code. Some consideration will also be given to leasing of goods under Article 2A of the Code."
+        },
+        {
+            "subject": "LAW",
+            "code": "6031",
+            "name": "Payment Systems",
+            "units": "2.00",
+            "description": "This course will survey the uses of different payment mechanisms (negotiable and non-negotiable instruments, credit cards and electronic funds transfer and wire transfer systems) in both credit and cash transactions. The course will consider allocation of risks for fraud, countermands, defenses on the underlying contract, mistake, timeliness and unauthorized payments. In each case the allocation of\r\nrisks in connection with different payment mechanisms will be considered, along with whether these allocations should be the same or different for each mechanism. The course will focus on Articles 3 and 4 of the Uniform Commercial Code and, as time permits, consider letters of credit under U.C.C. Article 5 and the\r\nInternational Chamber of Commerce Uniform Customs and Practice. Special emphasis will be given to techniques of statutory analysis, commercial counseling and a rethinking of present rules, especially in the light of the revision of Articles 3 and 4. The impact  of federal legislation on the state payments law (U.C.C. Articles 3, 4, and 4A) may also be treated."
         },
         {
             "subject": "LAW",
@@ -15606,6 +15522,13 @@
         },
         {
             "subject": "LAW",
+            "code": "6265",
+            "name": "International Litigation",
+            "units": "2.00",
+            "description": "This is a study of international litigation for the resolution of private and public disputes."
+        },
+        {
+            "subject": "LAW",
             "code": "6302",
             "name": "Federal Courts",
             "units": "3.00",
@@ -15627,6 +15550,13 @@
         },
         {
             "subject": "LAW",
+            "code": "6313",
+            "name": "Negotiation",
+            "units": "2.00",
+            "description": "The course is designed to provide students an understanding of the history, process and practice of negotiation through role-plays, simulations and life experiences."
+        },
+        {
+            "subject": "LAW",
             "code": "6316",
             "name": "Int'l Commercial Arbitration",
             "units": "2.00",
@@ -15638,6 +15568,13 @@
             "name": "Evidence",
             "units": "3.00",
             "description": "This course addresses the law of evidence, including: hearsay, judicial notice, burden of proof, and presumptions; functions of judge and jury; competency and privileges of witnesses; and, exclusion of testimony of witnesses and documents."
+        },
+        {
+            "subject": "LAW",
+            "code": "6340",
+            "name": "Conflicts of Law",
+            "units": "2.00",
+            "description": "This course deals with the special problems that arise when the facts or the parties in a case have contacts with more than one state or country. These problems relate to: jurisdiction in personam, in rem and quasi-in rem; choice of the applicable law; and after rendition of a judgment, that judgment's recognition and enforcement in other states and enforcement in other states and\r\ncountries. Jurisdictional and choice of law rules are studied with special emphasis on situations involving torts, contracts and property transactions cutting across state and national boundary lines. Also considered are interstate and international problems concerning marriage, divorce, and decedents' estates."
         },
         {
             "subject": "LAW",
@@ -15666,6 +15603,13 @@
             "name": "Adv Appellate Advocacy",
             "units": "2.00",
             "description": "Students, working in two-person teams, will prepare an appellate brief and deliver an appellate oral argument in a competition format. Students will receive substantial classroom instruction in persuasive brief writing and oral advocacy as well as the relevant appellate rules and procedure topics. Prerequisite: Students on academic supervision may enroll only with approval of course instructor and Dean of Academic Support"
+        },
+        {
+            "subject": "LAW",
+            "code": "6403",
+            "name": "Florida Condo Law",
+            "units": "2.00",
+            "description": "This course shall focus on the planning, structuring and operation of condominium and community associations in Florida. The course will cover issues related to community planning and the day to day operations of an association. The students will be provided with a sample set of governing documents for a condominium and homeowner's association before the first day of class. Simulations will be provided to the students on a weekly basis. Students will be required to draft a legal opinion advising their client on the best course of action for each simulation. Students will also draft several documents relevant to the practice of Florida Condominium and Community Association Law. Prerequisites: Property, Civil Procedure."
         },
         {
             "subject": "LAW",
@@ -15704,6 +15648,13 @@
         },
         {
             "subject": "LAW",
+            "code": "6507",
+            "name": "Natl Sec Law and the Constitut",
+            "units": "2.00",
+            "description": "The goal of this class is to examine the growing body of national security law under the Constitution."
+        },
+        {
+            "subject": "LAW",
             "code": "6520",
             "name": "Administrative Law",
             "units": "2.00",
@@ -15715,6 +15666,13 @@
             "name": "Employment Law",
             "units": "2.00",
             "description": "This course is a survey of basic legal and policy concepts governing the employment relationship. Subject areas include personal service contracts, including grounds for discharge and the at-will doctrine; the collective bargaining process, including the notion of exclusivity/concerted activity, unfair labor practices, duty to bargain,impasse resolution and contract enforcement; employment discrimination, including race, sex, handicap, age, and remedial affirmative action; statutory regulation of conditions of employment, including workers' compensation, fair labor standards, safety and health and whistleblower statutes; and public and private employment distinctions, including civil service systems\nand employment as a property right."
+        },
+        {
+            "subject": "LAW",
+            "code": "6550",
+            "name": "Antitrust",
+            "units": "2.00",
+            "description": "This course is a study of judicial decisions construing and applying the federal antitrust laws (i.e., Sherman, Clayton, Robinson-Patman, and Federal Trade Commission Acts) to the control of the competitive process in the American economy."
         },
         {
             "subject": "LAW",
@@ -15894,7 +15852,7 @@
         {
             "subject": "LAW",
             "code": "6884",
-            "name": "BR Online",
+            "name": "Blockchain Reg",
             "units": "2.00",
             "description": "This survey course will focus on the new technology of blockchain and relevant legal implications, influenced by political, business, and economic considerations. It will provide students with a good understanding of what the technology is, its history, uses and how governments worldwide, though focused on the United States, have responded to it and likely will in the future. The professor will rely on personal experiences in the blockchain space representing, commenting upon and/or advising clients and blockchain networks and media. We will review materials on cryptocurrencies to understand what they are and the multiple opportunities for their application. We will read legal cases by the government and class actions involving ICOs and blockchain companies, exchanges, or founders, and relevant rules and regulations by the SEC, CFTC, OCC, FinCEN, NYS and DOJ, among others. For two separate classes during the semester, we will have guests, one class from the regulators and one from the blockchain community, invited to speak with the class."
         },
@@ -15963,10 +15921,38 @@
         },
         {
             "subject": "LAW",
+            "code": "6958",
+            "name": "Board of Advocates",
+            "units": "1.00",
+            "description": "Students selected as members of the Board of Advocates will earn credit for satisfactory completion of their Board duties, which will include participation on at least one competition team (competition credits will be awarded separately); service as bailiffs, timekeepers, clients, witnesses, jurors, and judges for practice rounds and courses; and participation in Board meetings and activities.  Board officers, as well as student coaches for competition teams, may earn additional credit for satisfactory completion of their duties as officers or coaches."
+        },
+        {
+            "subject": "LAW",
+            "code": "6984",
+            "name": "Judicial Externship Placement",
+            "units": "2.00",
+            "description": "To enable students to serve as judicial externs with participating judges, magistrates or referees in State or Federal Courts. Prerequisites: Student must have a G.P.A. of 2.75 and a writing sample."
+        },
+        {
+            "subject": "LAW",
+            "code": "6993",
+            "name": "Mindfulness & Law",
+            "units": "1.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "LAW",
             "code": "7200",
             "name": "US Law I",
             "units": "2.00",
             "description": "This course introduces graduate students to the United States legal system. It covers fundamental aspects of legal analysis and argumentation, the sources of law, the reading of cases and statutes in the common law tradition, and the structure of the legal system in the United States today. It addresses general approaches to constructing legal arguments, the use of primary and secondary sources in the United States, the development of United States law, the role and function of various institutions in the context of federalism, the legal process, the legal profession, and legislative and administrative developments."
+        },
+        {
+            "subject": "LAW",
+            "code": "7225",
+            "name": "Transnational Disputes",
+            "units": "2.00",
+            "description": "This course is designed to prepare students to develop an effective strategy to defend and litigate or arbitrate disputes involving multiple jurisdictions, issues, and parties in a globalized world."
         },
         {
             "subject": "LAW",
@@ -16005,10 +15991,24 @@
         },
         {
             "subject": "LAW",
+            "code": "7804",
+            "name": "US Law II",
+            "units": "2.00",
+            "description": "This course introduces graduate law students to scholarly and theoretical techniques and approaches used in the United States to understand law. It covers basic aspects of academic and scholarly writing in law, perspectives on law from different theoretical schools, and the tools that legal academics use in thinking about and writing about law. The course will survey different kinds of academic writing, with emphasis on the law review article. It will also discuss sociological jurisprudence, legal realism, law and economics, and critical legal studies."
+        },
+        {
+            "subject": "LAW",
             "code": "7930",
             "name": "Special Topics",
             "units": "1.00",
             "description": "This is a variable content course intended to deliver content not covered by courses listed in the COL catalog. It may involve topics referred to cutting-edge or novel legal phenomena, topics addressing current events, or taught by special faculty. The course may be repeated if there is no duplication of subject matter. Depending on the topics covered, the course may fulfill the international, dispute resolution, experiential or other graduation requirement."
+        },
+        {
+            "subject": "LAW",
+            "code": "7942",
+            "name": "Prosecution Inn. Project",
+            "units": "2.00",
+            "description": "The prosecution innocence project (PIP) is a one semester, two credit experiential learning course that provides an opportunity for students to participate in a thorough and actual review of the prosecution file, including arrest and booking reports, general offense reports, supplemental reports, witness statements, law enforcement interviews, jail calls, 911 calls, lab reports, depositions, photographs and any other items of note. Students will develop an understanding of the many components of criminal investigation and trial and post-conviction proceedings and hone research and writing skills, as they write legal memoranda on a variety of subjects including competency of counsel, forensic science, Brady/Giglio evidence, legalities of police investigations, and post-conviction remedies."
         },
         {
             "subject": "LAW",
@@ -16705,6 +16705,20 @@
         },
         {
             "subject": "MAC",
+            "code": "1907",
+            "name": "Pre-Calculus Stretch",
+            "units": "0.00",
+            "description": "Version of MAC 1147 for continuing students with an unfinished grade. Develops deeper problem solving skills of the concepts of precalculus. Course can be repeated. Prerequisite: Consent of the Department"
+        },
+        {
+            "subject": "MAC",
+            "code": "2005",
+            "name": "Calculus 2 Stretch",
+            "units": "0.00",
+            "description": "This will be a section of Calculus 2 for students with an unfinished grade. It helps students learn techniques and applications of integration and infinite series, and apply them to their major. Prerequisite: Consent of the department."
+        },
+        {
+            "subject": "MAC",
             "code": "2233",
             "name": "Calc For Business",
             "units": "3.00",
@@ -17104,6 +17118,13 @@
         },
         {
             "subject": "MAN",
+            "code": "6416",
+            "name": "Corporate Negotiat",
+            "units": "3.00",
+            "description": "An examination and analysis of corporate negotiation strategies in such areas as collective bargaining, mergers, joint ventures, and with government regulation agencies. The legal environment affecting the negotiated process will be closely scrutinized, as well as internal and external political processes. Prerequisites: ACG 6026, MAN 6245, FIN 6406, MAR 6805."
+        },
+        {
+            "subject": "MAN",
             "code": "7155",
             "name": "Fund Of Beh Rsrch",
             "units": "3.00",
@@ -17199,6 +17220,13 @@
             "name": "Quant Risk Manag",
             "units": "3.00",
             "description": "Interdisciplinary course with a strong quantitative approach to the risk management process of small and big businesses."
+        },
+        {
+            "subject": "MAP",
+            "code": "5255",
+            "name": "Math Scientific Computation",
+            "units": "3.00",
+            "description": "Programming in Matlab, Graphics in Matlab, Creating GUIs in Matlab, Simulink."
         },
         {
             "subject": "MAP",
@@ -18651,6 +18679,13 @@
         },
         {
             "subject": "MUC",
+            "code": "4611C",
+            "name": "Doc Film Scoring Fund",
+            "units": "3.00",
+            "description": "A basic overview of major documentary film scores in the 20th and 21st century and basic scoring techniques used by film composers in acoustic music and scores created with new technologies."
+        },
+        {
+            "subject": "MUC",
             "code": "4932",
             "name": "Composition Forum",
             "units": "1.00",
@@ -18662,6 +18697,13 @@
             "name": "Elec Music IV",
             "units": "2.00",
             "description": "An advanced course in computer music providing students hands-on experience with recently developed hardware and software for the creation of music."
+        },
+        {
+            "subject": "MUC",
+            "code": "5614C",
+            "name": "Doc Film Scoring",
+            "units": "3.00",
+            "description": "The examination of documentary film scores in the 20th and 21st century and scoring techniques used by documentary film composers in both acoustic music and scores created with new technologies. Prerequisites: Graduate standing in the MM in composition and/or permission of the instructor."
         },
         {
             "subject": "MUC",
@@ -18805,6 +18847,13 @@
         },
         {
             "subject": "MUE",
+            "code": "6910",
+            "name": "Directed Research",
+            "units": "3.00",
+            "description": "This course is designed to provide an opportunity for students to engage in high-level inquiry focusing on an area of specialization within the music education profession."
+        },
+        {
+            "subject": "MUE",
             "code": "6938",
             "name": "Seminar In Music Ed",
             "units": "3.00",
@@ -18917,6 +18966,20 @@
         },
         {
             "subject": "MUH",
+            "code": "5057",
+            "name": "Music Of The World",
+            "units": "3.00",
+            "description": "Survey of folk, popular and classical musical traditions from around the world. Examination of musical style and social context with film and performance demonstrations."
+        },
+        {
+            "subject": "MUH",
+            "code": "5815",
+            "name": "Jazz Hist: Innovator",
+            "units": "2.00",
+            "description": "The work of four artists whose innovations have profoundly defined the jazz idiom from its beginning through the present day-Duke Ellington, Charlie Parker, Miles Davis, and John Coltrane."
+        },
+        {
+            "subject": "MUH",
             "code": "6937",
             "name": "Special Topics",
             "units": "1.00",
@@ -18942,41 +19005,6 @@
             "name": "Keyboard Lit I",
             "units": "3.00",
             "description": "Study of solo works for the keyboard from historical beginnings to 1828. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
-        },
-        {
-            "subject": "MUL",
-            "code": "4401",
-            "name": "Keyboard Lit II",
-            "units": "3.00",
-            "description": "Study of solo works for the keyboard from 1828 to the present. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
-        },
-        {
-            "subject": "MUL",
-            "code": "4500",
-            "name": "Symphonic Lit",
-            "units": "3.00",
-            "description": "Survey of symphonic literature from the 17th century to present day. Analysis and illustrations of representative works."
-        },
-        {
-            "subject": "MUL",
-            "code": "5405",
-            "name": "Keyboard Lit I",
-            "units": "3.00",
-            "description": "Study of solo works for the keyboard from historical beginnings to 1828. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
-        },
-        {
-            "subject": "MUL",
-            "code": "5406",
-            "name": "Keyboard Lit II",
-            "units": "3.00",
-            "description": "Study of solo works for the keyboard from 1828 to the present. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
-        },
-        {
-            "subject": "MUL",
-            "code": "5505",
-            "name": "Symphonic Lit",
-            "units": "3.00",
-            "description": "The study of the symphony and the symphonic tone poem from its origin in the Baroque period to the twentieth century. Prerequisites: Graduate standing in Music and permission of instructor."
         },
         {
             "subject": "MUL",
@@ -19435,13 +19463,6 @@
         },
         {
             "subject": "MUN",
-            "code": "5485",
-            "name": "Guitar Ensemble",
-            "units": "1.00",
-            "description": "The presentation and performance of music literature characteristic of the Guitar Ensemble. Prerequisite: Permission of conductor."
-        },
-        {
-            "subject": "MUN",
             "code": "5496",
             "name": "New Music Ensemble",
             "units": "1.00",
@@ -19533,10 +19554,10 @@
         },
         {
             "subject": "MUS",
-            "code": "2241",
-            "name": "Italian Diction",
+            "code": "2231",
+            "name": "German Diction",
             "units": "1.00",
-            "description": "Develop the skills in the proper enunciation of the Italian language as used by singers in opera, oratorio and art song literature."
+            "description": "Develop the skills in the proper enunciation of the German language as used by singers in opera, oratorio and art song literature."
         },
         {
             "subject": "MUS",
@@ -19687,13 +19708,6 @@
         },
         {
             "subject": "MUT",
-            "code": "2642",
-            "name": "Jazz Improv II",
-            "units": "2.00",
-            "description": "A follow-up course that both reinforces and extends all materials learned in Jazz Improvisation I. Course stresses more complex chord structures, scales, and tunes. A concert will be held at conclusion of the term."
-        },
-        {
-            "subject": "MUT",
             "code": "3170C",
             "name": "Jazz Theory I",
             "units": "3.00",
@@ -19712,13 +19726,6 @@
             "name": "Form And Analysis",
             "units": "3.00",
             "description": "Study and analysis from the smaller forms of musical composition to multimovement forms."
-        },
-        {
-            "subject": "MUT",
-            "code": "4311",
-            "name": "Orchestration",
-            "units": "3.00",
-            "description": "With a background of basic theory, the student will explore the techniques of writing and arranging for instruments in performing organizations."
         },
         {
             "subject": "MUT",
@@ -20744,13 +20751,6 @@
         },
         {
             "subject": "MVK",
-            "code": "2180L",
-            "name": "Keyboard Harmony",
-            "units": "1.00",
-            "description": "The course develops basic musicianship skills for Piano Majors and Principals through an integrated theoretical-performance approach. Prerequisite: MUT 1111 and MUT 1112. Corequisite: MVK 1411 or MVK 1311."
-        },
-        {
-            "subject": "MVK",
             "code": "2221",
             "name": "Sec Applied Piano",
             "units": "1.00",
@@ -20898,6 +20898,13 @@
         },
         {
             "subject": "MVP",
+            "code": "1211",
+            "name": "Secondary App Percus",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on percussion as a secondary instrument."
+        },
+        {
+            "subject": "MVP",
             "code": "1311",
             "name": "Prin App Percussion",
             "units": "2.00",
@@ -20912,6 +20919,13 @@
         },
         {
             "subject": "MVP",
+            "code": "2221",
+            "name": "Sec App Percussion",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on percussion as a secondary instrument."
+        },
+        {
+            "subject": "MVP",
             "code": "2321",
             "name": "Prin App Percussion",
             "units": "2.00",
@@ -20923,6 +20937,13 @@
             "name": "Major App Percussion",
             "units": "2.00",
             "description": "Individual instruction in applied music on percussion as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVP",
+            "code": "3231",
+            "name": "Sec App Percussion",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on percussion as a secondary instrument."
         },
         {
             "subject": "MVP",
@@ -20947,6 +20968,13 @@
         },
         {
             "subject": "MVP",
+            "code": "4241",
+            "name": "Sec App Percussion",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on percussion as a secondary instrument."
+        },
+        {
+            "subject": "MVP",
             "code": "4341",
             "name": "Prin App Percussion",
             "units": "2.00",
@@ -20958,6 +20986,27 @@
             "name": "Major App Percussion",
             "units": "3.00",
             "description": "Individual instruction in applied music on percussion as a major instrument. Music majors only."
+        },
+        {
+            "subject": "MVP",
+            "code": "4971L",
+            "name": "Senior Rec Percussio",
+            "units": "0.00",
+            "description": "All music majors must present, before graduation, at least one half (full recital performance major) of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
+        },
+        {
+            "subject": "MVP",
+            "code": "5251",
+            "name": "Sec App Percussion",
+            "units": "1.00",
+            "description": "Individual instruction in applied music on percussion as a secondary instrument."
+        },
+        {
+            "subject": "MVP",
+            "code": "5351",
+            "name": "Prin App Percussion",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on percussion as a principal instrument. Music majors only."
         },
         {
             "subject": "MVP",
@@ -21339,13 +21388,6 @@
         },
         {
             "subject": "MVV",
-            "code": "3630",
-            "name": "Vocal Pedagogy",
-            "units": "2.00",
-            "description": "Research into various philosophies of vocal pedagogy with emphasis on the science of acoustics, anatomy, terminology, psychological factors which apply to the art of singing."
-        },
-        {
-            "subject": "MVV",
             "code": "3970L",
             "name": "Junior Rec Voice",
             "units": "0.00",
@@ -21385,13 +21427,6 @@
             "name": "Major Applied Voice",
             "units": "3.00",
             "description": "Individual instruction in applied music on voice as a major instrument. Music majors only."
-        },
-        {
-            "subject": "MVV",
-            "code": "5651",
-            "name": "Vocal Pedagogy",
-            "units": "2.00",
-            "description": "A survey of the literature of teaching methods for the mature voice derived from historical and modern sources."
         },
         {
             "subject": "MVW",
@@ -22361,13 +22396,6 @@
         },
         {
             "subject": "OCB",
-            "code": "4004",
-            "name": "Oceanog at Sea I",
-            "units": "3.00",
-            "description": "An overview of current methods applied in biological oceanography including design of and working on research vessels and planning of research cruises."
-        },
-        {
-            "subject": "OCB",
             "code": "4005C",
             "name": "Oceanog at Sea II",
             "units": "4.00",
@@ -22589,6 +22617,13 @@
             "name": "Level II Fieldwork II",
             "units": "6.00",
             "description": "Three-month internship in an approved setting. Prerequisite: Completion of didactic coursework."
+        },
+        {
+            "subject": "OTH",
+            "code": "5905",
+            "name": "Independent Study",
+            "units": "0.00",
+            "description": "N/A"
         },
         {
             "subject": "OTH",
@@ -22939,6 +22974,13 @@
             "name": "Human Behavior",
             "units": "2.00",
             "description": "This is an integrated primary core course, foundational to the principles of human behavior and psychiatry. It will involve an intensive study of the clinical presentation, pathophysiology, and recognition of various diseases and anomalies in the population. The contextual approach to these disciplines will include the interrelationship or prior and current learning incorporating the basic sciences, anatomy and physiology, ancillary diagnostics and medical term. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6011",
+            "name": "Clinical Med I",
+            "units": "3.00",
+            "description": "This course is a systematic review and discussion of the epidemiology, pathophysiology, clinical manifestations, diagnosis and management of the most common diseases in humans. It builds upon the foundation of basic science knowledge and clinical assessment skills. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -23593,13 +23635,6 @@
         },
         {
             "subject": "PHC",
-            "code": "4376",
-            "name": "Disaster by Design",
-            "units": "3.00",
-            "description": "This course analyzes the role disaster exercises play in the preparation phase of disaster planning. Students will design and participate in such exercises."
-        },
-        {
-            "subject": "PHC",
             "code": "4940",
             "name": "Internship in Disaster",
             "units": "3.00",
@@ -23894,13 +23929,6 @@
         },
         {
             "subject": "PHC",
-            "code": "6538",
-            "name": "Gene & Env Int",
-            "units": "3.00",
-            "description": "Genetic issues and topics that impact on Public Health will be covered such as HW gene frequencies and HUGO. A public health perspective with a field of study."
-        },
-        {
-            "subject": "PHC",
             "code": "6580",
             "name": "Contemp Issues H P",
             "units": "3.00",
@@ -24059,13 +24087,6 @@
             "name": "Grant Writing",
             "units": "3.00",
             "description": "Course covers proposal writing political/social aspects of 'grantmanship' identifying sources of grant funding doing research to support the application, and tailoring the proposal to specific audiences."
-        },
-        {
-            "subject": "PHC",
-            "code": "7300",
-            "name": "Biol. Bas. Environ. Dis.",
-            "units": "4.00",
-            "description": "This course describes the state of homeostasis of anatomical and physiological systems where contributing environmental factors are translated to influence the human health and diseases."
         },
         {
             "subject": "PHC",
@@ -25336,13 +25357,6 @@
         },
         {
             "subject": "PSB",
-            "code": "5115",
-            "name": "Intro Psychophys: Bas Electro",
-            "units": "3.00",
-            "description": "This course introduces students to the concepts, theory, and methods of human psychophysiology with a specific focus on electroencephalography (EEG) and event-related potentials (ERPs). Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "PSB",
             "code": "6351",
             "name": "Cog Neuro Methods II",
             "units": "3.00",
@@ -25459,13 +25473,6 @@
             "name": "Supervised Research",
             "units": "0.00",
             "description": "Research apprenticeship under the direction of a research professor or a thesis advisor. Prerequisite: Full graduate admission."
-        },
-        {
-            "subject": "PSY",
-            "code": "5930",
-            "name": "Qualitative Methods Psych",
-            "units": "3.00",
-            "description": "Critical issues, theoretical and practical applications for conducting qualitative research in psychology. The focus will be on key research strategies and principles for research design."
         },
         {
             "subject": "PSY",
@@ -29115,6 +29122,13 @@
             "description": "Selected topics in women's studies.  Subject of course varies with instructor."
         },
         {
+            "subject": "WST",
+            "code": "5936",
+            "name": "Women in Leadership",
+            "units": "3.00",
+            "description": "Advanced examination of the foundation for theoretical leadership models, providing a forum for students to evaluate their own leadership style."
+        },
+        {
             "subject": "XDP",
             "code": "7000",
             "name": "PH.D. Student Exch.UM",
@@ -29165,6 +29179,13 @@
         },
         {
             "subject": "ZOO",
+            "code": "3753L",
+            "name": "Histology Lab",
+            "units": "1.00",
+            "description": "Microscopic anatomy of cells, tissues and organs."
+        },
+        {
+            "subject": "ZOO",
             "code": "4234",
             "name": "Gen Parasitology",
             "units": "3.00",
@@ -29183,13 +29204,6 @@
             "name": "Fish Biology",
             "units": "3.00",
             "description": "Covers the systematics, anatomy, physiology, reproductive biology, and ecology of fish."
-        },
-        {
-            "subject": "ZOO",
-            "code": "4462C",
-            "name": "Herpetology",
-            "units": "4.00",
-            "description": "Study of the biology of reptiles and amphibians with emphasis on the natural history and ecology of local species."
         },
         {
             "subject": "ZOO",
