@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1667697961,
+    "dataAsOf": 1668302603,
     "data": [
         {
             "subject": "ACG",
@@ -66,13 +66,6 @@
         },
         {
             "subject": "ACG",
-            "code": "7157",
-            "name": "Thry & Rsrch In Actg",
-            "units": "3.00",
-            "description": "An evaluative overview of the classical literature in financial accounting and the contemporary empirical research published in the leading scholarly journals. Examined are income determination theories, normative accounting principles, accounting information and stock prices, and principal-agent relationships. Prerequisite: Permission of Doctoral advisor in Accounting."
-        },
-        {
-            "subject": "ACG",
             "code": "7177",
             "name": "Sem: Actg Info",
             "units": "3.00",
@@ -84,6 +77,13 @@
             "name": "Info Val & Rsch Actg",
             "units": "3.00",
             "description": "An in-depth examination of the research paradigm and the associated empirical research in accounting and auditing. Examined are the issues of information value, risk aversion, risk sharing contracts, as well as accountability from the standpoint of monitoring contracts. Prerequisite: Permission of Doctoral advisor in Accounting."
+        },
+        {
+            "subject": "ACG",
+            "code": "7886",
+            "name": "Sem:Empir Rsrch Meth",
+            "units": "3.00",
+            "description": "Study of research design, methods of data collection and analysis and problems of measurement in accounting research. Empirical research studies in accounting are integrated throughout to illustrate and analyze the structural problems of research design as well as the strengths and weaknesses of various acceptable paradigms. Prerequisite: Permission of doctoral advisor in Accounting."
         },
         {
             "subject": "ACG",
@@ -1802,6 +1802,13 @@
         },
         {
             "subject": "ART",
+            "code": "4894",
+            "name": "Writing Contemporary Art",
+            "units": "3.00",
+            "description": "Students develop writing skills appropriate to artistic and curatorial practices in a dialog between artists, art historians and curators on contexts influencing art's production and reception."
+        },
+        {
+            "subject": "ART",
             "code": "4910C",
             "name": "Research",
             "units": "1.00",
@@ -1921,6 +1928,13 @@
         },
         {
             "subject": "ART",
+            "code": "5897",
+            "name": "Grad Art Writing",
+            "units": "3.00",
+            "description": "Students write professional venues appropriate to artistic and curatorial practices in a dialog between artists, art historians and curators on contexts influencing art's production and reception. Prerequisites: Current standing as an MFA candidate in the Art & Art History Department or permission of the instructor."
+        },
+        {
+            "subject": "ART",
             "code": "5907C",
             "name": "Directed Study",
             "units": "1.00",
@@ -1995,13 +2009,6 @@
             "name": "East Asian Civ",
             "units": "3.00",
             "description": "The historical developments of Chinese and Japanese civilizations and cultures from the earliest beginnings and classical period through the middle ages and eighteenth century as well as the modern era."
-        },
-        {
-            "subject": "ASH",
-            "code": "4384",
-            "name": "Hist/Women In Asia",
-            "units": "3.00",
-            "description": "Examines the history of women in Asia in relation to religious ideologies, philosophies, family roles, work roles, imperialism and nationalism, global feminism, and women's bodies."
         },
         {
             "subject": "ASH",
@@ -2975,6 +2982,13 @@
             "name": "BME Optics",
             "units": "3.00",
             "description": "Introduction to physical and geometrical optics of biomedical optical devices. Design of optical microscopes, endoscopes, fiber optic delivery systems, spectrometers, fluorometers, and cytometers.  Prerequisites: Calculus, Differential Equations, Chemistry, and Physics."
+        },
+        {
+            "subject": "BME",
+            "code": "5561",
+            "name": "Geo Optics for BME",
+            "units": "3.00",
+            "description": "The course introduces concepts and fundamental laws related to geometrical optics. The course will introduce optical components and their use in optical design of bioinstrumentation. Prerequisite: Calculus I"
         },
         {
             "subject": "BME",
@@ -4202,6 +4216,13 @@
             "description": "Computer architecture and design, CPU, memory systems, caches, data, input/output devices, bus architecture, and computer control. Processor types, instruction set and assembly language programming. Prerequisite: EGN 2271"
         },
         {
+            "subject": "CDA",
+            "code": "4625",
+            "name": "Intro to Mobile Robotics",
+            "units": "3.00",
+            "description": "A first course on the theoretical and practical aspects of mobile robotics. Topics include locomotion, kinematics, sensing and perception, localization and mapping, planning and navigation."
+        },
+        {
             "subject": "CEG",
             "code": "4011",
             "name": "Geotechnical Engr I",
@@ -5229,6 +5250,13 @@
             "name": "Independent Study",
             "units": "0.00",
             "description": "Individual conferences, assigned readings, and reports on independent investigations."
+        },
+        {
+            "subject": "CIS",
+            "code": "3930",
+            "name": "Special Topics",
+            "units": "0.00",
+            "description": "A course designed to give groups of students an opportunity to pursue special studies not otherwise offered."
         },
         {
             "subject": "CIS",
@@ -7661,13 +7689,6 @@
         },
         {
             "subject": "EDF",
-            "code": "6492",
-            "name": "Intro to Prog Eval in Ed",
-            "units": "3.00",
-            "description": "Introduces basic theories and concepts in program evaluation under educational contexts. Prerequisite: EDF 6472, EDF 5481, or Permission of Instructor."
-        },
-        {
-            "subject": "EDF",
             "code": "6608",
             "name": "Soc Phil Hist Found",
             "units": "3.00",
@@ -7721,6 +7742,13 @@
             "name": "Qual Res Data Analysis",
             "units": "3.00",
             "description": "Prepares students for a qualitative dissertation or research project in social or educational fields. Helps students develop techniques for analyzing and writing up qualitative research data."
+        },
+        {
+            "subject": "EDF",
+            "code": "7412C",
+            "name": "SEM Ed Res",
+            "units": "3.00",
+            "description": "The course focuses on conceptual understanding of covariance structure models and practical experiences of conducting a research project using structural equation models in educational fields. Prerequisites: EDF 6472, EDF 6486, or permission of the instructor."
         },
         {
             "subject": "EDF",
@@ -8652,6 +8680,13 @@
             "name": "Power System Optimization",
             "units": "3.00",
             "description": "This course covers recent advances in optimization techniques and their applications to electric power grid planning and operational problems."
+        },
+        {
+            "subject": "EEL",
+            "code": "5270",
+            "name": "Elec Trans In Power",
+            "units": "3.00",
+            "description": "Traveling waves on transmission and multi-conductor systems, successive reflections, distributed parameter systems, transients on integrated power systems. Prerequisites: EEL 4213 or permission of the instructor."
         },
         {
             "subject": "EEL",
@@ -11987,6 +12022,13 @@
         },
         {
             "subject": "GLY",
+            "code": "5786",
+            "name": "Adv Field Excursion",
+            "units": "0.00",
+            "description": "A study of the geology of a selected region of the world followed by 10-12 day field trip in order to study the field relationships of the geologic features. Special emphasis is given to stratigraphic, structural and tectonic relationships of lithic package. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "GLY",
             "code": "5888",
             "name": "Coastal Hazards Mitigation",
             "units": "3.00",
@@ -12022,6 +12064,13 @@
         },
         {
             "subject": "GMS",
+            "code": "6103",
+            "name": "Molecular Microbiology",
+            "units": "3.00",
+            "description": "This course introduces the general principles of infectious diseases and the host response to infection. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
             "code": "6220",
             "name": "Molecular Cell Biology",
             "units": "6.00",
@@ -12029,10 +12078,31 @@
         },
         {
             "subject": "GMS",
+            "code": "6481",
+            "name": "Physiology and Immunology",
+            "units": "4.00",
+            "description": "This course introduces students to the fundamental concepts of physiology and immunology from a biomedical perspective that will assist in evaluating pathology and therapeutic target options. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
             "code": "6605",
             "name": "Basic Human Anatomy",
             "units": "3.00",
             "description": "This course gives graduate students an introduction to basic concepts of human anatomy, including embryology, histology, gross anatomy and neuroanatomy. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
+            "code": "6864",
+            "name": "Biostatistics",
+            "units": "2.00",
+            "description": "This course provides an introduction to the elements and foundations of epidemiology and biostatistics. Prerequisites: Currently enrolled in the HWCOM Ph.D. program and permission of the course director."
+        },
+        {
+            "subject": "GMS",
+            "code": "6904",
+            "name": "Biomedical Research",
+            "units": "3.00",
+            "description": "The introductory course designed to teach the students to design, write, and present scientific papers and grant applications. Prerequisite: HWCOM Graduate School Enrollment."
         },
         {
             "subject": "GMS",
@@ -12050,10 +12120,24 @@
         },
         {
             "subject": "GMS",
+            "code": "6939",
+            "name": "Graduate Seminar",
+            "units": "1.00",
+            "description": "A weekly seminar/discussion course consisting of research presentations by students, faculty, and visiting scientists in the area of biomedical sciences will form part of a recurring credit. Prerequisite: HWCOM Graduate School Enrollment."
+        },
+        {
+            "subject": "GMS",
             "code": "6940",
             "name": "Supervised Teaching",
             "units": "1.00",
             "description": "Students will assist the faculty members who teach either graduate or medical students. Prerequisite: HWCOM Graduate School Enrollment."
+        },
+        {
+            "subject": "GMS",
+            "code": "6942",
+            "name": "Laboratory Rotation",
+            "units": "1.00",
+            "description": "Laboratory rotations in specific laboratories of the HWCOM graduate program faculty that will eventually lead to the choice of a thesis laboratory. Prerequisite: HWCOM Graduate School Enrollment."
         },
         {
             "subject": "GMS",
@@ -12512,13 +12596,6 @@
         },
         {
             "subject": "HFT",
-            "code": "3941",
-            "name": "Intern Hsptly Mgmt",
-            "units": "0.00",
-            "description": "Practical training and experience in all the major phases of hospitality operations and visitor industry. Reports are required. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "HFT",
             "code": "4064",
             "name": "Beverage Entrepreneurship",
             "units": "3.00",
@@ -12670,6 +12747,13 @@
             "name": "Adv Intern Hsptly",
             "units": "0.00",
             "description": "The Advanced Internship is a practical hospitality/tourism work experience structured to provide exposure to management and training functions, job rotation tasks and/or projects not previously performed. Minimum 300 hours/ten weeks field experience. Prerequisites: Documented completion of 1,000 hospitality related work hours of which 500 hours must be completed while enrolled at FIU. Permission of an advisor."
+        },
+        {
+            "subject": "HFT",
+            "code": "4955",
+            "name": "Study Abroad: Hospitality Tour",
+            "units": "3.00",
+            "description": "An integrated program of learning conducted in foreign environments for hospitality management majors. They will be exposed to different cultures and taught how to manage businesses in other countries."
         },
         {
             "subject": "HIS",
@@ -13503,6 +13587,13 @@
             "name": "CS for Everyone",
             "units": "3.00",
             "description": "Introduction to the breadth and excitement of computing, including its social context, computing principles, and relevance to all disciplines."
+        },
+        {
+            "subject": "IDC",
+            "code": "2002",
+            "name": "AI for All",
+            "units": "3.00",
+            "description": "High-level conceptual survey of artificial intelligence for non-CS undergraduates, including techniques, applications, ethics, and philosophical issues. No high-level math or programming required."
         },
         {
             "subject": "IDC",
@@ -16677,6 +16768,13 @@
         },
         {
             "subject": "MAC",
+            "code": "1000",
+            "name": "College Algebra Stretch",
+            "units": "0.00",
+            "description": "Develops deeper problem-solving and algebraic skills of college algebra. Students can repeat this course. Prerequisite: Consent of the department."
+        },
+        {
+            "subject": "MAC",
             "code": "1105",
             "name": "College Algebra",
             "units": "3.00",
@@ -17755,6 +17853,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7120",
+            "name": "Family Medicine Elective",
+            "units": "1.00",
+            "description": "This intensive ambulatory or inpatient block is particularly suited to students interested in primary care. Students will be assigned to either an inpatient or outpatient Family Medicine experience. Under the supervision of FIU faculty, the student will assume a level of independence appropriate to a fourth year student. For each patient s/he sees, the student will be responsible for the history and physical, writing a note, presenting the case to the supervising faculty member, and putting the agreed-upon management plan into action. Through this process, students will hone their patient communication skills, diagnostic skills and clinical reasoning, development of management plans for common ambulatory or inpatient clinical scenarios, and execution of patient education. Students will attend all departmental rounds and teaching activities, as well as complete any relevant reading assignments. Students will be provided with regular feedback from the supervising physician. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7121",
             "name": "PC Sports Med Elective",
             "units": "1.00",
@@ -17773,6 +17878,13 @@
             "name": "Gyn Oncology Elective",
             "units": "1.00",
             "description": "This four week elective is intended for students who have already completed the basic core clerkship in OB/GYN and are interested in enhancing their exposure to the subspecialty of Gynecologic Oncology. The student will be provided experience in the inpatient and outpatient management of patients with pre-malignant and malignant conditions of the genital tract. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7180",
+            "name": "Pern/Mat Fetal Med Elect",
+            "units": "1.00",
+            "description": "This Period 4 clerkship allows students to experience the full range of maternal-fetal medicine and familiarizes students with the diagnosis and management of pregnant patients who have obstetrical, medical, or surgical complications. Students receive experience in ultrasound, genetics, genetic counseling, and the management of high-risk obstetrical patients. Students follow patients through the\ninpatient antepartum service and participate in the care of high-risk obstetrical patients admitted to the hospital. Attendance at the following conferences is required: FHR tracing and labor management review, high risk obstetrics conference, grand rounds, prenatal - neonatology conference, and journal\nclub. Students are required to take call on the Labor and Delivery Unit one night per week. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -17811,6 +17923,20 @@
         },
         {
             "subject": "MDE",
+            "code": "7270",
+            "name": "Gastroenterology/Hepatology",
+            "units": "1.00",
+            "description": "This course will consist of a four week rotation, which will include inpatient and outpatient gastroenterology and hepatology. Throughout the rotation, students will be assuming primary responsibility of patients under the supervision of gastroenterology attendings. The experience will also allow for participation in varied endoscopic procedures, such as esophageal manometry, and upper and lower endoscopy. During the week, students will participate in pathology and radiology conferences geared to gastroenterology and hepatology cases. The course will concentrate on teaching students how to interpret clinical information and develop therapeutic decision making. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7280",
+            "name": "Hematology-Oncology Elect",
+            "units": "1.00",
+            "description": "This rotation is intended to prepare students to learn a basic approach to evaluation, diagnosis, staging and treatment of patients with blood diseases and cancer. Through exposure to patients with these diseases, students will improve their physical diagnosis skills, recognition of complications of disease, and understanding of therapeutic issues. Students will learn concepts of palliative care, end of life and hospice care. The rotation is mainly inpatient-consult service with some outpatient exposure. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7320",
             "name": "Infectious Disease Elect",
             "units": "1.00",
@@ -17825,6 +17951,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7350",
+            "name": "Nephrology Elective",
+            "units": "1.00",
+            "description": "This 2 week or 4 week elective offers students the opportunity to learn about the diseases of the kidney and become more skilled in their management. Students will participate in the care of patients with medical renal disease that are seen in the office and also on the renal inpatient consult service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7404",
             "name": "Pediatric Ambulatory Services",
             "units": "1.00",
@@ -17836,6 +17969,13 @@
             "name": "Pediatric Cardiology Elective",
             "units": "1.00",
             "description": "This rotation will occur in both the inpatient and outpatient settings, with medical students participating in the care of patients admitted to cardiology service, patients requiring cardiac consultation, and outpatient care visits. Medical students are expected to examine patients admitted to the hospital and make daily rounds on all patients on the cardiology service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7490",
+            "name": "Pediatric Surgery Elective",
+            "units": "1.00",
+            "description": "This rotation will give students more advanced exposure to the practice of pediatric surgery through hands-on instruction in the in-patient management of surgical patients in the NICU, PICU, and general floors. By the end of the rotation, students will understand the unique anatomic, physiologic, metabolic issues in infants, children, and adolescents with surgical problems. Students will be able to demonstrate competency in the diagnosis and management of common pediatric surgical issues. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -17937,6 +18077,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7765",
+            "name": "Intervent Rad Elective",
+            "units": "1.00",
+            "description": "This rotation is intended to give students an introduction to the basics of Interventional Radiology (IR); including IR techniques and procedures, and an understanding of the field's role in the management of medical and surgical problems. Students will participate in the workup, treatment and follow-up of patients undergoing various IR procedures. Students will also gain experience in the interpretation of radiologic imaging such as ultrasound, CT, and MRI. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7807",
             "name": "Neuro-Oncology Elective",
             "units": "4.00",
@@ -17962,6 +18109,13 @@
             "name": "Child Inpatient Psych Elective",
             "units": "1.00",
             "description": "The 2-week or 4-week rotation exposes Period 4 medical students to child and adolescent psychiatry in a hospital setting and allows them to refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and emergency psychiatry experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7991",
+            "name": "Palliative Care Psych",
+            "units": "2.00",
+            "description": "N/A"
         },
         {
             "subject": "MDI",
@@ -17990,6 +18144,13 @@
             "name": "General Surgery Subinternship",
             "units": "1.00",
             "description": "This course is designed for students who desire a greater in-depth experience in general surgery or who are seriously considering surgery as a possible career choice. It serves as an exploratory path for a planned career in general surgery or other surgical sub-specialties. In this role, the subintern will have more responsibilities than a period 3 clerkship student. The student will examine patients, assist in surgery, participate in pre-operative and post-operative care and will also be encouraged to develop his/her clinical and technical skills. The student will be expected to participate in all of the educational activities of the Department of Surgery during the course of his/her rotation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDS",
+            "code": "7160",
+            "name": "Obstetrics/Gynecology Selectiv",
+            "units": "1.00",
+            "description": "This fourth year clinical selective in Obstetrics and Gynecology offers the student the opportunity to enhance his/her skills in outpatient diagnosis and management. The student is expected to adhere to the schedule agreed upon with the FIU faculty member, including call duty, rounding, and other clinical responsibilities (ie. those related to surgery, outpatient clinic, or the labor floor). The rotation may be tailored based on the student's specific goals and learning objectives; the student should reach out to the course director to discuss special considerations. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDS",
@@ -18144,6 +18305,20 @@
             "name": "Ph.D. Dissertation",
             "units": "1.00",
             "description": "Continuing graduate-level research under the supervision of the student's advisor doctoral committee. Writing, revision, defense, and completion of a doctoral dissertation. Prerequisites: Graduate standing in Geosciences and satisfactory progress toward the doctoral degree."
+        },
+        {
+            "subject": "MGF",
+            "code": "1000",
+            "name": "Finite Math Stretch",
+            "units": "0.00",
+            "description": "This will be a section for students in MGF 1106 with an unfinished grade. Helps students develop better understanding of topics such as probability and logic and apply it in their major. Prerequisite: Consent of the department."
+        },
+        {
+            "subject": "MGF",
+            "code": "1001",
+            "name": "Social Choice Stretch",
+            "units": "0.00",
+            "description": "This course will help students develop a deeper understanding on how mathematics is used in our social life and help them make better financial decisions. Prerequisite: Consent of the department."
         },
         {
             "subject": "MGF",
@@ -18410,6 +18585,13 @@
             "name": "Ethics and Social Respons",
             "units": "3.00",
             "description": "This course familiarizes students with professional ethics and standards in advertising and public relations and examines the regulatory environment in which strategic communication takes place. Prerequisite: Permission of the instructor. (Offered at least once a year)."
+        },
+        {
+            "subject": "MMC",
+            "code": "6402",
+            "name": "Theories Mass Com",
+            "units": "3.00",
+            "description": "Examines theories and processes of mass communication as well as media responsibility to society and the social and ethical responsibility of communicators. (Offered at least once a year).  Prerequisite: Permission of the instructor."
         },
         {
             "subject": "MMC",
@@ -18707,6 +18889,13 @@
         },
         {
             "subject": "MUC",
+            "code": "5935",
+            "name": "Comp Forum",
+            "units": "1.00",
+            "description": "Student composers present their work for critique by faculty and topics relevant to composition are presented by faculty and guests."
+        },
+        {
+            "subject": "MUC",
             "code": "6305",
             "name": "Elec Mus Lab I",
             "units": "2.00",
@@ -18956,6 +19145,13 @@
             "name": "Jazz History",
             "units": "3.00",
             "description": "An in-depth study of jazz music from its inception to the present day. Specifically designed for music majors, in particular Jazz Studies students."
+        },
+        {
+            "subject": "MUH",
+            "code": "3912C",
+            "name": "Mus Research Bib",
+            "units": "2.00",
+            "description": "This course will familiarize the student with major sources for research in music, develop the ability to research and write a term paper or thesis, and document those findings in a scholarly format."
         },
         {
             "subject": "MUH",
@@ -19624,6 +19820,13 @@
         },
         {
             "subject": "MUS",
+            "code": "5711",
+            "name": "Music Bibliography",
+            "units": "2.00",
+            "description": "Library research methods and materials; documentation of research results in bibliographic style.  Develops critical thinking and evaluative skills regarding sources of information, print and online."
+        },
+        {
+            "subject": "MUS",
             "code": "5905",
             "name": "Directed Study",
             "units": "0.00",
@@ -19712,6 +19915,13 @@
             "name": "Jazz Theory I",
             "units": "3.00",
             "description": "This 3-credit course is designed to streamline the jazz curriculum by replacing 'Jazz Eartraining', 'Introduction to Jazz Studies', and 'Jazz Styles and Analysis'. It is a required course for all jazz performance majors."
+        },
+        {
+            "subject": "MUT",
+            "code": "3171C",
+            "name": "Jazz Theory II",
+            "units": "3.00",
+            "description": "Advanced jazz theory/harmony and ear-training. This is a required course for all jazz performance majors."
         },
         {
             "subject": "MUT",
@@ -22396,6 +22606,13 @@
         },
         {
             "subject": "OCB",
+            "code": "4004",
+            "name": "Oceanog at Sea I",
+            "units": "3.00",
+            "description": "An overview of current methods applied in biological oceanography including design of and working on research vessels and planning of research cruises."
+        },
+        {
+            "subject": "OCB",
             "code": "4005C",
             "name": "Oceanog at Sea II",
             "units": "4.00",
@@ -22991,6 +23208,20 @@
         },
         {
             "subject": "PAS",
+            "code": "6015",
+            "name": "Physiology II",
+            "units": "3.00",
+            "description": "This is an integrated primary core course, foundational to the principles of physiology. It will involve an intensive study of the clinical presentation, pathophysiology, and recognition of various diseases and anomalies in the population. The contextual approach to these disciplines will include the interrelationship of prior and current learning incorporating the basic sciences, anatomy and physiology, ancillary diagnostics and medical terminology. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6016",
+            "name": "Integ Clin Concepts I",
+            "units": "2.00",
+            "description": "This is the first in a series of three courses in the didactic year that provide students the opportunity to translate knowledge gained in the concurrent didactic curriculum courses to clinical problems and to clinical decision making. The course is conducted by the faculty facilitators in a small-group discussion format. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6018",
             "name": "Integ Clin Concepts III",
             "units": "2.00",
@@ -23002,6 +23233,20 @@
             "name": "Gross Anatomy",
             "units": "4.00",
             "description": "Gross Anatomy for Physician Assistant students is a clinically oriented course in which descriptive and surface anatomy are integrated with embryology. Organization of human anatomy is correlated with diagnostic imagine and pathophysiology. The objective is to provide students with a hands-on experience in the study of the human body, an understanding of relevant aspects of human development and its abnormalities. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6023",
+            "name": "Pharma Disease Path I",
+            "units": "2.00",
+            "description": "These lectures are integrates with the appropriate organ or disease system in which an appreciation of the pathophysiology is helpful for understanding the basis of use of a class of drugs in a particular disease. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6031",
+            "name": "Clinical Skills I",
+            "units": "2.00",
+            "description": "This course is the first in a two course sequence designed to provide students with an overview of skills and procedures needed for clinical practices as a PA. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -23026,10 +23271,24 @@
         },
         {
             "subject": "PAS",
+            "code": "6041",
+            "name": "Clinical Assess II",
+            "units": "2.00",
+            "description": "This course is the second in a two sequence designed to provide students with an overview of skills and procedures needed for clinical practice as a PA. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
             "code": "6050",
             "name": "Role PA Amer Health Care",
             "units": "3.00",
             "description": "The first portion covers major aspects of the US health care system. The aim is to give students a broad foundation of knowledge regarding the basic components of the health system and its issues and trends. The second portion presents the key components of the PA profession and examines the scope and the role of the PA in medical practice. Prerequisite: Enrolled in the Physician Assistant Program."
+        },
+        {
+            "subject": "PAS",
+            "code": "6090",
+            "name": "Cl App Evdnc Bas Pract I",
+            "units": "3.00",
+            "description": "This course provides an introduction to research design and methods including bio statistical analyses that are most commonly encountered within health research. Prerequisite: Enrolled in the Physician Assistant Program."
         },
         {
             "subject": "PAS",
@@ -26239,6 +26498,13 @@
         },
         {
             "subject": "RLG",
+            "code": "5619",
+            "name": "Holocaust Rep",
+            "units": "3.00",
+            "description": "Examines the symbolic and cultural representations of the Holocaust through its religious/ theological discourse and its remembrance.  Implications for Jewish life and thought are also explored. Prerequisites: Graduate standing or permission of the instructor."
+        },
+        {
+            "subject": "RLG",
             "code": "5911",
             "name": "Indep Research",
             "units": "0.00",
@@ -28150,6 +28416,13 @@
         },
         {
             "subject": "SYD",
+            "code": "6901",
+            "name": "Special Topics",
+            "units": "3.00",
+            "description": "An examination of specific themes and topics in sociology. The theme may vary from semester to semester. With a change in content, the course may be repeated. Can be taken for credit no more than twice with any given instructor. Prerequisites: SYA 6018 or permission of the instructor."
+        },
+        {
+            "subject": "SYD",
             "code": "7903",
             "name": "Directed Readings",
             "units": "0.00",
@@ -29095,6 +29368,13 @@
         },
         {
             "subject": "WST",
+            "code": "4930",
+            "name": "WST Special Topics",
+            "units": "3.00",
+            "description": "Selected topics in Women's Studies.  Subject of course varies with instructor."
+        },
+        {
+            "subject": "WST",
             "code": "4940",
             "name": "Women Studies Intern",
             "units": "0.00",
@@ -29204,6 +29484,13 @@
             "name": "Fish Biology",
             "units": "3.00",
             "description": "Covers the systematics, anatomy, physiology, reproductive biology, and ecology of fish."
+        },
+        {
+            "subject": "ZOO",
+            "code": "4462C",
+            "name": "Herpetology",
+            "units": "4.00",
+            "description": "Study of the biology of reptiles and amphibians with emphasis on the natural history and ecology of local species."
         },
         {
             "subject": "ZOO",
