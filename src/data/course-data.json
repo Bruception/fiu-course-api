@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1668302603,
+    "dataAsOf": 1668907543,
     "data": [
         {
             "subject": "ACG",
@@ -1354,6 +1354,13 @@
         },
         {
             "subject": "ARH",
+            "code": "4771",
+            "name": "History of Digital Art",
+            "units": "3.00",
+            "description": "A chronological examination of the work of the world's most significant digital works in the visual arts 1900 to present."
+        },
+        {
+            "subject": "ARH",
             "code": "4910",
             "name": "Research",
             "units": "0.00",
@@ -2411,6 +2418,13 @@
         },
         {
             "subject": "BCH",
+            "code": "6133C",
+            "name": "Ws:Dna Sequencing",
+            "units": "1.00",
+            "description": "Workshop in the manual and automated sequencing of DNA. Students may sequence DNA from their own research. Prerequisites: Graduate status and permission of the instructor."
+        },
+        {
+            "subject": "BCH",
             "code": "6831",
             "name": "Intro Biochem Res",
             "units": "3.00",
@@ -2639,6 +2653,13 @@
             "name": "Const Eco Anal",
             "units": "3.00",
             "description": "Nature of construction costs, funding sources and arrangements, capital requirements, bonding, insurance, risk and contingency evaluation, general office operations, and bidding procedures."
+        },
+        {
+            "subject": "BCN",
+            "code": "5706",
+            "name": "Interdis Aspect Hou",
+            "units": "3.00",
+            "description": "Recognition and definition of those factors which affect the planning, financing, and construction of housing projects. The operations and responsibilities of a multidisciplinary team dealing with decision process. This course takes a critical look at the housing delivery system to include: how the housing industry operates, various technologies prevalent in housing construction, and constraints to housing. The course will also look at the future, examining problems and forces that will shape opportunities."
         },
         {
             "subject": "BCN",
@@ -3181,13 +3202,6 @@
         },
         {
             "subject": "BMS",
-            "code": "6631",
-            "name": "Hematop and Lymph Systems",
-            "units": "3.00",
-            "description": "This course is designed to provide the fundamental ground knowledge as it relates to the understanding of hematologic diseases, the clinical approach to a patient with a hematologic disease and the initial approach to the use of various chemotherapeutic drugs. Discussions related to: the mechanisms of disease with an understanding of the molecular bases that explain the disease process; the clinical features of the different disorders - genetic or acquired - as well as a description of the morphologic features of these diseases based on the most current available and clinically applicable information. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
-        },
-        {
-            "subject": "BMS",
             "code": "6632",
             "name": "Endocrine System",
             "units": "3.00",
@@ -3283,6 +3297,13 @@
             "name": "Introductory Botany",
             "units": "3.00",
             "description": "A history of mankind's study and use of plants, and a survey of plants of economic importance. Includes lab. No science prerequisite."
+        },
+        {
+            "subject": "BOT",
+            "code": "1010L",
+            "name": "Intro Botany Lab",
+            "units": "1.00",
+            "description": "A history of mankind's study and use of plants, and a survey of plants of economic importance. Includes lab. No science prerequisite. (Lab fees assessed)"
         },
         {
             "subject": "BOT",
@@ -3496,6 +3517,13 @@
         },
         {
             "subject": "BSC",
+            "code": "3993L",
+            "name": "Python Lab",
+            "units": "1.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "BSC",
             "code": "4205",
             "name": "Topics Organism Diversity",
             "units": "3.00",
@@ -3615,6 +3643,13 @@
         },
         {
             "subject": "BSC",
+            "code": "4970",
+            "name": "Honors Thesis",
+            "units": "3.00",
+            "description": "Writing an Honors Thesis."
+        },
+        {
+            "subject": "BSC",
             "code": "5302",
             "name": "Past Ecosystems",
             "units": "3.00",
@@ -3703,6 +3738,13 @@
             "name": "Workshop Biology",
             "units": "0.00",
             "description": "A short intensive treatment of a specialized research topic or technique. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "BSC",
+            "code": "6936",
+            "name": "Topics In Biology",
+            "units": "0.00",
+            "description": "An intensive study of a particular topic or limited number of topics not otherwise offered in the curriculum. May be repeated for credit with different subject content. Prerequisites: Senior or graduate status."
         },
         {
             "subject": "BSC",
@@ -4490,6 +4532,13 @@
         },
         {
             "subject": "CGN",
+            "code": "6916",
+            "name": "Engineering Project",
+            "units": "0.00",
+            "description": "Independent research work culminating in a professional practice oriented report for the requirements of the non-thesis option of the M.S. degree. Prerequisites: Fifteen graduate credits and approved project plan."
+        },
+        {
+            "subject": "CGN",
             "code": "6939",
             "name": "Graduate Seminar",
             "units": "0.00",
@@ -5176,6 +5225,13 @@
         },
         {
             "subject": "CHS",
+            "code": "4600",
+            "name": "Marine Chemistry",
+            "units": "3.00",
+            "description": "A study of how the chemistry of marine systems operate and interact with biological, geological, and physical processes. Prerequisites:  CHM2210 and CHM2210L,  or  CHM 2200 and  CHM 2200L; CHM3120, CHM3120L, (or permission of the instructor)"
+        },
+        {
+            "subject": "CHS",
             "code": "5110",
             "name": "Topics in Radiochemistry",
             "units": "3.00",
@@ -5516,13 +5572,6 @@
             "name": "Law Enforcement Practicum",
             "units": "3.00",
             "description": "Combines classroom instruction with specialized police training and workplace experience to produce successful law enforcement professionals and future leaders in the field."
-        },
-        {
-            "subject": "CJJ",
-            "code": "2001",
-            "name": "Juvenile Justice",
-            "units": "3.00",
-            "description": "Examines the nature and extent of delinquency and the justice system response to juvenile crime."
         },
         {
             "subject": "CJL",
@@ -6603,6 +6652,13 @@
             "description": "An introduction to the issues and scope of Community Psychology. Students will be exposed to the development of Community Psychology as a growing discipline. Particular emphasis will be placed on the role of the community psychologist as an agent of social change."
         },
         {
+            "subject": "CYP",
+            "code": "6766",
+            "name": "Cross Cult Sensitivi",
+            "units": "3.00",
+            "description": "A series of weekly seminars to increase student sensitivity to working with clients from different cultural backgrounds. The objectives of the course are: (1) facilitating student awareness of cultural differences and their impact on social and human services delivery systems, (2) identifying the student's own personal cultural biases and values when interacting with culturally different persons, and (3) teaching students to develop culturally appropriate intervention skills."
+        },
+        {
             "subject": "DAA",
             "code": "1100",
             "name": "Modern Dance Tech I",
@@ -6702,10 +6758,24 @@
         },
         {
             "subject": "DEP",
+            "code": "5058",
+            "name": "Bio-Behavioral Devel",
+            "units": "3.00",
+            "description": "Introduction to theory and research underlying behavioral development. Covers such pre-and post-natal determinants as evolution, genetics, neuroendocrines, as well as social development, behavioral ecology, and sociobiology."
+        },
+        {
+            "subject": "DEP",
             "code": "5065",
             "name": "Cognitive Development",
             "units": "3.00",
             "description": "An overview of cognitive development, with a focus on the theories, experimental evidence, and milestones in cognitive development. Topics include the development of attention, perception, memory, problem solving, categorization, concepts, language, reasoning, theory of mind, metacognition, and executive function. Prerequisites: Graduate standing or permission of the instructor."
+        },
+        {
+            "subject": "DEP",
+            "code": "5099",
+            "name": "Prosem: Infancy",
+            "units": "3.00",
+            "description": "Provides a comprehensive review of issues in perceptual, cognitive, social, emotional, and personality development from infancy through adolescence."
         },
         {
             "subject": "DEP",
@@ -7217,13 +7287,6 @@
             "name": "Int Trade Theory",
             "units": "3.00",
             "description": "Causes and consequences of international trade; effects of tariffs and quotas; strategic trade and industrial policies; political economy of protectionism; international economic integration; factor movements; and multinational firms."
-        },
-        {
-            "subject": "ECO",
-            "code": "4713",
-            "name": "Intl Macroeconomics",
-            "units": "3.00",
-            "description": "Analysis of output, inflation, business cycles and economic policy in open economy settings; exchange rate regimes (fixed versus flexible exchange rate); fiscal, monetary, and exchange rate policies."
         },
         {
             "subject": "ECO",
@@ -9306,6 +9369,13 @@
         },
         {
             "subject": "EGN",
+            "code": "6907",
+            "name": "Independent Study",
+            "units": "1.00",
+            "description": "A variable credit independent study course for PhD students to work on topics where standard courses cannot be offered. Topics must be related to engineering or computing education."
+        },
+        {
+            "subject": "EGN",
             "code": "6935",
             "name": "Seminar on STEM Edu Res",
             "units": "0.00",
@@ -10965,6 +11035,13 @@
         },
         {
             "subject": "EVR",
+            "code": "5375",
+            "name": "Adv Restoration Ecology",
+            "units": "3.00",
+            "description": "Restoration planning, endangered species reintroduction, disturbed land reclamation, ecosystem restoration, challenges of climate change on ecological restoration. Prerequisite: One course or more in ecology."
+        },
+        {
+            "subject": "EVR",
             "code": "5409",
             "name": "Adv Conservation Biology",
             "units": "3.00",
@@ -11364,24 +11441,10 @@
         },
         {
             "subject": "FLE",
-            "code": "4375",
-            "name": "Spec Tch Lab Mod Lan",
-            "units": "3.00",
-            "description": "Development of instructional skills, techniques, and strategies for teaching modern languages in the junior and senior high school."
-        },
-        {
-            "subject": "FLE",
             "code": "5908",
             "name": "Dir Stud For Lang",
             "units": "0.00",
             "description": "The student plans and carries out an independent study project under direction. Prerequisite: Consent of instructor."
-        },
-        {
-            "subject": "FLE",
-            "code": "6336",
-            "name": "Meth Tea Mod Langs.",
-            "units": "3.00",
-            "description": "A modern study of language learning and teaching from the theoretical and practical points of view, including the evaluation and development of techniques and materials for second language teaching."
         },
         {
             "subject": "FLE",
@@ -12376,13 +12439,6 @@
             "name": "Hsptly Prop Mgmt",
             "units": "3.00",
             "description": "The problems of cost and operation of pest control, security, parking, general cleaning and upkeep, laundry, fire prevention, pools, tennis courts, and care of guest rooms and public space, with emphasis on equipment, personnel, and modern innovations. The housekeeping and property management function of the hotel."
-        },
-        {
-            "subject": "HFT",
-            "code": "3370",
-            "name": "Entertainment Law",
-            "units": "3.00",
-            "description": "This course covers the legal deal points and industry contract language for hotel and event planned arrangements in hospitality venues"
         },
         {
             "subject": "HFT",
@@ -13930,13 +13986,6 @@
             "name": "Design Thinking",
             "units": "3.00",
             "description": "Using literature on design methods, design cognition, cognitive psychology and design protocol studies, students will learn about the various models of creative process in design."
-        },
-        {
-            "subject": "IND",
-            "code": "5941",
-            "name": "Internship",
-            "units": "0.00",
-            "description": "Experience in interior design practice learned through work with licensed professionals."
         },
         {
             "subject": "IND",
@@ -16275,6 +16324,13 @@
             "name": "Topic Labor Studies",
             "units": "0.00",
             "description": "Selected topics or themes in Labor Studies. Themes will vary from semester to semester. With a change in content, course may be repeated. May include field work. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "LBS",
+            "code": "5993",
+            "name": "Tech in the Workplace",
+            "units": "3.00",
+            "description": "N/A"
         },
         {
             "subject": "LEI",
@@ -18781,13 +18837,6 @@
             "name": "Differential Geometry II",
             "units": "3.00",
             "description": "Continuation of 'Differential Geometry'. Topics include connections and curvature of fiber bundles, Lie groups. Additional topics chosen by the instructor. Prerequisite: MTG 4254 or MTG 5256 (or consent of the instructor)"
-        },
-        {
-            "subject": "MTG",
-            "code": "5347",
-            "name": "Algebraic Topology II",
-            "units": "3.00",
-            "description": "Continuation of 'Introduction to Algebraic Topology' (MTG 5256). Topics include singular cohomology, Kunneth, universal coefficient, and duality theorems. Additional topics chosen by the instructor. Prerequisite: MTG 5256 (or consent of the instructor)"
         },
         {
             "subject": "MUC",
@@ -23544,13 +23593,6 @@
         },
         {
             "subject": "PCB",
-            "code": "5307",
-            "name": "Limnology",
-            "units": "3.00",
-            "description": "Chemical and physical properties of standing and flowing freshwater systems; ecophysiology and interactions of the fresh water flora and fauna in relation to abiotic factors; oligotrophic to eutrophic conditions."
-        },
-        {
-            "subject": "PCB",
             "code": "5328",
             "name": "Spatial Ecology",
             "units": "3.00",
@@ -26106,6 +26148,13 @@
         },
         {
             "subject": "REE",
+            "code": "4905",
+            "name": "Independent Studies",
+            "units": "0.00",
+            "description": "Individual conferences; supervised readings; reports on personal investigations. Prerequisites: Consent of instructor and Department Chairperson required."
+        },
+        {
+            "subject": "REE",
             "code": "4956",
             "name": "Intl Real Estate",
             "units": "3.00",
@@ -26379,10 +26428,10 @@
         },
         {
             "subject": "REL",
-            "code": "4364",
-            "name": "Quran Gender and Jihad",
+            "code": "4363",
+            "name": "Islamic Mysticism",
             "units": "3.00",
-            "description": "Introduces students to the history, interpretation and translation of the Quran through a close examination of passages related to issues of gender and jihad."
+            "description": "Explores the depth and breadth of the mystical tradition of Islam (Sufism) through primary and secondary texts which look at the esoteric dimensions of mystical practice in the Islamic World."
         },
         {
             "subject": "REL",
@@ -29120,13 +29169,6 @@
             "name": "Esol Pron",
             "units": "3.00",
             "description": "A course in the TESOL Master's program investigating the theories and methods of teaching pronunciation skills to ESOL students."
-        },
-        {
-            "subject": "TSL",
-            "code": "6908",
-            "name": "Field Component",
-            "units": "3.00",
-            "description": "Provides opportunity to carry out a variety of projects designed to develop critical reflection about teaching beliefs and practices in an ESOL classroom environment. Prerequisites: Admission to MS/TESOL program and completion of required course work."
         },
         {
             "subject": "TTE",
