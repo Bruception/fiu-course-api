@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1668907543,
+    "dataAsOf": 1669511963,
     "data": [
         {
             "subject": "ACG",
@@ -5659,6 +5659,13 @@
         },
         {
             "subject": "CLP",
+            "code": "6426",
+            "name": "Neuropsychology",
+            "units": "3.00",
+            "description": "Introduces students to basic foundations and some advanced concepts in Neuropsychology, with a focus on clinical applications. Topics covered will include functional neuroanatomy, brain disorders across the lifespan, and assessment of neuropsychological functions. Prerequisite: Permission of the instructor."
+        },
+        {
+            "subject": "CLP",
             "code": "6436",
             "name": "Intro Psy Assessment",
             "units": "3.00",
@@ -5670,6 +5677,13 @@
             "name": "Assessment and Treatment I",
             "units": "3.00",
             "description": "Provides an in-depth examination of the evidenced-based assessments used in the psychological evaluation and treatment for children and adolescents with internalizing problems. Prerequisite: CLP 5007."
+        },
+        {
+            "subject": "CLP",
+            "code": "6473",
+            "name": "Assessment and Treatment III",
+            "units": "3.00",
+            "description": "Provides an overview of theory, research, and evidenced-based practices relevant for evidence based assessment and intervention for use with developmental, learning and pediatric disorders. Prerequisite: CLP 5007."
         },
         {
             "subject": "CLP",
@@ -9005,6 +9019,13 @@
         },
         {
             "subject": "EEL",
+            "code": "6993C",
+            "name": "Adv Act MW",
+            "units": "3.00",
+            "description": "N/A"
+        },
+        {
+            "subject": "EEL",
             "code": "7910",
             "name": "Advanced Research",
             "units": "0.00",
@@ -9639,6 +9660,13 @@
             "name": "Crystal Xrd",
             "units": "3.00",
             "description": "Principles of crystallography and the use of x-ray diffraction and Raman Spectroscopy to characterize crystalline solids.  Prerequisite: Instructor's permission."
+        },
+        {
+            "subject": "EMA",
+            "code": "6993C",
+            "name": "BSE",
+            "units": "3.00",
+            "description": "N/A"
         },
         {
             "subject": "EMC",
@@ -12344,13 +12372,6 @@
         },
         {
             "subject": "HFT",
-            "code": "1102",
-            "name": "Fnd & Path Glbl Sust Tour",
-            "units": "1.00",
-            "description": "Seminar course for first-term GST students provides important foundations of sustainable tourism and tourism industry. Course helps students create individual paths through the program to maximize opportunities for personal growth and\nprofessional success"
-        },
-        {
-            "subject": "HFT",
             "code": "1993",
             "name": "Intro to Esports",
             "units": "3.00",
@@ -12376,6 +12397,13 @@
             "name": "Hospitality Info Tech",
             "units": "3.00",
             "description": "This course covers current computer applications in the hospitality industry including information technology specific to hotel and restaurant accounting, finance, marketing, and management."
+        },
+        {
+            "subject": "HFT",
+            "code": "3006",
+            "name": "El &Soft Skills for Hosp.",
+            "units": "3.00",
+            "description": "This course will help students develop character traits and interpersonal skills associated with high emotional intelligence to improve work relationships with others."
         },
         {
             "subject": "HFT",
@@ -13002,13 +13030,6 @@
         },
         {
             "subject": "HMG",
-            "code": "6260",
-            "name": "Sustain in Cruise Ops",
-            "units": "3.00",
-            "description": "This course will explore both the individual and corporate aspects of sustainability in the cruise industry. It will examine the influence of action and technology has on sustainable goals."
-        },
-        {
-            "subject": "HMG",
             "code": "6280",
             "name": "Global Issues Hosp & Tour",
             "units": "3.00",
@@ -13111,13 +13132,6 @@
             "name": "Mkt & Sales Hosp & Tour",
             "units": "3.00",
             "description": "An examination of the role of marketing strategy and management within the overall strategic planning process of hospitality/tourism organizations."
-        },
-        {
-            "subject": "HMG",
-            "code": "6600",
-            "name": "Cruise Industry Law",
-            "units": "3.00",
-            "description": "The course provides an overview of legal issues to be considered by managers in the cruise industry."
         },
         {
             "subject": "HMG",
@@ -16026,6 +16040,13 @@
         },
         {
             "subject": "LAW",
+            "code": "6947",
+            "name": "SIP",
+            "units": "8.00",
+            "description": "The Semester-in-Practice Practicum is a full-time immersion course providing third and fourth year students with full time practical experience for an entire semester in an off site externship. Prerequisites: above 60 credits, cumulative GPA 3.10, and professional responsibility. Corequisite: professional responsibility"
+        },
+        {
+            "subject": "LAW",
             "code": "6948",
             "name": "Business Tech Clinic",
             "units": "4.00",
@@ -17881,6 +17902,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7048",
+            "name": "Narrative Medicine Elect",
+            "units": "1.00",
+            "description": "Pioneered by Rita Charon, narrative medicine trains doctors and other caregivers to use careful listening and reflective writing to forge deeper connections with their patients, resulting in the provision of better care and the promotion of physician wellness. The narrative medicine elective is offered as a two week rotation, with the option for students to enroll in an additional two-credit longitudinal component. During this elective, students will have the opportunity to explore different types of narrative medicine writing\u00c2\u00bfincluding the parallel chart, 55-word stories, poetry and using narratives as an advocacy tool. Students will participate in discussion sessions about assigned readings; participate in small group writing workshops; and share their writing with their peers. The course director will create individualized writing plans tailored to students' specific interests, objectives, and clinical schedules. Students will write a total, including drafts, of about 10,000 words.  Prerequisite: Enrolled in HWCOM."
+        },
+        {
+            "subject": "MDE",
             "code": "7059",
             "name": "Community Med Practicum",
             "units": "1.00",
@@ -17941,6 +17969,13 @@
             "name": "Pern/Mat Fetal Med Elect",
             "units": "1.00",
             "description": "This Period 4 clerkship allows students to experience the full range of maternal-fetal medicine and familiarizes students with the diagnosis and management of pregnant patients who have obstetrical, medical, or surgical complications. Students receive experience in ultrasound, genetics, genetic counseling, and the management of high-risk obstetrical patients. Students follow patients through the\ninpatient antepartum service and participate in the care of high-risk obstetrical patients admitted to the hospital. Attendance at the following conferences is required: FHR tracing and labor management review, high risk obstetrics conference, grand rounds, prenatal - neonatology conference, and journal\nclub. Students are required to take call on the Labor and Delivery Unit one night per week. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7201",
+            "name": "Advanced Internal Medicine",
+            "units": "1.00",
+            "description": "The Advanced Internal Medicine (IM) rotation allows fourth-year students the opportunity work closely with IM hospitalist physicians as integral members of the IM hospitalist service. Students provide longitudinal care for hospitalized patients from the time of consultation in the emergency room to the patient's discharge and/or transfer. Students' schedules vary according to the needs of each site; some students may be on call during the rotation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18014,6 +18049,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7400",
+            "name": "Pediatric Hospitalist Serv Ele",
+            "units": "1.00",
+            "description": "Medical students will examine patients admitted to the Inpatient Hospitalist Services, write daily entries into the medical record, develop and execute plans for patient care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students, residents, and fellows of the Hospitalist Service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7404",
             "name": "Pediatric Ambulatory Services",
             "units": "1.00",
@@ -18025,6 +18067,20 @@
             "name": "Pediatric Cardiology Elective",
             "units": "1.00",
             "description": "This rotation will occur in both the inpatient and outpatient settings, with medical students participating in the care of patients admitted to cardiology service, patients requiring cardiac consultation, and outpatient care visits. Medical students are expected to examine patients admitted to the hospital and make daily rounds on all patients on the cardiology service. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7422",
+            "name": "Pediatric Cardiovascular Sur E",
+            "units": "1.00",
+            "description": "Medical students will examine patients admitted to the Cardiovascular Surgery service, write daily entries into the medical record, develop plans for care, enter orders into the medical record, and make daily rounds on all patients. Students will participate in all academic activities, including simulation training and didactic lectures, provided to the students, residents, and fellows of the Cardiovascular Surgery. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7433",
+            "name": "Pediatric Gastroenterology Ele",
+            "units": "1.00",
+            "description": "Medical students will perform routine histories and physical examinations on all gastroenterology patients, with emphasis on clinical diagnosis and treatment. Students are expected to take an active role in the management of gastroenterology patients in both inpatient and outpatient settings. Students will also participate in endoscopic procedures. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18091,6 +18147,13 @@
         },
         {
             "subject": "MDE",
+            "code": "7645",
+            "name": "Surg Oncology Elective",
+            "units": "1.00",
+            "description": "The goal of this elective is to introduce the student to the surgeon's role in the multidisciplinary management of patients with cancer. The program includes the evaluation and management of patients with malignant and benign solid tumors and their surgical management.  The full spectrum of care includes medical oncology, radiation oncology and nuclear oncology. The experience will include outpatient clinics, in-patient rounds/consults, surgery and exposure to clinical trials and clinical research. The students will attend and present at weekly multidisciplinary tumor conferences, attend cancer committees, and participate in monthly journal clubs. The opportunity to participate in clinical research will be made available to interested students. Prerequisite: Enrolled in Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7661",
             "name": "Breast Surgery Elective",
             "units": "1.00",
@@ -18140,10 +18203,24 @@
         },
         {
             "subject": "MDE",
+            "code": "7800",
+            "name": "Neurology Elective",
+            "units": "1.00",
+            "description": "This course is designed to give students an advanced experience in the field of Neurology. By the completion of the rotation, students will be able to perform a detailed neurological examination and describe the neuro-anatomic phases of the examination and any findings. There will be an emphasis of the diagnosis and treatment of common neurologic conditions including headache, neck pain, back pain, peripheral neuropathy, dementia, seizures, multiple sclerosis, pain management, cerebrovascular disease, and altered mental status. Students will additionally receive basic training in reading EMG/NCS and EEG. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
             "code": "7807",
             "name": "Neuro-Oncology Elective",
             "units": "4.00",
             "description": "The management of patients with primary and metastatic brain malignancies is a complex endeavor. Treatment strategies for these patients often involve a multi-disciplinary approach. This rotation will provide exposure to all of the main modalities who care for patients with neurologic malignancies including radiation oncology, neurosurgical oncology, and medical neuro-oncology, with a focus on medical neuro-oncology. Outside of the core subspecialties, there are opportunities for time in neuro-radiology, review of current surgical cases with the pathology department, and exposure to rehab and palliative medicine through subspecialty\nclinics. Students should take away a basic understanding of the management of patients with primary and secondary brain malignancies as well as the neurologic complications of cancer patients undergoing treatment. Prerequisite: Student must be in his/her fourth year and have passed all third year core clerkships."
+        },
+        {
+            "subject": "MDE",
+            "code": "7820",
+            "name": "Pain Management Elective",
+            "units": "1.00",
+            "description": "Students will rotate in an ambulatory setting at a pain management practice under the direct supervision of an FIU faculty member. This rotation will provide students with exposure to the evaluation and management of acute and chronic pain including: upper and lower back pain; chronic arthritis; disk disease; radicular and neuropathic pain syndromes; and pain associated with malignancy. Students will gain an understanding of common procedures used in pain management: local anesthesia, joint injections, epidural injections, peripheral nerve blocks, and trigger point injections. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDE",
@@ -18165,6 +18242,13 @@
             "name": "Child Inpatient Psych Elective",
             "units": "1.00",
             "description": "The 2-week or 4-week rotation exposes Period 4 medical students to child and adolescent psychiatry in a hospital setting and allows them to refine the skills they acquired in the Period 3 Psychiatry Clerkship through further inpatient and emergency psychiatry experiences. Students will focus on honing their skills related to psychiatric interviewing, diagnostic reasoning, and treatment planning. Students will participate in the initial assessment of patients presenting for admission and will follow inpatients throughout their hospital stay. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDE",
+            "code": "7990",
+            "name": "Telehealth Medicine",
+            "units": "2.00",
+            "description": "N/A"
         },
         {
             "subject": "MDE",
@@ -18200,6 +18284,13 @@
             "name": "General Surgery Subinternship",
             "units": "1.00",
             "description": "This course is designed for students who desire a greater in-depth experience in general surgery or who are seriously considering surgery as a possible career choice. It serves as an exploratory path for a planned career in general surgery or other surgical sub-specialties. In this role, the subintern will have more responsibilities than a period 3 clerkship student. The student will examine patients, assist in surgery, participate in pre-operative and post-operative care and will also be encouraged to develop his/her clinical and technical skills. The student will be expected to participate in all of the educational activities of the Department of Surgery during the course of his/her rotation. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
+        },
+        {
+            "subject": "MDR",
+            "code": "7060",
+            "name": "Med Ethics and Hum Elective",
+            "units": "1.00",
+            "description": "Offered as a two-week rotation, with the option for an additional two-credit longitudinal component; this elective is designed for the individualized study of topics in clinical, research, and service-learning ethics and humanism in medicine. Students will examine ethical and humanistic issues in medicine that emerge in the clinical setting, lab, or community. Students will read, write and analyze case vignettes, attend community ethics activities (e.g. Hospital ethics committee meetings), develop a scholarly project, and contribute to an ethics research project. Humanism in medicine is the recognition that both practitioner and patient are human beings, with the shared values and experiences of humanity. This provides a framework for improved clinical interactions and addresses phenomena such as ethical leadership, inclusive communication, and burnout. The course director will create learning contracts tailored to students' individual interests, objectives, and clinical schedules. Prerequisite: Enrolled in the Herbert Wertheim College of Medicine."
         },
         {
             "subject": "MDS",
@@ -19243,13 +19334,6 @@
             "name": "Art Song Lit",
             "units": "3.00",
             "description": "A chronological survey of solo vocal literature from the Medieval period to the national schools of the contemporary era."
-        },
-        {
-            "subject": "MUL",
-            "code": "4400",
-            "name": "Keyboard Lit I",
-            "units": "3.00",
-            "description": "Study of solo works for the keyboard from historical beginnings to 1828. Performance practices and stylistic analysis will be emphasized, with illustrations of representative works."
         },
         {
             "subject": "MUL",
