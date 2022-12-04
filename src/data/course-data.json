@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1669511963,
+    "dataAsOf": 1670116317,
     "data": [
         {
             "subject": "ACG",
@@ -2481,13 +2481,6 @@
         },
         {
             "subject": "BCN",
-            "code": "3443",
-            "name": "Intro Concrete Industry",
-            "units": "3.00",
-            "description": "Overview of the history, careers, job functions, and professional organizations in the concrete industry. Topics include: overview of the concrete industry, history, components, production and uses."
-        },
-        {
-            "subject": "BCN",
             "code": "3611",
             "name": "Const Estimating I",
             "units": "3.00",
@@ -3461,13 +3454,6 @@
         },
         {
             "subject": "BSC",
-            "code": "3400",
-            "name": "Wildlife Forensics",
-            "units": "3.00",
-            "description": "An interdisciplinary approach to wildlife conservation, critical aspects of conservation strategy as it relates to illegal trafficking and the role of forensics/crime science in its prevention. [B] Prerequisite: BSC2010, BSC2011"
-        },
-        {
-            "subject": "BSC",
             "code": "3466L",
             "name": "Make Your Mutant",
             "units": "1.00",
@@ -3640,13 +3626,6 @@
             "name": "Forensic Internship",
             "units": "0.00",
             "description": "Connect forensic theory and practice in a professional work environment. Interns gain experience and professional connections. Course can be repeated. Prerequisites: Permission from FIU faculty advisor is required."
-        },
-        {
-            "subject": "BSC",
-            "code": "4970",
-            "name": "Honors Thesis",
-            "units": "3.00",
-            "description": "Writing an Honors Thesis."
         },
         {
             "subject": "BSC",
@@ -6793,6 +6772,13 @@
         },
         {
             "subject": "DEP",
+            "code": "5796",
+            "name": "Dev Research Methods",
+            "units": "3.00",
+            "description": "Survey of issues and methods at all stages of life-span developmental research including theory, methods, design, and data reduction."
+        },
+        {
+            "subject": "DEP",
             "code": "7096",
             "name": "Sem Lifespan Soc Dev",
             "units": "3.00",
@@ -7864,6 +7850,20 @@
         },
         {
             "subject": "EDG",
+            "code": "4734",
+            "name": "Ed/Cul Prep for Int Teach",
+            "units": "3.00",
+            "description": "This course is designed to prepare students for an international teaching internship. Students will examine cultural issues related to the U.S., their future host placement, and the world."
+        },
+        {
+            "subject": "EDG",
+            "code": "4940",
+            "name": "Inter Teaching Internship",
+            "units": "3.00",
+            "description": "Students complete an international teaching internship and be required to teach in international schools and engage in cultural immersion experiences. Prerequisite: EDG 4734."
+        },
+        {
+            "subject": "EDG",
             "code": "5414",
             "name": "Inst. Strat & Class Mgmt",
             "units": "3.00",
@@ -8907,13 +8907,6 @@
         },
         {
             "subject": "EEL",
-            "code": "6292",
-            "name": "Pow Sys Eco-Mark",
-            "units": "3.00",
-            "description": "This is a graduate-level course which covers the basic economics principles underpinning the design, operation, and planning of modern power systems in a competitive environment. Prerequisite: EEL 4213 or equivalent."
-        },
-        {
-            "subject": "EEL",
             "code": "6297",
             "name": "ISGA",
             "units": "3.00",
@@ -9331,6 +9324,13 @@
             "name": "Human-centered Design",
             "units": "3.00",
             "description": "A collaborative, projects-based course in human-centered design and systems analysis. Should be taken one semester prior to or concurrently with EGN 4943, EML 4905, or equivalent courses."
+        },
+        {
+            "subject": "EGN",
+            "code": "3945",
+            "name": "Coop Ed in Eng",
+            "units": "3.00",
+            "description": "The cooperative education in engineering course is for current interdisciplinary engineering students to pursue an experiential education opportunity at an organization focused on their area of study. Prerequisite: Junior standing"
         },
         {
             "subject": "EGN",
@@ -11420,13 +11420,6 @@
         },
         {
             "subject": "FIN",
-            "code": "7809",
-            "name": "Financial Theory II",
-            "units": "3.00",
-            "description": "This course focuses on the theory of financial decision-making under certainty and risk. Includes investment under uncertainty, capital structure, dividend, asset valuation, and options pricing. Prerequisite: Permission of the instructor."
-        },
-        {
-            "subject": "FIN",
             "code": "7845",
             "name": "Stat Meth Fin I",
             "units": "3.00",
@@ -11434,24 +11427,10 @@
         },
         {
             "subject": "FIN",
-            "code": "7846",
-            "name": "Stat Meth Fin II",
-            "units": "3.00",
-            "description": "Emphasis on econometric techniques and multivariate statistics as applied in finance. Includes simultaneous equation models, multiple discriminant analysis and factor analysis. Prerequisite: Instructor's permission."
-        },
-        {
-            "subject": "FIN",
             "code": "7855",
             "name": "Financial Econ I",
             "units": "3.00",
             "description": "An advance doctoral course covering selected advanced topics in microeconomic foundations and other topics related to business. Emphasis will be on economics of uncertainty, agency problems, information and signaling. Prerequisites: ECO 7115 or permission of the instructor."
-        },
-        {
-            "subject": "FIN",
-            "code": "7856",
-            "name": "Financial Econ II",
-            "units": "3.00",
-            "description": "An advanced doctoral course covering selected advanced topics in the theory of macrofinance. Emphasis will be on financial intermediation. Prerequisites: ECO 7206 or permission of the instructor."
         },
         {
             "subject": "FIN",
@@ -11683,6 +11662,13 @@
             "name": "Adv F&B Operations",
             "units": "3.00",
             "description": "A course in advanced food production and service techniques to provide the student with realistic production, service and managerial experience. Students will be rotated through production and service stations and, as managers, will be required to plan menus, supervise preparation and service, handle customer relations, and keep accurate accounting records on the profit and loss phases of the operation. Staffing, merchandising, and cost control procedures are integral parts of the course."
+        },
+        {
+            "subject": "FSS",
+            "code": "5755",
+            "name": "Int'l Food Prod Mgt",
+            "units": "3.00",
+            "description": "Study of international commercial food production management designed for hospitality graduate students. This course includes instruction on international cooking principles as well as hands-on food preparation in the food laboratories. This course includes weekly interactive lectures and a laboratory experience to allow the learner to develop skills required in food preparation and management."
         },
         {
             "subject": "GEA",
@@ -12995,13 +12981,6 @@
         },
         {
             "subject": "HMG",
-            "code": "6001",
-            "name": "Event Feasibility",
-            "units": "3.00",
-            "description": "Determine the viability of an event proposal & selecting an appropriate location; factors, financial considerations, & time-lines for determining whether an event is economically & socially advisable."
-        },
-        {
-            "subject": "HMG",
             "code": "6200",
             "name": "Mega Event Mgt",
             "units": "3.00",
@@ -13058,24 +13037,10 @@
         },
         {
             "subject": "HMG",
-            "code": "6464",
-            "name": "Segment and Price Opt",
-            "units": "3.00",
-            "description": "This course expands upon the central concepts in revenue management RevPAR (Revenue Per Available Room) and RevPASH (Revenue Per Available Seat Hour). Prerequisite: HMG 6466"
-        },
-        {
-            "subject": "HMG",
             "code": "6466",
             "name": "Hosp/Tour Rev Mgt",
             "units": "3.00",
             "description": "Explores the scope & application of revenue management in service companies within the Hospitality & Tourism industry."
-        },
-        {
-            "subject": "HMG",
-            "code": "6475",
-            "name": "Demand Management",
-            "units": "3.00",
-            "description": "Hospitality demand management is defined as the art and science of dynamically managing demand for hospitality services to optimize profitability and customer relationships. Prerequisite: HMG 6466"
         },
         {
             "subject": "HMG",
@@ -17033,6 +16998,13 @@
             "description": "Supervised teaching in a middle school or senior high school."
         },
         {
+            "subject": "MAE",
+            "code": "5908",
+            "name": "Dir Stud Math Ed",
+            "units": "0.00",
+            "description": "The student plans and carries out an independent study project under direction. Prerequisite: Consent of instructor."
+        },
+        {
             "subject": "MAN",
             "code": "3022",
             "name": "Intro to Management",
@@ -17290,13 +17262,6 @@
             "name": "IBH Project Seminar",
             "units": "3.00",
             "description": "Seminar that explores recent themes in international business. Designed to help IB Honors students develop a thesis and methodology."
-        },
-        {
-            "subject": "MAN",
-            "code": "6416",
-            "name": "Corporate Negotiat",
-            "units": "3.00",
-            "description": "An examination and analysis of corporate negotiation strategies in such areas as collective bargaining, mergers, joint ventures, and with government regulation agencies. The legal environment affecting the negotiated process will be closely scrutinized, as well as internal and external political processes. Prerequisites: ACG 6026, MAN 6245, FIN 6406, MAR 6805."
         },
         {
             "subject": "MAN",
@@ -20058,6 +20023,13 @@
         },
         {
             "subject": "MUT",
+            "code": "3363L",
+            "name": "Jazz Ear Training",
+            "units": "1.00",
+            "description": "Development of Basic aural skills for jazz performance majors."
+        },
+        {
+            "subject": "MUT",
             "code": "3401",
             "name": "Counterpoint",
             "units": "3.00",
@@ -21199,13 +21171,6 @@
         },
         {
             "subject": "MVK",
-            "code": "4971L",
-            "name": "Senior Rec Keyboard",
-            "units": "0.00",
-            "description": "All music majors must present, before graduation, at least one half (full recital performance major) of a public recital, and pass an oral examination on the music programmed. See areas of emphasis for specific requirements."
-        },
-        {
-            "subject": "MVK",
             "code": "5251",
             "name": "Sec Applied Piano",
             "units": "1.00",
@@ -22015,6 +21980,13 @@
             "name": "Principal App Flute",
             "units": "2.00",
             "description": "Individual instruction in applied music on flute as a principal instrument. Music majors only."
+        },
+        {
+            "subject": "MVW",
+            "code": "5353",
+            "name": "Prin App Clarinet",
+            "units": "2.00",
+            "description": "Individual instruction in applied music on clarinet as a principal instrument. Music majors only."
         },
         {
             "subject": "MVW",
@@ -23674,6 +23646,13 @@
             "name": "Topics in Ecology",
             "units": "3.00",
             "description": "An intensive study of a particular topic or topic in Ecology not otherwise offered in the curriculum."
+        },
+        {
+            "subject": "PCB",
+            "code": "5307",
+            "name": "Limnology",
+            "units": "3.00",
+            "description": "Chemical and physical properties of standing and flowing freshwater systems; ecophysiology and interactions of the fresh water flora and fauna in relation to abiotic factors; oligotrophic to eutrophic conditions."
         },
         {
             "subject": "PCB",
@@ -29253,6 +29232,13 @@
             "name": "Esol Pron",
             "units": "3.00",
             "description": "A course in the TESOL Master's program investigating the theories and methods of teaching pronunciation skills to ESOL students."
+        },
+        {
+            "subject": "TSL",
+            "code": "6908",
+            "name": "Field Component",
+            "units": "3.00",
+            "description": "Provides opportunity to carry out a variety of projects designed to develop critical reflection about teaching beliefs and practices in an ESOL classroom environment. Prerequisites: Admission to MS/TESOL program and completion of required course work."
         },
         {
             "subject": "TTE",
