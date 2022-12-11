@@ -1,5 +1,5 @@
 {
-    "dataAsOf": 1670116317,
+    "dataAsOf": 1670721454,
     "data": [
         {
             "subject": "ACG",
@@ -682,13 +682,6 @@
         },
         {
             "subject": "ANT",
-            "code": "4340",
-            "name": "Caribbean Cultures",
-            "units": "3.00",
-            "description": "Provides an overview of cultures and societies of the Caribbean and Circum-Caribbean region with a focus on local cultures and their historical transformations, transnationalism and globalization, and class, gender and ethnicity."
-        },
-        {
-            "subject": "ANT",
             "code": "4485",
             "name": "Psychedelics and Culture",
             "units": "3.00",
@@ -714,13 +707,6 @@
             "name": "Grad Medical Anthro",
             "units": "3.00",
             "description": "Concepts and methods in the field of medical anthropology. Importance of culture in governing the type and frequency of disease in a population, the way people explain and treat disease, and responses to the delivery of modern medicine. Prerequisite: Graduate standing."
-        },
-        {
-            "subject": "ANT",
-            "code": "7491",
-            "name": "Soc Anthro Theory",
-            "units": "3.00",
-            "description": "Graduate seminar examining current theoretical issues in social anthropology. Prerequisites: SYA 6018 or permission of the instructor."
         },
         {
             "subject": "APK",
@@ -3629,6 +3615,13 @@
         },
         {
             "subject": "BSC",
+            "code": "4970",
+            "name": "Honors Thesis",
+            "units": "3.00",
+            "description": "Writing an Honors Thesis."
+        },
+        {
+            "subject": "BSC",
             "code": "5302",
             "name": "Past Ecosystems",
             "units": "3.00",
@@ -5645,6 +5638,13 @@
         },
         {
             "subject": "CLP",
+            "code": "6432",
+            "name": "Foundation Practicum I",
+            "units": "3.00",
+            "description": "This course provides a comprehensive introduction to the principles of psychological assessment and measurement in children and hands on practice in the administration of selected cognitive tests. Prerequisite: Graduate standing."
+        },
+        {
+            "subject": "CLP",
             "code": "6436",
             "name": "Intro Psy Assessment",
             "units": "3.00",
@@ -5656,6 +5656,13 @@
             "name": "Assessment and Treatment I",
             "units": "3.00",
             "description": "Provides an in-depth examination of the evidenced-based assessments used in the psychological evaluation and treatment for children and adolescents with internalizing problems. Prerequisite: CLP 5007."
+        },
+        {
+            "subject": "CLP",
+            "code": "6472",
+            "name": "Assessment and Treatment II",
+            "units": "3.00",
+            "description": "Provides an in-depth examination of the evidenced-based assessments used in the psychological evaluation and treatment for children and adolescents with externalizing problems. Prerequisite: CLP 5007."
         },
         {
             "subject": "CLP",
@@ -7318,6 +7325,13 @@
         },
         {
             "subject": "ECO",
+            "code": "5906",
+            "name": "Adv Individual Study",
+            "units": "0.00",
+            "description": "Supervised readings, individual tutorial, and preparation of report. Requires consent of faculty supervisor and Department Chairperson. Open to seniors and graduate students."
+        },
+        {
+            "subject": "ECO",
             "code": "6076",
             "name": "Teaching Economics",
             "units": "1.00",
@@ -7763,13 +7777,6 @@
             "name": "Intercultural Studie",
             "units": "3.00",
             "description": "This course is a study of interrelationship between race, class, gender, ethnicity, and national origin and their influence in learning."
-        },
-        {
-            "subject": "EDF",
-            "code": "6658",
-            "name": "Sel Top Int Dev Ed",
-            "units": "3.00",
-            "description": "This course is dedicated to the study of contemporary problems and issues in the fields of educational policy, planning, management, implementation, and research in developing societies."
         },
         {
             "subject": "EDF",
@@ -8431,6 +8438,13 @@
         },
         {
             "subject": "EEE",
+            "code": "6525",
+            "name": "Adv Sensor Signal Proc",
+            "units": "3.00",
+            "description": "Various sensor systems, sensor signal detection, signal estimations, distributed sensor networks, sensor data fusion approaches, wireless sensor networks, radar networks and optimal sensor allocation and sensor network design. Prerequisite: EEL 3514 or permission of the instructor."
+        },
+        {
+            "subject": "EEE",
             "code": "6765",
             "name": "Adv Embed Sys & IoT",
             "units": "3.00",
@@ -8753,13 +8767,6 @@
         },
         {
             "subject": "EEL",
-            "code": "5260",
-            "name": "Power System Optimization",
-            "units": "3.00",
-            "description": "This course covers recent advances in optimization techniques and their applications to electric power grid planning and operational problems."
-        },
-        {
-            "subject": "EEL",
             "code": "5270",
             "name": "Elec Trans In Power",
             "units": "3.00",
@@ -8848,6 +8855,13 @@
             "name": "Adv Microproc Sys",
             "units": "3.00",
             "description": "Interfacing of various microprocessors together. Concepts of master-slave systems, virtual memory and I/O control techniques. Digital system evaluation and optimization. Prerequisites: EEL 4746 or permission of the instructor."
+        },
+        {
+            "subject": "EEL",
+            "code": "5807",
+            "name": "Adv Ethical Hacking",
+            "units": "3.00",
+            "description": "This will give individuals an exposure to the latest hacking tools and techniques to understand the anatomy of computer attacks and teach them the countermeasures to protect their valuable data."
         },
         {
             "subject": "EEL",
@@ -9548,13 +9562,6 @@
             "name": "Enterprise Eng",
             "units": "3.00",
             "description": "Enterprise processes and functions, enterprise engineering methodology and techniques, enterprise scalability, systems and vertical integration, systems design and implementation. Prerequisite: Permission of Instructor."
-        },
-        {
-            "subject": "EIN",
-            "code": "6357",
-            "name": "Adv Engr Economy",
-            "units": "3.00",
-            "description": "Review of engineering economy and the evaluation of advanced manufacturing systems. Evaluation of alternative capital investments considering income taxes, depreciation, inflation, risk and uncertainty. Prerequisite: EGN 3613."
         },
         {
             "subject": "EIN",
@@ -11332,7 +11339,7 @@
             "code": "3561",
             "name": "SMIF Fixed Income",
             "units": "3.00",
-            "description": "Course will involve practical applications of finance skills to the management of a portfolio of real money and analysis of actual equities for purchase by the FIU Student Managed Investment Fund. Prerequisites: A grade of 'C' or higher in FIN 3503."
+            "description": "Course will involve practical applications of finance skills to the management of a portfolio of real money and analysis of actual equities for purchase by the FIU Student Managed Investment Fund. Prerequisites: A grade of 'C' or higher in FIN 3403."
         },
         {
             "subject": "FIN",
@@ -12981,6 +12988,13 @@
         },
         {
             "subject": "HMG",
+            "code": "6001",
+            "name": "Event Feasibility",
+            "units": "3.00",
+            "description": "Determine the viability of an event proposal & selecting an appropriate location; factors, financial considerations, & time-lines for determining whether an event is economically & socially advisable."
+        },
+        {
+            "subject": "HMG",
             "code": "6200",
             "name": "Mega Event Mgt",
             "units": "3.00",
@@ -13006,6 +13020,13 @@
             "name": "Industry Resrch Analysis",
             "units": "3.00",
             "description": "Explore emerging domestic & global issues using content analysis & other methodologies to identify & analyze relevant industry problems facing management in the hospitality & tourism industry."
+        },
+        {
+            "subject": "HMG",
+            "code": "6260",
+            "name": "Sustain in Cruise Ops",
+            "units": "3.00",
+            "description": "This course will explore both the individual and corporate aspects of sustainability in the cruise industry. It will examine the influence of action and technology has on sustainable goals."
         },
         {
             "subject": "HMG",
@@ -13037,10 +13058,24 @@
         },
         {
             "subject": "HMG",
+            "code": "6464",
+            "name": "Segment and Price Opt",
+            "units": "3.00",
+            "description": "This course expands upon the central concepts in revenue management RevPAR (Revenue Per Available Room) and RevPASH (Revenue Per Available Seat Hour). Prerequisite: HMG 6466"
+        },
+        {
+            "subject": "HMG",
             "code": "6466",
             "name": "Hosp/Tour Rev Mgt",
             "units": "3.00",
             "description": "Explores the scope & application of revenue management in service companies within the Hospitality & Tourism industry."
+        },
+        {
+            "subject": "HMG",
+            "code": "6475",
+            "name": "Demand Management",
+            "units": "3.00",
+            "description": "Hospitality demand management is defined as the art and science of dynamically managing demand for hospitality services to optimize profitability and customer relationships. Prerequisite: HMG 6466"
         },
         {
             "subject": "HMG",
@@ -13097,6 +13132,13 @@
             "name": "Mkt & Sales Hosp & Tour",
             "units": "3.00",
             "description": "An examination of the role of marketing strategy and management within the overall strategic planning process of hospitality/tourism organizations."
+        },
+        {
+            "subject": "HMG",
+            "code": "6600",
+            "name": "Cruise Industry Law",
+            "units": "3.00",
+            "description": "The course provides an overview of legal issues to be considered by managers in the cruise industry."
         },
         {
             "subject": "HMG",
@@ -13622,13 +13664,6 @@
             "name": "CS for Everyone",
             "units": "3.00",
             "description": "Introduction to the breadth and excitement of computing, including its social context, computing principles, and relevance to all disciplines."
-        },
-        {
-            "subject": "IDC",
-            "code": "2002",
-            "name": "AI for All",
-            "units": "3.00",
-            "description": "High-level conceptual survey of artificial intelligence for non-CS undergraduates, including techniques, applications, ethics, and philosophical issues. No high-level math or programming required."
         },
         {
             "subject": "IDC",
@@ -17237,13 +17272,6 @@
         },
         {
             "subject": "MAN",
-            "code": "4864",
-            "name": "Family Business",
-            "units": "3.00",
-            "description": "Students analyze business practices of family businesses including functions, issues, operations and the interpersonal dynamics of family businesses from a strategic management perspective."
-        },
-        {
-            "subject": "MAN",
             "code": "4946",
             "name": "Int'L Bus Internship",
             "units": "0.00",
@@ -19106,6 +19134,13 @@
         },
         {
             "subject": "MUE",
+            "code": "5336",
+            "name": "Sec Choral Methods",
+            "units": "2.00",
+            "description": "Choral/vocal teaching methods to middle and high school students in a large ensemble setting. Field experience is required."
+        },
+        {
+            "subject": "MUE",
             "code": "5907",
             "name": "Directed Std Mus Ed",
             "units": "0.00",
@@ -19124,6 +19159,13 @@
             "name": "Instruction Elementary Music",
             "units": "3.00",
             "description": "This course is designed to provide a balance and make connections between the study of theory and philosophy and the practice of music education and working with elementary-aged children."
+        },
+        {
+            "subject": "MUE",
+            "code": "6396",
+            "name": "Music in Special Ed",
+            "units": "3.00",
+            "description": "The study of musical experiences for students with disabilities in mainstreamed and self-contained special education music classes. Musical adaptations and modifications are emphasized."
         },
         {
             "subject": "MUE",
@@ -19295,10 +19337,24 @@
         },
         {
             "subject": "MUL",
+            "code": "3551",
+            "name": "Wind Literature",
+            "units": "3.00",
+            "description": "This course is a study of intermediate and advanced wind repertoire. Emphasis is placed on the history of wind music, and the music that creates the cornerstone of wind literature."
+        },
+        {
+            "subject": "MUL",
             "code": "3600",
             "name": "Art Song Lit",
             "units": "3.00",
             "description": "A chronological survey of solo vocal literature from the Medieval period to the national schools of the contemporary era."
+        },
+        {
+            "subject": "MUL",
+            "code": "5456",
+            "name": "Wind Instrumt Lit",
+            "units": "3.00",
+            "description": "The history and development of Wind Instrument Literature from ca. 1650 to the present day. Music appropriate for all levels of instruction from middle school through college level is included. Prerequisite: Advanced/graduate standing."
         },
         {
             "subject": "MUL",
@@ -24768,13 +24824,6 @@
             "description": "An examination of philosophical perspectives on the problems of global justice. Course designated as a Global Learning course."
         },
         {
-            "subject": "PHM",
-            "code": "4430",
-            "name": "Topics In Phil Law",
-            "units": "3.00",
-            "description": "Examines a focused topic in philosophy of law, such as: punishment, legislation of morality, the rule of law, or an important thinker. May be repeated."
-        },
-        {
             "subject": "PHP",
             "code": "4510",
             "name": "Marxism",
@@ -26131,13 +26180,6 @@
             "name": "Literacy Theo/Instr",
             "units": "3.00",
             "description": "Required in graduate program in elementary and reading education. Process of reading program development, methods of teaching, selection of materials, and review of research in elementary reading education."
-        },
-        {
-            "subject": "RED",
-            "code": "6336",
-            "name": "Rdg In Content Area",
-            "units": "3.00",
-            "description": "Required in graduate programs in Elementary and Reading Education and in secondary Modified Master's Programs. Strategies for developing the reading abilities of students in specific subject areas."
         },
         {
             "subject": "RED",
@@ -28045,6 +28087,13 @@
         },
         {
             "subject": "SRK",
+            "code": "2101",
+            "name": "Sanskrit II",
+            "units": "3.00",
+            "description": "Basic elementary Sanskrit alphabet and phonetics, grammar and syntax, formation and understanding of simple sentences common Sanskrit terms used in Hindu literature relationship to other languages."
+        },
+        {
+            "subject": "SRK",
             "code": "5001",
             "name": "Sanskrit Exegesis I",
             "units": "3.00",
@@ -29386,13 +29435,6 @@
             "name": "British Empire",
             "units": "3.00",
             "description": "Examines the entire history of the British Empire, and explores classical theories on the motivations and goals behind imperial expansion."
-        },
-        {
-            "subject": "WOH",
-            "code": "4431",
-            "name": "Spanish Pacific",
-            "units": "3.00",
-            "description": "Examines the cultural and material interactions between Asia and the New World, and\ntheir impact in the Spanish Pacific and beyond."
         },
         {
             "subject": "WOH",
